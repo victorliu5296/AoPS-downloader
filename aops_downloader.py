@@ -349,20 +349,23 @@ def process_problem_content(problem):
 
     def replace_cmath(match):
         cmath_content = match.group(1)
-        cleaned_content = cmath_content
-
+        # Check for multi-line environments like align*, gather*, etc.
+        multi_line_envs = ['align', 'gather', 'multline']
+        for env in multi_line_envs:
+            env_pattern = rf'\\begin\{{{env}\*?\}}(.*?)\\end\{{{env}\*?\}}'
+            if re.search(env_pattern, cmath_content, flags=re.DOTALL):
+                # Return the multi-line environment as is
+                return f'\n{cmath_content.strip()}\n'
+        # Proceed to clean other display/inline math if no multi-line env found
         display_math_patterns = [
             r'\\\[(.*?)\\]',
             r'\$\$(.*?)\$\$',
             r'\\begin\{equation\*?\}(.*?)\\end\{equation\*?\}',
             r'\\begin\{displaymath\}(.*?)\\end\{displaymath\}',
-            r'\\begin\{align\*?\}(.*?)\\end\{align\*?\}',
-            r'\\begin\{gather\*?\}(.*?)\\end\{gather\*?\}',
-            r'\\begin\{multline\*?\}(.*?)\\end\{multline\*?\}',
         ]
+        cleaned_content = cmath_content
         for pattern in display_math_patterns:
             cleaned_content = re.sub(pattern, r'\1', cleaned_content, flags=re.DOTALL | re.IGNORECASE)
-
         inline_math_patterns = [
             r'\\\((.*?)\\\)',
             r'\$(.*?)\$',
@@ -370,7 +373,6 @@ def process_problem_content(problem):
         ]
         for pattern in inline_math_patterns:
             cleaned_content = re.sub(pattern, r'\1', cleaned_content, flags=re.DOTALL | re.IGNORECASE)
-
         return f'\n\\begin{{equation*}}\n{cleaned_content.strip()}\n\\end{{equation*}}\n'
 
     problem = re.sub(r'<cmath>(.*?)</cmath>', replace_cmath, problem, flags=re.DOTALL)
