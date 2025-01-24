@@ -33,22 +33,22 @@ label("$C$",C,E);
 label("$D$",D,N);
 label("$E$",E,W);
 guide squiggly(path g, real stepsize, real slope=45)
-\{
+{
 real len = arclength(g);
 real step = len / round(len / stepsize);
 guide squig;
-for (real u = 0; u < len; u += step)\{
+for (real u = 0; u < len; u += step){
 real a = arctime(g, u);
 real b = arctime(g, u + step / 2);
 pair p = point(g, a);
 pair q = point(g, b);
 pair np = unit( rotate(slope) * dir(g,a));
 pair nq = unit( rotate(0 - slope) * dir(g,b));
-squig = squig .. p\{np\} .. q\{nq\};
-\}
-squig = squig .. point(g, length(g))\{unit(rotate(slope)*dir(g,length(g)))\};
+squig = squig .. p{np} .. q{nq};
+}
+squig = squig .. point(g, length(g)){unit(rotate(slope)*dir(g,length(g)))};
 return squig;
-\}
+}
 pen pp = defaultpen + 2.718;
 draw(squiggly(A--B, 4.04, 30), pp);
 draw(squiggly(A--D, 7.777, 20), pp);

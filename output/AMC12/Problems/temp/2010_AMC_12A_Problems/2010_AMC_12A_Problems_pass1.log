@@ -262,23 +262,31 @@ LaTeX Warning: No \author given.
 
 
 [1{C:/Users/DefaultUser/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-[2 <./2010_AMC_12A_Problems-1.pdf>]
-[3]
-[4] (2010_AMC_12A_Problems.aux) )<C:/Users/DefaultUser/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Defaul
-tUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmmi7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmmi8.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DefaultUser/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/DefaultUser/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/D
-efaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pf
-b><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmsy7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/DefaultUser/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on 2010_AMC_12A_Problems.pdf (4 pages, 170405 bytes).
+(C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd)
+! Missing $ inserted.
+<inserted text> 
+                $
+l.35 
+     
+! Missing } inserted.
+<inserted text> 
+                }
+l.35 
+     
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.35 
+     
+)
+Runaway argument?
+! File ended while scanning use of \next.
+<inserted text> 
+                \par 
+<*> ./2010_AMC_12A_Problems.tex
+                               
+! Emergency stop.
+<*> ./2010_AMC_12A_Problems.tex
+                               
+!  ==> Fatal error occurred, no output PDF file produced!
 Transcript written on 2010_AMC_12A_Problems.log.

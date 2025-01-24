@@ -52,16 +52,16 @@ fill((0,24)--(26,24)--(26,26)--(0,26)--cycle,gray);
 \end{asy}
 \end{center}
 
-$ \textbf{(A)}\ 26\qquad\textbf{(B)}\ 28\qquad\textbf{(C)}\ 30\qquad\textbf{(D)}\ 32\qquad\textbf{(E)}\ 34 $\par \vspace{0.5em}\item Ed and Ann both have lemonade with their lunch. Ed orders the regular size. Ann gets the large lemonade, which is 50\% more than the regular. After both consume $\frac{3}{4}$ of their drinks, Ann gives Ed a third of what she has left, and 2 additional ounces. When they finish their lemonades they realize that they both drank the same amount. How many ounces of lemonade did they drink together?
+$ \textbf{(A)}\ 26\qquad\textbf{(B)}\ 28\qquad\textbf{(C)}\ 30\qquad\textbf{(D)}\ 32\qquad\textbf{(E)}\ 34 $\par \vspace{0.5em}\item Ed and Ann both have lemonade with their lunch. Ed orders the regular size. Ann gets the large lemonade, which is 50% more than the regular. After both consume $\frac{3}{4}$ of their drinks, Ann gives Ed a third of what she has left, and 2 additional ounces. When they finish their lemonades they realize that they both drank the same amount. How many ounces of lemonade did they drink together?
 
 $ \textbf{(A)}\ 30\qquad\textbf{(B)}\ 32\qquad\textbf{(C)}\ 36\qquad\textbf{(D)}\ 40\qquad\textbf{(E)}\ 50 $\par \vspace{0.5em}\item For how many positive integers $n$ is $\frac{n}{30-n}$ also a positive integer?
 
 $ \textbf{(A)}\ 4\qquad\textbf{(B)}\ 5\qquad\textbf{(C)}\ 6\qquad\textbf{(D)}\ 7\qquad\textbf{(E)}\ 8 $\par \vspace{0.5em}\item In the addition shown below $ A $, $ B $, $ C $, and $ D $ are distinct digits. How many different values are possible for $ D $?
 
 
-\begin\{equation*\}
-\begin\{tabular\}\{cccccc\}\&A\&B\&B\&C\&B\\ +\&B\&C\&A\&D\&A\\ \hline \&D\&B\&D\&D\&D\end\{tabular\}
-\end\{equation*\}
+\begin{equation*}
+\begin{tabular}{cccccc}&A&B&B&C&B\\ +&B&C&A&D&A\\ \hline &D&B&D&D&D\end{tabular}
+\end{equation*}
 
 
 $ \textbf{(A)}\ 2\qquad\textbf{(B)}\ 4\qquad\textbf{(C)}\ 7\qquad\textbf{(D)}\ 8\qquad\textbf{(E)}\ 9 $\par \vspace{0.5em}\item Convex quadrilateral $ ABCD $ has $ AB=3 $, $ BC=4 $, $ CD=13 $, $ AD=12 $, and $ \angle ABC=90^{\circ} $, as shown. What is the area of the quadrilateral?
@@ -114,15 +114,15 @@ currentprojection=orthographic(1,0,.2);
 currentlight=(10,10,5);
 revolution sph=sphere((0,0,Fht/2),Fht/2);
 //draw(surface(sph),green+white+opacity(0.5));
-//triple f(pair t) \{return (t.x*cos(t.y),t.x*sin(t.y),t.x\^(1/n)*sin(t.y/n));\}
-triple f(pair t) \{
+//triple f(pair t) {return (t.x*cos(t.y),t.x*sin(t.y),t.x^(1/n)*sin(t.y/n));}
+triple f(pair t) {
 triple v0 = Brad*(cos(t.x),sin(t.x),0);
 triple v1 = brad*(cos(t.x),sin(t.x),0)+(0,0,Fht);
 return (v0 + t.y*(v1-v0));
-\}
-triple g(pair t) \{
+}
+triple g(pair t) {
 return (t.y*cos(t.x),t.y*sin(t.x),0);
-\}
+}
 surface sback=surface(f,(3pi/4,0),(7pi/4,1),80,2);
 surface sfront=surface(f,(7pi/4,0),(11pi/4,1),80,2);
 surface base = surface(g,(0,0),(2pi,Brad),80,2);
@@ -135,11 +135,11 @@ draw(surface(sph),gray(0.4));
 
 $\text{(A) } \dfrac32 \quad \text{(B) } \dfrac{1+\sqrt5}2 \quad \text{(C) } \sqrt3 \quad \text{(D) } 2 \quad \text{(E) } \dfrac{3+\sqrt5}2$\par \vspace{0.5em}\item For how many positive integers $x$ is $\log_{10}(x-40) + \log_{10}(60-x) < 2$ ?
 
-\$\textbf\{(A) \}10\qquad
-\textbf\{(B) \}18\qquad
-\textbf\{(C) \}19\qquad
-\textbf\{(D) \}20\qquad
-\textbf\{(E) \}\text\{infinitely many\}\qquad\$\par \vspace{0.5em}\item In the figure, $ ABCD $ is a square of side length $ 1 $. The rectangles $ JKHG $ and $ EBCF $ are congruent. What is $ BE $?
+$\textbf{(A) }10\qquad
+\textbf{(B) }18\qquad
+\textbf{(C) }19\qquad
+\textbf{(D) }20\qquad
+\textbf{(E) }\text{infinitely many}\qquad$\par \vspace{0.5em}\item In the figure, $ ABCD $ is a square of side length $ 1 $. The rectangles $ JKHG $ and $ EBCF $ are congruent. What is $ BE $?
 
 \begin{center}
 \begin{asy}
@@ -156,26 +156,26 @@ label("$G$",G,E); label("$H$",H,N); label("$J$",J,S); label("$K$",K,W);
 
 $ \textbf{(A) }\frac{1}{2}(\sqrt{6}-2)\qquad\textbf{(B) }\frac{1}{4}\qquad\textbf{(C) }2-\sqrt{3}\qquad\textbf{(D) }\frac{\sqrt{3}}{6}\qquad\textbf{(E) } 1-\frac{\sqrt{2}}{2}$\par \vspace{0.5em}\item In a small pond there are eleven lily pads in a row labeled 0 through 10.  A frog is sitting on pad 1.  When the frog is on pad $N$, $0<N<10$, it will jump to pad $N-1$ with probability $\frac{N}{10}$ and to pad $N+1$ with probability $1-\frac{N}{10}$.  Each jump is independent of the previous jumps.  If the frog reaches pad 0 it will be eaten by a patiently waiting snake.  If the frog reaches pad 10 it will exit the pond, never to return.  What is the probability that the frog will escape without being eaten by the snake?
 
-\$\textbf\{(A) \}\frac\{32\}\{79\}\qquad
-\textbf\{(B) \}\frac\{161\}\{384\}\qquad
-\textbf\{(C) \}\frac\{63\}\{146\}\qquad
-\textbf\{(D) \}\frac\{7\}\{16\}\qquad
-\textbf\{(E) \}\frac\{1\}\{2\}\qquad\$\par \vspace{0.5em}\item The number 2017 is prime.  Let $S = \sum \limits_{k=0}^{62} \dbinom{2014}{k}$.  What is the remainder when $S$ is divided by 2017?
+$\textbf{(A) }\frac{32}{79}\qquad
+\textbf{(B) }\frac{161}{384}\qquad
+\textbf{(C) }\frac{63}{146}\qquad
+\textbf{(D) }\frac{7}{16}\qquad
+\textbf{(E) }\frac{1}{2}\qquad$\par \vspace{0.5em}\item The number 2017 is prime.  Let $S = \sum \limits_{k=0}^{62} \dbinom{2014}{k}$.  What is the remainder when $S$ is divided by 2017?
 
-\$\textbf\{(A) \}32\qquad
-\textbf\{(B) \}684\qquad
-\textbf\{(C) \}1024\qquad
-\textbf\{(D) \}1576\qquad
-\textbf\{(E) \}2016\qquad\$\par \vspace{0.5em}\item Let $ABCDE$ be a pentagon inscribed in a circle such that $AB = CD = 3$, $BC = DE = 10$, and $AE= 14$.  The sum of the lengths of all diagonals of $ABCDE$ is equal to $\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers.  What is $m+n$ ?
+$\textbf{(A) }32\qquad
+\textbf{(B) }684\qquad
+\textbf{(C) }1024\qquad
+\textbf{(D) }1576\qquad
+\textbf{(E) }2016\qquad$\par \vspace{0.5em}\item Let $ABCDE$ be a pentagon inscribed in a circle such that $AB = CD = 3$, $BC = DE = 10$, and $AE= 14$.  The sum of the lengths of all diagonals of $ABCDE$ is equal to $\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers.  What is $m+n$ ?
 
-\$\textbf\{(A) \}129\qquad
-\textbf\{(B) \}247\qquad
-\textbf\{(C) \}353\qquad
-\textbf\{(D) \}391\qquad
-\textbf\{(E) \}421\qquad\$\par \vspace{0.5em}\item Find the sum of all the positive solutions of 
-\begin\{equation*\}
-2\cos(2x) \left(\cos(2x) - \cos\left( \frac\{2014\pi\^2\}\{x\} \right)\right) = \cos(4x) - 1
-\end\{equation*\}
+$\textbf{(A) }129\qquad
+\textbf{(B) }247\qquad
+\textbf{(C) }353\qquad
+\textbf{(D) }391\qquad
+\textbf{(E) }421\qquad$\par \vspace{0.5em}\item Find the sum of all the positive solutions of 
+\begin{equation*}
+2\cos(2x) \left(\cos(2x) - \cos\left( \frac{2014\pi^2}{x} \right)\right) = \cos(4x) - 1
+\end{equation*}
 
 
 $ \textbf{(A)}\ \pi \qquad\textbf{(B)}\ 810\pi  \qquad\textbf{(C)}\ 1008\pi \qquad\textbf{(D)}\ 1080 \pi \qquad\textbf{(E)}\ 1800\pi $\par \vspace{0.5em}\end{enumerate}

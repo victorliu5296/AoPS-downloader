@@ -20,22 +20,22 @@ import olympiad;
 import cse5;
 import olympiad;
 unitsize(25);
-for (int i = 0; i < 3; ++i) \{
-for (int j = 0; j < 9; ++j) \{
+for (int i = 0; i < 3; ++i) {
+for (int j = 0; j < 9; ++j) {
 pair A = (j,i);
 
-\}
-\}
-for (int i = 0; i < 3; ++i) \{
-for (int j = 0; j < 9; ++j) \{
-if (j != 8) \{
+}
+}
+for (int i = 0; i < 3; ++i) {
+for (int j = 0; j < 9; ++j) {
+if (j != 8) {
 draw((j,i)--(j+1,i), dashed);
-\}
-if (i != 2) \{
+}
+if (i != 2) {
 draw((j,i)--(j,i+1), dashed);
-\}
-\}
-\}
+}
+}
+}
 draw((0,0)--(2,2),linewidth(2));
 draw((2,0)--(2,2),linewidth(2));
 draw((1,1)--(2,1),linewidth(2));

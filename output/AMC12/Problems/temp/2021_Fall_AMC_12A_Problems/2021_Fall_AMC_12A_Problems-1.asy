@@ -32,7 +32,7 @@ label("$E$", EE, N);
 pair F = (3,10);
 label("$F$", F, N);
 filldraw(D--arc(D,2.5,270,380)--cycle,lightgray);
-dot(A\^\^B\^\^C\^\^D\^\^EE\^\^F);
+dot(A^^B^^C^^D^^EE^^F);
 draw(A--B--C--D--cycle);
 draw(D--EE--F--cycle);
 label("$110^\circ$", (15,9), SW);

@@ -28,15 +28,15 @@ X = (6,0);
 Y = (0,5);
 fill((1,0)--(3,5)--(5,0)--(3,2)--cycle, palegray+opacity(0.2));
 for (int i=1; i<7; ++i)
-\{
+{
 draw((i,0)--(i,5), gray+dashed);
 label("${"+string(i)+"}$", (i,0), 2*S);
 if (i<6)
-\{
+{
 draw((0,i)--(6,i), gray+dashed);
 label("${"+string(i)+"}$", (0,i), 2*W);
-\}
-\}
+}
+}
 label("$0$", O, 2*SW);
 draw(O--X+(0.35,0), black+1.5, EndArrow(10));
 draw(O--Y+(0,0.35), black+1.5, EndArrow(10));

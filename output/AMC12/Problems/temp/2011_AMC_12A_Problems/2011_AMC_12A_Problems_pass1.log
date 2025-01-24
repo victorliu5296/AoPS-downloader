@@ -266,292 +266,38 @@ LaTeX Warning: No \author given.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.36 \textbf\{(E)\}\ 30.00 \$\par
-                                  \vspace{0.5em}\item There are $5$ coins pl...
+l.36 \textbf\{(E)\}\ 30.00 </math>\par
+                                       \vspace{0.5em}\item There are $5$ coi...
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.36 \textbf\{(E)\}\ 30.00 \$\par
-                                  \vspace{0.5em}\item There are $5$ coins pl...
+l.36 \textbf\{(E)\}\ 30.00 </math>\par
+                                       \vspace{0.5em}\item There are $5$ coi...
 
 
-Overfull \hbox (423.593pt too wide) in paragraph at lines 30--36
-\OT1/cmr/m/n/10 minute used over $30$ hours. In Jan-uary Michelle sent $100$ te
-xt mes-sages and talked for $30\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5$\OML/cmm/m/i
-t/10 hours:Howmuchdidshehavetopay\OT1/cmr/m/n/10 ?$[](\OML/cmm/m/it/10 A\OT1/cm
-r/m/n/10 )\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 24\OML/cmm/m/it/10 :\OT1/cmr/m/n/1
-0 00 [](\OML/cmm/m/it/10 B\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 2
-4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 50 [](\OML/cmm/m/it/10 C\OT1/cmr/m/n/10 )\OM
-S/cmsy/m/n/10 g \OT1/cmr/m/n/10 25\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 50 [](\OML/
-cmm/m/it/10 D\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 28\OML/cmm/m/i
-t/10 :\OT1/cmr/m/n/10 00 [](\OML/cmm/m/it/10 E\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10
- g \OT1/cmr/m/n/10 30\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 00$[]$ 
+Overfull \hbox (392.54237pt too wide) in paragraph at lines 30--36
+\OT1/cmr/m/n/10 20$\OML/cmm/m/it/10 dollarseachmonth; plus$\OT1/cmr/m/n/10 5$\O
+ML/cmm/m/it/10 centspertextmessagesent; plus$\OT1/cmr/m/n/10 10$\OML/cmm/m/it/1
+0 centsforeachminuteusedover$\OT1/cmr/m/n/10 30$\OML/cmm/m/it/10 hours:InJanuar
+yMichellesent$\OT1/cmr/m/n/10 100$\OML/cmm/m/it/10 textmessagesandtalkedfor$\OT
+1/cmr/m/n/10 30.5$\OML/cmm/m/it/10 hours:Howmuchdidshehavetopay\OT1/cmr/m/n/10 
+? \OML/cmm/m/it/10 <
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.36 \textbf\{(E)\}\ 30.00 \$\par
-                                  \vspace{0.5em}\item There are $5$ coins pl...
+l.36 \textbf\{(E)\}\ 30.00 </math>\par
+                                       \vspace{0.5em}\item There are $5$ coi...
 
-! Missing $ inserted.
+)
+Runaway argument?
+! File ended while scanning use of \next.
 <inserted text> 
-                $
-l.68 \textbf\{(B)\}\ \frac\{3
-                             7\}\{3\} \qquad
-! Extra }, or forgotten $.
-\frac  #1#2->{\begingroup #1\endgroup \@@over #2}
-                                                 
-l.68 \textbf\{(B)\}\ \frac\{3
-                             7\}\{3\} \qquad
-! Missing $ inserted.
-<inserted text> 
-                $
-l.71 \textbf\{(E)\}\ 14 \$\par
-                               \vspace{0.5em}\item Last summer $30\%$ of the...
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.71 \textbf\{(E)\}\ 14 \$\par
-                               \vspace{0.5em}\item Last summer $30\%$ of the...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.109 \textbf\{(A)\}\ \frac\{1
-                              \}\{36\} \qquad
-! Extra }, or forgotten $.
-\frac  #1#2->{\begingroup #1\endgroup \@@over #2}
-                                                 
-l.109 \textbf\{(A)\}\ \frac\{1
-                              \}\{36\} \qquad
-! Missing $ inserted.
-<inserted text> 
-                $
-l.113 \textbf\{(E)\}\ \frac\{5\}\{18\} \$\par
-                                              \vspace{0.5em}\item Circles $A...
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.113 \textbf\{(E)\}\ \frac\{5\}\{18\} \$\par
-                                              \vspace{0.5em}\item Circles $A...
-
-
-[2 <./2011_AMC_12A_Problems-1.pdf>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.116 \textbf\{(A)\}\ 3 - \frac\{\pi
-                                    \}\{2\} \qquad
-! Extra }, or forgotten $.
-\frac  #1#2->{\begingroup #1\endgroup \@@over #2}
-                                                 
-l.116 \textbf\{(A)\}\ 3 - \frac\{\pi
-                                    \}\{2\} \qquad
-! Missing $ inserted.
-<inserted text> 
-                $
-l.120 \textbf\{(E)\}\ 1+\frac\{\pi\}\{2\} \$\par
-                                                 \vspace{0.5em}\item A power...
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.120 \textbf\{(E)\}\ 1+\frac\{\pi\}\{2\} \$\par
-                                                 \vspace{0.5em}\item A power...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.137 \textbf\{(A)\}\ \frac\{1
-                              1\}\{81\} \qquad
-! Extra }, or forgotten $.
-\frac  #1#2->{\begingroup #1\endgroup \@@over #2}
-                                                 
-l.137 \textbf\{(A)\}\ \frac\{1
-                              1\}\{81\} \qquad
-! Missing $ inserted.
-<inserted text> 
-                $
-l.141 \textbf\{(E)\}\ \frac\{19\}\{81\} \$\par
-                                               \vspace{0.5em}\item The circu...
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.141 \textbf\{(E)\}\ \frac\{19\}\{81\} \$\par
-                                               \vspace{0.5em}\item The circu...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.144 \textbf\{(A)\}\ 3\sqrt\{
-                              2\} \qquad
-! Missing $ inserted.
-<inserted text> 
-                $
-l.148 \textbf\{(E)\}\ \frac\{13\}\{2\} \$\par
-                                              \vspace{0.5em}\item Each verte...
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.148 \textbf\{(E)\}\ \frac\{13\}\{2\} \$\par
-                                              \vspace{0.5em}\item Each verte...
-
-! Extra }, or forgotten \endgroup.
-\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.148 \textbf\{(E)\}\ \frac\{13\}\{2\} \$\par
-                                              \vspace{0.5em}\item Each verte...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.158 \textbf\{(A)\}\ \frac\{3
-                              \}\{5\} \qquad
-! Extra }, or forgotten $.
-\frac  #1#2->{\begingroup #1\endgroup \@@over #2}
-                                                 
-l.158 \textbf\{(A)\}\ \frac\{3
-                              \}\{5\} \qquad
-! Missing $ inserted.
-<inserted text> 
-                $
-l.162 \textbf\{(E)\}\ \frac\{4\}\{3\} \$\par
-                                             \vspace{0.5em}\item Suppose tha...
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.162 \textbf\{(E)\}\ \frac\{4\}\{3\} \$\par
-                                             \vspace{0.5em}\item Suppose tha...
-
-
-[3]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.201 \textbf\{(B)\}\ \sqrt\{
-                             2\}-1 \qquad
-! Missing $ inserted.
-<inserted text> 
-                $
-l.204 \textbf\{(E)\}\ 2 \$\par
-                               \vspace{0.5em}\item Consider all quadrilatera...
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.204 \textbf\{(E)\}\ 2 \$\par
-                               \vspace{0.5em}\item Consider all quadrilatera...
-
-! Extra }, or forgotten \endgroup.
-\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.204 \textbf\{(E)\}\ 2 \$\par
-                               \vspace{0.5em}\item Consider all quadrilatera...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.207 \textbf\{(A)\}\ \sqrt\{
-                             15\} \qquad
-! Missing $ inserted.
-<inserted text> 
-                $
-l.211 \textbf\{(E)\}\ 2\sqrt\{7\} \$\par
-                                         \vspace{0.5em}\item Triangle $ABC$ ...
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.211 \textbf\{(E)\}\ 2\sqrt\{7\} \$\par
-                                         \vspace{0.5em}\item Triangle $ABC$ ...
-
-! Extra }, or forgotten \endgroup.
-\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.211 \textbf\{(E)\}\ 2\sqrt\{7\} \$\par
-                                         \vspace{0.5em}\item Triangle $ABC$ ...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.214 \textbf\{(A)\}\ 60\^\{\circ
-                                 \} \qquad
-
-LaTeX Warning: Command \^ invalid in math mode on input line 215.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.215 \textbf\{(B)\}\ 72\^\{
-                            \circ\} \qquad
-
-LaTeX Warning: Command \^ invalid in math mode on input line 216.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.216 \textbf\{(C)\}\ 75\^\{
-                            \circ\} \qquad
-
-LaTeX Warning: Command \^ invalid in math mode on input line 217.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.217 \textbf\{(D)\}\ 80\^\{
-                            \circ\} \qquad
-
-LaTeX Warning: Command \^ invalid in math mode on input line 218.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.218 \textbf\{(E)\}\ 90\^\{
-                            \circ\} \$\par \vspace{0.5em}\end{enumerate}
-! Missing $ inserted.
-<inserted text> 
-                $
-l.218 \textbf\{(E)\}\ 90\^\{\circ\} \$\par
-                                           \vspace{0.5em}\end{enumerate}
-! Missing } inserted.
-<inserted text> 
-                }
-l.218 \textbf\{(E)\}\ 90\^\{\circ\} \$\par
-                                           \vspace{0.5em}\end{enumerate}
-! Extra }, or forgotten \endgroup.
-\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.218 \textbf\{(E)\}\ 90\^\{\circ\} \$\par
-                                           \vspace{0.5em}\end{enumerate}
-
-[4] (2011_AMC_12A_Problems.aux) )
-(see the transcript file for additional information) <C:\Users\DefaultUser\AppD
-ata\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Defau
-ltUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb
-><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cmextra/cmbsy7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Def
-aultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pf
-b><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmmi5.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmmi7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/DefaultUser/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DefaultUser
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Use
-rs/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
-5.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmr7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/DefaultUser/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Default
-User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.p
-fb>
-Output written on 2011_AMC_12A_Problems.pdf (4 pages, 202328 bytes).
+                \par 
+<*> ./2011_AMC_12A_Problems.tex
+                               
+! Emergency stop.
+<*> ./2011_AMC_12A_Problems.tex
+                               
+!  ==> Fatal error occurred, no output PDF file produced!
 Transcript written on 2011_AMC_12A_Problems.log.

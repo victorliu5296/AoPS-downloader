@@ -266,595 +266,72 @@ LaTeX Warning: No \author given.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.38 \$ \textbf\{(A)\}\ \dfrac\{2
-                                 \}\{5\}
+l.38 <math> \textbf\{(A)\}\ \dfrac\{2
+                                     \}\{5\}
 ! Extra }, or forgotten $.
 \@genfrac ...egingroup #4\endgroup #2#3\relax #5}}
                                                   
-l.38 \$ \textbf\{(A)\}\ \dfrac\{2
-                                 \}\{5\}
+l.38 <math> \textbf\{(A)\}\ \dfrac\{2
+                                     \}\{5\}
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.43  \$\par
-             \vspace{0.5em}\item A fruit salad consists of blueberries, rasp...
+l.43  </math>\par
+                  \vspace{0.5em}\item A fruit salad consists of blueberries,...
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.43  \$\par
-             \vspace{0.5em}\item A fruit salad consists of blueberries, rasp...
+l.43  </math>\par
+                  \vspace{0.5em}\item A fruit salad consists of blueberries,...
 
+
+Overfull \hbox (18.09244pt too wide) in paragraph at lines 53--58
+[]\OT1/cmr/m/n/10 <math> \OMS/cmsy/b/n/10 f\OT1/cmr/m/n/10 (A)\OMS/cmsy/m/n/10 
+g []\OT1/cmr/m/n/10 Friday\OMS/cmsy/m/n/10 g  \OMS/cmsy/b/n/10 f\OT1/cmr/m/n/10
+ (B)\OMS/cmsy/m/n/10 g []\OT1/cmr/m/n/10 Saturday\OMS/cmsy/m/n/10 g  \OMS/cmsy/
+b/n/10 f\OT1/cmr/m/n/10 (C)\OMS/cmsy/m/n/10 g []\OT1/cmr/m/n/10 Sunday\OMS/cmsy
+/m/n/10 g  \OMS/cmsy/b/n/10 f\OT1/cmr/m/n/10 (D)\OMS/cmsy/m/n/10 g []\OT1/cmr/m
+/n/10 Monday\OMS/cmsy/m/n/10 g  \OMS/cmsy/b/n/10 f\OT1/cmr/m/n/10 (E)\OMS/cmsy/
+m/n/10 g []\OT1/cmr/m/n/10 Tuesday\OMS/cmsy/m/n/10 g
 
 [2]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.109 \$ \textbf\{(A)\}\ \dfrac\{4
-                                  9\}\{512\}
-! Extra }, or forgotten $.
-\@genfrac ...egingroup #4\endgroup #2#3\relax #5}}
-                                                  
-l.109 \$ \textbf\{(A)\}\ \dfrac\{4
-                                  9\}\{512\}
-! Missing $ inserted.
-<inserted text> 
-                $
-l.114  \$\par
-              \vspace{0.5em}\item Circle $C_1$ has its center $O$ lying on c...
+! Missing { inserted.
+<to be read again> 
+                   }
+l.64 $ \textbf\{(A)\}\ \frac\{\sqrt
+                                   \{10\}+5\}\{10\}\qquad\textbf\{(B)\}\ \fr...
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.114  \$\par
-              \vspace{0.5em}\item Circle $C_1$ has its center $O$ lying on c...
+l.64 ...xtbf\{(E)\}\ \frac\{9-\sqrt\{17\}\}\{5\} $
+                                                  \par \vspace{0.5em}\item P...
 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.130 \begin\{
-              equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.130 \begin\{
-              equation*\}
-
-! LaTeX Error: Environment \{ undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.130 \begin\{
-              equation*\}
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.131 P(x)=\prod
-                \_\{k=0\}\^\{10\}(x\^\{2\^k\}+2\^k)=(x+1)(x\^2+2)(x\^4+4)\cd...
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 131.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.131 P(x)=\prod\_\{k=0\}\^\{
-                             10\}(x\^\{2\^k\}+2\^k)=(x+1)(x\^2+2)(x\^4+4)\cd...
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 131.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.131 P(x)=\prod\_\{k=0\}\^\{10\}(x\^\{
-                                       2\^k\}+2\^k)=(x+1)(x\^2+2)(x\^4+4)\cd...
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 131.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.131 P(x)=\prod\_\{k=0\}\^\{10\}(x\^\{2\^k
-                                           \}+2\^k)=(x+1)(x\^2+2)(x\^4+4)\cd...
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 131.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.131 P(x)=\prod\_\{k=0\}\^\{10\}(x\^\{2\^k\}+2\^k
-                                                  )=(x+1)(x\^2+2)(x\^4+4)\cd...
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 131.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.131 ...=0\}\^\{10\}(x\^\{2\^k\}+2\^k)=(x+1)(x\^2
-                                                  +2)(x\^4+4)\cdots (x\^\{10...
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 131.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.131 ...10\}(x\^\{2\^k\}+2\^k)=(x+1)(x\^2+2)(x\^4
-                                                  +4)\cdots (x\^\{1024\}+1024)
-
-LaTeX Warning: Command \^ invalid in math mode on input line 131.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.131 ...+2\^k)=(x+1)(x\^2+2)(x\^4+4)\cdots (x\^\{
-                                                  1024\}+1024)
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.132 \end\{
-            equation*\}
-(That makes 100 errors; please try again.)
+l.65 
+     
+! Missing } inserted.
+<inserted text> 
+                }
+l.65 
+     
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.65 
+     
+)
+Runaway argument?
+! File ended while scanning use of \next.
+<inserted text> 
+                \par 
+<*> ./2012_AMC_12A_Problems.tex
+                               
+! Emergency stop.
+<*> ./2012_AMC_12A_Problems.tex
+                               
 !  ==> Fatal error occurred, no output PDF file produced!
 Transcript written on 2012_AMC_12A_Problems.log.

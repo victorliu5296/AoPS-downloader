@@ -19,31 +19,13 @@ size(8cm);
 import olympiad;
 import cse5;
 import geometry;
-unitsize(0.6cm);
-
-void ds(pair x) {
-filldraw(x -- (1,0) + x -- (1,1) + x -- (0,1)+x -- cycle,mediumgray,invisible);
-}
-
-for (int i = 1; i < 4; ++ i) {
-for (int j = 1; j < 4; ++j) {
-label("?",(i + 0.5, j + 0.5));
+unitsize(3cm);
+draw(circle((0,0),1),linewidth(1.5));
+for (int i = 0; i < 7; ++i) {
+for (int j = 0; j < i; ++j) {
+draw(dir(i * 360/7) -- dir(j * 360/7),linewidth(1.5));
 }
 }
-
-for (int i = 0; i <= 5; ++i) {
-draw((0,i)--(5,i));
-draw((i,0)--(i,5));
+for(int i = 0; i < 7; ++i) {
+dot(dir(i * 360/7),5+black);
 }
-
-label("Initial", (2.5,-1));
-draw((6,2.5)--(8,2.5),Arrow);
-
-ds((11,2));
-
-for (int i = 0; i <= 5; ++i) {
-draw((9,i)--(14,i));
-draw((i+9,0)--(i+9,5));
-}
-
-label("Transformed", (11.5,-1));

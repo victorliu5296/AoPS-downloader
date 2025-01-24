@@ -262,40 +262,22 @@ LaTeX Warning: No \author given.
 
 
 [1{C:/Users/DefaultUser/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.33 
-     
-! Missing } inserted.
-<inserted text> 
-                }
-l.33 
-     
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.33 
-     
 (C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd)
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.38 \textbf\{(E) \}\$42.50$\par
-                                 \vspace{0.5em}\item Walking down Jane Stree...
-
+l.43 
+     
 ! Missing } inserted.
 <inserted text> 
                 }
-l.38 \textbf\{(E) \}\$42.50$\par
-                                 \vspace{0.5em}\item Walking down Jane Stree...
-
+l.43 
+     
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.38 \textbf\{(E) \}\$42.50$\par
-                                 \vspace{0.5em}\item Walking down Jane Stree...
-
+l.43 
+     
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -309,14 +291,14 @@ l.53 \textbf\{(B) \}\sqrt[7]3
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.56 \textbf\{(E) \}\sqrt[10]3\qquad\$\par
-                                           \vspace{0.5em}\item A customer wh...
+l.56 \textbf\{(E) \}\sqrt[10]3\qquad</math>\par
+                                                \vspace{0.5em}\item A custom...
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.56 \textbf\{(E) \}\sqrt[10]3\qquad\$\par
-                                           \vspace{0.5em}\item A customer wh...
+l.56 \textbf\{(E) \}\sqrt[10]3\qquad</math>\par
+                                                \vspace{0.5em}\item A custom...
 
 ! Missing $ inserted.
 <inserted text> 
@@ -336,46 +318,31 @@ l.59
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.63 
-     
-! Missing } inserted.
-<inserted text> 
-                }
-l.63 
-     
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.63 
-     
-! Missing $ inserted.
-<inserted text> 
-                $
-l.70 \textbf\{(E) \}\$259.95\qquad$\par
-                                        \vspace{0.5em}\item Five positive co...
+l.70 \textbf\{(E) \}\\$259.95\qquad</math>\par
+                                               \vspace{0.5em}\item Five posi...
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.70 \textbf\{(E) \}\$259.95\qquad$\par
-                                        \vspace{0.5em}\item Five positive co...
+l.70 \textbf\{(E) \}\\$259.95\qquad</math>\par
+                                               \vspace{0.5em}\item Five posi...
 
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.70 \textbf\{(E) \}\$259.95\qquad$\par
-                                        \vspace{0.5em}\item Five positive co...
+l.70 \textbf\{(E) \}\\$259.95\qquad</math>\par
+                                               \vspace{0.5em}\item Five posi...
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.74 \$\textbf\{(A) \}\dfrac\{\sqrt
-                                   3\}4\qquad
+l.74 <math>\textbf\{(A) \}\dfrac\{\sqrt
+                                       3\}4\qquad
 ! Missing { inserted.
 <to be read again> 
                    }
-l.74 \$\textbf\{(A) \}\dfrac\{\sqrt
-                                   3\}4\qquad
+l.74 <math>\textbf\{(A) \}\dfrac\{\sqrt
+                                       3\}4\qquad
 ! Missing { inserted.
 <to be read again> 
                    }
@@ -390,40 +357,38 @@ l.77 \textbf\{(D) \}\dfrac\{\sqrt
 <to be read again> 
                    }
 l.78 \textbf\{(E) \}\dfrac\{\sqrt
-                                 3\}2\$\par \vspace{0.5em}\item David drives...
+                                 3\}2</math>\par \vspace{0.5em}\item David d...
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.78 \textbf\{(E) \}\dfrac\{\sqrt3\}2\$\par
-                                            \vspace{0.5em}\item David drives...
+l.78 \textbf\{(E) \}\dfrac\{\sqrt3\}2</math>\par
+                                                 \vspace{0.5em}\item David d...
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.78 \textbf\{(E) \}\dfrac\{\sqrt3\}2\$\par
-                                            \vspace{0.5em}\item David drives...
+l.78 \textbf\{(E) \}\dfrac\{\sqrt3\}2</math>\par
+                                                 \vspace{0.5em}\item David d...
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.78 \textbf\{(E) \}\dfrac\{\sqrt3\}2\$\par
-                                            \vspace{0.5em}\item David drives...
+l.78 \textbf\{(E) \}\dfrac\{\sqrt3\}2</math>\par
+                                                 \vspace{0.5em}\item David d...
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.78 \textbf\{(E) \}\dfrac\{\sqrt3\}2\$\par
-                                            \vspace{0.5em}\item David drives...
+l.78 \textbf\{(E) \}\dfrac\{\sqrt3\}2</math>\par
+                                                 \vspace{0.5em}\item David d...
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.78 \textbf\{(E) \}\dfrac\{\sqrt3\}2\$\par
-                                            \vspace{0.5em}\item David drives...
+l.78 \textbf\{(E) \}\dfrac\{\sqrt3\}2</math>\par
+                                                 \vspace{0.5em}\item David d...
 
-
-[2]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -432,548 +397,31 @@ l.87 \textbf\{(B) \}1+\sqrt3
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.90 \textbf\{(E) \}4\qquad\$\par
-                                  \vspace{0.5em}\item A fancy bed and breakf...
+l.90 \textbf\{(E) \}4\qquad</math>\par
+                                       \vspace{0.5em}\item A fancy bed and b...
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.90 \textbf\{(E) \}4\qquad\$\par
-                                  \vspace{0.5em}\item A fancy bed and breakf...
+l.90 \textbf\{(E) \}4\qquad</math>\par
+                                       \vspace{0.5em}\item A fancy bed and b...
 
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.90 \textbf\{(E) \}4\qquad\$\par
-                                  \vspace{0.5em}\item A fancy bed and breakf...
+l.90 \textbf\{(E) \}4\qquad</math>\par
+                                       \vspace{0.5em}\item A fancy bed and b...
 
-! Missing $ inserted.
+
+[2])
+Runaway argument?
+! File ended while scanning use of \next.
 <inserted text> 
-                $
-l.141 \$\textbf\{(A) \}2+2\sqrt 7
-                                 \qquad
-! Missing $ inserted.
-<inserted text> 
-                $
-l.145 \textbf\{(E) \}4\sqrt 7\qquad\$\par
-                                          \vspace{0.5em}\item The domain of ...
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.145 \textbf\{(E) \}4\sqrt 7\qquad\$\par
-                                          \vspace{0.5em}\item The domain of ...
-
-! Extra }, or forgotten \endgroup.
-\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.145 \textbf\{(E) \}4\sqrt 7\qquad\$\par
-                                          \vspace{0.5em}\item The domain of ...
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.152 \begin\{
-              equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.152 \begin\{
-              equation*\}
-
-! LaTeX Error: Environment \{ undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.152 \begin\{
-              equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 \end\{
-            equation*\}
-(That makes 100 errors; please try again.)
+                \par 
+<*> ./2014_AMC_12A_Problems.tex
+                               
+! Emergency stop.
+<*> ./2014_AMC_12A_Problems.tex
+                               
 !  ==> Fatal error occurred, no output PDF file produced!
 Transcript written on 2014_AMC_12A_Problems.log.

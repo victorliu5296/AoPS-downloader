@@ -18,10 +18,11 @@ size(8cm);
 
 import olympiad;
 import cse5;
-real x=.369;
-draw((0,0)--(0,1)--(1,1)--(1,0)--cycle);
-filldraw((0,0)--(0,x)--(x,x)--(x,0)--cycle, gray);
-filldraw((0,1)--(0,1-x)--(x,1-x)--(x,1)--cycle, gray);
-filldraw((1,1)--(1,1-x)--(1-x,1-x)--(1-x,1)--cycle, gray);
-filldraw((1,0)--(1,x)--(1-x,x)--(1-x,0)--cycle, gray);
-filldraw((.5,.5-x*sqrt(2)/2)--(.5+x*sqrt(2)/2,.5)--(.5,.5+x*sqrt(2)/2)--(.5-x*sqrt(2)/2,.5)--cycle, gray);
+pair A = (0,0), B=(6,0), C=intersectionpoints(Circle(A,8),Circle(B,7))[0], F=incenter(A,B,C), D=extension(A,F,B,C),E=extension(B,F,A,C);
+draw(A--B--C--A--D^^B--E);
+label("$A$",A,SW);
+label("$B$",B,SE);
+label("$C$",C,N);
+label("$D$",D,NE);
+label("$E$",E,NW);
+label("$F$",F,1.5*N);

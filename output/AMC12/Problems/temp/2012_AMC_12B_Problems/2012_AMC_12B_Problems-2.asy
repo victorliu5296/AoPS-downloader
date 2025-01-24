@@ -18,41 +18,18 @@ size(8cm);
 
 import olympiad;
 import cse5;
-import three;
-
-size(7.5cm);
-triple eye = (-4, -8, 3);
-currentprojection = perspective(eye);
-
-triple[] P = {(1, -1, -1), (-1, -1, -1), (-1, 1, -1), (-1, -1, 1), (1, -1, -1)}; // P[0] = P[4] for convenience
-triple[] Pp = {-P[0], -P[1], -P[2], -P[3], -P[4]};
-
-// draw octahedron
-triple pt(int k){ return (3*P[k] + P[1])/4; }
-triple ptp(int k){ return (3*Pp[k] + Pp[1])/4; }
-draw(pt(2)--pt(3)--pt(4)--cycle, gray(0.6));
-draw(ptp(2)--pt(3)--ptp(4)--cycle, gray(0.6));
-draw(ptp(2)--pt(4), gray(0.6));
-draw(pt(2)--ptp(4), gray(0.6));
-draw(pt(4)--ptp(3)--pt(2), gray(0.6) + linetype("4 4"));
-draw(ptp(4)--ptp(3)--ptp(2), gray(0.6) + linetype("4 4"));
-
-// draw cube
-for(int i = 0; i < 4; ++i){
-draw(P[1]--P[i]); draw(Pp[1]--Pp[i]);
-for(int j = 0; j < 4; ++j){
-if(i == 1 || j == 1 || i == j) continue;
-draw(P[i]--Pp[j]); draw(Pp[i]--P[j]);
-}
-dot(P[i]); dot(Pp[i]);
-dot(pt(i)); dot(ptp(i));
-}
-
-label("$P_1$", P[1], dir(P[1]));
-label("$P_2$", P[2], dir(P[2]));
-label("$P_3$", P[3], dir(-45));
-label("$P_4$", P[4], dir(P[4]));
-label("$P'_1$", Pp[1], dir(Pp[1]));
-label("$P'_2$", Pp[2], dir(Pp[2]));
-label("$P'_3$", Pp[3], dir(-100));
-label("$P'_4$", Pp[4], dir(Pp[4]));
+size(200);
+defaultpen(linewidth(1));
+pair A=origin,B=(2.5,0),C=B+2.5*dir(60), D=C+1.75*dir(120),E=D-(3.19,0),F=E-1.8*dir(60);
+pair X=waypoint(B--C,0.345),Z=rotate(90,A)*X,Y=rotate(90,Z)*A;
+draw(A--B--C--D--E--F--cycle);
+draw(A--X--Y--Z--cycle,linewidth(0.9)+linetype("2 2"));
+dot("$A$",A,W,linewidth(4));
+dot("$B$",B,dir(0),linewidth(4));
+dot("$C$",C,dir(0),linewidth(4));
+dot("$D$",D,dir(20),linewidth(4));
+dot("$E$",E,dir(100),linewidth(4));
+dot("$F$",F,W,linewidth(4));
+dot("$X$",X,dir(0),linewidth(4));
+dot("$Y$",Y,N,linewidth(4));
+dot("$Z$",Z,W,linewidth(4));

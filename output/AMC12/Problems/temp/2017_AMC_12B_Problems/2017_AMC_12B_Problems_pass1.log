@@ -262,42 +262,95 @@ LaTeX Warning: No \author given.
 
 
 [1{C:/Users/DefaultUser/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-[2]
+(C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd)
+! Missing { inserted.
+<to be read again> 
+                   }
+l.48 $\textbf\{(A)\}\ \frac\{\sqrt
+                                  \{3\}-1\}\{2\}\qquad\textbf\{(B)\}\ \frac\...
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.48 ...1\}\{2\}\qquad\textbf\{(C)\}\ \frac\{\sqrt
+                                                  \{5\}-1\}\{2\} \qquad\text...
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.48 ...\}\{2\} \qquad\textbf\{(D)\}\ \frac\{\sqrt
+                                                  \{2\}\}\{2\} \qquad\textbf...
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.48 ...\}\{2\} \qquad\textbf\{(E)\}\ \frac\{\sqrt
+                                                  \{6\}-1\}\{2\}$\par \vspac...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.48 ...textbf\{(E)\}\ \frac\{\sqrt\{6\}-1\}\{2\}$
+                                                  \par \vspace{0.5em}\item A...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.48 ...textbf\{(E)\}\ \frac\{\sqrt\{6\}-1\}\{2\}$
+                                                  \par \vspace{0.5em}\item A...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.48 ...textbf\{(E)\}\ \frac\{\sqrt\{6\}-1\}\{2\}$
+                                                  \par \vspace{0.5em}\item A...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.48 ...textbf\{(E)\}\ \frac\{\sqrt\{6\}-1\}\{2\}$
+                                                  \par \vspace{0.5em}\item A...
+
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.97 ...$ and $E$. What is the area of \$\triangle
-                                                  
-! Missing $ inserted.
-<inserted text> 
-                $
-l.99 
+l.51 
      
 ! Missing } inserted.
 <inserted text> 
                 }
-l.99 
+l.51 
      
 ! Extra }, or forgotten \endgroup.
-\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.99 
+l.51 
+     
+! Missing $ inserted.
+<inserted text> 
+                $
+l.53 
+     
+! Missing } inserted.
+<inserted text> 
+                }
+l.53 
+     
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.53 
      
 
-[3 <./2017_AMC_12B_Problems-1.pdf>]
-[4] (2017_AMC_12B_Problems.aux) )
-(see the transcript file for additional information) <C:\Users\DefaultUser\AppD
-ata\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Defau
-ltUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-<C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmmi10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/DefaultUser/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DefaultUser
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Use
-rs/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
-7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on 2017_AMC_12B_Problems.pdf (4 pages, 172947 bytes).
+[2])
+Runaway argument?
+! File ended while scanning use of \next.
+<inserted text> 
+                \par 
+<*> ./2017_AMC_12B_Problems.tex
+                               
+! Emergency stop.
+<*> ./2017_AMC_12B_Problems.tex
+                               
+!  ==> Fatal error occurred, no output PDF file produced!
 Transcript written on 2017_AMC_12B_Problems.log.

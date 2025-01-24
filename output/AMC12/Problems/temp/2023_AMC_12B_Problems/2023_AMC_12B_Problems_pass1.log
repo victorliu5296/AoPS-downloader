@@ -262,529 +262,1903 @@ LaTeX Warning: No \author given.
 
 
 [1{C:/Users/DefaultUser/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-! Missing \endcsname inserted.
-<to be read again> 
-                   \global 
-l.43 \begin\{
-             equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \global 
-l.43 \begin\{
-             equation*\}
+(C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd)
+! Missing $ inserted.
+<inserted text> 
+                $
+l.33 
+     
+! Missing } inserted.
+<inserted text> 
+                }
+l.33 
+     
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.33 
+     
 
-! LaTeX Error: Environment \{ undefined.
+LaTeX Warning: Command \~ invalid in math mode on input line 36.
+
+! You can't use a prefix with `\endgroup'.
+<to be read again> 
+                   \endgroup 
+l.36 $\textbf\{(A)\}\~\frac
+                           \{9\}\{25\}\qquad\textbf\{(B)\}\~\frac\{1\}\{9\}\...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.36 $\textbf\{(A)\}\~\frac
+                           \{9\}\{25\}\qquad\textbf\{(B)\}\~\frac\{1\}\{9\}\...
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.36 $\textbf\{(A)\}\~\frac
+                           \{9\}\{25\}\qquad\textbf\{(B)\}\~\frac\{1\}\{9\}\...
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.36 $\textbf\{(A)\}\~\frac
+                           \{9\}\{25\}\qquad\textbf\{(B)\}\~\frac\{1\}\{9\}\...
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.36 $\textbf\{(A)\}\~\frac
+                           \{9\}\{25\}\qquad\textbf\{(B)\}\~\frac\{1\}\{9\}\...
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...f \accent@spacefactor \spacefactor 
+                                                  }\let \maybe@load@fontshap...
+l.36 $\textbf\{(A)\}\~\frac
+                           \{9\}\{25\}\qquad\textbf\{(B)\}\~\frac\{1\}\{9\}\...
+
+! Extra }, or forgotten $.
+\add@accent ... \accent@spacefactor \spacefactor }
+                                                  \let \maybe@load@fontshape...
+l.36 $\textbf\{(A)\}\~\frac
+                           \{9\}\{25\}\qquad\textbf\{(B)\}\~\frac\{1\}\{9\}\...
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.36 $\textbf\{(A)\}\~\frac
+                           \{9\}\{25\}\qquad\textbf\{(B)\}\~\frac\{1\}\{9\}\...
+
+! Extra }, or forgotten \endgroup.
+<argument> \egroup 
+                   
+l.36 $\textbf\{(A)\}\~\frac
+                           \{9\}\{25\}\qquad\textbf\{(B)\}\~\frac\{1\}\{9\}\...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 36.
+
+! You can't use a prefix with `\endgroup'.
+<to be read again> 
+                   \endgroup 
+l.36 ...frac\{9\}\{25\}\qquad\textbf\{(B)\}\~\frac
+                                                  \{1\}\{9\}\qquad\textbf\{(...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.36 ...frac\{9\}\{25\}\qquad\textbf\{(B)\}\~\frac
+                                                  \{1\}\{9\}\qquad\textbf\{(...
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.36 ...frac\{9\}\{25\}\qquad\textbf\{(B)\}\~\frac
+                                                  \{1\}\{9\}\qquad\textbf\{(...
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.36 ...frac\{9\}\{25\}\qquad\textbf\{(B)\}\~\frac
+                                                  \{1\}\{9\}\qquad\textbf\{(...
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.36 ...frac\{9\}\{25\}\qquad\textbf\{(B)\}\~\frac
+                                                  \{1\}\{9\}\qquad\textbf\{(...
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...f \accent@spacefactor \spacefactor 
+                                                  }\let \maybe@load@fontshap...
+l.36 ...frac\{9\}\{25\}\qquad\textbf\{(B)\}\~\frac
+                                                  \{1\}\{9\}\qquad\textbf\{(...
+
+! Extra }, or forgotten $.
+\add@accent ... \accent@spacefactor \spacefactor }
+                                                  \let \maybe@load@fontshape...
+l.36 ...frac\{9\}\{25\}\qquad\textbf\{(B)\}\~\frac
+                                                  \{1\}\{9\}\qquad\textbf\{(...
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.36 ...frac\{9\}\{25\}\qquad\textbf\{(B)\}\~\frac
+                                                  \{1\}\{9\}\qquad\textbf\{(...
+
+! Extra }, or forgotten \endgroup.
+<argument> \egroup 
+                   
+l.36 ...frac\{9\}\{25\}\qquad\textbf\{(B)\}\~\frac
+                                                  \{1\}\{9\}\qquad\textbf\{(...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 36.
+
+! You can't use a prefix with `\endgroup'.
+<to be read again> 
+                   \endgroup 
+l.36 ...\frac\{1\}\{9\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{1\}\{5\}\qquad\textbf\{(...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.36 ...\frac\{1\}\{9\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{1\}\{5\}\qquad\textbf\{(...
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.36 ...\frac\{1\}\{9\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{1\}\{5\}\qquad\textbf\{(...
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.36 ...\frac\{1\}\{9\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{1\}\{5\}\qquad\textbf\{(...
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.36 ...\frac\{1\}\{9\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{1\}\{5\}\qquad\textbf\{(...
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...f \accent@spacefactor \spacefactor 
+                                                  }\let \maybe@load@fontshap...
+l.36 ...\frac\{1\}\{9\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{1\}\{5\}\qquad\textbf\{(...
+
+! Extra }, or forgotten $.
+\add@accent ... \accent@spacefactor \spacefactor }
+                                                  \let \maybe@load@fontshape...
+l.36 ...\frac\{1\}\{9\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{1\}\{5\}\qquad\textbf\{(...
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.36 ...\frac\{1\}\{9\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{1\}\{5\}\qquad\textbf\{(...
+
+! Extra }, or forgotten \endgroup.
+<argument> \egroup 
+                   
+l.36 ...\frac\{1\}\{9\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{1\}\{5\}\qquad\textbf\{(...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 36.
+
+! You can't use a prefix with `\endgroup'.
+<to be read again> 
+                   \endgroup 
+l.36 ...\frac\{1\}\{5\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{25\}\{169\}\qquad\textbf...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.36 ...\frac\{1\}\{5\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{25\}\{169\}\qquad\textbf...
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.36 ...\frac\{1\}\{5\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{25\}\{169\}\qquad\textbf...
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.36 ...\frac\{1\}\{5\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{25\}\{169\}\qquad\textbf...
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.36 ...\frac\{1\}\{5\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{25\}\{169\}\qquad\textbf...
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...f \accent@spacefactor \spacefactor 
+                                                  }\let \maybe@load@fontshap...
+l.36 ...\frac\{1\}\{5\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{25\}\{169\}\qquad\textbf...
+
+! Extra }, or forgotten $.
+\add@accent ... \accent@spacefactor \spacefactor }
+                                                  \let \maybe@load@fontshape...
+l.36 ...\frac\{1\}\{5\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{25\}\{169\}\qquad\textbf...
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.36 ...\frac\{1\}\{5\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{25\}\{169\}\qquad\textbf...
+
+! Extra }, or forgotten \endgroup.
+<argument> \egroup 
+                   
+l.36 ...\frac\{1\}\{5\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{25\}\{169\}\qquad\textbf...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 36.
+
+! You can't use a prefix with `\endgroup'.
+<to be read again> 
+                   \endgroup 
+l.36 ...ac\{25\}\{169\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{4\}\{25\}$\par \vspace{0...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.36 ...ac\{25\}\{169\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{4\}\{25\}$\par \vspace{0...
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.36 ...ac\{25\}\{169\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{4\}\{25\}$\par \vspace{0...
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.36 ...ac\{25\}\{169\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{4\}\{25\}$\par \vspace{0...
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.36 ...ac\{25\}\{169\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{4\}\{25\}$\par \vspace{0...
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...f \accent@spacefactor \spacefactor 
+                                                  }\let \maybe@load@fontshap...
+l.36 ...ac\{25\}\{169\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{4\}\{25\}$\par \vspace{0...
+
+! Extra }, or forgotten $.
+\add@accent ... \accent@spacefactor \spacefactor }
+                                                  \let \maybe@load@fontshape...
+l.36 ...ac\{25\}\{169\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{4\}\{25\}$\par \vspace{0...
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.36 ...ac\{25\}\{169\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{4\}\{25\}$\par \vspace{0...
+
+! Extra }, or forgotten \endgroup.
+<argument> \egroup 
+                   
+l.36 ...ac\{25\}\{169\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{4\}\{25\}$\par \vspace{0...
+
+
+! LaTeX Error: Not allowed in LR mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43 \begin\{
-             equation*\}
-(C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd)
+l.36 ...frac\{4\}\{25\}$\par \vspace{0.5em}\item J
+                                                  ackson's paintbrush makes ...
+
+
+! LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 ...frac\{4\}\{25\}$\par \vspace{0.5em}\item J
+                                                  ackson's paintbrush makes ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.36 ...frac\{4\}\{25\}$\par \vspace{0.5em}\item J
+                                                  ackson's paintbrush makes ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.36 ...frac\{4\}\{25\}$\par \vspace{0.5em}\item J
+                                                  ackson's paintbrush makes ...
+
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.44 P(x)  = (x-1)\^1 (x-2)\^2 (x-3)\^3 \cdot
-                                              \cdot \cdot (x-10)\^\{10\}
+l.36 ...frac\{4\}\{25\}$\par \vspace{0.5em}\item J
+                                                  ackson's paintbrush makes ...
 
-LaTeX Warning: Command \^ invalid in math mode on input line 44.
+! Missing } inserted.
+<inserted text> 
+                }
+l.36 ...frac\{4\}\{25\}$\par \vspace{0.5em}\item J
+                                                  ackson's paintbrush makes ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.36 ...frac\{4\}\{25\}$\par \vspace{0.5em}\item J
+                                                  ackson's paintbrush makes ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.36 ...frac\{4\}\{25\}$\par \vspace{0.5em}\item J
+                                                  ackson's paintbrush makes ...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.36 ...frac\{4\}\{25\}$\par \vspace{0.5em}\item J
+                                                  ackson's paintbrush makes ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.36 ...frac\{4\}\{25\}$\par \vspace{0.5em}\item J
+                                                  ackson's paintbrush makes ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.36 ...frac\{4\}\{25\}$\par \vspace{0.5em}\item J
+                                                  ackson's paintbrush makes ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.36 ...frac\{4\}\{25\}$\par \vspace{0.5em}\item J
+                                                  ackson's paintbrush makes ...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.36 ...frac\{4\}\{25\}$\par \vspace{0.5em}\item J
+                                                  ackson's paintbrush makes ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.36 ...frac\{4\}\{25\}$\par \vspace{0.5em}\item J
+                                                  ackson's paintbrush makes ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.36 ...frac\{4\}\{25\}$\par \vspace{0.5em}\item J
+                                                  ackson's paintbrush makes ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.36 ...frac\{4\}\{25\}$\par \vspace{0.5em}\item J
+                                                  ackson's paintbrush makes ...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.36 ...frac\{4\}\{25\}$\par \vspace{0.5em}\item J
+                                                  ackson's paintbrush makes ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.36 ...frac\{4\}\{25\}$\par \vspace{0.5em}\item J
+                                                  ackson's paintbrush makes ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.36 ...frac\{4\}\{25\}$\par \vspace{0.5em}\item J
+                                                  ackson's paintbrush makes ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.36 ...frac\{4\}\{25\}$\par \vspace{0.5em}\item J
+                                                  ackson's paintbrush makes ...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.36 ...frac\{4\}\{25\}$\par \vspace{0.5em}\item J
+                                                  ackson's paintbrush makes ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.36 ...frac\{4\}\{25\}$\par \vspace{0.5em}\item J
+                                                  ackson's paintbrush makes ...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 40.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \ifmmode \els...
-l.44 ...)\^2 (x-3)\^3 \cdot \cdot \cdot (x-10)\^\{
-                                                  10\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.45 \end\{
-           equation*\}
-(That makes 100 errors; please try again.)
-!  ==> Fatal error occurred, no output PDF file produced!
+l.40 $\textbf\{(A)\}\~3
+                       \qquad\textbf\{(B)\}\~5\qquad\textbf\{(C)\}\~4\qquad\...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 40.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.40 $\textbf\{(A)\}\~3\qquad\textbf\{(B)\}\~5
+                                              \qquad\textbf\{(C)\}\~4\qquad\...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 40.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.40 ...ad\textbf\{(B)\}\~5\qquad\textbf\{(C)\}\~4
+                                                  \qquad\textbf\{(D)\}\~8\qq...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 40.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.40 ...ad\textbf\{(C)\}\~4\qquad\textbf\{(D)\}\~8
+                                                  \qquad\textbf\{(E)\}\~6$\p...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 40.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.40 ...ad\textbf\{(D)\}\~8\qquad\textbf\{(E)\}\~6
+                                                  $\par \vspace{0.5em}\item ...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 46.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.46 $\textbf\{(A)\}\~3
+                       \qquad\textbf\{(B)\}\~7\qquad\textbf\{(C)\}\~6\qquad\...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 46.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.46 $\textbf\{(A)\}\~3\qquad\textbf\{(B)\}\~7
+                                              \qquad\textbf\{(C)\}\~6\qquad\...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 46.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.46 ...ad\textbf\{(B)\}\~7\qquad\textbf\{(C)\}\~6
+                                                  \qquad\textbf\{(D)\}\~4\qq...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 46.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.46 ...ad\textbf\{(C)\}\~6\qquad\textbf\{(D)\}\~4
+                                                  \qquad\textbf\{(E)\}\~5$\p...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 46.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.46 ...ad\textbf\{(D)\}\~4\qquad\textbf\{(E)\}\~5
+                                                  $\par \vspace{0.5em}\item ...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 54.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.54 $\textbf\{(A)\}\~2
+                       \qquad\textbf\{(B)\}\~8\qquad\textbf\{(C)\}\~4\qquad\...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 54.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.54 $\textbf\{(A)\}\~2\qquad\textbf\{(B)\}\~8
+                                              \qquad\textbf\{(C)\}\~4\qquad\...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 54.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.54 ...ad\textbf\{(B)\}\~8\qquad\textbf\{(C)\}\~4
+                                                  \qquad\textbf\{(D)\}\~15\q...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 54.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.54 ...ad\textbf\{(C)\}\~4\qquad\textbf\{(D)\}\~1
+                                                  5\qquad\textbf\{(E)\}\~12$...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 54.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.54 ...d\textbf\{(D)\}\~15\qquad\textbf\{(E)\}\~1
+                                                  2$\par \vspace{0.5em}\item...
+
+
+[2]
+
+LaTeX Warning: Command \~ invalid in math mode on input line 62.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.62 $\textbf\{(A)\}\~2
+                       \qquad\textbf\{(B)\}\~\frac\{3\}\{8\}\qquad\textbf\{(...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 62.
+
+! You can't use a prefix with `\endgroup'.
+<to be read again> 
+                   \endgroup 
+l.62 $\textbf\{(A)\}\~2\qquad\textbf\{(B)\}\~\frac
+                                                  \{3\}\{8\}\qquad\textbf\{(...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.62 $\textbf\{(A)\}\~2\qquad\textbf\{(B)\}\~\frac
+                                                  \{3\}\{8\}\qquad\textbf\{(...
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.62 $\textbf\{(A)\}\~2\qquad\textbf\{(B)\}\~\frac
+                                                  \{3\}\{8\}\qquad\textbf\{(...
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.62 $\textbf\{(A)\}\~2\qquad\textbf\{(B)\}\~\frac
+                                                  \{3\}\{8\}\qquad\textbf\{(...
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.62 $\textbf\{(A)\}\~2\qquad\textbf\{(B)\}\~\frac
+                                                  \{3\}\{8\}\qquad\textbf\{(...
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...f \accent@spacefactor \spacefactor 
+                                                  }\let \maybe@load@fontshap...
+l.62 $\textbf\{(A)\}\~2\qquad\textbf\{(B)\}\~\frac
+                                                  \{3\}\{8\}\qquad\textbf\{(...
+
+! Extra }, or forgotten $.
+\add@accent ... \accent@spacefactor \spacefactor }
+                                                  \let \maybe@load@fontshape...
+l.62 $\textbf\{(A)\}\~2\qquad\textbf\{(B)\}\~\frac
+                                                  \{3\}\{8\}\qquad\textbf\{(...
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.62 $\textbf\{(A)\}\~2\qquad\textbf\{(B)\}\~\frac
+                                                  \{3\}\{8\}\qquad\textbf\{(...
+
+! Extra }, or forgotten \endgroup.
+<argument> \egroup 
+                   
+l.62 $\textbf\{(A)\}\~2\qquad\textbf\{(B)\}\~\frac
+                                                  \{3\}\{8\}\qquad\textbf\{(...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 62.
+
+! You can't use a prefix with `\endgroup'.
+<to be read again> 
+                   \endgroup 
+l.62 ...\frac\{3\}\{8\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{9\}\{8\}\qquad\textbf\{(...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.62 ...\frac\{3\}\{8\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{9\}\{8\}\qquad\textbf\{(...
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.62 ...\frac\{3\}\{8\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{9\}\{8\}\qquad\textbf\{(...
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.62 ...\frac\{3\}\{8\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{9\}\{8\}\qquad\textbf\{(...
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.62 ...\frac\{3\}\{8\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{9\}\{8\}\qquad\textbf\{(...
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...f \accent@spacefactor \spacefactor 
+                                                  }\let \maybe@load@fontshap...
+l.62 ...\frac\{3\}\{8\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{9\}\{8\}\qquad\textbf\{(...
+
+! Extra }, or forgotten $.
+\add@accent ... \accent@spacefactor \spacefactor }
+                                                  \let \maybe@load@fontshape...
+l.62 ...\frac\{3\}\{8\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{9\}\{8\}\qquad\textbf\{(...
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.62 ...\frac\{3\}\{8\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{9\}\{8\}\qquad\textbf\{(...
+
+! Extra }, or forgotten \endgroup.
+<argument> \egroup 
+                   
+l.62 ...\frac\{3\}\{8\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{9\}\{8\}\qquad\textbf\{(...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 62.
+
+! You can't use a prefix with `\endgroup'.
+<to be read again> 
+                   \endgroup 
+l.62 ...\frac\{9\}\{8\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{9\}\{4\}\qquad\textbf\{(...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.62 ...\frac\{9\}\{8\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{9\}\{4\}\qquad\textbf\{(...
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.62 ...\frac\{9\}\{8\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{9\}\{4\}\qquad\textbf\{(...
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.62 ...\frac\{9\}\{8\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{9\}\{4\}\qquad\textbf\{(...
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.62 ...\frac\{9\}\{8\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{9\}\{4\}\qquad\textbf\{(...
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...f \accent@spacefactor \spacefactor 
+                                                  }\let \maybe@load@fontshap...
+l.62 ...\frac\{9\}\{8\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{9\}\{4\}\qquad\textbf\{(...
+
+! Extra }, or forgotten $.
+\add@accent ... \accent@spacefactor \spacefactor }
+                                                  \let \maybe@load@fontshape...
+l.62 ...\frac\{9\}\{8\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{9\}\{4\}\qquad\textbf\{(...
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.62 ...\frac\{9\}\{8\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{9\}\{4\}\qquad\textbf\{(...
+
+! Extra }, or forgotten \endgroup.
+<argument> \egroup 
+                   
+l.62 ...\frac\{9\}\{8\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{9\}\{4\}\qquad\textbf\{(...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 62.
+
+! You can't use a prefix with `\endgroup'.
+<to be read again> 
+                   \endgroup 
+l.62 ...\frac\{9\}\{4\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{3\}\{2\}$\par \vspace{0....
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.62 ...\frac\{9\}\{4\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{3\}\{2\}$\par \vspace{0....
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.62 ...\frac\{9\}\{4\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{3\}\{2\}$\par \vspace{0....
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.62 ...\frac\{9\}\{4\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{3\}\{2\}$\par \vspace{0....
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.62 ...\frac\{9\}\{4\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{3\}\{2\}$\par \vspace{0....
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...f \accent@spacefactor \spacefactor 
+                                                  }\let \maybe@load@fontshap...
+l.62 ...\frac\{9\}\{4\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{3\}\{2\}$\par \vspace{0....
+
+! Extra }, or forgotten $.
+\add@accent ... \accent@spacefactor \spacefactor }
+                                                  \let \maybe@load@fontshape...
+l.62 ...\frac\{9\}\{4\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{3\}\{2\}$\par \vspace{0....
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.62 ...\frac\{9\}\{4\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{3\}\{2\}$\par \vspace{0....
+
+! Extra }, or forgotten \endgroup.
+<argument> \egroup 
+                   
+l.62 ...\frac\{9\}\{4\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{3\}\{2\}$\par \vspace{0....
+
+Missing character: There is no è in font cmex7!
+
+! LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 ...\frac\{3\}\{2\}$\par \vspace{0.5em}\item F
+                                                  or how many ordered pairs ...
+
+
+! LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 ...\frac\{3\}\{2\}$\par \vspace{0.5em}\item F
+                                                  or how many ordered pairs ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.62 ...\frac\{3\}\{2\}$\par \vspace{0.5em}\item F
+                                                  or how many ordered pairs ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.62 ...\frac\{3\}\{2\}$\par \vspace{0.5em}\item F
+                                                  or how many ordered pairs ...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.62 ...\frac\{3\}\{2\}$\par \vspace{0.5em}\item F
+                                                  or how many ordered pairs ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.62 ...\frac\{3\}\{2\}$\par \vspace{0.5em}\item F
+                                                  or how many ordered pairs ...
+
+Missing character: There is no è in font cmex7!
+! Missing } inserted.
+<inserted text> 
+                }
+l.62 ...\frac\{3\}\{2\}$\par \vspace{0.5em}\item F
+                                                  or how many ordered pairs ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.62 ...\frac\{3\}\{2\}$\par \vspace{0.5em}\item F
+                                                  or how many ordered pairs ...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.62 ...\frac\{3\}\{2\}$\par \vspace{0.5em}\item F
+                                                  or how many ordered pairs ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.62 ...\frac\{3\}\{2\}$\par \vspace{0.5em}\item F
+                                                  or how many ordered pairs ...
+
+Missing character: There is no è in font cmex7!
+! Missing } inserted.
+<inserted text> 
+                }
+l.62 ...\frac\{3\}\{2\}$\par \vspace{0.5em}\item F
+                                                  or how many ordered pairs ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.62 ...\frac\{3\}\{2\}$\par \vspace{0.5em}\item F
+                                                  or how many ordered pairs ...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.62 ...\frac\{3\}\{2\}$\par \vspace{0.5em}\item F
+                                                  or how many ordered pairs ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.62 ...\frac\{3\}\{2\}$\par \vspace{0.5em}\item F
+                                                  or how many ordered pairs ...
+
+Missing character: There is no è in font cmex7!
+! Missing } inserted.
+<inserted text> 
+                }
+l.62 ...\frac\{3\}\{2\}$\par \vspace{0.5em}\item F
+                                                  or how many ordered pairs ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.62 ...\frac\{3\}\{2\}$\par \vspace{0.5em}\item F
+                                                  or how many ordered pairs ...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.62 ...\frac\{3\}\{2\}$\par \vspace{0.5em}\item F
+                                                  or how many ordered pairs ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.62 ...\frac\{3\}\{2\}$\par \vspace{0.5em}\item F
+                                                  or how many ordered pairs ...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 72.
+
+! You can't use a prefix with `end-group character }'.
+<to be read again> 
+                   }
+l.72 $\textbf\{(A)\}\~\text
+                           \{I, II, and III\}\qquad\textbf\{(B)\}\~\text\{I ...
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.72 $\textbf\{(A)\}\~\text
+                           \{I, II, and III\}\qquad\textbf\{(B)\}\~\text\{I ...
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.72 $\textbf\{(A)\}\~\text
+                           \{I, II, and III\}\qquad\textbf\{(B)\}\~\text\{I ...
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.72 $\textbf\{(A)\}\~\text
+                           \{I, II, and III\}\qquad\textbf\{(B)\}\~\text\{I ...
+
+! Extra }, or forgotten $.
+\text@ ...firstchoice@false #1}}\check@mathfonts }
+                                                  
+l.72 $\textbf\{(A)\}\~\text
+                           \{I, II, and III\}\qquad\textbf\{(B)\}\~\text\{I ...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 72.
+
+! You can't use a prefix with `end-group character }'.
+<to be read again> 
+                   }
+l.72 ..., II, and III\}\qquad\textbf\{(B)\}\~\text
+                                                  \{I only\}\qquad\textbf\{(...
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.72 ..., II, and III\}\qquad\textbf\{(B)\}\~\text
+                                                  \{I only\}\qquad\textbf\{(...
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.72 ..., II, and III\}\qquad\textbf\{(B)\}\~\text
+                                                  \{I only\}\qquad\textbf\{(...
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.72 ..., II, and III\}\qquad\textbf\{(B)\}\~\text
+                                                  \{I only\}\qquad\textbf\{(...
+
+! Extra }, or forgotten $.
+\text@ ...firstchoice@false #1}}\check@mathfonts }
+                                                  
+l.72 ..., II, and III\}\qquad\textbf\{(B)\}\~\text
+                                                  \{I only\}\qquad\textbf\{(...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 72.
+
+! You can't use a prefix with `end-group character }'.
+<to be read again> 
+                   }
+l.72 ...\text\{I only\}\qquad\textbf\{(C)\}\~\text
+                                                  \{I and II only\}\qquad\te...
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.72 ...\text\{I only\}\qquad\textbf\{(C)\}\~\text
+                                                  \{I and II only\}\qquad\te...
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.72 ...\text\{I only\}\qquad\textbf\{(C)\}\~\text
+                                                  \{I and II only\}\qquad\te...
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.72 ...\text\{I only\}\qquad\textbf\{(C)\}\~\text
+                                                  \{I and II only\}\qquad\te...
+
+! Extra }, or forgotten $.
+\text@ ...firstchoice@false #1}}\check@mathfonts }
+                                                  
+l.72 ...\text\{I only\}\qquad\textbf\{(C)\}\~\text
+                                                  \{I and II only\}\qquad\te...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 72.
+
+! You can't use a prefix with `end-group character }'.
+<to be read again> 
+                   }
+l.72 ...I and II only\}\qquad\textbf\{(D)\}\~\text
+                                                  \{III only\}\qquad\textbf\...
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.72 ...I and II only\}\qquad\textbf\{(D)\}\~\text
+                                                  \{III only\}\qquad\textbf\...
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.72 ...I and II only\}\qquad\textbf\{(D)\}\~\text
+                                                  \{III only\}\qquad\textbf\...
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.72 ...I and II only\}\qquad\textbf\{(D)\}\~\text
+                                                  \{III only\}\qquad\textbf\...
+
+! Extra }, or forgotten $.
+\text@ ...firstchoice@false #1}}\check@mathfonts }
+                                                  
+l.72 ...I and II only\}\qquad\textbf\{(D)\}\~\text
+                                                  \{III only\}\qquad\textbf\...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 72.
+
+! You can't use a prefix with `end-group character }'.
+<to be read again> 
+                   }
+l.72 ...ext\{III only\}\qquad\textbf\{(E)\}\~\text
+                                                  \{II and III only\}$\par \...
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.72 ...ext\{III only\}\qquad\textbf\{(E)\}\~\text
+                                                  \{II and III only\}$\par \...
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.72 ...ext\{III only\}\qquad\textbf\{(E)\}\~\text
+                                                  \{II and III only\}$\par \...
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.72 ...ext\{III only\}\qquad\textbf\{(E)\}\~\text
+                                                  \{II and III only\}$\par \...
+
+! Extra }, or forgotten $.
+\text@ ...firstchoice@false #1}}\check@mathfonts }
+                                                  
+l.72 ...ext\{III only\}\qquad\textbf\{(E)\}\~\text
+                                                  \{II and III only\}$\par \...
+
+
+Overfull \hbox (2.28578pt too wide) in paragraph at lines 72--72
+[]$[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 g[]f\
+OML/cmm/m/it/10 I; II; andIII\OMS/cmsy/m/n/10 g []\OT1/cmr/m/n/10 (\OML/cmm/m/i
+t/10 B\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 g[]f\OML/cmm/m/it/10 Ionly\OMS/cmsy/m/n
+/10 g []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 C\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 g[
+]f\OML/cmm/m/it/10 IandIIonly\OMS/cmsy/m/n/10 g []\OT1/cmr/m/n/10 (\OML/cmm/m/i
+t/10 D\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 g[]f\OML/cmm/m/it/10 IIIonly\OMS/cmsy/m
+/n/10 g []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 E\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 
+g[]f\OML/cmm/m/it/10 IIandIIIonly\OMS/cmsy/m/n/10 g$ 
+
+LaTeX Warning: Command \~ invalid in math mode on input line 90.
+
+! You can't use a prefix with `\endgroup'.
+<to be read again> 
+                   \endgroup 
+l.90 $\textbf\{(A)\}\~\frac
+                           \{1\}\{6\}\qquad\textbf\{(B)\}\~\frac\{1\}\{5\}\q...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.90 $\textbf\{(A)\}\~\frac
+                           \{1\}\{6\}\qquad\textbf\{(B)\}\~\frac\{1\}\{5\}\q...
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.90 $\textbf\{(A)\}\~\frac
+                           \{1\}\{6\}\qquad\textbf\{(B)\}\~\frac\{1\}\{5\}\q...
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.90 $\textbf\{(A)\}\~\frac
+                           \{1\}\{6\}\qquad\textbf\{(B)\}\~\frac\{1\}\{5\}\q...
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.90 $\textbf\{(A)\}\~\frac
+                           \{1\}\{6\}\qquad\textbf\{(B)\}\~\frac\{1\}\{5\}\q...
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...f \accent@spacefactor \spacefactor 
+                                                  }\let \maybe@load@fontshap...
+l.90 $\textbf\{(A)\}\~\frac
+                           \{1\}\{6\}\qquad\textbf\{(B)\}\~\frac\{1\}\{5\}\q...
+
+! Extra }, or forgotten $.
+\add@accent ... \accent@spacefactor \spacefactor }
+                                                  \let \maybe@load@fontshape...
+l.90 $\textbf\{(A)\}\~\frac
+                           \{1\}\{6\}\qquad\textbf\{(B)\}\~\frac\{1\}\{5\}\q...
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.90 $\textbf\{(A)\}\~\frac
+                           \{1\}\{6\}\qquad\textbf\{(B)\}\~\frac\{1\}\{5\}\q...
+
+! Extra }, or forgotten \endgroup.
+<argument> \egroup 
+                   
+l.90 $\textbf\{(A)\}\~\frac
+                           \{1\}\{6\}\qquad\textbf\{(B)\}\~\frac\{1\}\{5\}\q...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 90.
+
+! You can't use a prefix with `\endgroup'.
+<to be read again> 
+                   \endgroup 
+l.90 ...\frac\{1\}\{6\}\qquad\textbf\{(B)\}\~\frac
+                                                  \{1\}\{5\}\qquad\textbf\{(...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.90 ...\frac\{1\}\{6\}\qquad\textbf\{(B)\}\~\frac
+                                                  \{1\}\{5\}\qquad\textbf\{(...
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.90 ...\frac\{1\}\{6\}\qquad\textbf\{(B)\}\~\frac
+                                                  \{1\}\{5\}\qquad\textbf\{(...
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.90 ...\frac\{1\}\{6\}\qquad\textbf\{(B)\}\~\frac
+                                                  \{1\}\{5\}\qquad\textbf\{(...
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.90 ...\frac\{1\}\{6\}\qquad\textbf\{(B)\}\~\frac
+                                                  \{1\}\{5\}\qquad\textbf\{(...
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...f \accent@spacefactor \spacefactor 
+                                                  }\let \maybe@load@fontshap...
+l.90 ...\frac\{1\}\{6\}\qquad\textbf\{(B)\}\~\frac
+                                                  \{1\}\{5\}\qquad\textbf\{(...
+
+! Extra }, or forgotten $.
+\add@accent ... \accent@spacefactor \spacefactor }
+                                                  \let \maybe@load@fontshape...
+l.90 ...\frac\{1\}\{6\}\qquad\textbf\{(B)\}\~\frac
+                                                  \{1\}\{5\}\qquad\textbf\{(...
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.90 ...\frac\{1\}\{6\}\qquad\textbf\{(B)\}\~\frac
+                                                  \{1\}\{5\}\qquad\textbf\{(...
+
+! Extra }, or forgotten \endgroup.
+<argument> \egroup 
+                   
+l.90 ...\frac\{1\}\{6\}\qquad\textbf\{(B)\}\~\frac
+                                                  \{1\}\{5\}\qquad\textbf\{(...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 90.
+
+! You can't use a prefix with `\endgroup'.
+<to be read again> 
+                   \endgroup 
+l.90 ...\frac\{1\}\{5\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{\sqrt\{3\}\}\{8\}\qquad\...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.90 ...\frac\{1\}\{5\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{\sqrt\{3\}\}\{8\}\qquad\...
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.90 ...\frac\{1\}\{5\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{\sqrt\{3\}\}\{8\}\qquad\...
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.90 ...\frac\{1\}\{5\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{\sqrt\{3\}\}\{8\}\qquad\...
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.90 ...\frac\{1\}\{5\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{\sqrt\{3\}\}\{8\}\qquad\...
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...f \accent@spacefactor \spacefactor 
+                                                  }\let \maybe@load@fontshap...
+l.90 ...\frac\{1\}\{5\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{\sqrt\{3\}\}\{8\}\qquad\...
+
+! Extra }, or forgotten $.
+\add@accent ... \accent@spacefactor \spacefactor }
+                                                  \let \maybe@load@fontshape...
+l.90 ...\frac\{1\}\{5\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{\sqrt\{3\}\}\{8\}\qquad\...
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.90 ...\frac\{1\}\{5\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{\sqrt\{3\}\}\{8\}\qquad\...
+
+! Extra }, or forgotten \endgroup.
+<argument> \egroup 
+                   
+l.90 ...\frac\{1\}\{5\}\qquad\textbf\{(C)\}\~\frac
+                                                  \{\sqrt\{3\}\}\{8\}\qquad\...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 90.
+
+! You can't use a prefix with `\endgroup'.
+<to be read again> 
+                   \endgroup 
+l.90 ...qrt\{3\}\}\{8\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{\arctan \frac\{1\}\{2\}\...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.90 ...qrt\{3\}\}\{8\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{\arctan \frac\{1\}\{2\}\...
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.90 ...qrt\{3\}\}\{8\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{\arctan \frac\{1\}\{2\}\...
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.90 ...qrt\{3\}\}\{8\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{\arctan \frac\{1\}\{2\}\...
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.90 ...qrt\{3\}\}\{8\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{\arctan \frac\{1\}\{2\}\...
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...f \accent@spacefactor \spacefactor 
+                                                  }\let \maybe@load@fontshap...
+l.90 ...qrt\{3\}\}\{8\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{\arctan \frac\{1\}\{2\}\...
+
+! Extra }, or forgotten $.
+\add@accent ... \accent@spacefactor \spacefactor }
+                                                  \let \maybe@load@fontshape...
+l.90 ...qrt\{3\}\}\{8\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{\arctan \frac\{1\}\{2\}\...
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.90 ...qrt\{3\}\}\{8\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{\arctan \frac\{1\}\{2\}\...
+
+! Extra }, or forgotten \endgroup.
+<argument> \egroup 
+                   
+l.90 ...qrt\{3\}\}\{8\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{\arctan \frac\{1\}\{2\}\...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 90.
+
+! You can't use a prefix with `\endgroup'.
+<to be read again> 
+                   \endgroup 
+l.90 ...}\{2\}\}\{\pi\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{2\arcsin \frac\{1\}\{4\}...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.90 ...}\{2\}\}\{\pi\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{2\arcsin \frac\{1\}\{4\}...
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.90 ...}\{2\}\}\{\pi\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{2\arcsin \frac\{1\}\{4\}...
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.90 ...}\{2\}\}\{\pi\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{2\arcsin \frac\{1\}\{4\}...
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.90 ...}\{2\}\}\{\pi\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{2\arcsin \frac\{1\}\{4\}...
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...f \accent@spacefactor \spacefactor 
+                                                  }\let \maybe@load@fontshap...
+l.90 ...}\{2\}\}\{\pi\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{2\arcsin \frac\{1\}\{4\}...
+
+! Extra }, or forgotten $.
+\add@accent ... \accent@spacefactor \spacefactor }
+                                                  \let \maybe@load@fontshape...
+l.90 ...}\{2\}\}\{\pi\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{2\arcsin \frac\{1\}\{4\}...
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.90 ...}\{2\}\}\{\pi\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{2\arcsin \frac\{1\}\{4\}...
+
+! Extra }, or forgotten \endgroup.
+<argument> \egroup 
+                   
+l.90 ...}\{2\}\}\{\pi\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{2\arcsin \frac\{1\}\{4\}...
+
+Missing character: There is no è in font cmex7!
+
+! LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...}\{4\}\}\{\pi\}$\par \vspace{0.5em}\item A
+                                                   lampshade is made in the ...
+
+
+! LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...}\{4\}\}\{\pi\}$\par \vspace{0.5em}\item A
+                                                   lampshade is made in the ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.90 ...}\{4\}\}\{\pi\}$\par \vspace{0.5em}\item A
+                                                   lampshade is made in the ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.90 ...}\{4\}\}\{\pi\}$\par \vspace{0.5em}\item A
+                                                   lampshade is made in the ...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.90 ...}\{4\}\}\{\pi\}$\par \vspace{0.5em}\item A
+                                                   lampshade is made in the ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.90 ...}\{4\}\}\{\pi\}$\par \vspace{0.5em}\item A
+                                                   lampshade is made in the ...
+
+Missing character: There is no è in font cmex7!
+! Missing } inserted.
+<inserted text> 
+                }
+l.90 ...}\{4\}\}\{\pi\}$\par \vspace{0.5em}\item A
+                                                   lampshade is made in the ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.90 ...}\{4\}\}\{\pi\}$\par \vspace{0.5em}\item A
+                                                   lampshade is made in the ...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.90 ...}\{4\}\}\{\pi\}$\par \vspace{0.5em}\item A
+                                                   lampshade is made in the ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.90 ...}\{4\}\}\{\pi\}$\par \vspace{0.5em}\item A
+                                                   lampshade is made in the ...
+
+Missing character: There is no è in font cmex7!
+! Missing } inserted.
+<inserted text> 
+                }
+l.90 ...}\{4\}\}\{\pi\}$\par \vspace{0.5em}\item A
+                                                   lampshade is made in the ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.90 ...}\{4\}\}\{\pi\}$\par \vspace{0.5em}\item A
+                                                   lampshade is made in the ...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.90 ...}\{4\}\}\{\pi\}$\par \vspace{0.5em}\item A
+                                                   lampshade is made in the ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.90 ...}\{4\}\}\{\pi\}$\par \vspace{0.5em}\item A
+                                                   lampshade is made in the ...
+
+Missing character: There is no è in font cmex7!
+! Missing } inserted.
+<inserted text> 
+                }
+l.90 ...}\{4\}\}\{\pi\}$\par \vspace{0.5em}\item A
+                                                   lampshade is made in the ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.90 ...}\{4\}\}\{\pi\}$\par \vspace{0.5em}\item A
+                                                   lampshade is made in the ...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.90 ...}\{4\}\}\{\pi\}$\par \vspace{0.5em}\item A
+                                                   lampshade is made in the ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.90 ...}\{4\}\}\{\pi\}$\par \vspace{0.5em}\item A
+                                                   lampshade is made in the ...
+
+Missing character: There is no è in font cmex7!
+! Missing } inserted.
+<inserted text> 
+                }
+l.90 ...}\{4\}\}\{\pi\}$\par \vspace{0.5em}\item A
+                                                   lampshade is made in the ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.90 ...}\{4\}\}\{\pi\}$\par \vspace{0.5em}\item A
+                                                   lampshade is made in the ...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.90 ...}\{4\}\}\{\pi\}$\par \vspace{0.5em}\item A
+                                                   lampshade is made in the ...
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.90 ...}\{4\}\}\{\pi\}$\par \vspace{0.5em}\item A
+                                                   lampshade is made in the ...
+
+
+[3]
+
+LaTeX Warning: Command \~ invalid in math mode on input line 96.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.96 $\textbf\{(A)\}\~1
+                       1\qquad\textbf\{(B)\}\~6\qquad\textbf\{(C)\}\~8\qquad...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 96.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.96 $\textbf\{(A)\}\~11\qquad\textbf\{(B)\}\~6
+                                               \qquad\textbf\{(C)\}\~8\qquad...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 96.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.96 ...ad\textbf\{(B)\}\~6\qquad\textbf\{(C)\}\~8
+                                                  \qquad\textbf\{(D)\}\~10\q...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 96.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.96 ...ad\textbf\{(C)\}\~8\qquad\textbf\{(D)\}\~1
+                                                  0\qquad\textbf\{(E)\}\~9$\...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 96.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.96 ...d\textbf\{(D)\}\~10\qquad\textbf\{(E)\}\~9
+                                                  $\par \vspace{0.5em}\item ...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 108.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.108 $\textbf\{(A)\}\~3
+                        0\qquad\textbf\{(B)\}\~45\qquad\textbf\{(C)\}\~3\qqu...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 108.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.108 $\textbf\{(A)\}\~30\qquad\textbf\{(B)\}\~4
+                                                5\qquad\textbf\{(C)\}\~3\qqu...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 108.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.108 ...\textbf\{(B)\}\~45\qquad\textbf\{(C)\}\~3
+                                                  \qquad\textbf\{(D)\}\~15\q...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 108.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.108 ...d\textbf\{(C)\}\~3\qquad\textbf\{(D)\}\~1
+                                                  5\qquad\textbf\{(E)\}\~6$\...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 108.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.108 ...\textbf\{(D)\}\~15\qquad\textbf\{(E)\}\~6
+                                                  $\par \vspace{0.5em}\item ...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 110.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.110 $\textbf\{(A)\}\~4
+                        -\sqrt\{5\}\qquad\textbf\{(B)\}\~\sqrt\{5\}-1\qquad\...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 110.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.110 ...\~4-\sqrt\{5\}\qquad\textbf\{(B)\}\~\sqrt
+                                                  \{5\}-1\qquad\textbf\{(C)\...
+
+! Missing { inserted.
+<to be read again> 
+                   \global 
+l.110 ...\~4-\sqrt\{5\}\qquad\textbf\{(B)\}\~\sqrt
+                                                  \{5\}-1\qquad\textbf\{(C)\...
+
+! Improper \spacefactor.
+<recently read> \spacefactor 
+                             
+l.110 ...\~4-\sqrt\{5\}\qquad\textbf\{(B)\}\~\sqrt
+                                                  \{5\}-1\qquad\textbf\{(C)\...
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.110 ...\~4-\sqrt\{5\}\qquad\textbf\{(B)\}\~\sqrt
+                                                  \{5\}-1\qquad\textbf\{(C)\...
+
+! Missing { inserted.
+<to be read again> 
+                   \let 
+l.110 ...\~4-\sqrt\{5\}\qquad\textbf\{(B)\}\~\sqrt
+                                                  \{5\}-1\qquad\textbf\{(C)\...
+
+! Missing { inserted.
+<to be read again> 
+                   \egroup 
+l.110 ...\~4-\sqrt\{5\}\qquad\textbf\{(B)\}\~\sqrt
+                                                  \{5\}-1\qquad\textbf\{(C)\...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 110.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.110 ...B)\}\~\sqrt\{5\}-1\qquad\textbf\{(C)\}\~8
+                                                  -3\sqrt\{5\}\qquad\textbf\...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 110.
+
+! You can't use a prefix with `\endgroup'.
+<to be read again> 
+                   \endgroup 
+l.110 ...~8-3\sqrt\{5\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{\sqrt\{5\}+1\}\{2\}\qqua...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.110 ...~8-3\sqrt\{5\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{\sqrt\{5\}+1\}\{2\}\qqua...
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.110 ...~8-3\sqrt\{5\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{\sqrt\{5\}+1\}\{2\}\qqua...
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.110 ...~8-3\sqrt\{5\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{\sqrt\{5\}+1\}\{2\}\qqua...
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.110 ...~8-3\sqrt\{5\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{\sqrt\{5\}+1\}\{2\}\qqua...
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...f \accent@spacefactor \spacefactor 
+                                                  }\let \maybe@load@fontshap...
+l.110 ...~8-3\sqrt\{5\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{\sqrt\{5\}+1\}\{2\}\qqua...
+
+! Extra }, or forgotten $.
+\add@accent ... \accent@spacefactor \spacefactor }
+                                                  \let \maybe@load@fontshape...
+l.110 ...~8-3\sqrt\{5\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{\sqrt\{5\}+1\}\{2\}\qqua...
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.110 ...~8-3\sqrt\{5\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{\sqrt\{5\}+1\}\{2\}\qqua...
+
+! Extra }, or forgotten \endgroup.
+<argument> \egroup 
+                   
+l.110 ...~8-3\sqrt\{5\}\qquad\textbf\{(D)\}\~\frac
+                                                  \{\sqrt\{5\}+1\}\{2\}\qqua...
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 110.
+
+! You can't use a prefix with `\endgroup'.
+<to be read again> 
+                   \endgroup 
+l.110 ...\{5\}+1\}\{2\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{2+\sqrt\{5\}\}\{3\}$\par...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.110 ...\{5\}+1\}\{2\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{2+\sqrt\{5\}\}\{3\}$\par...
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.110 ...\{5\}+1\}\{2\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{2+\sqrt\{5\}\}\{3\}$\par...
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.110 ...\{5\}+1\}\{2\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{2+\sqrt\{5\}\}\{3\}$\par...
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.110 ...\{5\}+1\}\{2\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{2+\sqrt\{5\}\}\{3\}$\par...
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...f \accent@spacefactor \spacefactor 
+                                                  }\let \maybe@load@fontshap...
+l.110 ...\{5\}+1\}\{2\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{2+\sqrt\{5\}\}\{3\}$\par...
+
+! Extra }, or forgotten $.
+\add@accent ... \accent@spacefactor \spacefactor }
+                                                  \let \maybe@load@fontshape...
+l.110 ...\{5\}+1\}\{2\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{2+\sqrt\{5\}\}\{3\}$\par...
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.110 ...\{5\}+1\}\{2\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{2+\sqrt\{5\}\}\{3\}$\par...
+
+! Extra }, or forgotten \endgroup.
+<argument> \egroup 
+                   
+l.110 ...\{5\}+1\}\{2\}\qquad\textbf\{(E)\}\~\frac
+                                                  \{2+\sqrt\{5\}\}\{3\}$\par...
+
+Missing character: There is no è in font cmex7!
+
+! LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 ...}\{3\}$\par \vspace{0.5em}\end{enumerate}
+                                                  
+
+! LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 ...}\{3\}$\par \vspace{0.5em}\end{enumerate}
+                                                  
+! Missing } inserted.
+<inserted text> 
+                }
+l.110 ...}\{3\}$\par \vspace{0.5em}\end{enumerate}
+                                                  
+! Missing } inserted.
+<inserted text> 
+                }
+l.110 ...}\{3\}$\par \vspace{0.5em}\end{enumerate}
+                                                  
+! Missing $ inserted.
+<inserted text> 
+                $
+l.110 ...}\{3\}$\par \vspace{0.5em}\end{enumerate}
+                                                  
+! Missing } inserted.
+<inserted text> 
+                }
+l.110 ...}\{3\}$\par \vspace{0.5em}\end{enumerate}
+                                                  
+Missing character: There is no è in font cmex7!
+! Missing } inserted.
+<inserted text> 
+                }
+l.110 ...}\{3\}$\par \vspace{0.5em}\end{enumerate}
+                                                  
+! Missing } inserted.
+<inserted text> 
+                }
+l.110 ...}\{3\}$\par \vspace{0.5em}\end{enumerate}
+                                                  
+! Missing $ inserted.
+<inserted text> 
+                $
+l.110 ...}\{3\}$\par \vspace{0.5em}\end{enumerate}
+                                                  
+! Missing } inserted.
+<inserted text> 
+                }
+l.110 ...}\{3\}$\par \vspace{0.5em}\end{enumerate}
+                                                  
+! Missing } inserted.
+<inserted text> 
+                }
+l.110 ...}\{3\}$\par \vspace{0.5em}\end{enumerate}
+                                                  
+! Missing } inserted.
+<inserted text> 
+                }
+l.110 ...}\{3\}$\par \vspace{0.5em}\end{enumerate}
+                                                  
+! Missing $ inserted.
+<inserted text> 
+                $
+l.110 ...}\{3\}$\par \vspace{0.5em}\end{enumerate}
+                                                  
+! Missing } inserted.
+<inserted text> 
+                }
+l.110 ...}\{3\}$\par \vspace{0.5em}\end{enumerate}
+                                                  
+
+[4] (2023_AMC_12B_Problems.aux) )
+(see the transcript file for additional information)<C:/Users/DefaultUser/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/D
+efaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.
+pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmex10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/DefaultUser/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Defaul
+tUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C
+:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmr7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on 2023_AMC_12B_Problems.pdf (4 pages, 134960 bytes).
 Transcript written on 2023_AMC_12B_Problems.log.

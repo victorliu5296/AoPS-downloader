@@ -18,19 +18,4 @@ size(8cm);
 
 import olympiad;
 import cse5;
-size(300);
-defaultpen(linewidth(0.8));
-real r = 0.35;
-path P = (0,0)--(0,1)--(1,1)--(1,0), Q = (1,1)--(1+r,1+r);
-path Pp = (0,0)--(0,-1)--(1,-1)--(1,0), Qp = (-1,-1)--(-1-r,-1-r);
-for(int i=0;i <= 4;i=i+1)
-{
-draw(shift((4*i,0)) * P);
-draw(shift((4*i,0)) * Q);
-}
-for(int i=1;i <= 4;i=i+1)
-{
-draw(shift((4*i-2,0)) * Pp);
-draw(shift((4*i-1,0)) * Qp);
-}
-draw((-1,0)--(18.5,0));
+unitsize(20);filldraw(circle((0,0),2*sqrt(3)+1),rgb(0.5,0.5,0.5));filldraw(circle((-2,0),1),white);filldraw(circle((0,0),1),white);filldraw(circle((2,0),1),white);filldraw(circle((1,sqrt(3)),1),white);filldraw(circle((3,sqrt(3)),1),white);filldraw(circle((-1,sqrt(3)),1),white);filldraw(circle((-3,sqrt(3)),1),white);filldraw(circle((1,-1*sqrt(3)),1),white);filldraw(circle((3,-1*sqrt(3)),1),white);filldraw(circle((-1,-1*sqrt(3)),1),white);filldraw(circle((-3,-1*sqrt(3)),1),white);filldraw(circle((0,2*sqrt(3)),1),white);filldraw(circle((0,-2*sqrt(3)),1),white);

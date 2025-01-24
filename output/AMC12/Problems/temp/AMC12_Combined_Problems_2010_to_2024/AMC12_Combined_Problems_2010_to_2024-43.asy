@@ -19,18 +19,33 @@ size(8cm);
 import olympiad;
 import cse5;
 size(10cm);
+usepackage("mathptmx");
+import geometry;
+void perp(picture pic=currentpicture,
+pair O, pair M, pair B, real size=5,
+pen p=currentpen, filltype filltype = NoFill){
+perpendicularmark(pic, M,unit(unit(O-M)+unit(B-M)),size,p,filltype);
+}
 pen p=black+linewidth(1),q=black+linewidth(5);
-pair C=(0,0),D=(cos(pi/12),sin(pi/12)),E=rotate(150,D)*C,F=rotate(-30,E)*D,A=rotate(150,F)*E,B=rotate(-30,A)*F;
-draw(C--D--E--F--A--B--cycle,p);
+pair C=(0,0),Y=(2,0),X=(3,0),A=(6,0),B=(2,sqrt(5.6)),D=(3,-sqrt(12.6));
+draw(A--B--C--D--cycle,p);
+draw(A--C,p);
+draw(B--Y,p);
+draw(D--X,p);
 dot(A,q);
 dot(B,q);
 dot(C,q);
 dot(D,q);
-dot(E,q);
-dot(F,q);
-label("$C$",C,2*S);
+dot(X,q);
+dot(Y,q);
+label("2",C--Y,S);
+label("1",Y--X,S);
+label("3",X--A,S);
+label("$A$",A,2*E);
+label("$B$",B,2*N);
+label("$C$",C,2*W);
 label("$D$",D,2*S);
-label("$E$",E,2*S);
-label("$F$",F,2*dir(0));
-label("$A$",A,2*N);
-label("$B$",B,2*W);
+label("$Y$",Y,2*sqrt(2)*NE);
+label("$X$",X,2*N);
+perp(B,Y,C,8,p);
+perp(A,X,D,8,p);

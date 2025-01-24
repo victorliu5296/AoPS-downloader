@@ -18,26 +18,8 @@ size(8cm);
 
 import olympiad;
 import cse5;
-pair X = (0, 0);
-pair W = (0, 4);
-pair Y = (8, 0);
-pair Z = (8, 4);
-label("$X$", X, dir(180));
-label("$W$", W, dir(180));
-label("$Y$", Y, dir(0));
-label("$Z$", Z, dir(0));
+// Credit to shihan for this diagram.
 
-draw(W--X--Y--Z--cycle);
-dot(X);
-dot(Y);
-dot(W);
-dot(Z);
-pair M = (2, 0);
-pair A = (8, 3);
-label("$A$", A, dir(0));
-dot(M);
-dot(A);
-draw(W--M--A--cycle);
-markscalefactor = 0.05;
-draw(rightanglemark(W, M, A));
-label("$M$", M, dir(-90));
+defaultpen(fontsize(13)); size(200);
+pair O=(0,0),A=dir(225),B=dir(-15),C=dir(105),D=rotate(38.21,O)*A,E=rotate(38.21,O)*B,F=rotate(38.21,O)*C;
+draw(A--B--C--A,gray+0.4);draw(D--E--F--D,gray+0.4); draw(A--D--B--E--C--F--A,black+0.9); dot(O); dot("$A$",A,dir(A)); dot("$B$",B,dir(B)); dot("$C$",C,dir(C)); dot("$D$",D,dir(D)); dot("$E$",E,dir(E)); dot("$F$",F,dir(F));

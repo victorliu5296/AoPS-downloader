@@ -67,9 +67,9 @@ $\textbf{(A)}\ 729\qquad\textbf{(B)}\ 972\qquad\textbf{(C)}\ 1024\qquad\textbf{(
 $\textbf{(A)}\ 36\qquad\textbf{(B)}\ 40\qquad\textbf{(C)}\ 42\qquad\textbf{(D)}\ 48\qquad\textbf{(E)}\ 52 $\par \vspace{0.5em}\item What is the area of the polygon whose vertices are the points of intersection of the curves $x^2 + y^2 =25$ and $(x-4)^2 + 9y^2 = 81$?
 
 $\textbf{(A)}\ 24\qquad\textbf{(B)}\ 27\qquad\textbf{(C)}\ 36\qquad\textbf{(D)}\ 37.5\qquad\textbf{(E)}\ 42$\par \vspace{0.5em}\item In the equation below, $A$ and $B$ are consecutive positive integers, and $A$, $B$, and $A+B$ represent number bases: 
-\begin\{equation*\}
-132\_A+43\_B=69\_\{A+B\}.
-\end\{equation*\}
+\begin{equation*}
+132_A+43_B=69_{A+B}.
+\end{equation*}
 
 What is $A+B$?
 
@@ -87,42 +87,8 @@ $\textbf{(A)}\ 108\qquad\textbf{(B)}\ 132\qquad\textbf{(C)}\ 671\qquad\textbf{(D
 
 $\textbf{(A)}\ 6\qquad\textbf{(B)}\ \frac{31}{5}\qquad\textbf{(C)}\ \frac{32}{5}\qquad\textbf{(D)}\ \frac{33}{5}\qquad\textbf{(E)}\ \frac{34}{5} $\par \vspace{0.5em}\item Let $(a_1,a_2, \dots ,a_{10})$ be a list of the first $10$ positive integers such that for each $2 \le i \le 10$ either $a_i+1$ or $a_i-1$ or both appear somewhere before $a_i$ in the list. How many such lists are there?
 
-$\textbf{(A)}\ 120\qquad\textbf{(B)}\ 512\qquad\textbf{(C)}\ 1024\qquad\textbf{(D)}\ 181,440\qquad\textbf{(E)}\ 362,880$\par \vspace{0.5em}\item A unit cube has vertices $P_1,P_2,P_3,P_4,P_1',P_2',P_3',$ and $P_4'$. Vertices $P_2$, $P_3$, and $P_4$ are adjacent to $P_1$, and for $1\le i\le 4,$ vertices $P_i$ and $P_i'$ are opposite to each other. A regular octahedron has one vertex in each of the segments $P_1P_2$, $P_1P_3$, $P_1P_4$, $P_1'P_2'$, $P_1'P_3'$, and $P_1'P_4'$. What is the octahedron's side length?
+$\textbf{(A)}\ 120\qquad\textbf{(B)}\ 512\qquad\textbf{(C)}\ 1024\qquad\textbf{(D)}\ 181,440\qquad\textbf{(E)}\ 362,880$
 
-
-\begin{center}
-\begin{asy}
-import olympiad;
-import cse5;
-import three;
-
-size(7.5cm);
-triple eye = (-4, -8, 3);
-currentprojection = perspective(eye);
-
-triple[] P = \{(1, -1, -1), (-1, -1, -1), (-1, 1, -1), (-1, -1, 1), (1, -1, -1)\}; // P[0] = P[4] for convenience
-triple[] Pp = \{-P[0], -P[1], -P[2], -P[3], -P[4]\};
-
-// draw octahedron
-triple pt(int k)\{ return (3*P[k] + P[1])/4; \}
-triple ptp(int k)\{ return (3*Pp[k] + Pp[1])/4; \}
-draw(pt(2)--pt(3)--pt(4)--cycle, gray(0.6));
-draw(ptp(2)--pt(3)--ptp(4)--cycle, gray(0.6));
-draw(ptp(2)--pt(4), gray(0.6));
-draw(pt(2)--ptp(4), gray(0.6));
-draw(pt(4)--ptp(3)--pt(2), gray(0.6) + linetype("4 4"));
-draw(ptp(4)--ptp(3)--ptp(2), gray(0.6) + linetype("4 4"));
-
-// draw cube
-for(int i = 0; i < 4; ++i)\{
-	draw(P[1]--P[i]); draw(Pp[1]--Pp[i]);
-	for(int j = 0; j < 4; ++j)\{
-		if(i == 1 || j == 1 || i == j) continue;
-		draw(P[i]--Pp[j]); draw(Pp[i]--P[j]);
-	\}
-	dot(P[i]); dot(Pp[i]);
-	dot(pt(i)); dot(ptp(i));
-\}
 
 label("$P_1$", P[1], dir(P[1]));
 label("$P_2$", P[2], dir(P[2]));
@@ -131,12 +97,7 @@ label("$P_4$", P[4], dir(P[4]));
 label("$P'_1$", Pp[1], dir(Pp[1]));
 label("$P'_2$", Pp[2], dir(Pp[2]));
 label("$P'_3$", Pp[3], dir(-100));
-label("$P'_4$", Pp[4], dir(Pp[4]));
-\end{asy}
-\end{center}
-
-
-$\textbf{(A)}\ \frac{3\sqrt{2}}{4}\qquad\textbf{(B)}\ \frac{7\sqrt{6}}{16}\qquad\textbf{(C)}\ \frac{\sqrt{5}}{2}\qquad\textbf{(D)}\ \frac{2\sqrt{3}}{3}\qquad\textbf{(E)}\ \frac{\sqrt{6}}{2} $\par \vspace{0.5em}\item A trapezoid has side lengths $3$, $5$, $7$, and $11$. The sums of all the possible areas of the trapezoid can be written in the form of $r_1\sqrt{n_1}+r_2\sqrt{n_2}+r_3$, where $r_1$, $r_2$, and $r_3$ are rational numbers and $n_1$ and $n_2$ are positive integers not divisible by the square of any prime. What is the greatest integer less than or equal to $r_1+r_2+r_3+n_1+n_2$?
+label("$P'_4$", Pp[4], dir(Pp[4]));\par \vspace{0.5em}\item A trapezoid has side lengths $3$, $5$, $7$, and $11$. The sums of all the possible areas of the trapezoid can be written in the form of $r_1\sqrt{n_1}+r_2\sqrt{n_2}+r_3$, where $r_1$, $r_2$, and $r_3$ are rational numbers and $n_1$ and $n_2$ are positive integers not divisible by the square of any prime. What is the greatest integer less than or equal to $r_1+r_2+r_3+n_1+n_2$?
 
 $\textbf{(A)}\ 57\qquad\textbf{(B)}\ 59\qquad\textbf{(C)}\ 61\qquad\textbf{(D)}\ 63\qquad\textbf{(E)}\ 65$\par \vspace{0.5em}\item Square $AXYZ$ is inscribed in equiangular hexagon $ABCDEF$ with $X$ on $\overline{BC}$, $Y$ on $\overline{DE}$, and $Z$ on $\overline{EF}$. Suppose that $AB=40$, and $EF=41(\sqrt{3}-1)$. What is the side-length of the square?
 
@@ -219,9 +180,9 @@ filldraw((11.0,-6.9282032)--(10.6,-6.4282032)--(10.75,-6.928203)--(10.6,-7.42820
 $\textbf{(A)}\ 2112\qquad\textbf{(B)}\ 2304\qquad\textbf{(C)}\ 2368\qquad\textbf{(D)}\ 2384\qquad\textbf{(E)}\ 2400$\par \vspace{0.5em}\item Consider all polynomials of a complex variable, $P(z)=4z^4+az^3+bz^2+cz+d$, where $a,b,c,$ and $d$ are integers, $0\le d\le c\le b\le a\le 4$, and the polynomial has a zero $z_0$ with $|z_0|=1.$ What is the sum of all values $P(1)$ over all the polynomials with these properties?
 
 $\textbf{(A)}\ 84\qquad\textbf{(B)}\ 92\qquad\textbf{(C)}\ 100\qquad\textbf{(D)}\ 108\qquad\textbf{(E)}\ 120 $\par \vspace{0.5em}\item Define the function $f_1$ on the positive integers by setting $f_1(1)=1$ and if $n=p_1^{e_1}p_2^{e_2}\cdots p_k^{e_k}$ is the prime factorization of $n>1$, then 
-\begin\{equation*\}
-f\_1(n)=(p\_1+1)\^\{e\_1-1\}(p\_2+1)\^\{e\_2-1\}\cdots (p\_k+1)\^\{e\_k-1\}.
-\end\{equation*\}
+\begin{equation*}
+f_1(n)=(p_1+1)^{e_1-1}(p_2+1)^{e_2-1}\cdots (p_k+1)^{e_k-1}.
+\end{equation*}
 
 For every $m\ge 2$, let $f_m(n)=f_1(f_{m-1}(n))$. For how many $N$s in the range $1\le N\le 400$ is the sequence $(f_1(N),f_2(N),f_3(N),\dots )$ unbounded?
 
@@ -229,9 +190,9 @@ For every $m\ge 2$, let $f_m(n)=f_1(f_{m-1}(n))$. For how many $N$s in the range
 
 $\textbf{(A)}\ 15\qquad\textbf{(B)}\ 16\qquad\textbf{(C)}\ 17\qquad\textbf{(D)}\ 18\qquad\textbf{(E)}\ 19 $\par \vspace{0.5em}\item Let $S=\{(x,y) : x\in \{0,1,2,3,4\}, y\in \{0,1,2,3,4,5\},\text{ and } (x,y)\ne (0,0)\}$. 
 Let $T$ be the set of all right triangles whose vertices are in $S$. For every right triangle $t=\triangle{ABC}$ with vertices $A$, $B$, and $C$ in counter-clockwise order and right angle at $A$, let $f(t)=\tan(\angle{CBA})$. What is 
-\begin\{equation*\}
-\prod\_\{t\in T\} f(t)?
-\end\{equation*\}
+\begin{equation*}
+\prod_{t\in T} f(t)?
+\end{equation*}
 
 
 $\textbf{(A)}\ 1\qquad\textbf{(B)}\ \frac{625}{144}\qquad\textbf{(C)}\ \frac{125}{24}\qquad\textbf{(D)}\ 6\qquad\textbf{(E)}\ \frac{625}{24} $\par \vspace{0.5em}\end{enumerate}

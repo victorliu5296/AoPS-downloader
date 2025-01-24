@@ -18,15 +18,26 @@ size(8cm);
 
 import olympiad;
 import cse5;
-size(6cm);
-for (int i=0; i<9; ++i) {
-draw((i,0)--(i,3),dotted);
-}
-for (int i=0; i<4; ++i){
-draw((0,i)--(8,i),dotted);
-}
-for (int i=0; i<8; ++i) {
-for (int j=0; j<3; ++j) {
-if (j==1) {
-label("1",(i+0.5,1.5));
-}}}
+pair X = (0, 0);
+pair W = (0, 4);
+pair Y = (8, 0);
+pair Z = (8, 4);
+label("$X$", X, dir(180));
+label("$W$", W, dir(180));
+label("$Y$", Y, dir(0));
+label("$Z$", Z, dir(0));
+
+draw(W--X--Y--Z--cycle);
+dot(X);
+dot(Y);
+dot(W);
+dot(Z);
+pair M = (2, 0);
+pair A = (8, 3);
+label("$A$", A, dir(0));
+dot(M);
+dot(A);
+draw(W--M--A--cycle);
+markscalefactor = 0.05;
+draw(rightanglemark(W, M, A));
+label("$M$", M, dir(-90));

@@ -18,12 +18,15 @@ size(8cm);
 
 import olympiad;
 import cse5;
-defaultpen(fontsize(12)+0.85); size(150);
-real h=2.25;
-pair C=origin,B=(0,h),A=(1,h),D=(1,0),Dp=reflect(A,C)*D,Bp=reflect(A,C)*B;
-pair L=extension(A,Dp,B,C),R=extension(Bp,C,A,D);
-draw(L--B--A--Dp--C--Bp--A);
-draw(C--D--R);
-draw(L--C^^R--A,dashed+0.6);
-draw(A--C,black+0.6);
-dot("$C$",C,2*dir(C-R)); dot("$A$",A,1.5*dir(A-L)); dot("$B$",B,dir(B-R));
+size(6cm);
+for (int i=0; i<9; ++i) {
+draw((i,0)--(i,3),dotted);
+}
+for (int i=0; i<4; ++i){
+draw((0,i)--(8,i),dotted);
+}
+for (int i=0; i<8; ++i) {
+for (int j=0; j<3; ++j) {
+if (j==1) {
+label("1",(i+0.5,1.5));
+}}}

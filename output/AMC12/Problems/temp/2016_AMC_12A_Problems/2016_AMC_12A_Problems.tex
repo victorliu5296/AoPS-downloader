@@ -32,28 +32,28 @@
 $\textbf{(A)}\ 99\qquad\textbf{(B)}\ 100\qquad\textbf{(C)}\ 110\qquad\textbf{(D)}\ 121\qquad\textbf{(E)}\ 132$\par \vspace{0.5em}\item For what value of $x$ does $10^x \cdot 100^{2x} = 1000^5$?
 
 $\textbf{(A)}\ 1\qquad\textbf{(B)}\ 2\qquad\textbf{(C)}\ 3\qquad\textbf{(D)}\ 4\qquad\textbf{(E)}\ 5$\par \vspace{0.5em}\item The remainder can be defined for all real numbers $x$ and $y$ with $y \neq 0$ by 
-\begin\{equation*\}
-\text\{rem\} (x ,y)=x-y\left \lfloor \frac\{x\}\{y\} \right \rfloor
-\end\{equation*\}
+\begin{equation*}
+\text{rem} (x ,y)=x-y\left \lfloor \frac{x}{y} \right \rfloor
+\end{equation*}
 where $\left \lfloor \tfrac{x}{y} \right \rfloor$ denotes the greatest integer less than or equal to $\tfrac{x}{y}$. What is the value of $\text{rem} (\tfrac{3}{8}, -\tfrac{2}{5} )$?
 
 $\textbf{(A) } -\frac{3}{8} \qquad \textbf{(B) } -\frac{1}{40} \qquad \textbf{(C) } 0 \qquad \textbf{(D) } \frac{3}{8} \qquad \textbf{(E) } \frac{31}{40}$\par \vspace{0.5em}\item The mean, median, and mode of the $7$ data values $60, 100, x, 40, 50, 200, 90$ are all equal to $x$. What is the value of $x$?
 
 $\textbf{(A)}\ 50\qquad\textbf{(B)}\ 60\qquad\textbf{(C)}\ 75\qquad\textbf{(D)}\ 90\qquad\textbf{(E)}\ 100$\par \vspace{0.5em}\item Goldbach's conjecture states that every even integer greater than 2 can be written as the sum of two prime numbers (for example, $2016=13+2003$). So far, no one has been able to prove that the conjecture is true, and no one has found a counterexample to show that the conjecture is false. What would a counterexample consist of?
 
-\$ \textbf\{(A)\}\ \text\{an odd integer greater than \} 2 \text\{ that can be written as the sum of two prime numbers\}\\
-\qquad\textbf\{(B)\}\ \text\{an odd integer greater than \} 2 \text\{ that cannot be written as the sum of two prime numbers\}\\
-\qquad\textbf\{(C)\}\ \text\{an even integer greater than \} 2 \text\{ that can be written as the sum of two numbers that are not prime\}\\
-\qquad\textbf\{(D)\}\ \text\{an even integer greater than \} 2 \text\{ that can be written as the sum of two prime numbers\}\\
-\qquad\textbf\{(E)\}\ \text\{an even integer greater than \} 2 \text\{ that cannot be written as the sum of two prime numbers\}\$\par \vspace{0.5em}\item A triangular array of $2016$ coins has $1$ coin in the first row, $2$ coins in the second row, $3$ coins in the third row, and so on up to $N$ coins in the $N$th row. What is the sum of the digits of $N$ ?
+$ \textbf{(A)}\ \text{an odd integer greater than } 2 \text{ that can be written as the sum of two prime numbers}\\
+\qquad\textbf{(B)}\ \text{an odd integer greater than } 2 \text{ that cannot be written as the sum of two prime numbers}\\
+\qquad\textbf{(C)}\ \text{an even integer greater than } 2 \text{ that can be written as the sum of two numbers that are not prime}\\
+\qquad\textbf{(D)}\ \text{an even integer greater than } 2 \text{ that can be written as the sum of two prime numbers}\\
+\qquad\textbf{(E)}\ \text{an even integer greater than } 2 \text{ that cannot be written as the sum of two prime numbers}$\par \vspace{0.5em}\item A triangular array of $2016$ coins has $1$ coin in the first row, $2$ coins in the second row, $3$ coins in the third row, and so on up to $N$ coins in the $N$th row. What is the sum of the digits of $N$ ?
 
 $\textbf{(A)}\ 6\qquad\textbf{(B)}\ 7\qquad\textbf{(C)}\ 8\qquad\textbf{(D)}\ 9\qquad\textbf{(E)}\ 10$\par \vspace{0.5em}\item Which of these describes the graph of $x^2(x+y+1)=y^2(x+y+1)$ ?
 
-\$ \textbf\{(A)\}\ \text\{two parallel lines\}\\
-\qquad\textbf\{(B)\}\ \text\{two intersecting lines\}\\
-\qquad\textbf\{(C)\}\ \text\{three lines that all pass through a common point\}\\
-\qquad\textbf\{(D)\}\ \text\{three lines that do not all pass through a common point\}\\
-\qquad\textbf\{(E)\}\ \text\{a line and a parabola\}\$\par \vspace{0.5em}\item What is the area of the shaded region of the given $8\times 5$ rectangle?
+$ \textbf{(A)}\ \text{two parallel lines}\\
+\qquad\textbf{(B)}\ \text{two intersecting lines}\\
+\qquad\textbf{(C)}\ \text{three lines that all pass through a common point}\\
+\qquad\textbf{(D)}\ \text{three lines that do not all pass through a common point}\\
+\qquad\textbf{(E)}\ \text{a line and a parabola}$\par \vspace{0.5em}\item What is the area of the shaded region of the given $8\times 5$ rectangle?
 
 
 \begin{center}
@@ -110,7 +110,7 @@ $\textbf{(A)}\ 16\qquad\textbf{(B)}\ 25\qquad\textbf{(C)}\ 36\qquad\textbf{(D)}\
 import olympiad;
 import cse5;
 pair A = (0,0), B=(6,0), C=intersectionpoints(Circle(A,8),Circle(B,7))[0], F=incenter(A,B,C), D=extension(A,F,B,C),E=extension(B,F,A,C);
-draw(A--B--C--A--D\^\^B--E);
+draw(A--B--C--A--D^^B--E);
 label("$A$",A,SW);
 label("$B$",B,SE);
 label("$C$",C,N);

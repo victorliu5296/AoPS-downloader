@@ -262,534 +262,62 @@ LaTeX Warning: No \author given.
 
 
 [1{C:/Users/DefaultUser/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-[2]
 (C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd)
-! Missing \endcsname inserted.
+[2]
+! Missing { inserted.
 <to be read again> 
-                   \protect 
-l.75 \begin\{
-             equation*\}
-! Missing \endcsname inserted.
+                   }
+l.58 ... \qquad\textbf\{(C)\}\; 2\pi-\dfrac\{\sqrt
+                                                  \{2\}\}\{2\} \qquad\textbf...
+
+! Missing { inserted.
 <to be read again> 
-                   \protect 
-l.75 \begin\{
-             equation*\}
+                   }
+l.58 ... \qquad\textbf\{(E)\}\; 2\pi-\dfrac\{\sqrt
+                                                  \{3\}\}\{2\}$\par \vspace{...
 
-! LaTeX Error: Environment \{ undefined.
+! Missing } inserted.
+<inserted text> 
+                }
+l.58 ...f\{(E)\}\; 2\pi-\dfrac\{\sqrt\{3\}\}\{2\}$
+                                                  \par \vspace{0.5em}\item A...
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.75 \begin\{
-             equation*\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.76 f(i,j) = \begin\{
-                      cases\}\text\{mod\}\_5 (j+1) \& \text\{ if \} i = 0 \t...
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.76 f(i,j) = \begin\{
-                      cases\}\text\{mod\}\_5 (j+1) \& \text\{ if \} i = 0 \t...
-
-
-! LaTeX Error: Environment \{ undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.76 f(i,j) = \begin\{
-                      cases\}\text\{mod\}\_5 (j+1) \& \text\{ if \} i = 0 \t...
+! Missing } inserted.
+<inserted text> 
+                }
+l.58 ...f\{(E)\}\; 2\pi-\dfrac\{\sqrt\{3\}\}\{2\}$
+                                                  \par \vspace{0.5em}\item A...
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76 ...& \text\{ if \} i = 0 \text\{ and \} 0 \le
-                                                   j \le 4 \text\{,\}\\
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.79 \end\{
-           cases\}
-(That makes 100 errors; please try again.)
-!  ==> Fatal error occurred, no output PDF file produced!
+l.74 <cmath>f(i,j) = \begin{cases}
+                                  \text{mod}_5 (j+1) & \text{ if } i = 0 \te...
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.77 \end{cases}
+                </cmath>
+
+[3]
+[4] (2015_AMC_12B_Problems.aux) )
+(see the transcript file for additional information)<C:/Users/DefaultUser/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/D
+efaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.
+pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmex10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/DefaultUser/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Defaul
+tUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
+:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmr17.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr5.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/DefaultUser/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/DefaultUser/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/De
+faultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msa
+m10.pfb>
+Output written on 2015_AMC_12B_Problems.pdf (4 pages, 167194 bytes).
 Transcript written on 2015_AMC_12B_Problems.log.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  23 JAN 2025 22:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  23 JAN 2025 23:23
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -867,857 +867,816 @@ So I shall assume that you typed `$$' both times.
 
 
 [5]
-! Missing \endcsname inserted.
-<to be read again> 
-                   \global 
-l.158 \begin\{
-              equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \global 
-l.158 \begin\{
-              equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-! LaTeX Error: Environment \{ undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.158 \begin\{
-              equation*\}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
-58.
-(C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
-File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 158.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.159 \log
-          \_\{\sqrt\{2\}\}\sqrt\{x\}+\log\_\{2\}\{x\}+\log\_\{4\}\{x\^2\}+\l...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 159.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.159 ...t\{x\}+\log\_\{2\}\{x\}+\log\_\{4\}\{x\^2
-                                                  \}+\log\_\{8\}\{x\^3\}+\lo...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 159.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.159 ...x\}+\log\_\{4\}\{x\^2\}+\log\_\{8\}\{x\^3
-                                                  \}+\log\_\{16\}\{x\^4\}=40?
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 159.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.159 ...\}+\log\_\{8\}\{x\^3\}+\log\_\{16\}\{x\^4
-                                                  \}=40?
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
+[6]
+Overfull \hbox (2.13248pt too wide) in paragraph at lines 191--192
+[]\OT1/cmr/m/n/10 Monic quadratic poly-no-mi-als $\OML/cmm/m/it/10 P\OT1/cmr/m/
+n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ and $\OML/cmm/m/it/10 Q\OT1/cmr/m/n/
+10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ have the prop-erty that $\OML/cmm/m/it
+/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1
+/cmr/m/n/10 ))$ has ze-ros at $\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 = \OMS/cmsy/m
+/n/10 ^^@\OT1/cmr/m/n/10 23\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/
+10 21\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 17\OML/cmm/m/it/10 
+;$
+ []
+
+
+
+[7]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-3.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-3.pdf' no
+t found on input line 229.
+
+
+
+[8]
+
+[9]
+
+[10]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-4.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-4.pdf' no
+t found on input line 437.
+
+
+
+[11]
+
+[12]
+
+[13]
+
+[14]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-5.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-5.pdf' no
+t found on input line 548.
+
+
+
+[15]
+
+[16]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-6.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-6.pdf' no
+t found on input line 628.
+
+
+
+[17]
+Overfull \hbox (9.60666pt too wide) in paragraph at lines 681--688
+[]\OT1/cmr/m/n/10 label("$\OML/cmm/m/it/10 P[]$\OT1/cmr/m/n/10 ", P[1], dir(P[1
+])); label("$\OML/cmm/m/it/10 P[]$\OT1/cmr/m/n/10 ", P[2], dir(P[2])); label("$
+\OML/cmm/m/it/10 P[]$\OT1/cmr/m/n/10 ", P[3], dir(-45)); label("$\OML/cmm/m/it/
+10 P[]$\OT1/cmr/m/n/10 ", P[4], dir(P[4]));
+ []
+
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-7.asy'.
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-7.pdf' no
+t found on input line 712.
+
+
+
+[18]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-8.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-8.pdf' no
+t found on input line 764.
+
+
+
+[19]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-9.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-9.pdf' no
+t found on input line 814.
+
+! Display math should end with $$.
 <to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
+                   ,
+l.827 ...venly. During their trip Tom paid $$105$,
+                                                   Dorothy paid $$125$, and ...
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Display math should end with $$.
 <to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
+                   ,
+l.827 ...rip Tom paid $$105$, Dorothy paid $$125$,
+                                                   and Sammy paid $$175$. In...
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Display math should end with $$.
 <to be read again> 
-                   \delimiter 
-l.160 \end\{
-            equation*\}
-(That makes 100 errors; please try again.) 
+                   .
+l.827 ...rothy paid $$125$, and Sammy paid $$175$.
+                                                   In order to share the cos...
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-10.asy'.
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-10.pdf' n
+ot found on input line 862.
+
+
+
+[20]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-11.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-11.pdf' n
+ot found on input line 892.
+
+
+
+[21]
+Overfull \hbox (49.1192pt too wide) in paragraph at lines 924--928
+[]$[] \OT1/cmr/m/n/10 ([] 2016\OML/cmm/m/it/10 ; [] \OT1/cmr/m/n/10 2017)$ $[] 
+([] 2017\OML/cmm/m/it/10 ; [] \OT1/cmr/m/n/10 2018)$ $[] ([] 2018\OML/cmm/m/it/
+10 ; [] \OT1/cmr/m/n/10 2019)$ $[] ([] 2019\OML/cmm/m/it/10 ; [] \OT1/cmr/m/n/1
+0 2020)$ $[] ([] 2020\OML/cmm/m/it/10 ; [] \OT1/cmr/m/n/10 2021)$ 
+ []
+
+
+
+[22]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-12.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-12.pdf' n
+ot found on input line 1003.
+
+
+
+[23]
+Overfull \hbox (4.1215pt too wide) in paragraph at lines 1041--1042
+[]\OT1/cmr/m/n/10 For $135[] \OML/cmm/m/it/10 < x < \OT1/cmr/m/n/10 180[]$, poi
+nts $\OML/cmm/m/it/10 P \OT1/cmr/m/n/10 = ([] \OML/cmm/m/it/10 x; [][] x\OT1/cm
+r/m/n/10 )\OML/cmm/m/it/10 ; Q \OT1/cmr/m/n/10 = ([] \OML/cmm/m/it/10 x; [][] x
+\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; R \OT1/cmr/m/n/10 = ([] \OML/cmm/m/it/10 x;
+ [][] x\OT1/cmr/m/n/10 )$ and $\OML/cmm/m/it/10 S \OT1/cmr/m/n/10 = ([] \OML/cm
+m/m/it/10 x; [][] x\OT1/cmr/m/n/10 )$
+ []
+
+
+
+[24]
+
+[25]
+
+[26]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-13.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-13.pdf' n
+ot found on input line 1172.
+
+
+
+[27]
+
+[28]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-14.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-14.pdf' n
+ot found on input line 1265.
+
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-15.asy'.
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-15.pdf' n
+ot found on input line 1291.
+
+
+
+[29]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-16.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-16.pdf' n
+ot found on input line 1346.
+
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-17.asy'.
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-17.pdf' n
+ot found on input line 1367.
+
+
+
+[30]
+
+[31]
+
+[32]
+
+[33]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-18.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-18.pdf' n
+ot found on input line 1506.
+
+
+
+[34]
+
+[35]
+
+[36]
+
+[37]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-19.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-19.pdf' n
+ot found on input line 1625.
+
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-20.asy'.
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-20.pdf' n
+ot found on input line 1643.
+
+
+
+[38]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-21.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-21.pdf' n
+ot found on input line 1666.
+
+
+
+[39]
+
+[40]
+
+[41]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-22.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-22.pdf' n
+ot found on input line 1796.
+
+
+
+[42]
+
+[43]
+
+[44]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-23.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-23.pdf' n
+ot found on input line 1882.
+
+
+
+[45]
+
+[46]
+
+[47]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-24.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-24.pdf' n
+ot found on input line 1967.
+
+
+
+[48]
+
+[49]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-25.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-25.pdf' n
+ot found on input line 2046.
+
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-26.asy'.
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-26.pdf' n
+ot found on input line 2082.
+
+
+
+[50]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-27.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-27.pdf' n
+ot found on input line 2137.
+
+
+
+[51]
+
+[52]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-28.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-28.pdf' n
+ot found on input line 2267.
+
+
+
+[53]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-29.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-29.pdf' n
+ot found on input line 2300.
+
+
+Overfull \hbox (19.75526pt too wide) in paragraph at lines 2334--2335
+[]\OT1/cmr/m/n/10 Consider poly-no-mi-als $\OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (\
+OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ of de-gree at most $3$, each of whose co-ef
+-fi-cients is an el-e-ment of $\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 0\OML/cmm/m/it
+/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \
+OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr
+/m/n/10 5\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10
+ 7\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 8\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 9\OMS/
+cmsy/m/n/10 g$\OT1/cmr/m/n/10 .
+ []
+
+
+
+[54]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-30.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-30.pdf' n
+ot found on input line 2369.
+
+
+
+[55]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-31.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-31.pdf' n
+ot found on input line 2406.
+
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-32.asy'.
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-32.pdf' n
+ot found on input line 2434.
+
+
+
+[56]
+
+[57]
+
+[58]
+Overfull \hbox (4.18251pt too wide) in paragraph at lines 2545--2547
+[]\OT1/cmr/m/n/10 For how many in-te-gral val-ues of $\OML/cmm/m/it/10 x$ \OT1/
+cmr/m/n/10 can a tri-an-gle of pos-i-tive area be formed hav-ing side lengths $
+[][] \OML/cmm/m/it/10 x; [][] x; \OT1/cmr/m/n/10 3$? 
+ []
+
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-33.asy'.
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-33.pdf' n
+ot found on input line 2576.
+
+
+
+[59]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-34.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-34.pdf' n
+ot found on input line 2619.
+
+! Undefined control sequence.
+<recently read> \overarc 
+                         
+l.2627 ...ree semicircles of radius $1,$ $\overarc
+                                                  {AEB},$ $\overarc{BFC},$ a...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \overarc 
+                         
+l.2627 ...f radius $1,$ $\overarc{AEB},$ $\overarc
+                                                  {BFC},$ and $\overarc{CGD}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \overarc 
+                         
+l.2627 ...rc{AEB},$ $\overarc{BFC},$ and $\overarc
+                                                  {CGD},$ have their diamete...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-35.asy'.
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-35.pdf' n
+ot found on input line 2658.
+
+
+
+[60]
+Overfull \hbox (11.61688pt too wide) in paragraph at lines 2691--2692
+[]\OT1/cmr/m/n/10 Let $\OML/cmm/m/it/10 ABCD$ \OT1/cmr/m/n/10 be a con-vex quad
+ri-lat-eral with $\OML/cmm/m/it/10 BC \OT1/cmr/m/n/10 = 2$ and $\OML/cmm/m/it/1
+0 CD \OT1/cmr/m/n/10 = 6\OML/cmm/m/it/10 :$ \OT1/cmr/m/n/10 Sup-pose that the c
+en-troids of $\OMS/cmsy/m/n/10 4\OML/cmm/m/it/10 ABC; \OMS/cmsy/m/n/10 4\OML/cm
+m/m/it/10 BCD;$
+ []
+
+
+
+[61]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-36.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-36.pdf' n
+ot found on input line 2730.
+
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-37.asy'.
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-37.pdf' n
+ot found on input line 2768.
+
+
+
+[62]
+Overfull \hbox (36.31343pt too wide) in paragraph at lines 2802--2803
+[]\OT1/cmr/m/n/10 A point is cho-sen at ran-dom within the square in the co-or-
+di-nate plane whose ver-tices are $(0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)\OML/
+cmm/m/it/10 ; \OT1/cmr/m/n/10 (2020\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)\OML/cm
+m/m/it/10 ; \OT1/cmr/m/n/10 (2020\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2020)\OML/c
+mm/m/it/10 ;$
+ []
+
+
+
+[63]
+
+[64]
+Overfull \hbox (55.70288pt too wide) in paragraph at lines 2862--2862
+[]$[][] [][] [][] [][] [][]$ 
+ []
+
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-38.asy'.
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-38.pdf' n
+ot found on input line 2879.
+
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-39.asy'.
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-39.pdf' n
+ot found on input line 2908.
+
+
+
+[65]
+Overfull \hbox (343.0438pt too wide) in paragraph at lines 2918--2919
+[]$[][] [][] [][]\OML/cmm/m/it/10 n[]$ $[][]n[] [][]n >
+ []
+
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-40.asy'.
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-40.pdf' n
+ot found on input line 2962.
+
+
+
+[66]
+
+[67]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-41.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-41.pdf' n
+ot found on input line 3048.
+
+
+Overfull \hbox (2.63278pt too wide) in paragraph at lines 3056--3057
+[]\OT1/cmr/m/n/10 A right rect-an-gu-lar prism whose sur-face area and vol-ume 
+are nu-mer-i-cally equal has edge lengths $[][] \OML/cmm/m/it/10 x; [][] x;$
+ []
+
+
+Overfull \hbox (26.83333pt too wide) in paragraph at lines 3062--3063
+[]\OT1/cmr/m/n/10 What is the num-ber of terms with ra-tio-nal co-ef-fi-cients 
+among the $1001$ terms in the ex-pan-sion of $[][]?$ 
+ []
+
+
+
+[68]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-42.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-42.pdf' n
+ot found on input line 3088.
+
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-43.asy'.
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-43.pdf' n
+ot found on input line 3150.
+
+
+
+[69]
+
+[70]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-44.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-44.pdf' n
+ot found on input line 3197.
+
+
+
+[71]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-45.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-45.pdf' n
+ot found on input line 3283.
+
+
+
+[72]
+
+[73]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-46.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-46.pdf' n
+ot found on input line 3360.
+
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-47.asy'.
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-47.pdf' n
+ot found on input line 3384.
+
+
+
+[74]
+
+[75]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-48.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-48.pdf' n
+ot found on input line 3482.
+
+
+
+[76]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-49.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-49.pdf' n
+ot found on input line 3537.
+
+
+Overfull \hbox (10.74466pt too wide) in paragraph at lines 3567--3568
+[]$[] [] [] [] [] [] $ 
+ []
+
+
+
+[77]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-50.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-50.pdf' n
+ot found on input line 3604.
+
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-51.asy'.
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-51.pdf' n
+ot found on input line 3683.
+
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-52.asy'.
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-52.pdf' n
+ot found on input line 3721.
+
+
+
+[78]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-53.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-53.pdf' n
+ot found on input line 3765.
+
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-54.asy'.
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-54.pdf' n
+ot found on input line 3785.
+
+
+
+[79]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-55.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-55.pdf' n
+ot found on input line 3830.
+
+
+
+[80]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-56.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-56.pdf' n
+ot found on input line 3885.
+
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-57.asy'.
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-57.pdf' n
+ot found on input line 3920.
+
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-58.asy'.
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-58.pdf' n
+ot found on input line 3956.
+
+
+
+[81]
+
+[82]
+
+[83]
+
+[84]
+
+[85]
+
+[86]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-59.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-59.pdf' n
+ot found on input line 4211.
+
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-60.asy'.
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-60.pdf' n
+ot found on input line 4255.
+
+
+
+[87]
+
+[88]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-61.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-61.pdf' n
+ot found on input line 4333.
+
+
+
+[89]
+\openout4 = `AMC12_Combined_Problems_2010_to_2024-62.asy'.
+
+
+
+Package asymptote Warning: file `AMC12_Combined_Problems_2010_to_2024-62.pdf' n
+ot found on input line 4425.
+
+
+
+[90]
+
+[91] (AMC12_Combined_Problems_2010_to_2024.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-12-25>
+ ***********
+Package rerunfilecheck Info: File `AMC12_Combined_Problems_2010_to_2024.out' ha
+s not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
 Here is how much of TeX's memory you used:
- 21691 strings out of 473536
- 410198 string characters out of 5712052
- 785434 words of memory out of 5000000
- 44504 multiletter control sequences out of 15000+600000
- 568056 words of font info for 71 fonts, out of 8000000 for 9000
+ 22929 strings out of 473536
+ 437634 string characters out of 5712052
+ 791434 words of memory out of 5000000
+ 44853 multiletter control sequences out of 15000+600000
+ 568391 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,107p,702b,586s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,15n,107p,1147b,662s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\DefaultUser\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm1000.pk><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/DefaultUse
+r/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/U
+sers/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mmi5.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmi7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DefaultUser/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/DefaultUser/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Defau
+ltUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C
+:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmsy5.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/DefaultUser/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/DefaultUser/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:
+/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/sy
+mbols/msbm10.pfb>
+Output written on AMC12_Combined_Problems_2010_to_2024.pdf (91 pages, 678565 by
+tes).
+PDF statistics:
+ 1434 PDF objects out of 1440 (max. 8388607)
+ 872 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-!  ==> Fatal error occurred, no output PDF file produced!

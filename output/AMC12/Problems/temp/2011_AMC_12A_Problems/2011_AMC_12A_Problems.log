@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  23 JAN 2025 22:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  23 JAN 2025 23:20
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -822,59 +822,6 @@ LaTeX Warning: No \author given.
 [1{C:/Users/DefaultUser/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 ]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
-2.
-
-(C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
-File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 32.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.36 \textbf\{(E)\}\ 30.00 \$\par
-                                  \vspace{0.5em}\item There are $5$ coins pl...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.36 \textbf\{(E)\}\ 30.00 \$\par
-                                  \vspace{0.5em}\item There are $5$ coins pl...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (423.593pt too wide) in paragraph at lines 30--36
-\OT1/cmr/m/n/10 minute used over $30$ hours. In Jan-uary Michelle sent $100$ te
-xt mes-sages and talked for $30\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5$\OML/cmm/m/i
-t/10 hours:Howmuchdidshehavetopay\OT1/cmr/m/n/10 ?$[](\OML/cmm/m/it/10 A\OT1/cm
-r/m/n/10 )\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 24\OML/cmm/m/it/10 :\OT1/cmr/m/n/1
-0 00 [](\OML/cmm/m/it/10 B\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 2
-4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 50 [](\OML/cmm/m/it/10 C\OT1/cmr/m/n/10 )\OM
-S/cmsy/m/n/10 g \OT1/cmr/m/n/10 25\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 50 [](\OML/
-cmm/m/it/10 D\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 28\OML/cmm/m/i
-t/10 :\OT1/cmr/m/n/10 00 [](\OML/cmm/m/it/10 E\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10
- g \OT1/cmr/m/n/10 30\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 00$[]$ 
- []
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.36 \textbf\{(E)\}\ 30.00 \$\par
-                                  \vspace{0.5em}\item There are $5$ coins pl...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 \openout4 = `2011_AMC_12A_Problems-1.asy'.
 
 <2011_AMC_12A_Problems-1.pdf, id=14, 100.375pt x 98.22195pt>
@@ -882,401 +829,11 @@ File: 2011_AMC_12A_Problems-1.pdf Graphic file (type pdf)
 <use 2011_AMC_12A_Problems-1.pdf>
 Package pdftex.def Info: 2011_AMC_12A_Problems-1.pdf  used on input line 49.
 (pdftex.def)             Requested size: 100.37474pt x 98.2217pt.
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.68 \textbf\{(B)\}\ \frac\{3
-                             7\}\{3\} \qquad
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\frac  #1#2->{\begingroup #1\endgroup \@@over #2}
-                                                 
-l.68 \textbf\{(B)\}\ \frac\{3
-                             7\}\{3\} \qquad
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.71 \textbf\{(E)\}\ 14 \$\par
-                               \vspace{0.5em}\item Last summer $30\%$ of the...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.71 \textbf\{(E)\}\ 14 \$\par
-                               \vspace{0.5em}\item Last summer $30\%$ of the...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.109 \textbf\{(A)\}\ \frac\{1
-                              \}\{36\} \qquad
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\frac  #1#2->{\begingroup #1\endgroup \@@over #2}
-                                                 
-l.109 \textbf\{(A)\}\ \frac\{1
-                              \}\{36\} \qquad
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.113 \textbf\{(E)\}\ \frac\{5\}\{18\} \$\par
-                                              \vspace{0.5em}\item Circles $A...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.113 \textbf\{(E)\}\ \frac\{5\}\{18\} \$\par
-                                              \vspace{0.5em}\item Circles $A...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 
 
 [2 <./2011_AMC_12A_Problems-1.pdf>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.116 \textbf\{(A)\}\ 3 - \frac\{\pi
-                                    \}\{2\} \qquad
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\frac  #1#2->{\begingroup #1\endgroup \@@over #2}
-                                                 
-l.116 \textbf\{(A)\}\ 3 - \frac\{\pi
-                                    \}\{2\} \qquad
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.120 \textbf\{(E)\}\ 1+\frac\{\pi\}\{2\} \$\par
-                                                 \vspace{0.5em}\item A power...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.120 \textbf\{(E)\}\ 1+\frac\{\pi\}\{2\} \$\par
-                                                 \vspace{0.5em}\item A power...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.137 \textbf\{(A)\}\ \frac\{1
-                              1\}\{81\} \qquad
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\frac  #1#2->{\begingroup #1\endgroup \@@over #2}
-                                                 
-l.137 \textbf\{(A)\}\ \frac\{1
-                              1\}\{81\} \qquad
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.141 \textbf\{(E)\}\ \frac\{19\}\{81\} \$\par
-                                               \vspace{0.5em}\item The circu...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.141 \textbf\{(E)\}\ \frac\{19\}\{81\} \$\par
-                                               \vspace{0.5em}\item The circu...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.144 \textbf\{(A)\}\ 3\sqrt\{
-                              2\} \qquad
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.148 \textbf\{(E)\}\ \frac\{13\}\{2\} \$\par
-                                              \vspace{0.5em}\item Each verte...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.148 \textbf\{(E)\}\ \frac\{13\}\{2\} \$\par
-                                              \vspace{0.5em}\item Each verte...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.148 \textbf\{(E)\}\ \frac\{13\}\{2\} \$\par
-                                              \vspace{0.5em}\item Each verte...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.158 \textbf\{(A)\}\ \frac\{3
-                              \}\{5\} \qquad
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\frac  #1#2->{\begingroup #1\endgroup \@@over #2}
-                                                 
-l.158 \textbf\{(A)\}\ \frac\{3
-                              \}\{5\} \qquad
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.162 \textbf\{(E)\}\ \frac\{4\}\{3\} \$\par
-                                             \vspace{0.5em}\item Suppose tha...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.162 \textbf\{(E)\}\ \frac\{4\}\{3\} \$\par
-                                             \vspace{0.5em}\item Suppose tha...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
 
 [3]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.201 \textbf\{(B)\}\ \sqrt\{
-                             2\}-1 \qquad
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.204 \textbf\{(E)\}\ 2 \$\par
-                               \vspace{0.5em}\item Consider all quadrilatera...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.204 \textbf\{(E)\}\ 2 \$\par
-                               \vspace{0.5em}\item Consider all quadrilatera...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.204 \textbf\{(E)\}\ 2 \$\par
-                               \vspace{0.5em}\item Consider all quadrilatera...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.207 \textbf\{(A)\}\ \sqrt\{
-                             15\} \qquad
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.211 \textbf\{(E)\}\ 2\sqrt\{7\} \$\par
-                                         \vspace{0.5em}\item Triangle $ABC$ ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.211 \textbf\{(E)\}\ 2\sqrt\{7\} \$\par
-                                         \vspace{0.5em}\item Triangle $ABC$ ...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.211 \textbf\{(E)\}\ 2\sqrt\{7\} \$\par
-                                         \vspace{0.5em}\item Triangle $ABC$ ...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.214 \textbf\{(A)\}\ 60\^\{\circ
-                                 \} \qquad
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 215.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.215 \textbf\{(B)\}\ 72\^\{
-                            \circ\} \qquad
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 216.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.216 \textbf\{(C)\}\ 75\^\{
-                            \circ\} \qquad
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 217.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.217 \textbf\{(D)\}\ 80\^\{
-                            \circ\} \qquad
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 218.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.218 \textbf\{(E)\}\ 90\^\{
-                            \circ\} \$\par \vspace{0.5em}\end{enumerate}
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.218 \textbf\{(E)\}\ 90\^\{\circ\} \$\par
-                                           \vspace{0.5em}\end{enumerate}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.218 \textbf\{(E)\}\ 90\^\{\circ\} \$\par
-                                           \vspace{0.5em}\end{enumerate}
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.218 \textbf\{(E)\}\ 90\^\{\circ\} \$\par
-                                           \vspace{0.5em}\end{enumerate}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
 
 [4] (2011_AMC_12A_Problems.aux)
  ***********
@@ -1287,38 +844,31 @@ Package rerunfilecheck Info: File `2011_AMC_12A_Problems.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21549 strings out of 473536
- 403105 string characters out of 5712052
- 787276 words of memory out of 5000000
- 44374 multiletter control sequences out of 15000+600000
- 568114 words of font info for 72 fonts, out of 8000000 for 9000
+ 21516 strings out of 473536
+ 402562 string characters out of 5712052
+ 788276 words of memory out of 5000000
+ 44348 multiletter control sequences out of 15000+600000
+ 567012 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,11n,107p,569b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\DefaultUser\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\tcrm1000.pk><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmbsy10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb><C:/Users/DefaultUser/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Defa
-ultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmex10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmmi10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/DefaultUser/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/DefaultUse
-r/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Us
-ers/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-r10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmr17.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/DefaultUser/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/DefaultUser/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Defaul
-tUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C
-:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmsy7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/symbols/msam10.pfb>
-Output written on 2011_AMC_12A_Problems.pdf (4 pages, 202328 bytes).
+ 102i,11n,107p,562b,588s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/DefaultUser/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/DefaultU
+ser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/
+Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmr17.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/DefaultUser/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/DefaultUser/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Defa
+ultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+<C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/symbols/msam10.pfb>
+Output written on 2011_AMC_12A_Problems.pdf (4 pages, 158110 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
+ 125 PDF objects out of 1000 (max. 8388607)
  31 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

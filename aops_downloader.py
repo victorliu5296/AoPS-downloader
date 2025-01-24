@@ -1,3 +1,4 @@
+import html
 import requests
 from bs4 import BeautifulSoup
 import subprocess
@@ -155,7 +156,7 @@ async def async_download_wiki_page(session, year, contest_type, contest_variant=
     cache_filename = get_cache_filename(title)
 
     if use_cache and os.path.exists(cache_filename):
-        print(f"Using cached version for: {title}")
+        print(f"Using cached wiki page for: {title}")
         with open(cache_filename, "r", encoding="utf-8") as f:
             return title, f.read()
 
@@ -345,8 +346,6 @@ def process_problem_content(problem):
                 return f'\n\\begin{{center}}\n\\begin{{asy}}\nimport olympiad;\nimport cse5;\n{asy_code}\n\\end{{asy}}\n\\end{{center}}\n'
         return None
 
-    problem = re.sub(r'<math>(.*?)</math>', r'$\1$', problem, flags=re.DOTALL)
-
     def replace_cmath(match):
         cmath_content = match.group(1)
         # Check for multi-line environments like align*, gather*, etc.
@@ -374,6 +373,9 @@ def process_problem_content(problem):
         for pattern in inline_math_patterns:
             cleaned_content = re.sub(pattern, r'\1', cleaned_content, flags=re.DOTALL | re.IGNORECASE)
         return f'\n\\begin{{equation*}}\n{cleaned_content.strip()}\n\\end{{equation*}}\n'
+
+    problem = html.unescape(problem)
+    problem = re.sub(r'<math>(.*?)</math>', r'\\(\1\\)', problem, flags=re.DOTALL)
 
     problem = re.sub(r'<cmath>(.*?)</cmath>', replace_cmath, problem, flags=re.DOTALL)
 

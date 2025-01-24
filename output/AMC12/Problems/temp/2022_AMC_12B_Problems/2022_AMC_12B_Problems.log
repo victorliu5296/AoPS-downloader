@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  23 JAN 2025 22:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  23 JAN 2025 23:21
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -822,824 +822,100 @@ LaTeX Warning: No \author given.
 [1{C:/Users/DefaultUser/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 ]
-! Missing \endcsname inserted.
-<to be read again> 
-                   \global 
-l.31 \begin\{
-             equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \global 
-l.31 \begin\{
-             equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-! LaTeX Error: Environment \{ undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 \begin\{
-             equation*\}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
-1.
-(C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
-File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 31.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.32 (1\diamond
-               (2\diamond3))-((1\diamond2)\diamond3)?
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \delimiter 
-l.33 \end\{
-           equation*\}
-(That makes 100 errors; please try again.) 
+\openout4 = `2022_AMC_12B_Problems-1.asy'.
+
+<2022_AMC_12B_Problems-1.pdf, id=14, 180.675pt x 111.21751pt>
+File: 2022_AMC_12B_Problems-1.pdf Graphic file (type pdf)
+<use 2022_AMC_12B_Problems-1.pdf>
+Package pdftex.def Info: 2022_AMC_12B_Problems-1.pdf  used on input line 58.
+(pdftex.def)             Requested size: 180.67455pt x 111.21722pt.
+
+Overfull \hbox (10.74466pt too wide) in paragraph at lines 88--89
+[]$[] [] [] [] [] [] $ 
+ []
+
+
+
+[2 <./2022_AMC_12B_Problems-1.pdf>]
+\openout4 = `2022_AMC_12B_Problems-2.asy'.
+
+<2022_AMC_12B_Problems-2.pdf, id=43, 142.26349pt x 127.78139pt>
+File: 2022_AMC_12B_Problems-2.pdf Graphic file (type pdf)
+<use 2022_AMC_12B_Problems-2.pdf>
+Package pdftex.def Info: 2022_AMC_12B_Problems-2.pdf  used on input line 125.
+(pdftex.def)             Requested size: 142.26312pt x 127.78107pt.
+
+
+[3 <./2022_AMC_12B_Problems-2.pdf>]
+\openout4 = `2022_AMC_12B_Problems-3.asy'.
+
+<2022_AMC_12B_Problems-3.pdf, id=71, 239.50479pt x 108.34879pt>
+File: 2022_AMC_12B_Problems-3.pdf Graphic file (type pdf)
+<use 2022_AMC_12B_Problems-3.pdf>
+Package pdftex.def Info: 2022_AMC_12B_Problems-3.pdf  used on input line 204.
+(pdftex.def)             Requested size: 239.5042pt x 108.34851pt.
+\openout4 = `2022_AMC_12B_Problems-4.asy'.
+
+<2022_AMC_12B_Problems-4.pdf, id=72, 239.50479pt x 108.34879pt>
+File: 2022_AMC_12B_Problems-4.pdf Graphic file (type pdf)
+<use 2022_AMC_12B_Problems-4.pdf>
+Package pdftex.def Info: 2022_AMC_12B_Problems-4.pdf  used on input line 242.
+(pdftex.def)             Requested size: 239.5042pt x 108.34851pt.
+
+
+[4 <./2022_AMC_12B_Problems-3.pdf> <./2022_AMC_12B_Problems-4.pdf>]
+\openout4 = `2022_AMC_12B_Problems-5.asy'.
+
+<2022_AMC_12B_Problems-5.pdf, id=98, 173.98pt x 172.22343pt>
+File: 2022_AMC_12B_Problems-5.pdf Graphic file (type pdf)
+<use 2022_AMC_12B_Problems-5.pdf>
+Package pdftex.def Info: 2022_AMC_12B_Problems-5.pdf  used on input line 286.
+(pdftex.def)             Requested size: 173.97955pt x 172.223pt.
+\openout4 = `2022_AMC_12B_Problems-6.asy'.
+
+<2022_AMC_12B_Problems-6.pdf, id=99, 212.34332pt x 212.34332pt>
+File: 2022_AMC_12B_Problems-6.pdf Graphic file (type pdf)
+<use 2022_AMC_12B_Problems-6.pdf>
+Package pdftex.def Info: 2022_AMC_12B_Problems-6.pdf  used on input line 306.
+(pdftex.def)             Requested size: 212.34279pt x 212.34279pt.
+
+
+[5 <./2022_AMC_12B_Problems-5.pdf> <./2022_AMC_12B_Problems-6.pdf>]
+(2022_AMC_12B_Problems.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-12-25>
+ ***********
+Package rerunfilecheck Info: File `2022_AMC_12B_Problems.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
 Here is how much of TeX's memory you used:
- 21495 strings out of 473536
- 402401 string characters out of 5712052
- 766276 words of memory out of 5000000
- 44359 multiletter control sequences out of 15000+600000
- 566393 words of font info for 66 fonts, out of 8000000 for 9000
+ 21568 strings out of 473536
+ 404365 string characters out of 5712052
+ 783276 words of memory out of 5000000
+ 44394 multiletter control sequences out of 15000+600000
+ 567012 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,11n,107p,425b,444s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,11n,107p,737b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/DefaultUser/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Default
+User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:
+/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/DefaultUser/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/DefaultUser/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Defa
+ultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmsy7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/symbols/msam10.pfb>
+Output written on 2022_AMC_12B_Problems.pdf (5 pages, 182849 bytes).
+PDF statistics:
+ 168 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-!  ==> Fatal error occurred, no output PDF file produced!

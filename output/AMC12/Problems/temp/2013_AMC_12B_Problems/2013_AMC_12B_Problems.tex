@@ -70,22 +70,22 @@ label("$C$",C,E);
 label("$D$",D,N);
 label("$E$",E,W);
 guide squiggly(path g, real stepsize, real slope=45)
-\{
+{
  real len = arclength(g);
  real step = len / round(len / stepsize);
  guide squig;
- for (real u = 0; u < len; u += step)\{
+ for (real u = 0; u < len; u += step){
  real a = arctime(g, u);
  real b = arctime(g, u + step / 2);
  pair p = point(g, a);
  pair q = point(g, b);
  pair np = unit( rotate(slope) * dir(g,a));
  pair nq = unit( rotate(0 - slope) * dir(g,b));
- squig = squig .. p\{np\} .. q\{nq\};
- \}
- squig = squig .. point(g, length(g))\{unit(rotate(slope)*dir(g,length(g)))\};
+ squig = squig .. p{np} .. q{nq};
+ }
+ squig = squig .. point(g, length(g)){unit(rotate(slope)*dir(g,length(g)))};
  return squig;
-\}
+}
 pen pp = defaultpen + 2.718;
 draw(squiggly(A--B, 4.04, 30), pp);
 draw(squiggly(A--D, 7.777, 20), pp);
@@ -108,14 +108,14 @@ $\textbf{(A)}\ 1 \qquad \textbf{(B)}\ 2 \qquad \textbf{(C)}\ 3 \qquad \textbf{(D
 $\textbf{(A)}\ 0 \qquad \textbf{(B)}\ \frac{1}{2} \qquad \textbf{(C)}\ \frac{\sqrt{5}-1}{2} \qquad \textbf{(D)}\  \frac{\sqrt{5}+1}{2} \qquad \textbf{(E)}\ \sqrt{5}$\par \vspace{0.5em}\item Let $a,b,$ and $c$ be real numbers such that 
 
 
-\begin\{equation*\}
-a+b+c=2, \text\{ and\}
-\end\{equation*\}
+\begin{equation*}
+a+b+c=2, \text{ and}
+\end{equation*}
 
 
-\begin\{equation*\}
-a\^2+b\^2+c\^2=12
-\end\{equation*\}
+\begin{equation*}
+a^2+b^2+c^2=12
+\end{equation*}
 
 
 What is the difference between the maximum and minimum possible values of $c$?
@@ -138,9 +138,9 @@ $ \textbf{(A)}\ 2-2\sqrt{2}\qquad\textbf{(B)} 3\sqrt{3}-6\qquad\textbf{(C)}\ 3\s
 
 $ \textbf{(A)}\ 720\qquad\textbf{(B)}\ 760\qquad\textbf{(C)}\ 810\qquad\textbf{(D)}\ 840\qquad\textbf{(E)}\ 870 $\par \vspace{0.5em}\item Let $m>1$ and $n>1$ be integers. Suppose that the product of the solutions for $x$ of the equation
 
-\begin\{equation*\}
-8(\log\_n x)(\log\_m x)-7\log\_n x-6 \log\_m x-2013 = 0
-\end\{equation*\}
+\begin{equation*}
+8(\log_n x)(\log_m x)-7\log_n x-6 \log_m x-2013 = 0
+\end{equation*}
 
 is the smallest possible integer. What is $m+n$?
 
@@ -150,9 +150,9 @@ $ \textbf{(A)}\ 5\qquad\textbf{(B)}\ 10\qquad\textbf{(C)}\ 15\qquad\textbf{(D)}\
 
 $\textbf{(A)}\  \frac{10-6\sqrt{2}}{7} \qquad \textbf{(B)}\ \frac{2}{9} \qquad \textbf{(C)}\ \frac{5\sqrt{2}-3\sqrt{3}}{8} \qquad \textbf{(D)}\ \frac{\sqrt{2}}{6} \qquad \textbf{(E)}\ \frac{3\sqrt{3}-4}{5}$\par \vspace{0.5em}\item Let $G$ be the set of polynomials of the form
 
-\begin\{equation*\}
-P(z)=z\^n+c\_\{n-1\}z\^\{n-1\}+\cdots+c\_2z\^2+c\_1z+50,
-\end\{equation*\}
+\begin{equation*}
+P(z)=z^n+c_{n-1}z^{n-1}+\cdots+c_2z^2+c_1z+50,
+\end{equation*}
 
 where $ c_1,c_2,\cdots, c_{n-1} $ are integers and $P(z)$ has distinct roots of the form $a+ib$ with $a$ and $b$ integers. How many polynomials are in $G$?
 

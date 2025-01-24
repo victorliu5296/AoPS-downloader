@@ -63,19 +63,19 @@ $\textbf{(A)} \ 4 \qquad \textbf{(B)} \ 5 \qquad \textbf{(C)} \ 6 \qquad \textbf
 $ \textbf {(A) } 35 \qquad \textbf {(B) } 40 \qquad \textbf {(C) } 45 \qquad \textbf {(D) } 50 \qquad \textbf {(E) } 55 $\par \vspace{0.5em}\item A flower bouquet contains pink roses, red roses, pink carnations, and red carnations. One third of the pink flowers are roses, three fourths of the red flowers are carnations, and six tenths of the flowers are pink. What percent of the flowers are carnations?
 
 $ \textbf{(A)}\ 15\qquad\textbf{(B)}\ 30\qquad\textbf{(C)}\ 40\qquad\textbf{(D)}\ 60\qquad\textbf{(E)}\ 70 $\par \vspace{0.5em}\item What is the value of 
-\begin\{equation*\}
-\frac\{2\^\{2014\}+2\^\{2012\}\}\{2\^\{2014\}-2\^\{2012\}\}?
-\end\{equation*\}
+\begin{equation*}
+\frac{2^{2014}+2^{2012}}{2^{2014}-2^{2012}}?
+\end{equation*}
 
 
-$ \textbf{(A)}\ -1\qquad\textbf{(B)}\ 1\qquad\textbf{(C)}\ \frac{5}{3}\qquad\textbf{(D)}\ 2013\qquad\textbf{(E)}\ 2^{4024} $\par \vspace{0.5em}\item Tom, Dorothy, and Sammy went on a vacation and agreed to split the costs evenly. During their trip Tom paid $$105$, Dorothy paid $$125$, and Sammy paid $$175$. In order to share the costs equally, Tom gave Sammy $t$ dollars, and Dorothy gave Sammy $d$ dollars. What is $t-d\$?
+$ \textbf{(A)}\ -1\qquad\textbf{(B)}\ 1\qquad\textbf{(C)}\ \frac{5}{3}\qquad\textbf{(D)}\ 2013\qquad\textbf{(E)}\ 2^{4024} $\par \vspace{0.5em}\item Tom, Dorothy, and Sammy went on a vacation and agreed to split the costs evenly. During their trip Tom paid $$105$, Dorothy paid $$125$, and Sammy paid $$175$. In order to share the costs equally, Tom gave Sammy $t$ dollars, and Dorothy gave Sammy $d$ dollars. What is $t-d$?
 
 $ \textbf{(A)}\ 15\qquad\textbf{(B)}\ 20\qquad\textbf{(C)}\ 25\qquad\textbf{(D)}\ 30\qquad\textbf{(E)}\ 35 $\par \vspace{0.5em}\item In a recent basketball game, Shenille attempted only three-point shots and two-point shots. She was successful on $20\%$ of her three-point shots and $30\%$ of her two-point shots. Shenille attempted $30$ shots. How many points did she score?
 
 $ \textbf{(A)}\ 12\qquad\textbf{(B)}\ 18\qquad\textbf{(C)}\ 24\qquad\textbf{(D)}\ 30\qquad\textbf{(E)}\ 36 $\par \vspace{0.5em}\item The sequence $S_1, S_2, S_3, \cdots, S_{10}$ has the property that every term beginning with the third is the sum of the previous two.  That is, 
-\begin\{equation*\}
-S\_n = S\_\{n-2\} + S\_\{n-1\} \text\{ for \} n \ge 3.
-\end\{equation*\}
+\begin{equation*}
+S_n = S_{n-2} + S_{n-1} \text{ for } n \ge 3.
+\end{equation*}
  Suppose that $S_9 = 110$ and $S_7 = 42$.  What is $S_4$?
 
 $ \textbf{(A)}\ 4\qquad\textbf{(B)}\ 6\qquad\textbf{(C)}\ 10\qquad\textbf{(D)}\ 12\qquad\textbf{(E)}\ 16\qquad $\par \vspace{0.5em}\item Given that $x$ and $y$ are distinct nonzero real numbers such that $x+\tfrac{2}{x} = y + \tfrac{2}{y}$, what is $xy$?
@@ -90,13 +90,13 @@ import cse5;
 size(180);
 pen dps = linewidth(0.7) + fontsize(10); defaultpen(dps);
 real r=5/7;
-pair A=(10,sqrt(28\^2-100)),B=origin,C=(20,0),D=(A.x*r,A.y*r);
+pair A=(10,sqrt(28^2-100)),B=origin,C=(20,0),D=(A.x*r,A.y*r);
 pair bottom=(C.x+(D.x-A.x),C.y+(D.y-A.y));
 pair E=extension(D,bottom,B,C);
 pair top=(E.x+D.x,E.y+D.y);
 pair F=extension(E,top,A,C);
-draw(A--B--C--cycle\^\^D--E--F);
-dot(A\^\^B\^\^C\^\^D\^\^E\^\^F);
+draw(A--B--C--cycle^^D--E--F);
+dot(A^^B^^C^^D^^E^^F);
 label("$A$",A,NW);
 label("$B$",B,SW);
 label("$C$",C,SE);
@@ -107,11 +107,11 @@ label("$F$",F,dir(0));
 \end{center}
 
 
-\$\textbf\{(A) \}48\qquad
-\textbf\{(B) \}52\qquad
-\textbf\{(C) \}56\qquad
-\textbf\{(D) \}60\qquad
-\textbf\{(E) \}72\qquad\$\par \vspace{0.5em}\item Let $S$ be the set of positive integers $n$ for which $\tfrac{1}{n}$ has the repeating decimal representation $0.\overline{ab} = 0.ababab\cdots,$ with $a$ and $b$ different digits.  What is the sum of the elements of $S$?
+$\textbf{(A) }48\qquad
+\textbf{(B) }52\qquad
+\textbf{(C) }56\qquad
+\textbf{(D) }60\qquad
+\textbf{(E) }72\qquad$\par \vspace{0.5em}\item Let $S$ be the set of positive integers $n$ for which $\tfrac{1}{n}$ has the repeating decimal representation $0.\overline{ab} = 0.ababab\cdots,$ with $a$ and $b$ different digits.  What is the sum of the elements of $S$?
 
 $ \textbf{(A)}\ 11\qquad\textbf{(B)}\ 44\qquad\textbf{(C)}\ 110\qquad\textbf{(D)}\ 143\qquad\textbf{(E)}\ 155\qquad $\par \vspace{0.5em}\item Triangle $ABC$ is equilateral with $AB=1$. Points $E$ and $G$ are on $\overline{AC}$ and points $D$ and $F$ are on $\overline{AB}$ such that both $\overline{DE}$ and $\overline{FG}$ are parallel to $\overline{BC}$. Furthermore, triangle $ADE$ and trapezoids $DFGE$ and $FBCG$ all have the same perimeter. What is $DE+FG$?
 
@@ -124,8 +124,8 @@ size(180);
 pen dps = linewidth(0.7) + fontsize(10); defaultpen(dps);
 real s=1/2,m=5/6,l=1;
 pair A=origin,B=(l,0),C=rotate(60)*l,D=(s,0),E=rotate(60)*s,F=m,G=rotate(60)*m;
-draw(A--B--C--cycle\^\^D--E\^\^F--G);
-dot(A\^\^B\^\^C\^\^D\^\^E\^\^F\^\^G);
+draw(A--B--C--cycle^^D--E^^F--G);
+dot(A^^B^^C^^D^^E^^F^^G);
 label("$A$",A,SW);
 label("$B$",B,SE);
 label("$C$",C,N);
@@ -137,11 +137,11 @@ label("$G$",G,NW);
 \end{center}
 
 
-\$\textbf\{(A) \}1\qquad
-\textbf\{(B) \}\dfrac\{3\}\{2\}\qquad
-\textbf\{(C) \}\dfrac\{21\}\{13\}\qquad
-\textbf\{(D) \}\dfrac\{13\}\{8\}\qquad
-\textbf\{(E) \}\dfrac\{5\}\{3\}\qquad\$\par \vspace{0.5em}\item The angles in a particular triangle are in arithmetic progression, and the side lengths are $4,5,x$. The sum of the possible values of $x$ equals $a+\sqrt{b}+\sqrt{c}$ where $a, b$, and $c$ are positive integers. What is $a+b+c$?
+$\textbf{(A) }1\qquad
+\textbf{(B) }\dfrac{3}{2}\qquad
+\textbf{(C) }\dfrac{21}{13}\qquad
+\textbf{(D) }\dfrac{13}{8}\qquad
+\textbf{(E) }\dfrac{5}{3}\qquad$\par \vspace{0.5em}\item The angles in a particular triangle are in arithmetic progression, and the side lengths are $4,5,x$. The sum of the possible values of $x$ equals $a+\sqrt{b}+\sqrt{c}$ where $a, b$, and $c$ are positive integers. What is $a+b+c$?
 
 $ \textbf{(A)}\ 36\qquad\textbf{(B)}\ 38\qquad\textbf{(C)}\ 40\qquad\textbf{(D)}\ 42\qquad\textbf{(E)}\ 44$\par \vspace{0.5em}\item Let points $ A = (0,0) , \ B = (1,2), \ C = (3,3), $ and $ D = (4,0) $. Quadrilateral $ ABCD $ is cut into equal area pieces by a line passing through $ A $. This line intersects $ \overline{CD} $ at point $ \left (\frac{p}{q}, \frac{r}{s} \right ) $, where these fractions are in lowest terms. What is $ p + q + r + s $?
 

@@ -52,13 +52,13 @@ $\textbf{(A) }0\qquad\textbf{(B) }2\qquad\textbf{(C) }4\qquad\textbf{(D) }8\qqua
 $\textbf{(A) } -5 \qquad\textbf{(B) } 0 \qquad\textbf{(C) } 5 \qquad\textbf{(D) } \frac{15}{4} \qquad\textbf{(E) } \frac{35}{4}$\par \vspace{0.5em}\item Let $f(x) = x^{2}(1-x)^{2}$. What is the value of the sum
 
 
-\begin\{equation*\}
-f \left(\frac\{1\}\{2019\} \right)-f  \left(\frac\{2\}\{2019\} \right)+f \left(\frac\{3\}\{2019\} \right)-f \left(\frac\{4\}\{2019\} \right)+\cdots + f \left(\frac\{2017\}\{2019\} \right) - f \left(\frac\{2018\}\{2019\} \right)?
-\end\{equation*\}
+\begin{equation*}
+f \left(\frac{1}{2019} \right)-f  \left(\frac{2}{2019} \right)+f \left(\frac{3}{2019} \right)-f \left(\frac{4}{2019} \right)+\cdots + f \left(\frac{2017}{2019} \right) - f \left(\frac{2018}{2019} \right)?
+\end{equation*}
 
 
-$\textbf{(A) }0\qquad\textbf{(B) }\frac{1}{2019^{4}}\qquad\textbf{(C) }\frac{2018^{2}}{2019^{4}}\qquad\textbf{(D) }\frac{2020^{2}}{2019^{4}}\qquad\textbf{(E) }1$\par \vspace{0.5em}\item For how many integral values of $x$ can a triangle of positive area be formed having side lengths \$
-\log\_\{2\} x, \log\_\{4\} x, 3\$?
+$\textbf{(A) }0\qquad\textbf{(B) }\frac{1}{2019^{4}}\qquad\textbf{(C) }\frac{2018^{2}}{2019^{4}}\qquad\textbf{(D) }\frac{2020^{2}}{2019^{4}}\qquad\textbf{(E) }1$\par \vspace{0.5em}\item For how many integral values of $x$ can a triangle of positive area be formed having side lengths $
+\log_{2} x, \log_{4} x, 3$?
 
 $\textbf{(A) } 57\qquad \textbf{(B) } 59\qquad \textbf{(C) } 61\qquad \textbf{(D) } 62\qquad \textbf{(E) } 63$\par \vspace{0.5em}\item The figure below is a map showing $12$ cities and $17$ roads connecting certain pairs of cities. Paula wishes to travel along exactly $13$ of those roads, starting at city $A$ and ending at city $L,$ without traveling along any portion of a road more than once. (Paula is allowed to visit a city more than once.)
 
@@ -69,23 +69,23 @@ import olympiad;
 import cse5;
 import olympiad;
 unitsize(50);
-for (int i = 0; i < 3; ++i) \{
-for (int j = 0; j < 4; ++j) \{
+for (int i = 0; i < 3; ++i) {
+for (int j = 0; j < 4; ++j) {
 pair A = (j,i);
 dot(A);
 
-\}
-\}
-for (int i = 0; i < 3; ++i) \{
-for (int j = 0; j < 4; ++j) \{
-if (j != 3) \{
+}
+}
+for (int i = 0; i < 3; ++i) {
+for (int j = 0; j < 4; ++j) {
+if (j != 3) {
 draw((j,i)--(j+1,i));
-\}
-if (i != 2) \{
+}
+if (i != 2) {
 draw((j,i)--(j,i+1));
-\}
-\}
-\}
+}
+}
+}
 label("$A$", (0,2), W); 
 label("$L$", (3,0), E);
 \end{asy}
@@ -141,9 +141,9 @@ $\textbf{(A) } \frac{1}{4} \qquad\textbf{(B) } \frac{2}{7} \qquad\textbf{(C) } \
 
 $\textbf{(A) }98\qquad\textbf{(B) }100\qquad\textbf{(C) }117\qquad\textbf{(D) }119\qquad\textbf{(E) }121$\par \vspace{0.5em}\item As shown in the figure, line segment $\overline{AD}$ is trisected by points $B$ and $C$ so that $AB=BC=CD=2.$ Three semicircles of radius $1,$ $\overarc{AEB},$ $\overarc{BFC},$ and $\overarc{CGD},$ have their diameters on $\overline{AD},$ and are tangent to line $EG$ at $E,F,$ and $G,$ respectively. A circle of radius $2$ has its center on $F. $ The area of the region inside the circle but outside the three semicircles, shaded in the figure, can be expressed in the form
 
-\begin\{equation*\}
-\frac\{a\}\{b\}\cdot\pi-\sqrt\{c\}+d,
-\end\{equation*\}
+\begin{equation*}
+\frac{a}{b}\cdot\pi-\sqrt{c}+d,
+\end{equation*}
 where $a,b,c,$ and $d$ are positive integers and $a$ and $b$ are relatively prime. What is $a+b+c+d$?
 
 
@@ -179,24 +179,24 @@ $\textbf{(A) } \frac{15}{256} \qquad \textbf{(B) } \frac{1}{16} \qquad \textbf{(
 
 $\textbf{(A) }0\qquad\textbf{(B) }1\qquad\textbf{(C) }2\qquad\textbf{(D) }4\qquad\textbf{(E) }\text{infinitely many}$\par \vspace{0.5em}\item Square pyramid $ABCDE$ has base $ABCD,$ which measures $3$ cm on a side, and altitude $\overline{AE}$ perpendicular to the base$,$ which measures $6$ cm. Point $P$ lies on $\overline{BE},$ one third of the way from $B$ to $E;$ point $Q$ lies on $\overline{DE},$ one third of the way from $D$ to $E;$ and point $R$ lies on $\overline{CE},$ two thirds of the way from $C$ to $E.$ What is the area, in square centimeters, of $\triangle PQR?$
 
-$\textbf{(A) } \frac{3\sqrt2}{2} \qquad\textbf{(B) } \frac{3\sqrt3}{2} \qquad\textbf{(C) } 2\sqrt2 \qquad\textbf{(D) } 2\sqrt3 \qquad\textbf{(E) } 3\sqrt2$\par \vspace{0.5em}\item Raashan, Sylvia, and Ted play the following game. Each person starts with $\$1$. A bell rings every $15$ seconds, at which time each of the players who currently have money simultaneously chooses one of the other two players independently and at random and gives $\$1$ to that player. What is the probability that after the bell has rung $2019$ times, each player will have $\$1\$? 
-(For example, Raashan and Ted may each decide to give $\$1$ to Sylvia, and Sylvia may decide to give her dollar to Ted, at which point Raashan will have $\$0$, Sylvia will have $\$2$, and Ted will have $\$1$, and that is the end of the first round of play. In the second round Rashaan has no money to give, but Sylvia and Ted might choose each other to give their $ \$1\$ to, and the holdings will be the same at the end of the second round.)
+$\textbf{(A) } \frac{3\sqrt2}{2} \qquad\textbf{(B) } \frac{3\sqrt3}{2} \qquad\textbf{(C) } 2\sqrt2 \qquad\textbf{(D) } 2\sqrt3 \qquad\textbf{(E) } 3\sqrt2$\par \vspace{0.5em}\item Raashan, Sylvia, and Ted play the following game. Each person starts with $\$1$. A bell rings every $15$ seconds, at which time each of the players who currently have money simultaneously chooses one of the other two players independently and at random and gives $\$1$ to that player. What is the probability that after the bell has rung $2019$ times, each player will have $\$1$? 
+(For example, Raashan and Ted may each decide to give $\$1$ to Sylvia, and Sylvia may decide to give her dollar to Ted, at which point Raashan will have $\$0$, Sylvia will have $\$2$, and Ted will have $\$1$, and that is the end of the first round of play. In the second round Rashaan has no money to give, but Sylvia and Ted might choose each other to give their $ \$1$ to, and the holdings will be the same at the end of the second round.)
 
 $\textbf{(A) } \frac{1}{7} \qquad\textbf{(B) } \frac{1}{4} \qquad\textbf{(C) } \frac{1}{3} \qquad\textbf{(D) } \frac{1}{2} \qquad\textbf{(E) } \frac{2}{3}$\par \vspace{0.5em}\item Points $A(6,13)$ and $B(12,11)$ lie on circle $\omega$ in the plane. Suppose that the tangent lines to $\omega$ at $A$ and $B$ intersect at a point on the $x$-axis. What is the area of $\omega$?
 
-\$\textbf\{(A) \}\frac\{83\pi\}\{8\}\qquad\textbf\{(B) \}\frac\{21\pi\}\{2\}\qquad\textbf\{(C) \}
-\frac\{85\pi\}\{8\}\qquad\textbf\{(D) \}\frac\{43\pi\}\{4\}\qquad\textbf\{(E) \}\frac\{87\pi\}\{8\}\$\par \vspace{0.5em}\item How many quadratic polynomials with real coefficients are there such that the set of roots equals the set of coefficients? (For clarification: If the polynomial is $ax^2+bx+c,a\neq 0,$ and the roots are $r$ and $s,$ then the requirement is that $\{a,b,c\}=\{r,s\}$.)
+$\textbf{(A) }\frac{83\pi}{8}\qquad\textbf{(B) }\frac{21\pi}{2}\qquad\textbf{(C) }
+\frac{85\pi}{8}\qquad\textbf{(D) }\frac{43\pi}{4}\qquad\textbf{(E) }\frac{87\pi}{8}$\par \vspace{0.5em}\item How many quadratic polynomials with real coefficients are there such that the set of roots equals the set of coefficients? (For clarification: If the polynomial is $ax^2+bx+c,a\neq 0,$ and the roots are $r$ and $s,$ then the requirement is that $\{a,b,c\}=\{r,s\}$.)
 
 $\textbf{(A) } 3 \qquad\textbf{(B) } 4 \qquad\textbf{(C) } 5 \qquad\textbf{(D) } 6 \qquad\textbf{(E) } \text{infinitely many}$\par \vspace{0.5em}\item Define a sequence recursively by $x_0=5$ and
 
-\begin\{equation*\}
-x\_\{n+1\}=\frac\{x\_n\^2+5x\_n+4\}\{x\_n+6\}
-\end\{equation*\}
+\begin{equation*}
+x_{n+1}=\frac{x_n^2+5x_n+4}{x_n+6}
+\end{equation*}
 for all nonnegative integers $n.$ Let $m$ be the least positive integer such that
 
-\begin\{equation*\}
-x\_m\leq 4+\frac\{1\}\{2\^\{20\}\}.
-\end\{equation*\}
+\begin{equation*}
+x_m\leq 4+\frac{1}{2^{20}}.
+\end{equation*}
 In which of the following intervals does $m$ lie?
 
 $\textbf{(A) } [9,26] \qquad\textbf{(B) } [27,80] \qquad\textbf{(C) } [81,242]\qquad\textbf{(D) } [243,728] \qquad\textbf{(E) } [729,\infty]$\par \vspace{0.5em}\item How many sequences of $0$s and $1$s of length $19$ are there that begin with a $0$, end with a $0$, contain no two consecutive $0$s, and contain no three consecutive $1$s?

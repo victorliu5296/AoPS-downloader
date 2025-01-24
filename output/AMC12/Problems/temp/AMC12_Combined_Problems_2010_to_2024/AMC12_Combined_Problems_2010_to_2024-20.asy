@@ -18,19 +18,10 @@ size(8cm);
 
 import olympiad;
 import cse5;
-size(6cm);
-defaultpen(fontsize(9pt));
-draw((0,0)--(8,0)--(8,5)--(0,5)--cycle);
-filldraw((7,0)--(8,0)--(8,1)--(0,4)--(0,5)--(1,5)--cycle,gray(0.8));
-
-label("$1$",(1/2,5),dir(90));
-label("$7$",(9/2,5),dir(90));
-
-label("$1$",(8,1/2),dir(0));
-label("$4$",(8,3),dir(0));
-
-label("$1$",(15/2,0),dir(270));
-label("$7$",(7/2,0),dir(270));
-
-label("$1$",(0,9/2),dir(180));
-label("$4$",(0,2),dir(180));
+real x=.369;
+draw((0,0)--(0,1)--(1,1)--(1,0)--cycle);
+filldraw((0,0)--(0,x)--(x,x)--(x,0)--cycle, gray);
+filldraw((0,1)--(0,1-x)--(x,1-x)--(x,1)--cycle, gray);
+filldraw((1,1)--(1,1-x)--(1-x,1-x)--(1-x,1)--cycle, gray);
+filldraw((1,0)--(1,x)--(1-x,x)--(1-x,0)--cycle, gray);
+filldraw((.5,.5-x*sqrt(2)/2)--(.5+x*sqrt(2)/2,.5)--(.5,.5+x*sqrt(2)/2)--(.5-x*sqrt(2)/2,.5)--cycle, gray);
