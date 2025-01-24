@@ -9,6 +9,8 @@
 \usepackage{tikz}
 \usepackage{graphicx}
 \usepackage{asymptote}
+\usepackage{arcs}
+\usepackage{xwatermark}
 \begin{asydef}
   // Global Asymptote settings
   settings.outformat = "pdf";
@@ -27,65 +29,65 @@
 
 \title{AMC12 Problems \\ 2015}
 \date{}
-\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{Problems}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item What is the value of $(2^0-1+5^2-0)^{-1}\times5?$
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{Problems}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item What is the value of \((2^0-1+5^2-0)^{-1}\times5?\)
 
-$ \textbf{(A)}\ -125\qquad\textbf{(B)}\ -120\qquad\textbf{(C)}\ \frac{1}{5}\qquad\textbf{(D)}\ \frac{5}{24}\qquad\textbf{(E)}\ 25 $\par \vspace{0.5em}\item Two of the three sides of a triangle are 20 and 15. Which of the following numbers is not a possible perimeter of the triangle?
+\( \textbf{(A)}\ -125\qquad\textbf{(B)}\ -120\qquad\textbf{(C)}\ \frac{1}{5}\qquad\textbf{(D)}\ \frac{5}{24}\qquad\textbf{(E)}\ 25 \)\par \vspace{0.5em}\item Two of the three sides of a triangle are 20 and 15. Which of the following numbers is not a possible perimeter of the triangle?
 
-$ \textbf{(A)}\ 52\qquad\textbf{(B)}\ 57\qquad\textbf{(C)}\ 62\qquad\textbf{(D)}\ 67\qquad\textbf{(E)}\ 72 $\par \vspace{0.5em}\item Mr. Patrick teaches math to 15 students. He was grading tests and found that when he graded everyone's test except Payton's, the average grade for the class was 80. After he graded Payton's test, the class average became 81. What was Payton's score on the test?
+\( \textbf{(A)}\ 52\qquad\textbf{(B)}\ 57\qquad\textbf{(C)}\ 62\qquad\textbf{(D)}\ 67\qquad\textbf{(E)}\ 72 \)\par \vspace{0.5em}\item Mr. Patrick teaches math to 15 students. He was grading tests and found that when he graded everyone's test except Payton's, the average grade for the class was 80. After he graded Payton's test, the class average became 81. What was Payton's score on the test?
 
-$ \textbf{(A)}\ 81\qquad\textbf{(B)}\ 85\qquad\textbf{(C)}\ 91\qquad\textbf{(D)}\ 94\qquad\textbf{(E)}\ 95 $\par \vspace{0.5em}\item The sum of two positive numbers is 5 times their difference. What is the ratio of the larger number to the smaller?
+\( \textbf{(A)}\ 81\qquad\textbf{(B)}\ 85\qquad\textbf{(C)}\ 91\qquad\textbf{(D)}\ 94\qquad\textbf{(E)}\ 95 \)\par \vspace{0.5em}\item The sum of two positive numbers is 5 times their difference. What is the ratio of the larger number to the smaller?
 
-$ \textbf{(A)}\ \frac54 \qquad\textbf{(B)}\ \frac32 \qquad\textbf{(C)}\ \frac95 \qquad\textbf{(D)}\ 2 \qquad\textbf{(E)}\ \frac52 $\par \vspace{0.5em}\item Amelia needs to estimate the quantity $\frac{a}{b} - c$, where $a, b,$ and $c$ are large positive integers. She rounds each of the integers so that the calculation will be easier to do mentally. In which of these situations will her answer necessarily be greater than the exact value of $\frac{a}{b} - c$?
+\( \textbf{(A)}\ \frac54 \qquad\textbf{(B)}\ \frac32 \qquad\textbf{(C)}\ \frac95 \qquad\textbf{(D)}\ 2 \qquad\textbf{(E)}\ \frac52 \)\par \vspace{0.5em}\item Amelia needs to estimate the quantity \(\frac{a}{b} - c\), where \(a, b,\) and \(c\) are large positive integers. She rounds each of the integers so that the calculation will be easier to do mentally. In which of these situations will her answer necessarily be greater than the exact value of \(\frac{a}{b} - c\)?
 
-$ \textbf{(A)}\ \text{She rounds all three numbers up.}\\
+\( \textbf{(A)}\ \text{She rounds all three numbers up.}\\
 \qquad\textbf{(B)}\ \text{She rounds } a \text{ and } b \text{ up, and she rounds } c \text{ down.}\\
 \qquad\textbf{(C)}\ \text{She rounds } a \text{ and } c \text{ up, and she rounds } b \text{ down.} \\
 \qquad\textbf{(D)}\ \text{She rounds } a \text{ up, and she rounds } b \text{ and } c \text{ down.}\\
-\qquad\textbf{(E)}\ \text{She rounds } c \text{ up, and she rounds } a \text{ and } b \text{ down.} $\par \vspace{0.5em}\item Two years ago Pete was three times as old as his cousin Claire. Two years before that, Pete was four times as old as Claire. In how many years will the ratio of their ages be $2 : 1$?
+\qquad\textbf{(E)}\ \text{She rounds } c \text{ up, and she rounds } a \text{ and } b \text{ down.} \)\par \vspace{0.5em}\item Two years ago Pete was three times as old as his cousin Claire. Two years before that, Pete was four times as old as Claire. In how many years will the ratio of their ages be \(2 : 1\)?
 
-$ \textbf{(A)}\ 2 \qquad\textbf{(B)}\ 4 \qquad\textbf{(C)}\ 5 \qquad\textbf{(D)}\ 6 \qquad\textbf{(E)}\ 8$\par \vspace{0.5em}\item Two right circular cylinders have the same volume. The radius of the second cylinder is $10\%$ more than the radius of the first. What is the relationship between the heights of the two cylinders?
+\( \textbf{(A)}\ 2 \qquad\textbf{(B)}\ 4 \qquad\textbf{(C)}\ 5 \qquad\textbf{(D)}\ 6 \qquad\textbf{(E)}\ 8\)\par \vspace{0.5em}\item Two right circular cylinders have the same volume. The radius of the second cylinder is \(10\%\) more than the radius of the first. What is the relationship between the heights of the two cylinders?
 
-$ \textbf{(A)}\ \text{The second height is } 10\% \text{ less than the first.} \\
+\( \textbf{(A)}\ \text{The second height is } 10\% \text{ less than the first.} \\
 \qquad\textbf{(B)}\ \text{The first height is } 10\% \text{ more than the second.} \\
 \qquad\textbf{(C)}\ \text{The second height is } 21\% \text{ less than the first.} \\
 \qquad\textbf{(D)}\ \text{The first height is } 21\% \text{ more than the second.} \\
-\qquad\textbf{(E)}\ \text{The second height is } 80\% \text{ of the first.} $\par \vspace{0.5em}\item The ratio of the length to the width of a rectangle is $4$ : $3$. If the rectangle has diagonal of length $d$, then the area may be expressed as $kd^2$ for some constant $k$. What is $k$?
+\qquad\textbf{(E)}\ \text{The second height is } 80\% \text{ of the first.} \)\par \vspace{0.5em}\item The ratio of the length to the width of a rectangle is \(4\) : \(3\). If the rectangle has diagonal of length \(d\), then the area may be expressed as \(kd^2\) for some constant \(k\). What is \(k\)?
 
-$ \textbf{(A)}\ \frac27 \qquad\textbf{(B)}\ \frac37 \qquad\textbf{(C)}\ \frac{12}{25} \qquad\textbf{(D)}\ \frac{16}{25} \qquad\textbf{(E)}\ \frac34$\par \vspace{0.5em}\item A box contains 2 red marbles, 2 green marbles, and 2 yellow marbles. Carol takes 2 marbles from the box at random; then Claudia takes 2 of the remaining marbles at random; and then Cheryl takes the last 2 marbles. What is the probability that Cheryl gets 2 marbles of the same color?
+\( \textbf{(A)}\ \frac27 \qquad\textbf{(B)}\ \frac37 \qquad\textbf{(C)}\ \frac{12}{25} \qquad\textbf{(D)}\ \frac{16}{25} \qquad\textbf{(E)}\ \frac34\)\par \vspace{0.5em}\item A box contains 2 red marbles, 2 green marbles, and 2 yellow marbles. Carol takes 2 marbles from the box at random; then Claudia takes 2 of the remaining marbles at random; and then Cheryl takes the last 2 marbles. What is the probability that Cheryl gets 2 marbles of the same color?
 
-$ \textbf{(A)}\ \frac{1}{10} \qquad\textbf{(B)}\ \frac16 \qquad\textbf{(C)}\ \frac15 \qquad\textbf{(D)}\ \frac13 \qquad\textbf{(E)}\ \frac12$\par \vspace{0.5em}\item Integers $x$ and $y$ with $x>y>0$ satisfy $x+y+xy=80$. What is $x$?
+\( \textbf{(A)}\ \frac{1}{10} \qquad\textbf{(B)}\ \frac16 \qquad\textbf{(C)}\ \frac15 \qquad\textbf{(D)}\ \frac13 \qquad\textbf{(E)}\ \frac12\)\par \vspace{0.5em}\item Integers \(x\) and \(y\) with \(x>y>0\) satisfy \(x+y+xy=80\). What is \(x\)?
 
-$ \textbf{(A)}\ 8 \qquad\textbf{(B)}\ 10 \qquad\textbf{(C)}\ 15 \qquad\textbf{(D)}\ 18 \qquad\textbf{(E)}\ 26$\par \vspace{0.5em}\item On a sheet of paper, Isabella draws a circle of radius $2$, a circle of radius $3$, and all possible lines simultaneously tangent to both circles. Isabella notices that she has drawn exactly $k \ge 0$ lines. How many different values of $k$ are possible?
+\( \textbf{(A)}\ 8 \qquad\textbf{(B)}\ 10 \qquad\textbf{(C)}\ 15 \qquad\textbf{(D)}\ 18 \qquad\textbf{(E)}\ 26\)\par \vspace{0.5em}\item On a sheet of paper, Isabella draws a circle of radius \(2\), a circle of radius \(3\), and all possible lines simultaneously tangent to both circles. Isabella notices that she has drawn exactly \(k \ge 0\) lines. How many different values of \(k\) are possible?
 
-$ \textbf{(A)}\ 2 \qquad\textbf{(B)}\ 3 \qquad\textbf{(C)}\ 4 \qquad\textbf{(D)}\ 5\qquad\textbf{(E)}\ 6$\par \vspace{0.5em}\item The parabolas $y=ax^2 - 2$ and $y=4 - bx^2$ intersect the coordinate axes in exactly four points, and these four points are the vertices of a kite of area $12$. What is $a+b$?
+\( \textbf{(A)}\ 2 \qquad\textbf{(B)}\ 3 \qquad\textbf{(C)}\ 4 \qquad\textbf{(D)}\ 5\qquad\textbf{(E)}\ 6\)\par \vspace{0.5em}\item The parabolas \(y=ax^2 - 2\) and \(y=4 - bx^2\) intersect the coordinate axes in exactly four points, and these four points are the vertices of a kite of area \(12\). What is \(a+b\)?
 
-$ \textbf{(A)}\ 1\qquad\textbf{(B)}\ 1.5\qquad\textbf{(C)}\ 2\qquad\textbf{(D)}\ 2.5\qquad\textbf{(E)}\ 3$\par \vspace{0.5em}\item A league with 12 teams holds a round-robin tournament, with each team playing every other team exactly once. Games either end with one team victorious or else end in a draw. A team scores 2 points for every game it wins and 1 point for every game it draws. Which of the following is NOT a true statement about the list of 12 scores?
+\( \textbf{(A)}\ 1\qquad\textbf{(B)}\ 1.5\qquad\textbf{(C)}\ 2\qquad\textbf{(D)}\ 2.5\qquad\textbf{(E)}\ 3\)\par \vspace{0.5em}\item A league with 12 teams holds a round-robin tournament, with each team playing every other team exactly once. Games either end with one team victorious or else end in a draw. A team scores 2 points for every game it wins and 1 point for every game it draws. Which of the following is NOT a true statement about the list of 12 scores?
 
-$ \textbf{(A)}\ \text{There must be an even number of odd scores.}\\
+\( \textbf{(A)}\ \text{There must be an even number of odd scores.}\\
 \qquad\textbf{(B)}\ \text{There must be an even number of even scores.}\\
 \qquad\textbf{(C)}\ \text{There cannot be two scores of }0\text{.}\\
 \qquad\textbf{(D)}\ \text{The sum of the scores must be at least }100\text{.}\\
-\qquad\textbf{(E)}\ \text{The highest score must be at least }12\text{.}$\par \vspace{0.5em}\item What is the value of $a$ for which $\frac{1}{\log_2 a} + \frac{1}{\log_3 a} + \frac{1}{\log_4 a} = 1$?
+\qquad\textbf{(E)}\ \text{The highest score must be at least }12\text{.}\)\par \vspace{0.5em}\item What is the value of \(a\) for which \(\frac{1}{\log_2 a} + \frac{1}{\log_3 a} + \frac{1}{\log_4 a} = 1\)?
 
-$\textbf{(A)}\ 9\qquad\textbf{(B)}\ 12\qquad\textbf{(C)}\ 18\qquad\textbf{(D)}\ 24\qquad\textbf{(E)}\ 36$\par \vspace{0.5em}\item What is the minimum number of digits to the right of the decimal point needed to express the fraction $\frac{123456789}{2^{26}\cdot 5^4}$ as a decimal?
+\(\textbf{(A)}\ 9\qquad\textbf{(B)}\ 12\qquad\textbf{(C)}\ 18\qquad\textbf{(D)}\ 24\qquad\textbf{(E)}\ 36\)\par \vspace{0.5em}\item What is the minimum number of digits to the right of the decimal point needed to express the fraction \(\frac{123456789}{2^{26}\cdot 5^4}\) as a decimal?
 
-$ \textbf{(A)}\ 4\qquad\textbf{(B)}\ 22\qquad\textbf{(C)}\ 26\qquad\textbf{(D)}\ 30\qquad\textbf{(E)}\ 104$\par \vspace{0.5em}\item Tetrahedron $ABCD$ has $AB=5,AC=3,BC=4,BD=4,AD=3,$ and $CD=\frac{12}{5}\sqrt{2}$. What is the volume of the tetrahedron?
+\( \textbf{(A)}\ 4\qquad\textbf{(B)}\ 22\qquad\textbf{(C)}\ 26\qquad\textbf{(D)}\ 30\qquad\textbf{(E)}\ 104\)\par \vspace{0.5em}\item Tetrahedron \(ABCD\) has \(AB=5,AC=3,BC=4,BD=4,AD=3,\) and \(CD=\frac{12}{5}\sqrt{2}\). What is the volume of the tetrahedron?
 
-$ \textbf{(A)}\ 3\sqrt{2}\qquad\textbf{(B)}\ 2\sqrt{5}\qquad\textbf{(C)}\ \frac{24}{5}\qquad\textbf{(D)}\ 3\sqrt{3}\qquad\textbf{(E)}\ \frac{24}{5}\sqrt{2}$\par \vspace{0.5em}\item Eight people are sitting around a circular table, each holding a fair coin. All eight people flip their coins and those who flip heads stand while those who flip tails remain seated. What is the probability that no two adjacent people will stand?
+\( \textbf{(A)}\ 3\sqrt{2}\qquad\textbf{(B)}\ 2\sqrt{5}\qquad\textbf{(C)}\ \frac{24}{5}\qquad\textbf{(D)}\ 3\sqrt{3}\qquad\textbf{(E)}\ \frac{24}{5}\sqrt{2}\)\par \vspace{0.5em}\item Eight people are sitting around a circular table, each holding a fair coin. All eight people flip their coins and those who flip heads stand while those who flip tails remain seated. What is the probability that no two adjacent people will stand?
 
-$ \textbf{(A)}\ \frac{47}{256} \qquad\textbf{(B)}\ \frac{3}{16} \qquad\textbf{(C)}\ \frac{49}{256} \qquad\textbf{(D)}\ \frac{25}{128} \qquad\textbf{(E)}\ \frac{51}{256}$\par \vspace{0.5em}\item The zeros of the function $f(x) = x^2-ax+2a$ are integers. What is the sum of the possible values of $a$?
+\( \textbf{(A)}\ \frac{47}{256} \qquad\textbf{(B)}\ \frac{3}{16} \qquad\textbf{(C)}\ \frac{49}{256} \qquad\textbf{(D)}\ \frac{25}{128} \qquad\textbf{(E)}\ \frac{51}{256}\)\par \vspace{0.5em}\item The zeros of the function \(f(x) = x^2-ax+2a\) are integers. What is the sum of the possible values of \(a\)?
 
-$ \textbf{(A)}\ 7 \qquad\textbf{(B)}\ 8 \qquad\textbf{(C)}\ 16 \qquad\textbf{(D)}\ 17 \qquad\textbf{(E)}\ 18$\par \vspace{0.5em}\item For some positive integers $p$, there is a quadrilateral $ABCD$ with positive integer side lengths, perimeter $p$, right angles at $B$ and $C$, $AB=2$, and $CD=AD$. How many different values of $p<2015$ are possible?
+\( \textbf{(A)}\ 7 \qquad\textbf{(B)}\ 8 \qquad\textbf{(C)}\ 16 \qquad\textbf{(D)}\ 17 \qquad\textbf{(E)}\ 18\)\par \vspace{0.5em}\item For some positive integers \(p\), there is a quadrilateral \(ABCD\) with positive integer side lengths, perimeter \(p\), right angles at \(B\) and \(C\), \(AB=2\), and \(CD=AD\). How many different values of \(p<2015\) are possible?
 
-$ \textbf{(A)}\ 30 \qquad\textbf{(B)}\ 31 \qquad\textbf{(C)}\ 61 \qquad\textbf{(D)}\ 62 \qquad\textbf{(E)}\ 63$\par \vspace{0.5em}\item Isosceles triangles $T$ and $T'$ are not congruent but have the same area and the same perimeter. The sides of $T$ have lengths of $5,5,$ and $8$, while those of $T'$ have lengths of $a,a,$ and $b$. Which of the following numbers is closest to $b$?
+\( \textbf{(A)}\ 30 \qquad\textbf{(B)}\ 31 \qquad\textbf{(C)}\ 61 \qquad\textbf{(D)}\ 62 \qquad\textbf{(E)}\ 63\)\par \vspace{0.5em}\item Isosceles triangles \(T\) and \(T'\) are not congruent but have the same area and the same perimeter. The sides of \(T\) have lengths of \(5,5,\) and \(8\), while those of \(T'\) have lengths of \(a,a,\) and \(b\). Which of the following numbers is closest to \(b\)?
 
-$ \textbf{(A)}\ 3 \qquad\textbf{(B)}\ 4 \qquad\textbf{(C)}\ 5 \qquad\textbf{(D)}\ 6 \qquad\textbf{(E)}\ 8$\par \vspace{0.5em}\item A circle of radius $r$ passes through both foci of, and exactly four points on, the ellipse with equation $x^2+16y^2=16$. The set of all possible values of $r$ is an interval $[a,b)$. What is $a+b$?
+\( \textbf{(A)}\ 3 \qquad\textbf{(B)}\ 4 \qquad\textbf{(C)}\ 5 \qquad\textbf{(D)}\ 6 \qquad\textbf{(E)}\ 8\)\par \vspace{0.5em}\item A circle of radius \(r\) passes through both foci of, and exactly four points on, the ellipse with equation \(x^2+16y^2=16\). The set of all possible values of \(r\) is an interval \([a,b)\). What is \(a+b\)?
 
-$ \textbf{(A)}\ 5\sqrt{2}+4 \qquad\textbf{(B)}\ \sqrt{17}+7 \qquad\textbf{(C)}\ 6\sqrt{2}+3 \qquad\textbf{(D)}\ \sqrt{15}+8 \qquad\textbf{(E)}\ 12$\par \vspace{0.5em}\item For each positive integer $n$, let $S(n)$ be the number of sequences of length $n$ consisting solely of the letters $A$ and $B$, with no more than three $A$s in a row and no more than three $B$s in a row. What is the remainder when $S(2015)$ is divided by 12?
+\( \textbf{(A)}\ 5\sqrt{2}+4 \qquad\textbf{(B)}\ \sqrt{17}+7 \qquad\textbf{(C)}\ 6\sqrt{2}+3 \qquad\textbf{(D)}\ \sqrt{15}+8 \qquad\textbf{(E)}\ 12\)\par \vspace{0.5em}\item For each positive integer \(n\), let \(S(n)\) be the number of sequences of length \(n\) consisting solely of the letters \(A\) and \(B\), with no more than three \(A\)s in a row and no more than three \(B\)s in a row. What is the remainder when \(S(2015)\) is divided by 12?
 
-$ \textbf{(A)}\ 0 \qquad\textbf{(B)}\ 4 \qquad\textbf{(C)}\ 6 \qquad\textbf{(D)}\ 8 \qquad\textbf{(E)}\ 10$\par \vspace{0.5em}\item Let $S$ be a square of side length 1. Two points are chosen independently at random on the sides of $S$. The probability that the straight-line distance between the points is at least $\frac12$ is $\frac{a-b\pi}{c}$, where $a,b,$ and $c$ are positive integers and $\text{gcd}(a,b,c) = 1$. What is $a+b+c$?
+\( \textbf{(A)}\ 0 \qquad\textbf{(B)}\ 4 \qquad\textbf{(C)}\ 6 \qquad\textbf{(D)}\ 8 \qquad\textbf{(E)}\ 10\)\par \vspace{0.5em}\item Let \(S\) be a square of side length 1. Two points are chosen independently at random on the sides of \(S\). The probability that the straight-line distance between the points is at least \(\frac12\) is \(\frac{a-b\pi}{c}\), where \(a,b,\) and \(c\) are positive integers and \(\text{gcd}(a,b,c) = 1\). What is \(a+b+c\)?
 
-$ \textbf{(A)}\ 59 \qquad\textbf{(B)}\ 60 \qquad\textbf{(C)}\ 61 \qquad\textbf{(D)}\ 62 \qquad\textbf{(E)}\ 63$\par \vspace{0.5em}\item Rational numbers $a$ and $b$ are chosen at random among all rational numbers in the interval $[0,2)$ that can be written as fractions $\frac{n}{d}$ where $n$ and $d$ are integers with $1 \le d \le 5$. What is the probability that
+\( \textbf{(A)}\ 59 \qquad\textbf{(B)}\ 60 \qquad\textbf{(C)}\ 61 \qquad\textbf{(D)}\ 62 \qquad\textbf{(E)}\ 63\)\par \vspace{0.5em}\item Rational numbers \(a\) and \(b\) are chosen at random among all rational numbers in the interval \([0,2)\) that can be written as fractions \(\frac{n}{d}\) where \(n\) and \(d\) are integers with \(1 \le d \le 5\). What is the probability that
 
 \begin{equation*}
 (\text{cos}(a\pi)+i\text{sin}(b\pi))^4
@@ -93,7 +95,7 @@ $ \textbf{(A)}\ 59 \qquad\textbf{(B)}\ 60 \qquad\textbf{(C)}\ 61 \qquad\textbf{(
 
 is a real number?
 
-$ \textbf{(A)}\ \frac{3}{50} \qquad\textbf{(B)}\ \frac{4}{25} \qquad\textbf{(C)}\ \frac{41}{200} \qquad\textbf{(D)}\ \frac{6}{25} \qquad\textbf{(E)}\ \frac{13}{50}$\par \vspace{0.5em}\item A collection of circles in the upper half-plane, all tangent to the $x$-axis, is constructed in layers as follows. Layer $L_0$ consists of two circles of radii $70^2$ and $73^2$ that are externally tangent. For $k\ge1$, the circles in $\bigcup_{j=0}^{k-1}L_j$ are ordered according to their points of tangency with the $x$-axis. For every pair of consecutive circles in this order, a new circle is constructed externally tangent to each of the two circles in the pair. Layer $L_k$ consists of the $2^{k-1}$ circles constructed in this way. Let $S=\bigcup_{j=0}^{6}L_j$, and for every circle $C$ denote by $r(C)$ its radius. What is
+\( \textbf{(A)}\ \frac{3}{50} \qquad\textbf{(B)}\ \frac{4}{25} \qquad\textbf{(C)}\ \frac{41}{200} \qquad\textbf{(D)}\ \frac{6}{25} \qquad\textbf{(E)}\ \frac{13}{50}\)\par \vspace{0.5em}\item A collection of circles in the upper half-plane, all tangent to the \(x\)-axis, is constructed in layers as follows. Layer \(L_0\) consists of two circles of radii \(70^2\) and \(73^2\) that are externally tangent. For \(k\ge1\), the circles in \(\bigcup_{j=0}^{k-1}L_j\) are ordered according to their points of tangency with the \(x\)-axis. For every pair of consecutive circles in this order, a new circle is constructed externally tangent to each of the two circles in the pair. Layer \(L_k\) consists of the \(2^{k-1}\) circles constructed in this way. Let \(S=\bigcup_{j=0}^{6}L_j\), and for every circle \(C\) denote by \(r(C)\) its radius. What is
 
 \begin{equation*}
 \sum_{C\in S} \frac{1}{\sqrt{r(C)}}?
@@ -144,5 +146,5 @@ filldraw(circle(coord[i],coord[i].y),gray(0.75));
 
 
 
-$ \textbf{(A)}\ \frac{286}{35} \qquad\textbf{(B)}\ \frac{583}{70} \qquad\textbf{(C)}\ \frac{715}{73}\qquad\textbf{(D)}\ \frac{143}{14} \qquad\textbf{(E)}\ \frac{1573}{146}$\par \vspace{0.5em}\end{enumerate}
+\( \textbf{(A)}\ \frac{286}{35} \qquad\textbf{(B)}\ \frac{583}{70} \qquad\textbf{(C)}\ \frac{715}{73}\qquad\textbf{(D)}\ \frac{143}{14} \qquad\textbf{(E)}\ \frac{1573}{146}\)\par \vspace{0.5em}\end{enumerate}
 \end{document}

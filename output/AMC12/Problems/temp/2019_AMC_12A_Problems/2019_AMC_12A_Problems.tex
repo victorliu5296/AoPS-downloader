@@ -9,6 +9,8 @@
 \usepackage{tikz}
 \usepackage{graphicx}
 \usepackage{asymptote}
+\usepackage{arcs}
+\usepackage{xwatermark}
 \begin{asydef}
   // Global Asymptote settings
   settings.outformat = "pdf";
@@ -27,17 +29,17 @@
 
 \title{AMC12 Problems \\ 2019}
 \date{}
-\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{Problems}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item The area of a pizza with radius $4$ inches is $N$ percent larger than the area of a pizza with radius $3$ inches. What is the integer closest to $N$?
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{Problems}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item The area of a pizza with radius \(4\) inches is \(N\) percent larger than the area of a pizza with radius \(3\) inches. What is the integer closest to \(N\)?
 
-$\textbf{(A) } 25 \qquad\textbf{(B) } 33 \qquad\textbf{(C) } 44\qquad\textbf{(D) } 66 \qquad\textbf{(E) } 78$\par \vspace{0.5em}\item Suppose $a$ is $150\%$ of $b$. What percent of $a$ is $3b$?
+\(\textbf{(A) } 25 \qquad\textbf{(B) } 33 \qquad\textbf{(C) } 44\qquad\textbf{(D) } 66 \qquad\textbf{(E) } 78\)\par \vspace{0.5em}\item Suppose \(a\) is \(150\%\) of \(b\). What percent of \(a\) is \(3b\)?
 
-$\textbf{(A) } 50 \qquad \textbf{(B) } 66+\frac{2}{3} \qquad \textbf{(C) } 150 \qquad \textbf{(D) } 200 \qquad \textbf{(E) } 450$\par \vspace{0.5em}\item A box contains $28$ red balls, $20$ green balls, $19$ yellow balls, $13$ blue balls, $11$ white balls, and $9$ black balls. What is the minimum number of balls that must be drawn from the box without replacement to guarantee that at least $15$ balls of a single color will be drawn?
+\(\textbf{(A) } 50 \qquad \textbf{(B) } 66+\frac{2}{3} \qquad \textbf{(C) } 150 \qquad \textbf{(D) } 200 \qquad \textbf{(E) } 450\)\par \vspace{0.5em}\item A box contains \(28\) red balls, \(20\) green balls, \(19\) yellow balls, \(13\) blue balls, \(11\) white balls, and \(9\) black balls. What is the minimum number of balls that must be drawn from the box without replacement to guarantee that at least \(15\) balls of a single color will be drawn?
 
-$\textbf{(A) } 75 \qquad\textbf{(B) } 76 \qquad\textbf{(C) } 79 \qquad\textbf{(D) } 84 \qquad\textbf{(E) } 91$\par \vspace{0.5em}\item What is the greatest number of consecutive integers whose sum is $45$?
+\(\textbf{(A) } 75 \qquad\textbf{(B) } 76 \qquad\textbf{(C) } 79 \qquad\textbf{(D) } 84 \qquad\textbf{(E) } 91\)\par \vspace{0.5em}\item What is the greatest number of consecutive integers whose sum is \(45\)?
 
-$\textbf{(A) } 9 \qquad\textbf{(B) } 25 \qquad\textbf{(C) } 45 \qquad\textbf{(D) } 90 \qquad\textbf{(E) } 120$\par \vspace{0.5em}\item Two lines with slopes $\dfrac{1}{2}$ and $2$ intersect at $(2,2)$. What is the area of the triangle enclosed by these two lines and the line $x+y=10$?
+\(\textbf{(A) } 9 \qquad\textbf{(B) } 25 \qquad\textbf{(C) } 45 \qquad\textbf{(D) } 90 \qquad\textbf{(E) } 120\)\par \vspace{0.5em}\item Two lines with slopes \(\dfrac{1}{2}\) and \(2\) intersect at \((2,2)\). What is the area of the triangle enclosed by these two lines and the line \(x+y=10\)?
 
-$\textbf{(A) } 4 \qquad\textbf{(B) } 4\sqrt{2} \qquad\textbf{(C) } 6 \qquad\textbf{(D) } 8 \qquad\textbf{(E) } 6\sqrt{2}$\par \vspace{0.5em}\item The figure below shows line $\ell$ with a regular, infinite, recurring pattern of squares and line segments.
+\(\textbf{(A) } 4 \qquad\textbf{(B) } 4\sqrt{2} \qquad\textbf{(C) } 6 \qquad\textbf{(D) } 8 \qquad\textbf{(E) } 6\sqrt{2}\)\par \vspace{0.5em}\item The figure below shows line \(\ell\) with a regular, infinite, recurring pattern of squares and line segments.
 
 
 \begin{center}
@@ -65,22 +67,22 @@ draw((-1,0)--(18.5,0));
 
 
 How many of the following four kinds of rigid motion transformations of the plane in which this figure is drawn, other than the identity transformation, will transform this figure into itself?
-*some rotation around a point of line $\ell$
-*some translation in the direction parallel to line $\ell$
-*the reflection across line $\ell$
-*some reflection across a line perpendicular to line $\ell$
-$\textbf{(A) } 0 \qquad\textbf{(B) } 1 \qquad\textbf{(C) } 2 \qquad\textbf{(D) } 3 \qquad\textbf{(E) } 4$\par \vspace{0.5em}\item Melanie computes the mean $\mu$, the median $M$, and the modes of the $365$ values that are the dates in the months of $2019$. Thus her data consist of $12$ $1\text{s}$, $12$ $2\text{s}$, . . . , $12$ $28\text{s}$, $11$ $29\text{s}$, $11$ $30\text{s}$, and $7$ $31\text{s}$. Let $d$ be the median of the modes. Which of the following statements is true?
+*some rotation around a point of line \(\ell\)
+*some translation in the direction parallel to line \(\ell\)
+*the reflection across line \(\ell\)
+*some reflection across a line perpendicular to line \(\ell\)
+\(\textbf{(A) } 0 \qquad\textbf{(B) } 1 \qquad\textbf{(C) } 2 \qquad\textbf{(D) } 3 \qquad\textbf{(E) } 4\)\par \vspace{0.5em}\item Melanie computes the mean \(\mu\), the median \(M\), and the modes of the \(365\) values that are the dates in the months of \(2019\). Thus her data consist of \(12\) \(1\text{s}\), \(12\) \(2\text{s}\), . . . , \(12\) \(28\text{s}\), \(11\) \(29\text{s}\), \(11\) \(30\text{s}\), and \(7\) \(31\text{s}\). Let \(d\) be the median of the modes. Which of the following statements is true?
 
-$\textbf{(A) } \mu < d < M \qquad\textbf{(B) } M < d < \mu \qquad\textbf{(C) } d = M =\mu \qquad\textbf{(D) } d < M < \mu \qquad\textbf{(E) } d < \mu < M$\par \vspace{0.5em}\item For a set of four distinct lines in a plane, there are exactly $N$ distinct points that lie on two or more of the lines. What is the sum of all possible values of $N$?
+\(\textbf{(A) } \mu < d < M \qquad\textbf{(B) } M < d < \mu \qquad\textbf{(C) } d = M =\mu \qquad\textbf{(D) } d < M < \mu \qquad\textbf{(E) } d < \mu < M\)\par \vspace{0.5em}\item For a set of four distinct lines in a plane, there are exactly \(N\) distinct points that lie on two or more of the lines. What is the sum of all possible values of \(N\)?
 
-$\textbf{(A) } 14 \qquad \textbf{(B) } 16 \qquad \textbf{(C) } 18 \qquad \textbf{(D) } 19 \qquad \textbf{(E) } 21$\par \vspace{0.5em}\item A sequence of numbers is defined recursively by $a_1 = 1$, $a_2 = \frac{3}{7}$, and
+\(\textbf{(A) } 14 \qquad \textbf{(B) } 16 \qquad \textbf{(C) } 18 \qquad \textbf{(D) } 19 \qquad \textbf{(E) } 21\)\par \vspace{0.5em}\item A sequence of numbers is defined recursively by \(a_1 = 1\), \(a_2 = \frac{3}{7}\), and
 
 \begin{equation*}
 a_n=\frac{a_{n-2} \cdot a_{n-1}}{2a_{n-2} - a_{n-1}}
 \end{equation*}
-for all $n \geq 3$. Then $a_{2019}$ can be written as $\frac{p}{q}$, where $p$ and $q$ are relatively prime positive integers. What is $p+q ?$
+for all \(n \geq 3\). Then \(a_{2019}\) can be written as \(\frac{p}{q}\), where \(p\) and \(q\) are relatively prime positive integers. What is \(p+q ?\)
 
-$\textbf{(A) } 2020 \qquad\textbf{(B) } 4039 \qquad\textbf{(C) } 6057 \qquad\textbf{(D) } 6061 \qquad\textbf{(E) } 8078$\par \vspace{0.5em}\item The figure below shows $13$ circles of radius $1$ within a larger circle. All the intersections occur at points of tangency. What is the area of the region, shaded in the figure, inside the larger circle but outside all the circles of radius $1$?
+\(\textbf{(A) } 2020 \qquad\textbf{(B) } 4039 \qquad\textbf{(C) } 6057 \qquad\textbf{(D) } 6061 \qquad\textbf{(E) } 8078\)\par \vspace{0.5em}\item The figure below shows \(13\) circles of radius \(1\) within a larger circle. All the intersections occur at points of tangency. What is the area of the region, shaded in the figure, inside the larger circle but outside all the circles of radius \(1\)?
 
 
 \begin{center}
@@ -92,51 +94,51 @@ unitsize(20);filldraw(circle((0,0),2*sqrt(3)+1),rgb(0.5,0.5,0.5));filldraw(circl
 \end{center}
 
 
-$\textbf{(A) } 4 \pi \sqrt{3} \qquad\textbf{(B) } 7 \pi \qquad\textbf{(C) } \pi\left(3\sqrt{3} +2\right) \qquad\textbf{(D) } 10 \pi \left(\sqrt{3} - 1\right) \qquad\textbf{(E) } \pi\left(\sqrt{3} + 6\right)$\par \vspace{0.5em}\item For some positive integer $k$, the repeating base-$k$ representation of the (base-ten) fraction $\frac{7}{51}$ is $0.\overline{23}_k = 0.232323..._k$. What is $k$?
+\(\textbf{(A) } 4 \pi \sqrt{3} \qquad\textbf{(B) } 7 \pi \qquad\textbf{(C) } \pi\left(3\sqrt{3} +2\right) \qquad\textbf{(D) } 10 \pi \left(\sqrt{3} - 1\right) \qquad\textbf{(E) } \pi\left(\sqrt{3} + 6\right)\)\par \vspace{0.5em}\item For some positive integer \(k\), the repeating base-\(k\) representation of the (base-ten) fraction \(\frac{7}{51}\) is \(0.\overline{23}_k = 0.232323..._k\). What is \(k\)?
 
-$\textbf{(A) } 13 \qquad\textbf{(B) } 14 \qquad\textbf{(C) } 15 \qquad\textbf{(D) } 16 \qquad\textbf{(E) } 17$\par \vspace{0.5em}\item Positive real numbers $x \neq 1$ and $y \neq 1$ satisfy $\log_2{x} = \log_y{16}$ and $xy = 64$. What is $(\log_2{\tfrac{x}{y}})^2$?
+\(\textbf{(A) } 13 \qquad\textbf{(B) } 14 \qquad\textbf{(C) } 15 \qquad\textbf{(D) } 16 \qquad\textbf{(E) } 17\)\par \vspace{0.5em}\item Positive real numbers \(x \neq 1\) and \(y \neq 1\) satisfy \(\log_2{x} = \log_y{16}\) and \(xy = 64\). What is \((\log_2{\tfrac{x}{y}})^2\)?
 
-$\textbf{(A) } \frac{25}{2} \qquad\textbf{(B) } 20 \qquad\textbf{(C) } \frac{45}{2} \qquad\textbf{(D) } 25 \qquad\textbf{(E) } 32$\par \vspace{0.5em}\item How many ways are there to paint each of the integers $2, 3, \dots, 9$ either red, green, or blue so that each number has a different color from each of its proper divisors?
+\(\textbf{(A) } \frac{25}{2} \qquad\textbf{(B) } 20 \qquad\textbf{(C) } \frac{45}{2} \qquad\textbf{(D) } 25 \qquad\textbf{(E) } 32\)\par \vspace{0.5em}\item How many ways are there to paint each of the integers \(2, 3, \dots, 9\) either red, green, or blue so that each number has a different color from each of its proper divisors?
 
-$\textbf{(A)}\ 144\qquad\textbf{(B)}\ 216\qquad\textbf{(C)}\ 256\qquad\textbf{(D)}\ 384\qquad\textbf{(E)}\ 432$\par \vspace{0.5em}\item For a certain complex number $c$, the polynomial
+\(\textbf{(A)}\ 144\qquad\textbf{(B)}\ 216\qquad\textbf{(C)}\ 256\qquad\textbf{(D)}\ 384\qquad\textbf{(E)}\ 432\)\par \vspace{0.5em}\item For a certain complex number \(c\), the polynomial
 
 \begin{equation*}
 P(x) = (x^2 - 2x + 2)(x^2 - cx + 4)(x^2 - 4x + 8)
 \end{equation*}
-has exactly 4 distinct roots. What is $|c|$?
+has exactly 4 distinct roots. What is \(|c|\)?
 
-$\textbf{(A) } 2 \qquad \textbf{(B) } \sqrt{6} \qquad \textbf{(C) } 2\sqrt{2} \qquad \textbf{(D) } 3 \qquad \textbf{(E) } \sqrt{10}$\par \vspace{0.5em}\item Positive real numbers $a$ and $b$ have the property that
+\(\textbf{(A) } 2 \qquad \textbf{(B) } \sqrt{6} \qquad \textbf{(C) } 2\sqrt{2} \qquad \textbf{(D) } 3 \qquad \textbf{(E) } \sqrt{10}\)\par \vspace{0.5em}\item Positive real numbers \(a\) and \(b\) have the property that
 
 \begin{equation*}
 \sqrt{\log{a}} + \sqrt{\log{b}} + \log \sqrt{a} + \log \sqrt{b} = 100
 \end{equation*}
 
 
-and all four terms on the left are positive integers, where $\log$ denotes the base-$10$ logarithm. What is $ab$?
+and all four terms on the left are positive integers, where \(\log\) denotes the base-\(10\) logarithm. What is \(ab\)?
 
-$\textbf{(A) }   10^{52}   \qquad        \textbf{(B) }   10^{100}   \qquad    \textbf{(C) }   10^{144}   \qquad   \textbf{(D) }  10^{164} \qquad  \textbf{(E) }   10^{200} $\par \vspace{0.5em}\item The numbers $1,2,\dots,9$ are randomly placed into the $9$ squares of a $3 \times 3$ grid. Each square gets one number, and each of the numbers is used once. What is the probability that the sum of the numbers in each row and each column is odd?
+\(\textbf{(A) }   10^{52}   \qquad        \textbf{(B) }   10^{100}   \qquad    \textbf{(C) }   10^{144}   \qquad   \textbf{(D) }  10^{164} \qquad  \textbf{(E) }   10^{200} \)\par \vspace{0.5em}\item The numbers \(1,2,\dots,9\) are randomly placed into the \(9\) squares of a \(3 \times 3\) grid. Each square gets one number, and each of the numbers is used once. What is the probability that the sum of the numbers in each row and each column is odd?
 
-$\textbf{(A) }\frac{1}{21}\qquad\textbf{(B) }\frac{1}{14}\qquad\textbf{(C) }\frac{5}{63}\qquad\textbf{(D) }\frac{2}{21}\qquad\textbf{(E) } \frac17$\par \vspace{0.5em}\item Let $s_k$ denote the sum of the $\textit{k}$th powers of the roots of the polynomial $x^3-5x^2+8x-13$. In particular, $s_0=3$, $s_1=5$, and $s_2=9$. Let $a$, $b$, and $c$ be real numbers such that $s_{k+1} = a \, s_k + b \, s_{k-1} + c \, s_{k-2}$ for $k = 2$, $3$, $....$ What is $a+b+c$?
+\(\textbf{(A) }\frac{1}{21}\qquad\textbf{(B) }\frac{1}{14}\qquad\textbf{(C) }\frac{5}{63}\qquad\textbf{(D) }\frac{2}{21}\qquad\textbf{(E) } \frac17\)\par \vspace{0.5em}\item Let \(s_k\) denote the sum of the \(\textit{k}\)th powers of the roots of the polynomial \(x^3-5x^2+8x-13\). In particular, \(s_0=3\), \(s_1=5\), and \(s_2=9\). Let \(a\), \(b\), and \(c\) be real numbers such that \(s_{k+1} = a \, s_k + b \, s_{k-1} + c \, s_{k-2}\) for \(k = 2\), \(3\), \(....\) What is \(a+b+c\)?
 
-$\textbf{(A)} \; -6 \qquad \textbf{(B)} \; 0 \qquad \textbf{(C)} \; 6 \qquad \textbf{(D)} \; 10 \qquad \textbf{(E)} \; 26$\par \vspace{0.5em}\item A sphere with center $O$ has radius $6$. A triangle with sides of length $15, 15,$ and $24$ is situated in space so that each of its sides is tangent to the sphere. What is the distance between $O$ and the plane determined by the triangle?
+\(\textbf{(A)} \; -6 \qquad \textbf{(B)} \; 0 \qquad \textbf{(C)} \; 6 \qquad \textbf{(D)} \; 10 \qquad \textbf{(E)} \; 26\)\par \vspace{0.5em}\item A sphere with center \(O\) has radius \(6\). A triangle with sides of length \(15, 15,\) and \(24\) is situated in space so that each of its sides is tangent to the sphere. What is the distance between \(O\) and the plane determined by the triangle?
 
-$
+\(
 \textbf{(A) }2\sqrt{3}\qquad
 \textbf{(B) }4\qquad
 \textbf{(C) }3\sqrt{2}\qquad
 \textbf{(D) }2\sqrt{5}\qquad
 \textbf{(E) }5\qquad
-$\par \vspace{0.5em}\item In $\triangle ABC$ with integer side lengths,
+\)\par \vspace{0.5em}\item In \(\triangle ABC\) with integer side lengths,
 
 \begin{equation*}
 \cos A=\frac{11}{16}, \qquad \cos B= \frac{7}{8}, \qquad \text{and} \qquad\cos C=-\frac{1}{4}.
 \end{equation*}
 
-What is the least possible perimeter for $\triangle ABC$?
+What is the least possible perimeter for \(\triangle ABC\)?
 
-$\textbf{(A) } 9 \qquad \textbf{(B) } 12 \qquad \textbf{(C) } 23 \qquad \textbf{(D) } 27 \qquad \textbf{(E) } 44$\par \vspace{0.5em}\item Real numbers between $0$ and $1$, inclusive, are chosen in the following manner. A fair coin is flipped. If it lands heads, then it is flipped again and the chosen number is $0$ if the second flip is heads and $1$ if the second flip is tails. On the other hand, if the first coin flip is tails, then the number is chosen uniformly at random from the closed interval $[0,1]$. Two random numbers $x$ and $y$ are chosen independently in this manner. What is the probability that $|x-y| > \tfrac{1}{2}$?
+\(\textbf{(A) } 9 \qquad \textbf{(B) } 12 \qquad \textbf{(C) } 23 \qquad \textbf{(D) } 27 \qquad \textbf{(E) } 44\)\par \vspace{0.5em}\item Real numbers between \(0\) and \(1\), inclusive, are chosen in the following manner. A fair coin is flipped. If it lands heads, then it is flipped again and the chosen number is \(0\) if the second flip is heads and \(1\) if the second flip is tails. On the other hand, if the first coin flip is tails, then the number is chosen uniformly at random from the closed interval \([0,1]\). Two random numbers \(x\) and \(y\) are chosen independently in this manner. What is the probability that \(|x-y| > \tfrac{1}{2}\)?
 
-$\textbf{(A) } \frac{1}{3} \qquad \textbf{(B) } \frac{7}{16} \qquad \textbf{(C) } \frac{1}{2} \qquad \textbf{(D) } \frac{9}{16} \qquad \textbf{(E) } \frac{2}{3}$\par \vspace{0.5em}\item Let 
+\(\textbf{(A) } \frac{1}{3} \qquad \textbf{(B) } \frac{7}{16} \qquad \textbf{(C) } \frac{1}{2} \qquad \textbf{(D) } \frac{9}{16} \qquad \textbf{(E) } \frac{2}{3}\)\par \vspace{0.5em}\item Let 
 \begin{equation*}
 z=\frac{1+i}{\sqrt{2}}.
 \end{equation*}
@@ -146,28 +148,28 @@ What is
 \end{equation*}
 
 
-$\textbf{(A) } 18 \qquad \textbf{(B) } 72-36\sqrt2 \qquad \textbf{(C) } 36 \qquad \textbf{(D) } 72 \qquad \textbf{(E) } 72+36\sqrt2$\par \vspace{0.5em}\item Circles $\omega$ and $\gamma$, both centered at $O$, have radii $20$ and $17$, respectively. Equilateral triangle $ABC$, whose interior lies in the interior of $\omega$ but in the exterior of $\gamma$, has vertex $A$ on $\omega$, and the line containing side $\overline{BC}$ is tangent to $\gamma$. Segments $\overline{AO}$ and $\overline{BC}$ intersect at $P$, and $\dfrac{BP}{CP} = 3$. Then $AB$ can be written in the form $\dfrac{m}{\sqrt{n}} - \dfrac{p}{\sqrt{q}}$ for positive integers $m$, $n$, $p$, $q$ with $\gcd(m,n) = \gcd(p,q) = 1$. What is $m+n+p+q$?
-$\phantom{  }$
+\(\textbf{(A) } 18 \qquad \textbf{(B) } 72-36\sqrt2 \qquad \textbf{(C) } 36 \qquad \textbf{(D) } 72 \qquad \textbf{(E) } 72+36\sqrt2\)\par \vspace{0.5em}\item Circles \(\omega\) and \(\gamma\), both centered at \(O\), have radii \(20\) and \(17\), respectively. Equilateral triangle \(ABC\), whose interior lies in the interior of \(\omega\) but in the exterior of \(\gamma\), has vertex \(A\) on \(\omega\), and the line containing side \(\overline{BC}\) is tangent to \(\gamma\). Segments \(\overline{AO}\) and \(\overline{BC}\) intersect at \(P\), and \(\dfrac{BP}{CP} = 3\). Then \(AB\) can be written in the form \(\dfrac{m}{\sqrt{n}} - \dfrac{p}{\sqrt{q}}\) for positive integers \(m\), \(n\), \(p\), \(q\) with \(\gcd(m,n) = \gcd(p,q) = 1\). What is \(m+n+p+q\)?
+\(\phantom{  }\)
 
-$\textbf{(A) } 42 \qquad \textbf{(B) }86 \qquad \textbf{(C) } 92 \qquad \textbf{(D) } 114 \qquad \textbf{(E) } 130$\par \vspace{0.5em}\item Define binary operations $\diamondsuit$ and $\heartsuit$ by 
+\(\textbf{(A) } 42 \qquad \textbf{(B) }86 \qquad \textbf{(C) } 92 \qquad \textbf{(D) } 114 \qquad \textbf{(E) } 130\)\par \vspace{0.5em}\item Define binary operations \(\diamondsuit\) and \(\heartsuit\) by 
 \begin{equation*}
 a \, \diamondsuit \, b = a^{\log_{7}(b)} \qquad \text{and} \qquad a  \, \heartsuit \, b = a^{\frac{1}{\log_{7}(b)}}
 \end{equation*}
-for all real numbers $a$ and $b$ for which these expressions are defined. The sequence $(a_n)$ is defined recursively by $a_3 = 3\, \heartsuit\, 2$ and 
+for all real numbers \(a\) and \(b\) for which these expressions are defined. The sequence \((a_n)\) is defined recursively by \(a_3 = 3\, \heartsuit\, 2\) and 
 \begin{equation*}
 a_n = (n\, \heartsuit\, (n-1)) \,\diamondsuit\, a_{n-1}
 \end{equation*}
-for all integers $n \geq 4$. To the nearest integer, what is $\log_{7}(a_{2019})$?
+for all integers \(n \geq 4\). To the nearest integer, what is \(\log_{7}(a_{2019})\)?
 
-$\textbf{(A) } 8 \qquad  \textbf{(B) } 9 \qquad \textbf{(C) } 10 \qquad \textbf{(D) } 11 \qquad \textbf{(E) } 12$\par \vspace{0.5em}\item For how many integers $n$ between $1$ and $50$, inclusive, is
+\(\textbf{(A) } 8 \qquad  \textbf{(B) } 9 \qquad \textbf{(C) } 10 \qquad \textbf{(D) } 11 \qquad \textbf{(E) } 12\)\par \vspace{0.5em}\item For how many integers \(n\) between \(1\) and \(50\), inclusive, is
 
 \begin{equation*}
 \frac{(n^2-1)!}{(n!)^n}
 \end{equation*}
 
-an integer? (Recall that $0! = 1$.)
+an integer? (Recall that \(0! = 1\).)
 
-$\textbf{(A) } 31 \qquad \textbf{(B) } 32 \qquad \textbf{(C) } 33 \qquad \textbf{(D) } 34 \qquad \textbf{(E) } 35$\par \vspace{0.5em}\item Let $\triangle A_0B_0C_0$ be a triangle whose angle measures are exactly $59.999^\circ$, $60^\circ$, and $60.001^\circ$. For each positive integer $n$, define $A_n$ to be the foot of the altitude from $A_{n-1}$ to line $B_{n-1}C_{n-1}$. Likewise, define $B_n$ to be the foot of the altitude from $B_{n-1}$ to line $A_{n-1}C_{n-1}$, and $C_n$ to be the foot of the altitude from $C_{n-1}$ to line $A_{n-1}B_{n-1}$. What is the least positive integer $n$ for which $\triangle A_nB_nC_n$ is obtuse?
+\(\textbf{(A) } 31 \qquad \textbf{(B) } 32 \qquad \textbf{(C) } 33 \qquad \textbf{(D) } 34 \qquad \textbf{(E) } 35\)\par \vspace{0.5em}\item Let \(\triangle A_0B_0C_0\) be a triangle whose angle measures are exactly \(59.999^\circ\), \(60^\circ\), and \(60.001^\circ\). For each positive integer \(n\), define \(A_n\) to be the foot of the altitude from \(A_{n-1}\) to line \(B_{n-1}C_{n-1}\). Likewise, define \(B_n\) to be the foot of the altitude from \(B_{n-1}\) to line \(A_{n-1}C_{n-1}\), and \(C_n\) to be the foot of the altitude from \(C_{n-1}\) to line \(A_{n-1}B_{n-1}\). What is the least positive integer \(n\) for which \(\triangle A_nB_nC_n\) is obtuse?
 
-$\textbf{(A) } 10 \qquad \textbf{(B) }11 \qquad \textbf{(C) } 13\qquad \textbf{(D) } 14 \qquad \textbf{(E) } 15$\par \vspace{0.5em}\end{enumerate}
+\(\textbf{(A) } 10 \qquad \textbf{(B) }11 \qquad \textbf{(C) } 13\qquad \textbf{(D) } 14 \qquad \textbf{(E) } 15\)\par \vspace{0.5em}\end{enumerate}
 \end{document}

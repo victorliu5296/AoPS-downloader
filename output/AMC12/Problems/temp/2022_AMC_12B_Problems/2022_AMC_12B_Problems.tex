@@ -9,6 +9,8 @@
 \usepackage{tikz}
 \usepackage{graphicx}
 \usepackage{asymptote}
+\usepackage{arcs}
+\usepackage{xwatermark}
 \begin{asydef}
   // Global Asymptote settings
   settings.outformat = "pdf";
@@ -27,17 +29,17 @@
 
 \title{AMC12 Problems \\ 2022}
 \date{}
-\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{Problems}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item Define $x\diamond y$ to be $|x-y|$ for all real numbers $x$ and $y.$ What is the value of 
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{Problems}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item Define \(x\diamond y\) to be \(|x-y|\) for all real numbers \(x\) and \(y.\) What is the value of 
 \begin{equation*}
 (1\diamond(2\diamond3))-((1\diamond2)\diamond3)?
 \end{equation*}
 
 
-$ \textbf{(A)}\ {-}2 \qquad
+\( \textbf{(A)}\ {-}2 \qquad
 \textbf{(B)}\ {-}1 \qquad
 \textbf{(C)}\ 0 \qquad
 \textbf{(D)}\ 1 \qquad
-\textbf{(E)}\ 2$\par \vspace{0.5em}\item In rhombus $ABCD$, point $P$ lies on segment $\overline{AD}$ so that $\overline{BP}$ $\perp$ $\overline{AD}$, $AP = 3$, and $PD = 2$. What is the area of $ABCD$? (Note: The figure is not drawn to scale.)
+\textbf{(E)}\ 2\)\par \vspace{0.5em}\item In rhombus \(ABCD\), point \(P\) lies on segment \(\overline{AD}\) so that \(\overline{BP}\) \(\perp\) \(\overline{AD}\), \(AP = 3\), and \(PD = 2\). What is the area of \(ABCD\)? (Note: The figure is not drawn to scale.)
 
 
 \begin{center}
@@ -59,17 +61,17 @@ label("$P$",P,S);
 \end{center}
 
 
-$\textbf{(A) }3\sqrt 5 \qquad
+\(\textbf{(A) }3\sqrt 5 \qquad
 \textbf{(B) }10 \qquad
 \textbf{(C) }6\sqrt 5 \qquad
 \textbf{(D) }20\qquad
-\textbf{(E) }25$\par \vspace{0.5em}\item How many of the first ten numbers of the sequence $121, 11211, 1112111, \ldots$ are prime numbers?
+\textbf{(E) }25\)\par \vspace{0.5em}\item How many of the first ten numbers of the sequence \(121, 11211, 1112111, \ldots\) are prime numbers?
 
-$\textbf{(A) } 0 \qquad \textbf{(B) }1 \qquad \textbf{(C) }2 \qquad \textbf{(D) }3 \qquad \textbf{(E) }4$\par \vspace{0.5em}\item For how many values of the constant $k$ will the polynomial $x^{2}+kx+36$ have two distinct integer roots?
+\(\textbf{(A) } 0 \qquad \textbf{(B) }1 \qquad \textbf{(C) }2 \qquad \textbf{(D) }3 \qquad \textbf{(E) }4\)\par \vspace{0.5em}\item For how many values of the constant \(k\) will the polynomial \(x^{2}+kx+36\) have two distinct integer roots?
 
-$\textbf{(A) }6 \qquad \textbf{(B) }8 \qquad \textbf{(C) }9 \qquad \textbf{(D) }14 \qquad \textbf{(E) }16$\par \vspace{0.5em}\item The point $(-1, -2)$ is rotated $270^{\circ}$ counterclockwise about the point $(3, 1)$. What are the coordinates of its new position?
+\(\textbf{(A) }6 \qquad \textbf{(B) }8 \qquad \textbf{(C) }9 \qquad \textbf{(D) }14 \qquad \textbf{(E) }16\)\par \vspace{0.5em}\item The point \((-1, -2)\) is rotated \(270^{\circ}\) counterclockwise about the point \((3, 1)\). What are the coordinates of its new position?
 
-$\textbf{(A) }\ (-3, -4) \qquad \textbf{(B) }\ (0,5) \qquad \textbf{(C) }\ (2,-1) \qquad \textbf{(D) }\ (4,3) \qquad \textbf{(E) }\ (6,-3)$\par \vspace{0.5em}\item Consider the following $100$ sets of $10$ elements each:
+\(\textbf{(A) }\ (-3, -4) \qquad \textbf{(B) }\ (0,5) \qquad \textbf{(C) }\ (2,-1) \qquad \textbf{(D) }\ (4,3) \qquad \textbf{(E) }\ (6,-3)\)\par \vspace{0.5em}\item Consider the following \(100\) sets of \(10\) elements each:
 
 \begin{align*}
 &\{1,2,3,\ldots,10\}, \\
@@ -79,35 +81,35 @@ $\textbf{(A) }\ (-3, -4) \qquad \textbf{(B) }\ (0,5) \qquad \textbf{(C) }\ (2,-1
 &\{991,992,993,\ldots,1000\}.
 \end{align*}
 
-How many of these sets contain exactly two multiples of $7$?
+How many of these sets contain exactly two multiples of \(7\)?
 
-$\textbf{(A)}\ 40\qquad\textbf{(B)}\ 42\qquad\textbf{(C)}\ 43\qquad\textbf{(D)}\ 49\qquad\textbf{(E)}\ 50$\par \vspace{0.5em}\item Camila writes down five positive integers. The unique mode of these integers is $2$ greater than their median, and the median is $2$ greater than their arithmetic mean. What is the least possible value for the mode?
+\(\textbf{(A)}\ 40\qquad\textbf{(B)}\ 42\qquad\textbf{(C)}\ 43\qquad\textbf{(D)}\ 49\qquad\textbf{(E)}\ 50\)\par \vspace{0.5em}\item Camila writes down five positive integers. The unique mode of these integers is \(2\) greater than their median, and the median is \(2\) greater than their arithmetic mean. What is the least possible value for the mode?
 
-$\textbf{(A) }5\qquad\textbf{(B) }7\qquad\textbf{(C) }9\qquad\textbf{(D) }11\qquad\textbf{(E) }13$\par \vspace{0.5em}\item What is the graph of $y^4+1=x^4+2y^2$ in the coordinate plane?
+\(\textbf{(A) }5\qquad\textbf{(B) }7\qquad\textbf{(C) }9\qquad\textbf{(D) }11\qquad\textbf{(E) }13\)\par \vspace{0.5em}\item What is the graph of \(y^4+1=x^4+2y^2\) in the coordinate plane?
 
-$\textbf{(A) }\ \text{two intersecting parabolas} \qquad \textbf{(B) }\ \text{two nonintersecting parabolas} \qquad \textbf{(C) }\ \text{two intersecting circles} \qquad$
+\(\textbf{(A) }\ \text{two intersecting parabolas} \qquad \textbf{(B) }\ \text{two nonintersecting parabolas} \qquad \textbf{(C) }\ \text{two intersecting circles} \qquad\)
 
-$\textbf{(D) }\ \text{a circle and a hyperbola} \qquad \textbf{(E) }\ \text{a circle and two parabolas}$\par \vspace{0.5em}\item The sequence $a_0,a_1,a_2,\cdots$ is a strictly increasing arithmetic sequence of positive integers such that 
+\(\textbf{(D) }\ \text{a circle and a hyperbola} \qquad \textbf{(E) }\ \text{a circle and two parabolas}\)\par \vspace{0.5em}\item The sequence \(a_0,a_1,a_2,\cdots\) is a strictly increasing arithmetic sequence of positive integers such that 
 \begin{equation*}
 2^{a_7}=2^{27} \cdot a_7.
 \end{equation*}
- What is the minimum possible value of $a_2$?
+ What is the minimum possible value of \(a_2\)?
 
-$\textbf{(A) }\ 8 \qquad \textbf{(B) }\ 12 \qquad \textbf{(C) }\ 16 \qquad \textbf{(D) }\ 17 \qquad \textbf{(E) }\ 22$\par \vspace{0.5em}\item Regular hexagon $ABCDEF$ has side length $2$. Let $G$ be the midpoint of $\overline{AB}$, and let $H$ be the midpoint of $\overline{DE}$. What is the perimeter of $GCHF$?
+\(\textbf{(A) }\ 8 \qquad \textbf{(B) }\ 12 \qquad \textbf{(C) }\ 16 \qquad \textbf{(D) }\ 17 \qquad \textbf{(E) }\ 22\)\par \vspace{0.5em}\item Regular hexagon \(ABCDEF\) has side length \(2\). Let \(G\) be the midpoint of \(\overline{AB}\), and let \(H\) be the midpoint of \(\overline{DE}\). What is the perimeter of \(GCHF\)?
 
-$ \textbf{(A) }\ 4\sqrt3 \qquad
+\( \textbf{(A) }\ 4\sqrt3 \qquad
 \textbf{(B) }\ 8 \qquad
 \textbf{(C) }\ 4\sqrt5 \qquad
 \textbf{(D) }\ 4\sqrt7 \qquad
-\textbf{(E) }\ 12$\par \vspace{0.5em}\item Let $ f(n) = \left( \frac{-1+i\sqrt{3}}{2} \right)^n + \left( \frac{-1-i\sqrt{3}}{2} \right)^n $, where $i = \sqrt{-1}$. What is $f(2022)$?
+\textbf{(E) }\ 12\)\par \vspace{0.5em}\item Let \( f(n) = \left( \frac{-1+i\sqrt{3}}{2} \right)^n + \left( \frac{-1-i\sqrt{3}}{2} \right)^n \), where \(i = \sqrt{-1}\). What is \(f(2022)\)?
 
-$ \textbf{(A) }\ -2 \qquad
+\( \textbf{(A) }\ -2 \qquad
 \textbf{(B) }\ -1 \qquad
 \textbf{(C) }\ 0 \qquad
 \textbf{(D) }\ \sqrt{3} \qquad
-\textbf{(E) }\ 2$\par \vspace{0.5em}\item Kayla rolls four fair $6$-sided dice. What is the probability that at least one of the numbers Kayla rolls is greater than $4$ and at least two of the numbers she rolls are greater than $2$?
+\textbf{(E) }\ 2\)\par \vspace{0.5em}\item Kayla rolls four fair \(6\)-sided dice. What is the probability that at least one of the numbers Kayla rolls is greater than \(4\) and at least two of the numbers she rolls are greater than \(2\)?
 
-$\textbf{(A) }\frac{2}{3} \qquad \textbf{(B) }\frac{19}{27} \qquad \textbf{(C) }\frac{59}{81} \qquad \textbf{(D) }\frac{61}{81} \qquad \textbf{(E) }\frac{7}{9}$\par \vspace{0.5em}\item The diagram below shows a rectangle with side lengths $4$ and $8$ and a square with side length $5$. Three vertices of the square lie on three different sides of the rectangle, as shown. What is the area of the region inside both the square and the rectangle?
+\(\textbf{(A) }\frac{2}{3} \qquad \textbf{(B) }\frac{19}{27} \qquad \textbf{(C) }\frac{59}{81} \qquad \textbf{(D) }\frac{61}{81} \qquad \textbf{(E) }\frac{7}{9}\)\par \vspace{0.5em}\item The diagram below shows a rectangle with side lengths \(4\) and \(8\) and a square with side length \(5\). Three vertices of the square lie on three different sides of the rectangle, as shown. What is the area of the region inside both the square and the rectangle?
 
 
 \begin{center}
@@ -126,23 +128,23 @@ draw((1,.35)--(1.35,.35)--(1.35,0),linewidth(1.1));
 \end{center}
 
 
-$\textbf{(A) }15\dfrac{1}{8}  \qquad
+\(\textbf{(A) }15\dfrac{1}{8}  \qquad
 \textbf{(B) }15\dfrac{3}{8}  \qquad
 \textbf{(C) }15\dfrac{1}{2}  \qquad
 \textbf{(D) }15\dfrac{5}{8}  \qquad
-\textbf{(E) }15\dfrac{7}{8} $\par \vspace{0.5em}\item The graph of $y=x^2+2x-15$ intersects the $x$-axis at points $A$ and $C$ and the $y$-axis at point $B$. What is $\tan(\angle ABC)$?
+\textbf{(E) }15\dfrac{7}{8} \)\par \vspace{0.5em}\item The graph of \(y=x^2+2x-15\) intersects the \(x\)-axis at points \(A\) and \(C\) and the \(y\)-axis at point \(B\). What is \(\tan(\angle ABC)\)?
 
-$\textbf{(A) }\frac{1}{7} \qquad \textbf{(B) }\frac{1}{4} \qquad \textbf{(C) }\frac{3}{7} \qquad \textbf{(D) }\frac{1}{2} \qquad \textbf{(E) }\frac{4}{7}$\par \vspace{0.5em}\item One of the following numbers is not divisible by any prime number less than $10.$ Which is it?
+\(\textbf{(A) }\frac{1}{7} \qquad \textbf{(B) }\frac{1}{4} \qquad \textbf{(C) }\frac{3}{7} \qquad \textbf{(D) }\frac{1}{2} \qquad \textbf{(E) }\frac{4}{7}\)\par \vspace{0.5em}\item One of the following numbers is not divisible by any prime number less than \(10.\) Which is it?
 
-$\textbf{(A) } 2^{606}-1 \qquad\textbf{(B) } 2^{606}+1 \qquad\textbf{(C) } 2^{607}-1 \qquad\textbf{(D) } 2^{607}+1\qquad\textbf{(E) } 2^{607}+3^{607}$\par \vspace{0.5em}\item Suppose $x$ and $y$ are positive real numbers such that
+\(\textbf{(A) } 2^{606}-1 \qquad\textbf{(B) } 2^{606}+1 \qquad\textbf{(C) } 2^{607}-1 \qquad\textbf{(D) } 2^{607}+1\qquad\textbf{(E) } 2^{607}+3^{607}\)\par \vspace{0.5em}\item Suppose \(x\) and \(y\) are positive real numbers such that
 
 \begin{equation*}
 x^y=2^{64}\text{ and }(\log_2{x})^{\log_2{y}}=2^{7}.
 \end{equation*}
 
-What is the greatest possible value of $\log_2{y}$?
+What is the greatest possible value of \(\log_2{y}\)?
 
-$\textbf{(A) }3 \qquad \textbf{(B) }4 \qquad \textbf{(C) }3+\sqrt{2} \qquad \textbf{(D) }4+\sqrt{3} \qquad \textbf{(E) }7$\par \vspace{0.5em}\item How many $4 \times 4$ arrays whose entries are $0$s and $1$s are there such that the row sums (the sum of the entries in each row) are $1, 2, 3,$ and $4,$ in some order, and the column sums (the sum of the entries in each column) are also $1, 2, 3,$ and $4,$ in some order? For example, the array
+\(\textbf{(A) }3 \qquad \textbf{(B) }4 \qquad \textbf{(C) }3+\sqrt{2} \qquad \textbf{(D) }4+\sqrt{3} \qquad \textbf{(E) }7\)\par \vspace{0.5em}\item How many \(4 \times 4\) arrays whose entries are \(0\)s and \(1\)s are there such that the row sums (the sum of the entries in each row) are \(1, 2, 3,\) and \(4,\) in some order, and the column sums (the sum of the entries in each column) are also \(1, 2, 3,\) and \(4,\) in some order? For example, the array
 
 \begin{equation*}
 \left[
@@ -157,7 +159,7 @@ $\textbf{(A) }3 \qquad \textbf{(B) }4 \qquad \textbf{(C) }3+\sqrt{2} \qquad \tex
 
 satisfies the condition.
 
-$\textbf{(A) }144 \qquad \textbf{(B) }240 \qquad \textbf{(C) }336 \qquad \textbf{(D) }576 \qquad \textbf{(E) }624$\par \vspace{0.5em}\item Each square in a $5 \times 5$ grid is either filled or empty, and has up to eight adjacent neighboring squares, where neighboring squares share either a side or a corner. The grid is transformed by the following rules:
+\(\textbf{(A) }144 \qquad \textbf{(B) }240 \qquad \textbf{(C) }336 \qquad \textbf{(D) }576 \qquad \textbf{(E) }624\)\par \vspace{0.5em}\item Each square in a \(5 \times 5\) grid is either filled or empty, and has up to eight adjacent neighboring squares, where neighboring squares share either a side or a corner. The grid is transformed by the following rules:
 
 * Any filled square with two or three filled neighbors remains filled.
 
@@ -204,7 +206,7 @@ import geometry;
 \end{asy}
 \end{center}
 
-Suppose the $5 \times 5$ grid has a border of empty squares surrounding a $3 \times 3$ subgrid. How many initial configurations will lead to a transformed grid consisting of a single filled square in the center after a single transformation? (Rotations and reflections of the same configuration are considered different.)
+Suppose the \(5 \times 5\) grid has a border of empty squares surrounding a \(3 \times 3\) subgrid. How many initial configurations will lead to a transformed grid consisting of a single filled square in the center after a single transformation? (Rotations and reflections of the same configuration are considered different.)
 
 \begin{center}
 \begin{asy}
@@ -242,31 +244,31 @@ import geometry;
 \end{asy}
 \end{center}
 
-$\textbf{(A)}\ 14 \qquad\textbf{(B)}\ 18 \qquad\textbf{(C)}\ 22 \qquad\textbf{(D)}\ 26 \qquad\textbf{(E)}\ 30$\par \vspace{0.5em}\item In $\triangle{ABC}$ medians $\overline{AD}$ and $\overline{BE}$ intersect at $G$ and $\triangle{AGE}$ is equilateral. Then $\cos(C)$ can be written as $\frac{m\sqrt p}n$, where $m$ and $n$ are relatively prime positive integers and $p$ is a positive integer not divisible by the square of any prime. What is $m+n+p?$
+\(\textbf{(A)}\ 14 \qquad\textbf{(B)}\ 18 \qquad\textbf{(C)}\ 22 \qquad\textbf{(D)}\ 26 \qquad\textbf{(E)}\ 30\)\par \vspace{0.5em}\item In \(\triangle{ABC}\) medians \(\overline{AD}\) and \(\overline{BE}\) intersect at \(G\) and \(\triangle{AGE}\) is equilateral. Then \(\cos(C)\) can be written as \(\frac{m\sqrt p}n\), where \(m\) and \(n\) are relatively prime positive integers and \(p\) is a positive integer not divisible by the square of any prime. What is \(m+n+p?\)
 
-$\textbf{(A) }44 \qquad \textbf{(B) }48 \qquad \textbf{(C) }52 \qquad \textbf{(D) }56 \qquad \textbf{(E) }60$\par \vspace{0.5em}\item Let $P(x)$ be a polynomial with rational coefficients such that when $P(x)$ is divided by the polynomial $x^2 + x + 1$, the remainder is $x + 2$, and when $P(x)$ is divided by the polynomial $x^2 + 1$, the remainder is $2x + 1$. There is a unique polynomial of least degree with these two properties. What is the sum of the squares of the coefficients of that polynomial?
+\(\textbf{(A) }44 \qquad \textbf{(B) }48 \qquad \textbf{(C) }52 \qquad \textbf{(D) }56 \qquad \textbf{(E) }60\)\par \vspace{0.5em}\item Let \(P(x)\) be a polynomial with rational coefficients such that when \(P(x)\) is divided by the polynomial \(x^2 + x + 1\), the remainder is \(x + 2\), and when \(P(x)\) is divided by the polynomial \(x^2 + 1\), the remainder is \(2x + 1\). There is a unique polynomial of least degree with these two properties. What is the sum of the squares of the coefficients of that polynomial?
 
-$\textbf{(A) } 10 \qquad \textbf{(B) } 13 \qquad \textbf{(C) } 19 \qquad \textbf{(D) } 20 \qquad \textbf{(E) } 23$\par \vspace{0.5em}\item Let $S$ be the set of circles in the coordinate plane that are tangent to each of the three circles with equations $x^{2}+y^{2}=4$, $x^{2}+y^{2}=64$, and $(x-5)^{2}+y^{2}=3$. What is the sum of the areas of all circles in $S$?
+\(\textbf{(A) } 10 \qquad \textbf{(B) } 13 \qquad \textbf{(C) } 19 \qquad \textbf{(D) } 20 \qquad \textbf{(E) } 23\)\par \vspace{0.5em}\item Let \(S\) be the set of circles in the coordinate plane that are tangent to each of the three circles with equations \(x^{2}+y^{2}=4\), \(x^{2}+y^{2}=64\), and \((x-5)^{2}+y^{2}=3\). What is the sum of the areas of all circles in \(S\)?
 
-$\textbf{(A) } 48 \pi \qquad
+\(\textbf{(A) } 48 \pi \qquad
 \textbf{(B) } 68 \pi \qquad
 \textbf{(C) } 96 \pi \qquad
 \textbf{(D) } 102 \pi \qquad
-\textbf{(E) } 136 \pi \qquad$\par \vspace{0.5em}\item Ant Amelia starts on the number line at $0$ and crawls in the following manner. For $n=1,2,3,$ Amelia chooses a time duration $t_n$ and an increment $x_n$ independently and uniformly at random from the interval $(0,1).$ During the $n$th step of the process, Amelia moves $x_n$ units in the positive direction, using up $t_n$ minutes. If the total elapsed time has exceeded $1$ minute during the $n$th step, she stops at the end of that step; otherwise, she continues with the next step, taking at most $3$ steps in all. What is the probability that Amelias position when she stops will be greater than $1$?
+\textbf{(E) } 136 \pi \qquad\)\par \vspace{0.5em}\item Ant Amelia starts on the number line at \(0\) and crawls in the following manner. For \(n=1,2,3,\) Amelia chooses a time duration \(t_n\) and an increment \(x_n\) independently and uniformly at random from the interval \((0,1).\) During the \(n\)th step of the process, Amelia moves \(x_n\) units in the positive direction, using up \(t_n\) minutes. If the total elapsed time has exceeded \(1\) minute during the \(n\)th step, she stops at the end of that step; otherwise, she continues with the next step, taking at most \(3\) steps in all. What is the probability that Amelias position when she stops will be greater than \(1\)?
 
-$\textbf{(A) }\frac{1}{3} \qquad \textbf{(B) }\frac{1}{2} \qquad \textbf{(C) }\frac{2}{3} \qquad \textbf{(D) }\frac{3}{4} \qquad \textbf{(E) }\frac{5}{6}$\par \vspace{0.5em}\item Let $x_0,x_1,x_2,\dotsc$ be a sequence of numbers, where each $x_k$ is either $0$ or $1$. For each positive integer $n$, define 
+\(\textbf{(A) }\frac{1}{3} \qquad \textbf{(B) }\frac{1}{2} \qquad \textbf{(C) }\frac{2}{3} \qquad \textbf{(D) }\frac{3}{4} \qquad \textbf{(E) }\frac{5}{6}\)\par \vspace{0.5em}\item Let \(x_0,x_1,x_2,\dotsc\) be a sequence of numbers, where each \(x_k\) is either \(0\) or \(1\). For each positive integer \(n\), define 
 
 \begin{equation*}
 S_n = \sum_{k=0}^{n-1} x_k 2^k
 \end{equation*}
 
-Suppose $7S_n \equiv 1 \pmod{2^n}$ for all $n \geq 1$. What is the value of the sum
+Suppose \(7S_n \equiv 1 \pmod{2^n}\) for all \(n \geq 1\). What is the value of the sum
 
 \begin{equation*}
 x_{2019} + 2x_{2020} + 4x_{2021} + 8x_{2022}?
 \end{equation*}
 
-$\textbf{(A) } 6 \qquad \textbf{(B) } 7 \qquad \textbf{(C) }12\qquad \textbf{(D) } 14\qquad \textbf{(E) }15$\par \vspace{0.5em}\item The figure below depicts a regular $7$-gon inscribed in a unit circle.
+\(\textbf{(A) } 6 \qquad \textbf{(B) } 7 \qquad \textbf{(C) }12\qquad \textbf{(D) } 14\qquad \textbf{(E) }15\)\par \vspace{0.5em}\item The figure below depicts a regular \(7\)-gon inscribed in a unit circle.
 
 \begin{center}
 \begin{asy}
@@ -286,9 +288,9 @@ for(int i = 0; i < 7; ++i) {
 \end{asy}
 \end{center}
 
-What is the sum of the $4$th powers of the lengths of all $21$ of its edges and diagonals?
+What is the sum of the \(4\)th powers of the lengths of all \(21\) of its edges and diagonals?
 
-$\textbf{(A) }49 \qquad \textbf{(B) }98 \qquad \textbf{(C) }147 \qquad \textbf{(D) }168 \qquad \textbf{(E) }196$\par \vspace{0.5em}\item Four regular hexagons surround a square with a side length $1$, each one sharing an edge with the square, as shown in the figure below. The area of the resulting 12-sided outer nonconvex polygon can be written as $m\sqrt{n} + p$, where $m$, $n$, and $p$ are integers and $n$ is not divisible by the square of any prime. What is $m + n + p$?
+\(\textbf{(A) }49 \qquad \textbf{(B) }98 \qquad \textbf{(C) }147 \qquad \textbf{(D) }168 \qquad \textbf{(E) }196\)\par \vspace{0.5em}\item Four regular hexagons surround a square with a side length \(1\), each one sharing an edge with the square, as shown in the figure below. The area of the resulting 12-sided outer nonconvex polygon can be written as \(m\sqrt{n} + p\), where \(m\), \(n\), and \(p\) are integers and \(n\) is not divisible by the square of any prime. What is \(m + n + p\)?
 
 
 \begin{center}
@@ -307,9 +309,9 @@ import geometry;
 \end{center}
 
 
-$\textbf{(A) } -12 \qquad
+\(\textbf{(A) } -12 \qquad
 \textbf{(B) }-4 \qquad 
 \textbf{(C) } 4 \qquad
 \textbf{(D) }24 \qquad
-\textbf{(E) }32$\par \vspace{0.5em}\end{enumerate}
+\textbf{(E) }32\)\par \vspace{0.5em}\end{enumerate}
 \end{document}

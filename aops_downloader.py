@@ -248,6 +248,8 @@ def generate_latex_header(contest_type, year_range_str, doc_type):
 \usepackage{tikz}
 \usepackage{graphicx}
 \usepackage{asymptote}
+\usepackage{arcs}
+\usepackage{xwatermark}
 \begin{asydef}
   // Global Asymptote settings
   settings.outformat = "pdf";
@@ -373,6 +375,13 @@ def process_problem_content(problem):
         for pattern in inline_math_patterns:
             cleaned_content = re.sub(pattern, r'\1', cleaned_content, flags=re.DOTALL | re.IGNORECASE)
         return f'\n\\begin{{equation*}}\n{cleaned_content.strip()}\n\\end{{equation*}}\n'
+
+    # Escape LaTeX-sensitive HTML entities before unescaping
+    problem = re.sub(
+        r'(&amp;|&#(?:35|36|37|95|123|125|126|94|92);)',
+        r'\\\1',
+        problem
+    )
 
     problem = html.unescape(problem)
     problem = re.sub(r'<math>(.*?)</math>', r'\\(\1\\)', problem, flags=re.DOTALL)

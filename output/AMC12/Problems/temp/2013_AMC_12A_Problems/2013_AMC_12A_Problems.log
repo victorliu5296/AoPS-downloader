@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  23 JAN 2025 23:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  23 JAN 2025 23:42
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -711,32 +711,98 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 \openout5 = `2013_AMC_12A_Problems.pre'.
 
 )
+(C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/arcs\arcs.sty
+Package: arcs 2004/05/09
+
+(C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.s
+ty
+Package: relsize 2013/03/29 ver 4.1
+))
+(C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/xwatermark\xwater
+mark.sty
+(C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/catoptions\catopt
+ions.sty
+\m@one=\count321
+\z@pt=\dimen273
+Package: catoptions 2023/10/29 v0.2.7i Securing catcodes and parsing options (A
+M)
+
+
+Package catoptions Warning: 
+(catoptions)                catoptions modifies package option handling and is
+(catoptions)                incompatible with many other packages.
+(catoptions)                For new documents it is recommended to use
+(catoptions)                The built in option processor:
+(catoptions)                \ProcessKeyOptions, see clsguide.
+
+\cpt@csvdepth=\count322
+\cpt@optdepth=\count323
+\cpt@cnta=\count324
+\indrisdepth=\count325
+\cpt@foreachdepth=\count326
+\cpt@exprcnt=\count327
+)
+Package: xwatermark 2012/10/23 v1.5.2d A dynamic watermarking scheme (Ahmed Mus
+a)
+ (C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+(C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+(C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/picture\picture.s
+ty
+Package: picture 2020-04-22 v1.6 Dimens for picture macros (HO)
+Package picture Info: Calculation method: etex.
+)
+(C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/ltxkeys\ltxkeys.s
+ty
+Package: ltxkeys 2012/11/17 v0.0.3c A robust key-value parser (AM) (Ahmed Musa)
+
+\ltxkeys@csvdepth=\count328
+\ltxkeys@keydepth=\count329
+)
+(C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/framed\framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip70
+\fb@frw=\dimen274
+\fb@frh=\dimen275
+\FrameRule=\dimen276
+\FrameSep=\dimen277
+)
+\xwm@boxa=\box67
+\xwm@boxb=\box68
+\xwm@cnta=\count330
+\xwm@wrt=\write6
+\openout6 = `2013_AMC_12A_Problems.xwm'.
+
+)
 (C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backe
 nd-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count321
-\l__pdf_internal_box=\box67
+\l__color_backend_stack_int=\count331
+\l__pdf_internal_box=\box69
 ) (2013_AMC_12A_Problems.aux)
 \openout1 = `2013_AMC_12A_Problems.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -772,25 +838,25 @@ LaTeX Font Info:    ... okay on input line 30.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 30.
+Package hyperref Info: Link coloring OFF on input line 32.
 (2013_AMC_12A_Problems.out) (2013_AMC_12A_Problems.out)
-\@outlinefile=\write6
-\openout6 = `2013_AMC_12A_Problems.out'.
+\@outlinefile=\write7
+\openout7 = `2013_AMC_12A_Problems.out'.
 
 
 (C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-
 pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count322
-\scratchdimen=\dimen273
-\scratchbox=\box68
-\nofMPsegments=\count323
-\nofMParguments=\count324
+\scratchcounter=\count332
+\scratchdimen=\dimen278
+\scratchbox=\box70
+\nofMPsegments=\count333
+\nofMParguments=\count334
 \everyMPshowfont=\toks38
-\MPscratchCnt=\count325
-\MPscratchDim=\dimen274
-\MPnumerator=\count326
-\makeMPintoPDFobject=\count327
+\MPscratchCnt=\count335
+\MPscratchDim=\dimen279
+\MPnumerator=\count336
+\makeMPintoPDFobject=\count337
 \everyMPtoPDFconversion=\toks39
 )
 (C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epst
@@ -803,13 +869,13 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 -sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
 
 
 (C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
 
 (C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -824,55 +890,32 @@ LaTeX Warning: No \author given.
 ]
 \openout4 = `2013_AMC_12A_Problems-1.asy'.
 
+<2013_AMC_12A_Problems-1.pdf, id=14, 227.62239pt x 227.29819pt>
+File: 2013_AMC_12A_Problems-1.pdf Graphic file (type pdf)
+<use 2013_AMC_12A_Problems-1.pdf>
+Package pdftex.def Info: 2013_AMC_12A_Problems-1.pdf  used on input line 60.
+(pdftex.def)             Requested size: 227.62183pt x 227.2976pt.
 
 
-Package asymptote Warning: file `2013_AMC_12A_Problems-1.pdf' not found on inpu
-t line 58.
-
-! Display math should end with $$.
-<to be read again> 
-                   ,
-l.71 ...evenly. During their trip Tom paid $$105$,
-                                                   Dorothy paid $$125$, and ...
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-! Display math should end with $$.
-<to be read again> 
-                   ,
-l.71 ...trip Tom paid $$105$, Dorothy paid $$125$,
-                                                   and Sammy paid $$175$. In...
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-! Display math should end with $$.
-<to be read again> 
-                   .
-l.71 ...orothy paid $$125$, and Sammy paid $$175$.
-                                                   In order to share the cos...
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
+[2 <./2013_AMC_12A_Problems-1.pdf>]
 \openout4 = `2013_AMC_12A_Problems-2.asy'.
 
-
-Package asymptote Warning: file `2013_AMC_12A_Problems-2.pdf' not found on inpu
-t line 106.
-
-
-
-[2]
+<2013_AMC_12A_Problems-2.pdf, id=44, 144.62129pt x 180.675pt>
+File: 2013_AMC_12A_Problems-2.pdf Graphic file (type pdf)
+<use 2013_AMC_12A_Problems-2.pdf>
+Package pdftex.def Info: 2013_AMC_12A_Problems-2.pdf  used on input line 108.
+(pdftex.def)             Requested size: 144.62093pt x 180.67455pt.
 \openout4 = `2013_AMC_12A_Problems-3.asy'.
 
+<2013_AMC_12A_Problems-3.pdf, id=45, 180.675pt x 159.43765pt>
+File: 2013_AMC_12A_Problems-3.pdf Graphic file (type pdf)
+<use 2013_AMC_12A_Problems-3.pdf>
+Package pdftex.def Info: 2013_AMC_12A_Problems-3.pdf  used on input line 138.
+(pdftex.def)             Requested size: 180.67455pt x 159.43724pt.
 
 
-Package asymptote Warning: file `2013_AMC_12A_Problems-3.pdf' not found on inpu
-t line 136.
-
-
-
-[3]
-Overfull \hbox (49.1192pt too wide) in paragraph at lines 168--172
+[3 <./2013_AMC_12A_Problems-2.pdf> <./2013_AMC_12A_Problems-3.pdf>]
+Overfull \hbox (49.1192pt too wide) in paragraph at lines 170--174
 []$[] \OT1/cmr/m/n/10 ([] 2016\OML/cmm/m/it/10 ; [] \OT1/cmr/m/n/10 2017)$ $[] 
 ([] 2017\OML/cmm/m/it/10 ; [] \OT1/cmr/m/n/10 2018)$ $[] ([] 2018\OML/cmm/m/it/
 10 ; [] \OT1/cmr/m/n/10 2019)$ $[] ([] 2019\OML/cmm/m/it/10 ; [] \OT1/cmr/m/n/1
@@ -881,7 +924,9 @@ Overfull \hbox (49.1192pt too wide) in paragraph at lines 168--172
 
 
 
-[4] (2013_AMC_12A_Problems.aux)
+[4]
+
+[5] (2013_AMC_12A_Problems.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
@@ -890,30 +935,32 @@ Package rerunfilecheck Info: File `2013_AMC_12A_Problems.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21534 strings out of 473536
- 403142 string characters out of 5712052
- 785267 words of memory out of 5000000
- 44364 multiletter control sequences out of 15000+600000
- 567012 words of font info for 68 fonts, out of 8000000 for 9000
+ 25369 strings out of 473536
+ 476861 string characters out of 5712052
+ 901143 words of memory out of 5000000
+ 48164 multiletter control sequences out of 15000+600000
+ 567347 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,11n,107p,660b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/DefaultUser/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Default
-User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:
-/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmr17.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/DefaultUser/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/DefaultUser/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/De
-faultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msb
-m10.pfb>
-Output written on 2013_AMC_12A_Problems.pdf (4 pages, 143846 bytes).
+ 102i,12n,107p,690b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\DefaultUser\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm1000.pk><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/DefaultUse
+r/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/U
+sers/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mmi7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/DefaultUser/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/DefaultUser/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Defau
+ltUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+<C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmsy7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/symbols/msbm10.pfb>
+Output written on 2013_AMC_12A_Problems.pdf (5 pages, 161508 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 153 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 

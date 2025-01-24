@@ -9,6 +9,8 @@
 \usepackage{tikz}
 \usepackage{graphicx}
 \usepackage{asymptote}
+\usepackage{arcs}
+\usepackage{xwatermark}
 \begin{asydef}
   // Global Asymptote settings
   settings.outformat = "pdf";
@@ -27,29 +29,29 @@
 
 \title{AMC12 Problems \\ 2013}
 \date{}
-\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{Problems}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item On a particular January day, the high temperature in Lincoln, Nebraska, was $16$ degrees higher than the low temperature, and the average of the high and low temperatures was $3$. In degrees, what was the low temperature in Lincoln that day?
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{Problems}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item On a particular January day, the high temperature in Lincoln, Nebraska, was \(16\) degrees higher than the low temperature, and the average of the high and low temperatures was \(3\). In degrees, what was the low temperature in Lincoln that day?
 
-$\textbf{(A)}\ -13 \qquad \textbf{(B)}\ -8 \qquad \textbf{(C)}\ -5 \qquad \textbf{(D)}\ -3 \qquad \textbf{(E)}\ 11$\par \vspace{0.5em}\item Mr. Green measures his rectangular garden by walking two of the sides and finds that it is $15$ steps by $20$ steps. Each of Mr. Greens steps is $2$ feet long. Mr. Green expects a half a pound of potatoes per square foot from his garden. How many pounds of potatoes does Mr. Green expect from his garden?
+\(\textbf{(A)}\ -13 \qquad \textbf{(B)}\ -8 \qquad \textbf{(C)}\ -5 \qquad \textbf{(D)}\ -3 \qquad \textbf{(E)}\ 11\)\par \vspace{0.5em}\item Mr. Green measures his rectangular garden by walking two of the sides and finds that it is \(15\) steps by \(20\) steps. Each of Mr. Greens steps is \(2\) feet long. Mr. Green expects a half a pound of potatoes per square foot from his garden. How many pounds of potatoes does Mr. Green expect from his garden?
 
-$\textbf{(A)}\ 600 \qquad \textbf{(B)}\ 800 \qquad \textbf{(C)}\ 1000 \qquad \textbf{(D)}\ 1200 \qquad \textbf{(E)}\ 1400$\par \vspace{0.5em}\item When counting from $3$ to $201$, $53$ is the $51^{\text{st}}$ number counted. When counting backwards from $201$ to $3$, $53$ is the $n^{\text{th}}$ number counted. What is $n$?
+\(\textbf{(A)}\ 600 \qquad \textbf{(B)}\ 800 \qquad \textbf{(C)}\ 1000 \qquad \textbf{(D)}\ 1200 \qquad \textbf{(E)}\ 1400\)\par \vspace{0.5em}\item When counting from \(3\) to \(201\), \(53\) is the \(51^{\text{st}}\) number counted. When counting backwards from \(201\) to \(3\), \(53\) is the \(n^{\text{th}}\) number counted. What is \(n\)?
 
-$\textbf{(A)}\ 146 \qquad \textbf{(B)}\ 147 \qquad \textbf{(C)}\ 148 \qquad \textbf{(D)}\ 149 \qquad \textbf{(E)}\ 150$\par \vspace{0.5em}\item Ray's car averages $40$ miles per gallon of gasoline, and Tom's car averages $10$ miles per gallon of gasoline. Ray and Tom each drive the same number of miles. What is the cars' combined rate of miles per gallon of gasoline?<br \>
+\(\textbf{(A)}\ 146 \qquad \textbf{(B)}\ 147 \qquad \textbf{(C)}\ 148 \qquad \textbf{(D)}\ 149 \qquad \textbf{(E)}\ 150\)\par \vspace{0.5em}\item Ray's car averages \(40\) miles per gallon of gasoline, and Tom's car averages \(10\) miles per gallon of gasoline. Ray and Tom each drive the same number of miles. What is the cars' combined rate of miles per gallon of gasoline?<br \>
 
-$\textbf{(A)}\ 10 \qquad \textbf{(B)}\ 16 \qquad \textbf{(C)}\ 25 \qquad \textbf{(D)}\ 30 \qquad \textbf{(E)}\ 40$\par \vspace{0.5em}\item The average age of $33$ fifth-graders is $11$. The average age of $55$ of their parents is $33$. What is the average age of all of these parents and fifth-graders?
+\(\textbf{(A)}\ 10 \qquad \textbf{(B)}\ 16 \qquad \textbf{(C)}\ 25 \qquad \textbf{(D)}\ 30 \qquad \textbf{(E)}\ 40\)\par \vspace{0.5em}\item The average age of \(33\) fifth-graders is \(11\). The average age of \(55\) of their parents is \(33\). What is the average age of all of these parents and fifth-graders?
 
-$\textbf{(A)}\ 22 \qquad \textbf{(B)}\ 23.25 \qquad \textbf{(C)}\ 24.75 \qquad \textbf{(D)}\ 26.25 \qquad \textbf{(E)}\ 28$\par \vspace{0.5em}\item Real numbers $x$ and $y$ satisfy the equation $x^2 + y^2 = 10x - 6y - 34$. What is $x + y$?
+\(\textbf{(A)}\ 22 \qquad \textbf{(B)}\ 23.25 \qquad \textbf{(C)}\ 24.75 \qquad \textbf{(D)}\ 26.25 \qquad \textbf{(E)}\ 28\)\par \vspace{0.5em}\item Real numbers \(x\) and \(y\) satisfy the equation \(x^2 + y^2 = 10x - 6y - 34\). What is \(x + y\)?
 
-$\textbf{(A)}\ 1 \qquad \textbf{(B)}\ 2 \qquad \textbf{(C)}\ 3 \qquad \textbf{(D)}\ 6 \qquad \textbf{(E)}\ 8$\par \vspace{0.5em}\item Jo and Blair take turns counting from $1$ to one more than the last number said by the other person. Jo starts by saying $``1"$, so Blair follows by saying $``1, 2"$. Jo then says $``1, 2, 3"$, and so on. What is the $53^{\text{rd}}$ number said?
+\(\textbf{(A)}\ 1 \qquad \textbf{(B)}\ 2 \qquad \textbf{(C)}\ 3 \qquad \textbf{(D)}\ 6 \qquad \textbf{(E)}\ 8\)\par \vspace{0.5em}\item Jo and Blair take turns counting from \(1\) to one more than the last number said by the other person. Jo starts by saying \(``1"\), so Blair follows by saying \(``1, 2"\). Jo then says \(``1, 2, 3"\), and so on. What is the \(53^{\text{rd}}\) number said?
 
-$\textbf{(A)}\ 2 \qquad \textbf{(B)}\ 3 \qquad \textbf{(C)}\ 5 \qquad \textbf{(D)}\ 6 \qquad \textbf{(E)}\ 8$\par \vspace{0.5em}\item Line $l_1$ has equation $3x - 2y = 1$ and goes through $A = (-1, -2)$. Line $l_2$ has equation $y = 1$ and meets line $l_1$ at point $B$. Line $l_3$ has positive slope, goes through point $A$, and meets $l_2$ at point $C$. The area of $\triangle ABC$ is $3$. What is the slope of $l_3$?
+\(\textbf{(A)}\ 2 \qquad \textbf{(B)}\ 3 \qquad \textbf{(C)}\ 5 \qquad \textbf{(D)}\ 6 \qquad \textbf{(E)}\ 8\)\par \vspace{0.5em}\item Line \(l_1\) has equation \(3x - 2y = 1\) and goes through \(A = (-1, -2)\). Line \(l_2\) has equation \(y = 1\) and meets line \(l_1\) at point \(B\). Line \(l_3\) has positive slope, goes through point \(A\), and meets \(l_2\) at point \(C\). The area of \(\triangle ABC\) is \(3\). What is the slope of \(l_3\)?
 
-$\textbf{(A)}\ \frac{2}{3} \qquad \textbf{(B)}\ \frac{3}{4} \qquad \textbf{(C)}\ 1 \qquad \textbf{(D)}\ \frac{4}{3} \qquad \textbf{(E)}\ \frac{3}{2}$\par \vspace{0.5em}\item What is the sum of the exponents of the prime factors of the square root of the largest perfect square that divides $12!$ ?
+\(\textbf{(A)}\ \frac{2}{3} \qquad \textbf{(B)}\ \frac{3}{4} \qquad \textbf{(C)}\ 1 \qquad \textbf{(D)}\ \frac{4}{3} \qquad \textbf{(E)}\ \frac{3}{2}\)\par \vspace{0.5em}\item What is the sum of the exponents of the prime factors of the square root of the largest perfect square that divides \(12!\) ?
 
-$\textbf{(A)}\ 5 \qquad \textbf{(B)}\ 7 \qquad \textbf{(C)}\ 8 \qquad \textbf{(D)}\ 10 \qquad \textbf{(E)}\ 12 $\par \vspace{0.5em}\item Alex has $75$ red tokens and $75$ blue tokens. There is a booth where Alex can give two red tokens and receive in return a silver token and a blue token, and another booth where Alex can give three blue tokens and receive in return a silver token and a red token. Alex continues to exchange tokens until no more exchanges are possible. How many silver tokens will Alex have at the end?
+\(\textbf{(A)}\ 5 \qquad \textbf{(B)}\ 7 \qquad \textbf{(C)}\ 8 \qquad \textbf{(D)}\ 10 \qquad \textbf{(E)}\ 12 \)\par \vspace{0.5em}\item Alex has \(75\) red tokens and \(75\) blue tokens. There is a booth where Alex can give two red tokens and receive in return a silver token and a blue token, and another booth where Alex can give three blue tokens and receive in return a silver token and a red token. Alex continues to exchange tokens until no more exchanges are possible. How many silver tokens will Alex have at the end?
 
-$\textbf{(A)}\ 62 \qquad \textbf{(B)}\ 82 \qquad \textbf{(C)}\ 83 \qquad \textbf{(D)}\ 102 \qquad \textbf{(E)}\ 103$\par \vspace{0.5em}\item Two bees start at the same spot and fly at the same rate in the following directions. Bee $A$ travels $1$ foot north, then $1$ foot east, then $1$ foot upwards, and then continues to repeat this pattern. Bee $B$ travels $1$ foot south, then $1$ foot west, and then continues to repeat this pattern. In what directions are the bees traveling when they are exactly $10$ feet away from each other?
+\(\textbf{(A)}\ 62 \qquad \textbf{(B)}\ 82 \qquad \textbf{(C)}\ 83 \qquad \textbf{(D)}\ 102 \qquad \textbf{(E)}\ 103\)\par \vspace{0.5em}\item Two bees start at the same spot and fly at the same rate in the following directions. Bee \(A\) travels \(1\) foot north, then \(1\) foot east, then \(1\) foot upwards, and then continues to repeat this pattern. Bee \(B\) travels \(1\) foot south, then \(1\) foot west, and then continues to repeat this pattern. In what directions are the bees traveling when they are exactly \(10\) feet away from each other?
 
-$\textbf{(A)}\ A$ east, $B$ west<br \>$\textbf{(B)}\ A$ north, $B$ south<br \>$\textbf{(C)}\ A$ north, $B$ west<br \>$\textbf{(D)}\ A$ up, $B$ south<br \>$\textbf{(E)}\ A$ up, $B$ west<br \>\par \vspace{0.5em}\item Cities $A$, $B$, $C$, $D$, and $E$ are connected by roads $\widetilde{AB}$, $\widetilde{AD}$, $\widetilde{AE}$, $\widetilde{BC}$, $\widetilde{BD}$, $\widetilde{CD}$, and $\widetilde{DE}$. How many different routes are there from $A$ to $B$ that use each road exactly once? (Such a route will necessarily visit some cities more than once.)
+\(\textbf{(A)}\ A\) east, \(B\) west<br \>\(\textbf{(B)}\ A\) north, \(B\) south<br \>\(\textbf{(C)}\ A\) north, \(B\) west<br \>\(\textbf{(D)}\ A\) up, \(B\) south<br \>\(\textbf{(E)}\ A\) up, \(B\) west<br \>\par \vspace{0.5em}\item Cities \(A\), \(B\), \(C\), \(D\), and \(E\) are connected by roads \(\widetilde{AB}\), \(\widetilde{AD}\), \(\widetilde{AE}\), \(\widetilde{BC}\), \(\widetilde{BD}\), \(\widetilde{CD}\), and \(\widetilde{DE}\). How many different routes are there from \(A\) to \(B\) that use each road exactly once? (Such a route will necessarily visit some cities more than once.)
 
 \begin{center}
 \begin{asy}
@@ -98,14 +100,14 @@ draw(squiggly(D--E, 2.718, -60), pp);
 \end{center}
 
 
-$\textbf{(A)}\ 7 \qquad \textbf{(B)}\ 9 \qquad \textbf{(C)}\ 12 \qquad \textbf{(D)}\ 16 \qquad \textbf{(E)}\ 18$\par \vspace{0.5em}\item The internal angles of quadrilateral $ABCD$ form an arithmetic progression. Triangles $ABD$ and $DCB$ are similar with $\angle DBA = \angle DCB$ and $\angle ADB = \angle CBD$. Moreover, the angles in each of these two triangles also form an arithmetic progression. In degrees, what is the largest possible sum of the two largest angles of $ABCD$?
+\(\textbf{(A)}\ 7 \qquad \textbf{(B)}\ 9 \qquad \textbf{(C)}\ 12 \qquad \textbf{(D)}\ 16 \qquad \textbf{(E)}\ 18\)\par \vspace{0.5em}\item The internal angles of quadrilateral \(ABCD\) form an arithmetic progression. Triangles \(ABD\) and \(DCB\) are similar with \(\angle DBA = \angle DCB\) and \(\angle ADB = \angle CBD\). Moreover, the angles in each of these two triangles also form an arithmetic progression. In degrees, what is the largest possible sum of the two largest angles of \(ABCD\)?
 
-$\textbf{(A)}\ 210 \qquad \textbf{(B)}\ 220 \qquad \textbf{(C)}\ 230 \qquad \textbf{(D)}\ 240 \qquad \textbf{(E)}\ 250$\par \vspace{0.5em}\item Two non-decreasing sequences of nonnegative integers have different first terms. Each sequence has the property that each term beginning with the third is the sum of the previous two terms, and the seventh term of each sequence is $N$. What is the smallest possible value of $N$ ?
+\(\textbf{(A)}\ 210 \qquad \textbf{(B)}\ 220 \qquad \textbf{(C)}\ 230 \qquad \textbf{(D)}\ 240 \qquad \textbf{(E)}\ 250\)\par \vspace{0.5em}\item Two non-decreasing sequences of nonnegative integers have different first terms. Each sequence has the property that each term beginning with the third is the sum of the previous two terms, and the seventh term of each sequence is \(N\). What is the smallest possible value of \(N\) ?
 
-$\textbf{(A)}\ 55 \qquad \textbf{(B)}\ 89 \qquad \textbf{(C)}\ 104 \qquad \textbf{(D)}\ 144 \qquad \textbf{(E)}\ 273$\par \vspace{0.5em}\item The number $2013$ is expressed in the form <br \> <center> $2013 = \frac {a_1!a_2!...a_m!}{b_1!b_2!...b_n!}$,</center><br />where $a_1 \ge a_2 \ge ... \ge a_m$ and $b_1 \ge b_2 \ge ... \ge b_n$ are positive integers and $a_1 + b_1$ is as small as possible. What is $|a_1 - b_1|$?
-$\textbf{(A)}\ 1 \qquad \textbf{(B)}\ 2 \qquad \textbf{(C)}\ 3 \qquad \textbf{(D)}\ 4 \qquad \textbf{(E)}\ 5$\par \vspace{0.5em}\item Let $ABCDE$ be an equiangular convex pentagon of perimeter $1$. The pairwise intersections of the lines that extend the sides of the pentagon determine a five-pointed star polygon. Let $s$ be the perimeter of this star. What is the difference between the maximum and the minimum possible values of $s$?
+\(\textbf{(A)}\ 55 \qquad \textbf{(B)}\ 89 \qquad \textbf{(C)}\ 104 \qquad \textbf{(D)}\ 144 \qquad \textbf{(E)}\ 273\)\par \vspace{0.5em}\item The number \(2013\) is expressed in the form <br \> <center> \(2013 = \frac {a_1!a_2!...a_m!}{b_1!b_2!...b_n!}\),</center><br />where \(a_1 \ge a_2 \ge ... \ge a_m\) and \(b_1 \ge b_2 \ge ... \ge b_n\) are positive integers and \(a_1 + b_1\) is as small as possible. What is \(|a_1 - b_1|\)?
+\(\textbf{(A)}\ 1 \qquad \textbf{(B)}\ 2 \qquad \textbf{(C)}\ 3 \qquad \textbf{(D)}\ 4 \qquad \textbf{(E)}\ 5\)\par \vspace{0.5em}\item Let \(ABCDE\) be an equiangular convex pentagon of perimeter \(1\). The pairwise intersections of the lines that extend the sides of the pentagon determine a five-pointed star polygon. Let \(s\) be the perimeter of this star. What is the difference between the maximum and the minimum possible values of \(s\)?
 
-$\textbf{(A)}\ 0 \qquad \textbf{(B)}\ \frac{1}{2} \qquad \textbf{(C)}\ \frac{\sqrt{5}-1}{2} \qquad \textbf{(D)}\  \frac{\sqrt{5}+1}{2} \qquad \textbf{(E)}\ \sqrt{5}$\par \vspace{0.5em}\item Let $a,b,$ and $c$ be real numbers such that 
+\(\textbf{(A)}\ 0 \qquad \textbf{(B)}\ \frac{1}{2} \qquad \textbf{(C)}\ \frac{\sqrt{5}-1}{2} \qquad \textbf{(D)}\  \frac{\sqrt{5}+1}{2} \qquad \textbf{(E)}\ \sqrt{5}\)\par \vspace{0.5em}\item Let \(a,b,\) and \(c\) be real numbers such that 
 
 
 \begin{equation*}
@@ -118,43 +120,43 @@ a^2+b^2+c^2=12
 \end{equation*}
 
 
-What is the difference between the maximum and minimum possible values of $c$?
+What is the difference between the maximum and minimum possible values of \(c\)?
 
-$ \textbf{(A) }2\qquad \textbf{ (B) }\frac{10}{3}\qquad \textbf{ (C) }4 \qquad \textbf{ (D) }\frac{16}{3}\qquad \textbf{ (E) }\frac{20}{3} $\par \vspace{0.5em}\item Barbara and Jenna play the following game, in which they take turns. A number of coins lie on a table. When it is Barbaras turn, she must remove $2$ or $4$ coins, unless only one coin remains, in which case she loses her turn. When it is Jennas turn, she must remove $1$ or $3$ coins. A coin flip determines who goes first. Whoever removes the last coin wins the game. Assume both players use their best strategy. Who will win when the game starts with $2013$ coins and when the game starts with $2014$ coins?
+\( \textbf{(A) }2\qquad \textbf{ (B) }\frac{10}{3}\qquad \textbf{ (C) }4 \qquad \textbf{ (D) }\frac{16}{3}\qquad \textbf{ (E) }\frac{20}{3} \)\par \vspace{0.5em}\item Barbara and Jenna play the following game, in which they take turns. A number of coins lie on a table. When it is Barbaras turn, she must remove \(2\) or \(4\) coins, unless only one coin remains, in which case she loses her turn. When it is Jennas turn, she must remove \(1\) or \(3\) coins. A coin flip determines who goes first. Whoever removes the last coin wins the game. Assume both players use their best strategy. Who will win when the game starts with \(2013\) coins and when the game starts with \(2014\) coins?
 
-$ \textbf{(A)}$ Barbara will win with $2013$ coins and Jenna will win with $2014$ coins. 
+\( \textbf{(A)}\) Barbara will win with \(2013\) coins and Jenna will win with \(2014\) coins. 
 
-$\textbf{(B)}$ Jenna will win with $2013$ coins, and whoever goes first will win with $2014$ coins. 
+\(\textbf{(B)}\) Jenna will win with \(2013\) coins, and whoever goes first will win with \(2014\) coins. 
 
-$\textbf{(C)}$ Barbara will win with $2013$ coins, and whoever goes second will win with $2014$ coins.
+\(\textbf{(C)}\) Barbara will win with \(2013\) coins, and whoever goes second will win with \(2014\) coins.
 
-$\textbf{(D)}$ Jenna will win with $2013$ coins, and Barbara will win with $2014$ coins.
+\(\textbf{(D)}\) Jenna will win with \(2013\) coins, and Barbara will win with \(2014\) coins.
 
-$\textbf{(E)}$ Whoever goes first will win with $2013$ coins, and whoever goes second will win with $2014$ coins.\par \vspace{0.5em}\item In triangle $ABC$, $AB=13$, $BC=14$, and $CA=15$. Distinct points $D$, $E$, and $F$ lie on segments $\overline{BC}$, $\overline{CA}$, and $\overline{DE}$, respectively, such that $\overline{AD}\perp\overline{BC}$, $\overline{DE}\perp\overline{AC}$, and $\overline{AF}\perp\overline{BF}$. The length of segment $\overline{DF}$ can be written as $\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. What is $m+n$?
+\(\textbf{(E)}\) Whoever goes first will win with \(2013\) coins, and whoever goes second will win with \(2014\) coins.\par \vspace{0.5em}\item In triangle \(ABC\), \(AB=13\), \(BC=14\), and \(CA=15\). Distinct points \(D\), \(E\), and \(F\) lie on segments \(\overline{BC}\), \(\overline{CA}\), and \(\overline{DE}\), respectively, such that \(\overline{AD}\perp\overline{BC}\), \(\overline{DE}\perp\overline{AC}\), and \(\overline{AF}\perp\overline{BF}\). The length of segment \(\overline{DF}\) can be written as \(\frac{m}{n}\), where \(m\) and \(n\) are relatively prime positive integers. What is \(m+n\)?
 
-$ \textbf{(A)}\ 18\qquad\textbf{(B)}\ 21\qquad\textbf{(C)}\ 24\qquad\textbf{(D)}\ 27\qquad\textbf{(E)}\ 30 $\par \vspace{0.5em}\item For $135^\circ < x < 180^\circ$, points $P=(\cos x, \cos^2 x), Q=(\cot x, \cot^2 x), R=(\sin x, \sin^2 x)$ and $S =(\tan x, \tan^2 x)$ are the vertices of a trapezoid. What is $\sin(2x)$?
+\( \textbf{(A)}\ 18\qquad\textbf{(B)}\ 21\qquad\textbf{(C)}\ 24\qquad\textbf{(D)}\ 27\qquad\textbf{(E)}\ 30 \)\par \vspace{0.5em}\item For \(135^\circ < x < 180^\circ\), points \(P=(\cos x, \cos^2 x), Q=(\cot x, \cot^2 x), R=(\sin x, \sin^2 x)\) and \(S =(\tan x, \tan^2 x)\) are the vertices of a trapezoid. What is \(\sin(2x)\)?
 
-$ \textbf{(A)}\ 2-2\sqrt{2}\qquad\textbf{(B)} 3\sqrt{3}-6\qquad\textbf{(C)}\ 3\sqrt{2}-5\qquad\textbf{(D)}\ -\frac{3}{4}\qquad\textbf{(E)}\ 1-\sqrt{3}$\par \vspace{0.5em}\item Consider the set of $30$ parabolas defined as follows: all parabolas have as focus the point $(0,0)$ and the directrix lines have the form $y=ax+b$ with $a$ and $b$ integers such that $a\in \{-2,-1,0,1,2\}$ and $b\in \{-3,-2,-1,1,2,3\}$. No three of these parabolas have a common point. How many points in the plane are on two of these parabolas?
+\( \textbf{(A)}\ 2-2\sqrt{2}\qquad\textbf{(B)} 3\sqrt{3}-6\qquad\textbf{(C)}\ 3\sqrt{2}-5\qquad\textbf{(D)}\ -\frac{3}{4}\qquad\textbf{(E)}\ 1-\sqrt{3}\)\par \vspace{0.5em}\item Consider the set of \(30\) parabolas defined as follows: all parabolas have as focus the point \((0,0)\) and the directrix lines have the form \(y=ax+b\) with \(a\) and \(b\) integers such that \(a\in \{-2,-1,0,1,2\}\) and \(b\in \{-3,-2,-1,1,2,3\}\). No three of these parabolas have a common point. How many points in the plane are on two of these parabolas?
 
-$ \textbf{(A)}\ 720\qquad\textbf{(B)}\ 760\qquad\textbf{(C)}\ 810\qquad\textbf{(D)}\ 840\qquad\textbf{(E)}\ 870 $\par \vspace{0.5em}\item Let $m>1$ and $n>1$ be integers. Suppose that the product of the solutions for $x$ of the equation
+\( \textbf{(A)}\ 720\qquad\textbf{(B)}\ 760\qquad\textbf{(C)}\ 810\qquad\textbf{(D)}\ 840\qquad\textbf{(E)}\ 870 \)\par \vspace{0.5em}\item Let \(m>1\) and \(n>1\) be integers. Suppose that the product of the solutions for \(x\) of the equation
 
 \begin{equation*}
 8(\log_n x)(\log_m x)-7\log_n x-6 \log_m x-2013 = 0
 \end{equation*}
 
-is the smallest possible integer. What is $m+n$?
+is the smallest possible integer. What is \(m+n\)?
 
-$ \textbf{(A)}\ 12\qquad\textbf{(B)}\ 20\qquad\textbf{(C)}\ 24\qquad\textbf{(D)}\ 48\qquad\textbf{(E)}\ 272 $\par \vspace{0.5em}\item Bernardo chooses a three-digit positive integer $N$ and writes both its base-$5$ and base-$6$ representations on a blackboard. Later LeRoy sees the two numbers Bernardo has written. Treating the two numbers as base-$10$ integers, he adds them to obtain an integer $S$. For example, if $N=749$, Bernardo writes the numbers $10444$ and $3245$, and LeRoy obtains the sum $S=13,689$. For how many choices of $N$ are the two rightmost digits of $S$, in order, the same as those of $2N$?
+\( \textbf{(A)}\ 12\qquad\textbf{(B)}\ 20\qquad\textbf{(C)}\ 24\qquad\textbf{(D)}\ 48\qquad\textbf{(E)}\ 272 \)\par \vspace{0.5em}\item Bernardo chooses a three-digit positive integer \(N\) and writes both its base-\(5\) and base-\(6\) representations on a blackboard. Later LeRoy sees the two numbers Bernardo has written. Treating the two numbers as base-\(10\) integers, he adds them to obtain an integer \(S\). For example, if \(N=749\), Bernardo writes the numbers \(10444\) and \(3245\), and LeRoy obtains the sum \(S=13,689\). For how many choices of \(N\) are the two rightmost digits of \(S\), in order, the same as those of \(2N\)?
 
-$ \textbf{(A)}\ 5\qquad\textbf{(B)}\ 10\qquad\textbf{(C)}\ 15\qquad\textbf{(D)}\ 20\qquad\textbf{(E)}\ 25 $\par \vspace{0.5em}\item Let $ABC$ be a triangle where $M$ is the midpoint of $\overline{AC}$, and $\overline{CN}$ is the angle bisector of $\angle{ACB}$ with $N$ on $\overline{AB}$. Let $X$ be the intersection of the median $\overline{BM}$ and the bisector $\overline{CN}$. In addition $\triangle BXN$ is equilateral with $AC=2$. What is $BX^2$?
+\( \textbf{(A)}\ 5\qquad\textbf{(B)}\ 10\qquad\textbf{(C)}\ 15\qquad\textbf{(D)}\ 20\qquad\textbf{(E)}\ 25 \)\par \vspace{0.5em}\item Let \(ABC\) be a triangle where \(M\) is the midpoint of \(\overline{AC}\), and \(\overline{CN}\) is the angle bisector of \(\angle{ACB}\) with \(N\) on \(\overline{AB}\). Let \(X\) be the intersection of the median \(\overline{BM}\) and the bisector \(\overline{CN}\). In addition \(\triangle BXN\) is equilateral with \(AC=2\). What is \(BX^2\)?
 
-$\textbf{(A)}\  \frac{10-6\sqrt{2}}{7} \qquad \textbf{(B)}\ \frac{2}{9} \qquad \textbf{(C)}\ \frac{5\sqrt{2}-3\sqrt{3}}{8} \qquad \textbf{(D)}\ \frac{\sqrt{2}}{6} \qquad \textbf{(E)}\ \frac{3\sqrt{3}-4}{5}$\par \vspace{0.5em}\item Let $G$ be the set of polynomials of the form
+\(\textbf{(A)}\  \frac{10-6\sqrt{2}}{7} \qquad \textbf{(B)}\ \frac{2}{9} \qquad \textbf{(C)}\ \frac{5\sqrt{2}-3\sqrt{3}}{8} \qquad \textbf{(D)}\ \frac{\sqrt{2}}{6} \qquad \textbf{(E)}\ \frac{3\sqrt{3}-4}{5}\)\par \vspace{0.5em}\item Let \(G\) be the set of polynomials of the form
 
 \begin{equation*}
 P(z)=z^n+c_{n-1}z^{n-1}+\cdots+c_2z^2+c_1z+50,
 \end{equation*}
 
-where $ c_1,c_2,\cdots, c_{n-1} $ are integers and $P(z)$ has distinct roots of the form $a+ib$ with $a$ and $b$ integers. How many polynomials are in $G$?
+where \( c_1,c_2,\cdots, c_{n-1} \) are integers and \(P(z)\) has distinct roots of the form \(a+ib\) with \(a\) and \(b\) integers. How many polynomials are in \(G\)?
 
-$ \textbf{(A)}\ 288\qquad\textbf{(B)}\ 528\qquad\textbf{(C)}\ 576\qquad\textbf{(D)}\ 992\qquad\textbf{(E)}\ 1056 $\par \vspace{0.5em}\end{enumerate}
+\( \textbf{(A)}\ 288\qquad\textbf{(B)}\ 528\qquad\textbf{(C)}\ 576\qquad\textbf{(D)}\ 992\qquad\textbf{(E)}\ 1056 \)\par \vspace{0.5em}\end{enumerate}
 \end{document}
