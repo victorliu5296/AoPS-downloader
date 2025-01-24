@@ -32,15 +32,8 @@ async def async_download_wiki_page(session, year, contest_type, contest_variant=
 
     cache_filename = get_cache_filename(title)
 
-    pdf_filename = f"{contest_type}_{year}_{contest_variant}.pdf"
-    pdf_filepath = os.path.join("output", pdf_filename)
-    
-    if os.path.exists(pdf_filepath):
-        print(f"Using existing PDF for: {title}")
-        return title, None  # Return None for HTML content since we are using the PDF
-
     if use_cache and os.path.exists(cache_filename):
-        print(f"Using cached wiki page for: {title}")
+        print(f"Using cached version for: {title}")
         with open(cache_filename, "r", encoding="utf-8") as f:
             return title, f.read()
 
@@ -409,14 +402,6 @@ def compile_latex_to_pdf(tex_filepath, keep_temp_files=True, output_folder="outp
     asy_modules_dir = os.path.join(output_folder, "asy_modules")
     os.makedirs(asy_modules_dir, exist_ok=True)
 
-    pdf_filename = tex_filename_base + ".pdf"
-    output_pdf_filepath = os.path.join(output_dir, pdf_filename)
-    temp_pdf_filepath = os.path.join(temp_dir_abs, pdf_filename)
-
-    if os.path.exists(output_pdf_filepath):
-        print(f"Using existing PDF: {output_pdf_filepath}")
-        return output_pdf_filepath
-
     try:
         cwd = temp_dir_abs
 
@@ -438,6 +423,7 @@ def compile_latex_to_pdf(tex_filepath, keep_temp_files=True, output_folder="outp
             env['ASYLANG'] = f"{asy_modules_dir_abs}{os.pathsep}{env['ASYLANG']}"
         else:
             env['ASYLANG'] = asy_modules_dir_abs
+
 
         print(f"Compiling Asymptote in temporary directory...")
         asy_files = [f for f in os.listdir(temp_dir_abs) if f.lower().endswith(".asy")]
@@ -464,6 +450,10 @@ def compile_latex_to_pdf(tex_filepath, keep_temp_files=True, output_folder="outp
 
         if not run_latex_compilation(tex_filepath, cwd, 2):
             return None
+
+        pdf_filename = tex_filename_base + ".pdf"
+        temp_pdf_filepath = os.path.join(temp_dir_abs, pdf_filename)
+        output_pdf_filepath = os.path.join(output_dir, pdf_filename)
 
         try:
             shutil.move(temp_pdf_filepath, output_pdf_filepath)
@@ -604,4 +594,6 @@ async def main():
                 print(f"Error deleting temporary directory {temp_dir}: {e}")
     else:
         print("\nTemporary files are kept in 'temp' subdirectories within each output folder.")
+
+if __name__ == "__main__":
     asyncio.run(main())
