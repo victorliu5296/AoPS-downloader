@@ -79,16 +79,17 @@ def run_asymptote_compilation(temp_dir_abs, asy_modules_dir):
     return True
 
 def move_pdf_output(temp_dir_abs, output_dir, tex_filename_base):
-    """Move the compiled PDF to the output directory if it doesn't already exist."""
+    """Move the compiled PDF to the output directory, overwriting if it exists."""
     pdf_filename = tex_filename_base + ".pdf"
     temp_pdf_filepath = os.path.join(temp_dir_abs, pdf_filename)
     output_pdf_filepath = os.path.join(output_dir, pdf_filename)
 
-    if os.path.exists(output_pdf_filepath):
-        print(f"Skipping move: {output_pdf_filepath} already exists.")
-        return True
-
     try:
+        # Remove existing PDF if it exists
+        if os.path.exists(output_pdf_filepath):
+            os.remove(output_pdf_filepath)
+            print(f"Removed existing PDF: {output_pdf_filepath}")
+            
         shutil.move(temp_pdf_filepath, output_pdf_filepath)
         print(f"Moved PDF to: {output_pdf_filepath}")
         return True
@@ -176,13 +177,13 @@ async def async_download_wiki_page(session, year, contest_type, contest_variant=
 def extract_problems(html_content):
     """Extracts problems from HTML content, using regex for headings."""
     if not html_content:
-        return [], []
+        return []
 
     soup = BeautifulSoup(html_content, 'html5lib')
     textarea = soup.find('textarea', {'readonly': ''})
     if not textarea:
         print("Could not find textarea with problem source.")
-        return [], []
+        return []
 
     wiki_text = textarea.string
     cleaned_wiki_text = remove_metadata(wiki_text)
@@ -233,7 +234,7 @@ def extract_problems(html_content):
         content = content.replace("’", "'").replace("‘", "'").replace("“", "\"").replace("”", "\"")
         cleaned_problems.append(content.strip())
 
-    return cleaned_problems, []
+    return cleaned_problems
 
 def generate_latex_header(contest_type, year_range_str, doc_type):
     """Generates the LaTeX header content (preamble only)."""
@@ -276,32 +277,36 @@ def generate_latex_footer():
 \end{document}
 """
 
-def process_problems(problems_by_year_variant, is_combined, contest_type, year=None, variant=None):
-    """Processes problems for LaTeX document."""
+def process_problems(problems_by_title, is_combined):
+    """Processes problems using original wiki titles for sections."""
     latex_content_body = ""
+    
     if is_combined:
-        sorted_years_variants = sorted(problems_by_year_variant.keys())
-        for year_variant_tuple in sorted_years_variants:
-            current_year, current_variant = year_variant_tuple
-            year_variant_str = f"{current_year} AMC12{current_variant}" if contest_type == "AMC12" else f"{current_year} AIME {current_variant}"
-            latex_content_body += r"\section*{" + year_variant_str + r"}"
-            year_problems = problems_by_year_variant.get(year_variant_tuple, [])
+        # Sort titles lexicographically (chronological since year comes first)
+        sorted_titles = sorted(problems_by_title.keys())
+        for title in sorted_titles:
+            # Format title: "2012_AMC_12A_Problems" -> "2012 AMC 12A"
+            display_title = title.replace("_", " ").replace(" Problems", "")
+            latex_content_body += r"\section*{" + display_title + r"}"
+            problems = problems_by_title[title]
 
             latex_content_body += r"\begin{enumerate}[label=\arabic*., itemsep=0.5em]"
-            for problem in year_problems:
+            for problem in problems:
                 processed_problem = process_problem_content(problem)
                 latex_content_body += r"\item " + processed_problem + r"\par \vspace{0.5em}"
             latex_content_body += r"\end{enumerate}\newpage"
     else:
-        latex_content_body += r"\section*{Problems}"
-        if (year, variant) in problems_by_year_variant:
-            year_problems = problems_by_year_variant.get((year, variant), [])
+        # Single document - get the only title in the dict
+        title = next(iter(problems_by_title))
+        display_title = title.replace("_", " ").replace(" Problems", "")
+        latex_content_body += r"\section*{" + display_title + r"}"
+        problems = problems_by_title[title]
 
-            latex_content_body += r"\begin{enumerate}[label=\arabic*., itemsep=0.5em]"
-            for problem in year_problems:
-                processed_problem = process_problem_content(problem)
-                latex_content_body += r"\item " + processed_problem + r"\par \vspace{0.5em}"
-            latex_content_body += r"\end{enumerate}"
+        latex_content_body += r"\begin{enumerate}[label=\arabic*., itemsep=0.5em]"
+        for problem in problems:
+            processed_problem = process_problem_content(problem)
+            latex_content_body += r"\item " + processed_problem + r"\par \vspace{0.5em}"
+        latex_content_body += r"\end{enumerate}"
 
     return latex_content_body
 
@@ -311,10 +316,10 @@ def write_latex_to_file(tex_filepath, latex_content):
     with open(tex_filepath, "w", encoding="utf-8") as f:
         f.write(latex_content)
 
-def create_latex_document(contest_type, problems_by_year_variant, year_range_str, output_filename_prefix, output_folder, doc_type, is_combined=False, year=None, variant=None):
-    """Creates LaTeX document with proper Asymptote handling."""
+def create_latex_document(contest_type, problems_by_title, year_range_str, output_filename_prefix, output_folder, doc_type, is_combined=False):
+    """Creates LaTeX document using original wiki titles for sections."""
     latex_header = generate_latex_header(contest_type, year_range_str, doc_type)
-    latex_content_body = process_problems(problems_by_year_variant, is_combined, contest_type, year, variant)
+    latex_content_body = process_problems(problems_by_title, is_combined)
     latex_footer = generate_latex_footer()
 
     document_start = r"\begin{document}" + r"\maketitle" + r"\thispagestyle{fancy}"
@@ -534,7 +539,7 @@ async def main():
         print("Module installation failed. Exiting.")
         exit()
 
-    problems_by_year_variant = {}
+    problems_by_title = {}
     if contest_type == "AMC12":
         variants = ['A', 'B']
     elif contest_type == "AIME":
@@ -566,25 +571,18 @@ async def main():
 
         for title, html_content in download_results:
             if html_content:
-                start_time_extract = time.time()
-                problems, _ = extract_problems(html_content)
-                extract_time = time.time() - start_time_extract
-                parts = title.split('_')
-                year = int(parts[0])
-                variant = parts[-2]
+                problems = extract_problems(html_content)
+                problems_by_title[title] = problems  # Store under original title
 
-                print(f"Problem extraction time for {title}: {extract_time:.2f} seconds")
-
+                # Create individual PDF for this title
                 tex_filepath = create_latex_document(
                     contest_type,
-                    {(year, variant): problems},
+                    {title: problems},  # Use title string as key
                     str(year),
                     title,
                     output_folder,
                     "problems",
-                    is_combined=False,
-                    year=year,
-                    variant=variant
+                    is_combined=False
                 )
                 start_time_compile = time.time()
                 pdf_filepath = compile_latex_to_pdf(tex_filepath, output_folder=output_folder)
@@ -594,13 +592,11 @@ async def main():
                 if pdf_filepath:
                     pdf_filepaths.append(pdf_filepath)
 
-                problems_by_year_variant[(year, variant)] = problems
-
         year_range_combined = f"{start_year}-{end_year}"
         combined_filename = f"{contest_type}_Combined_Problems_{start_year}_to_{end_year}"
         tex_filepath_combined = create_latex_document(
             contest_type,
-            problems_by_year_variant,
+            problems_by_title,
             year_range_combined,
             combined_filename,
             output_folder,
