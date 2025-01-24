@@ -1,0 +1,358 @@
+
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{asymptote}
+\begin{asydef}
+  // Global Asymptote settings
+  settings.outformat = "pdf";
+  settings.render = 0;
+  settings.prc = false;
+  import olympiad;
+  import cse5;
+  size(8cm);
+\end{asydef}
+\pagestyle{fancy}
+\fancyhead[L]{\textbf{AMC12 Problems}}
+\fancyhead[R]{\textbf{2021-2021}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{AMC12 Problems \\ 2021-2021}
+\date{}
+\begin{document}\maketitle\thispagestyle{fancy}\tableofcontents\newpage\section*{2021 AMC1212A}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item What is the value of $\frac{(2112-2021)^2}{169}$?
+
+$\textbf{(A) } 7 \qquad\textbf{(B) } 21 \qquad\textbf{(C) } 49 \qquad\textbf{(D) } 64 \qquad\textbf{(E) } 91$\par \vspace{0.5em}\item Menkara has a $4 \times 6$ index card. If she shortens the length of one side of this card by $1$ inch, the card would have area $18$ square inches. What would the area of the card be in square inches if instead she shortens the length of the other side by $1$ inch?
+
+$\textbf{(A) }16\qquad\textbf{(B) }17\qquad\textbf{(C) }18\qquad\textbf{(D) }19\qquad\textbf{(E) }20$\par \vspace{0.5em}\item Mr. Lopez has a choice of two routes to get to work. Route A is $6$ miles long, and his average speed along this route is $30$ miles per hour. Route B is $5$ miles long, and his average speed along this route is $40$ miles per hour, except for a $\frac{1}{2}$-mile stretch in a school zone where his average speed is $20$ miles per hour. By how many minutes is Route B quicker than Route A?
+
+$\textbf{(A)}\ 2 \frac{3}{4}  \qquad\textbf{(B)}\  3 \frac{3}{4} \qquad\textbf{(C)}\  4 \frac{1}{2} \qquad\textbf{(D)}\
+ 5 \frac{1}{2} \qquad\textbf{(E)}\ 6 \frac{3}{4}$\par \vspace{0.5em}\item The six-digit number $\underline{2}\,\underline{0}\,\underline{2}\,\underline{1}\,\underline{0}\,\underline{A}$ is prime for only one digit $A.$ What is $A?$
+
+$(\textbf{A})\: 1\qquad(\textbf{B}) \: 3\qquad(\textbf{C}) \: 5 \qquad(\textbf{D}) \: 7\qquad(\textbf{E}) \: 9$\par \vspace{0.5em}\item Elmer the emu takes $44$ equal strides to walk between consecutive telephone poles on a rural road. Oscar the ostrich can cover the same distance in $12$ equal leaps. The telephone poles are evenly spaced, and the $41$st pole along this road is exactly one mile ($5280$ feet) from the first pole. How much longer, in feet, is Oscar's leap than Elmer's stride?
+
+$\textbf{(A) }6\qquad\textbf{(B) }8\qquad\textbf{(C) }10\qquad\textbf{(D) }11\qquad\textbf{(E) }15$\par \vspace{0.5em}\item As shown in the figure below, point $E$ lies on the opposite half-plane determined by line $CD$ from point $A$ so that $\angle CDE = 110^\circ$. Point $F$ lies on $\overline{AD}$ so that $DE=DF$, and $ABCD$ is a square. What is the degree measure of $\angle AFE$?
+
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+size(6cm);
+pair A = (0,10);
+label("$A$", A, N);
+pair B = (0,0);
+label("$B$", B, S);
+pair C = (10,0);
+label("$C$", C, S);
+pair D = (10,10);
+label("$D$", D, SW);
+pair EE = (15,11.8);
+label("$E$", EE, N);
+pair F = (3,10);
+label("$F$", F, N);
+filldraw(D--arc(D,2.5,270,380)--cycle,lightgray);
+dot(A^^B^^C^^D^^EE^^F);
+draw(A--B--C--D--cycle);
+draw(D--EE--F--cycle);
+label("$110^\circ$", (15,9), SW);
+\end{asy}
+\end{center}
+
+
+$\textbf{(A) }160\qquad\textbf{(B) }164\qquad\textbf{(C) }166\qquad\textbf{(D) }170\qquad\textbf{(E) }174$\par \vspace{0.5em}\item A school has $100$ students and $5$ teachers. In the first period, each student is taking one class, and each teacher is teaching one class. The enrollments in the classes are $50, 20, 20, 5, $ and $5$. Let $t$ be the average value obtained if a teacher is picked at random and the number of students in their class is noted. Let $s$ be the average value obtained if a student was picked at random and the number of students in their class, including the student, is noted. What is $t-s$?
+
+$\textbf{(A)}\ {-}18.5  \qquad\textbf{(B)}\ {-}13.5 \qquad\textbf{(C)}\ 0 \qquad\textbf{(D)}\ 13.5 \qquad\textbf{(E)}\ 18.5$\par \vspace{0.5em}\item Let $M$ be the least common multiple of all the integers $10$ through $30,$ inclusive. Let $N$ be the least common multiple of $M,32,33,34,35,36,37,38,39,$ and $40.$ What is the value of $\frac{N}{M}?$
+
+$\textbf{(A)}\ 1 \qquad\textbf{(B)}\ 2 \qquad\textbf{(C)}\ 37 \qquad\textbf{(D)}\ 74 \qquad\textbf{(E)}\ 2886$\par \vspace{0.5em}\item A right rectangular prism whose surface area and volume are numerically equal has edge lengths $\log_{2}x, \log_{3}x,$ and $\log_{4}x.$ What is $x?$
+
+$\textbf{(A)}\ 2\sqrt{6} \qquad\textbf{(B)}\ 6\sqrt{6} \qquad\textbf{(C)}\ 24 \qquad\textbf{(D)}\ 48 \qquad\textbf{(E)}\ 576$\par \vspace{0.5em}\item The base-nine representation of the number $N$ is $27{,}006{,}000{,}052_{\text{nine}}.$ What is the remainder when $N$ is divided by $5?$
+
+$\textbf{(A) } 0\qquad\textbf{(B) } 1\qquad\textbf{(C) } 2\qquad\textbf{(D) } 3\qquad\textbf{(E) }4$\par \vspace{0.5em}\item Consider two concentric circles of radius $17$ and $19.$ The larger circle has a chord, half of which lies inside the smaller circle. What is the length of the chord in the larger circle?
+
+$\textbf{(A)}\ 12\sqrt{2} \qquad\textbf{(B)}\ 10\sqrt{3} \qquad\textbf{(C)}\ \sqrt{17 \cdot 19} \qquad\textbf{(D)}\ 18 \qquad\textbf{(E)}\ 8\sqrt{6}$\par \vspace{0.5em}\item What is the number of terms with rational coefficients among the $1001$ terms in the expansion of $\left(x\sqrt[3]{2}+y\sqrt{3}\right)^{1000}?$
+
+$\textbf{(A)}\ 0 \qquad\textbf{(B)}\ 166 \qquad\textbf{(C)}\ 167 \qquad\textbf{(D)}\ 500 \qquad\textbf{(E)}\ 501$\par \vspace{0.5em}\item The angle bisector of the acute angle formed at the origin by the graphs of the lines $y = x$ and $y=3x$ has equation $y=kx.$ What is $k?$
+
+$\textbf{(A)} \ \frac{1+\sqrt{5}}{2} \qquad \textbf{(B)} \ \frac{1+\sqrt{7}}{2} \qquad \textbf{(C)} \ \frac{2+\sqrt{3}}{2} \qquad \textbf{(D)} \ 2\qquad \textbf{(E)} \ \frac{2+\sqrt{5}}{2}$\par \vspace{0.5em}\item In the figure, equilateral hexagon $ABCDEF$ has three nonadjacent acute interior angles that each measure $30^\circ$. The enclosed area of the hexagon is $6\sqrt{3}$. What is the perimeter of the hexagon?
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+size(10cm);
+pen p=black+linewidth(1),q=black+linewidth(5);
+pair C=(0,0),D=(cos(pi/12),sin(pi/12)),E=rotate(150,D)*C,F=rotate(-30,E)*D,A=rotate(150,F)*E,B=rotate(-30,A)*F;
+draw(C--D--E--F--A--B--cycle,p);
+dot(A,q);
+dot(B,q);
+dot(C,q);
+dot(D,q);
+dot(E,q);
+dot(F,q);
+label("$C$",C,2*S);
+label("$D$",D,2*S);
+label("$E$",E,2*S);
+label("$F$",F,2*dir(0));
+label("$A$",A,2*N);
+label("$B$",B,2*W);
+\end{asy}
+\end{center}
+
+$\textbf{(A)} \: 4 \qquad \textbf{(B)} \: 4\sqrt3 \qquad \textbf{(C)} \: 12 \qquad \textbf{(D)} \: 18 \qquad \textbf{(E)} \: 12\sqrt3$\par \vspace{0.5em}\item Recall that the conjugate of the complex number $w = a + bi$, where $a$ and $b$ are real numbers and $i = \sqrt{-1}$, is the complex number $\overline{w} = a - bi$. For any complex number $z$, let $f(z) = 4i\hspace{1pt}\overline{z}$. The polynomial 
+\begin{equation*}
+P(z) = z^4 + 4z^3 + 3z^2 + 2z + 1
+\end{equation*}
+ has four complex roots: $z_1$, $z_2$, $z_3$, and $z_4$. Let 
+\begin{equation*}
+Q(z) = z^4 + Az^3 + Bz^2 + Cz + D
+\end{equation*}
+ be the polynomial whose roots are $f(z_1)$, $f(z_2)$, $f(z_3)$, and $f(z_4)$, where the coefficients $A,$ $B,$ $C,$ and $D$ are complex numbers. What is $B + D?$
+
+$(\textbf{A})\: {-}304\qquad(\textbf{B}) \: {-}208\qquad(\textbf{C}) \: 12i\qquad(\textbf{D}) \: 208\qquad(\textbf{E}) \: 304$\par \vspace{0.5em}\item An organization has $30$ employees, $20$ of whom have a brand A computer while the other $10$ have a brand B computer. For security, the computers can only be connected to each other and only by cables. The cables can only connect a brand A computer to a brand B computer. Employees can communicate with each other if their computers are directly connected by a cable or by relaying messages through a series of connected computers. Initially, no computer is connected to any other. A technician arbitrarily selects one computer of each brand and installs a cable between them, provided there is not already a cable between that pair. The technician stops once every employee can communicate with each other. What is the maximum possible number of cables used?
+
+$\textbf{(A)}\ 190  \qquad\textbf{(B)}\  191 \qquad\textbf{(C)}\  192 \qquad\textbf{(D)}\
+ 195 \qquad\textbf{(E)}\ 196$\par \vspace{0.5em}\item For how many ordered pairs $(b,c)$ of positive integers does neither $x^2+bx+c=0$ nor $x^2+cx+b=0$ have two distinct real solutions?
+
+$\textbf{(A) } 4 \qquad \textbf{(B) } 6 \qquad \textbf{(C) } 8 \qquad \textbf{(D) } 12 \qquad \textbf{(E) } 16 \qquad$\par \vspace{0.5em}\item Each of $20$ balls is tossed independently and at random into one of $5$ bins. Let $p$ be the probability that some bin ends up with $3$ balls, another with $5$ balls, and the other three with $4$ balls each. Let $q$ be the probability that every bin ends up with $4$ balls. What is $\frac{p}{q}$?
+
+$\textbf{(A)}\ 1 \qquad\textbf{(B)}\  4 \qquad\textbf{(C)}\  8 \qquad\textbf{(D)}\  12 \qquad\textbf{(E)}\ 16$\par \vspace{0.5em}\item Let $x$ be the least real number greater than $1$ such that $\sin(x) = \sin(x^2)$, where the arguments are in degrees. What is $x$ rounded up to the closest integer?
+
+$\textbf{(A) } 10 \qquad \textbf{(B) } 13 \qquad \textbf{(C) } 14 \qquad \textbf{(D) } 19 \qquad \textbf{(E) } 20$\par \vspace{0.5em}\item For each positive integer $n$, let $f_1(n)$ be twice the number of positive integer divisors of $n$, and for $j \ge 2$, let $f_j(n) = f_1(f_{j-1}(n))$. For how many values of $n \le 50$ is $f_{50}(n) = 12?$
+
+$\textbf{(A) }7\qquad\textbf{(B) }8\qquad\textbf{(C) }9\qquad\textbf{(D) }10\qquad\textbf{(E) }11$\par \vspace{0.5em}\item Let $ABCD$ be an isosceles trapezoid with $\overline{BC} \parallel \overline{AD}$ and $AB=CD$. Points $X$ and $Y$ lie on diagonal $\overline{AC}$ with $X$ between $A$ and $Y$, as shown in the figure. Suppose $\angle AXD = \angle BYC = 90^\circ$, $AX = 3$, $XY = 1$, and $YC = 2$. What is the area of $ABCD$?
+
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+size(10cm);
+usepackage("mathptmx");
+import geometry;
+void perp(picture pic=currentpicture,
+pair O, pair M, pair B, real size=5,
+pen p=currentpen, filltype filltype = NoFill){
+perpendicularmark(pic, M,unit(unit(O-M)+unit(B-M)),size,p,filltype);
+}
+pen p=black+linewidth(1),q=black+linewidth(5);
+pair C=(0,0),Y=(2,0),X=(3,0),A=(6,0),B=(2,sqrt(5.6)),D=(3,-sqrt(12.6));
+draw(A--B--C--D--cycle,p);
+draw(A--C,p);
+draw(B--Y,p);
+draw(D--X,p);
+dot(A,q);
+dot(B,q);
+dot(C,q);
+dot(D,q);
+dot(X,q);
+dot(Y,q);
+label("2",C--Y,S);
+label("1",Y--X,S);
+label("3",X--A,S);
+label("$A$",A,2*E);
+label("$B$",B,2*N);
+label("$C$",C,2*W);
+label("$D$",D,2*S);
+label("$Y$",Y,2*sqrt(2)*NE);
+label("$X$",X,2*N);
+perp(B,Y,C,8,p);
+perp(A,X,D,8,p);
+\end{asy}
+\end{center}
+
+$\textbf{(A)}\: 15\qquad\textbf{(B)} \: 5\sqrt{11}\qquad\textbf{(C)} \: 3\sqrt{35}\qquad\textbf{(D)} \: 18\qquad\textbf{(E)} \: 7\sqrt{7}$\par \vspace{0.5em}\item Azar and Carl play a game of tic-tac-toe. Azar places an $X$ in one of the boxes in a $3$-by-$3$ array of boxes, then Carl places an $O$ in one of the remaining boxes. After that, Azar places an $X$ in one of the remaining boxes, and so on until all boxes are filled or one of the players has of their symbols in a rowhorizontal, vertical, or diagonalwhichever comes first, in which case that player wins the game. Suppose the players make their moves at random, rather than trying to follow a rational strategy, and that Carl wins the game when he places his third $O$. How many ways can the board look after the game is over?
+
+$\textbf{(A) } 36 \qquad\textbf{(B) } 112 \qquad\textbf{(C) } 120 \qquad\textbf{(D) } 148 \qquad\textbf{(E) } 160$\par \vspace{0.5em}\item A quadratic polynomial with real coefficients and leading coefficient $1$ is called $\emph{disrespectful}$ if the equation $p(p(x))=0$ is satisfied by exactly three real numbers. Among all the disrespectful quadratic polynomials, there is a unique such polynomial $\tilde{p}(x)$ for which the sum of the roots is maximized. What is $\tilde{p}(1)$?
+
+$\textbf{(A) } \frac{5}{16} \qquad\textbf{(B) } \frac{1}{2} \qquad\textbf{(C) } \frac{5}{8} \qquad\textbf{(D) } 1 \qquad\textbf{(E) } \frac{9}{8}$\par \vspace{0.5em}\item Convex quadrilateral $ABCD$ has $AB = 18, \angle{A} = 60^\circ,$ and $\overline{AB} \parallel \overline{CD}.$ In some order, the lengths of the four sides form an arithmetic progression, and side $\overline{AB}$ is a side of maximum length. The length of another side is $a.$ What is the sum of all possible values of $a$?
+
+$\textbf{(A) } 24 \qquad \textbf{(B) } 42 \qquad \textbf{(C) } 60 \qquad \textbf{(D) } 66 \qquad \textbf{(E) } 84$\par \vspace{0.5em}\item Let $m\ge 5$ be an odd integer, and let $D(m)$ denote the number of quadruples $(a_1, a_2, a_3, a_4)$ of distinct integers with $1\le a_i \le m$ for all $i$ such that $m$ divides $a_1+a_2+a_3+a_4$. There is a polynomial
+
+\begin{equation*}
+q(x) = c_3x^3+c_2x^2+c_1x+c_0
+\end{equation*}
+such that $D(m) = q(m)$ for all odd integers $m\ge 5$. What is $c_1?$
+
+$\textbf{(A)}\ {-}6\qquad\textbf{(B)}\ {-}1\qquad\textbf{(C)}\ 4\qquad\textbf{(D)}\ 6\qquad\textbf{(E)}\ 11$\par \vspace{0.5em}\end{enumerate}\newpage\section*{2021 AMC1212B}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item What is the value of $1234+2341+3412+4123?$
+
+$\textbf{(A)}\: 10{,}000\qquad\textbf{(B)} \: 10{,}010\qquad\textbf{(C)} \: 10{,}110\qquad\textbf{(D)} \: 11{,}000\qquad\textbf{(E)} \: 11{,}110$\par \vspace{0.5em}\item What is the area of the shaded figure shown below?
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+size(200);
+defaultpen(linewidth(0.4)+fontsize(12));
+pen s = linewidth(0.8)+fontsize(8);
+
+pair O,X,Y;
+O = origin;
+X = (6,0);
+Y = (0,5);
+fill((1,0)--(3,5)--(5,0)--(3,2)--cycle, palegray+opacity(0.2));
+for (int i=1; i<7; ++i)
+{
+draw((i,0)--(i,5), gray+dashed);
+label("${"+string(i)+"}$", (i,0), 2*S);
+if (i<6)
+{
+draw((0,i)--(6,i), gray+dashed);
+label("${"+string(i)+"}$", (0,i), 2*W);
+}
+}
+label("$0$", O, 2*SW);
+draw(O--X+(0.35,0), black+1.5, EndArrow(10));
+draw(O--Y+(0,0.35), black+1.5, EndArrow(10));
+draw((1,0)--(3,5)--(5,0)--(3,2)--(1,0), black+1.5);
+\end{asy}
+\end{center}
+
+
+$\textbf{(A)}\: 4\qquad\textbf{(B)} \: 6\qquad\textbf{(C)} \: 8\qquad\textbf{(D)} \: 10\qquad\textbf{(E)} \: 12$\par \vspace{0.5em}\item At noon on a certain day, Minneapolis is $N$ degrees warmer than St. Louis. At $4{:}00$ the temperature in Minneapolis has fallen by $5$ degrees while the temperature in St. Louis has risen by $3$ degrees, at which time the temperatures in the two cities differ by $2$ degrees. What is the product of all possible values of $N?$
+
+$\textbf{(A)}\: 10\qquad\textbf{(B)} \: 30\qquad\textbf{(C)} \: 60\qquad\textbf{(D)} \: 100\qquad\textbf{(E)} \: 120$\par \vspace{0.5em}\item Let $n=8^{2022}$. Which of the following is equal to $\frac{n}{4}?$
+
+$\textbf{(A)}\: 4^{1010}\qquad\textbf{(B)} \: 2^{2022}\qquad\textbf{(C)} \: 8^{2018}\qquad\textbf{(D)} \: 4^{3031}\qquad\textbf{(E)} \: 4^{3032}$\par \vspace{0.5em}\item Call a fraction $\frac{a}{b}$, not necessarily in the simplest form, ''special'' if $a$ and $b$ are positive integers whose sum is $15$. How many distinct integers can be written as the sum of two, not necessarily different, special fractions?
+
+$\textbf{(A)}\ 9 \qquad\textbf{(B)}\  10 \qquad\textbf{(C)}\  11 \qquad\textbf{(D)}\ 12 \qquad\textbf{(E)}\ 13$\par \vspace{0.5em}\item The greatest prime number that is a divisor of $16{,}384$ is $2$ because $16{,}384 = 2^{14}$. What is the sum of the digits of the greatest prime number that is a divisor of $16{,}383$?
+
+$\textbf{(A)} \: 3\qquad\textbf{(B)} \: 7\qquad\textbf{(C)} \: 10\qquad\textbf{(D)} \: 16\qquad\textbf{(E)} \: 22$\par \vspace{0.5em}\item Which of the following conditions is sufficient to guarantee that integers $x$, $y$, and $z$ satisfy the equation
+
+\begin{equation*}
+x(x-y)+y(y-z)+z(z-x) = 1?
+\end{equation*}
+
+
+$\textbf{(A)} \: x>y$ and $y=z$
+
+$\textbf{(B)} \: x=y-1$ and $y=z-1$
+
+$\textbf{(C)} \: x=z+1$ and $y=x+1$
+
+$\textbf{(D)} \: x=z$ and $y-1=x$
+
+$\textbf{(E)} \: x+y+z=1$\par \vspace{0.5em}\item The product of the lengths of the two congruent sides of an obtuse isosceles triangle is equal to the product of the base and twice the triangle's height to the base. What is the measure, in degrees, of the vertex angle of this triangle?
+
+$\textbf{(A)} \: 105 \qquad\textbf{(B)} \: 120 \qquad\textbf{(C)} \: 135 \qquad\textbf{(D)} \: 150 \qquad\textbf{(E)} \: 165$\par \vspace{0.5em}\item Triangle $ABC$ is equilateral with side length $6$. Suppose that $O$ is the center of the inscribed
+circle of this triangle. What is the area of the circle passing through $A$, $O$, and $C$?
+
+$\textbf{(A)} \: 9\pi \qquad\textbf{(B)} \: 12\pi \qquad\textbf{(C)} \: 18\pi \qquad\textbf{(D)} \: 24\pi \qquad\textbf{(E)} \: 27\pi$\par \vspace{0.5em}\item What is the sum of all possible values of $t$ between $0$ and $360$ such that the triangle in the coordinate plane whose vertices are 
+\begin{equation*}
+(\cos 40^\circ,\sin 40^\circ), (\cos 60^\circ,\sin 60^\circ), \text{ and } (\cos t^\circ,\sin t^\circ)
+\end{equation*}
+
+is isosceles? 
+
+$\textbf{(A)} \: 100 \qquad\textbf{(B)} \: 150 \qquad\textbf{(C)} \: 330 \qquad\textbf{(D)} \: 360 \qquad\textbf{(E)} \: 380$\par \vspace{0.5em}\item Una rolls $6$ standard $6$-sided dice simultaneously and calculates the product of the $6{ }$ numbers obtained. What is the probability that the product is divisible by $4?$
+
+$\textbf{(A)}\: \frac34\qquad\textbf{(B)} \: \frac{57}{64}\qquad\textbf{(C)} \: \frac{59}{64}\qquad\textbf{(D)} \: \frac{187}{192}\qquad\textbf{(E)} \: \frac{63}{64}$\par \vspace{0.5em}\item For $n$ a positive integer, let $f(n)$ be the quotient obtained when the sum of all positive divisors of $n$ is divided by $n.$ For example, 
+\begin{equation*}
+f(14)=(1+2+7+14)\div 14=\frac{12}{7}
+\end{equation*}
+
+What is $f(768)-f(384)?$
+
+$\textbf{(A)}\ \frac{1}{768} \qquad\textbf{(B)}\ \frac{1}{192} \qquad\textbf{(C)}\ 1 \qquad\textbf{(D)}\
+\frac{4}{3} \qquad\textbf{(E)}\ \frac{8}{3}$\par \vspace{0.5em}\item Let $c = \frac{2\pi}{11}.$ What is the value of
+
+\begin{equation*}
+\frac{\sin 3c \cdot \sin 6c \cdot \sin 9c \cdot \sin 12c \cdot \sin 15c}{\sin c \cdot \sin 2c \cdot \sin 3c \cdot \sin 4c \cdot \sin 5c}?
+\end{equation*}
+
+
+$\textbf{(A)}\ {-}1 \qquad\textbf{(B)}\ {-}\frac{\sqrt{11}}{5} \qquad\textbf{(C)}\ \frac{\sqrt{11}}{5} \qquad\textbf{(D)}\
+\frac{10}{11} \qquad\textbf{(E)}\ 1$\par \vspace{0.5em}\item Suppose that $P(z), Q(z)$, and $R(z)$ are polynomials with real coefficients, having degrees $2$, $3$, and $6$, respectively, and constant terms $1$, $2$, and $3$, respectively. Let $N$ be the number of distinct complex numbers $z$ that satisfy the equation $P(z) \cdot Q(z)=R(z)$. What is the minimum possible value of $N$?
+
+$\textbf{(A)}\: 0\qquad\textbf{(B)} \: 1\qquad\textbf{(C)} \: 2\qquad\textbf{(D)} \: 3\qquad\textbf{(E)} \: 5$\par \vspace{0.5em}\item Three identical square sheets of paper each with side length $6$ are stacked on top of each other. The middle sheet is rotated clockwise $30^\circ$ about its center and the top sheet is rotated clockwise $60^\circ$ about its center, resulting in the $24$-sided polygon shown in the figure below. The area of this polygon can be expressed in the form $a-b\sqrt{c}$, where $a$, $b$, and $c$ are positive integers, and $c$ is not divisible by the square of any prime. What is $a+b+c$?
+<center>
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+defaultpen(fontsize(8)+0.8); size(150);
+pair O,A1,B1,C1,A2,B2,C2,A3,B3,C3,A4,B4,C4;
+real x=45, y=90, z=60; O=origin; 
+A1=dir(x); A2=dir(x+y); A3=dir(x+2y); A4=dir(x+3y);
+B1=dir(x-z); B2=dir(x+y-z); B3=dir(x+2y-z); B4=dir(x+3y-z);
+C1=dir(x-2z); C2=dir(x+y-2z); C3=dir(x+2y-2z); C4=dir(x+3y-2z);
+draw(A1--A2--A3--A4--A1, gray+0.25+dashed);
+filldraw(B1--B2--B3--B4--cycle, white, gray+dashed+linewidth(0.25));
+filldraw(C1--C2--C3--C4--cycle, white, gray+dashed+linewidth(0.25));
+dot(O);
+pair P1,P2,P3,P4,Q1,Q2,Q3,Q4,R1,R2,R3,R4;
+P1=extension(A1,A2,B1,B2); Q1=extension(A1,A2,C3,C4); 
+P2=extension(A2,A3,B2,B3); Q2=extension(A2,A3,C4,C1); 
+P3=extension(A3,A4,B3,B4); Q3=extension(A3,A4,C1,C2); 
+P4=extension(A4,A1,B4,B1); Q4=extension(A4,A1,C2,C3); 
+R1=extension(C2,C3,B2,B3); R2=extension(C3,C4,B3,B4); 
+R3=extension(C4,C1,B4,B1); R4=extension(C1,C2,B1,B2);
+draw(A1--P1--B2--R1--C3--Q1--A2);
+draw(A2--P2--B3--R2--C4--Q2--A3);
+draw(A3--P3--B4--R3--C1--Q3--A4);
+draw(A4--P4--B1--R4--C2--Q4--A1);
+\end{asy}
+\end{center}
+</center>
+$(\textbf{A})\: 75\qquad(\textbf{B}) \: 93\qquad(\textbf{C}) \: 96\qquad(\textbf{D}) \: 129\qquad(\textbf{E}) \: 147$\par \vspace{0.5em}\item Suppose $a$, $b$, $c$ are positive integers such that 
+\begin{equation*}
+a+b+c=23
+\end{equation*}
+ and 
+\begin{equation*}
+\gcd(a,b)+\gcd(b,c)+\gcd(c,a)=9.
+\end{equation*}
+ What is the sum of all possible distinct values of $a^2+b^2+c^2$? 
+
+$\textbf{(A)}\: 259\qquad\textbf{(B)} \: 438\qquad\textbf{(C)} \: 516\qquad\textbf{(D)} \: 625\qquad\textbf{(E)} \: 687$\par \vspace{0.5em}\item A bug starts at a vertex of a grid made of equilateral triangles of side length $1$. At each step the bug moves in one of the $6$ possible directions along the grid lines randomly and independently with equal probability. What is the probability that after $5$ moves the bug never will have been more than $1$ unit away from the starting position?
+
+$\textbf{(A)}\ \frac{13}{108} \qquad\textbf{(B)}\  \frac{7}{54} \qquad\textbf{(C)}\  \frac{29}{216} \qquad\textbf{(D)}\
+\frac{4}{27} \qquad\textbf{(E)}\ \frac{1}{16}$\par \vspace{0.5em}\item Set $u_0 = \frac{1}{4}$, and for $k \ge 0$ let $u_{k+1}$ be determined by the recurrence 
+\begin{equation*}
+u_{k+1} = 2u_k - 2u_k^2.
+\end{equation*}
+
+
+This sequence tends to a limit; call it $L$. What is the least value of $k$ such that 
+\begin{equation*}
+|u_k-L| \le \frac{1}{2^{1000}}?
+\end{equation*}
+
+
+$\textbf{(A)}\: 10\qquad\textbf{(B)}\: 87\qquad\textbf{(C)}\: 123\qquad\textbf{(D)}\: 329\qquad\textbf{(E)}\: 401$\par \vspace{0.5em}\item Regular polygons with $5,6,7,$ and $8$ sides are inscribed in the same circle. No two of the polygons share a vertex, and no three of their sides intersect at a common point. At how many points inside the circle do two of their sides intersect?
+
+$(\textbf{A})\: 52\qquad(\textbf{B}) \: 56\qquad(\textbf{C}) \: 60\qquad(\textbf{D}) \: 64\qquad(\textbf{E}) \: 68$\par \vspace{0.5em}\item A cube is constructed from $4$ white unit cubes and $4$ blue unit cubes. How many different ways are there to construct the $2 \times 2 \times 2$ cube using these smaller cubes? (Two constructions are considered the same if one can be rotated to match the other.)
+
+$(\textbf{A})\: 7\qquad(\textbf{B}) \: 8\qquad(\textbf{C}) \: 9\qquad(\textbf{D}) \: 10\qquad(\textbf{E}) \: 11$\par \vspace{0.5em}\item For real numbers $x$, let 
+
+\begin{equation*}
+P(x)=1+\cos(x)+i\sin(x)-\cos(2x)-i\sin(2x)+\cos(3x)+i\sin(3x)
+\end{equation*}
+
+where $i = \sqrt{-1}$. For how many values of $x$ with $0\leq x<2\pi$ does 
+
+\begin{equation*}
+P(x)=0?
+\end{equation*}
+
+
+$\textbf{(A)}\ 0 \qquad\textbf{(B)}\  1 \qquad\textbf{(C)}\  2 \qquad\textbf{(D)}\
+3 \qquad\textbf{(E)}\ 4$\par \vspace{0.5em}\item Right triangle $ABC$ has side lengths $BC=6$, $AC=8$, and $AB=10$. A circle centered at $O$ is tangent to line $BC$ at $B$ and passes through $A$. A circle centered at $P$ is tangent to line $AC$ at $A$ and passes through $B$. What is $OP$?
+
+$\textbf{(A)}\ \frac{23}{8} \qquad\textbf{(B)}\  \frac{29}{10} \qquad\textbf{(C)}\  \frac{35}{12} \qquad\textbf{(D)}\
+\frac{73}{25} \qquad\textbf{(E)}\ 3$\par \vspace{0.5em}\item What is the average number of pairs of consecutive integers in a randomly selected subset of $5$ distinct integers chosen from the set $\{ 1, 2, 3, , 30\}$? (For example the set $\{1, 17, 18, 19, 30\}$ has $2$ pairs of consecutive integers.)
+
+$\textbf{(A)}\ \frac{2}{3} \qquad\textbf{(B)}\ \frac{29}{36} \qquad\textbf{(C)}\ \frac{5}{6} \qquad\textbf{(D)}\
+\frac{29}{30} \qquad\textbf{(E)}\ 1$\par \vspace{0.5em}\item Triangle $ABC$ has side lengths $AB = 11, BC=24$, and $CA = 20$. The bisector of $\angle{BAC}$ intersects $\overline{BC}$ in point $D$, and intersects the circumcircle of $\triangle{ABC}$ in point $E \ne A$. The circumcircle of $\triangle{BED}$ intersects the line $AB$ in points $B$ and $F \ne B$. What is $CF$?
+
+$\textbf{(A) } 28 \qquad \textbf{(B) } 20\sqrt{2} \qquad \textbf{(C) } 30 \qquad \textbf{(D) } 32 \qquad \textbf{(E) } 20\sqrt{3}$\par \vspace{0.5em}\item For $n$ a positive integer, let $R(n)$ be the sum of the remainders when $n$ is divided by $2$, $3$, $4$, $5$, $6$, $7$, $8$, $9$, and $10$. For example, $R(15) = 1+0+3+0+3+1+7+6+5=26$. How many two-digit positive integers $n$ satisfy $R(n) = R(n+1)\,?$
+
+$\textbf{(A) }0\qquad\textbf{(B) }1\qquad\textbf{(C) }2\qquad\textbf{(D) }3\qquad\textbf{(E) }4$\par \vspace{0.5em}\end{enumerate}\newpage
+\end{document}
