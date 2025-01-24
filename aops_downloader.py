@@ -7,9 +7,137 @@ import shutil
 import time
 import asyncio
 import aiohttp
+import hashlib
 
 CACHE_DIR = "wiki_cache"
 os.makedirs(CACHE_DIR, exist_ok=True)
+
+def calculate_file_hash(filepath):
+    """Calculate MD5 hash of the file content."""
+    with open(filepath, "rb") as f:
+        return hashlib.md5(f.read()).hexdigest()
+
+def should_compile_asy(asy_filepath):
+    """Determine if an Asymptote file should be compiled based on its hash."""
+    compiled_pdf_path = os.path.splitext(asy_filepath)[0] + ".pdf"
+    hash_path = compiled_pdf_path + ".hash"
+    current_hash = calculate_file_hash(asy_filepath)
+
+    # Check if the compiled PDF and hash file exist
+    if os.path.exists(compiled_pdf_path) and os.path.exists(hash_path):
+        with open(hash_path, "r") as f:
+            cached_hash = f.read().strip()
+        if cached_hash == current_hash:
+            print(f"Skipping compilation for {asy_filepath}: No changes detected.")
+            return False
+
+    # Update the hash if compilation is required
+    with open(hash_path, "w") as f:
+        f.write(current_hash)
+    return True
+
+def run_asymptote_compilation(temp_dir_abs, asy_modules_dir):
+    """Runs Asymptote compilation for all `.asy` files in the temporary directory."""
+    print(f"Compiling Asymptote files...")
+    asy_files = [f for f in os.listdir(temp_dir_abs) if f.lower().endswith(".asy")]
+
+    if not asy_files:
+        print("No Asymptote files found to compile.")
+        return True
+
+    asy_modules_dir_abs = os.path.abspath(asy_modules_dir).replace("\\", "/")
+
+    for asy_file in asy_files:
+        asy_filepath = os.path.join(temp_dir_abs, asy_file)
+
+        # Check if compilation is necessary
+        if not should_compile_asy(asy_filepath):
+            continue
+
+        # Set up the environment for Asymptote compilation
+        env = os.environ.copy()
+        env["ASYLANG"] = asy_modules_dir_abs  # Path to custom Asymptote modules
+        env["ASYMPTOTE_DIR"] = asy_modules_dir_abs  # Set it for redundancy
+
+        print(f"Compiling {asy_file} with ASYLANG={env['ASYLANG']}...")
+
+        command_asymptote = ["asy", "-vvv", asy_filepath]
+
+        process_asymptote = subprocess.Popen(
+            command_asymptote,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            cwd=temp_dir_abs,
+            env=env
+        )
+        stdout_asymptote, stderr_asymptote = process_asymptote.communicate()
+
+        if process_asymptote.returncode != 0:
+            error_message = stderr_asymptote.decode("utf-8", errors="ignore")
+            print(f"Error compiling {asy_file}. Asymptote exited with code {process_asymptote.returncode}")
+            print(f"Asymptote Error Output:\n{error_message}")
+            return False
+        else:
+            print(f"Successfully compiled {asy_file}.")
+    return True
+
+def move_pdf_output(temp_dir_abs, output_dir, tex_filename_base):
+    """Move the compiled PDF to the output directory if it doesn't already exist."""
+    pdf_filename = tex_filename_base + ".pdf"
+    temp_pdf_filepath = os.path.join(temp_dir_abs, pdf_filename)
+    output_pdf_filepath = os.path.join(output_dir, pdf_filename)
+
+    if os.path.exists(output_pdf_filepath):
+        print(f"Skipping move: {output_pdf_filepath} already exists.")
+        return True
+
+    try:
+        shutil.move(temp_pdf_filepath, output_pdf_filepath)
+        print(f"Moved PDF to: {output_pdf_filepath}")
+        return True
+    except Exception as e:
+        print(f"Error moving PDF file: {e}")
+        return False
+
+def should_compile_tex(tex_filepath):
+    """Determine if a LaTeX file should be compiled based on its hash."""
+    pdf_filepath = os.path.splitext(tex_filepath)[0] + ".pdf"
+    hash_path = pdf_filepath + ".hash"
+    current_hash = calculate_file_hash(tex_filepath)
+
+    # Check if the PDF and hash file exist
+    if os.path.exists(pdf_filepath) and os.path.exists(hash_path):
+        with open(hash_path, "r") as f:
+            cached_hash = f.read().strip()
+        if cached_hash == current_hash:
+            print(f"Skipping LaTeX compilation for {tex_filepath}: No changes detected.")
+            return False
+
+    # Update the hash if compilation is required
+    with open(hash_path, "w") as f:
+        f.write(current_hash)
+    return True
+
+def run_latex_compilation(tex_filepath, cwd, pass_num):
+    """Runs a single pass of LaTeX compilation."""
+    tex_filename_base = os.path.splitext(os.path.basename(tex_filepath))[0]
+    if not should_compile_tex(tex_filepath):
+        return True
+
+    print(f"Compiling LaTeX (pass {pass_num}) for {tex_filename_base} in temporary directory...")
+    command_latex = ['pdflatex', '-interaction=nonstopmode', '--shell-escape', os.path.basename(tex_filepath)]
+    process_latex = subprocess.Popen(command_latex, stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=cwd)
+    stdout_latex, stderr_latex = process_latex.communicate()
+
+    if process_latex.returncode != 0:
+        error_message = stderr_latex.decode('utf-8', errors='ignore')
+        print(f"Error in LaTeX pass {pass_num} for {tex_filename_base}.tex. LaTeX exited with code {process_latex.returncode}")
+        print(f"LaTeX Error Output:\n{error_message}")
+        print(f"\n--- LaTeX Compilation (Pass {pass_num}) Failed. Check the console output for LaTeX errors. ---")
+        return False
+    else:
+        print(f"LaTeX pass {pass_num} for {tex_filename_base}.tex completed.")
+        return True
 
 def remove_metadata(latex_content):
     """Removes metadata tags like [[...]] and 'Solution:' or 'Problem:' from LaTeX content."""
@@ -296,24 +424,6 @@ def replace_over_with_frac(content):
     pattern = r'{([^}]*?)\\over([^}]*?)}'
     return re.sub(pattern, r'\\frac{\1}{\2}', content)
 
-def run_latex_compilation(tex_filepath, cwd, pass_num):
-    """Runs a single pass of LaTeX compilation."""
-    tex_filename_base = os.path.splitext(os.path.basename(tex_filepath))[0]
-    print(f"Compiling LaTeX (pass {pass_num}) for {tex_filename_base} in temporary directory...")
-    command_latex = ['pdflatex', '-interaction=nonstopmode', '--shell-escape', os.path.basename(tex_filepath)]
-    process_latex = subprocess.Popen(command_latex, stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=cwd)
-    stdout_latex, stderr_latex = process_latex.communicate()
-
-    if process_latex.returncode != 0:
-        error_message = stderr_latex.decode('utf-8', errors='ignore')
-        print(f"Error in LaTeX pass {pass_num} for {tex_filename_base}.tex. LaTeX exited with code {process_latex.returncode}")
-        print(f"LaTeX Error Output:\n{error_message}")
-        print(f"\n--- LaTeX Compilation (Pass {pass_num}) Failed. Check the console output for LaTeX errors. ---")
-        return False
-    else:
-        print(f"LaTeX pass {pass_num} for {tex_filename_base}.tex completed.")
-        return True
-
 def install_asymptote_modules(asy_modules_dir):
     """Checks for and installs required Asymptote modules."""
     modules_to_check = {
@@ -350,51 +460,8 @@ def install_asymptote_modules(asy_modules_dir):
             pass
     return True
 
-def run_asymptote_compilation(temp_dir_abs, asy_modules_dir):
-    """Runs Asymptote compilation on .asy files, using ASYLANG, with path debugging."""
-    print(f"Compiling Asymptote in temporary directory...")
-    asy_files = [f for f in os.listdir(temp_dir_abs) if f.lower().endswith(".asy")]
-    if asy_files:
-        for asy_file in asy_files:
-            asy_filepath = os.path.join(temp_dir_abs, asy_file)
-            command_asymptote = ['asy', '-vvv', asy_filepath]
-            env = os.environ.copy()
-            print(f"ASYLANG module directory (relative): {asy_modules_dir}")
-            asy_modules_dir_abs = os.path.abspath(asy_modules_dir).replace("\\", "/")
-            print(f"ASYLANG module directory (absolute): {asy_modules_dir_abs}")
-            env['ASYLANG'] = asy_modules_dir_abs
-            print(f"Effective ASYLANG environment variable: {env['ASYLANG']}")
-            process_asymptote = subprocess.Popen(command_asymptote, stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=temp_dir_abs, env=env)
-            stdout_asymptote, stderr_asymptote = process_asymptote.communicate()
-
-            if process_asymptote.returncode != 0:
-                error_message_asy = stderr_asymptote.decode('utf-8', errors='ignore')
-                print(f"Error compiling Asymptote file {asy_file}. Asymptote exited with code {process_asymptote.returncode}")
-                print(f"Asymptote Error Output:\n{error_message_asy}")
-                print("\n--- Asymptote Compilation Failed. Check the console output for Asymptote errors. ---")
-                return False
-            else:
-                print(f"Asymptote compiled {asy_file}.")
-        return True
-    else:
-        print("No Asymptote files found to compile.")
-        return True
-
-def move_pdf_output(temp_dir_abs, output_dir, tex_filename_base):
-    """Moves the compiled PDF from the temporary directory to the output directory."""
-    pdf_filename = tex_filename_base + ".pdf"
-    temp_pdf_filepath = os.path.join(temp_dir_abs, pdf_filename)
-    output_pdf_filepath = os.path.join(output_dir, pdf_filename)
-    try:
-        shutil.move(temp_pdf_filepath, output_pdf_filepath)
-        print(f"Moved PDF to: {output_pdf_filepath}")
-        return True
-    except Exception as e:
-        print(f"Error moving PDF file: {e}")
-        return False
-
-def compile_latex_to_pdf(tex_filepath, keep_temp_files=True, output_folder="output"):
-    """Compiles LaTeX to PDF with Asymptote in a 'temp' subdirectory and moves PDF to base folder."""
+def compile_latex_to_pdf(tex_filepath, output_folder="output"):
+    """Compile LaTeX to PDF with Asymptote in a 'temp' subdirectory and move PDF to the base folder."""
     tex_filename_base = os.path.splitext(os.path.basename(tex_filepath))[0]
     temp_dir = os.path.dirname(tex_filepath)
     output_dir = os.path.dirname(temp_dir)
@@ -411,64 +478,18 @@ def compile_latex_to_pdf(tex_filepath, keep_temp_files=True, output_folder="outp
         if not install_asymptote_modules(asy_modules_dir):
             return None
 
-        env = os.environ.copy()
-        asy_modules_dir_abs = os.path.abspath(asy_modules_dir)
-
-        if 'ASYMPTOTE_DIR' in env:
-            env['ASYMPTOTE_DIR'] = f"{asy_modules_dir_abs}{os.pathsep}{env['ASYMPTOTE_DIR']}"
-        else:
-            env['ASYMPTOTE_DIR'] = asy_modules_dir_abs
-
-        if 'ASYLANG' in env:
-            env['ASYLANG'] = f"{asy_modules_dir_abs}{os.pathsep}{env['ASYLANG']}"
-        else:
-            env['ASYLANG'] = asy_modules_dir_abs
-
-
-        print(f"Compiling Asymptote in temporary directory...")
-        asy_files = [f for f in os.listdir(temp_dir_abs) if f.lower().endswith(".asy")]
-        if asy_files:
-            for asy_file in asy_files:
-                asy_filepath = os.path.join(temp_dir_abs, asy_file)
-                command_asymptote = ['asy', asy_filepath]
-                process_asymptote = subprocess.Popen(
-                    command_asymptote,
-                    stdout=subprocess.PIPE,
-                    stderr=subprocess.PIPE,
-                    cwd=temp_dir_abs,
-                    env=env
-                )
-                stdout_asymptote, stderr_asymptote = process_asymptote.communicate()
-
-                if process_asymptote.returncode != 0:
-                    error_message_asy = stderr_asymptote.decode('utf-8', errors='ignore')
-                    print(f"Error compiling Asymptote file {asy_file}. Asymptote exited with code {process_asymptote.returncode}")
-                    print(f"Asymptote Error Output:\n{error_message_asy}")
-                    return None
-                else:
-                    print(f"Asymptote compiled {asy_file}.")
+        if not run_asymptote_compilation(temp_dir_abs, asy_modules_dir):
+            return None
 
         if not run_latex_compilation(tex_filepath, cwd, 2):
             return None
 
-        pdf_filename = tex_filename_base + ".pdf"
-        temp_pdf_filepath = os.path.join(temp_dir_abs, pdf_filename)
-        output_pdf_filepath = os.path.join(output_dir, pdf_filename)
-
-        try:
-            shutil.move(temp_pdf_filepath, output_pdf_filepath)
-            print(f"Moved PDF to: {output_pdf_filepath}")
-        except Exception as e:
-            print(f"Error moving PDF file: {e}")
+        if not move_pdf_output(temp_dir_abs, output_dir, tex_filename_base):
             return None
 
         print(f"Successfully compiled {tex_filename_base}.tex to PDF.")
-        return output_pdf_filepath
+        return os.path.join(output_dir, tex_filename_base + ".pdf")
 
-    except FileNotFoundError as e:
-        print(f"\nError: {e.filename} command not found.")
-        print(f"Make sure {e.filename} is installed and in your system's PATH.")
-        return None
     except Exception as e:
         print(f"\nAn unexpected error occurred during compilation: {e}")
         return None
@@ -507,7 +528,6 @@ async def main():
             print("Invalid year. Please enter a number.")
 
     output_folder = "output"
-    keep_temp_files_option = False
 
     os.makedirs(output_folder, exist_ok=True)
     os.makedirs(os.path.join(output_folder, "AMC12", "Problems"), exist_ok=True)
@@ -552,7 +572,7 @@ async def main():
                 output_filename_prefix = f"{contest_short_name}_{year}_{variant}"
                 tex_filepath = create_latex_document(contest_type, {(year, variant): problems}, str(year), output_filename_prefix + "_Problems", contest_short_name, output_folder, "problems", is_combined=False, year=year, variant=variant)
                 start_time_compile = time.time()
-                pdf_filepath = compile_latex_to_pdf(tex_filepath, keep_temp_files=keep_temp_files_option, output_folder=output_folder)
+                pdf_filepath = compile_latex_to_pdf(tex_filepath, output_folder=output_folder)
                 compile_time = time.time() - start_time_compile
                 print(f"Compilation time for {contest_type} {year} {variant}: {compile_time:.2f} seconds")
 
@@ -564,7 +584,7 @@ async def main():
         year_range_combined = f"{start_year}-{end_year}"
         tex_filepath_combined = create_latex_document(contest_type, problems_by_year_variant, year_range_combined, f"{contest_short_name}_Combined_Problems", contest_short_name, output_folder, "problems", is_combined=True)
         start_time_compile_combined = time.time()
-        pdf_filepath_combined = compile_latex_to_pdf(tex_filepath_combined, keep_temp_files=keep_temp_files_option, output_folder=output_folder)
+        pdf_filepath_combined = compile_latex_to_pdf(tex_filepath_combined, output_folder=output_folder)
         compile_time_combined = time.time() - start_time_compile_combined
         print(f"Compilation time for Combined {contest_type}: {compile_time_combined:.2f} seconds")
         if pdf_filepath_combined:
@@ -575,7 +595,7 @@ async def main():
         print(f"\nTotal script execution time: {total_time:.2f} seconds")
 
     print(f"\nPDF generation complete (problems only) for {contest_type}. PDFs are in the 'output' folder, with year-specific PDFs in year folders and combined PDFs in the main folders.")
-    print(f"\n--- IMPORTANT ---\nIf LaTeX compilation failed, check the console output for detailed LaTeX error messages or the log files in the 'temp' directories (if they were kept, keep_temp_files option is currently set to: {keep_temp_files_option}).\n---")
+    print(f"\n--- IMPORTANT ---\nIf LaTeX compilation failed, check the console output for detailed LaTeX error messages or the log files in the 'temp' directories.\n---")
 
     temp_directories = []
     for pdf_filepath in pdf_filepaths:
