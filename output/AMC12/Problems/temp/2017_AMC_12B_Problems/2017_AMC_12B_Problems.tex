@@ -1,0 +1,116 @@
+
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{asymptote}
+\usepackage{arcs}
+\usepackage{xwatermark}
+\begin{asydef}
+  // Global Asymptote settings
+  settings.outformat = "pdf";
+  settings.render = 0;
+  settings.prc = false;
+  import olympiad;
+  import cse5;
+  size(8cm);
+\end{asydef}
+\pagestyle{fancy}
+\fancyhead[L]{\textbf{AMC12 Problems}}
+\fancyhead[R]{\textbf{2024}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{AMC12 Problems \\ 2024}
+\date{}
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{2017 AMC 12B}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item Kymbrea's comic book collection currently has \(30\) comic books in it, and she is adding to her collection at the rate of \(2\) comic books per month. LaShawn's collection currently has \(10\) comic books in it, and he is adding to his collection at the rate of \(6\) comic books per month. After how many months will LaShawn's collection have twice as many comic books as Kymbrea's?
+
+\(\textbf{(A)}\ 1\qquad\textbf{(B)}\ 4\qquad\textbf{(C)}\ 5\qquad\textbf{(D)}\ 20\qquad\textbf{(E)}\ 25\)\par \vspace{0.5em}\item Real numbers \(x\), \(y\), and \(z\) satify the inequalities
+\(0<x<1\), \(-1<y<0\), and \(1<z<2\).
+Which of the following numbers is necessarily positive?
+
+\(\textbf{(A)}\ y+x^2\qquad\textbf{(B)}\ y+xz\qquad\textbf{(C)}\ y+y^2\qquad\textbf{(D)}\ y+2y^2\qquad\textbf{(E)}\ y+z\)\par \vspace{0.5em}\item Supposed that \(x\) and \(y\) are nonzero real numbers such that \(\frac{3x+y}{x-3y}=-2\). What is the value of \(\frac{x+3y}{3x-y}\)?
+
+\(\textbf{(A)}\ -3\qquad\textbf{(B)}\ -1\qquad\textbf{(C)}\ 1\qquad\textbf{(D)}\ 2\qquad\textbf{(E)}\ 3\)\par \vspace{0.5em}\item Samia set off on her bicycle to visit her friend, traveling at an average speed of \(17\) kilometers per hour. When she had gone half the distance to her friend's house, a tire went flat, and she walked the rest of the way at \(5\) kilometers per hour. In all it took her \(44\) minutes to reach her friend's house. In kilometers rounded to the nearest tenth, how far did Samia walk?
+
+\(\textbf{(A)}\ 2.0\qquad\textbf{(B)}\ 2.2\qquad\textbf{(C)}\ 2.8\qquad\textbf{(D)}\ 3.4\qquad\textbf{(E)}\ 4.4\)\par \vspace{0.5em}\item The data set \([6,19,33,33,39,41,41,43,51,57]\) has median \(Q_2 = 40\), first quartile \(Q_1 = 33\), and third quartile \(Q_3=43\). An outlier in a data set is a value that is more than \(1.5\) times the interquartile range below the first quartile \((Q_1)\) or more than \(1.5\) times the interquartile range above the third quartile \((Q_3)\), where the interquartile range is defined as \(Q_3 - Q_1\). How many outliers does this data set have?
+
+\(\textbf{(A)}\ 0\qquad\textbf{(B)}\ 1\qquad\textbf{(C)}\ 2\qquad\textbf{(D)}\ 3\qquad\textbf{(E)}\ 4\)\par \vspace{0.5em}\item The circle having \((0,0)\) and \((8,6)\) as the endpoints of a diameter intersects the \(x\)-axis at a second point. What is the \(x\)-coordinate of this point? 
+
+\(\textbf{(A)}\ 4\sqrt{2} \qquad \textbf{(B)}\ 6\qquad \textbf{(C)}\ 5\sqrt{2}\qquad \textbf{(D)}\ 8\qquad \textbf{(E)}\ 6\sqrt{2}\)\par \vspace{0.5em}\item The functions \(\sin(x)\) and \(\cos(x)\) are periodic with least period \(2\pi\). What is the least period of the function \(\cos(\sin(x))\)?
+
+\(\textbf{(A)}\ \frac{\pi}{2}\qquad\textbf{(B)}\ \pi\qquad\textbf{(C)}\ 2\pi \qquad\textbf{(D)}\ 4\pi \qquad\textbf{(E)}\) It's not periodic.\par \vspace{0.5em}\item The ratio of the short side of a certain rectangle to the long side is equal to the ratio of the long side to the diagonal. What is the square of the ratio of the short side to the long side of this rectangle?
+
+\(\textbf{(A)}\ \frac{\sqrt{3}-1}{2}\qquad\textbf{(B)}\ \frac{1}{2}\qquad\textbf{(C)}\ \frac{\sqrt{5}-1}{2} \qquad\textbf{(D)}\ \frac{\sqrt{2}}{2} \qquad\textbf{(E)}\ \frac{\sqrt{6}-1}{2}\)\par \vspace{0.5em}\item A circle has center \((-10,-4)\) and radius \(13\). Another circle has center \((3,9)\) and radius \(\sqrt{65}\). The line passing through the two points of intersection of the two circles has equation \(x + y = c\). What is \(c\)?
+
+\(\textbf{(A)}\ 3\qquad\textbf{(B)}\ 3\sqrt{3}\qquad\textbf{(C)}\ 4\sqrt{2}\qquad\textbf{(D)}\ 6\qquad\textbf{(E)}\ \frac{13}{2}\)\par \vspace{0.5em}\item At Typico High School, \(60\%\) of the students like dancing, and the rest dislike it. Of those who like dancing, \(80\%\) say that they like it, and the rest say that they dislike it. Of those who dislike dancing, \(90\%\) say that they dislike it, and the rest say that they like it. What fraction of students who say they dislike dancing actually like it?
+
+\(\textbf{(A)}\ 10\%\qquad\textbf{(B)}\ 12\%\qquad\textbf{(C)}\ 20\%\qquad\textbf{(D)}\ 25\%\qquad\textbf{(E)}\ 33\frac{1}{3}\%\)\par \vspace{0.5em}\item Call a positive integer \(monotonous\) if it is a one-digit number or its digits, when read from left to right, form either a strictly increasing or a strictly decreasing sequence. For example, \(3\), \(23578\), and \(987620\) are monotonous, but \(88\), \(7434\), and \(23557\) are not. How many monotonous positive integers are there?
+
+\(\textbf{(A)}\ 1024\qquad\textbf{(B)}\ 1524\qquad\textbf{(C)}\ 1533\qquad\textbf{(D)}\ 1536\qquad\textbf{(E)}\ 2048\)\par \vspace{0.5em}\item What is the sum of the roots of \(z^{12}=64\) that have a positive real part? 
+
+\(\textbf{(A)}\ 2 \qquad \textbf{(B)}\ 4 \qquad \textbf{(C)}\ \sqrt{2}+2\sqrt{3} \qquad \textbf{(D)}\ 2\sqrt{2}+\sqrt{6} \qquad \textbf{(E)}\ (1+\sqrt{3}) + (1+\sqrt{3})i\)\par \vspace{0.5em}\item In the figure below, \(3\) of the \(6\) disks are to be painted blue, \(2\) are to be painted red, and \(1\) is to be painted green. Two paintings that can be obtained from one another by a rotation or a reflection of the entire figure are considered the same. How many different paintings are possible?
+
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+size(100);
+pair A, B, C, D, E, F;
+A = (0,0);
+B = (1,0);
+C = (2,0);
+D = rotate(60, A)*B;
+E = B + D;
+F = rotate(60, A)*C;
+draw(Circle(A, 0.5));
+draw(Circle(B, 0.5));
+draw(Circle(C, 0.5));
+draw(Circle(D, 0.5));
+draw(Circle(E, 0.5));
+draw(Circle(F, 0.5));
+\end{asy}
+\end{center}
+
+
+\(\textbf{(A) } 6 \qquad \textbf{(B) } 8 \qquad \textbf{(C) } 9 \qquad \textbf{(D) } 12 \qquad \textbf{(E) } 15\)\par \vspace{0.5em}\item An ice-cream novelty item consists of a cup in the shape of a 4-inch-tall frustum of a right circular cone, with a 2-inch-diameter base at the bottom and a 4-inch-diameter base at the top, packed solid with ice cream, together with a solid cone of ice cream of height 4 inches, whose base, at the bottom, is the top base of the frustum. What is the total volume of the ice cream, in cubic inches? 
+
+\(\textbf{(A)}\ 8\pi \qquad \textbf{(B)}\ \frac{28\pi}{3} \qquad \textbf{(C)}\ 12\pi \qquad \textbf{(D)}\ 14\pi \qquad \textbf{(E)}\ \frac{44\pi}{3}\)\par \vspace{0.5em}\item Let \(ABC\) be an equilateral triangle. Extend side \(\overline{AB}\) beyond \(B\) to a point \(B'\) so that \(BB'=3 \cdot AB\). Similarly, extend side \(\overline{BC}\) beyond \(C\) to a point \(C'\) so that \(CC'=3 \cdot BC\), and extend side \(\overline{CA}\) beyond \(A\) to a point \(A'\) so that \(AA'=3 \cdot CA\). What is the ratio of the area of \(\triangle A'B'C'\) to the area of \(\triangle ABC\)?
+
+\(\textbf{(A)}\ 9\qquad\textbf{(B)}\ 16\qquad\textbf{(C)}\ 25\qquad\textbf{(D)}\ 36\qquad\textbf{(E)}\ 37\)\par \vspace{0.5em}\item The number \(21!=51,090,942,171,709,440,000\) has over \(60,000\) positive integer divisors. One of them is chosen at random. What is the probability that it is odd?
+
+\(\textbf{(A)}\ \frac{1}{21} \qquad \textbf{(B)}\ \frac{1}{19} \qquad \textbf{(C)}\ \frac{1}{18} \qquad \textbf{(D)}\ \frac{1}{2} \qquad \textbf{(E)}\ \frac{11}{21}\)\par \vspace{0.5em}\item A coin is biased in such a way that on each toss the probability of heads is \(\frac{2}{3}\) and the probability of tails is \(\frac{1}{3}\). The outcomes of the tosses are independent. A player has the choice of playing Game A or Game B. In Game A she tosses the coin three times and wins if all three outcomes are the same. In Game B she tosses the coin four times and wins if both the outcomes of the first and second tosses are the same and the outcomes of the third and fourth tosses are the same. How do the chances of winning Game A compare to the chances of winning Game B?
+
+\(\textbf{(A)}\) The probability of winning Game A is \(\frac{4}{81}\) less than the probability of winning Game B.
+
+\(\textbf{(B)}\) The probability of winning Game A is \(\frac{2}{81}\) less than the probability of winning Game B.
+
+\(\textbf{(C)}\) The probabilities are the same.
+
+\(\textbf{(D)}\) The probability of winning Game A is \(\frac{2}{81}\) greater than the probability of winning Game B.
+
+\(\textbf{(E)}\) The probability of winning Game A is \(\frac{4}{81}\) greater than the probability of winning Game B.\par \vspace{0.5em}\item The diameter \(AB\) of a circle of radius \(2\) is extended to a point \(D\) outside the circle so that \(BD=3\). Point \(E\) is chosen so that \(ED=5\) and line \(ED\) is perpendicular to line \(AD\). Segment \(AE\) intersects the circle at a point \(C\) between \(A\) and \(E\). What is the area of \(\triangle 
+ABC\)?
+
+\(\textbf{(A)}\ \frac{120}{37}\qquad\textbf{(B)}\ \frac{140}{39}\qquad\textbf{(C)}\ \frac{145}{39}\qquad\textbf{(D)}\ \frac{140}{37}\qquad\textbf{(E)}\ \frac{120}{31}\)\par \vspace{0.5em}\item Let \(N=123456789101112\dots4344\) be the \(79\)-digit number that is formed by writing the integers from \(1\) to \(44\) in order, one after the other. What is the remainder when \(N\) is divided by \(45\)?
+
+\(\textbf{(A)}\ 1\qquad\textbf{(B)}\ 4\qquad\textbf{(C)}\ 9\qquad\textbf{(D)}\ 18\qquad\textbf{(E)}\ 44\)\par \vspace{0.5em}\item Real numbers \(x\) and \(y\) are chosen independently and uniformly at random from the interval \((0,1)\). What is the probability that \(\lfloor\log_2x\rfloor=\lfloor\log_2y\rfloor\)?
+
+\(\textbf{(A)}\ \frac{1}{8}\qquad\textbf{(B)}\ \frac{1}{6}\qquad\textbf{(C)}\ \frac{1}{4}\qquad\textbf{(D)}\ \frac{1}{3}\qquad\textbf{(E)}\ \frac{1}{2}\)\par \vspace{0.5em}\item Last year Isabella took \(7\) math tests and received \(7\) different scores, each an integer between \(91\) and \(100\), inclusive. After each test she noticed that the average of her test scores was an integer. Her score on the seventh test was \(95\). What was her score on the sixth test?
+
+\(\textbf{(A)}\ 92\qquad\textbf{(B)}\ 94\qquad\textbf{(C)}\ 96\qquad\textbf{(D)}\ 98\qquad\textbf{(E)}\ 100\)\par \vspace{0.5em}\item Abby, Bernardo, Carl, and Debra play a game in which each of them starts with four coins. The game consists of four rounds. In each round, four balls are placed in an urn---one green, one red, and two white. The players each draw a ball at random without replacement. Whoever gets the green ball gives one coin to whoever gets the red ball. What is the probability that, at the end of the fourth round, each of the players has four coins?
+
+\(\textbf{(A)}\ \frac{7}{576} \qquad \textbf{(B)}\ \frac{5}{192} \qquad \textbf{(C)}\ \frac{1}{36} \qquad \textbf{(D)}\ \frac{5}{144} \qquad\textbf{(E)}\ \frac{7}{48}\)\par \vspace{0.5em}\item The graph of \(y=f(x)\), where \(f(x)\) is a polynomial of degree \(3\), contains points \(A(2,4)\), \(B(3,9)\), and \(C(4,16)\). Lines \(AB\), \(AC\), and \(BC\) intersect the graph again at points \(D\), \(E\), and \(F\), respectively, and the sum of the \(x\)-coordinates of \(D\), \(E\), and \(F\) is \(24\). What is \(f(0)\)?
+\(\textbf{(A)}\ -2 \qquad \textbf{(B)}\ 0 \qquad \textbf{(C)}\ 2 \qquad \textbf{(D)}\ \frac{24}{5} \qquad\textbf{(E)}\ 8\)\par \vspace{0.5em}\item Quadrilateral \(ABCD\) has right angles at \(B\) and \(C\), \(\triangle ABC \sim \triangle BCD\), and \(AB > BC\). There is a point \(E\) in the interior of \(ABCD\) such that \(\triangle ABC \sim \triangle CEB\) and the area of \(\triangle AED\) is \(17\) times the area of \(\triangle CEB\). What is \(\frac{AB}{BC}\)?
+
+\(\textbf{(A)}\ 1 + \sqrt{2} \qquad \textbf{(B)}\ 2 + \sqrt{2} \qquad \textbf{(C)}\ \sqrt{17} \qquad \textbf{(D)}\ 2 + \sqrt{5} \qquad\textbf{(E)}\ 1 + 2\sqrt{3}\)\par \vspace{0.5em}\item A set of \(n\) people participate in an online video basketball tournament. Each person may be a member of any number of \(5\)-player teams, but no teams may have exactly the same \(5\) members. The site statistics show a curious fact: The average, over all subsets of size \(9\) of the set of \(n\) participants, of the number of complete teams whose members are among those 9 people is equal to the reciprocal of the average, over all subsets of size \(8\) of the set of \(n\) participants, of the number of complete teams whose members are among those \(8\) people. How many values \(n\), \(9 \leq n \leq 2017\), can be the number of participants?
+
+\(\textbf{(A)}\ 477 \qquad \textbf{(B)}\ 482 \qquad \textbf{(C)}\ 487 \qquad \textbf{(D)}\ 557 \qquad\textbf{(E)}\ 562\)\par \vspace{0.5em}\end{enumerate}
+\end{document}

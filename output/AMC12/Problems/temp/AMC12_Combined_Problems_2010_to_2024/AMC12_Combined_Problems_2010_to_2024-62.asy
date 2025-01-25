@@ -1,0 +1,40 @@
+if(!settings.multipleView) settings.batchView=false;
+settings.tex="pdflatex";
+defaultfilename="AMC12_Combined_Problems_2010_to_2024-62";
+if(settings.render < 0) settings.render=4;
+settings.outformat="";
+settings.inlineimage=true;
+settings.embed=true;
+settings.toolbar=false;
+viewportmargin=(2,2);
+
+// Global Asymptote settings
+settings.outformat = "pdf";
+settings.render = 0;
+settings.prc = false;
+import olympiad;
+import cse5;
+size(8cm);
+
+import olympiad;
+import cse5;
+import olympiad;
+size(10cm);
+draw(circle((0,0),0.75));
+draw(circle((-0.25,0),1));
+draw(circle((0.25,0),1));
+draw(circle((0,6/7),3/28));
+pair A = (0,0), B = (-0.25,0), C = (0.25,0), D = (0,6/7), E = (-0.95710678118, 0.70710678118), F = (0.95710678118, -0.70710678118);
+dot(B^^C);
+draw(B--E, dashed);
+draw(C--F, dashed);
+draw(B--C);
+label("$C_4$", D);
+label("$C_1$", (-1.375, 0));
+label("$C_2$", (1.375,0));
+label("$\frac{1}{2}$", (0, -.125));
+label("$C_3$", (-0.4, -0.4));
+label("$1$", (-.85, 0.70));
+label("$1$", (.85, -.7));
+import olympiad;
+markscalefactor=0.005;

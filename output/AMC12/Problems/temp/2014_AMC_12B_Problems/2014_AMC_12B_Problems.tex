@@ -1,0 +1,184 @@
+
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{asymptote}
+\usepackage{arcs}
+\usepackage{xwatermark}
+\begin{asydef}
+  // Global Asymptote settings
+  settings.outformat = "pdf";
+  settings.render = 0;
+  settings.prc = false;
+  import olympiad;
+  import cse5;
+  size(8cm);
+\end{asydef}
+\pagestyle{fancy}
+\fancyhead[L]{\textbf{AMC12 Problems}}
+\fancyhead[R]{\textbf{2024}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{AMC12 Problems \\ 2024}
+\date{}
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{2014 AMC 12B}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item Leah has \( 13 \) coins, all of which are pennies and nickels. If she had one more nickel than she has now, then she would have the same number of pennies and nickels. In cents, how much are Leah's coins worth?
+
+\( \textbf{(A)}\ 33\qquad\textbf{(B)}\ 35\qquad\textbf{(C)}\ 37\qquad\textbf{(D)}\ 39\qquad\textbf{(E)}\ 41 \)\par \vspace{0.5em}\item Orvin went to the store with just enough money to buy \( 30 \) balloons. When he arrived he discovered that the store had a special sale on balloons: buy \( 1 \) balloon at the regular price and get a second at \( \frac{1}{3} \) off the regular price. What is the greatest number of balloons Orvin could buy?
+
+\( \textbf{(A)}\ 33\qquad\textbf{(B)}\ 34\qquad\textbf{(C)}\ 36\qquad\textbf{(D)}\ 38\qquad\textbf{(E)}\ 39 \)\par \vspace{0.5em}\item Randy drove the first third of his trip on a gravel road, the next \( 20 \) miles on pavement, and the remaining one-fifth on a dirt road. In miles, how long was Randy's trip?
+
+\( \textbf{(A)}\ 30\qquad\textbf{(B)}\ \frac{400}{11}\qquad\textbf{(C)}\ \frac{75}{2}\qquad\textbf{(D)}\ 40\qquad\textbf{(E)}\ \frac{300}{7} \)\par \vspace{0.5em}\item Susie pays for \( 4 \) muffins and \( 3 \) bananas. Calvin spends twice as much paying for \( 2 \) muffins and \( 16 \) bananas. A muffin is how many times as expensive as a banana?
+
+\( \textbf{(A)}\ \frac{3}{2}\qquad\textbf{(B)}\ \frac{5}{3}\qquad\textbf{(C)}\ \frac{7}{4}\qquad\textbf{(D)}\ 2\qquad\textbf{(E)}\ \frac{13}{4} \)\par \vspace{0.5em}\item Doug constructs a square window using \( 8 \) equal-size panes of glass, as shown. The ratio of the height to width for each pane is \( 5 : 2 \), and the borders around and between the panes are \( 2 \) inches wide. In inches, what is the side length of the square window?
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+fill((0,0)--(2,0)--(2,26)--(0,26)--cycle,gray);
+fill((6,0)--(8,0)--(8,26)--(6,26)--cycle,gray);
+fill((12,0)--(14,0)--(14,26)--(12,26)--cycle,gray);
+fill((18,0)--(20,0)--(20,26)--(18,26)--cycle,gray);
+fill((24,0)--(26,0)--(26,26)--(24,26)--cycle,gray);
+fill((0,0)--(26,0)--(26,2)--(0,2)--cycle,gray);
+fill((0,12)--(26,12)--(26,14)--(0,14)--cycle,gray);
+fill((0,24)--(26,24)--(26,26)--(0,26)--cycle,gray);
+\end{asy}
+\end{center}
+
+\( \textbf{(A)}\ 26\qquad\textbf{(B)}\ 28\qquad\textbf{(C)}\ 30\qquad\textbf{(D)}\ 32\qquad\textbf{(E)}\ 34 \)\par \vspace{0.5em}\item Ed and Ann both have lemonade with their lunch. Ed orders the regular size. Ann gets the large lemonade, which is 50% more than the regular. After both consume \(\frac{3}{4}\) of their drinks, Ann gives Ed a third of what she has left, and 2 additional ounces. When they finish their lemonades they realize that they both drank the same amount. How many ounces of lemonade did they drink together?
+
+\( \textbf{(A)}\ 30\qquad\textbf{(B)}\ 32\qquad\textbf{(C)}\ 36\qquad\textbf{(D)}\ 40\qquad\textbf{(E)}\ 50 \)\par \vspace{0.5em}\item For how many positive integers \(n\) is \(\frac{n}{30-n}\) also a positive integer?
+
+\( \textbf{(A)}\ 4\qquad\textbf{(B)}\ 5\qquad\textbf{(C)}\ 6\qquad\textbf{(D)}\ 7\qquad\textbf{(E)}\ 8 \)\par \vspace{0.5em}\item In the addition shown below \( A \), \( B \), \( C \), and \( D \) are distinct digits. How many different values are possible for \( D \)?
+
+
+\begin{equation*}
+\begin{tabular}{cccccc}&A&B&B&C&B\\ +&B&C&A&D&A\\ \hline &D&B&D&D&D\end{tabular}
+\end{equation*}
+
+
+\( \textbf{(A)}\ 2\qquad\textbf{(B)}\ 4\qquad\textbf{(C)}\ 7\qquad\textbf{(D)}\ 8\qquad\textbf{(E)}\ 9 \)\par \vspace{0.5em}\item Convex quadrilateral \( ABCD \) has \( AB=3 \), \( BC=4 \), \( CD=13 \), \( AD=12 \), and \( \angle ABC=90^{\circ} \), as shown. What is the area of the quadrilateral?
+
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+pair A=(0,0), B=(-3,0), C=(-3,-4), D=(48/5,-36/5);
+draw(A--B--C--D--A); 
+label("$A$",A,N); label("$B$",B,NW); label("$C$",C,SW); label("$D$",D,E);
+draw(rightanglemark(A,B,C,25));
+\end{asy}
+\end{center}
+
+
+\( \textbf{(A)}\ 30\qquad\textbf{(B)}\ 36\qquad\textbf{(C)}\ 40\qquad\textbf{(D)}\ 48\qquad\textbf{(E)}\ 58.5 \)\par \vspace{0.5em}\item Danica drove her new car on a trip for a whole number of hours, averaging 55 miles per hour. At the beginning of the trip, \(abc\) miles was displayed on the odometer, where \(abc\) is a 3-digit number with \(a \geq{1}\) and \(a+b+c \leq{7}\). At the end of the trip, the odometer showed \(cba\) miles. What is \(a^2+b^2+c^2?\).
+
+\( \textbf{(A)}\ 26\qquad\textbf{(B)}\ 27\qquad\textbf{(C)}\ 36\qquad\textbf{(D)}\ 37\qquad\textbf{(E)}\ 41 \)\par \vspace{0.5em}\item A list of 11 positive integers has a mean of 10, a median of 9, and a unique mode of 8. What is the largest possible value of an integer in the list?
+
+\( \textbf{(A)}\ 24\qquad\textbf{(B)}\ 30\qquad\textbf{(C)}\ 31\qquad\textbf{(D)}\ 33\qquad\textbf{(E)}\ 35 \)\par \vspace{0.5em}\item A set \(S\) consists of triangles whose sides have integer lengths less than 5, and no two elements of \(S\) are congruent or similar. What is the largest number of elements that \(S\) can have?
+
+\( \textbf{(A)}\ 8\qquad\textbf{(B)}\ 9\qquad\textbf{(C)}\ 10\qquad\textbf{(D)}\ 11\qquad\textbf{(E)}\ 12 \)\par \vspace{0.5em}\item Real numbers \(a\) and \(b\) are chosen with \(1<a<b\) such that no triangles with positive area has side lengths \(1, a,\) and \(b\) or \(\tfrac{1}{b}, \tfrac{1}{a},\) and \(1\). What is the smallest possible value of \(b\)?
+
+\( \textbf{(A)}\ \frac{3+\sqrt{3}}{2}\qquad\textbf{(B)}\ \frac{5}{2}\qquad\textbf{(C)}\ \frac{3+\sqrt{5}}{2}\qquad\textbf{(D)}\ \frac{3+\sqrt{6}}{2}\qquad\textbf{(E)}\ 3 \)\par \vspace{0.5em}\item A rectangular box has a total surface area of 94 square inches. The sum of the lengths of all its edges is 48 inches. What is the sum of the lengths in inches of all of its interior diagonals?
+
+\( \textbf{(A)}\ 8\sqrt{3}\qquad\textbf{(B)}\ 10\sqrt{2}\qquad\textbf{(C)}\ 16\sqrt{3}\qquad\textbf{(D)}\ 20\sqrt{2}\qquad\textbf{(E)}\ 40\sqrt{2} \)\par \vspace{0.5em}\item When \(p = \sum\limits_{k=1}^{6} k \ln{k}\), the number \(e^p\) is an integer.  What is the largest power of 2 that is a factor of \(e^p\) ?
+
+\( \textbf{(A)}\ 2^{12}\qquad\textbf{(B)}\ 2^{14}\qquad\textbf{(C)}\ 2^{16}\qquad\textbf{(D)}\ 2^{18}\qquad\textbf{(E)}\ 2^{20} \)\par \vspace{0.5em}\item Let \(P\) be a cubic polynomial with \(P(0) = k\), \(P(1) = 2k\), and \(P(-1) = 3k\).  What is \(P(2) + P(-2)\) ?
+
+\( \textbf{(A)}\ 0\qquad\textbf{(B)}\ k\qquad\textbf{(C)}\ 6k\qquad\textbf{(D)}\ 7k\qquad\textbf{(E)}\ 14k \)\par \vspace{0.5em}\item Let \(P\) be the parabola with equation \(y=x^2\) and let \(Q = (20, 14)\). There are real numbers \(r\) and \(s\) such that the line through \(Q\) with slope \(m\) does not intersect \(P\) if and only if \(r < m < s\). What is \(r + s\)?
+
+\( \textbf{(A)}\ 1\qquad\textbf{(B)}\ 26\qquad\textbf{(C)}\ 40\qquad\textbf{(D)}\ 52\qquad\textbf{(E)}\ 80 \)\par \vspace{0.5em}\item The numbers \(1\), \(2\), \(3\), \(4\), \(5\), are to be arranged in a circle.  An arrangement is \(\textit{bad}\) if it is not true that for every \(n\) from \(1\) to \(15\) one can find a subset of the numbers that appear consecutively on the circle that sum to \(n\).  Arrangements that differ only by a rotation or a reflection are considered the same.  How many different bad arrangements are there?
+
+\( \textbf{(A) }1\qquad\textbf{(B) }2\qquad\textbf{(C) }3\qquad\textbf{(D) }4\qquad\textbf{(E) }5 \)\par \vspace{0.5em}\item A sphere is inscribed in a truncated right circular cone as shown. The volume of the truncated cone is twice that of the sphere. What is the ratio of the radius of the bottom base of the truncated cone to the radius of the top base of the truncated cone?
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+real r=(3+sqrt(5))/2;
+real s=sqrt(r);
+real Brad=r;
+real brad=1;
+real Fht = 2*s;
+import graph3;
+import solids;
+currentprojection=orthographic(1,0,.2);
+currentlight=(10,10,5);
+revolution sph=sphere((0,0,Fht/2),Fht/2);
+//draw(surface(sph),green+white+opacity(0.5));
+//triple f(pair t) {return (t.x*cos(t.y),t.x*sin(t.y),t.x^(1/n)*sin(t.y/n));}
+triple f(pair t) {
+triple v0 = Brad*(cos(t.x),sin(t.x),0);
+triple v1 = brad*(cos(t.x),sin(t.x),0)+(0,0,Fht);
+return (v0 + t.y*(v1-v0));
+}
+triple g(pair t) {
+return (t.y*cos(t.x),t.y*sin(t.x),0);
+}
+surface sback=surface(f,(3pi/4,0),(7pi/4,1),80,2);
+surface sfront=surface(f,(7pi/4,0),(11pi/4,1),80,2);
+surface base = surface(g,(0,0),(2pi,Brad),80,2);
+draw(sback,gray(0.9));
+draw(sfront,gray(0.5));
+draw(base,gray(0.9));
+draw(surface(sph),gray(0.4));
+\end{asy}
+\end{center}
+
+\(\text{(A) } \dfrac32 \quad \text{(B) } \dfrac{1+\sqrt5}2 \quad \text{(C) } \sqrt3 \quad \text{(D) } 2 \quad \text{(E) } \dfrac{3+\sqrt5}2\)\par \vspace{0.5em}\item For how many positive integers \(x\) is \(\log_{10}(x-40) + \log_{10}(60-x) < 2\) ?
+
+\(\textbf{(A) }10\qquad
+\textbf{(B) }18\qquad
+\textbf{(C) }19\qquad
+\textbf{(D) }20\qquad
+\textbf{(E) }\text{infinitely many}\qquad\)\par \vspace{0.5em}\item In the figure, \( ABCD \) is a square of side length \( 1 \). The rectangles \( JKHG \) and \( EBCF \) are congruent. What is \( BE \)?
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+pair A=(1,0), B=(0,0), C=(0,1), D=(1,1), E=(2-sqrt(3),0), F=(2-sqrt(3),1), G=(1,sqrt(3)/2), H=(2.5-sqrt(3),1), J=(.5,0), K=(2-sqrt(3),1-sqrt(3)/2);
+draw(A--B--C--D--cycle);
+draw(K--H--G--J--cycle);
+draw(F--E);
+label("$A$",A,SE); label("$B$",B,SW); label("$C$",C,NW); label("$D$",D,NE); label("$E$",E,S); label("$F$",F,N);
+label("$G$",G,E); label("$H$",H,N); label("$J$",J,S); label("$K$",K,W);
+\end{asy}
+\end{center}
+
+\( \textbf{(A) }\frac{1}{2}(\sqrt{6}-2)\qquad\textbf{(B) }\frac{1}{4}\qquad\textbf{(C) }2-\sqrt{3}\qquad\textbf{(D) }\frac{\sqrt{3}}{6}\qquad\textbf{(E) } 1-\frac{\sqrt{2}}{2}\)\par \vspace{0.5em}\item In a small pond there are eleven lily pads in a row labeled 0 through 10.  A frog is sitting on pad 1.  When the frog is on pad \(N\), \(0<N<10\), it will jump to pad \(N-1\) with probability \(\frac{N}{10}\) and to pad \(N+1\) with probability \(1-\frac{N}{10}\).  Each jump is independent of the previous jumps.  If the frog reaches pad 0 it will be eaten by a patiently waiting snake.  If the frog reaches pad 10 it will exit the pond, never to return.  What is the probability that the frog will escape without being eaten by the snake?
+
+\(\textbf{(A) }\frac{32}{79}\qquad
+\textbf{(B) }\frac{161}{384}\qquad
+\textbf{(C) }\frac{63}{146}\qquad
+\textbf{(D) }\frac{7}{16}\qquad
+\textbf{(E) }\frac{1}{2}\qquad\)\par \vspace{0.5em}\item The number 2017 is prime.  Let \(S = \sum \limits_{k=0}^{62} \dbinom{2014}{k}\).  What is the remainder when \(S\) is divided by 2017?
+
+\(\textbf{(A) }32\qquad
+\textbf{(B) }684\qquad
+\textbf{(C) }1024\qquad
+\textbf{(D) }1576\qquad
+\textbf{(E) }2016\qquad\)\par \vspace{0.5em}\item Let \(ABCDE\) be a pentagon inscribed in a circle such that \(AB = CD = 3\), \(BC = DE = 10\), and \(AE= 14\).  The sum of the lengths of all diagonals of \(ABCDE\) is equal to \(\frac{m}{n}\), where \(m\) and \(n\) are relatively prime positive integers.  What is \(m+n\) ?
+
+\(\textbf{(A) }129\qquad
+\textbf{(B) }247\qquad
+\textbf{(C) }353\qquad
+\textbf{(D) }391\qquad
+\textbf{(E) }421\qquad\)\par \vspace{0.5em}\item Find the sum of all the positive solutions of 
+\begin{equation*}
+2\cos(2x) \left(\cos(2x) - \cos\left( \frac{2014\pi^2}{x} \right)\right) = \cos(4x) - 1
+\end{equation*}
+
+
+\( \textbf{(A)}\ \pi \qquad\textbf{(B)}\ 810\pi  \qquad\textbf{(C)}\ 1008\pi \qquad\textbf{(D)}\ 1080 \pi \qquad\textbf{(E)}\ 1800\pi \)\par \vspace{0.5em}\end{enumerate}
+\end{document}

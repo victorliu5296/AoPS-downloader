@@ -244,7 +244,7 @@ def generate_latex_header(contest_type, year_range_str, doc_type):
 \usepackage{geometry}
 \geometry{a4paper, margin=0.75in}
 \usepackage{enumitem}
-\usepackage{hyperref}
+\usepackage[hypertexnames=true, linktoc=all]{hyperref}
 \usepackage{fancyhdr}
 \usepackage{tikz}
 \usepackage{graphicx}
@@ -285,9 +285,13 @@ def process_problems(problems_by_title, is_combined):
         # Sort titles lexicographically (chronological since year comes first)
         sorted_titles = sorted(problems_by_title.keys())
         for title in sorted_titles:
-            # Format title: "2012_AMC_12A_Problems" -> "2012 AMC 12A"
-            display_title = title.replace("_", " ").replace(" Problems", "")
-            latex_content_body += r"\section*{" + display_title + r"}"
+            # Format title: "2012_AMC_12A_Problems" -> "2012 AMC 12A Problems"
+            display_title = title.replace("_", " ")
+            # Add unnumbered section and TOC entry
+            latex_content_body += (
+                r"\section*{" + display_title + "}\n"
+                r"\addcontentsline{toc}{section}{" + display_title + "}\n"
+            )
             problems = problems_by_title[title]
 
             latex_content_body += r"\begin{enumerate}[label=\arabic*., itemsep=0.5em]"
@@ -615,7 +619,7 @@ async def main():
         print(f"\nTotal script execution time: {total_time:.2f} seconds")
 
     print(f"\nPDF generation complete. PDFs are in the 'output' folder.")
-    print(f"\n--- IMPORTANT ---\nIf LaTeX compilation failed, check the console output for detailed LaTeX error messages.\n---")
+    print(f"\n---\nIf LaTeX compilation failed, check the log files in temp directories for detailed LaTeX error messages.\n---")
 
     delete_temp_files_prompt = input("\nDo you want to delete temporary files (log, aux, etc.)? ([y]es/[n]o): ").lower()
     if delete_temp_files_prompt in ['yes', 'y']:

@@ -1,0 +1,226 @@
+
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{asymptote}
+\usepackage{arcs}
+\usepackage{xwatermark}
+\begin{asydef}
+  // Global Asymptote settings
+  settings.outformat = "pdf";
+  settings.render = 0;
+  settings.prc = false;
+  import olympiad;
+  import cse5;
+  size(8cm);
+\end{asydef}
+\pagestyle{fancy}
+\fancyhead[L]{\textbf{AMC12 Problems}}
+\fancyhead[R]{\textbf{2024}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{AMC12 Problems \\ 2024}
+\date{}
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{2023 AMC 12A}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item Cities \(A\) and \(B\) are \(45\) miles apart. Alicia lives in \(A\) and Beth lives in \(B\). Alicia bikes towards \(B\) at 18 miles per hour. Leaving at the same time, Beth bikes toward \(A\) at 12 miles per hour. How many miles from City \(A\) will they be when they meet?
+
+\(\textbf{(A) }20\qquad\textbf{(B) }24\qquad\textbf{(C) }25\qquad\textbf{(D) }26\qquad\textbf{(E) }27\)\par \vspace{0.5em}\item The weight of \(\frac{1}{3}\) of a large pizza together with \(3 \frac{1}{2}\) cups of orange slices is the same weight of \(\frac{3}{4}\) of a large pizza together with \(\frac{1}{2}\) cups of orange slices. A cup of orange slices weigh \(\frac{1}{4}\) of a pound. What is the weight, in pounds, of a large pizza?
+
+\(\textbf{(A) }1\frac{4}{5}\qquad\textbf{(B) }2\qquad\textbf{(C) }2\frac{2}{5}\qquad\textbf{(D) }3\qquad\textbf{(E) }3\frac{3}{5}\)\par \vspace{0.5em}\item How many positive perfect squares less than \(2023\) are divisible by \(5\)?
+
+\(\textbf{(A) }8\qquad\textbf{(B) }9\qquad\textbf{(C) }10\qquad\textbf{(D) }11\qquad\textbf{(E) }12\)\par \vspace{0.5em}\item How many digits are in the base-ten representation of \(8^5 \cdot 5^{10} \cdot 15^5\)?
+
+\(\textbf{(A)}~14\qquad\textbf{(B)}~15\qquad\textbf{(C)}~16\qquad\textbf{(D)}~17\qquad\textbf{(E)}~18\qquad\)\par \vspace{0.5em}\item Janet rolls a standard \(6\)-sided die \(4\) times and keeps a running total of the numbers she rolls. What is the probability that at some point, her running total will equal \(3?\)
+
+\(\textbf{(A) }\frac{2}{9}\qquad\textbf{(B) }\frac{49}{216}\qquad\textbf{(C) }\frac{25}{108}\qquad\textbf{(D) }\frac{17}{72}\qquad\textbf{(E) }\frac{13}{54}\)\par \vspace{0.5em}\item Points \(A\) and \(B\) lie on the graph of \(y=\log_{2}x\). The midpoint of \(\overline{AB}\) is \((6, 2)\). What is the positive difference between the \(x\)-coordinates of \(A\) and \(B\)?
+
+\(\textbf{(A)}~2\sqrt{11}\qquad\textbf{(B)}~4\sqrt{3}\qquad\textbf{(C)}~8\qquad\textbf{(D)}~4\sqrt{5}\qquad\textbf{(E)}~9\)\par \vspace{0.5em}\item A digital display shows the current date as an \(8\)-digit integer consisting of a \(4\)-digit year, followed by a \(2\)-digit month, followed by a \(2\)-digit date within the month. For example, Arbor Day this year is displayed as \(20230428\). For how many dates in \(2023\) will each digit appear an even number of times in the 8-digital display for that date?
+
+\(\textbf{(A)}~5\qquad\textbf{(B)}~6\qquad\textbf{(C)}~7\qquad\textbf{(D)}~8\qquad\textbf{(E)}~9\)\par \vspace{0.5em}\item Maureen is keeping track of the mean of her quiz scores this semester. If Maureen scores an \(11\) on the next quiz, her mean will increase by \(1\). If she scores an \(11\) on each of the next three quizzes, her mean will increase by \(2\). What is the mean of her quiz scores currently?
+
+\(\textbf{(A) }4\qquad\textbf{(B) }5\qquad\textbf{(C) }6\qquad\textbf{(D) }7\qquad\textbf{(E) }8\)\par \vspace{0.5em}\item A square of area \(2\) is inscribed in a square of area \(3\), creating four congruent triangles, as shown below. What is the ratio of the shorter leg to the longer leg in the shaded right triangle?
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+size(200);
+defaultpen(linewidth(0.6pt)+fontsize(10pt));
+real y = sqrt(3);
+pair A,B,C,D,E,F,G,H;
+A = (0,0);
+B = (0,y);
+C = (y,y);
+D = (y,0);
+E = ((y + 1)/2,y);
+F = (y, (y - 1)/2);
+G = ((y - 1)/2, 0);
+H = (0,(y + 1)/2);
+fill(H--B--E--cycle, gray);
+draw(A--B--C--D--cycle);
+draw(E--F--G--H--cycle);
+\end{asy}
+\end{center}
+
+
+\(\textbf{(A) }\frac15\qquad\textbf{(B) }\frac14\qquad\textbf{(C) }2-\sqrt3\qquad\textbf{(D) }\sqrt3-\sqrt2\qquad\textbf{(E) }\sqrt2-1\)\par \vspace{0.5em}\item Positive real numbers \(x\) and \(y\) satisfy \(y^3 = x^2\) and \((y-x)^2 = 4y^2\). What is \(x+y\)?
+
+\(\textbf{(A)}\ 12 \qquad \textbf{(B)}\ 18 \qquad \textbf{(C)}\ 24 \qquad \textbf{(D)}\ 36 \qquad \textbf{(E)}\ 42\)\par \vspace{0.5em}\item What is the degree measure of the acute angle formed by lines with slopes \(2\) and \(\tfrac{1}{3}\)?
+
+\(\textbf{(A)}~30\qquad\textbf{(B)}~37.5\qquad\textbf{(C)}~45\qquad\textbf{(D)}~52.5\qquad\textbf{(E)}~60\)\par \vspace{0.5em}\item What is the value of
+
+\begin{equation*}
+2^3 - 1^3 + 4^3 - 3^3 + 6^3 - 5^3 + \dots + 18^3 - 17^3?
+\end{equation*}
+
+
+\(\textbf{(A) } 2023 \qquad\textbf{(B) } 2679 \qquad\textbf{(C) } 2941 \qquad\textbf{(D) } 3159 \qquad\textbf{(E) } 3235\)\par \vspace{0.5em}\item In a table tennis tournament every participant played every other participant exactly once. Although there were twice as many right-handed players as left-handed players, the number of games won by left-handed players was \(40\%\) more than the number of games won by right-handed players. (There were no ties and no ambidextrous players.) What is the total number of games played?
+
+\(\textbf{(A) }15\qquad\textbf{(B) }36\qquad\textbf{(C) }45\qquad\textbf{(D) }48\qquad\textbf{(E) }66\)\par \vspace{0.5em}\item How many complex numbers satisfy the equation \(z^{5}=\overline{z}\), where \(\overline{z}\) is the conjugate of the complex number \(z\)?
+
+\(\textbf{(A)}~2\qquad\textbf{(B)}~3\qquad\textbf{(C)}~5\qquad\textbf{(D)}~6\qquad\textbf{(E)}~7\)\par \vspace{0.5em}\item Usain is walking for exercise by zigzagging across a \(100\)-meter by \(30\)-meter rectangular field, beginning at point \(A\) and ending on the segment \(\overline{BC}\). He wants to increase the distance walked by zigzagging as shown in the figure below \((APQRS)\). What angle \(\theta\)\(\angle PAB=\angle QPC=\angle RQB=\cdots\) will produce in a length that is \(120\) meters? (This figure is not drawn to scale. Do not assume that the zigzag path has exactly four segments as shown; there could be more or fewer.)
+
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+import olympiad;
+draw((-50,15)--(50,15));
+draw((50,15)--(50,-15));
+draw((50,-15)--(-50,-15));
+draw((-50,-15)--(-50,15));
+draw((-50,-15)--(-22.5,15));
+draw((-22.5,15)--(5,-15));
+draw((5,-15)--(32.5,15));
+draw((32.5,15)--(50,-4.090909090909));
+label("$\theta$", (-41.5,-10.5));
+label("$\theta$", (-13,10.5));
+label("$\theta$", (15.5,-10.5));
+label("$\theta$", (43,10.5));
+dot((-50,15));
+dot((-50,-15));
+dot((50,15));
+dot((50,-15));
+dot((50,-4.09090909090909));
+label("$D$",(-58,15));
+label("$A$",(-58,-15));
+label("$C$",(58,15));
+label("$B$",(58,-15));
+label("$S$",(58,-4.0909090909));
+dot((-22.5,15));
+dot((5,-15));
+dot((32.5,15));
+label("$P$",(-22.5,23));
+label("$Q$",(5,-23));
+label("$R$",(32.5,23));
+\end{asy}
+\end{center}
+
+
+\(\textbf{(A)}~\arccos\frac{5}{6}\qquad\textbf{(B)}~\arccos\frac{4}{5}\qquad\textbf{(C)}~\arccos\frac{3}{10}\qquad\textbf{(D)}~\arcsin\frac{4}{5}\qquad\textbf{(E)}~\arcsin\frac{5}{6}\)\par \vspace{0.5em}\item Consider the set of complex numbers \(z\) satisfying \(|1+z+z^{2}|=4\). The maximum value of the imaginary part of \(z\) can be written in the form \(\tfrac{\sqrt{m}}{n}\), where \(m\) and \(n\) are relatively prime positive integers. What is \(m+n\)?
+
+\(\textbf{(A)}~20\qquad\textbf{(B)}~21\qquad\textbf{(C)}~22\qquad\textbf{(D)}~23\qquad\textbf{(E)}~24\)\par \vspace{0.5em}\item Flora the frog starts at \(0\) on the number line and makes a sequence of jumps to the right. In any one jump, independent of previous jumps, Flora leaps a positive integer distance \(m\) with probability \(\frac{1}{2^m}\). What is the probability that Flora will eventually land at \(10\)?
+
+\(\textbf{(A) } \frac{5}{512} \qquad \textbf{(B) } \frac{45}{1024} \qquad \textbf{(C) } \frac{127}{1024} \qquad \textbf{(D) } \frac{511}{1024} \qquad \textbf{(E) } \frac{1}{2}\)\par \vspace{0.5em}\item Circle \(C_1\) and \(C_2\) each have radius \(1\), and the distance between their centers is \(\frac{1}{2}\). Circle \(C_3\) is the largest circle internally tangent to both \(C_1\) and \(C_2\). Circle \(C_4\) is internally tangent to both \(C_1\) and \(C_2\) and externally tangent to \(C_3\). What is the radius of \(C_4\)?
+
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+import olympiad; 
+size(10cm); 
+draw(circle((0,0),0.75)); 
+draw(circle((-0.25,0),1)); 
+draw(circle((0.25,0),1)); 
+draw(circle((0,6/7),3/28)); 
+pair A = (0,0), B = (-0.25,0), C = (0.25,0), D = (0,6/7), E = (-0.95710678118, 0.70710678118), F = (0.95710678118, -0.70710678118);
+dot(B^^C); 
+draw(B--E, dashed);
+draw(C--F, dashed);
+draw(B--C); 
+label("$C_4$", D); 
+label("$C_1$", (-1.375, 0)); 
+label("$C_2$", (1.375,0));
+label("$\frac{1}{2}$", (0, -.125));
+label("$C_3$", (-0.4, -0.4));
+label("$1$", (-.85, 0.70));
+label("$1$", (.85, -.7));
+import olympiad; 
+markscalefactor=0.005;
+\end{asy}
+\end{center}
+
+
+\(\textbf{(A) } \frac{1}{14} \qquad \textbf{(B) } \frac{1}{12} \qquad \textbf{(C) } \frac{1}{10} \qquad \textbf{(D) } \frac{3}{28} \qquad \textbf{(E) } \frac{1}{9}\)\par \vspace{0.5em}\item What is the product of all the solutions to the equation 
+\begin{equation*}
+\log_{7x}2023 \cdot \log_{289x} 2023 = \log_{2023x} 2023?
+\end{equation*}
+
+
+\(\textbf{(A) }(\log_{2023}7 \cdot \log_{2023}289)^2 \qquad\textbf{(B) }\log_{2023}7 \cdot \log_{2023}289\qquad\textbf{(C) } 1
+\\
+\\
+\textbf{(D) }\log_{7}2023 \cdot \log_{289}2023\qquad\textbf{(E) }(\log_{7}2023 \cdot \log_{289}2023)^2\)\par \vspace{0.5em}\item Rows 1, 2, 3, 4, and 5 of a triangular array of integers are shown below:
+
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+size(4.5cm);
+label("$1$", (0,0));
+label("$1$", (-0.5,-2/3));
+label("$1$", (0.5,-2/3));
+label("$1$", (-1,-4/3));
+label("$3$", (0,-4/3));
+label("$1$", (1,-4/3));
+label("$1$", (-1.5,-2));
+label("$5$", (-0.5,-2));
+label("$5$", (0.5,-2));
+label("$1$", (1.5,-2));
+label("$1$", (-2,-8/3));
+label("$7$", (-1,-8/3));
+label("$11$", (0,-8/3));
+label("$7$", (1,-8/3));
+label("$1$", (2,-8/3));
+\end{asy}
+\end{center}
+
+
+Each row after the first row is formed by placing a 1 at each end of the row, and each interior entry is 1 greater than the sum of the two numbers diagonally above it in the previous row. What is the units digit of the sum of the 2023 numbers in the 2023rd row?
+
+\(\textbf{(A) }1\qquad\textbf{(B) }3\qquad\textbf{(C) }5\qquad\textbf{(D) }7\qquad\textbf{(E) }9\)\par \vspace{0.5em}\item If \(A\) and \(B\) are vertices of a polyhedron, define the distance \(d(A, B)\) to be the minimum number of edges of the polyhedron one must traverse in order to connect \(A\) and \(B\). For example, if \(\overline{AB}\) is an edge of the polyhedron, then \(d(A, B) = 1\), but if \(\overline{AC}\) and \(\overline{CB}\) are edges and \(\overline{AB}\) is not an edge, then \(d(A, B) = 2\). Let \(Q\), \(R\), and \(S\) be randomly chosen distinct vertices of a regular icosahedron (regular polyhedron made up of 20 equilateral triangles). What is the probability that \(d(Q, R) > d(R, S)\)?
+
+\(\textbf{(A)}~\frac{7}{22}\qquad\textbf{(B)}~\frac13\qquad\textbf{(C)}~\frac38\qquad\textbf{(D)}~\frac5{12}\qquad\textbf{(E)}~\frac12\)\par \vspace{0.5em}\item Let \(f\) be the unique function defined on the positive integers such that
+\begin{equation*}
+\sum_{d\mid n}d\cdot f\left(\frac{n}{d}\right)=1
+\end{equation*}
+for all positive integers \(n\), where the sum is taken over all positive divisors of \(n\). What is \(f(2023)\)?
+
+\(\textbf{(A)}~-1536\qquad\textbf{(B)}~96\qquad\textbf{(C)}~108\qquad\textbf{(D)}~116\qquad\textbf{(E)}~144\)\par \vspace{0.5em}\item How many ordered pairs of positive real numbers \((a,b)\) satisfy the equation
+
+\begin{equation*}
+(1+2a)(2+2b)(2a+b) = 32ab?
+\end{equation*}
+
+
+\(\textbf{(A) }0\qquad\textbf{(B) }1\qquad\textbf{(C) }2\qquad\textbf{(D) }3\qquad\textbf{(E) }\text{an infinite number}\)\par \vspace{0.5em}\item Let \(K\) be the number of sequences \(A_1\), \(A_2\), \(\dots\), \(A_n\) such that \(n\) is a positive integer less than or equal to \(10\), each \(A_i\) is a subset of \(\{1, 2, 3, \dots, 10\}\), and \(A_{i-1}\) is a subset of \(A_i\) for each \(i\) between \(2\) and \(n\), inclusive. For example, \(\{\}\), \(\{5, 7\}\), \(\{2, 5, 7\}\), \(\{2, 5, 7\}\), \(\{2, 5, 6, 7, 9\}\) is one such sequence, with \(n = 5\).What is the remainder when \(K\) is divided by \(10\)?
+
+\(\textbf{(A) } 1 \qquad \textbf{(B) } 3 \qquad \textbf{(C) } 5 \qquad \textbf{(D) } 7 \qquad \textbf{(E) } 9\)\par \vspace{0.5em}\item There is a unique sequence of integers \(a_1, a_2, \cdots a_{2023}\) such that
+
+\begin{equation*}
+\tan2023x = \frac{a_1 \tan x + a_3 \tan^3 x + a_5 \tan^5 x + \cdots + a_{2023} \tan^{2023} x}{1 + a_2 \tan^2 x + a_4 \tan^4 x \cdots + a_{2022} \tan^{2022} x}
+\end{equation*}
+whenever \(\tan 2023x\) is defined. What is \(a_{2023}?\)
+
+\(\textbf{(A) } -2023 \qquad\textbf{(B) } -2022 \qquad\textbf{(C) } -1 \qquad\textbf{(D) } 1 \qquad\textbf{(E) } 2023\)\par \vspace{0.5em}\end{enumerate}
+\end{document}

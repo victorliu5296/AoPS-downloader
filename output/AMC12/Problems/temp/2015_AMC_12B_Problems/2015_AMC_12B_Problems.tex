@@ -1,0 +1,98 @@
+
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{asymptote}
+\usepackage{arcs}
+\usepackage{xwatermark}
+\begin{asydef}
+  // Global Asymptote settings
+  settings.outformat = "pdf";
+  settings.render = 0;
+  settings.prc = false;
+  import olympiad;
+  import cse5;
+  size(8cm);
+\end{asydef}
+\pagestyle{fancy}
+\fancyhead[L]{\textbf{AMC12 Problems}}
+\fancyhead[R]{\textbf{2024}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{AMC12 Problems \\ 2024}
+\date{}
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{2015 AMC 12B}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item What is the value of \(2-(-2)^{-2}\) ?
+
+\(\textbf{(A)}\; -2 \qquad\textbf{(B)}\; \dfrac{1}{16} \qquad\textbf{(C)}\; \dfrac{7}{4} \qquad\textbf{(D)}\; \dfrac{9}{4} \qquad\textbf{(E)}\; 6\)\par \vspace{0.5em}\item Marie does three equally time-consuming tasks in a row without taking breaks. She begins the first task at 1:00 PM and finishes the second task at 2:40 PM. When does she finish the third task?
+
+\(\textbf{(A)}\; \text{3:10 PM} \qquad\textbf{(B)}\; \text{3:30 PM} \qquad\textbf{(C)}\; \text{4:00 PM} \qquad\textbf{(D)}\; \text{4:10 PM} \qquad\textbf{(E)}\; \text{4:30 PM}\)\par \vspace{0.5em}\item Isaac has written down one integer two times and another integer three times. The sum of the five numbers is 100, and one of the numbers is 28. What is the other number?
+
+\(\textbf{(A)}\; 8 \qquad\textbf{(B)}\; 11 \qquad\textbf{(C)}\; 14 \qquad\textbf{(D)}\; 15 \qquad\textbf{(E)}\; 18\)\par \vspace{0.5em}\item David, Hikmet, Jack, Marta, Rand, and Todd were in a 12-person race with 6 other people. Rand finished 6 places ahead of Hikmet. Marta finished 1 place behind Jack. David finished 2 places behind Hikmet. Jack finished 2 places behind Todd. Todd finished 1 place behind Rand. Marta finished in 6th place. Who finished in 8th place?
+
+\(\textbf{(A)}\; \text{David} \qquad\textbf{(B)}\; \text{Hikmet} \qquad\textbf{(C)}\; \text{Jack} \qquad\textbf{(D)}\; \text{Rand} \qquad\textbf{(E)}\; \text{Todd}\)\par \vspace{0.5em}\item The Tigers beat the Sharks 2 out of the 3 times they played. They then played \(N\) more times, and the Sharks ended up winning at least 95% of all the games played. What is the minimum possible value for \(N\)?
+
+\(\textbf{(A)}\; 35 \qquad  \textbf{(B)}\; 37 \qquad \textbf{(C)}\; 39 \qquad \textbf{(D)}\; 41 \qquad \textbf{(E)}\; 43\)\par \vspace{0.5em}\item Back in 1930, Tillie had to memorize her multiplication facts from \(0 \times 0\) to \(12 \times 12\). The multiplication table she was given had rows and columns labeled with the factors, and the products formed the body of the table. To the nearest hundredth, what fraction of the numbers in the body of the table are odd?
+
+\(\textbf{(A)}\; 0.21 \qquad\textbf{(B)}\; 0.25 \qquad\textbf{(C)}\; 0.46 \qquad\textbf{(D)}\; 0.50 \qquad\textbf{(E)}\; 0.75\)\par \vspace{0.5em}\item A regular 15-gon has \(L\) lines of symmetry, and the smallest positive angle for which it has rotational symmetry is \(R\) degrees. What is \(L+R\) ?
+
+\(\textbf{(A)}\; 24 \qquad\textbf{(B)}\; 27 \qquad\textbf{(C)}\; 32 \qquad\textbf{(D)}\; 39 \qquad\textbf{(E)}\; 54\)\par \vspace{0.5em}\item What is the value of \((625^{\log_5 2015})^{\frac{1}{4}}\) ?
+
+\(\textbf{(A)}\; 5 \qquad\textbf{(B)}\; \sqrt[4]{2015} \qquad\textbf{(C)}\; 625 \qquad\textbf{(D)}\; 2015 \qquad\textbf{(E)}\; \sqrt[4]{5^{2015}}\)\par \vspace{0.5em}\item Larry and Julius are playing a game, taking turns throwing a ball at a bottle sitting on a ledge. Larry throws first. The winner is the first person to knock the bottle off the ledge. At each turn the probability that a player knocks the bottle off the ledge is \(\tfrac{1}{2}\), independently of what has happened before. What is the probability that Larry wins the game?
+
+\(\textbf{(A)}\; \dfrac{1}{2} \qquad\textbf{(B)}\; \dfrac{3}{5} \qquad\textbf{(C)}\; \dfrac{2}{3} \qquad\textbf{(D)}\; \dfrac{3}{4} \qquad\textbf{(E)}\; \dfrac{4}{5}\)\par \vspace{0.5em}\item How many noncongruent integer-sided triangles with positive area and perimeter less than 15 are neither equilateral, isosceles, nor right triangles?
+
+\(\textbf{(A)}\; 3 \qquad\textbf{(B)}\; 4 \qquad\textbf{(C)}\; 5 \qquad\textbf{(D)}\; 6 \qquad\textbf{(E)}\; 7\)\par \vspace{0.5em}\item The line \(12x+5y=60\) forms a triangle with the coordinate axes. What is the sum of the lengths of the altitudes of this triangle?
+
+\(\textbf{(A)}\; 20 \qquad\textbf{(B)}\; \dfrac{360}{17} \qquad\textbf{(C)}\; \dfrac{107}{5} \qquad\textbf{(D)}\; \dfrac{43}{2} \qquad\textbf{(E)}\; \dfrac{281}{13}\)\par \vspace{0.5em}\item Let \(a\), \(b\), and \(c\) be three distinct one-digit numbers. What is the maximum value of the sum of the roots of the equation \((x-a)(x-b)+(x-b)(x-c)=0\) ?
+
+\(\textbf{(A)}\; 15 \qquad\textbf{(B)}\; 15.5 \qquad\textbf{(C)}\; 16 \qquad\textbf{(D)}\; 16.5 \qquad\textbf{(E)}\; 17\)\par \vspace{0.5em}\item Quadrilateral \(ABCD\) is inscribed in a circle with \(\angle BAC=70^{\circ}, \angle ADB=40^{\circ}, AD=4,\) and \(BC=6\). What is \(AC\)?
+
+\(\textbf{(A)}\; 3+\sqrt{5} \qquad\textbf{(B)}\; 6 \qquad\textbf{(C)}\; \dfrac{9}{2}\sqrt{2} \qquad\textbf{(D)}\; 8-\sqrt{2} \qquad\textbf{(E)}\; 7\)\par \vspace{0.5em}\item A circle of radius 2 is centered at \(A\). An equilateral triangle with side 4 has a vertex at \(A\). What is the difference between the area of the region that lies inside the circle but outside the triangle and the area of the region that lies inside the triangle but outside the circle?
+
+\(\textbf{(A)}\; 8-\pi \qquad\textbf{(B)}\; \pi+2 \qquad\textbf{(C)}\; 2\pi-\dfrac{\sqrt{2}}{2} \qquad\textbf{(D)}\; 4(\pi-\sqrt{3}) \qquad\textbf{(E)}\; 2\pi-\dfrac{\sqrt{3}}{2}\)\par \vspace{0.5em}\item At Rachelle's school an A counts 4 points, a B 3 points, a C 2 points, and a D 1 point. Her GPA on the four classes she is taking is computed as the total sum of points divided by 4. She is certain that she will get As in both Mathematics and Science, and at least a C in each of English and History. She thinks she has a \(\tfrac{1}{6}\) chance of getting an A in English, and a \(\tfrac{1}{4}\) chance of getting a B. In History, she has a \(\tfrac{1}{4}\) chance of getting an A, and a \(\tfrac{1}{3}\) chance of getting a B, independently of what she gets in English. What is the probability that Rachelle will get a GPA of at least 3.5?
+
+\(\textbf{(A)}\; \frac{11}{72} \qquad\textbf{(B)}\; \frac{1}{6} \qquad\textbf{(C)}\; \frac{3}{16} \qquad\textbf{(D)}\; \frac{11}{24} \qquad\textbf{(E)}\; \frac{1}{2}\)\par \vspace{0.5em}\item A regular hexagon with sides of length 6 has an isosceles triangle attached to each side. Each of these triangles has two sides of length 8. The isosceles triangles are folded to make a pyramid with the hexagon as the base of the pyramid. What is the volume of the pyramid?
+
+\(\textbf{(A)}\; 18 \qquad\textbf{(B)}\; 162 \qquad\textbf{(C)}\; 36\sqrt{21} \qquad\textbf{(D)}\; 18\sqrt{138} \qquad\textbf{(E)}\; 54\sqrt{21}\)\par \vspace{0.5em}\item An unfair coin lands on heads with a probability of \(\tfrac{1}{4}\). When tossed \(n\) times, the probability of exactly two heads is the same as the probability of exactly three heads. What is the value of \(n\) ?
+
+\(\textbf{(A)}\; 5 \qquad\textbf{(B)}\; 8 \qquad\textbf{(C)}\; 10 \qquad\textbf{(D)}\; 11 \qquad\textbf{(E)}\; 13\)\par \vspace{0.5em}\item For every composite positive integer \(n\), define \(r(n)\) to be the sum of the factors in the prime factorization of \(n\). For example, \(r(50) = 12\) because the prime factorization of \(50\) is \(2 \times 5^{2}\), and \(2 + 5 + 5 = 12\). What is the range of the function \(r\), \(\{r(n): n \text{ is a composite positive integer}\}\) ?
+
+\(\textbf{(A)}\; \text{the set of positive integers} \\
+\textbf{(B)}\; \text{the set of composite positive integers} \\
+\textbf{(C)}\; \text{the set of even positive integers} \\
+\textbf{(D)}\; \text{the set of integers greater than 3} \\
+\textbf{(E)}\; \text{the set of integers greater than 4}\)\par \vspace{0.5em}\item In \(\triangle ABC\), \(\angle C = 90^\circ\) and \(AB = 12\). Squares \(ABXY\) and \(CBWZ\) are constructed outside of the triangle. The points \(X\), \(Y\), \(Z\), and \(W\) lie on a circle. What is the perimeter of the triangle?
+
+\(\textbf{(A)}\; 12+9\sqrt{3} \qquad\textbf{(B)}\; 18+6\sqrt{3} \qquad\textbf{(C)}\; 12+12\sqrt{2} \qquad\textbf{(D)}\; 30 \qquad\textbf{(E)}\; 32\)\par \vspace{0.5em}\item For every positive integer \(n\), let \(\text{mod}_5 (n)\) be the remainder obtained when \(n\) is divided by 5. Define a function \(f: \{0,1,2,3,\dots\} \times \{0,1,2,3,4\} \to \{0,1,2,3,4\}\) recursively as follows:
+
+
+\begin{equation*}
+f(i,j) = \begin{cases}\text{mod}_5 (j+1) & \text{ if } i = 0 \text{ and } 0 \le j \le 4 \text{,}\\
+f(i-1,1) & \text{ if } i \ge 1 \text{ and } j = 0 \text{, and} \\
+f(i-1, f(i,j-1)) & \text{ if } i \ge 1 \text{ and } 1 \le j \le 4.
+\end{cases}
+\end{equation*}
+  
+
+What is \(f(2015,2)\)?
+
+\(\textbf{(A)}\; 0 \qquad\textbf{(B)}\; 1 \qquad\textbf{(C)}\; 2 \qquad\textbf{(D)}\; 3 \qquad\textbf{(E)}\; 4\)\par \vspace{0.5em}\item Cozy the Cat and Dash the Dog are going up a staircase with a certain number of steps. However, instead of walking up the steps one at a time, both Cozy and Dash jump. Cozy goes two steps up with each jump (though if necessary, he will just jump the last step). Dash goes five steps up with each jump (though if necessary, he will just jump the last steps if there are fewer than 5 steps left). Suppose that Dash takes 19 fewer jumps than Cozy to reach the top of the staircase. Let \(s\) denote the sum of all possible numbers of steps this staircase can have. What is the sum of the digits of \(s\)?
+
+\(\textbf{(A)}\; 9 \qquad\textbf{(B)}\; 11 \qquad\textbf{(C)}\; 12 \qquad\textbf{(D)}\; 13 \qquad\textbf{(E)}\; 15\)\par \vspace{0.5em}\item Six chairs are evenly spaced around a circular table. One person is seated in each chair. Each person gets up and sits down in a chair that is not the same chair and is not adjacent to the chair he or she originally occupied, so that again one person is seated in each chair. In how many ways can this be done?
+
+\(\textbf{(A)}\; 14 \qquad\textbf{(B)}\; 16 \qquad\textbf{(C)}\; 18 \qquad\textbf{(D)}\; 20 \qquad\textbf{(E)}\; 24\)\par \vspace{0.5em}\item A rectangular box measures \(a \times b \times c\), where \(a\), \(b\), and \(c\) are integers and \(1\leq a \leq b \leq c\). The volume and the surface area of the box are numerically equal. How many ordered triples \((a,b,c)\) are possible?
+
+\(\textbf{(A)}\; 4 \qquad\textbf{(B)}\; 10 \qquad\textbf{(C)}\; 12 \qquad\textbf{(D)}\; 21 \qquad\textbf{(E)}\; 26\)\par \vspace{0.5em}\item Four circles, no two of which are congruent, have centers at \(A\), \(B\), \(C\), and \(D\), and points \(P\) and \(Q\) lie on all four circles. The radius of circle \(A\) is \(\tfrac{5}{8}\) times the radius of circle \(B\), and the radius of circle \(C\) is \(\tfrac{5}{8}\) times the radius of circle \(D\). Furthermore, \(AB = CD = 39\) and \(PQ = 48\). Let \(R\) be the midpoint of \(\overline{PQ}\). What is \(AR+BR+CR+DR\) ?
+
+\(\textbf{(A)}\; 180 \qquad\textbf{(B)}\; 184 \qquad\textbf{(C)}\; 188 \qquad\textbf{(D)}\; 192\qquad\textbf{(E)}\; 196\)\par \vspace{0.5em}\item A bee starts flying from point \(P_0\). She flies \(1\) inch due east to point \(P_1\). For \(j \ge 1\), once the bee reaches point \(P_j\), she turns \(30^{\circ}\) counterclockwise and then flies \(j+1\) inches straight to point \(P_{j+1}\). When the bee reaches \(P_{2015}\) she is exactly \(a \sqrt{b} + c \sqrt{d}\) inches away from \(P_0\), where \(a\), \(b\), \(c\) and \(d\) are positive integers and \(b\) and \(d\) are not divisible by the square of any prime. What is \(a+b+c+d\) ?
+
+\(\textbf{(A)}\; 2016 \qquad\textbf{(B)}\; 2024 \qquad\textbf{(C)}\; 2032 \qquad\textbf{(D)}\; 2040 \qquad\textbf{(E)}\; 2048\)\par \vspace{0.5em}\end{enumerate}
+\end{document}

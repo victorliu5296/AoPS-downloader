@@ -1,0 +1,116 @@
+
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{asymptote}
+\usepackage{arcs}
+\usepackage{xwatermark}
+\begin{asydef}
+  // Global Asymptote settings
+  settings.outformat = "pdf";
+  settings.render = 0;
+  settings.prc = false;
+  import olympiad;
+  import cse5;
+  size(8cm);
+\end{asydef}
+\pagestyle{fancy}
+\fancyhead[L]{\textbf{AMC12 Problems}}
+\fancyhead[R]{\textbf{2024}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{AMC12 Problems \\ 2024}
+\date{}
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{2017 AMC 12A}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item Pablo buys popsicles for his friends. The store sells single popsicles for \$1 each, 3-popsicle boxes for \$2, and 5-popsicle boxes for \$3. What is the greatest number of popsicles that Pablo can buy with \$8?
+
+\(\textbf{(A)}\ 8\qquad\textbf{(B)}\ 11\qquad\textbf{(C)}\ 12\qquad\textbf{(D)}\ 13\qquad\textbf{(E)}\ 15\)\par \vspace{0.5em}\item The sum of two nonzero real numbers is 4 times their product. What is the sum of the reciprocals of the two numbers?
+
+\(\textbf{(A)}\ 1\qquad\textbf{(B)}\ 2\qquad\textbf{(C)}\ 4\qquad\textbf{(D)}\ 8\qquad\textbf{(E)}\ 12\)\par \vspace{0.5em}\item Ms. Carroll promised that anyone who got all the multiple choice questions right on the upcoming exam would receive an A on the exam. Which one of these statements necessarily follows logically?
+
+\( \textbf{(A)}\ \text{ If Lewis did not receive an A, then he got all of the multiple choice questions wrong.} \\ \qquad\textbf{(B)}\ \text{ If Lewis did not receive an A, then he got at least one of the multiple choice questions wrong.} \\ \qquad\textbf{(C)}\ \text{ If Lewis got at least one of the multiple choice questions wrong, then he did not receive an A.} \\ \qquad\textbf{(D)}\ \text{ If Lewis received an A, then he got all of the multiple choice questions right.} \\ \qquad\textbf{(E)}\ \text{ If Lewis received an A, then he got at least one of the multiple choice questions right.} \)\par \vspace{0.5em}\item Jerry and Silvia wanted to go from the southwest corner of a square field to the northeast corner. Jerry walked due east and then due north to reach the goal, but Silvia headed northeast and reached the goal walking in a straight line. Which of the following is closest to how much shorter Silvia's trip was, compared to Jerry's trip?
+
+\(\textbf{(A)}\ 30\%\qquad\textbf{(B)}\ 40\%\qquad\textbf{(C)}\ 50\%\qquad\textbf{(D)}\ 60\%\qquad\textbf{(E)}\ 70\%\)\par \vspace{0.5em}\item At a gathering of \(30\) people, there are \(20\) people who all know each other and \(10\) people who know no one. People who know each other hug, and people who do not know each other shake hands. How many handshakes occur?
+
+\(\textbf{(A)}\ 240\qquad\textbf{(B)}\ 245\qquad\textbf{(C)}\ 290\qquad\textbf{(D)}\ 480\qquad\textbf{(E)}\ 490\)\par \vspace{0.5em}\item Joy has \(30\) thin rods, one each of every integer length from \(1 \text{ cm}\) through \(30 \text{ cm}\). She places the rods with lengths \(3 \text{ cm}\), \(7 \text{ cm}\), and \(15 \text{cm}\) on a table. She then wants to choose a fourth rod that she can put with these three to form a quadrilateral with positive area. How many of the remaining rods can she choose as the fourth rod?
+
+\(\textbf{(A)}\ 16 \qquad\textbf{(B)}\ 17 \qquad\textbf{(C)}\ 18 \qquad\textbf{(D)}\ 19  \qquad\textbf{(E)}\ 20\)\par \vspace{0.5em}\item Define a function on the positive integers recursively by \(f(1) = 2\), \(f(n) = f(n-1) + 1\) if \(n\) is even, and \(f(n) = f(n-2) + 2\) if \(n\) is odd and greater than \(1\). What is \(f(2017)\)?
+
+\( \textbf{(A)}\ 2017 \qquad\textbf{(B)}\ 2018 \qquad\textbf{(C)}\ 4034 \qquad\textbf{(D)}\ 4035 \qquad\textbf{(E)}\ 4036\)\par \vspace{0.5em}\item The region consisting of all points in three-dimensional space within \(3\) units of line segment \(\overline{AB}\) has volume \(216 \pi\). What is the length \(AB\)?
+
+\( \textbf{(A)}\ 6 \qquad\textbf{(B)}\ 12 \qquad\textbf{(C)}\ 18 \qquad\textbf{(D)}\ 20 \qquad\textbf{(E)}\ 24\)\par \vspace{0.5em}\item Let \(S\) be the set of points \((x,y)\) in the coordinate plane such that two of the three quantities \(3\), \(x+2\), and \(y-4\) are equal and the third of the three quantities is no greater than the common value. Which of the following is a correct description of \(S\)?
+
+\( \textbf{(A)}\ \text{a single point} \qquad\textbf{(B)}\ \text{two intersecting lines} \\ \qquad\textbf{(C)}\ \text{three lines whose pairwise intersections are three distinct points} \\ \qquad\textbf{(D)}\ \text{a triangle}\qquad\textbf{(E)}\ \text{three rays with a common point} \)\par \vspace{0.5em}\item Chlo chooses a real number uniformly at random from the interval \( [ 0,2017 ]\). Independently, Laurent chooses a real number uniformly at random from the interval \([ 0 , 4034 ]\). What is the probability that Laurent's number is greater than Chloe's number?  
+
+\( \textbf{(A)}\ \dfrac{1}{2} \qquad\textbf{(B)}\ \dfrac{2}{3} \qquad\textbf{(C)}\ \dfrac{3}{4} \qquad\textbf{(D)}\ \dfrac{5}{6} \qquad\textbf{(E)}\ \dfrac{7}{8} \)\par \vspace{0.5em}\item Claire adds the degree measures of the interior angles of a convex polygon and arrives at a sum of \(2017\). She then discovers that she forgot to include one angle. What is the degree measure of the forgotten angle?
+
+\(\textbf{(A)}\ 37\qquad\textbf{(B)}\ 63\qquad\textbf{(C)}\ 117\qquad\textbf{(D)}\ 143\qquad\textbf{(E)}\ 163\)\par \vspace{0.5em}\item There are \(10\) horses, named Horse 1, Horse 2, \(\ldots\), Horse 10. They get their names from how many minutes it takes them to run one lap around a circular race track: Horse \(k\) runs one lap in exactly \(k\) minutes. At time 0 all the horses are together at the starting point on the track. The horses start running in the same direction, and they keep running around the circular track at their constant speeds. The least time \(S > 0\), in minutes, at which all \(10\) horses will again simultaneously be at the starting point is \(S = 2520\). Let  \(T>0\) be the least time, in minutes, such that at least \(5\) of the horses are again at the starting point. What is the sum of the digits of  \(T\)?
+
+\(\textbf{(A)}\ 2\qquad\textbf{(B)}\ 3\qquad\textbf{(C)}\ 4\qquad\textbf{(D)}\ 5\qquad\textbf{(E)}\ 6\)\par \vspace{0.5em}\item Driving at a constant speed, Sharon usually takes \(180\) minutes to drive from her house to her mother's house. One day Sharon begins the drive at her usual speed, but after driving \(\frac{1}{3}\) of the way, she hits a bad snowstorm and reduces her speed by \(20\) miles per hour. This time the trip takes her a total of \(276\) minutes. How many miles is the drive from Sharon's house to her mother's house?
+
+\(\textbf{(A)}\ 132 \qquad\textbf{(B)}\ 135 \qquad\textbf{(C)}\ 138 \qquad\textbf{(D)}\ 141 \qquad\textbf{(E)}\ 144\)\par \vspace{0.5em}\item Alice refuses to sit next to either Bob or Carla. Derek refuses to sit next to Eric. How many ways are there for the five of them to sit in a row of \(5\) chairs under these conditions?
+
+\(\textbf{(A)}\ 12  \qquad \textbf{(B)}\ 16 \qquad\textbf{(C)}\ 28 \qquad\textbf{(D)}\ 32 \qquad\textbf{(E)}\ 40\)\par \vspace{0.5em}\item Let \(f(x) = \sin{x} + 2\cos{x} + 3\tan{x}\), using radian measure for the variable \(x\). In what interval does the smallest positive value of \(x\) for which \(f(x) = 0\) lie?
+
+\(\textbf{(A)}\ (0,1)  \qquad \textbf{(B)}\ (1, 2) \qquad\textbf{(C)}\ (2, 3) \qquad\textbf{(D)}\ (3, 4) \qquad\textbf{(E)}\ (4,5)\)\par \vspace{0.5em}\item In the figure below, semicircles with centers at \(A\) and \(B\) and with radii 2 and 1, respectively, are drawn in the interior of, and sharing bases with, a semicircle with diameter \(JK\). The two smaller semicircles are externally tangent to each other and internally tangent to the largest semicircle. A circle centered at \(P\) is drawn externally tangent to the two smaller semicircles and internally tangent to the largest semicircle. What is the radius of the circle centered at \(P\)?
+
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+size(5cm);
+draw(arc((0,0),3,0,180));
+draw(arc((2,0),1,0,180));
+draw(arc((-1,0),2,0,180));
+draw((-3,0)--(3,0));
+pair P = (-1,0)+(2+6/7)*dir(36.86989);
+draw(circle(P,6/7));
+dot((-1,0)); dot((2,0)); dot(P);
+\end{asy}
+\end{center}
+
+
+\( \textbf{(A)}\ \frac{3}{4}
+\qquad \textbf{(B)}\ \frac{6}{7}
+\qquad\textbf{(C)}\ \frac{\sqrt{3}}{2}
+\qquad\textbf{(D)}\ \frac{5}{8}\sqrt{2}
+\qquad\textbf{(E)}\ \frac{11}{12} \)\par \vspace{0.5em}\item There are \(24\) different complex numbers \(z\) such that \(z^{24}=1\). For how many of these is \(z^6\) a real number?
+
+\(\textbf{(A)}\ 0 \qquad\textbf{(B)}\ 4 \qquad\textbf{(C)}\ 6 \qquad\textbf{(D)}\ 12 \qquad\textbf{(E)}\ 24\)\par \vspace{0.5em}\item Let \(S(n)\) equal the sum of the digits of positive integer \(n\). For example, \(S(1507) = 13\). For a particular positive integer \(n\), \(S(n) = 1274\). Which of the following could be the value of \(S(n+1)\)?
+
+\(\textbf{(A)}\ 1 \qquad\textbf{(B)}\ 3\qquad\textbf{(C)}\ 12\qquad\textbf{(D)}\ 1239\qquad\textbf{(E)}\ 1265\)\par \vspace{0.5em}\item A square with side length \(x\) is inscribed in a right triangle with sides of length \(3\), \(4\), and \(5\) so that one vertex of the square coincides with the right-angle vertex of the triangle. A square with side length \(y\) is inscribed in another right triangle with sides of length \(3\), \(4\), and \(5\) so that one side of the square lies on the hypotenuse of the triangle. What is \(\tfrac{x}{y}\)?
+
+\(\textbf{(A)}\ \frac{12}{13} \qquad \textbf{(B)}\ \frac{35}{37} \qquad\textbf{(C)}\ 1 \qquad\textbf{(D)}\ \frac{37}{35} \qquad\textbf{(E)}\ \frac{13}{12}\)\par \vspace{0.5em}\item How many ordered pairs \((a,b)\) such that \(a\) is a positive real number and \(b\) is an integer between \(2\) and \(200\), inclusive, satisfy the equation \((\log_b a)^{2017}=\log_b(a^{2017})?\)
+
+\(\textbf{(A)}\ 198\qquad\textbf{(B)}\ 199\qquad\textbf{(C)}\ 398\qquad\textbf{(D)}\ 399\qquad\textbf{(E)}\ 597\)\par \vspace{0.5em}\item A set \(S\) is constructed as follows. To begin, \(S = \{0,10\}\). Repeatedly, as long as possible, if \(x\) is an integer root of some polynomial \(a_{n}x^n + a_{n-1}x^{n-1} + ... + a_{1}x + a_0\) for some \(n\geq{1}\), all of whose coefficients \(a_i\) are elements of \(S\), then \(x\) is put into \(S\). When no more elements can be added to \(S\), how many elements does \(S\) have?
+
+\(\textbf{(A)}\ 4 \qquad \textbf{(B)}\ 5 \qquad\textbf{(C)}\ 7 \qquad\textbf{(D)}\ 9 \qquad\textbf{(E)}\ 11\)\par \vspace{0.5em}\item A square is drawn in the Cartesian coordinate plane with vertices at \((2, 2)\), \((-2, 2)\), \((-2, -2)\), \((2, -2)\). A particle starts at \((0,0)\). Every second it moves with equal probability to one of the eight lattice points (points with integer coordinates) closest to its current position, independently of its previous moves. In other words, the probability is \(1/8\) that the particle will move from \((x, y)\) to each of \((x, y + 1)\), \((x + 1, y + 1)\), \((x + 1, y)\), \((x + 1, y - 1)\), \((x, y - 1)\), \((x - 1, y - 1)\), \((x - 1, y)\), or \((x - 1, y + 1)\). The particle will eventually hit the square for the first time, either at one of the 4 corners of the square or at one of the 12 lattice points in the interior of one of the sides of the square. The probability that it will hit at a corner rather than at an interior point of a side is \(m/n\), where \(m\) and \(n\) are relatively prime positive integers. What is \(m + n\)?
+
+\(\textbf{(A)}\ 4 \qquad \textbf{(B)}\ 5 \qquad\textbf{(C)}\ 7 \qquad\textbf{(D)}\ 15 \qquad\textbf{(E)}\ 39\)\par \vspace{0.5em}\item For certain real numbers \(a\), \(b\), and \(c\), the polynomial 
+\begin{equation*}
+g(x) = x^3 + ax^2 + x + 10
+\end{equation*}
+has three distinct roots, and each root of \(g(x)\) is also a root of the polynomial 
+\begin{equation*}
+f(x) = x^4 + x^3 + bx^2 + 100x + c.
+\end{equation*}
+What is \(f(1)\)?
+
+\(\textbf{(A)}\ -9009 \qquad\textbf{(B)}\ -8008 \qquad\textbf{(C)}\ -7007 \qquad\textbf{(D)}\ -6006 \qquad\textbf{(E)}\ -5005\)\par \vspace{0.5em}\item Quadrilateral \(ABCD\) is inscribed in circle \(O\) and has side lengths \(AB=3, BC=2, CD=6\), and \(DA=8\). Let \(X\) and \(Y\) be points on \(\overline{BD}\) such that \(\frac{DX}{BD} = \frac{1}{4}\) and \(\frac{BY}{BD} = \frac{11}{36}\). Let \(E\) be the intersection of line \(AX\) and the line through \(Y\) parallel to \(\overline{AD}\). Let \(F\) be the intersection of line \(CX\) and the line through \(E\) parallel to \(\overline{AC}\). Let \(G\) be the point on circle \(O\) other than \(C\) that lies on line \(CX\). What is \(XF\cdot XG\)?
+
+\(\textbf{(A) }17\qquad\textbf{(B) }\frac{59 - 5\sqrt{2}}{3}\qquad\textbf{(C) }\frac{91 - 12\sqrt{3}}{4}\qquad\textbf{(D) }\frac{67 - 10\sqrt{2}}{3}\qquad\textbf{(E) }18\)\par \vspace{0.5em}\item The vertices \(V\) of a centrally symmetric hexagon in the complex plane are given by 
+\begin{equation*}
+V=\left\{   \sqrt{2}i,-\sqrt{2}i, \frac{1}{\sqrt{8}}(1+i),\frac{1}{\sqrt{8}}(-1+i),\frac{1}{\sqrt{8}}(1-i),\frac{1}{\sqrt{8}}(-1-i) \right\}.
+\end{equation*}
+ For each \(j\), \(1\leq j\leq 12\), an element \(z_j\) is chosen from \(V\) at random, independently of the other choices. Let \(P={\prod}_{j=1}^{12}z_j\) be the product of the \(12\) numbers selected. What is the probability that \(P=-1\)?
+
+\(\textbf{(A) } \dfrac{5\cdot11}{3^{10}} \qquad \textbf{(B) } \dfrac{5^2\cdot11}{2\cdot3^{10}} \qquad \textbf{(C) } \dfrac{5\cdot11}{3^{9}} \qquad \textbf{(D) } \dfrac{5\cdot7\cdot11}{2\cdot3^{10}} \qquad \textbf{(E) } \dfrac{2^2\cdot5\cdot11}{3^{10}}\)\par \vspace{0.5em}\end{enumerate}
+\end{document}
