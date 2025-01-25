@@ -1,0 +1,104 @@
+
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in}
+\usepackage{enumitem}
+\usepackage[hypertexnames=true, linktoc=all]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{asymptote}
+\usepackage{arcs}
+\usepackage{xwatermark}
+\begin{asydef}
+  // Global Asymptote settings
+  settings.outformat = "pdf";
+  settings.render = 0;
+  settings.prc = false;
+  import olympiad;
+  import cse5;
+  size(8cm);
+\end{asydef}
+\pagestyle{fancy}
+\fancyhead[L]{\textbf{AIME Problems}}
+\fancyhead[R]{\textbf{2021}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{AIME Problems \\ 2021}
+\date{}
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{2021 AIME II}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item Find the arithmetic mean of all the three-digit palindromes. (Recall that a palindrome is a number that reads the same forward and backward, such as \(777\) or \(383\).)\par \vspace{0.5em}\item Equilateral triangle \(ABC\) has side length \(840\). Point \(D\) lies on the same side of line \(BC\) as \(A\) such that \(\overline{BD} \perp \overline{BC}\). The line \(\ell\) through \(D\) parallel to line \(BC\) intersects sides \(\overline{AB}\) and \(\overline{AC}\) at points \(E\) and \(F\), respectively. Point \(G\) lies on \(\ell\) such that \(F\) is between \(E\) and \(G\), \(\triangle AFG\) is isosceles, and the ratio of the area of \(\triangle AFG\) to the area of \(\triangle BED\) is \(8:9\). Find \(AF\).
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+pair A,B,C,D,E,F,G;
+B=origin;
+A=5*dir(60);
+C=(5,0);
+E=0.6*A+0.4*B;
+F=0.6*A+0.4*C;
+G=rotate(240,F)*A;
+D=extension(E,F,B,dir(90));
+draw(D--G--A,grey);
+draw(B--0.5*A+rotate(60,B)*A*0.5,grey);
+draw(A--B--C--cycle,linewidth(1.5));
+dot(A^^B^^C^^D^^E^^F^^G);
+label("$A$",A,dir(90));
+label("$B$",B,dir(225));
+label("$C$",C,dir(-45));
+label("$D$",D,dir(180));
+label("$E$",E,dir(-45));
+label("$F$",F,dir(225));
+label("$G$",G,dir(0));
+label("$\ell$",midpoint(E--F),dir(90));
+\end{asy}
+\end{center}
+\par \vspace{0.5em}\item Find the number of permutations \(x_1, x_2, x_3, x_4, x_5\) of numbers \(1, 2, 3, 4, 5\) such that the sum of five products 
+\begin{equation*}
+x_1x_2x_3 + x_2x_3x_4 + x_3x_4x_5 + x_4x_5x_1 + x_5x_1x_2
+\end{equation*}
+ is divisible by \(3\).\par \vspace{0.5em}\item There are real numbers \(a, b, c, \) and \(d\) such that \(-20\) is a root of \(x^3 + ax + b\) and \(-21\) is a root of \(x^3 + cx^2 + d.\) These two polynomials share a complex root \(m + \sqrt{n} \cdot i, \) where \(m\) and \(n\) are positive integers and \(i = \sqrt{-1}.\) Find \(m+n.\)\par \vspace{0.5em}\item For positive real numbers \(s\), let \(\tau(s)\) denote the set of all obtuse triangles that have area \(s\) and two sides with lengths \(4\) and \(10\). The set of all \(s\) for which \(\tau(s)\) is nonempty, but all triangles in \(\tau(s)\) are congruent, is an interval \([a,b)\). Find \(a^2+b^2\).\par \vspace{0.5em}\item For any finite set \(S\), let \(|S|\) denote the number of elements in \(S\). Find the number of ordered pairs \((A,B)\) such that \(A\) and \(B\) are (not necessarily distinct) subsets of \(\{1,2,3,4,5\}\) that satisfy
+
+\begin{equation*}
+|A| \cdot |B| = |A \cap B| \cdot |A \cup B|
+\end{equation*}
+\par \vspace{0.5em}\item Let \(a, b, c,\) and \(d\) be real numbers that satisfy the system of equations
+
+\begin{align*}
+a + b &= -3, \\
+ab + bc + ca &= -4, \\
+abc + bcd + cda + dab &= 14, \\
+abcd &= 30.
+\end{align*}
+
+There exist relatively prime positive integers \(m\) and \(n\) such that
+
+\begin{equation*}
+a^2 + b^2 + c^2 + d^2 = \frac{m}{n}.
+\end{equation*}
+Find \(m + n\).\par \vspace{0.5em}\item An ant makes a sequence of moves on a cube where a move consists of walking from one vertex to an adjacent vertex along an edge of the cube. Initially the ant is at a vertex of the bottom face of the cube and chooses one of the three adjacent vertices to move to as its first move. For all moves after the first move, the ant does not return to its previous vertex, but chooses to move to one of the other two adjacent vertices. All choices are selected at random so that each of the possible moves is equally likely. The probability that after exactly \(8\) moves that ant is at a vertex of the top face on the cube is \(\frac{m}{n}\), where \(m\) and \(n\) are relatively prime positive integers. Find \(m + n.\)\par \vspace{0.5em}\item Find the number of ordered pairs \((m, n)\) such that \(m\) and \(n\) are positive integers in the set \(\{1, 2, ..., 30\}\) and the greatest common divisor of \(2^m + 1\) and \(2^n - 1\) is not \(1\).\par \vspace{0.5em}\item Two spheres with radii \(36\) and one sphere with radius \(13\) are each externally tangent to the other two spheres and to two different planes \(\mathcal{P}\) and \(\mathcal{Q}\). The intersection of planes \(\mathcal{P}\) and \(\mathcal{Q}\) is the line \(\ell\). The distance from line \(\ell\) to the point where the sphere with radius \(13\) is tangent to plane \(\mathcal{P}\) is \(\tfrac{m}{n}\), where \(m\) and \(n\) are relatively prime positive integers. Find \(m + n\).\par \vspace{0.5em}\item A teacher was leading a class of four perfectly logical students. The teacher chose a set \(S\) of four integers and gave a different number in \(S\) to each student. Then the teacher announced to the class that the numbers in \(S\) were four consecutive two-digit positive integers, that some number in \(S\) was divisible by \(6\), and a different number in \(S\) was divisible by \(7\). The teacher then asked if any of the students could deduce what \(S\) is, but in unison, all of the students replied no.
+
+However, upon hearing that all four students replied no, each student was able to determine the elements of \(S\). Find the sum of all possible values of the greatest element of \(S\).\par \vspace{0.5em}\item A convex quadrilateral has area \(30\) and side lengths \(5, 6, 9,\) and \(7,\) in that order. Denote by \(\theta\) the measure of the acute angle formed by the diagonals of the quadrilateral. Then \(\tan \theta\) can be written in the form \(\tfrac{m}{n}\), where \(m\) and \(n\) are relatively prime positive integers. Find \(m + n\).\par \vspace{0.5em}\item Find the least positive integer \(n\) for which \(2^n + 5^n - n\) is a multiple of \(1000\).\par \vspace{0.5em}\item Let \(\Delta ABC\) be an acute triangle with circumcenter \(O\) and centroid \(G\). Let \(X\) be the intersection of the line tangent to the circumcircle of \(\Delta ABC\) at \(A\) and the line perpendicular to \(GO\) at \(G\). Let \(Y\) be the intersection of lines \(XG\) and \(BC\). Given that the measures of \(\angle ABC, \angle BCA, \) and \(\angle XOY\) are in the ratio \(13 : 2 : 17, \) the degree measure of \(\angle BAC\) can be written as \(\frac{m}{n},\) where \(m\) and \(n\) are relatively prime positive integers. Find \(m+n\).\par \vspace{0.5em}\item Let \(f(n)\) and \(g(n)\) be functions satisfying
+
+\begin{equation*}
+f(n) = 
+\begin{cases}
+\sqrt{n} & \text{ if } \sqrt{n} \text{ is an integer}\\
+1 + f(n+1) & \text{ otherwise}
+\end{cases}
+\end{equation*}
+
+and
+
+\begin{equation*}
+g(n) = \begin{cases}\sqrt{n} & \text{ if } \sqrt{n} \text{ is an integer}\\
+2 + g(n+2) & \text{ otherwise}
+\end{cases}
+\end{equation*}
+
+for positive integers \(n\). Find the least positive integer \(n\) such that \(\tfrac{f(n)}{g(n)} = \tfrac{4}{7}\).\par \vspace{0.5em}\end{enumerate}
+\end{document}

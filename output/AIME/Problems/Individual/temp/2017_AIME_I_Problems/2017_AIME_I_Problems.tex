@@ -1,0 +1,65 @@
+
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in}
+\usepackage{enumitem}
+\usepackage[hypertexnames=true, linktoc=all]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{asymptote}
+\usepackage{arcs}
+\usepackage{xwatermark}
+\begin{asydef}
+  // Global Asymptote settings
+  settings.outformat = "pdf";
+  settings.render = 0;
+  settings.prc = false;
+  import olympiad;
+  import cse5;
+  size(8cm);
+\end{asydef}
+\pagestyle{fancy}
+\fancyhead[L]{\textbf{AIME Problems}}
+\fancyhead[R]{\textbf{2017}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{AIME Problems \\ 2017}
+\date{}
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{2017 AIME I}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item Fifteen distinct points are designated on \(\triangle ABC\): the 3 vertices \(A\), \(B\), and \(C\); \(3\) other points on side \(\overline{AB}\); \(4\) other points on side \(\overline{BC}\); and \(5\) other points on side \(\overline{CA}\). Find the number of triangles with positive area whose vertices are among these \(15\) points.\par \vspace{0.5em}\item When each of \(702\), \(787\), and \(855\) is divided by the positive integer \(m\), the remainder is always the positive integer \(r\). When each of \(412\), \(722\), and \(815\) is divided by the positive integer \(n\), the remainder is always the positive integer \(s \neq r\). Find \(m+n+r+s\).\par \vspace{0.5em}\item For a positive integer \(n\), let \(d_n\) be the units digit of \(1 + 2 + \dots + n\). Find the remainder when
+
+\begin{equation*}
+\sum_{n=1}^{2017} d_n
+\end{equation*}
+is divided by \(1000\).\par \vspace{0.5em}\item A pyramid has a triangular base with side lengths \(20\), \(20\), and \(24\). The three edges of the pyramid from the three corners of the base to the fourth vertex of the pyramid all have length \(25\). The volume of the pyramid is \(m\sqrt{n}\), where \(m\) and \(n\) are positive integers, and \(n\) is not divisible by the square of any prime. Find \(m+n\).\par \vspace{0.5em}\item A rational number written in base eight is \(\underline{a} \underline{b} . \underline{c} \underline{d}\), where all digits are nonzero. The same number in base twelve is \(\underline{b} \underline{b} . \underline{b} \underline{a}\). Find the base-ten number \(\underline{a} \underline{b} \underline{c}\).\par \vspace{0.5em}\item A circle circumscribes an isosceles triangle whose two congruent angles have degree measure \(x\). Two points are chosen independently and uniformly at random on the circle, and a chord is drawn between them. The probability that the chord intersects the triangle is \(\frac{14}{25}\). Find the difference between the largest and smallest possible values of \(x\).\par \vspace{0.5em}\item For nonnegative integers \(a\) and \(b\) with  \(a + b \leq 6\), let \(T(a, b) = \binom{6}{a} \binom{6}{b} \binom{6}{a + b}\). Let \(S\) denote the sum of all \(T(a, b)\), where  \(a\) and \(b\) are nonnegative integers with \(a + b \leq 6\). Find the remainder when \(S\) is divided by \(1000\).\par \vspace{0.5em}\item Two real numbers \(a\) and \(b\) are chosen independently and uniformly at random from the interval \((0, 75)\). Let \(O\) and \(P\) be two points on the plane with \(OP = 200\). Let \(Q\) and \(R\) be on the same side of line \(OP\) such that the degree measures of \(\angle POQ\) and \(\angle POR\) are \(a\) and \(b\) respectively, and \(\angle OQP\) and \(\angle ORP\) are both right angles. The probability that \(QR \leq 100\) is equal to \(\frac{m}{n}\), where \(m\) and \(n\) are relatively prime positive integers. Find \(m + n\).\par \vspace{0.5em}\item Let \(a_{10} = 10\), and for each positive integer \(n >10\) let \(a_n = 100a_{n - 1} + n\). Find the least positive \(n > 10\) such that \(a_n\) is a multiple of \(99\).\par \vspace{0.5em}\item Let \(z_1 = 18 + 83i\), \(z_2 = 18 + 39i, \) and \(z_3 = 78 + 99i,\) where \(i = \sqrt{-1}\). Let \(z\) be the unique complex number with the properties that \(\frac{z_3 - z_1}{z_2 - z_1} \cdot \frac{z - z_2}{z - z_3}\) is a real number and the imaginary part of \(z\) is the greatest possible. Find the real part of \(z\).\par \vspace{0.5em}\item Consider arrangements of the \(9\) numbers \(1, 2, 3, \dots, 9\) in a \(3 \times 3\) array. For each such arrangement, let \(a_1\), \(a_2\), and \(a_3\) be the medians of the numbers in rows \(1\), \(2\), and \(3\) respectively, and let \(m\) be the median of \(\{a_1, a_2, a_3\}\). Let \(Q\) be the number of arrangements for which \(m = 5\). Find the remainder when \(Q\) is divided by \(1000\).\par \vspace{0.5em}\item Call a set \(S\) product-free if there do not exist \(a, b, c \in S\) (not necessarily distinct) such that \(a b = c\). For example, the empty set and the set \(\{16, 20\}\) are product-free, whereas the sets \(\{4, 16\}\) and \(\{2, 8, 16\}\) are not product-free. Find the number of product-free subsets of the set \(\{1, 2, 3, 4, \ldots, 7, 8, 9, 10\}\).\par \vspace{0.5em}\item For every \(m \geq 2\), let \(Q(m)\) be the least positive integer with the following property: For every \(n \geq Q(m)\), there is always a perfect cube \(k^3\) in the range \(n < k^3 \leq mn\). Find the remainder when
+
+\begin{equation*}
+\sum_{m = 2}^{2017} Q(m)
+\end{equation*}
+is divided by \(1000\).\par \vspace{0.5em}\item Let \(a > 1\) and \(x > 1\) satisfy \(\log_a(\log_a(\log_a 2) + \log_a 24 - 128) = 128\) and \(\log_a(\log_a x) = 256\). Find the remainder when \(x\) is divided by \(1000\).\par \vspace{0.5em}\item The area of the smallest equilateral triangle with one vertex on each of the sides of the right triangle with side lengths \(2\sqrt3\), \(5\), and \(\sqrt{37}\), as shown, is \(\tfrac{m\sqrt{p}}{n}\), where \(m\), \(n\), and \(p\) are positive integers, \(m\) and \(n\) are relatively prime, and \(p\) is not divisible by the square of any prime. Find \(m+n+p\).
+
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+size(5cm);
+pair C=(0,0),B=(0,2*sqrt(3)),A=(5,0);
+real t = .385, s = 3.5*t-1;
+pair R = A*t+B*(1-t), P=B*s;
+pair Q = dir(-60) * (R-P) + P;
+fill(P--Q--R--cycle,gray);
+draw(A--B--C--A^^P--Q--R--P);
+dot(A--B--C--P--Q--R);
+\end{asy}
+\end{center}
+
+
+
+
+{{AIME box|year=2017|n=I|before=|after=}}
+{{MAA Notice}}\par \vspace{0.5em}\end{enumerate}
+\end{document}
