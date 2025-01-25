@@ -396,126 +396,6 @@ def generate_latex_footer():
 \end{document}
 """
 
-def process_problems(problems_by_title, is_combined):
-    """Processes problems using original wiki titles for sections."""
-    latex_content_body = ""
-    
-    if is_combined:
-        # Sort titles lexicographically (chronological since year comes first)
-        sorted_titles = sorted(problems_by_title.keys())
-        for title in sorted_titles:
-            # Format title: "2012_AMC_12A_Problems" -> "2012 AMC 12A Problems"
-            display_title = title.replace("_", " ")
-            # Add unnumbered section and TOC entry
-            latex_content_body += (
-                r"\section*{" + display_title + "}\n"
-                r"\addcontentsline{toc}{section}{" + display_title + "}\n"
-            )
-            problems = problems_by_title[title]
-
-            latex_content_body += r"\begin{enumerate}[label=\arabic*., itemsep=0.5em]"
-            for problem in problems:
-                processed_problem = process_problem_content(problem)
-                latex_content_body += r"\item " + processed_problem + r"\par \vspace{0.5em}"
-            latex_content_body += r"\end{enumerate}\newpage"
-    else:
-        # Single document - get the only title in the dict
-        title = next(iter(problems_by_title))
-        display_title = title.replace("_", " ").replace(" Problems", "")
-        latex_content_body += r"\section*{" + display_title + r"}"
-        problems = problems_by_title[title]
-
-        latex_content_body += r"\begin{enumerate}[label=\arabic*., itemsep=0.5em]"
-        for problem in problems:
-            processed_problem = process_problem_content(problem)
-            latex_content_body += r"\item " + processed_problem + r"\par \vspace{0.5em}"
-        latex_content_body += r"\end{enumerate}"
-
-    return latex_content_body
-
-def write_latex_to_file(tex_filepath, latex_content):
-    """Writes the LaTeX content to a file."""
-    os.makedirs(os.path.dirname(tex_filepath), exist_ok=True)
-    with open(tex_filepath, "w", encoding="utf-8") as f:
-        f.write(latex_content)
-
-def create_latex_document(contest_display_name, problems_by_title, year_range_str, output_filename_prefix, output_folder, doc_type, is_combined=False):
-    """Creates LaTeX document using original wiki titles for sections."""
-    latex_header = generate_latex_header(contest_display_name, year_range_str, doc_type)
-    latex_content_body = process_problems(problems_by_title, is_combined)
-    latex_footer = generate_latex_footer()
-
-    document_start = r"\begin{document}" + r"\maketitle" + r"\thispagestyle{fancy}"
-    if is_combined:
-        document_start += r"\tableofcontents\newpage"
-    else:
-        document_start += r"\newpage"
-
-    latex_content = latex_header + document_start + latex_content_body + latex_footer
-
-    # Determine base output directory
-    if is_combined:
-        folder = "Combined"
-    else:
-        folder = "Individual"
-    
-    base_output_dir = os.path.join(output_folder, contest_display_name, doc_type.capitalize(), folder)
-
-    temp_dir = os.path.join(base_output_dir, "temp", output_filename_prefix)
-    os.makedirs(temp_dir, exist_ok=True)
-    tex_filepath = os.path.join(temp_dir, output_filename_prefix + ".tex")
-
-    write_latex_to_file(tex_filepath, latex_content)
-    return tex_filepath
-
-def process_problem_content(problem):
-    """Process individual problem content with robust math/asymptote handling."""
-    # Extract Asymptote code first
-    parts = []
-    current_pos = 0
-    while True:
-        asy_start = problem.find('<asy>', current_pos)
-        if asy_start == -1:
-            parts.append(problem[current_pos:])
-            break
-        if asy_start > current_pos:
-            parts.append(problem[current_pos:asy_start])
-        asy_end = problem.find('</asy>', asy_start)
-        if asy_end == -1:
-            parts.append(problem[asy_start:])
-            break
-        asy_code = problem[asy_start + 5:asy_end].strip()
-        if asy_code:
-            parts.append(f'\n\\begin{{center}}\n\\begin{{asy}}\nimport olympiad;\nimport cse5;\n{asy_code}\n\\end{{asy}}\n\\end{{center}}\n')
-        current_pos = asy_end + 6
-    problem = ''.join(parts)
-
-    # Process HTML tags
-    problem = process_html_tags(problem)
-
-    # Handle math content
-    problem = re.sub(r'<math>(.*?)</math>', r'\\(\1\\)', problem, flags=re.DOTALL)
-    problem = re.sub(r'<cmath>(.*?)</cmath>', replace_cmath, problem, flags=re.DOTALL)
-    
-    # Fix aligned* environments
-    problem = re.sub(r'\\begin{aligned\*}', r'\\begin{aligned}', problem)
-    problem = re.sub(r'\\end{aligned\*}', r'\\end{aligned}', problem)
-
-    # Escape LaTeX-sensitive characters before unescaping
-    problem = re.sub(
-        r'(&amp;|&#(?:35|36|37|95|123|125|126|94|92);)',
-        r'\\\1',
-        problem
-    )
-
-    # Unescape HTML entities
-    problem = html.unescape(problem)
-
-    # Convert \over to \frac
-    problem = replace_over_with_frac(problem)
-
-    return problem
-
 def process_html_tags(content):
     """Convert HTML tags to LaTeX using a comprehensive mapping."""
     html_tag_handlers = {
@@ -612,6 +492,126 @@ def replace_cmath(match):
 def replace_over_with_frac(content):
     """Replace \\over with \\frac."""
     return re.sub(r'{([^}]*?)\\over([^}]*?)}', r'\\frac{\1}{\2}', content)
+
+def process_problem_content(problem):
+    """Process individual problem content with robust math/asymptote handling."""
+    # Extract Asymptote code first
+    parts = []
+    current_pos = 0
+    while True:
+        asy_start = problem.find('<asy>', current_pos)
+        if asy_start == -1:
+            parts.append(problem[current_pos:])
+            break
+        if asy_start > current_pos:
+            parts.append(problem[current_pos:asy_start])
+        asy_end = problem.find('</asy>', asy_start)
+        if asy_end == -1:
+            parts.append(problem[asy_start:])
+            break
+        asy_code = problem[asy_start + 5:asy_end].strip()
+        if asy_code:
+            parts.append(f'\n\\begin{{center}}\n\\begin{{asy}}\nimport olympiad;\nimport cse5;\n{asy_code}\n\\end{{asy}}\n\\end{{center}}\n')
+        current_pos = asy_end + 6
+    problem = ''.join(parts)
+
+    # Process HTML tags
+    problem = process_html_tags(problem)
+
+    # Handle math content
+    problem = re.sub(r'<math>(.*?)</math>', r'\\(\1\\)', problem, flags=re.DOTALL)
+    problem = re.sub(r'<cmath>(.*?)</cmath>', replace_cmath, problem, flags=re.DOTALL)
+    
+    # Fix aligned* environments
+    problem = re.sub(r'\\begin{aligned\*}', r'\\begin{aligned}', problem)
+    problem = re.sub(r'\\end{aligned\*}', r'\\end{aligned}', problem)
+
+    # Escape LaTeX-sensitive characters before unescaping
+    problem = re.sub(
+        r'(&amp;|&#(?:35|36|37|95|123|125|126|94|92);)',
+        r'\\\1',
+        problem
+    )
+
+    # Unescape HTML entities
+    problem = html.unescape(problem)
+
+    # Convert \over to \frac
+    problem = replace_over_with_frac(problem)
+
+    return problem
+
+def process_problems(problems_by_title, is_combined):
+    """Processes problems using original wiki titles for sections."""
+    latex_content_body = ""
+    
+    if is_combined:
+        # Sort titles lexicographically (chronological since year comes first)
+        sorted_titles = sorted(problems_by_title.keys())
+        for title in sorted_titles:
+            # Format title: "2012_AMC_12A_Problems" -> "2012 AMC 12A Problems"
+            display_title = title.replace("_", " ")
+            # Add unnumbered section and TOC entry
+            latex_content_body += (
+                r"\section*{" + display_title + "}\n"
+                r"\addcontentsline{toc}{section}{" + display_title + "}\n"
+            )
+            problems = problems_by_title[title]
+
+            latex_content_body += r"\begin{enumerate}[label=\arabic*., itemsep=0.5em]"
+            for problem in problems:
+                processed_problem = process_problem_content(problem)
+                latex_content_body += r"\item " + processed_problem + r"\par \vspace{0.5em}"
+            latex_content_body += r"\end{enumerate}\newpage"
+    else:
+        # Single document - get the only title in the dict
+        title = next(iter(problems_by_title))
+        display_title = title.replace("_", " ").replace(" Problems", "")
+        latex_content_body += r"\section*{" + display_title + r"}"
+        problems = problems_by_title[title]
+
+        latex_content_body += r"\begin{enumerate}[label=\arabic*., itemsep=0.5em]"
+        for problem in problems:
+            processed_problem = process_problem_content(problem)
+            latex_content_body += r"\item " + processed_problem + r"\par \vspace{0.5em}"
+        latex_content_body += r"\end{enumerate}"
+
+    return latex_content_body
+
+def write_latex_to_file(tex_filepath, latex_content):
+    """Writes the LaTeX content to a file."""
+    os.makedirs(os.path.dirname(tex_filepath), exist_ok=True)
+    with open(tex_filepath, "w", encoding="utf-8") as f:
+        f.write(latex_content)
+
+def create_latex_document(contest_display_name, problems_by_title, year_range_str, output_filename_prefix, output_folder, doc_type, is_combined=False):
+    """Creates LaTeX document using original wiki titles for sections."""
+    latex_header = generate_latex_header(contest_display_name, year_range_str, doc_type)
+    latex_content_body = process_problems(problems_by_title, is_combined)
+    latex_footer = generate_latex_footer()
+
+    document_start = r"\begin{document}" + r"\maketitle" + r"\thispagestyle{fancy}"
+    if is_combined:
+        document_start += r"\tableofcontents\newpage"
+    else:
+        document_start += r"\newpage"
+
+    latex_content = latex_header + document_start + latex_content_body + latex_footer
+
+    # Determine base output directory
+    if is_combined:
+        folder = "Combined"
+    else:
+        folder = "Individual"
+    
+    base_output_dir = os.path.join(output_folder, contest_display_name, doc_type.capitalize(), folder)
+
+    temp_dir = os.path.join(base_output_dir, "temp", output_filename_prefix)
+    os.makedirs(temp_dir, exist_ok=True)
+    tex_filepath = os.path.join(temp_dir, output_filename_prefix + ".tex")
+
+    write_latex_to_file(tex_filepath, latex_content)
+    return tex_filepath
 
 def install_asymptote_modules(asy_modules_dir):
     """Checks for and installs required Asymptote modules."""
