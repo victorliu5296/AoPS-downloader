@@ -340,10 +340,7 @@ def create_latex_document(contest_type, problems_by_title, year_range_str, outpu
     else:
         folder = "Individual"
     
-    if contest_type == "AMC12":
-        base_output_dir = os.path.join(output_folder, "AMC12", doc_type.capitalize(), folder)
-    elif contest_type == "AIME":
-        base_output_dir = os.path.join(output_folder, "AIME", doc_type.capitalize(), folder)
+    base_output_dir = os.path.join(output_folder, contest_type, doc_type.capitalize(), folder)
 
     temp_dir = os.path.join(base_output_dir, "temp", output_filename_prefix)
     os.makedirs(temp_dir, exist_ok=True)
@@ -514,10 +511,12 @@ async def main():
     end_year = None
     contest_type = None
 
+    contest_type = None
     while contest_type not in ["AMC12", "AIME"]:
         contest_type = input("Enter contest type (AMC12 or AIME): ").strip().upper()
         if contest_type not in ["AMC12", "AIME"]:
             print("Invalid contest type. Please enter 'AMC12' or 'AIME'.")
+    # Directly use contest_type in the following logic
 
     while start_year is None:
         try:

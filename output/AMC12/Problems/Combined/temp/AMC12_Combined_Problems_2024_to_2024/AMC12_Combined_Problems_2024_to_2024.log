@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  24 JAN 2025 19:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  24 JAN 2025 19:50
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -948,15 +948,23 @@ put line 347.
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
-Package rerunfilecheck Info: File `AMC12_Combined_Problems_2024_to_2024.out' ha
-s not changed.
-(rerunfilecheck)             Checksum: E9929B9CB91C6B5C404DBDD2997074FB;316.
+
+
+Package rerunfilecheck Warning: File `AMC12_Combined_Problems_2024_to_2024.out'
+ has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `AMC12_Combined_Problems_2024_to_202
+4.out':
+(rerunfilecheck)             Before: 7A48D0445F6169ECC4A4DD8A3BF48671;316
+(rerunfilecheck)             After:  E9929B9CB91C6B5C404DBDD2997074FB;316.
  ) 
 Here is how much of TeX's memory you used:
- 25429 strings out of 473536
- 479414 string characters out of 5712052
+ 25421 strings out of 473536
+ 479030 string characters out of 5712052
  900465 words of memory out of 5000000
- 48188 multiletter control sequences out of 15000+600000
+ 48180 multiletter control sequences out of 15000+600000
  568056 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,13n,107p,946b,663s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -977,7 +985,7 @@ fb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmsy7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmti10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on AMC12_Combined_Problems_2024_to_2024.pdf (7 pages, 215098 byt
+Output written on AMC12_Combined_Problems_2024_to_2024.pdf (7 pages, 215101 byt
 es).
 PDF statistics:
  219 PDF objects out of 1000 (max. 8388607)

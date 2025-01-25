@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  24 JAN 2025 19:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  24 JAN 2025 19:48
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**./2024_AMC_12B_Problems.tex
-(2024_AMC_12B_Problems.tex
+**./2024_AMC12_B_Problems.tex
+(2024_AMC12_B_Problems.tex
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
 (C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -684,13 +684,13 @@ File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/asymptote\asympto
 te.sty
 Package: asymptote 2024/02/26 v1.38 Asymptote style file for LaTeX
- (2024_AMC_12B_Problems.pre)
+
+No file 2024_AMC12_B_Problems.pre.
 \ASYbox=\box66
 \ASYdimen=\dimen272
 \c@asy=\count320
 \AsyStream=\write4
 \AsyPreStream=\write5
-
 (C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
@@ -709,7 +709,7 @@ Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 ds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 ))
-\openout5 = `2024_AMC_12B_Problems.pre'.
+\openout5 = `2024_AMC12_B_Problems.pre'.
 
 )
 (C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/arcs\arcs.sty
@@ -775,8 +775,7 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \xwm@boxb=\box68
 \xwm@cnta=\count330
 \xwm@wrt=\write6
- (2024_AMC_12B_Problems.xwm)
-\openout6 = `2024_AMC_12B_Problems.xwm'.
+\openout6 = `2024_AMC12_B_Problems.xwm'.
 
 )
 (C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backe
@@ -784,8 +783,9 @@ nd-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count331
 \l__pdf_internal_box=\box69
-) (2024_AMC_12B_Problems.aux)
-\openout1 = `2024_AMC_12B_Problems.aux'.
+)
+No file 2024_AMC12_B_Problems.aux.
+\openout1 = `2024_AMC12_B_Problems.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
@@ -805,7 +805,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -841,9 +840,8 @@ LaTeX Font Info:    ... okay on input line 32.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 32.
-(2024_AMC_12B_Problems.out) (2024_AMC_12B_Problems.out)
 \@outlinefile=\write7
-\openout7 = `2024_AMC_12B_Problems.out'.
+\openout7 = `2024_AMC12_B_Problems.out'.
 
 
 (C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-
@@ -890,60 +888,51 @@ LaTeX Warning: No \author given.
 [1{C:/Users/DefaultUser/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 ]
-\openout4 = `2024_AMC_12B_Problems-1.asy'.
 
-<2024_AMC_12B_Problems-1.pdf, id=14, 227.62239pt x 116.53537pt>
-File: 2024_AMC_12B_Problems-1.pdf Graphic file (type pdf)
-<use 2024_AMC_12B_Problems-1.pdf>
-Package pdftex.def Info: 2024_AMC_12B_Problems-1.pdf  used on input line 90.
-(pdftex.def)             Requested size: 227.62183pt x 116.53506pt.
+! LaTeX Error: Something's wrong--perhaps a missing \item.
 
-
-[2 <./2024_AMC_12B_Problems-1.pdf>]
-\openout4 = `2024_AMC_12B_Problems-2.asy'.
-
-<2024_AMC_12B_Problems-2.pdf, id=45, 185.35248pt x 200.75pt>
-File: 2024_AMC_12B_Problems-2.pdf Graphic file (type pdf)
-<use 2024_AMC_12B_Problems-2.pdf>
-Package pdftex.def Info: 2024_AMC_12B_Problems-2.pdf  used on input line 182.
-(pdftex.def)             Requested size: 185.352pt x 200.7495pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 ...l=\arabic*., itemsep=0.5em]\end{enumerate}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-[3]
 
-[4 <./2024_AMC_12B_Problems-2.pdf>] (2024_AMC_12B_Problems.aux)
+[2] (2024_AMC12_B_Problems.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
-Package rerunfilecheck Info: File `2024_AMC_12B_Problems.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+Package rerunfilecheck Warning: File `2024_AMC12_B_Problems.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `2024_AMC12_B_Problems.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25358 strings out of 473536
- 476707 string characters out of 5712052
- 898265 words of memory out of 5000000
- 48154 multiletter control sequences out of 15000+600000
- 567012 words of font info for 68 fonts, out of 8000000 for 9000
+ 25276 strings out of 473536
+ 474585 string characters out of 5712052
+ 880027 words of memory out of 5000000
+ 48116 multiletter control sequences out of 15000+600000
+ 564694 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,11n,107p,931b,665s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,11n,107p,425b,446s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/DefaultUser/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Default
-User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:
-/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmr17.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/DefaultUser/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/DefaultUser/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/De
-faultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msa
-m10.pfb>
-Output written on 2024_AMC_12B_Problems.pdf (4 pages, 156744 bytes).
+KTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DefaultUser/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on 2024_AMC12_B_Problems.pdf (2 pages, 45763 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 39 PDF objects out of 1000 (max. 8388607)
+ 4 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
