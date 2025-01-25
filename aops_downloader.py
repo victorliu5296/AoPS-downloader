@@ -22,6 +22,7 @@ ASY_MODULES = {
     "cse5": "https://raw.githubusercontent.com/vEnhance/dotfiles/master/asy/cse5.asy"
 }
 
+# https://artofproblemsolving.com/wiki/index.php/Category:Mathematics_competitions
 CONTEST_CONFIGS = {
     "AMC 12": {
         "variants": ["A", "B"],
@@ -31,6 +32,27 @@ CONTEST_CONFIGS = {
         ],
         "display_name": "AMC 12",
         "output_subdir": "AMC12"
+    },
+    "AMC 10": {
+        "variants": ["A", "B"],
+        "title_templates": [
+            {"template": "{year}_AMC_10{variant}_Problems", "years": "all"},
+            {"template": "{year}_Fall_AMC_10{variant}_Problems", "years": [2021]}
+        ],
+        "display_name": "AMC 10",
+        "output_subdir": "AMC10"
+    },
+        "AMC 8": {
+        "variants": [],
+        "title_templates": [
+            {
+                "template": "{year}_AMC_8_Problems", 
+                "years": "all",
+                "exclude_years": [2021]  # COVID year exclusion
+            }
+        ],
+        "display_name": "AMC 8",
+        "output_subdir": "AMC8"
     },
     "AIME": {
         "variants": ["I", "II"],
@@ -740,10 +762,15 @@ async def main():
         # Generate download tasks using config
         for year in range(start_year, end_year + 1):
             for template in contest_config["title_templates"]:
-                if template["years"] != "all" and year not in template["years"]:
-                    continue  # Skip templates that don't apply to this year
-                
-                # Handle variants if they exist
+                # Year inclusion check
+                if template["years"] != "all" and year not in template.get("years", []):
+                    continue
+                    
+                # Year exclusion check
+                if year in template.get("exclude_years", []):
+                    continue
+
+                # Handle variants
                 if contest_config["variants"]:
                     for variant in contest_config["variants"]:
                         title = template["template"].format(year=year, variant=variant)
