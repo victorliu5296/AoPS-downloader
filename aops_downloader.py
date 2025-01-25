@@ -20,14 +20,14 @@ ASY_MODULES = {
 }
 
 CONTEST_CONFIGS = {
-    "AMC_12": {
+    "AMC 12": {
         "variants": ["A", "B"],
         "title_templates": [
             {"template": "{year}_AMC_12{variant}_Problems", "years": "all"},
             {"template": "{year}_Fall_AMC_12{variant}_Problems", "years": [2021]}
         ],
         "display_name": "AMC 12",
-        "output_subdir": "AMC_12"
+        "output_subdir": "AMC12"
     },
     "AIME": {
         "variants": ["I", "II"],
@@ -538,8 +538,16 @@ async def main():
     valid_contest_types = list(CONTEST_CONFIGS.keys())
     contest_type = None
     
+    print("Available contests:")
+    for contest in valid_contest_types:
+        print(f" - {contest}")
+    
     while contest_type not in valid_contest_types:
-        contest_type = input(f"Enter contest type ({', '.join(valid_contest_types)}): ").strip().upper()
+        contest_type = input("Enter contest type (case-insensitive, whitespace-sensitive): ").strip().upper()
+        
+        if contest_type not in valid_contest_types:
+            print(f"Invalid contest type: '{contest_type}'. Please choose from the list above.")
+
     contest_config = CONTEST_CONFIGS[contest_type]
 
     # Year input handling remains the same
@@ -623,7 +631,7 @@ async def main():
 
         # Create combined PDF
         year_range_combined = f"{start_year}-{end_year}"
-        combined_filename = f"{contest_type}_Combined_Problems_{year_range_combined}"
+        combined_filename = f"{contest_config['output_subdir']}_Combined_Problems_{year_range_combined}"
         tex_filepath_combined = create_latex_document(
             contest_config["display_name"],
             problems_by_title,
