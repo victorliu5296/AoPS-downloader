@@ -37,7 +37,31 @@ CONTEST_CONFIGS = {
         "title_templates": [{"template": "{year}_AIME_{variant}_Problems", "years": "all"}],
         "display_name": "AIME",
         "output_subdir": "AIME"
-    }
+    },
+    "USAMO": {
+        "variants": [],  # No variants
+        "title_templates": [
+            {"template": "{year}_USAMO_Problems", "years": "all"}
+        ],
+        "display_name": "USAMO",
+        "output_subdir": "USAMO"
+    },
+    "USAJMO": {
+        "variants": [],  # No variants
+        "title_templates": [
+            {"template": "{year}_USAJMO_Problems", "years": "all"}
+        ],
+        "display_name": "USAJMO",
+        "output_subdir": "USAJMO"
+    },
+    "IMO": {
+        "variants": [],  # No variants
+        "title_templates": [
+            {"template": "{year}_IMO_Problems", "years": "all"}
+        ],
+        "display_name": "IMO",
+        "output_subdir": "IMO"
+    },
 }
 
 def calculate_file_hash(filepath):
@@ -715,12 +739,18 @@ async def main():
 
         # Generate download tasks using config
         for year in range(start_year, end_year + 1):
-            for variant in contest_config["variants"]:
-                for template in contest_config["title_templates"]:
-                    # Check if this template applies to the current year
-                    if template["years"] == "all" or year in template["years"]:
+            for template in contest_config["title_templates"]:
+                if template["years"] != "all" and year not in template["years"]:
+                    continue  # Skip templates that don't apply to this year
+                
+                # Handle variants if they exist
+                if contest_config["variants"]:
+                    for variant in contest_config["variants"]:
                         title = template["template"].format(year=year, variant=variant)
                         download_tasks.append(async_download_wiki_page(session, title))
+                else:
+                    title = template["template"].format(year=year)
+                    download_tasks.append(async_download_wiki_page(session, title))
 
         download_results = await asyncio.gather(*download_tasks)
 
