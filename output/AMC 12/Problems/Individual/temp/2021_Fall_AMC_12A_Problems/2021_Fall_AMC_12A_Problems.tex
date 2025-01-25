@@ -1,0 +1,187 @@
+
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in}
+\usepackage{enumitem}
+\usepackage[hypertexnames=true, linktoc=all]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{asymptote}
+\usepackage{arcs}
+\usepackage{xwatermark}
+\begin{asydef}
+  // Global Asymptote settings
+  settings.outformat = "pdf";
+  settings.render = 0;
+  settings.prc = false;
+  import olympiad;
+  import cse5;
+  size(8cm);
+\end{asydef}
+\pagestyle{fancy}
+\fancyhead[L]{\textbf{AMC 12 Problems}}
+\fancyhead[R]{\textbf{2021}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{AMC 12 Problems \\ 2021}
+\date{}
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{2021 Fall AMC 12A}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item What is the value of \(\frac{(2112-2021)^2}{169}\)?
+
+\(\textbf{(A) } 7 \qquad\textbf{(B) } 21 \qquad\textbf{(C) } 49 \qquad\textbf{(D) } 64 \qquad\textbf{(E) } 91\)\par \vspace{0.5em}\item Menkara has a \(4 \times 6\) index card. If she shortens the length of one side of this card by \(1\) inch, the card would have area \(18\) square inches. What would the area of the card be in square inches if instead she shortens the length of the other side by \(1\) inch?
+
+\(\textbf{(A) }16\qquad\textbf{(B) }17\qquad\textbf{(C) }18\qquad\textbf{(D) }19\qquad\textbf{(E) }20\)\par \vspace{0.5em}\item Mr. Lopez has a choice of two routes to get to work. Route A is \(6\) miles long, and his average speed along this route is \(30\) miles per hour. Route B is \(5\) miles long, and his average speed along this route is \(40\) miles per hour, except for a \(\frac{1}{2}\)-mile stretch in a school zone where his average speed is \(20\) miles per hour. By how many minutes is Route B quicker than Route A?
+
+\(\textbf{(A)}\ 2 \frac{3}{4}  \qquad\textbf{(B)}\  3 \frac{3}{4} \qquad\textbf{(C)}\  4 \frac{1}{2} \qquad\textbf{(D)}\
+ 5 \frac{1}{2} \qquad\textbf{(E)}\ 6 \frac{3}{4}\)\par \vspace{0.5em}\item The six-digit number \(\underline{2}\,\underline{0}\,\underline{2}\,\underline{1}\,\underline{0}\,\underline{A}\) is prime for only one digit \(A.\) What is \(A?\)
+
+\((\textbf{A})\: 1\qquad(\textbf{B}) \: 3\qquad(\textbf{C}) \: 5 \qquad(\textbf{D}) \: 7\qquad(\textbf{E}) \: 9\)\par \vspace{0.5em}\item Elmer the emu takes \(44\) equal strides to walk between consecutive telephone poles on a rural road. Oscar the ostrich can cover the same distance in \(12\) equal leaps. The telephone poles are evenly spaced, and the \(41\)st pole along this road is exactly one mile (\(5280\) feet) from the first pole. How much longer, in feet, is Oscar's leap than Elmer's stride?
+
+\(\textbf{(A) }6\qquad\textbf{(B) }8\qquad\textbf{(C) }10\qquad\textbf{(D) }11\qquad\textbf{(E) }15\)\par \vspace{0.5em}\item As shown in the figure below, point \(E\) lies on the opposite half-plane determined by line \(CD\) from point \(A\) so that \(\angle CDE = 110^\circ\). Point \(F\) lies on \(\overline{AD}\) so that \(DE=DF\), and \(ABCD\) is a square. What is the degree measure of \(\angle AFE\)?
+
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+size(6cm);
+pair A = (0,10);
+label("$A$", A, N);
+pair B = (0,0);
+label("$B$", B, S);
+pair C = (10,0);
+label("$C$", C, S);
+pair D = (10,10);
+label("$D$", D, SW);
+pair EE = (15,11.8);
+label("$E$", EE, N);
+pair F = (3,10);
+label("$F$", F, N);
+filldraw(D--arc(D,2.5,270,380)--cycle,lightgray);
+dot(A^^B^^C^^D^^EE^^F);
+draw(A--B--C--D--cycle);
+draw(D--EE--F--cycle);
+label("$110^\circ$", (15,9), SW);
+\end{asy}
+\end{center}
+
+
+\(\textbf{(A) }160\qquad\textbf{(B) }164\qquad\textbf{(C) }166\qquad\textbf{(D) }170\qquad\textbf{(E) }174\)\par \vspace{0.5em}\item A school has \(100\) students and \(5\) teachers. In the first period, each student is taking one class, and each teacher is teaching one class. The enrollments in the classes are \(50, 20, 20, 5, \) and \(5\). Let \(t\) be the average value obtained if a teacher is picked at random and the number of students in their class is noted. Let \(s\) be the average value obtained if a student was picked at random and the number of students in their class, including the student, is noted. What is \(t-s\)?
+
+\(\textbf{(A)}\ {-}18.5  \qquad\textbf{(B)}\ {-}13.5 \qquad\textbf{(C)}\ 0 \qquad\textbf{(D)}\ 13.5 \qquad\textbf{(E)}\ 18.5\)\par \vspace{0.5em}\item Let \(M\) be the least common multiple of all the integers \(10\) through \(30,\) inclusive. Let \(N\) be the least common multiple of \(M,32,33,34,35,36,37,38,39,\) and \(40.\) What is the value of \(\frac{N}{M}?\)
+
+\(\textbf{(A)}\ 1 \qquad\textbf{(B)}\ 2 \qquad\textbf{(C)}\ 37 \qquad\textbf{(D)}\ 74 \qquad\textbf{(E)}\ 2886\)\par \vspace{0.5em}\item A right rectangular prism whose surface area and volume are numerically equal has edge lengths \(\log_{2}x, \log_{3}x,\) and \(\log_{4}x.\) What is \(x?\)
+
+\(\textbf{(A)}\ 2\sqrt{6} \qquad\textbf{(B)}\ 6\sqrt{6} \qquad\textbf{(C)}\ 24 \qquad\textbf{(D)}\ 48 \qquad\textbf{(E)}\ 576\)\par \vspace{0.5em}\item The base-nine representation of the number \(N\) is \(27{,}006{,}000{,}052_{\text{nine}}.\) What is the remainder when \(N\) is divided by \(5?\)
+
+\(\textbf{(A) } 0\qquad\textbf{(B) } 1\qquad\textbf{(C) } 2\qquad\textbf{(D) } 3\qquad\textbf{(E) }4\)\par \vspace{0.5em}\item Consider two concentric circles of radius \(17\) and \(19.\) The larger circle has a chord, half of which lies inside the smaller circle. What is the length of the chord in the larger circle?
+
+\(\textbf{(A)}\ 12\sqrt{2} \qquad\textbf{(B)}\ 10\sqrt{3} \qquad\textbf{(C)}\ \sqrt{17 \cdot 19} \qquad\textbf{(D)}\ 18 \qquad\textbf{(E)}\ 8\sqrt{6}\)\par \vspace{0.5em}\item What is the number of terms with rational coefficients among the \(1001\) terms in the expansion of \(\left(x\sqrt[3]{2}+y\sqrt{3}\right)^{1000}?\)
+
+\(\textbf{(A)}\ 0 \qquad\textbf{(B)}\ 166 \qquad\textbf{(C)}\ 167 \qquad\textbf{(D)}\ 500 \qquad\textbf{(E)}\ 501\)\par \vspace{0.5em}\item The angle bisector of the acute angle formed at the origin by the graphs of the lines \(y = x\) and \(y=3x\) has equation \(y=kx.\) What is \(k?\)
+
+\(\textbf{(A)} \ \frac{1+\sqrt{5}}{2} \qquad \textbf{(B)} \ \frac{1+\sqrt{7}}{2} \qquad \textbf{(C)} \ \frac{2+\sqrt{3}}{2} \qquad \textbf{(D)} \ 2\qquad \textbf{(E)} \ \frac{2+\sqrt{5}}{2}\)\par \vspace{0.5em}\item In the figure, equilateral hexagon \(ABCDEF\) has three nonadjacent acute interior angles that each measure \(30^\circ\). The enclosed area of the hexagon is \(6\sqrt{3}\). What is the perimeter of the hexagon?
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+size(10cm);
+pen p=black+linewidth(1),q=black+linewidth(5);
+pair C=(0,0),D=(cos(pi/12),sin(pi/12)),E=rotate(150,D)*C,F=rotate(-30,E)*D,A=rotate(150,F)*E,B=rotate(-30,A)*F;
+draw(C--D--E--F--A--B--cycle,p);
+dot(A,q);
+dot(B,q);
+dot(C,q);
+dot(D,q);
+dot(E,q);
+dot(F,q);
+label("$C$",C,2*S);
+label("$D$",D,2*S);
+label("$E$",E,2*S);
+label("$F$",F,2*dir(0));
+label("$A$",A,2*N);
+label("$B$",B,2*W);
+\end{asy}
+\end{center}
+
+\(\textbf{(A)} \: 4 \qquad \textbf{(B)} \: 4\sqrt3 \qquad \textbf{(C)} \: 12 \qquad \textbf{(D)} \: 18 \qquad \textbf{(E)} \: 12\sqrt3\)\par \vspace{0.5em}\item Recall that the conjugate of the complex number \(w = a + bi\), where \(a\) and \(b\) are real numbers and \(i = \sqrt{-1}\), is the complex number \(\overline{w} = a - bi\). For any complex number \(z\), let \(f(z) = 4i\hspace{1pt}\overline{z}\). The polynomial 
+\begin{equation*}
+P(z) = z^4 + 4z^3 + 3z^2 + 2z + 1
+\end{equation*}
+ has four complex roots: \(z_1\), \(z_2\), \(z_3\), and \(z_4\). Let 
+\begin{equation*}
+Q(z) = z^4 + Az^3 + Bz^2 + Cz + D
+\end{equation*}
+ be the polynomial whose roots are \(f(z_1)\), \(f(z_2)\), \(f(z_3)\), and \(f(z_4)\), where the coefficients \(A,\) \(B,\) \(C,\) and \(D\) are complex numbers. What is \(B + D?\)
+
+\((\textbf{A})\: {-}304\qquad(\textbf{B}) \: {-}208\qquad(\textbf{C}) \: 12i\qquad(\textbf{D}) \: 208\qquad(\textbf{E}) \: 304\)\par \vspace{0.5em}\item An organization has \(30\) employees, \(20\) of whom have a brand A computer while the other \(10\) have a brand B computer. For security, the computers can only be connected to each other and only by cables. The cables can only connect a brand A computer to a brand B computer. Employees can communicate with each other if their computers are directly connected by a cable or by relaying messages through a series of connected computers. Initially, no computer is connected to any other. A technician arbitrarily selects one computer of each brand and installs a cable between them, provided there is not already a cable between that pair. The technician stops once every employee can communicate with each other. What is the maximum possible number of cables used?
+
+\(\textbf{(A)}\ 190  \qquad\textbf{(B)}\  191 \qquad\textbf{(C)}\  192 \qquad\textbf{(D)}\
+ 195 \qquad\textbf{(E)}\ 196\)\par \vspace{0.5em}\item For how many ordered pairs \((b,c)\) of positive integers does neither \(x^2+bx+c=0\) nor \(x^2+cx+b=0\) have two distinct real solutions?
+
+\(\textbf{(A) } 4 \qquad \textbf{(B) } 6 \qquad \textbf{(C) } 8 \qquad \textbf{(D) } 12 \qquad \textbf{(E) } 16 \qquad\)\par \vspace{0.5em}\item Each of \(20\) balls is tossed independently and at random into one of \(5\) bins. Let \(p\) be the probability that some bin ends up with \(3\) balls, another with \(5\) balls, and the other three with \(4\) balls each. Let \(q\) be the probability that every bin ends up with \(4\) balls. What is \(\frac{p}{q}\)?
+
+\(\textbf{(A)}\ 1 \qquad\textbf{(B)}\  4 \qquad\textbf{(C)}\  8 \qquad\textbf{(D)}\  12 \qquad\textbf{(E)}\ 16\)\par \vspace{0.5em}\item Let \(x\) be the least real number greater than \(1\) such that \(\sin(x) = \sin(x^2)\), where the arguments are in degrees. What is \(x\) rounded up to the closest integer?
+
+\(\textbf{(A) } 10 \qquad \textbf{(B) } 13 \qquad \textbf{(C) } 14 \qquad \textbf{(D) } 19 \qquad \textbf{(E) } 20\)\par \vspace{0.5em}\item For each positive integer \(n\), let \(f_1(n)\) be twice the number of positive integer divisors of \(n\), and for \(j \ge 2\), let \(f_j(n) = f_1(f_{j-1}(n))\). For how many values of \(n \le 50\) is \(f_{50}(n) = 12?\)
+
+\(\textbf{(A) }7\qquad\textbf{(B) }8\qquad\textbf{(C) }9\qquad\textbf{(D) }10\qquad\textbf{(E) }11\)\par \vspace{0.5em}\item Let \(ABCD\) be an isosceles trapezoid with \(\overline{BC} \parallel \overline{AD}\) and \(AB=CD\). Points \(X\) and \(Y\) lie on diagonal \(\overline{AC}\) with \(X\) between \(A\) and \(Y\), as shown in the figure. Suppose \(\angle AXD = \angle BYC = 90^\circ\), \(AX = 3\), \(XY = 1\), and \(YC = 2\). What is the area of \(ABCD\)?
+
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+size(10cm);
+usepackage("mathptmx");
+import geometry;
+void perp(picture pic=currentpicture,
+pair O, pair M, pair B, real size=5,
+pen p=currentpen, filltype filltype = NoFill){
+perpendicularmark(pic, M,unit(unit(O-M)+unit(B-M)),size,p,filltype);
+}
+pen p=black+linewidth(1),q=black+linewidth(5);
+pair C=(0,0),Y=(2,0),X=(3,0),A=(6,0),B=(2,sqrt(5.6)),D=(3,-sqrt(12.6));
+draw(A--B--C--D--cycle,p);
+draw(A--C,p);
+draw(B--Y,p);
+draw(D--X,p);
+dot(A,q);
+dot(B,q);
+dot(C,q);
+dot(D,q);
+dot(X,q);
+dot(Y,q);
+label("2",C--Y,S);
+label("1",Y--X,S);
+label("3",X--A,S);
+label("$A$",A,2*E);
+label("$B$",B,2*N);
+label("$C$",C,2*W);
+label("$D$",D,2*S);
+label("$Y$",Y,2*sqrt(2)*NE);
+label("$X$",X,2*N);
+perp(B,Y,C,8,p);
+perp(A,X,D,8,p);
+\end{asy}
+\end{center}
+
+\(\textbf{(A)}\: 15\qquad\textbf{(B)} \: 5\sqrt{11}\qquad\textbf{(C)} \: 3\sqrt{35}\qquad\textbf{(D)} \: 18\qquad\textbf{(E)} \: 7\sqrt{7}\)\par \vspace{0.5em}\item Azar and Carl play a game of tic-tac-toe. Azar places an \(X\) in one of the boxes in a \(3\)-by-\(3\) array of boxes, then Carl places an \(O\) in one of the remaining boxes. After that, Azar places an \(X\) in one of the remaining boxes, and so on until all boxes are filled or one of the players has of their symbols in a rowhorizontal, vertical, or diagonalwhichever comes first, in which case that player wins the game. Suppose the players make their moves at random, rather than trying to follow a rational strategy, and that Carl wins the game when he places his third \(O\). How many ways can the board look after the game is over?
+
+\(\textbf{(A) } 36 \qquad\textbf{(B) } 112 \qquad\textbf{(C) } 120 \qquad\textbf{(D) } 148 \qquad\textbf{(E) } 160\)\par \vspace{0.5em}\item A quadratic polynomial with real coefficients and leading coefficient \(1\) is called \(\emph{disrespectful}\) if the equation \(p(p(x))=0\) is satisfied by exactly three real numbers. Among all the disrespectful quadratic polynomials, there is a unique such polynomial \(\tilde{p}(x)\) for which the sum of the roots is maximized. What is \(\tilde{p}(1)\)?
+
+\(\textbf{(A) } \frac{5}{16} \qquad\textbf{(B) } \frac{1}{2} \qquad\textbf{(C) } \frac{5}{8} \qquad\textbf{(D) } 1 \qquad\textbf{(E) } \frac{9}{8}\)\par \vspace{0.5em}\item Convex quadrilateral \(ABCD\) has \(AB = 18, \angle{A} = 60^\circ,\) and \(\overline{AB} \parallel \overline{CD}.\) In some order, the lengths of the four sides form an arithmetic progression, and side \(\overline{AB}\) is a side of maximum length. The length of another side is \(a.\) What is the sum of all possible values of \(a\)?
+
+\(\textbf{(A) } 24 \qquad \textbf{(B) } 42 \qquad \textbf{(C) } 60 \qquad \textbf{(D) } 66 \qquad \textbf{(E) } 84\)\par \vspace{0.5em}\item Let \(m\ge 5\) be an odd integer, and let \(D(m)\) denote the number of quadruples \((a_1, a_2, a_3, a_4)\) of distinct integers with \(1\le a_i \le m\) for all \(i\) such that \(m\) divides \(a_1+a_2+a_3+a_4\). There is a polynomial
+
+\begin{equation*}
+q(x) = c_3x^3+c_2x^2+c_1x+c_0
+\end{equation*}
+such that \(D(m) = q(m)\) for all odd integers \(m\ge 5\). What is \(c_1?\)
+
+\(\textbf{(A)}\ {-}6\qquad\textbf{(B)}\ {-}1\qquad\textbf{(C)}\ 4\qquad\textbf{(D)}\ 6\qquad\textbf{(E)}\ 11\)\par \vspace{0.5em}\end{enumerate}
+\end{document}

@@ -1,0 +1,219 @@
+
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in}
+\usepackage{enumitem}
+\usepackage[hypertexnames=true, linktoc=all]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{asymptote}
+\usepackage{arcs}
+\usepackage{xwatermark}
+\begin{asydef}
+  // Global Asymptote settings
+  settings.outformat = "pdf";
+  settings.render = 0;
+  settings.prc = false;
+  import olympiad;
+  import cse5;
+  size(8cm);
+\end{asydef}
+\pagestyle{fancy}
+\fancyhead[L]{\textbf{AMC 12 Problems}}
+\fancyhead[R]{\textbf{2018}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{AMC 12 Problems \\ 2018}
+\date{}
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{2018 AMC 12B}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item Kate bakes a \(20\)-inch by \(18\)-inch pan of cornbread. The cornbread is cut into pieces that measure \(2\) inches by \(2\) inches. How many pieces of cornbread does the pan contain?
+
+\(\textbf{(A) } 90 \qquad \textbf{(B) } 100 \qquad \textbf{(C) } 180 \qquad \textbf{(D) } 200 \qquad \textbf{(E) } 360\)\par \vspace{0.5em}\item Sam drove \(96\) miles in \(90\) minutes. His average speed during the first \(30\) minutes was \(60\) mph (miles per hour), and his average speed during the second \(30\) minutes was \(65\) mph. What was his average speed, in mph, during the last \(30\) minutes?
+
+\(
+\textbf{(A) } 64 \qquad
+\textbf{(B) } 65 \qquad
+\textbf{(C) } 66 \qquad
+\textbf{(D) } 67 \qquad
+\textbf{(E) } 68
+\)\par \vspace{0.5em}\item A line with slope \(2\) intersects a line with slope \(6\) at the point \((40,30)\). What is the distance between the \(x\)-intercepts of these two lines? 
+
+\(\textbf{(A) } 5 \qquad \textbf{(B) } 10 \qquad \textbf{(C) } 20 \qquad \textbf{(D) } 25 \qquad \textbf{(E) } 50\)\par \vspace{0.5em}\item A circle has a chord of length \(10\), and the distance from the center of the circle to the chord is \(5\). What is the area of the circle?
+
+\(
+\textbf{(A) }25\pi \qquad
+\textbf{(B) }50\pi \qquad
+\textbf{(C) }75\pi \qquad
+\textbf{(D) }100\pi \qquad
+\textbf{(E) }125\pi \qquad
+\)\par \vspace{0.5em}\item How many subsets of \(\{2,3,4,5,6,7,8,9\}\) contain at least one prime number?
+
+\(
+\textbf{(A) } 128 \qquad
+\textbf{(B) } 192 \qquad
+\textbf{(C) } 224 \qquad
+\textbf{(D) } 240 \qquad
+\textbf{(E) } 256
+\)\par \vspace{0.5em}\item Suppose \(S\) cans of soda can be purchased from a vending machine for \(Q\) quarters. Which of the following expressions describes the number of cans of soda that can be purchased for \(D\) dollars, where \(1\) dollar is worth \(4\) quarters?
+
+\(\textbf{(A) } \frac{4DQ}{S} \qquad \textbf{(B) } \frac{4DS}{Q} \qquad \textbf{(C) } \frac{4Q}{DS} \qquad \textbf{(D) } \frac{DQ}{4S} \qquad \textbf{(E) } \frac{DS}{4Q}\)\par \vspace{0.5em}\item What is the value of 
+\begin{equation*}
+\log_37\cdot\log_59\cdot\log_711\cdot\log_913\cdots\log_{21}25\cdot\log_{23}27?
+\end{equation*}
+
+\(\textbf{(A) } 3 \qquad \textbf{(B) } 3\log_{7}23 \qquad \textbf{(C) } 6 \qquad \textbf{(D) } 9 \qquad \textbf{(E) } 10 \)\par \vspace{0.5em}\item Line segment \(\overline{AB}\) is a diameter of a circle with \(AB = 24\). Point \(C\), not equal to \(A\) or \(B\), lies on the circle. As point \(C\) moves around the circle, the centroid (center of mass) of \(\triangle ABC\) traces out a closed curve missing two points. To the nearest positive integer, what is the area of the region bounded by this curve?
+
+\(\textbf{(A) } 25 \qquad \textbf{(B) } 38  \qquad \textbf{(C) } 50  \qquad \textbf{(D) } 63 \qquad \textbf{(E) } 75  \)\par \vspace{0.5em}\item What is
+
+\begin{equation*}
+\sum^{100}_{i=1} \sum^{100}_{j=1} (i+j) ?
+\end{equation*}
+
+
+\( \textbf{(A) }100{,}100 \qquad
+\textbf{(B) }500{,}500\qquad
+\textbf{(C) }505{,}000 \qquad
+\textbf{(D) }1{,}001{,}000 \qquad
+\textbf{(E) }1{,}010{,}000 \qquad \)\par \vspace{0.5em}\item A list of \(2018\) positive integers has a unique mode, which occurs exactly \(10\) times. What is the least number of distinct values that can occur in the list?
+
+\( \textbf{(A) }202 \qquad
+\textbf{(B) }223 \qquad
+\textbf{(C) }224 \qquad
+\textbf{(D) }225 \qquad
+\textbf{(E) }234 \qquad \)\par \vspace{0.5em}\item A closed box with a square base is to be wrapped with a square sheet of wrapping paper. The box is centered on the wrapping paper with the vertices of the base lying on the midlines of the square sheet of paper, as shown in the figure on the left. The four corners of the wrapping paper are to be folded up over the sides and brought together to meet at the center of the top of the box, point \(A\) in the figure on the right. The box has base length \(w\) and height \(h\). What is the area of the sheet of wrapping paper?
+
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+size(270pt);
+defaultpen(fontsize(10pt));
+filldraw(((3,3)--(-3,3)--(-3,-3)--(3,-3)--cycle),lightgrey);
+dot((-3,3));
+label("$A$",(-3,3),NW);
+draw((1,3)--(-3,-1),dashed+linewidth(.5));
+draw((-1,3)--(3,-1),dashed+linewidth(.5));
+draw((-1,-3)--(3,1),dashed+linewidth(.5));
+draw((1,-3)--(-3,1),dashed+linewidth(.5));
+draw((0,2)--(2,0)--(0,-2)--(-2,0)--cycle,linewidth(.5));
+draw((0,3)--(0,-3),linetype("2.5 2.5")+linewidth(.5));
+draw((3,0)--(-3,0),linetype("2.5 2.5")+linewidth(.5));
+label('$w$',(-1,-1),SW);
+label('$w$',(1,-1),SE);
+draw((4.5,0)--(6.5,2)--(8.5,0)--(6.5,-2)--cycle);
+draw((4.5,0)--(8.5,0));
+draw((6.5,2)--(6.5,-2));
+label("$A$",(6.5,0),NW);
+dot((6.5,0));
+\end{asy}
+\end{center}
+
+
+\(\textbf{(A) } 2(w+h)^2 \qquad \textbf{(B) } \frac{(w+h)^2}2 \qquad \textbf{(C) } 2w^2+4wh \qquad \textbf{(D) } 2w^2 \qquad \textbf{(E) } w^2h \)\par \vspace{0.5em}\item Side \(\overline{AB}\) of \(\triangle ABC\) has length \(10\). The bisector of angle \(A\) meets \(\overline{BC}\) at \(D\), and \(CD = 3\). The set of all possible values of \(AC\) is an open interval \((m,n)\). What is \(m+n\)?
+
+\(\textbf{(A) }16 \qquad
+\textbf{(B) }17 \qquad
+\textbf{(C) }18 \qquad
+\textbf{(D) }19 \qquad
+\textbf{(E) }20 \qquad\)\par \vspace{0.5em}\item Square \(ABCD\) has side length \(30\). Point \(P\) lies inside the square so that \(AP = 12\) and \(BP = 26\). The centroids of \(\triangle{ABP}\), \(\triangle{BCP}\), \(\triangle{CDP}\), and \(\triangle{DAP}\) are the vertices of a convex quadrilateral. What is the area of that quadrilateral? 
+
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+unitsize(120);
+pair B = (0, 0), A = (0, 1), D = (1, 1), C = (1, 0), P = (1/4, 2/3);
+draw(A--B--C--D--cycle);
+dot(P);
+defaultpen(fontsize(10pt));
+draw(A--P--B);
+draw(C--P--D);
+label("$A$", A, W);
+label("$B$", B, W);
+label("$C$", C, E);
+label("$D$", D, E);
+label("$P$", P, N*1.5+E*0.5);
+dot(A);
+dot(B);
+dot(C);
+dot(D);
+\end{asy}
+\end{center}
+
+
+\(\textbf{(A) }100\sqrt{2}\qquad\textbf{(B) }100\sqrt{3}\qquad\textbf{(C) }200\qquad\textbf{(D) }200\sqrt{2}\qquad\textbf{(E) }200\sqrt{3}\)\par \vspace{0.5em}\item Joey and Chloe and their daughter Zoe all have the same birthday. Joey is \(1\) year older than Chloe, and Zoe is exactly \(1\) year old today. Today is the first of the \(9\) birthdays on which Chloe's age will be an integral multiple of Zoe's age. What will be the sum of the two digits of Joey's age the next time his age is a multiple of Zoe's age?
+
+\(
+\textbf{(A) }7 \qquad
+\textbf{(B) }8 \qquad
+\textbf{(C) }9 \qquad
+\textbf{(D) }10 \qquad
+\textbf{(E) }11 \qquad
+\)\par \vspace{0.5em}\item How many odd positive \(3\)-digit integers are divisible by \(3\) but do not contain the digit \(3\)?
+
+\(\textbf{(A) } 96 \qquad \textbf{(B) } 97 \qquad \textbf{(C) } 98 \qquad \textbf{(D) } 102 \qquad \textbf{(E) } 120 \)\par \vspace{0.5em}\item The solutions to the equation \((z+6)^8=81\) are connected in the complex plane to form a convex regular polygon, three of whose vertices are labeled \(A,B,\) and \(C\). What is the least possible area of \(\triangle ABC?\)
+
+\(\textbf{(A) } \frac{1}{6}\sqrt{6} \qquad \textbf{(B) } \frac{3}{2}\sqrt{2}-\frac{3}{2} \qquad \textbf{(C) } 2\sqrt3-3\sqrt2 \qquad \textbf{(D) } \frac{1}{2}\sqrt{2} \qquad \textbf{(E) } \sqrt 3-1\)\par \vspace{0.5em}\item Let \(p\) and \(q\) be positive integers such that 
+\begin{equation*}
+\frac{5}{9} < \frac{p}{q} < \frac{4}{7}
+\end{equation*}
+and \(q\) is as small as possible. What is \(q-p\)?
+
+\(\textbf{(A) } 7 \qquad \textbf{(B) } 11 \qquad \textbf{(C) } 13 \qquad \textbf{(D) } 17 \qquad \textbf{(E) } 19 \)\par \vspace{0.5em}\item A function \(f\) is defined recursively by \(f(1)=f(2)=1\) and 
+\begin{equation*}
+f(n)=f(n-1)-f(n-2)+n
+\end{equation*}
+for all integers \(n \geq 3\). What is \(f(2018)\)?
+
+\(\textbf{(A) } 2016 \qquad \textbf{(B) } 2017 \qquad \textbf{(C) } 2018 \qquad \textbf{(D) } 2019 \qquad \textbf{(E) } 2020\)\par \vspace{0.5em}\item Mary chose an even \(4\)-digit number \(n\). She wrote down all the divisors of \(n\) in increasing order from left to right: \(1,2,\ldots,\dfrac{n}{2},n\). At some moment Mary wrote \(323\) as a divisor of \(n\). What is the smallest possible value of the next divisor written to the right of \(323\)?
+
+\(\textbf{(A) } 324 \qquad \textbf{(B) } 330 \qquad \textbf{(C) } 340 \qquad \textbf{(D) } 361 \qquad \textbf{(E) } 646\)\par \vspace{0.5em}\item Let \(ABCDEF\) be a regular hexagon with side length \(1\). Denote by \(X\), \(Y\), and \(Z\) the midpoints of sides \(\overline {AB}\), \(\overline{CD}\), and \(\overline{EF}\), respectively. What is the area of the convex hexagon whose interior is the intersection of the interiors of \(\triangle ACE\) and \(\triangle XYZ\)?
+
+\(\textbf{(A)}\ \frac {3}{8}\sqrt{3} \qquad \textbf{(B)}\ \frac {7}{16}\sqrt{3} \qquad \textbf{(C)}\ \frac {15}{32}\sqrt{3} \qquad  \textbf{(D)}\ \frac {1}{2}\sqrt{3} \qquad \textbf{(E)}\ \frac {9}{16}\sqrt{3} \)\par \vspace{0.5em}\item In \(\triangle{ABC}\) with side lengths \(AB = 13\), \(AC = 12\), and \(BC = 5\), let \(O\) and \(I\) denote the circumcenter and incenter, respectively. A circle with center \(M\) is tangent to the legs \(AC\) and \(BC\) and to the circumcircle of \(\triangle{ABC}\). What is the area of \(\triangle{MOI}\)?
+
+\(\textbf{(A)}\ \frac52\qquad\textbf{(B)}\ \frac{11}{4}\qquad\textbf{(C)}\ 3\qquad\textbf{(D)}\ \frac{13}{4}\qquad\textbf{(E)}\ \frac72\)\par \vspace{0.5em}\item Consider polynomials \(P(x)\) of degree at most \(3\), each of whose coefficients is an element of \(\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9\}\). How many such polynomials satisfy \(P(-1) = -9\)?
+
+\(\textbf{(A) } 110 \qquad \textbf{(B) } 143 \qquad \textbf{(C) } 165 \qquad \textbf{(D) } 220 \qquad \textbf{(E) } 286 \)\par \vspace{0.5em}\item Ajay is standing at point \(A\) near Pontianak, Indonesia, \(0^\circ\) latitude and \(110^\circ \text{ E}\) longitude. Billy is standing at point \(B\) near Big Baldy Mountain, Idaho, USA, \(45^\circ \text{ N}\) latitude and \(115^\circ \text{ W}\) longitude. Assume that Earth is a perfect sphere with center \(C.\) What is the degree measure of \(\angle ACB?\)
+
+\(\textbf{(A) }105 \qquad
+\textbf{(B) }112\frac{1}{2} \qquad
+\textbf{(C) }120 \qquad
+\textbf{(D) }135 \qquad
+\textbf{(E) }150 \qquad\)\par \vspace{0.5em}\item Let \(\lfloor x \rfloor\) denote the greatest integer less than or equal to \(x\). How many real numbers \(x\) satisfy the equation \(x^2 + 10,000\lfloor x \rfloor = 10,000x\)?
+
+\(\textbf{(A) } 197 \qquad \textbf{(B) } 198 \qquad \textbf{(C) } 199 \qquad \textbf{(D) } 200 \qquad \textbf{(E) } 201\)\par \vspace{0.5em}\item Circles \(\omega_1\), \(\omega_2\), and \(\omega_3\) each have radius \(4\) and are placed in the plane so that each circle is externally tangent to the other two.  Points \(P_1\), \(P_2\), and \(P_3\) lie on \(\omega_1\), \(\omega_2\), and \(\omega_3\) respectively such that \(P_1P_2=P_2P_3=P_3P_1\) and line \(P_iP_{i+1}\) is tangent to \(\omega_i\) for each \(i=1,2,3\), where \(P_4 = P_1\).  See the figure below.  The area of \(\triangle P_1P_2P_3\) can be written in the form \(\sqrt{a}+\sqrt{b}\) for positive integers \(a\) and \(b\).  What is \(a+b\)?
+
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+unitsize(12);
+pair A = (0, 8/sqrt(3)), B = rotate(-120)*A, C = rotate(120)*A;
+real theta = 41.5;
+pair P1 = rotate(theta)*(2+2*sqrt(7/3), 0), P2 = rotate(-120)*P1, P3 = rotate(120)*P1;
+filldraw(P1--P2--P3--cycle, gray(0.9));
+draw(Circle(A, 4));
+draw(Circle(B, 4));
+draw(Circle(C, 4));
+dot(P1);
+dot(P2);
+dot(P3);
+defaultpen(fontsize(10pt));
+label("$P_1$", P1, E*1.5);
+label("$P_2$", P2, SW*1.5);
+label("$P_3$", P3, N);
+label("$\omega_1$", A, W*17);
+label("$\omega_2$", B, E*17);
+label("$\omega_3$", C, W*17);
+\end{asy}
+\end{center}
+
+
+\(\textbf{(A) }546\qquad\textbf{(B) }548\qquad\textbf{(C) }550\qquad\textbf{(D) }552\qquad\textbf{(E) }554\)\par \vspace{0.5em}\end{enumerate}
+\end{document}

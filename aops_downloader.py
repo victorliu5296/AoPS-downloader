@@ -11,8 +11,11 @@ import aiohttp
 import hashlib
 
 # Constants
-CACHE_DIR = "wiki_cache"
-os.makedirs(CACHE_DIR, exist_ok=True)
+WIKI_CACHE_DIR = "wiki_cache"
+os.makedirs(WIKI_CACHE_DIR, exist_ok=True)
+
+ASY_CACHE_DIR = "asy_cache"
+os.makedirs(ASY_CACHE_DIR, exist_ok=True)
 
 ASY_MODULES = {
     "olympiad": "https://math.berkeley.edu/~monks/images/olympiad.asy",
@@ -223,7 +226,7 @@ def remove_metadata(latex_content):
 def get_cache_filename(title):
     """Generates a safe filename for caching based on the wiki title."""
     safe_title = title.replace(" ", "_").replace("/", "_")
-    return os.path.join(CACHE_DIR, f"{safe_title}.html")
+    return os.path.join(WIKI_CACHE_DIR, f"{safe_title}.html")
 
 async def async_download_wiki_page(session, title, use_cache=True):
     """Asynchronously downloads the AoPS Wiki page for a given title, using cache."""

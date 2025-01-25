@@ -1,0 +1,211 @@
+
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in}
+\usepackage{enumitem}
+\usepackage[hypertexnames=true, linktoc=all]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{asymptote}
+\usepackage{arcs}
+\usepackage{xwatermark}
+\begin{asydef}
+  // Global Asymptote settings
+  settings.outformat = "pdf";
+  settings.render = 0;
+  settings.prc = false;
+  import olympiad;
+  import cse5;
+  size(8cm);
+\end{asydef}
+\pagestyle{fancy}
+\fancyhead[L]{\textbf{AMC 12 Problems}}
+\fancyhead[R]{\textbf{2019}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{AMC 12 Problems \\ 2019}
+\date{}
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{2019 AMC 12B}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item Alicia had two containers. The first was \(\tfrac{5}{6}\) full of water and the second was empty. She poured all the water from the first container into the second container, at which point the second container was \(\tfrac{3}{4}\) full of water. What is the ratio of the volume of the first container to the volume of the second container?
+
+\(\textbf{(A) } \frac{5}{8} \qquad \textbf{(B) } \frac{4}{5} \qquad \textbf{(C) } \frac{7}{8} \qquad \textbf{(D) } \frac{9}{10} \qquad \textbf{(E) } \frac{11}{12}\)\par \vspace{0.5em}\item Consider the statement, "If \(n\) is not prime, then \(n-2\) is prime." Which of the following values of \(n\) is a counterexample to this statement?
+
+\(\textbf{(A) } 11 \qquad \textbf{(B) } 15 \qquad \textbf{(C) } 19 \qquad \textbf{(D) } 21 \qquad \textbf{(E) } 27\)\par \vspace{0.5em}\item Which one of the following rigid transformations (isometries) maps the line segment \(\overline{AB}\) onto the line segment \(\overline{A'B'}\) so that the image of \(A(-2,1)\) is \(A'(2,-1)\) and the image of \(B(-1,4)\) is \(B'(1,-4)?\)
+
+\(\textbf{(A) } \) reflection in the \(y\)-axis
+
+\(\textbf{(B) } \) counterclockwise rotation around the origin by \(90^{\circ}\)
+
+\(\textbf{(C) } \) translation by \(3\) units to the right and \(5\) units down
+
+\(\textbf{(D) } \) reflection in the \(x\)-axis
+
+\(\textbf{(E) } \) clockwise rotation about the origin by \(180^{\circ}\)\par \vspace{0.5em}\item A positive integer \(n\) satisfies the equation \((n+1)!+(n+2)!=440\cdot n!\). What is the sum of the digits of \(n\)?
+
+\(\textbf{(A) } 2 \qquad \textbf{(B) } 5 \qquad \textbf{(C) } 10\qquad \textbf{(D) } 12 \qquad \textbf{(E) } 15\)\par \vspace{0.5em}\item Each piece of candy in a store costs a whole number of cents. Casper has exactly enough money to buy either \(12\) pieces of red candy, \(14\) pieces of green candy, \(15\) pieces of blue candy, or \(n\) pieces of purple candy. A piece of purple candy costs \(20\) cents. What is the smallest possible value of \(n\)?
+
+\(\textbf{(A) } 18 \qquad \textbf{(B) } 21 \qquad \textbf{(C) } 24\qquad \textbf{(D) } 25 \qquad \textbf{(E) } 28\)\par \vspace{0.5em}\item In a given plane, points \(A\) and \(B\) are \(10\) units apart. How many points \(C\) are there in the plane such that the perimeter of \(\triangle ABC\) is \(50\) units and the area of \(\triangle ABC\) is \(100\) square units?
+
+\(\textbf{(A) }0\qquad\textbf{(B) }2\qquad\textbf{(C) }4\qquad\textbf{(D) }8\qquad\textbf{(E) }\text{infinitely many}\)\par \vspace{0.5em}\item What is the sum of all real numbers \(x\) for which the median of the numbers \(4,6,8,17,\) and \(x\) is equal to the mean of those five numbers?
+
+\(\textbf{(A) } -5 \qquad\textbf{(B) } 0 \qquad\textbf{(C) } 5 \qquad\textbf{(D) } \frac{15}{4} \qquad\textbf{(E) } \frac{35}{4}\)\par \vspace{0.5em}\item Let \(f(x) = x^{2}(1-x)^{2}\). What is the value of the sum
+
+
+\begin{equation*}
+f \left(\frac{1}{2019} \right)-f  \left(\frac{2}{2019} \right)+f \left(\frac{3}{2019} \right)-f \left(\frac{4}{2019} \right)+\cdots + f \left(\frac{2017}{2019} \right) - f \left(\frac{2018}{2019} \right)?
+\end{equation*}
+
+
+\(\textbf{(A) }0\qquad\textbf{(B) }\frac{1}{2019^{4}}\qquad\textbf{(C) }\frac{2018^{2}}{2019^{4}}\qquad\textbf{(D) }\frac{2020^{2}}{2019^{4}}\qquad\textbf{(E) }1\)\par \vspace{0.5em}\item For how many integral values of \(x\) can a triangle of positive area be formed having side lengths \(
+\log_{2} x, \log_{4} x, 3\)?
+
+\(\textbf{(A) } 57\qquad \textbf{(B) } 59\qquad \textbf{(C) } 61\qquad \textbf{(D) } 62\qquad \textbf{(E) } 63\)\par \vspace{0.5em}\item The figure below is a map showing \(12\) cities and \(17\) roads connecting certain pairs of cities. Paula wishes to travel along exactly \(13\) of those roads, starting at city \(A\) and ending at city \(L,\) without traveling along any portion of a road more than once. (Paula is allowed to visit a city more than once.)
+
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+import olympiad;
+unitsize(50);
+for (int i = 0; i < 3; ++i) {
+for (int j = 0; j < 4; ++j) {
+pair A = (j,i);
+dot(A);
+
+}
+}
+for (int i = 0; i < 3; ++i) {
+for (int j = 0; j < 4; ++j) {
+if (j != 3) {
+draw((j,i)--(j+1,i));
+}
+if (i != 2) {
+draw((j,i)--(j,i+1));
+}
+}
+}
+label("$A$", (0,2), W); 
+label("$L$", (3,0), E);
+\end{asy}
+\end{center}
+
+
+How many different routes can Paula take?
+
+\(\textbf{(A) } 0 \qquad\textbf{(B) } 1 \qquad\textbf{(C) } 2 \qquad\textbf{(D) } 3\qquad\textbf{(E) } 4\)\par \vspace{0.5em}\item How many unordered pairs of edges of a given cube determine a plane?
+
+\(\textbf{(A) } 12 \qquad \textbf{(B) } 28 \qquad \textbf{(C) } 36\qquad \textbf{(D) } 42 \qquad \textbf{(E) } 66\)\par \vspace{0.5em}\item Right triangle \(ACD\) with right angle at \(C\) is constructed outwards on the hypotenuse \(\overline{AC}\) of isosceles right triangle \(ABC\) with leg length \(1\), as shown, so that the two triangles have equal perimeters. What is \(\sin(2\angle BAD)\)?
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+/* Geogebra to Asymptote conversion, documentation at artofproblemsolving.com/Wiki go to User:Azjps/geogebra */
+import graph; size(8.016233639805293cm); 
+real labelscalefactor = 0.5; /* changes label-to-point distance */
+pen dps = linewidth(0.7) + fontsize(10); defaultpen(dps); /* default pen style */ 
+pen dotstyle = black; /* point style */ 
+real xmin = -4.001920114613276, xmax = 4.014313525192017, ymin = -2.552570341575814, ymax = 5.6249093771911145;  /* image dimensions */
+
+
+draw((-1.6742337260757447,-1.)--(-1.6742337260757445,-0.6742337260757447)--(-2.,-0.6742337260757447)--(-2.,-1.)--cycle, linewidth(2.)); 
+draw((-1.7696484586262846,2.7696484586262846)--(-1.5392969172525692,3.)--(-1.7696484586262846,3.2303515413737154)--(-2.,3.)--cycle, linewidth(2.)); 
+ /* draw figures */
+draw((-2.,3.)--(-2.,-1.), linewidth(2.)); 
+draw((-2.,-1.)--(2.,-1.), linewidth(2.)); 
+draw((2.,-1.)--(-2.,3.), linewidth(2.)); 
+draw((-0.6404058554606791,4.3595941445393205)--(-2.,3.), linewidth(2.)); 
+draw((-0.6404058554606791,4.3595941445393205)--(2.,-1.), linewidth(2.)); 
+label("$D$",(-0.9382446143428628,4.887784444795223),SE*labelscalefactor,fontsize(14)); 
+label("$A$",(1.9411496528285788,-1.0783204767840298),SE*labelscalefactor,fontsize(14)); 
+label("$B$",(-2.5046350956841272,-0.9861798602345433),SE*labelscalefactor,fontsize(14)); 
+label("$C$",(-2.5737405580962416,3.5747806589650395),SE*labelscalefactor,fontsize(14)); 
+label("$1$",(-2.665881174645728,1.2712652452278765),SE*labelscalefactor,fontsize(14)); 
+label("$1$",(-0.3393306067712029,-1.3547423264324894),SE*labelscalefactor,fontsize(14)); 
+ /* dots and labels */
+dot((-2.,3.),linewidth(4.pt) + dotstyle); 
+dot((-2.,-1.),linewidth(4.pt) + dotstyle); 
+dot((2.,-1.),linewidth(4.pt) + dotstyle); 
+dot((-0.6404058554606791,4.3595941445393205),linewidth(4.pt) + dotstyle); 
+clip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle); 
+ /* end of picture */
+\end{asy}
+\end{center}
+
+
+\(\textbf{(A) } \dfrac{1}{3}  \qquad\textbf{(B) } \dfrac{\sqrt{2}}{2} \qquad\textbf{(C) } \dfrac{3}{4} \qquad\textbf{(D) } \dfrac{7}{9} \qquad\textbf{(E) }  \dfrac{\sqrt{3}}{2}\)\par \vspace{0.5em}\item A red ball and a green ball are randomly and independently tossed into bins numbered with the positive integers so that for each ball, the probability that it is tossed into bin \(k\) is \(2^{-k}\) for \(k = 1,2,3....\)  What is the probability that the red ball is tossed into a higher-numbered bin than the green ball?<br>
+
+\(\textbf{(A) } \frac{1}{4} \qquad\textbf{(B) } \frac{2}{7} \qquad\textbf{(C) } \frac{1}{3} \qquad\textbf{(D) } \frac{3}{8} \qquad\textbf{(E) } \frac{3}{7}\)\par \vspace{0.5em}\item Let \(S\) be the set of all positive integer divisors of \(100,000.\) How many numbers are the product of two distinct elements of \(S?\)
+
+\(\textbf{(A) }98\qquad\textbf{(B) }100\qquad\textbf{(C) }117\qquad\textbf{(D) }119\qquad\textbf{(E) }121\)\par \vspace{0.5em}\item As shown in the figure, line segment \(\overline{AD}\) is trisected by points \(B\) and \(C\) so that \(AB=BC=CD=2.\) Three semicircles of radius \(1,\) \(\overarc{AEB},\) \(\overarc{BFC},\) and \(\overarc{CGD},\) have their diameters on \(\overline{AD},\) and are tangent to line \(EG\) at \(E,F,\) and \(G,\) respectively. A circle of radius \(2\) has its center on \(F. \) The area of the region inside the circle but outside the three semicircles, shaded in the figure, can be expressed in the form
+
+\begin{equation*}
+\frac{a}{b}\cdot\pi-\sqrt{c}+d,
+\end{equation*}
+where \(a,b,c,\) and \(d\) are positive integers and \(a\) and \(b\) are relatively prime. What is \(a+b+c+d\)?
+
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+size(6cm);
+filldraw(circle((0,0),2), gray(0.7));
+filldraw(arc((0,-1),1,0,180) -- cycle, gray(1.0));
+filldraw(arc((-2,-1),1,0,180) -- cycle, gray(1.0));
+filldraw(arc((2,-1),1,0,180) -- cycle, gray(1.0));
+dot((-3,-1));
+label("$A$",(-3,-1),S);
+dot((-2,0));
+label("$E$",(-2,0),NW);
+dot((-1,-1));
+label("$B$",(-1,-1),S);
+dot((0,0));
+label("$F$",(0,0),N);
+dot((1,-1));
+label("$C$",(1,-1), S);
+dot((2,0));
+label("$G$", (2,0),NE);
+dot((3,-1));
+label("$D$", (3,-1), S);
+\end{asy}
+\end{center}
+
+\(\textbf{(A) } 13 \qquad\textbf{(B) } 14 \qquad\textbf{(C) } 15 \qquad\textbf{(D) } 16\qquad\textbf{(E) } 17\)\par \vspace{0.5em}\item There are lily pads in a row numbered \(0\) to \(11\), in that order. There are predators on lily pads \(3\) and \(6\), and a morsel of food on lily pad \(10\). Fiona the frog starts on pad \(0\), and from any given lily pad, has a \(\frac{1}{2}\) chance to hop to the next pad, and an equal chance to jump \(2\) pads. What is the probability that Fiona reaches pad \(10\) without landing on either pad \(3\) or pad \(6\)?
+
+\(\textbf{(A) } \frac{15}{256} \qquad \textbf{(B) } \frac{1}{16} \qquad \textbf{(C) } \frac{15}{128}\qquad \textbf{(D) } \frac{1}{8} \qquad \textbf{(E) } \frac14\)\par \vspace{0.5em}\item How many nonzero complex numbers \(z\) have the property that \(0, z,\) and \(z^3,\) when represented by points in the complex plane, are the three distinct vertices of an equilateral triangle?
+
+\(\textbf{(A) }0\qquad\textbf{(B) }1\qquad\textbf{(C) }2\qquad\textbf{(D) }4\qquad\textbf{(E) }\text{infinitely many}\)\par \vspace{0.5em}\item Square pyramid \(ABCDE\) has base \(ABCD,\) which measures \(3\) cm on a side, and altitude \(\overline{AE}\) perpendicular to the base\(,\) which measures \(6\) cm. Point \(P\) lies on \(\overline{BE},\) one third of the way from \(B\) to \(E;\) point \(Q\) lies on \(\overline{DE},\) one third of the way from \(D\) to \(E;\) and point \(R\) lies on \(\overline{CE},\) two thirds of the way from \(C\) to \(E.\) What is the area, in square centimeters, of \(\triangle PQR?\)
+
+\(\textbf{(A) } \frac{3\sqrt2}{2} \qquad\textbf{(B) } \frac{3\sqrt3}{2} \qquad\textbf{(C) } 2\sqrt2 \qquad\textbf{(D) } 2\sqrt3 \qquad\textbf{(E) } 3\sqrt2\)\par \vspace{0.5em}\item Raashan, Sylvia, and Ted play the following game. Each person starts with \(\$1\). A bell rings every \(15\) seconds, at which time each of the players who currently have money simultaneously chooses one of the other two players independently and at random and gives \(\$1\) to that player. What is the probability that after the bell has rung \(2019\) times, each player will have \(\$1\)? 
+(For example, Raashan and Ted may each decide to give \(\$1\) to Sylvia, and Sylvia may decide to give her dollar to Ted, at which point Raashan will have \(\$0\), Sylvia will have \(\$2\), and Ted will have \(\$1\), and that is the end of the first round of play. In the second round Rashaan has no money to give, but Sylvia and Ted might choose each other to give their \( \$1\) to, and the holdings will be the same at the end of the second round.)
+
+\(\textbf{(A) } \frac{1}{7} \qquad\textbf{(B) } \frac{1}{4} \qquad\textbf{(C) } \frac{1}{3} \qquad\textbf{(D) } \frac{1}{2} \qquad\textbf{(E) } \frac{2}{3}\)\par \vspace{0.5em}\item Points \(A(6,13)\) and \(B(12,11)\) lie on circle \(\omega\) in the plane. Suppose that the tangent lines to \(\omega\) at \(A\) and \(B\) intersect at a point on the \(x\)-axis. What is the area of \(\omega\)?
+
+\(\textbf{(A) }\frac{83\pi}{8}\qquad\textbf{(B) }\frac{21\pi}{2}\qquad\textbf{(C) }
+\frac{85\pi}{8}\qquad\textbf{(D) }\frac{43\pi}{4}\qquad\textbf{(E) }\frac{87\pi}{8}\)\par \vspace{0.5em}\item How many quadratic polynomials with real coefficients are there such that the set of roots equals the set of coefficients? (For clarification: If the polynomial is \(ax^2+bx+c,a\neq 0,\) and the roots are \(r\) and \(s,\) then the requirement is that \(\{a,b,c\}=\{r,s\}\).)
+
+\(\textbf{(A) } 3 \qquad\textbf{(B) } 4 \qquad\textbf{(C) } 5 \qquad\textbf{(D) } 6 \qquad\textbf{(E) } \text{infinitely many}\)\par \vspace{0.5em}\item Define a sequence recursively by \(x_0=5\) and
+
+\begin{equation*}
+x_{n+1}=\frac{x_n^2+5x_n+4}{x_n+6}
+\end{equation*}
+for all nonnegative integers \(n.\) Let \(m\) be the least positive integer such that
+
+\begin{equation*}
+x_m\leq 4+\frac{1}{2^{20}}.
+\end{equation*}
+In which of the following intervals does \(m\) lie?
+
+\(\textbf{(A) } [9,26] \qquad\textbf{(B) } [27,80] \qquad\textbf{(C) } [81,242]\qquad\textbf{(D) } [243,728] \qquad\textbf{(E) } [729,\infty]\)\par \vspace{0.5em}\item How many sequences of \(0\)s and \(1\)s of length \(19\) are there that begin with a \(0\), end with a \(0\), contain no two consecutive \(0\)s, and contain no three consecutive \(1\)s?
+
+\(\textbf{(A) }55\qquad\textbf{(B) }60\qquad\textbf{(C) }65\qquad\textbf{(D) }70\qquad\textbf{(E) }75\)\par \vspace{0.5em}\item Let \(\omega=-\tfrac{1}{2}+\tfrac{1}{2}i\sqrt3.\) Let \(S\) denote all points in the complex plane of the form \(a+b\omega+c\omega^2,\) where \(0\leq a \leq 1,0\leq b\leq 1,\) and \(0\leq c\leq 1.\) What is the area of \(S\)?
+
+\(\textbf{(A) } \frac{1}{2}\sqrt3 \qquad\textbf{(B) } \frac{3}{4}\sqrt3 \qquad\textbf{(C) } \frac{3}{2}\sqrt3\qquad\textbf{(D) } \frac{1}{2}\pi\sqrt3 \qquad\textbf{(E) } \pi\)\par \vspace{0.5em}\item Let \(ABCD\) be a convex quadrilateral with \(BC=2\) and \(CD=6.\) Suppose that the centroids of \(\triangle ABC,\triangle BCD,\) and \(\triangle ACD\) form the vertices of an equilateral triangle. What is the maximum possible value of the area of \(ABCD\)?
+
+\(\textbf{(A) } 27 \qquad\textbf{(B) } 16\sqrt3 \qquad\textbf{(C) } 12+10\sqrt3 \qquad\textbf{(D) } 9+12\sqrt3 \qquad\textbf{(E) } 30\)\par \vspace{0.5em}\end{enumerate}
+\end{document}

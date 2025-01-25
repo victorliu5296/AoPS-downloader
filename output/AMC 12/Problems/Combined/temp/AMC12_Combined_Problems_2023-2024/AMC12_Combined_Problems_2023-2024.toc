@@ -1,4 +1,0 @@
-\contentsline {section}{2023 AMC 12A Problems}{2}{section*.2}%
-\contentsline {section}{2023 AMC 12B Problems}{6}{section*.3}%
-\contentsline {section}{2024 AMC 12A Problems}{9}{section*.4}%
-\contentsline {section}{2024 AMC 12B Problems}{12}{section*.5}%
