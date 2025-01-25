@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 02:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 04:55
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -896,6 +896,14 @@ LaTeX Warning: No \author given.
 
 
 [2]
+Overfull \hbox (25.33554pt too wide) in paragraph at lines 52--53
+[]\OT1/cmr/m/n/10 Among the eight rows, columns, and long di-ag-o-nals (the lon
+g di-ag-o-nals are $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[]; a[]; a[]\OMS/cmsy/m
+/n/10 g$ \OT1/cmr/m/n/10 and $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[]; a[]; a[]\
+OMS/cmsy/m/n/10 g\OT1/cmr/m/n/10 )$,
+ []
+
+
 
 [3]
 
@@ -910,11 +918,11 @@ LaTeX Warning: No \author given.
 [8]
 \openout4 = `AIME_Combined_Problems_2010-2024-1.asy'.
 
-<AIME_Combined_Problems_2010-2024-1.pdf, id=279, 301.50441pt x 114.4024pt>
+<AIME_Combined_Problems_2010-2024-1.pdf, id=282, 301.50441pt x 114.4024pt>
 File: AIME_Combined_Problems_2010-2024-1.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-1.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-1.pdf  used on input 
-line 126.
+line 133.
 (pdftex.def)             Requested size: 301.50366pt x 114.40211pt.
 
 
@@ -923,11 +931,11 @@ line 126.
 [10]
 \openout4 = `AIME_Combined_Problems_2010-2024-2.asy'.
 
-<AIME_Combined_Problems_2010-2024-2.pdf, id=314, 227.62039pt x 227.62039pt>
+<AIME_Combined_Problems_2010-2024-2.pdf, id=317, 227.62039pt x 227.62039pt>
 File: AIME_Combined_Problems_2010-2024-2.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-2.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-2.pdf  used on input 
-line 144.
+line 152.
 (pdftex.def)             Requested size: 227.61983pt x 227.61983pt.
 
 
@@ -936,231 +944,228 @@ line 144.
 [12]
 \openout4 = `AIME_Combined_Problems_2010-2024-3.asy'.
 
-<AIME_Combined_Problems_2010-2024-3.pdf, id=340, 214.22032pt x 204.05234pt>
+<AIME_Combined_Problems_2010-2024-3.pdf, id=343, 214.22032pt x 204.05234pt>
 File: AIME_Combined_Problems_2010-2024-3.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-3.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-3.pdf  used on input 
-line 192.
+line 201.
 (pdftex.def)             Requested size: 214.21979pt x 204.05183pt.
-
-
-[13 <./AIME_Combined_Problems_2010-2024-3.pdf>]
 \openout4 = `AIME_Combined_Problems_2010-2024-4.asy'.
 
-<AIME_Combined_Problems_2010-2024-4.pdf, id=356, 196.41882pt x 178.1867pt>
+<AIME_Combined_Problems_2010-2024-4.pdf, id=344, 196.41882pt x 178.1867pt>
 File: AIME_Combined_Problems_2010-2024-4.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-4.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-4.pdf  used on input 
-line 227.
+line 237.
 (pdftex.def)             Requested size: 196.41833pt x 178.18626pt.
 
+
+[13 <./AIME_Combined_Problems_2010-2024-3.pdf>]
 
 [14 <./AIME_Combined_Problems_2010-2024-4.pdf>]
 
 [15]
 
 [16]
-
-[17]
 \openout4 = `AIME_Combined_Problems_2010-2024-5.asy'.
 
-<AIME_Combined_Problems_2010-2024-5.pdf, id=403, 100.375pt x 100.375pt>
+<AIME_Combined_Problems_2010-2024-5.pdf, id=402, 100.375pt x 100.375pt>
 File: AIME_Combined_Problems_2010-2024-5.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-5.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-5.pdf  used on input 
-line 297.
+line 313.
 (pdftex.def)             Requested size: 100.37474pt x 100.37474pt.
 \openout4 = `AIME_Combined_Problems_2010-2024-6.asy'.
 
-<AIME_Combined_Problems_2010-2024-6.pdf, id=404, 341.4326pt x 126.25168pt>
+<AIME_Combined_Problems_2010-2024-6.pdf, id=403, 341.4326pt x 126.25168pt>
 File: AIME_Combined_Problems_2010-2024-6.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-6.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-6.pdf  used on input 
-line 325.
+line 341.
 (pdftex.def)             Requested size: 341.43176pt x 126.25136pt.
 
 
-[18 <./AIME_Combined_Problems_2010-2024-5.pdf>]
+[17 <./AIME_Combined_Problems_2010-2024-5.pdf>]
 
-[19 <./AIME_Combined_Problems_2010-2024-6.pdf>]
+[18 <./AIME_Combined_Problems_2010-2024-6.pdf>]
 \openout4 = `AIME_Combined_Problems_2010-2024-7.asy'.
 
-<AIME_Combined_Problems_2010-2024-7.pdf, id=441, 261.93158pt x 106.9867pt>
+<AIME_Combined_Problems_2010-2024-7.pdf, id=439, 261.93158pt x 106.9867pt>
 File: AIME_Combined_Problems_2010-2024-7.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-7.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-7.pdf  used on input 
-line 407.
+line 423.
 (pdftex.def)             Requested size: 261.93092pt x 106.98642pt.
 
 
-[20 <./AIME_Combined_Problems_2010-2024-7.pdf>]
+[19 <./AIME_Combined_Problems_2010-2024-7.pdf>]
 
-[21]
+[20]
 \openout4 = `AIME_Combined_Problems_2010-2024-8.asy'.
 
-<AIME_Combined_Problems_2010-2024-8.pdf, id=469, 200.75pt x 107.00978pt>
+<AIME_Combined_Problems_2010-2024-8.pdf, id=468, 200.75pt x 107.00978pt>
 File: AIME_Combined_Problems_2010-2024-8.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-8.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-8.pdf  used on input 
-line 440.
+line 456.
 (pdftex.def)             Requested size: 200.7495pt x 107.0095pt.
 
 
-[22 <./AIME_Combined_Problems_2010-2024-8.pdf>]
+[21 <./AIME_Combined_Problems_2010-2024-8.pdf>]
 \openout4 = `AIME_Combined_Problems_2010-2024-9.asy'.
 
-<AIME_Combined_Problems_2010-2024-9.pdf, id=485, 227.62239pt x 225.35292pt>
+<AIME_Combined_Problems_2010-2024-9.pdf, id=484, 227.62239pt x 225.35292pt>
 File: AIME_Combined_Problems_2010-2024-9.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-9.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-9.pdf  used on input 
-line 480.
+line 496.
 (pdftex.def)             Requested size: 227.62183pt x 225.35236pt.
 
 
-[23 <./AIME_Combined_Problems_2010-2024-9.pdf>]
+[22 <./AIME_Combined_Problems_2010-2024-9.pdf>]
 \openout4 = `AIME_Combined_Problems_2010-2024-10.asy'.
 
-<AIME_Combined_Problems_2010-2024-10.pdf, id=503, 81.55469pt x 142.26149pt>
+<AIME_Combined_Problems_2010-2024-10.pdf, id=502, 81.55469pt x 142.26149pt>
 File: AIME_Combined_Problems_2010-2024-10.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-10.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-10.pdf  used on input
- line 540.
+ line 556.
 (pdftex.def)             Requested size: 81.55447pt x 142.26112pt.
 
 
-[24 <./AIME_Combined_Problems_2010-2024-10.pdf>]
+[23 <./AIME_Combined_Problems_2010-2024-10.pdf>]
 \openout4 = `AIME_Combined_Problems_2010-2024-11.asy'.
 
-<AIME_Combined_Problems_2010-2024-11.pdf, id=528, 170.7168pt x 122.35411pt>
+<AIME_Combined_Problems_2010-2024-11.pdf, id=527, 170.7168pt x 122.35411pt>
 File: AIME_Combined_Problems_2010-2024-11.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-11.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-11.pdf  used on input
- line 561.
+ line 577.
 (pdftex.def)             Requested size: 170.71637pt x 122.3538pt.
 
 
-[25 <./AIME_Combined_Problems_2010-2024-11.pdf>]
+[24 <./AIME_Combined_Problems_2010-2024-11.pdf>]
 \openout4 = `AIME_Combined_Problems_2010-2024-12.asy'.
 
-<AIME_Combined_Problems_2010-2024-12.pdf, id=548, 227.62239pt x 129.40646pt>
+<AIME_Combined_Problems_2010-2024-12.pdf, id=546, 227.62239pt x 129.40646pt>
 File: AIME_Combined_Problems_2010-2024-12.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-12.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-12.pdf  used on input
- line 600.
+ line 616.
 (pdftex.def)             Requested size: 227.62183pt x 129.40614pt.
 \openout4 = `AIME_Combined_Problems_2010-2024-13.asy'.
 
-<AIME_Combined_Problems_2010-2024-13.pdf, id=549, 227.62239pt x 224.33511pt>
+<AIME_Combined_Problems_2010-2024-13.pdf, id=547, 227.62239pt x 224.33511pt>
 File: AIME_Combined_Problems_2010-2024-13.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-13.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-13.pdf  used on input
- line 642.
+ line 658.
 (pdftex.def)             Requested size: 227.62183pt x 224.33455pt.
 
 
-[26 <./AIME_Combined_Problems_2010-2024-12.pdf>]
-LaTeX Font Info:    Calculating math sizes for size <5.99998> on input line 649
+[25 <./AIME_Combined_Problems_2010-2024-12.pdf>]
+LaTeX Font Info:    Calculating math sizes for size <5.99998> on input line 665
 .
 \openout4 = `AIME_Combined_Problems_2010-2024-14.asy'.
 
-<AIME_Combined_Problems_2010-2024-14.pdf, id=569, 227.62039pt x 145.30284pt>
+<AIME_Combined_Problems_2010-2024-14.pdf, id=568, 227.62039pt x 145.30284pt>
 File: AIME_Combined_Problems_2010-2024-14.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-14.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-14.pdf  used on input
- line 688.
+ line 704.
 (pdftex.def)             Requested size: 227.61983pt x 145.30247pt.
 
 
-[27 <./AIME_Combined_Problems_2010-2024-13.pdf>]
+[26 <./AIME_Combined_Problems_2010-2024-13.pdf>]
 
-[28 <./AIME_Combined_Problems_2010-2024-14.pdf>]
+[27 <./AIME_Combined_Problems_2010-2024-14.pdf>]
 \openout4 = `AIME_Combined_Problems_2010-2024-15.asy'.
 
-<AIME_Combined_Problems_2010-2024-15.pdf, id=646, 227.62039pt x 227.62039pt>
+<AIME_Combined_Problems_2010-2024-15.pdf, id=645, 227.62039pt x 227.62039pt>
 File: AIME_Combined_Problems_2010-2024-15.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-15.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-15.pdf  used on input
- line 723.
+ line 739.
 (pdftex.def)             Requested size: 227.61983pt x 227.61983pt.
 
 
-[29]
+[28]
 
-[30 <./AIME_Combined_Problems_2010-2024-15.pdf>]
+[29 <./AIME_Combined_Problems_2010-2024-15.pdf>]
 \openout4 = `AIME_Combined_Problems_2010-2024-16.asy'.
 
-<AIME_Combined_Problems_2010-2024-16.pdf, id=672, 67.452pt x 85.3589pt>
+<AIME_Combined_Problems_2010-2024-16.pdf, id=671, 67.452pt x 85.3589pt>
 File: AIME_Combined_Problems_2010-2024-16.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-16.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-16.pdf  used on input
- line 748.
+ line 764.
 (pdftex.def)             Requested size: 67.45183pt x 85.35869pt.
 
 
-[31 <./AIME_Combined_Problems_2010-2024-16.pdf>]
+[30 <./AIME_Combined_Problems_2010-2024-16.pdf>]
 
-[32]
+[31]
 \openout4 = `AIME_Combined_Problems_2010-2024-17.asy'.
 
-<AIME_Combined_Problems_2010-2024-17.pdf, id=699, 227.62239pt x 209.20259pt>
+<AIME_Combined_Problems_2010-2024-17.pdf, id=698, 227.62239pt x 209.20259pt>
 File: AIME_Combined_Problems_2010-2024-17.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-17.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-17.pdf  used on input
- line 782.
+ line 798.
 (pdftex.def)             Requested size: 227.62183pt x 209.20207pt.
 
 
-[33]
+[32]
 
-[34 <./AIME_Combined_Problems_2010-2024-17.pdf>]
+[33 <./AIME_Combined_Problems_2010-2024-17.pdf>]
 
-[35]
+[34]
 \openout4 = `AIME_Combined_Problems_2010-2024-18.asy'.
 
-<AIME_Combined_Problems_2010-2024-18.pdf, id=754, 142.26149pt x 99.4917pt>
+<AIME_Combined_Problems_2010-2024-18.pdf, id=753, 142.26149pt x 99.4917pt>
 File: AIME_Combined_Problems_2010-2024-18.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-18.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-18.pdf  used on input
- line 816.
+ line 832.
 (pdftex.def)             Requested size: 142.26112pt x 99.49144pt.
 
 
-[36 <./AIME_Combined_Problems_2010-2024-18.pdf>]
+[35 <./AIME_Combined_Problems_2010-2024-18.pdf>]
 \openout4 = `AIME_Combined_Problems_2010-2024-19.asy'.
 
-<AIME_Combined_Problems_2010-2024-19.pdf, id=763, 190.82391pt x 162.7189pt>
+<AIME_Combined_Problems_2010-2024-19.pdf, id=762, 190.82391pt x 162.7189pt>
 File: AIME_Combined_Problems_2010-2024-19.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-19.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-19.pdf  used on input
- line 883.
+ line 899.
 (pdftex.def)             Requested size: 190.82344pt x 162.71849pt.
 
 
-[37 <./AIME_Combined_Problems_2010-2024-19.pdf>]
+[36 <./AIME_Combined_Problems_2010-2024-19.pdf>]
 
-[38]
+[37]
 \openout4 = `AIME_Combined_Problems_2010-2024-20.asy'.
 
-<AIME_Combined_Problems_2010-2024-20.pdf, id=795, 170.7168pt x 166.53217pt>
+<AIME_Combined_Problems_2010-2024-20.pdf, id=794, 170.7168pt x 166.53217pt>
 File: AIME_Combined_Problems_2010-2024-20.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-20.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-20.pdf  used on input
- line 946.
+ line 962.
 (pdftex.def)             Requested size: 170.71637pt x 166.53174pt.
 
 
-[39]
+[38]
 
-[40 <./AIME_Combined_Problems_2010-2024-20.pdf>]
+[39 <./AIME_Combined_Problems_2010-2024-20.pdf>]
+
+[40]
 
 [41]
 
 [42]
 
 [43]
-
-[44]
-Overfull \hbox (13.34573pt too wide) in paragraph at lines 1021--1021
+Overfull \hbox (13.34573pt too wide) in paragraph at lines 1037--1037
 []\OT1/cmr/m/n/10 Let $\OML/cmm/m/it/10 P$ \OT1/cmr/m/n/10 be a point cho-sen u
 ni-formly at ran-dom in the in-te-rior of the unit square with ver-tices at $(0
 \OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (1\OML/
@@ -1169,7 +1174,7 @@ cmm/m/it/10 ; \OT1/cmr/m/n/10 0)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (1\OML/cmm/m
  []
 
 
-Overfull \hbox (4.16231pt too wide) in paragraph at lines 1021--1021
+Overfull \hbox (4.16231pt too wide) in paragraph at lines 1037--1037
 []\OT1/cmr/m/n/10 Triangles $\OMS/cmsy/m/n/10 4\OML/cmm/m/it/10 ABC$ \OT1/cmr/m
 /n/10 and $\OMS/cmsy/m/n/10 4\OML/cmm/m/it/10 A[]B[]C[]$ \OT1/cmr/m/n/10 lie in
  the co-or-di-nate plane with ver-tices $\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 (0\O
@@ -1181,172 +1186,172 @@ L/cmm/m/it/10 ; \OT1/cmr/m/n/10 18)$,
 
 
 
+[44]
+
 [45]
 
 [46]
 
 [47]
-
-[48]
 \openout4 = `AIME_Combined_Problems_2010-2024-21.asy'.
 
-<AIME_Combined_Problems_2010-2024-21.pdf, id=921, 227.62239pt x 181.48804pt>
+<AIME_Combined_Problems_2010-2024-21.pdf, id=920, 227.62239pt x 181.48804pt>
 File: AIME_Combined_Problems_2010-2024-21.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-21.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-21.pdf  used on input
- line 1074.
+ line 1090.
 (pdftex.def)             Requested size: 227.62183pt x 181.48758pt.
 
 
-[49 <./AIME_Combined_Problems_2010-2024-21.pdf>]
+[48 <./AIME_Combined_Problems_2010-2024-21.pdf>]
 
-[50]
+[49]
 \openout4 = `AIME_Combined_Problems_2010-2024-22.asy'.
 
-<AIME_Combined_Problems_2010-2024-22.pdf, id=954, 223.78305pt x 227.62239pt>
+<AIME_Combined_Problems_2010-2024-22.pdf, id=953, 223.78305pt x 227.62239pt>
 File: AIME_Combined_Problems_2010-2024-22.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-22.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-22.pdf  used on input
- line 1145.
+ line 1161.
 (pdftex.def)             Requested size: 223.7825pt x 227.62183pt.
 
 
-[51 <./AIME_Combined_Problems_2010-2024-22.pdf>]
+[50 <./AIME_Combined_Problems_2010-2024-22.pdf>]
 
-[52]
+[51]
 \openout4 = `AIME_Combined_Problems_2010-2024-23.asy'.
 
-<AIME_Combined_Problems_2010-2024-23.pdf, id=986, 284.52798pt x 101.52228pt>
+<AIME_Combined_Problems_2010-2024-23.pdf, id=985, 284.52798pt x 101.52228pt>
 File: AIME_Combined_Problems_2010-2024-23.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-23.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-23.pdf  used on input
- line 1205.
+ line 1221.
 (pdftex.def)             Requested size: 284.52728pt x 101.52202pt.
 
 
-[53 <./AIME_Combined_Problems_2010-2024-23.pdf>]
+[52 <./AIME_Combined_Problems_2010-2024-23.pdf>]
 \openout4 = `AIME_Combined_Problems_2010-2024-24.asy'.
 
-<AIME_Combined_Problems_2010-2024-24.pdf, id=1025, 284.52798pt x 203.91985pt>
+<AIME_Combined_Problems_2010-2024-24.pdf, id=1024, 284.52798pt x 203.91985pt>
 File: AIME_Combined_Problems_2010-2024-24.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-24.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-24.pdf  used on input
- line 1253.
+ line 1269.
 (pdftex.def)             Requested size: 284.52728pt x 203.91933pt.
 
 
-[54 <./AIME_Combined_Problems_2010-2024-24.pdf>]
+[53 <./AIME_Combined_Problems_2010-2024-24.pdf>]
 \openout4 = `AIME_Combined_Problems_2010-2024-25.asy'.
 
-<AIME_Combined_Problems_2010-2024-25.pdf, id=1051, 227.62239pt x 124.1689pt>
+<AIME_Combined_Problems_2010-2024-25.pdf, id=1050, 227.62239pt x 124.1689pt>
 File: AIME_Combined_Problems_2010-2024-25.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-25.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-25.pdf  used on input
- line 1297.
+ line 1313.
 (pdftex.def)             Requested size: 227.62183pt x 124.16858pt.
 
 
-[55]
+[54]
 
-[56 <./AIME_Combined_Problems_2010-2024-25.pdf>]
+[55 <./AIME_Combined_Problems_2010-2024-25.pdf>]
 \openout4 = `AIME_Combined_Problems_2010-2024-26.asy'.
 
-<AIME_Combined_Problems_2010-2024-26.pdf, id=1084, 114.3171pt x 114.3171pt>
+<AIME_Combined_Problems_2010-2024-26.pdf, id=1083, 114.3171pt x 114.3171pt>
 File: AIME_Combined_Problems_2010-2024-26.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-26.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-26.pdf  used on input
- line 1334.
+ line 1350.
 (pdftex.def)             Requested size: 114.3168pt x 114.3168pt.
 
 
-[57 <./AIME_Combined_Problems_2010-2024-26.pdf>]
+[56 <./AIME_Combined_Problems_2010-2024-26.pdf>]
 \openout4 = `AIME_Combined_Problems_2010-2024-27.asy'.
 
-<AIME_Combined_Problems_2010-2024-27.pdf, id=1100, 250.9375pt x 137.29594pt>
+<AIME_Combined_Problems_2010-2024-27.pdf, id=1099, 250.9375pt x 137.29594pt>
 File: AIME_Combined_Problems_2010-2024-27.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-27.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-27.pdf  used on input
- line 1369.
+ line 1385.
 (pdftex.def)             Requested size: 250.93687pt x 137.2956pt.
 
 
-[58 <./AIME_Combined_Problems_2010-2024-27.pdf>]
+[57 <./AIME_Combined_Problems_2010-2024-27.pdf>]
 \openout4 = `AIME_Combined_Problems_2010-2024-28.asy'.
 
-<AIME_Combined_Problems_2010-2024-28.pdf, id=1125, 111.74748pt x 83.24098pt>
+<AIME_Combined_Problems_2010-2024-28.pdf, id=1124, 111.74748pt x 83.24098pt>
 File: AIME_Combined_Problems_2010-2024-28.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-28.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-28.pdf  used on input
- line 1404.
+ line 1420.
 (pdftex.def)             Requested size: 111.7472pt x 83.24075pt.
 
 
-[59]
+[58]
 \openout4 = `AIME_Combined_Problems_2010-2024-29.asy'.
 
-<AIME_Combined_Problems_2010-2024-29.pdf, id=1143, 115.8187pt x 115.8187pt>
+<AIME_Combined_Problems_2010-2024-29.pdf, id=1142, 115.8187pt x 115.8187pt>
 File: AIME_Combined_Problems_2010-2024-29.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-29.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-29.pdf  used on input
- line 1426.
+ line 1442.
 (pdftex.def)             Requested size: 115.8184pt x 115.8184pt.
 
 
-[60 <./AIME_Combined_Problems_2010-2024-28.pdf> <./AIME_Combined_Problems_2010-
+[59 <./AIME_Combined_Problems_2010-2024-28.pdf> <./AIME_Combined_Problems_2010-
 2024-29.pdf>]
 \openout4 = `AIME_Combined_Problems_2010-2024-30.asy'.
 
-<AIME_Combined_Problems_2010-2024-30.pdf, id=1162, 130.58788pt x 101.31853pt>
+<AIME_Combined_Problems_2010-2024-30.pdf, id=1161, 130.58788pt x 101.31853pt>
 File: AIME_Combined_Problems_2010-2024-30.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-30.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-30.pdf  used on input
- line 1486.
+ line 1502.
 (pdftex.def)             Requested size: 130.58754pt x 101.31825pt.
 
 
-[61 <./AIME_Combined_Problems_2010-2024-30.pdf>]
+[60 <./AIME_Combined_Problems_2010-2024-30.pdf>]
 \openout4 = `AIME_Combined_Problems_2010-2024-31.asy'.
 
-<AIME_Combined_Problems_2010-2024-31.pdf, id=1178, 90.739pt x 90.739pt>
+<AIME_Combined_Problems_2010-2024-31.pdf, id=1176, 90.739pt x 90.739pt>
 File: AIME_Combined_Problems_2010-2024-31.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-31.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-31.pdf  used on input
- line 1521.
+ line 1537.
 (pdftex.def)             Requested size: 90.73875pt x 90.73875pt.
 
 
-[62 <./AIME_Combined_Problems_2010-2024-31.pdf>]
+[61 <./AIME_Combined_Problems_2010-2024-31.pdf>]
 \openout4 = `AIME_Combined_Problems_2010-2024-32.asy'.
 
-<AIME_Combined_Problems_2010-2024-32.pdf, id=1192, 268.75204pt x 120.51825pt>
+<AIME_Combined_Problems_2010-2024-32.pdf, id=1191, 268.75204pt x 120.51825pt>
 File: AIME_Combined_Problems_2010-2024-32.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-32.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-32.pdf  used on input
- line 1544.
+ line 1560.
 (pdftex.def)             Requested size: 268.75137pt x 120.51794pt.
 \openout4 = `AIME_Combined_Problems_2010-2024-33.asy'.
 
-<AIME_Combined_Problems_2010-2024-33.pdf, id=1193, 213.39525pt x 96.04985pt>
+<AIME_Combined_Problems_2010-2024-33.pdf, id=1192, 213.39525pt x 96.04985pt>
 File: AIME_Combined_Problems_2010-2024-33.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-33.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-33.pdf  used on input
- line 1556.
+ line 1572.
 (pdftex.def)             Requested size: 213.39471pt x 96.04959pt.
 
 
-[63 <./AIME_Combined_Problems_2010-2024-32.pdf> <./AIME_Combined_Problems_2010-
+[62 <./AIME_Combined_Problems_2010-2024-32.pdf> <./AIME_Combined_Problems_2010-
 2024-33.pdf>]
 \openout4 = `AIME_Combined_Problems_2010-2024-34.asy'.
 
-<AIME_Combined_Problems_2010-2024-34.pdf, id=1214, 227.62239pt x 98.36449pt>
+<AIME_Combined_Problems_2010-2024-34.pdf, id=1213, 227.62239pt x 98.36449pt>
 File: AIME_Combined_Problems_2010-2024-34.pdf Graphic file (type pdf)
 <use AIME_Combined_Problems_2010-2024-34.pdf>
 Package pdftex.def Info: AIME_Combined_Problems_2010-2024-34.pdf  used on input
- line 1576.
+ line 1592.
 (pdftex.def)             Requested size: 227.62183pt x 98.36423pt.
 
 
-[64 <./AIME_Combined_Problems_2010-2024-34.pdf>]
+[63 <./AIME_Combined_Problems_2010-2024-34.pdf>]
 (AIME_Combined_Problems_2010-2024.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
@@ -1357,40 +1362,41 @@ t changed.
 (rerunfilecheck)             Checksum: 5DD50D2716FEAF3C856A39F496A09A59;4708.
  ) 
 Here is how much of TeX's memory you used:
- 26298 strings out of 473536
- 499413 string characters out of 5712052
+ 26305 strings out of 473536
+ 499539 string characters out of 5712052
  901417 words of memory out of 5000000
- 48544 multiletter control sequences out of 15000+600000
- 573905 words of font info for 94 fonts, out of 8000000 for 9000
+ 48549 multiletter control sequences out of 15000+600000
+ 574240 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,107p,5075b,666s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/DefaultUser/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Default
-User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C
-:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmmi5.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmmi7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/DefaultUser/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DefaultUser/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/D
-efaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.p
-fb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmr5.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmr7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/DefaultUser/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/DefaultUser/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/User
-s/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti
-10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/symbols/msam10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on AIME_Combined_Problems_2010-2024.pdf (64 pages, 737418 bytes)
+ 102i,12n,107p,5075b,667s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\DefaultUser\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm1000.pk><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/DefaultUse
+r/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/U
+sers/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mmi12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmmi5.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/DefaultUser/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/DefaultUser/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Def
+aultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb
+><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmr17.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr5.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/DefaultUser/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/DefaultUser/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
+DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.
+pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmti10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/symbols/msam10.pfb><C:/Users/DefaultUser/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on AIME_Combined_Problems_2010-2024.pdf (63 pages, 738390 bytes)
 .
 PDF statistics:
- 1415 PDF objects out of 1440 (max. 8388607)
- 544 named destinations out of 1000 (max. 500000)
+ 1418 PDF objects out of 1440 (max. 8388607)
+ 545 named destinations out of 1000 (max. 500000)
  423 words of extra memory for PDF output out of 10000 (max. 10000000)
 

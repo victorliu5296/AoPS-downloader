@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 00:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 04:44
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -910,10 +910,10 @@ Package rerunfilecheck Info: File `2016_AIME_I_Problems.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25332 strings out of 473536
- 476145 string characters out of 5712052
- 895248 words of memory out of 5000000
- 48142 multiletter control sequences out of 15000+600000
+ 25330 strings out of 473536
+ 476081 string characters out of 5712052
+ 895249 words of memory out of 5000000
+ 48140 multiletter control sequences out of 15000+600000
  566393 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,11n,107p,3234b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s

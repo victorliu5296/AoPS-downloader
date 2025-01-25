@@ -304,7 +304,7 @@ def extract_problems(html_content):
         print("Could not find textarea with problem source.")
         return []
 
-    wiki_text = textarea.string
+    wiki_text = textarea.get_text()
     cleaned_wiki_text = remove_metadata(wiki_text)
 
     problems = []
@@ -349,7 +349,6 @@ def extract_problems(html_content):
     cleaned_problems = []
     for problem in problems:
         content = problem.strip()
-        content = content.encode('ascii', 'ignore').decode('ascii')
         content = content.replace("’", "'").replace("‘", "'").replace("“", "\"").replace("”", "\"")
         cleaned_problems.append(content.strip())
 
@@ -396,8 +395,10 @@ def generate_latex_footer():
 \end{document}
 """
 
+import re
+
 def process_html_tags(content):
-    """Convert HTML tags to LaTeX using a comprehensive mapping."""
+    """Convert HTML tags to LaTeX using a comprehensive mapping, handling nested tags."""
     html_tag_handlers = {
         # Inline tags
         'b': {'latex': 'textbf', 'block': False},
@@ -424,54 +425,67 @@ def process_html_tags(content):
         'hr': {'latex': '\\hline', 'block': True, 'self_closing': True},
     }
 
-    # Match all tags from handlers (including self-closing)
     tags = '|'.join(re.escape(tag) for tag in html_tag_handlers.keys())
-    pattern = re.compile(
-        r'<({})(\s+[^>]*?)?>(.*?)(</\1>|(?=/></\1>))', 
-        re.DOTALL
+    standard_pattern = re.compile(
+        rf'<({tags})(\s+[^>]*)?>(.*?)</\1>', 
+        flags=re.DOTALL | re.IGNORECASE
+    )
+    self_closing_pattern = re.compile(
+        rf'<({tags})(\s+[^>]*?)?[/\\]>',  # Matches both /> and \>
+        flags=re.IGNORECASE
     )
 
     def replace_tag(match):
-        tag = match.group(1)
+        tag = match.group(1).lower()
         attrs = match.group(2) or ''
-        content = match.group(3)
-        closing = match.group(4)
+        content = match.group(3) if len(match.groups()) >= 3 else ''
         handler = html_tag_handlers.get(tag, None)
 
         if not handler:
-            return match.group(0)  # Return original if no handler
+            return match.group(0)
 
-        # Handle self-closing tags
         if handler.get('self_closing', False):
             return handler['latex'] + '\n'
 
-        # Process attributes
         attr_value = ''
         if 'attr' in handler:
-            attr_pattern = r'{}\s*=\s*["\'](.*?)["\']'.format(handler['attr'])
-            attr_match = re.search(attr_pattern, attrs)
+            attr_pattern = re.compile(r'{}\s*=\s*["\'](.*?)["\']'.format(handler['attr']), re.IGNORECASE)
+            attr_match = attr_pattern.search(attrs)
             if attr_match:
                 attr_value = attr_match.group(1)
 
-        # Recursively process content
         processed_content = process_html_tags(content.strip())
 
-        # Build LaTeX replacement
         if handler.get('directive', False):
             if tag == 'a' and attr_value:
                 return f'\\href{{{attr_value}}}{{{processed_content}}}'
-            return f'\\{handler["latex"]} {processed_content}'
+            return f'\\{handler["latex"]} {processed_content}\n'
         elif handler['block']:
-            return f'\\begin{{{handler["latex"]}}}\n{processed_content}\n\\end{{{handler["latex"]}}}'
+            latex_env = handler['latex']
+            # Ensure itemize/enumerate have at least one \item
+            if latex_env in ['itemize', 'enumerate'] and r'\item' not in processed_content:
+                processed_content = r'\item ' + processed_content
+            return f'\\begin{{{latex_env}}}\n{processed_content.strip()}\n\\end{{{latex_env}}}\n'
         else:
             return f'\\{handler["latex"]}{{{processed_content}}}'
 
-    # Apply replacements iteratively to handle nested tags
+    def replace_self_closing(match):
+        tag = match.group(1).lower()
+        handler = html_tag_handlers.get(tag, None)
+        if not handler or not handler.get('self_closing', False):
+            return match.group(0)
+        return handler['latex'] + '\n'
+
+    content = self_closing_pattern.sub(replace_self_closing, content)
     while True:
-        new_content, count = pattern.subn(replace_tag, content)
+        new_content, count = standard_pattern.subn(replace_tag, content)
         if count == 0:
             break
         content = new_content
+
+    # Clean up line breaks adjacent to block environments
+    content = re.sub(r'\\\\\s*\\begin{', r'\\begin{', content, flags=re.IGNORECASE)
+    content = re.sub(r'\\end{([^}]*?)}\s*\\\\', r'\\end{\1}', content, flags=re.IGNORECASE)
 
     return content
 
@@ -480,11 +494,10 @@ def replace_cmath(match):
     cmath_content = match.group(1)
     multi_line_envs = ['align', 'gather', 'multline']
     for env in multi_line_envs:
-        env_pattern = rf'\\begin\{{{env}\*?\}}(.*?)\\end\{{{env}\*?\}}'
-        if re.search(env_pattern, cmath_content, flags=re.DOTALL):
+        env_pattern = re.compile(rf'\\begin\{{{env}\*?\}}(.*?)\\end\{{{env}\*?\}}', re.DOTALL)
+        if env_pattern.search(cmath_content):
             return f'\n{cmath_content.strip()}\n'
     
-    # Clean display/inline math
     cleaned = re.sub(r'\\\[|\\\]|\$\$|\\begin{equation\*?}|\\end{equation\*?}|\\begin{displaymath}|\\end{displaymath}', '', cmath_content, flags=re.IGNORECASE)
     cleaned = re.sub(r'\\\(|\\\)|\$|\\begin{math}|\\end{math}', '', cleaned, flags=re.IGNORECASE)
     return f'\n\\begin{{equation*}}\n{cleaned.strip()}\n\\end{{equation*}}\n'

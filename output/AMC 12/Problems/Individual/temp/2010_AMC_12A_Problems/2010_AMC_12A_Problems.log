@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 02:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 04:55
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -918,7 +918,7 @@ Here is how much of TeX's memory you used:
  48145 multiletter control sequences out of 15000+600000
  568056 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,11n,107p,703b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,11n,107p,703b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/Mi
@@ -935,7 +935,7 @@ ultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 <C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmti10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/symbols/msam10.pfb>
-Output written on 2010_AMC_12A_Problems.pdf (4 pages, 170160 bytes).
+Output written on 2010_AMC_12A_Problems.pdf (4 pages, 169716 bytes).
 PDF statistics:
  130 PDF objects out of 1000 (max. 8388607)
  31 named destinations out of 1000 (max. 500000)

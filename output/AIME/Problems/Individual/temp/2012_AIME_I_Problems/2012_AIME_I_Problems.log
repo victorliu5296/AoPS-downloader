@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 02:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 04:55
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -897,21 +897,18 @@ File: 2012_AIME_I_Problems-1.pdf Graphic file (type pdf)
 <use 2012_AIME_I_Problems-1.pdf>
 Package pdftex.def Info: 2012_AIME_I_Problems-1.pdf  used on input line 64.
 (pdftex.def)             Requested size: 214.21979pt x 204.05183pt.
-
-
-[2 <./2012_AIME_I_Problems-1.pdf>]
 \openout4 = `2012_AIME_I_Problems-2.asy'.
 
-<2012_AIME_I_Problems-2.pdf, id=35, 196.41882pt x 178.1867pt>
+<2012_AIME_I_Problems-2.pdf, id=15, 196.41882pt x 178.1867pt>
 File: 2012_AIME_I_Problems-2.pdf Graphic file (type pdf)
 <use 2012_AIME_I_Problems-2.pdf>
-Package pdftex.def Info: 2012_AIME_I_Problems-2.pdf  used on input line 99.
+Package pdftex.def Info: 2012_AIME_I_Problems-2.pdf  used on input line 100.
 (pdftex.def)             Requested size: 196.41833pt x 178.18626pt.
 
 
-[3 <./2012_AIME_I_Problems-2.pdf>]
+[2 <./2012_AIME_I_Problems-1.pdf>]
 
-[4] (2012_AIME_I_Problems.aux)
+[3 <./2012_AIME_I_Problems-2.pdf>] (2012_AIME_I_Problems.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
@@ -920,32 +917,33 @@ Package rerunfilecheck Info: File `2012_AIME_I_Problems.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25344 strings out of 473536
- 476531 string characters out of 5712052
+ 25349 strings out of 473536
+ 476642 string characters out of 5712052
  893249 words of memory out of 5000000
- 48152 multiletter control sequences out of 15000+600000
- 566393 words of font info for 66 fonts, out of 8000000 for 9000
+ 48157 multiletter control sequences out of 15000+600000
+ 566728 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,11n,107p,3117b,653s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/DefaultUser/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Default
-User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:
-/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmmi7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/DefaultUser/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/DefaultUser/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Defa
-ultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmsy7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/symbols/msam10.pfb>
-Output written on 2012_AIME_I_Problems.pdf (4 pages, 166096 bytes).
+ 102i,11n,107p,3117b,665s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\DefaultUser\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm1000.pk><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/DefaultUse
+r/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/U
+sers/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mmi5.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmi7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DefaultUser/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/DefaultUser/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Defau
+ltUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C
+:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmsy7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on 2012_AIME_I_Problems.pdf (3 pages, 165327 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
+ 122 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
