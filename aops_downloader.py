@@ -190,13 +190,12 @@ def run_latex_compilation(tex_filepath, cwd, pass_num, output_pdf_path):
         print(f"LaTeX pass {pass_num} for {tex_filename_base}.tex completed.")
         return (True, True)  # Compiled and succeeded
 
-def compile_latex_to_pdf(tex_filepath, asy_modules_dir="asy_modules"):
+def compile_latex_to_pdf(tex_filepath, asy_modules_dir_abs):
     """Compile LaTeX to PDF with Asymptote in a 'temp' subdirectory and move PDF to the base folder."""
     tex_filename_base = os.path.splitext(os.path.basename(tex_filepath))[0]
     temp_dir = os.path.dirname(tex_filepath)
     output_dir = os.path.dirname(os.path.dirname(temp_dir))  # Move up from temp/ to base output directory
     temp_dir_abs = os.path.abspath(temp_dir)
-    os.makedirs(asy_modules_dir, exist_ok=True)
     output_pdf_path = os.path.join(output_dir, tex_filename_base + ".pdf")
 
     try:
@@ -207,11 +206,11 @@ def compile_latex_to_pdf(tex_filepath, asy_modules_dir="asy_modules"):
         if not success_pass1:
             return None
 
-        if not install_asymptote_modules(asy_modules_dir):
+        if not install_asymptote_modules(asy_modules_dir_abs):
             return None
 
         # Asymptote compilation
-        any_asy_compiled, asy_success = run_asymptote_compilation(temp_dir_abs, asy_modules_dir)
+        any_asy_compiled, asy_success = run_asymptote_compilation(temp_dir_abs, asy_modules_dir_abs)
         if not asy_success:
             return None
 
@@ -621,11 +620,12 @@ async def main():
 
     # Directory setup using config
     output_folder = "output"
+    output_folder_abs = os.path.abspath(output_folder)
 
-    # Module installation
-    asy_modules_dir = "asy_modules"
-    os.makedirs(asy_modules_dir, exist_ok=True)
-    if not install_asymptote_modules(asy_modules_dir):
+    # Module installation with absolute path
+    asy_modules_dir_abs = os.path.abspath("asy_modules")
+    os.makedirs(asy_modules_dir_abs, exist_ok=True)
+    if not install_asymptote_modules(asy_modules_dir_abs):
         print("Module installation failed. Exiting.")
         exit()
 
@@ -663,13 +663,13 @@ async def main():
                 {title: problems},
                 title_year,
                 title,
-                output_folder,
+                output_folder_abs,
                 "problems",
                 is_combined=False
             )
             
             start_time_compile = time.time()
-            pdf_filepath = compile_latex_to_pdf(tex_filepath)
+            pdf_filepath = compile_latex_to_pdf(tex_filepath, asy_modules_dir_abs)
             compile_time = time.time() - start_time_compile
             print(f"Compilation time for {title}: {compile_time:.2f} seconds")
             
@@ -684,13 +684,13 @@ async def main():
             problems_by_title,
             year_range_combined,
             combined_filename,
-            output_folder,
+            output_folder_abs,
             "problems",
             is_combined=True
         )
         
         start_time_compile_combined = time.time()
-        pdf_filepath_combined = compile_latex_to_pdf(tex_filepath_combined)
+        pdf_filepath_combined = compile_latex_to_pdf(tex_filepath_combined, asy_modules_dir_abs)
         compile_time_combined = time.time() - start_time_compile_combined
         print(f"Compilation time for Combined {contest_type}: {compile_time_combined:.2f} seconds")
         

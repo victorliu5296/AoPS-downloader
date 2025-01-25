@@ -1,0 +1,46 @@
+
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{asymptote}
+\begin{asydef}
+  // Global Asymptote settings
+  settings.outformat = "pdf";
+  settings.render = 0;
+  settings.prc = false;
+  import olympiad;
+  import cse5;
+  size(8cm);
+\end{asydef}
+\pagestyle{fancy}
+\fancyhead[L]{\textbf{AIME Problems}}
+\fancyhead[R]{\textbf{2010}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{AIME Problems \\ 2010}
+\date{}
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{Problems}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item Let $N$ be the greatest integer multiple of $36$ all of whose digits are even and no two of whose digits are the same. Find the remainder when $N$ is divided by $1000$.\par \vspace{0.5em}\item A point $P$ is chosen at random in the interior of a unit square $S$. Let $d(P)$ denote the distance from $P$ to the closest side of $S$. The probability that $\frac{1}{5}\le d(P)\le\frac{1}{3}$ is equal to $\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$.\par \vspace{0.5em}\item Let $K$ be the product of all factors $(b-a)$ (not necessarily distinct) where $a$ and $b$ are integers satisfying $1\le a < b \le 20$. Find the greatest positive integer $n$ such that $2^n$ divides $K$.\par \vspace{0.5em}\item Dave arrives at an airport which has twelve gates arranged in a straight line with exactly $100$ feet between adjacent gates. His departure gate is assigned at random. After waiting at that gate, Dave is told the departure gate has been changed to a different gate, again at random. Let the probability that Dave walks $400$ feet or less to the new gate be a fraction $\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$.\par \vspace{0.5em}\item Positive numbers $x$, $y$, and $z$ satisfy $xyz = 10^{81}$ and $(\log_{10}x)(\log_{10} yz) + (\log_{10}y) (\log_{10}z) = 468$. Find $\sqrt {(\log_{10}x)^2 + (\log_{10}y)^2 + (\log_{10}z)^2}$.\par \vspace{0.5em}\item Find the smallest positive integer $n$ with the property that the polynomial $x^4 - nx + 63$ can be written as a product of two nonconstant polynomials with integer coefficients.\par \vspace{0.5em}\item Let $P(z)=z^3+az^2+bz+c$, where $a$, $b$, and $c$ are real. There exists a complex number $w$ such that the three roots of $P(z)$ are $w+3i$, $w+9i$, and $2w-4$, where $i^2=-1$. Find $|a+b+c|$.\par \vspace{0.5em}\item Let $N$ be the number of ordered pairs of nonempty sets $\mathcal{A}$ and $\mathcal{B}$ that have the following properties:
+
+<UL>
+<LI> $\mathcal{A} \cup \mathcal{B} = \{1,2,3,4,5,6,7,8,9,10,11,12\}$,</LI>
+<LI> $\mathcal{A} \cap \mathcal{B} = \emptyset$, </LI>
+<LI> The number of elements of $\mathcal{A}$ is not an element of $\mathcal{A}$,</LI>
+<LI> The number of elements of $\mathcal{B}$ is not an element of $\mathcal{B}$.
+</UL>
+
+Find $N$.\par \vspace{0.5em}\item Let $ABCDEF$ be a regular hexagon. Let $G$, $H$, $I$, $J$, $K$, and $L$ be the midpoints of sides $AB$, $BC$, $CD$, $DE$, $EF$, and $AF$, respectively. The segments $\overline{AH}$, $\overline{BI}$, $\overline{CJ}$, $\overline{DK}$, $\overline{EL}$, and $\overline{FG}$ bound a smaller regular hexagon. Let the ratio of the area of the smaller hexagon to the area of $ABCDEF$ be expressed as a fraction $\frac {m}{n}$ where $m$ and $n$ are relatively prime positive integers. Find $m + n$.\par \vspace{0.5em}\item Find the number of second-degree polynomials $f(x)$ with integer coefficients and integer zeros for which $f(0)=2010$.\par \vspace{0.5em}\item Define a <i>T-grid</i> to be a $3\times3$ matrix which satisfies the following two properties:
+
+<OL>
+<LI>Exactly five of the entries are $1$'s, and the remaining four entries are $0$'s.</LI>
+<LI>Among the eight rows, columns, and long diagonals (the long diagonals are $\{a_{13},a_{22},a_{31}\}$ and $\{a_{11},a_{22},a_{33}\})$, no more than one of the eight has all three entries equal.</LI></OL>
+
+Find the number of distinct <i>T-grids</i>.\par \vspace{0.5em}\item Two noncongruent integer-sided isosceles triangles have the same perimeter and the same area. The ratio of the lengths of the bases of the two triangles is $8: 7$. Find the minimum possible value of their common perimeter.\par \vspace{0.5em}\item The $52$ cards in a deck are numbered $1, 2, \cdots, 52$. Alex, Blair, Corey, and Dylan each pick a card from the deck randomly and without replacement. The two people with lower numbered cards form a team, and the two people with higher numbered cards form another team. Let $p(a)$ be the probability that Alex and Dylan are on the same team, given that Alex picks one of the cards $a$ and $a+9$, and Dylan picks the other of these two cards. The minimum value of $p(a)$ for which $p(a)\ge\frac{1}{2}$ can be written as $\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$.\par \vspace{0.5em}\item Triangle $ABC$ with right angle at $C$, $\angle BAC < 45^\circ$ and $AB = 4$. Point $P$ on $\overline{AB}$ is chosen such that $\angle APC = 2\angle ACP$ and $CP = 1$. The ratio $\frac{AP}{BP}$ can be represented in the form $p + q\sqrt{r}$, where $p$, $q$, $r$ are positive integers and $r$ is not divisible by the square of any prime. Find $p+q+r$.\par \vspace{0.5em}\item In triangle $ABC$, $AC=13$, $BC=14$, and $AB=15$. Points $M$ and $D$ lie on $AC$ with $AM=MC$ and $\angle ABD = \angle DBC$. Points $N$ and $E$ lie on $AB$ with $AN=NB$ and $\angle ACE = \angle ECB$. Let $P$ be the point, other than $A$, of intersection of the circumcircles of $\triangle AMN$ and $\triangle ADE$. Ray $AP$ meets $BC$ at $Q$. The ratio $\frac{BQ}{CQ}$ can be written in the form $\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m-n$.\par \vspace{0.5em}\end{enumerate}
+\end{document}

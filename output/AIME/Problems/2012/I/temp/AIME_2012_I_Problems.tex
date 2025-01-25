@@ -1,0 +1,116 @@
+
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{asymptote}
+\begin{asydef}
+  // Global Asymptote settings
+  settings.outformat = "pdf";
+  settings.render = 0;
+  settings.prc = false;
+  import olympiad;
+  import cse5;
+  size(8cm);
+\end{asydef}
+\pagestyle{fancy}
+\fancyhead[L]{\textbf{AIME Problems}}
+\fancyhead[R]{\textbf{2012}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{AIME Problems \\ 2012}
+\date{}
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{Problems}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item Find the number of positive integers with three not necessarily distinct digits, $abc$, with $a \neq 0$ and $c \neq 0$ such that both $abc$ and $cba$ are multiples of $4$.\par \vspace{0.5em}\item The terms of an arithmetic sequence add to $715$. The first term of the sequence is increased by $1$, the second term is increased by $3$, the third term is increased by $5$, and in general, the $k$th term is increased by the $k$th odd positive integer. The terms of the new sequence add to $836$. Find the sum of the first, last, and middle term of the original sequence.\par \vspace{0.5em}\item Nine people sit down for dinner where there are three choices of meals. Three people order the beef meal, three order the chicken meal, and three order the fish meal. The waiter serves the nine meals in random order. Find the number of ways in which the waiter could serve the meal types to the nine people so that exactly one person receives the type of meal ordered by that person.\par \vspace{0.5em}\item Butch and Sundance need to get out of Dodge. To travel as quickly as possible, each alternates walking and riding their only horse, Sparky, as follows. Butch begins by walking while Sundance rides. When Sundance reaches the first of the hitching posts that are conveniently located at one-mile intervals along their route, he ties Sparky to the post and begins walking. When Butch reaches Sparky, he rides until he passes Sundance, then leaves Sparky at the next hitching post and resumes walking, and they continue in this manner. Sparky, Butch, and Sundance walk at $6,$ $4,$ and $2.5$ miles per hour, respectively. The first time Butch and Sundance meet at a milepost, they are $n$ miles from Dodge, and they have been traveling for $t$ minutes. Find $n + t$.\par \vspace{0.5em}\item Let $B$ be the set of all binary integers that can be written using exactly $5$ zeros and $8$ ones where leading zeros are allowed. If all possible subtractions are performed in which one element of $B$ is subtracted from another, find the number of times the answer $1$ is obtained.\par \vspace{0.5em}\item The complex numbers $z$ and $w$ satisfy $z^{13} = w,$ $w^{11} = z,$ and the imaginary part of $z$ is $\sin{\frac{m\pi}{n}}$, for relatively prime positive integers $m$ and $n$ with $m<n.$ Find $n.$\par \vspace{0.5em}\item At each of the sixteen circles in the network below stands a student. A total of $3360$ coins are distributed among the sixteen students. All at once, all students give away all their coins by passing an equal number of coins to each of their neighbors in the network. After the trade, all students have the same number of coins as they started with. Find the number of coins the student standing at the center circle had originally.
+
+<center>
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+import cse5;
+unitsize(6mm);
+defaultpen(linewidth(.8pt));
+dotfactor = 8;
+pathpen=black;
+
+pair A = (0,0);
+pair B = 2*dir(54), C = 2*dir(126), D = 2*dir(198), E = 2*dir(270), F = 2*dir(342);
+pair G = 3.6*dir(18), H = 3.6*dir(90), I = 3.6*dir(162), J = 3.6*dir(234), K = 3.6*dir(306);
+pair M = 6.4*dir(54), N = 6.4*dir(126), O = 6.4*dir(198), P = 6.4*dir(270), L = 6.4*dir(342);
+pair[] dotted = {A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P};
+
+D(A--B--H--M);
+D(A--C--H--N);
+D(A--F--G--L);
+D(A--E--K--P);
+D(A--D--J--O);
+D(B--G--M);
+D(F--K--L);
+D(E--J--P);
+D(O--I--D);
+D(C--I--N);
+D(L--M--N--O--P--L);
+
+dot(dotted);
+\end{asy}
+\end{center}
+</center>\par \vspace{0.5em}\item Cube $ABCDEFGH,$ labeled as shown below, has edge length $1$ and is cut by a plane passing through vertex $D$ and the midpoints $M$ and $N$ of $\overline{AB}$ and $\overline{CG}$ respectively. The plane divides the cube into two solids. The volume of the larger of the two solids can be written in the form $\tfrac{p}{q},$ where $p$ and $q$ are relatively prime positive integers. Find $p+q.$
+
+<center>
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+import cse5;
+unitsize(10mm);
+pathpen=black;
+dotfactor=3;
+
+pair A = (0,0), B = (3.8,0), C = (5.876,1.564), D = (2.076,1.564), E = (0,3.8), F = (3.8,3.8), G = (5.876,5.364), H = (2.076,5.364), M = (1.9,0), N = (5.876,3.465);
+pair[] dotted = {A,B,C,D,E,F,G,H,M,N};
+
+D(A--B--C--G--H--E--A);
+D(E--F--B);
+D(F--G);
+pathpen=dashed;
+D(A--D--H);
+D(D--C);
+
+dot(dotted);
+label("$A$",A,SW);
+label("$B$",B,S);
+label("$C$",C,SE);
+label("$D$",D,NW);
+label("$E$",E,W);
+label("$F$",F,SE);
+label("$G$",G,NE);
+label("$H$",H,NW);
+label("$M$",M,S);
+label("$N$",N,NE);
+\end{asy}
+\end{center}
+</center>\par \vspace{0.5em}\item Let $x,$ $y,$ and $z$ be positive real numbers that satisfy
+
+\begin{equation*}
+2\log_{x}(2y) = 2\log_{2x}(4z) = \log_{2x^4}(8yz) \ne 0.
+\end{equation*}
+
+The value of $xy^5z$ can be expressed in the form $\frac{1}{2^{p/q}},$ where $p$ and $q$ are relatively prime positive integers. Find $p+q.$\par \vspace{0.5em}\item Let $\mathcal{S}$ be the set of all perfect squares whose rightmost three digits in base $10$ are $256$. Let $\mathcal{T}$ be the set of all numbers of the form $\frac{x-256}{1000}$, where $x$ is in $\mathcal{S}$. In other words, $\mathcal{T}$ is the set of numbers that result when the last three digits of each number in $\mathcal{S}$ are truncated. Find the remainder when the tenth smallest element of $\mathcal{T}$ is divided by $1000$.\par \vspace{0.5em}\item A frog begins at $P_0 = (0,0)$ and makes a sequence of jumps according to the following rule: from $P_n = (x_n, y_n),$ the frog jumps to $P_{n+1},$ which may be any of the points $(x_n + 7, y_n + 2),$ $(x_n + 2, y_n + 7),$ $(x_n - 5, y_n - 10),$ or $(x_n - 10, y_n - 5).$ There are $M$ points $(x, y)$ with $|x| + |y| \le 100$ that can be reached by a sequence of such jumps. Find the remainder when $M$ is divided by $1000.$\par \vspace{0.5em}\item Let $\triangle ABC$ be a right triangle with right angle at $C.$ Let $D$ and $E$ be points on $\overline{AB}$ with $D$ between $A$ and $E$ such that $\overline{CD}$ and $\overline{CE}$ trisect $\angle C.$ If $\frac{DE}{BE} = \frac{8}{15},$ then $\tan B$ can be written as $\frac{m \sqrt{p}}{n},$ where $m$ and $n$ are relatively prime positive integers, and $p$ is a positive integer not divisible by the square of any prime. Find $m+n+p.$\par \vspace{0.5em}\item Three concentric circles have radii $3,$ $4,$ and $5.$ An equilateral triangle with one vertex on each circle has side length $s.$ The largest possible area of the triangle can be written as $a + \tfrac{b}{c} \sqrt{d},$ where $a,$ $b,$ $c,$ and $d$ are positive integers, $b$ and $c$ are relatively prime, and $d$ is not divisible by the square of any prime. Find $a+b+c+d.$\par \vspace{0.5em}\item Complex numbers $a,$ $b,$ and $c$ are zeros of a polynomial $P(z) = z^3 + qz + r,$ and $|a|^2 + |b|^2 + |c|^2 = 250.$ The points corresponding to $a,$ $b,$ and $c$ in the complex plane are the vertices of a right triangle with hypotenuse $h.$ Find $h^2.$\par \vspace{0.5em}\item There are $n$ mathematicians seated around a circular table with $n$ seats numbered $1,$ $2,$ $3,$ $...,$ $n$ in clockwise order. After a break they again sit around the table. The mathematicians note that there is a positive integer $a$ such that
+
+<UL>
+($1$) for each $k,$ the mathematician who was seated in seat $k$ before the break is seated in seat $ka$ after the break (where seat $i + n$ is seat $i$);
+</UL>
+
+<UL>
+($2$) for every pair of mathematicians, the number of mathematicians sitting between them after the break, counting in both the clockwise and the counterclockwise directions, is different from either of the number of mathematicians sitting between them before the break.
+</UL>
+
+Find the number of possible values of $n$ with $1 < n < 1000.$\par \vspace{0.5em}\end{enumerate}
+\end{document}

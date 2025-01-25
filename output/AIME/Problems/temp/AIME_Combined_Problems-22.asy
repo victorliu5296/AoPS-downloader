@@ -1,0 +1,40 @@
+if(!settings.multipleView) settings.batchView=false;
+settings.tex="pdflatex";
+defaultfilename="AIME_Combined_Problems-22";
+if(settings.render < 0) settings.render=4;
+settings.outformat="";
+settings.inlineimage=true;
+settings.embed=true;
+settings.toolbar=false;
+viewportmargin=(2,2);
+
+// Global Asymptote settings
+settings.outformat = "pdf";
+settings.render = 0;
+settings.prc = false;
+import olympiad;
+import cse5;
+size(8cm);
+
+import olympiad;
+import cse5;
+pair A,B,C,D,E,F,G;
+B=origin;
+A=5*dir(60);
+C=(5,0);
+E=0.6*A+0.4*B;
+F=0.6*A+0.4*C;
+G=rotate(240,F)*A;
+D=extension(E,F,B,dir(90));
+draw(D--G--A,grey);
+draw(B--0.5*A+rotate(60,B)*A*0.5,grey);
+draw(A--B--C--cycle,linewidth(1.5));
+dot(A^^B^^C^^D^^E^^F^^G);
+label("$A$",A,dir(90));
+label("$B$",B,dir(225));
+label("$C$",C,dir(-45));
+label("$D$",D,dir(180));
+label("$E$",E,dir(-45));
+label("$F$",F,dir(225));
+label("$G$",G,dir(0));
+label("$\ell$",midpoint(E--F),dir(90));

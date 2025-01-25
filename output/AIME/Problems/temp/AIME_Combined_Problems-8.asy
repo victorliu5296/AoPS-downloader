@@ -1,0 +1,46 @@
+if(!settings.multipleView) settings.batchView=false;
+settings.tex="pdflatex";
+defaultfilename="AIME_Combined_Problems-8";
+if(settings.render < 0) settings.render=4;
+settings.outformat="";
+settings.inlineimage=true;
+settings.embed=true;
+settings.toolbar=false;
+viewportmargin=(2,2);
+
+// Global Asymptote settings
+settings.outformat = "pdf";
+settings.render = 0;
+settings.prc = false;
+import olympiad;
+import cse5;
+size(8cm);
+
+import olympiad;
+import cse5;
+pair A = (0,sqrt(850));
+pair B = (0,0);
+pair C = (sqrt(850),0);
+pair D = (sqrt(850),sqrt(850));
+draw(A--B--C--D--cycle);
+dotfactor = 3;
+dot("$A$",A,dir(135));
+dot("$B$",B,dir(215));
+dot("$C$",C,dir(305));
+dot("$D$",D,dir(45));
+pair H = ((2sqrt(850)-sqrt(306))/6,sqrt(850));
+pair F = ((2sqrt(850)+sqrt(306)+7)/6,0);
+dot("$H$",H,dir(90));
+dot("$F$",F,dir(270));
+draw(H--F);
+pair E = (0,(sqrt(850)-6)/2);
+pair G = (sqrt(850),(sqrt(850)+sqrt(100))/2);
+dot("$E$",E,dir(180));
+dot("$G$",G,dir(0));
+draw(E--G);
+pair P = extension(H,F,E,G);
+dot("$P$",P,dir(60));
+label("$w$", intersectionpoint( A--P, E--H ));
+label("$x$", intersectionpoint( B--P, E--F ));
+label("$y$", intersectionpoint( C--P, G--F ));
+label("$z$", intersectionpoint( D--P, G--H ));

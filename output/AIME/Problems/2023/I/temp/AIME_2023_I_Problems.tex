@@ -1,0 +1,95 @@
+
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{asymptote}
+\begin{asydef}
+  // Global Asymptote settings
+  settings.outformat = "pdf";
+  settings.render = 0;
+  settings.prc = false;
+  import olympiad;
+  import cse5;
+  size(8cm);
+\end{asydef}
+\pagestyle{fancy}
+\fancyhead[L]{\textbf{AIME Problems}}
+\fancyhead[R]{\textbf{2023}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{AIME Problems \\ 2023}
+\date{}
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{Problems}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item Five men and nine women stand equally spaced around a circle in random order. The probability that every man stands diametrically opposite a woman is $\frac{m}{n},$ where $m$ and $n$ are relatively prime positive integers. Find $m+n.$\par \vspace{0.5em}\item Positive real numbers $b \not= 1$ and $n$ satisfy the equations 
+\begin{equation*}
+\sqrt{\log_b n} = \log_b \sqrt{n} \qquad \text{and} \qquad b \cdot \log_b n = \log_b (bn).
+\end{equation*}
+ The value of $n$ is $\frac{j}{k},$ where $j$ and $k$ are relatively prime positive integers. Find $j+k.$\par \vspace{0.5em}\item A plane contains $40$ lines, no $2$ of which are parallel. Suppose that there are $3$ points where exactly $3$ lines intersect, $4$ points where exactly $4$ lines intersect, $5$ points where exactly $5$ lines intersect, $6$ points where exactly $6$ lines intersect, and no points where more than $6$ lines intersect. Find the number of points where exactly $2$ lines intersect.\par \vspace{0.5em}\item The sum of all positive integers $m$ such that $\frac{13!}{m}$ is a perfect square can be written as $2^a3^b5^c7^d11^e13^f,$ where $a,b,c,d,e,$ and $f$ are positive integers. Find $a+b+c+d+e+f.$\par \vspace{0.5em}\item Let $P$ be a point on the circle circumscribing square $ABCD$ that satisfies $PA \cdot PC = 56$ and $PB \cdot PD = 90.$ Find the area of $ABCD.$\par \vspace{0.5em}\item Alice knows that $3$ red cards and $3$ black cards will be revealed to her one at a time in random order. Before each card is revealed, Alice must guess its color. If Alice plays optimally, the expected number of cards she will guess correctly is $\frac{m}{n},$ where $m$ and $n$ are relatively prime positive integers. Find $m+n.$\par \vspace{0.5em}\item Call a positive integer $n$ extra-distinct if the remainders when $n$ is divided by $2, 3, 4, 5,$ and $6$ are distinct. Find the number of extra-distinct positive integers less than $1000$.\par \vspace{0.5em}\item Rhombus $ABCD$ has $\angle BAD < 90^\circ.$ There is a point $P$ on the incircle of the rhombus such that the distances from $P$ to the lines $DA,AB,$ and $BC$ are $9,5,$ and $16,$ respectively. Find the perimeter of $ABCD.$\par \vspace{0.5em}\item Find the number of cubic polynomials $p(x) = x^3 + ax^2 + bx + c,$ where $a, b,$ and $c$ are integers in $\{-20,-19,-18,\ldots,18,19,20\},$ such that there is a unique integer $m \not= 2$ with $p(m) = p(2).$\par \vspace{0.5em}\item There exists a unique positive integer $a$ for which the sum 
+\begin{equation*}
+U=\sum_{n=1}^{2023}\left\lfloor\dfrac{n^{2}-na}{5}\right\rfloor
+\end{equation*}
+ is an integer strictly between $-1000$ and $1000$. For that unique $a$, find $a+U$.
+
+(Note that $\lfloor x\rfloor$ denotes the greatest integer that is less than or equal to $x$.)\par \vspace{0.5em}\item Find the number of subsets of $\{1,2,3,\ldots,10\}$ that contain exactly one pair of consecutive integers. Examples of such subsets are $\{\mathbf{1},\mathbf{2},5\}$ and $\{1,3,\mathbf{6},\mathbf{7},10\}.$\par \vspace{0.5em}\item Let $\triangle ABC$ be an equilateral triangle with side length $55.$ Points $D,$ $E,$ and $F$ lie on $\overline{BC},$ $\overline{CA},$ and $\overline{AB},$ respectively, with $BD = 7,$ $CE=30,$ and $AF=40.$ Point $P$ inside $\triangle ABC$ has the property that 
+\begin{equation*}
+\angle AEP = \angle BFP = \angle CDP.
+\end{equation*}
+ Find $\tan^2(\angle AEP).$\par \vspace{0.5em}\item Each face of two noncongruent parallelepipeds is a rhombus whose diagonals have lengths $\sqrt{21}$ and $\sqrt{31}$. The ratio of the volume of the larger of the two polyhedra to the volume of the smaller is $\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m + n$. A parallelepiped is a solid with six parallelogram faces such as the one shown below.
+
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+unitsize(2cm);
+pair o = (0, 0), u = (1, 0), v = 0.8*dir(40), w = dir(70);
+
+draw(o--u--(u+v));
+draw(o--v--(u+v), dotted);
+draw(shift(w)*(o--u--(u+v)--v--cycle));
+draw(o--w);
+draw(u--(u+w));
+draw(v--(v+w), dotted);
+draw((u+v)--(u+v+w));
+\end{asy}
+\end{center}
+\par \vspace{0.5em}\item The following analog clock has two hands that can move independently of each other.
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+unitsize(2cm);
+            draw(unitcircle,black+linewidth(2));
+
+            for (int i = 0; i < 12; ++i) {
+                draw(0.9*dir(30*i)--dir(30*i));
+            }
+            for (int i = 0; i < 4; ++i) {
+                draw(0.85*dir(90*i)--dir(90*i),black+linewidth(2));
+            }
+            for (int i = 1; i < 13; ++i) {
+                label("\small" + (string) i, dir(90 - i * 30) * 0.75);
+            }
+            draw((0,0)--0.6*dir(90),black+linewidth(2),Arrow(TeXHead,2bp));
+            draw((0,0)--0.4*dir(90),black+linewidth(2),Arrow(TeXHead,2bp));
+\end{asy}
+\end{center}
+
+Initially, both hands point to the number $12$. The clock performs a sequence of hand movements so that on each movement, one of the two hands moves clockwise to the next number on the clock face while the other hand does not move.
+
+Let $N$ be the number of sequences of $144$ hand movements such that during the sequence, every possible positioning of the hands appears exactly once, and at the end of the $144$ movements, the hands have returned to their initial position. Find the remainder when $N$ is divided by $1000$.\par \vspace{0.5em}\item Find the largest prime number $p<1000$ for which there exists a complex number $z$ satisfying
+
+* the real and imaginary part of $z$ are both integers;
+
+* $|z|=\sqrt{p},$ and
+
+* there exists a triangle whose three side lengths are $p,$ the real part of $z^{3},$ and the imaginary part of $z^{3}.$\par \vspace{0.5em}\end{enumerate}
+\end{document}
