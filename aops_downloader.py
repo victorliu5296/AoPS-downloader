@@ -318,9 +318,13 @@ def get_cache_filename(title):
     safe_title = title.replace(" ", "_").replace("/", "_")
     return os.path.join(WIKI_CACHE_DIR, f"{safe_title}.html")
 
-async def async_download_wiki_page(session, title, use_cache=True):
+async def async_download_wiki_page(session, title, contest_type, year, use_cache=True):
     """Asynchronously downloads the AoPS Wiki page for a given title, using cache."""
-    cache_filename = get_cache_filename(title)
+    # Create organized cache directory structure
+    cache_dir = os.path.join("wiki_cache", contest_type, str(year))
+    os.makedirs(cache_dir, exist_ok=True)
+    cache_filename = os.path.join(cache_dir, f"{title}.html")
+
     if use_cache and os.path.exists(cache_filename):
         print(f"Using cached wiki page for: {title}")
         with open(cache_filename, "r", encoding="utf-8") as f:
@@ -469,7 +473,7 @@ def escape_non_math_content(content):
         r'(\\\(.*?\\\)|'                    # Inline math \(...\)
         r'\\\[.*?\\\]|'                     # Display math \[...\]
         r'\$\$.*?\$\$|'                     # $$...$$
-        r'\\begin\{(\w+)\*?\}.*?\\end\{\2\*?\})',  # Any \begin{env}...\end{env} (with optional *)
+        r'\\begin\{(\w+)\*?\}.*\\end\{\2\*?\})',  # Greedy match for environments
         re.DOTALL | re.IGNORECASE
     )
 
@@ -682,35 +686,30 @@ def process_problems(problems_by_title, is_combined):
     latex_content_body = ""
     
     if is_combined:
-        # Sort titles lexicographically (chronological since year comes first)
-        sorted_titles = sorted(problems_by_title.keys())
-        for title in sorted_titles:
-            # Format title: "2012_AMC_12A_Problems" -> "2012 AMC 12A Problems"
-            display_title = title.replace("_", " ")
-            # Add unnumbered section and TOC entry
-            latex_content_body += (
-                r"\section*{" + display_title + "}\n"
-                r"\addcontentsline{toc}{section}{" + display_title + "}\n"
-            )
-            problems = problems_by_title[title]
-
-            latex_content_body += r"\begin{enumerate}[label=\arabic*., itemsep=0.5em]"
-            for problem in problems:
-                processed_problem = process_problem_content(problem)
-                latex_content_body += r"\item " + processed_problem + r"\par \vspace{0.5em}"
-            latex_content_body += r"\end{enumerate}\newpage"
+        titles = sorted(problems_by_title.keys())
     else:
-        # Single document - get the only title in the dict
-        title = next(iter(problems_by_title))
-        display_title = title.replace("_", " ").replace(" Problems", "")
-        latex_content_body += r"\section*{" + display_title + r"}"
-        problems = problems_by_title[title]
-
-        latex_content_body += r"\begin{enumerate}[label=\arabic*., itemsep=0.5em]"
-        for problem in problems:
+        titles = [next(iter(problems_by_title))]
+        
+    for title in titles:
+        # Format title
+        display_title = title.replace("_", " ")
+        if not is_combined:
+            display_title = display_title.replace(" Problems", "")
+            
+        # Add section header
+        latex_content_body += r"\section*{" + display_title + "}"
+        if is_combined:
+            latex_content_body += r"\addcontentsline{toc}{section}{" + display_title + "}\n"
+            
+        # Process problems
+        latex_content_body += "\n" + r"\begin{enumerate}[label=\arabic*., itemsep=0.5em]" + "\n"
+        for problem in problems_by_title[title]:
             processed_problem = process_problem_content(problem)
             latex_content_body += r"\item " + processed_problem + r"\par \vspace{0.5em}"
-        latex_content_body += r"\end{enumerate}"
+        latex_content_body += "\n" + r"\end{enumerate}" + "\n"
+        
+        if is_combined:
+            latex_content_body += r"\newpage"
 
     return latex_content_body
 
@@ -851,10 +850,10 @@ async def main():
                 if contest_config["variants"]:
                     for variant in contest_config["variants"]:
                         title = template["template"].format(year=year, variant=variant)
-                        download_tasks.append(async_download_wiki_page(session, title))
+                        download_tasks.append(async_download_wiki_page(session, title, contest_type, year))
                 else:
                     title = template["template"].format(year=year)
-                    download_tasks.append(async_download_wiki_page(session, title))
+                    download_tasks.append(async_download_wiki_page(session, title, contest_type, year))
 
         download_results = await asyncio.gather(*download_tasks)
 
