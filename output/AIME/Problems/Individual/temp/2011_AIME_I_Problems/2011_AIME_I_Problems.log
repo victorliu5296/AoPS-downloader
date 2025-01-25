@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 00:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 01:54
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -895,7 +895,7 @@ LaTeX Warning: No \author given.
 <2011_AIME_I_Problems-1.pdf, id=14, 301.50441pt x 114.4024pt>
 File: 2011_AIME_I_Problems-1.pdf Graphic file (type pdf)
 <use 2011_AIME_I_Problems-1.pdf>
-Package pdftex.def Info: 2011_AIME_I_Problems-1.pdf  used on input line 92.
+Package pdftex.def Info: 2011_AIME_I_Problems-1.pdf  used on input line 93.
 (pdftex.def)             Requested size: 301.50366pt x 114.40211pt.
 
 
@@ -912,11 +912,11 @@ Package rerunfilecheck Info: File `2011_AIME_I_Problems.out' has not changed.
 Here is how much of TeX's memory you used:
  25332 strings out of 473536
  476145 string characters out of 5712052
- 897254 words of memory out of 5000000
+ 897249 words of memory out of 5000000
  48142 multiletter control sequences out of 15000+600000
  566393 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,11n,107p,3235b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,11n,107p,3235b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/Mi
@@ -934,7 +934,7 @@ faultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb
 s/cm/cmsy10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmsy7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on 2011_AIME_I_Problems.pdf (3 pages, 175670 bytes).
+Output written on 2011_AIME_I_Problems.pdf (3 pages, 175185 bytes).
 PDF statistics:
  119 PDF objects out of 1000 (max. 8388607)
  20 named destinations out of 1000 (max. 500000)

@@ -502,6 +502,18 @@ def process_problem_content(problem):
             cleaned_content = re.sub(pattern, r'\1', cleaned_content, flags=re.DOTALL | re.IGNORECASE)
         return f'\n\\begin{{equation*}}\n{cleaned_content.strip()}\n\\end{{equation*}}\n'
 
+    problem = re.sub(
+        r'<center>(.*?)</center>',
+        r'\\begin{center}\n\1\n\\end{center}',
+        problem,
+        flags=re.DOTALL
+    )
+
+    problem = re.sub(r'<math>(.*?)</math>', r'\\(\1\\)', problem, flags=re.DOTALL)
+    problem = re.sub(r'<cmath>(.*?)</cmath>', replace_cmath, problem, flags=re.DOTALL)
+    problem = re.sub(r'\\begin{aligned\*}', r'\\begin{aligned}', problem)
+    problem = re.sub(r'\\end{aligned\*}', r'\\end{aligned}', problem)
+
     # Escape LaTeX-sensitive HTML entities before unescaping
     problem = re.sub(
         r'(&amp;|&#(?:35|36|37|95|123|125|126|94|92);)',
@@ -510,12 +522,6 @@ def process_problem_content(problem):
     )
 
     problem = html.unescape(problem)
-    problem = re.sub(r'<math>(.*?)</math>', r'\\(\1\\)', problem, flags=re.DOTALL)
-
-    problem = re.sub(r'<cmath>(.*?)</cmath>', replace_cmath, problem, flags=re.DOTALL)
-
-    problem = re.sub(r'\\begin{aligned\*}', r'\\begin{aligned}', problem)
-    problem = re.sub(r'\\end{aligned\*}', r'\\end{aligned}', problem)
 
     parts = []
     current_pos = 0

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  24 JAN 2025 23:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 02:00
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -684,13 +684,13 @@ File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/asymptote\asympto
 te.sty
 Package: asymptote 2024/02/26 v1.38 Asymptote style file for LaTeX
-
-No file 2011_AMC_12B_Problems.pre.
+ (2011_AMC_12B_Problems.pre)
 \ASYbox=\box66
 \ASYdimen=\dimen272
 \c@asy=\count320
 \AsyStream=\write4
 \AsyPreStream=\write5
+
 (C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
@@ -775,6 +775,7 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \xwm@boxb=\box68
 \xwm@cnta=\count330
 \xwm@wrt=\write6
+ (2011_AMC_12B_Problems.xwm)
 \openout6 = `2011_AMC_12B_Problems.xwm'.
 
 )
@@ -783,8 +784,7 @@ nd-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count331
 \l__pdf_internal_box=\box69
-)
-No file 2011_AMC_12B_Problems.aux.
+) (2011_AMC_12B_Problems.aux)
 \openout1 = `2011_AMC_12B_Problems.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -805,6 +805,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -840,6 +841,7 @@ LaTeX Font Info:    ... okay on input line 32.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 32.
+(2011_AMC_12B_Problems.out) (2011_AMC_12B_Problems.out)
 \@outlinefile=\write7
 \openout7 = `2011_AMC_12B_Problems.out'.
 
@@ -890,40 +892,33 @@ LaTeX Warning: No \author given.
 ]
 \openout4 = `2011_AMC_12B_Problems-1.asy'.
 
-
-
-Package asymptote Warning: file `2011_AMC_12B_Problems-1.pdf' not found on inpu
-t line 71.
-
+<2011_AMC_12B_Problems-1.pdf, id=14, 97.94592pt x 97.94592pt>
+File: 2011_AMC_12B_Problems-1.pdf Graphic file (type pdf)
+<use 2011_AMC_12B_Problems-1.pdf>
+Package pdftex.def Info: 2011_AMC_12B_Problems-1.pdf  used on input line 73.
+(pdftex.def)             Requested size: 97.94568pt x 97.94568pt.
 
 
 [2]
 
-[3]
+[3 <./2011_AMC_12B_Problems-1.pdf>]
 
 [4] (2011_AMC_12B_Problems.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
-
-
-Package rerunfilecheck Warning: File `2011_AMC_12B_Problems.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `2011_AMC_12B_Problems.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `2011_AMC_12B_Problems.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25329 strings out of 473536
- 475265 string characters out of 5712052
- 905030 words of memory out of 5000000
- 48136 multiletter control sequences out of 15000+600000
+ 25347 strings out of 473536
+ 476326 string characters out of 5712052
+ 902267 words of memory out of 5000000
+ 48144 multiletter control sequences out of 15000+600000
  567012 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,107p,637b,597s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,12n,107p,637b,663s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/Mi
@@ -938,9 +933,9 @@ ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/DefaultUser/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/De
 faultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msa
 m10.pfb>
-Output written on 2011_AMC_12B_Problems.pdf (4 pages, 149768 bytes).
+Output written on 2011_AMC_12B_Problems.pdf (4 pages, 150152 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
+ 116 PDF objects out of 1000 (max. 8388607)
  31 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
