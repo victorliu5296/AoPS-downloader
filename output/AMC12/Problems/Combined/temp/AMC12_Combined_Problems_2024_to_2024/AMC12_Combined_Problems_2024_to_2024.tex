@@ -1,0 +1,394 @@
+
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in}
+\usepackage{enumitem}
+\usepackage[hypertexnames=true, linktoc=all]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{asymptote}
+\usepackage{arcs}
+\usepackage{xwatermark}
+\begin{asydef}
+  // Global Asymptote settings
+  settings.outformat = "pdf";
+  settings.render = 0;
+  settings.prc = false;
+  import olympiad;
+  import cse5;
+  size(8cm);
+\end{asydef}
+\pagestyle{fancy}
+\fancyhead[L]{\textbf{AMC12 Problems}}
+\fancyhead[R]{\textbf{2024-2024}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{AMC12 Problems \\ 2024-2024}
+\date{}
+\begin{document}\maketitle\thispagestyle{fancy}\tableofcontents\newpage\section*{2024 AMC 12A Problems}
+\addcontentsline{toc}{section}{2024 AMC 12A Problems}
+\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item What is the value of \(9901\cdot101-99\cdot10101?\)
+
+\(\textbf{(A)}~2\qquad\textbf{(B)}~20\qquad\textbf{(C)}~200\qquad\textbf{(D)}~202\qquad\textbf{(E)}~2020\)\par \vspace{0.5em}\item A model used to estimate the time it will take to hike to the top of the mountain on a trail is of the form \(T=aL+bG,\) where \(a\) and \(b\) are constants, \(T\) is the time in minutes, \(L\) is the length of the trail in miles, and \(G\) is the altitude gain in feet. The model estimates that it will take \(69\) minutes to hike to the top if a trail is \(1.5\) miles long and ascends \(800\) feet, as well as if a trail is \(1.2\) miles long and ascends \(1100\) feet. How many minutes does the model estimates it will take to hike to the top if the trail is \(4.2\) miles long and ascends \(4000\) feet?
+
+\(\textbf{(A) }240\qquad\textbf{(B) }246\qquad\textbf{(C) }252\qquad\textbf{(D) }258\qquad\textbf{(E) }264\)\par \vspace{0.5em}\item The number \(2024\) is written as the sum of not necessarily distinct two-digit numbers. What is the least number of two-digit numbers needed to write this sum?
+
+\(\textbf{(A) }20\qquad\textbf{(B) }21\qquad\textbf{(C) }22\qquad\textbf{(D) }23\qquad\textbf{(E) }24\)\par \vspace{0.5em}\item What is the least value of \(n\) such that \(n!\) is a multiple of \(2024\)?
+
+\(
+\textbf{(A) }11 \qquad
+\textbf{(B) }21 \qquad
+\textbf{(C) }22 \qquad
+\textbf{(D) }23 \qquad
+\textbf{(E) }253 \qquad
+\)\par \vspace{0.5em}\item A data set containing \(20\) numbers, some of which are \(6\), has mean \(45\). When all the 6s are removed, the data set has mean \(66\). How many 6s were in the original data set?
+
+\(\textbf{(A) }4\qquad\textbf{(B) }5\qquad\textbf{(C) }6\qquad\textbf{(D) }7\qquad\textbf{(E) }8\)\par \vspace{0.5em}\item The product of three integers is \(60\). What is the least possible positive sum of the three integers?
+
+\(\textbf{(A) } 2 \qquad \textbf{(B) } 3 \qquad \textbf{(C) } 5 \qquad \textbf{(D) } 6 \qquad \textbf{(E) } 13\)\par \vspace{0.5em}\item In \(\Delta ABC\), \(\angle ABC = 90^\circ\) and \(BA = BC = \sqrt{2}\). Points \(P_1, P_2, \dots, P_{2024}\) lie on hypotenuse \(\overline{AC}\) so that \(AP_1= P_1P_2 = P_2P_3 = \dots = P_{2023}P_{2024} = P_{2024}C\). What is the length of the vector sum
+
+\begin{equation*}
+\overrightarrow{BP_1} + \overrightarrow{BP_2} + \overrightarrow{BP_3} + \dots + \overrightarrow{BP_{2024}}?
+\end{equation*}
+
+\(
+\textbf{(A) }1011 \qquad
+\textbf{(B) }1012 \qquad
+\textbf{(C) }2023 \qquad
+\textbf{(D) }2024 \qquad
+\textbf{(E) }2025 \qquad
+\)\par \vspace{0.5em}\item How many angles \(\theta\) with \(0\le\theta\le2\pi\) satisfy \(\log(\sin(3\theta))+\log(\cos(2\theta))=0\)?  
+
+\( \textbf{(A) }0 \qquad \textbf{(B) }1 \qquad \textbf{(C) }2 \qquad \textbf{(D) }3 \qquad \textbf{(E) }4 \qquad \)\par \vspace{0.5em}\item Let \(M\) be the greatest integer such that both \(M + 1213\) and \(M + 3773\) are perfect squares. What is the units digit of \(M\)?
+
+\(
+\textbf{(A) }1 \qquad
+\textbf{(B) }2 \qquad
+\textbf{(C) }3 \qquad
+\textbf{(D) }6 \qquad
+\textbf{(E) }8 \qquad
+\)\par \vspace{0.5em}\item Let \(\alpha\) be the radian measure of the smallest angle in a \(3{-}4{-}5\) right triangle. Let \(\beta\) be the radian measure of the smallest angle in a \(7{-}24{-}25\) right triangle. In terms of \(\alpha\), what is \(\beta\)?
+
+\(
+\textbf{(A) }\frac{\alpha}{3}\qquad
+\textbf{(B) }\alpha - \frac{\pi}{8}\qquad
+\textbf{(C) }\frac{\pi}{2} - 2\alpha \qquad
+\textbf{(D) }\frac{\alpha}{2}\qquad
+\textbf{(E) }\pi - 4\alpha\qquad
+\)\par \vspace{0.5em}\item There are exactly \(K\) positive integers \(b\) with \(5 \leq b \leq 2024\) such that the base-\(b\) integer \(2024_b\) is divisible by \(16\) (where \(16\) is in base ten). What is the sum of the digits of \(K\)?
+
+\(\textbf{(A) }16\qquad\textbf{(B) }17\qquad\textbf{(C) }18\qquad\textbf{(D) }20\qquad\textbf{(E) }21\)\par \vspace{0.5em}\item The first three terms of a geometric sequence are the integers \(a,\,720,\) and \(b,\) where \(a<720<b.\) What is the sum of the digits of the least possible value of \(b?\)
+
+\(\textbf{(A) } 9 \qquad \textbf{(B) } 12 \qquad \textbf{(C) } 16 \qquad \textbf{(D) } 18 \qquad \textbf{(E) } 21\)\par \vspace{0.5em}\item The graph of \(y=e^{x+1}+e^{-x}-2\) has an axis of symmetry. What is the reflection of the point \((-1,\tfrac{1}{2})\) over this axis?
+
+\(\textbf{(A) }\left(-1,-\frac{3}{2}\right)\qquad\textbf{(B) }(-1,0)\qquad\textbf{(C) }\left(-1,\tfrac{1}{2}\right)\qquad\textbf{(D) }\left(0,\frac{1}{2}\right)\qquad\textbf{(E) }\left(3,\frac{1}{2}\right)\)\par \vspace{0.5em}\item The numbers, in order, of each row and the numbers, in order, of each column of a \(5 \times 5\) array of integers form an arithmetic progression of length \(5{.}\) The numbers in positions \((5, 5), \,(2,4),\,(4,3),\) and \((3, 1)\) are \(0, 48, 16,\) and \(12{,}\) respectively. What number is in position \((1, 2)?\)
+
+\begin{equation*}
+\begin{bmatrix} . & ? &.&.&. \\ .&.&.&48&.\\ 12&.&.&.&.\\ .&.&16&.&.\\ .&.&.&.&0\end{bmatrix}
+\end{equation*}
+
+\(\textbf{(A) } 19 \qquad \textbf{(B) } 24 \qquad \textbf{(C) } 29 \qquad \textbf{(D) } 34 \qquad \textbf{(E) } 39\)\par \vspace{0.5em}\item The roots of \(x^3 + 2x^2 - x + 3\) are \(p, q,\) and \(r.\) What is the value of 
+\begin{equation*}
+(p^2 + 4)(q^2 + 4)(r^2 + 4)?
+\end{equation*}
+
+\(\textbf{(A) } 64 \qquad \textbf{(B) } 75 \qquad \textbf{(C) } 100 \qquad \textbf{(D) } 125 \qquad \textbf{(E) } 144\)\par \vspace{0.5em}\item A set of \(12\) tokens ---- \(3\) red, \(2\) white, \(1\) blue, and \(6\) black ---- is to be distributed at random to \(3\) game players, \(4\) tokens per player. The probability that some player gets all the red tokens, another gets all the white tokens, and the remaining player gets the blue token can be written as \(\frac{m}{n}\), where \(m\) and \(n\) are relatively prime positive integers. What is \(m+n\)?
+
+\(
+\textbf{(A) }387 \qquad
+\textbf{(B) }388 \qquad
+\textbf{(C) }389 \qquad
+\textbf{(D) }390 \qquad
+\textbf{(E) }391 \qquad
+\)\par \vspace{0.5em}\item Integers \(a\), \(b\), and \(c\) satisfy \(ab + c = 100\), \(bc + a = 87\), and \(ca + b = 60\). What is \(ab + bc + ca\)?
+
+\(
+\textbf{(A) }212 \qquad
+\textbf{(B) }247 \qquad
+\textbf{(C) }258 \qquad
+\textbf{(D) }276 \qquad
+\textbf{(E) }284 \qquad
+\)\par \vspace{0.5em}\item On top of a rectangular card with sides of length \(1\) and \(2+\sqrt{3}\), an identical card is placed so that two of their diagonals line up, as shown (\(\overline{AC}\), in this case).
+
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+defaultpen(fontsize(12)+0.85); size(150);
+real h=2.25;
+pair C=origin,B=(0,h),A=(1,h),D=(1,0),Dp=reflect(A,C)*D,Bp=reflect(A,C)*B;
+pair L=extension(A,Dp,B,C),R=extension(Bp,C,A,D);
+draw(L--B--A--Dp--C--Bp--A);
+draw(C--D--R);
+draw(L--C^^R--A,dashed+0.6);
+draw(A--C,black+0.6);
+dot("$C$",C,2*dir(C-R)); dot("$A$",A,1.5*dir(A-L)); dot("$B$",B,dir(B-R));
+\end{asy}
+\end{center}
+
+
+Continue the process, adding a third card to the second, and so on, lining up successive diagonals after rotating clockwise. In total, how many cards must be used until a vertex of a new card lands exactly on the vertex labeled \(B\) in the figure?
+
+\(\textbf{(A) }6\qquad\textbf{(B) }8\qquad\textbf{(C) }10\qquad\textbf{(D) }12\qquad\textbf{(E) }\text{No new vertex will land on }B.\)\par \vspace{0.5em}\item Cyclic quadrilateral \(ABCD\) has lengths \(BC=CD=3\) and \(DA=5\) with \(\angle CDA=120^\circ\). What is the length of the shorter diagonal of \(ABCD\)?
+
+\(
+\textbf{(A) }\frac{31}7 \qquad
+\textbf{(B) }\frac{33}7 \qquad
+\textbf{(C) }5 \qquad
+\textbf{(D) }\frac{39}7 \qquad
+\textbf{(E) }\frac{41}7 \qquad
+\)\par \vspace{0.5em}\item Points \(P\) and \(Q\) are chosen uniformly and independently at random on sides \(\overline {AB}\) and \(\overline{AC},\) respectively, of equilateral triangle \(\Delta ABC.\) Which of the following intervals contains the probability that the area of \(\triangle APQ\) is less than half the area of \(\triangle ABC?\)
+
+\(\textbf{(A) } \left[\frac 38, \frac 12\right] \qquad \textbf{(B) } \left(\frac 12, \frac 23\right] \qquad \textbf{(C) } \left(\frac 23, \frac 34\right] \qquad \textbf{(D) } \left(\frac 34, \frac 78\right] \qquad \textbf{(E) } \left(\frac 78, 1\right]\)\par \vspace{0.5em}\item Suppose that \(a_1 = 2\) and the sequence \((a_n)\) satisfies the recurrence relation 
+\begin{equation*}
+\frac{a_n -1}{n-1}=\frac{a_{n-1}+1}{(n-1)+1}
+\end{equation*}
+for all \(n \ge 2.\) What is the greatest integer less than or equal to 
+\begin{equation*}
+\sum^{100}_{n=1} a_n^2?
+\end{equation*}
+
+\(\textbf{(A) } 338{,}550 \qquad \textbf{(B) } 338{,}551 \qquad \textbf{(C) } 338{,}552 \qquad \textbf{(D) } 338{,}553 \qquad \textbf{(E) } 338{,}554\)\par \vspace{0.5em}\item The figure below shows a dotted grid \(8\) cells wide and \(3\) cells tall consisting of \(1''\times1''\) squares. Carl places \(1\)-inch toothpicks along some of the sides of the squares to create a closed loop that does not intersect itself. The numbers in the cells indicate the number of sides of that square that are to be covered by toothpicks, and any number of toothpicks are allowed if no number is written. In how many ways can Carl place the toothpicks?
+
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+size(6cm);
+for (int i=0; i<9; ++i) {
+  draw((i,0)--(i,3),dotted);
+}
+for (int i=0; i<4; ++i){
+  draw((0,i)--(8,i),dotted);
+}
+for (int i=0; i<8; ++i) {
+  for (int j=0; j<3; ++j) {
+    if (j==1) {
+      label("1",(i+0.5,1.5));
+}}}
+\end{asy}
+\end{center}
+
+
+\(\textbf{(A) }130\qquad\textbf{(B) }144\qquad\textbf{(C) }146\qquad\textbf{(D) }162\qquad\textbf{(E) }196\)\par \vspace{0.5em}\item What is the value of 
+
+
+\begin{equation*}
+\tan^2 \frac {\pi}{16} \cdot \tan^2 \frac {3\pi}{16}~ + ~ \tan^2 \frac {\pi}{16} \cdot \tan^2 \frac {5\pi}{16} ~+~\tan^2 \frac {3\pi}{16} \cdot \tan^2 \frac {7\pi}{16} ~+~ \tan^2 \frac {5\pi}{16} \cdot \tan^2 \frac {7\pi}{16}?
+\end{equation*}
+
+
+\(\textbf{(A) } 28 \qquad \textbf{(B) } 68 \qquad \textbf{(C) } 70 \qquad \textbf{(D) } 72 \qquad \textbf{(E) } 84\)\par \vspace{0.5em}\item A \(\textit{disphenoid}\) is a tetrahedron whose triangular faces are congruent to one another. What is the least total surface area of a disphenoid whose faces are scalene triangles with integer side lengths?
+
+\(\textbf{(A) }\sqrt{3}\qquad\textbf{(B) }3\sqrt{15}\qquad\textbf{(C) }15\qquad\textbf{(D) }15\sqrt{7}\qquad\textbf{(E) }24\sqrt{6}\)\par \vspace{0.5em}\item A graph is \(\textit{symmetric}\) about a line if the graph remains unchanged after reflection in that line. For how many quadruples of integers \((a,b,c,d)\), where \(|a|,|b|,|c|,|d|\le5\) and \(c\) and \(d\) are not both \(0\), is the graph of 
+\begin{equation*}
+y=\frac{ax+b}{cx+d}
+\end{equation*}
+symmetric about the line \(y=x\)?
+
+\(\textbf{(A) }1282\qquad\textbf{(B) }1292\qquad\textbf{(C) }1310\qquad\textbf{(D) }1320\qquad\textbf{(E) }1330\)\par \vspace{0.5em}\end{enumerate}\newpage\section*{2024 AMC 12B Problems}
+\addcontentsline{toc}{section}{2024 AMC 12B Problems}
+\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item In a long line of people arranged left to right, the 1013th person from the left is also the 1010th person from the right. How many people are in the line?
+
+\(\textbf{(A) } 2021 \qquad\textbf{(B) } 2022 \qquad\textbf{(C) } 2023 \qquad\textbf{(D) } 2024 \qquad\textbf{(E) } 2025\)\par \vspace{0.5em}\item What is \(10! - 7! \cdot 6!\)?
+
+\(\textbf{(A) }-120 \qquad\textbf{(B) }0 \qquad\textbf{(C) }120 \qquad\textbf{(D) }600 \qquad\textbf{(E) }720 \qquad\)\par \vspace{0.5em}\item For how many integer values of \(x\) is \(|2x|\leq 7\pi?\)
+
+\(\textbf{(A) }16 \qquad\textbf{(B) }17\qquad\textbf{(C) }19\qquad\textbf{(D) }20\qquad\textbf{(E) }21\)\par \vspace{0.5em}\item Balls numbered \(1,2,3,\ldots\) are deposited in \(5\) bins, labeled \(A,B,C,D,\) and \(E\), using the following procedure. Ball \(1\) is deposited in bin \(A\), and balls \(2\) and \(3\) are deposited in \(B\). The next three balls are deposited in bin \(C\), the next \(4\) in bin \(D\), and so on, cycling back to bin \(A\) after balls are deposited in bin \(E\). (For example, \(22,23,\ldots,28\) are deposited in bin \(B\) at step 7 of this process.) In which bin is ball \(2024\) deposited?
+
+\(\textbf{(A) }A\qquad\textbf{(B) }B\qquad\textbf{(C) }C\qquad\textbf{(D) }D\qquad\textbf{(E) }E\)\par \vspace{0.5em}\item In the following expression, Melanie changed some of the plus signs to minus signs:
+\begin{equation*}
+1 + 3+5+7+\cdots+97+99
+\end{equation*}
+When the new expression was evaluated, it was negative. What is the least number of plus signs that Melanie could have changed to minus signs?
+
+\(
+\textbf{(A) }14 \qquad
+\textbf{(B) }15 \qquad
+\textbf{(C) }16 \qquad
+\textbf{(D) }17 \qquad
+\textbf{(E) }18 \qquad
+\)\par \vspace{0.5em}\item The national debt of the United States is on track to reach \(5 \cdot 10^{13}\) dollars by \(2033\). How many digits does this number of dollars have when written as a numeral in base \(5\)? (The approximation of \(\log_{10} 5\) as \(0.7\) is sufficient for this problem.)
+
+\(
+\textbf{(A) }18 \qquad
+\textbf{(B) }20 \qquad
+\textbf{(C) }22 \qquad
+\textbf{(D) }24 \qquad
+\textbf{(E) }26 \qquad
+\)\par \vspace{0.5em}\item In the figure below \(WXYZ\) is a rectangle with \(WX=4\) and \(WZ=8\). Point \(M\) lies \(\overline{XY}\), point \(A\) lies on \(\overline{YZ}\), and \(\angle WMA\) is a right angle. The areas of \(\triangle WXM\) and \(\triangle WAZ\) are equal. What is the area of \(\triangle WMA\)?
+
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+pair X = (0, 0);
+pair W = (0, 4);
+pair Y = (8, 0);
+pair Z = (8, 4);
+label("$X$", X, dir(180));
+label("$W$", W, dir(180));
+label("$Y$", Y, dir(0));
+label("$Z$", Z, dir(0));
+
+draw(W--X--Y--Z--cycle);
+dot(X);
+dot(Y);
+dot(W);
+dot(Z);
+pair M = (2, 0);
+pair A = (8, 3);
+label("$A$", A, dir(0));
+dot(M);
+dot(A);
+draw(W--M--A--cycle);
+markscalefactor = 0.05;
+draw(rightanglemark(W, M, A));
+label("$M$", M, dir(-90));
+\end{asy}
+\end{center}
+
+
+\(
+\textbf{(A) }13 \qquad
+\textbf{(B) }14 \qquad
+\textbf{(C) }15 \qquad
+\textbf{(D) }16 \qquad
+\textbf{(E) }17 \qquad
+\)\par \vspace{0.5em}\item What value of \(x\) satisfies
+\begin{equation*}
+\frac{\log_2x\cdot\log_3x}{\log_2x+\log_3x}=2?
+\end{equation*}
+
+\(
+\textbf{(A) }25\qquad
+\textbf{(B) }32\qquad
+\textbf{(C) }36\qquad
+\textbf{(D) }42\qquad
+\textbf{(E) }48\qquad
+\)\par \vspace{0.5em}\item A dartboard is the region \(B\) in the coordinate plane consisting of points \((x,y)\) such that \(|x| + |y| \le 8\) . A target \(T\) is the region where \((x^2 + y^2 - 25)^2 \le 49.\) A dart is thrown and lands at a random point in \(B\). The probability that the dart lands in \(T\) can be expressed as \(\frac{m}{n} \cdot \pi,\) where \(m\) and \(n\) are relatively prime positive integers. What is \(m + n?\)
+
+\(
+\textbf{(A) }39 \qquad
+\textbf{(B) }71 \qquad
+\textbf{(C) }73 \qquad
+\textbf{(D) }75 \qquad
+\textbf{(E) }135 \qquad
+\)\par \vspace{0.5em}\item A list of 9 real numbers consists of \(1\), \(2.2 \), \(3.2 \), \(5.2 \), \(6.2 \), and \(7\), as well as \(x, y,z\) with \(x\leq y\leq z\). The range of the list is \(7\), and the mean and median are both positive integers. How many ordered triples \((x,y,z)\) are possible?
+
+\(\textbf{(A) }1 \qquad\textbf{(B) }2 \qquad\textbf{(C) }3 \qquad\textbf{(D) }4 \qquad\textbf{(E) }\text{infinitely many}\qquad\)\par \vspace{0.5em}\item Let \(x_{n} = \sin^2(n^\circ)\). What is the mean of \(x_{1}, x_{2}, x_{3}, \cdots, x_{90}\)?
+
+\(
+\textbf{(A) }\frac{11}{45} \qquad
+\textbf{(B) }\frac{22}{45} \qquad
+\textbf{(C) }\frac{89}{180} \qquad
+\textbf{(D) }\frac{1}{2} \qquad
+\textbf{(E) }\frac{91}{180} \qquad
+\)\par \vspace{0.5em}\item Suppose \(z\) is a complex number with positive imaginary part, with real part greater than \(1\), and with \(|z| = 2\). In the complex plane, the four points \(0\), \(z\), \(z^{2}\), and \(z^{3}\) are the vertices of a quadrilateral with area \(15\). What is the imaginary part of \(z\)?
+
+\(\textbf{(A)}~\frac{3}{4}\qquad\textbf{(B)}~1\qquad\textbf{(C)}~\frac{4}{3}\qquad\textbf{(D)}~\frac{3}{2}\qquad\textbf{(E)}~\frac{5}{3}\)\par \vspace{0.5em}\item There are real numbers \(x,y,h\) and \(k\) that satisfy the system of equations
+\begin{equation*}
+x^2 + y^2 - 6x - 8y = h
+\end{equation*}
+
+\begin{equation*}
+x^2 + y^2 - 10x + 4y = k
+\end{equation*}
+What is the minimum possible value of \(h+k\)?
+
+\(
+\textbf{(A) }-54 \qquad
+\textbf{(B) }-46 \qquad
+\textbf{(C) }-34 \qquad
+\textbf{(D) }-16 \qquad
+\textbf{(E) }16 \qquad
+\)\par \vspace{0.5em}\item How many different remainders can result when the \(100\)th power of an integer is divided by \(125\)?
+
+\(\textbf{(A) }1 \qquad\textbf{(B) }2 \qquad\textbf{(C) }5 \qquad\textbf{(D) }25 \qquad\textbf{(E) }125 \qquad\)\par \vspace{0.5em}\item A triangle in the coordinate plane has vertices \(A(\log_21,\log_22)\), \(B(\log_23,\log_24)\), and \(C(\log_27,\log_28)\). What is the area of \(\triangle ABC\)?
+
+\(
+\textbf{(A) }\log_2\frac{\sqrt3}7\qquad
+\textbf{(B) }\log_2\frac3{\sqrt7}\qquad
+\textbf{(C) }\log_2\frac7{\sqrt3}\qquad
+\textbf{(D) }\log_2\frac{11}{\sqrt7}\qquad
+\textbf{(E) }\log_2\frac{11}{\sqrt3}\qquad
+\)\par \vspace{0.5em}\item A group of \(16\) people will be partitioned into \(4\) indistinguishable \(4\)-person committees. Each committee will have one chairperson and one secretary. The number of different ways to make these assignments can be written as \(3^{r}M\), where \(r\) and \(M\) are positive integers and \(M\) is not divisible by \(3\). What is \(r\)?
+
+\(
+\textbf{(A) }5 \qquad
+\textbf{(B) }6 \qquad
+\textbf{(C) }7 \qquad
+\textbf{(D) }8 \qquad
+\textbf{(E) }9 \qquad\)\par \vspace{0.5em}\item Integers \(a\) and \(b\) are randomly chosen without replacement from the set of integers with absolute value not exceeding \(10\). What is the probability that the polynomial \(x^3 + ax^2 + bx + 6\) has \(3\) distinct integer roots?
+
+\(\textbf{(A) }\frac{1}{240} \qquad \textbf{(B) }\frac{1}{221} \qquad \textbf{(C) }\frac{1}{105} \qquad \textbf{(D) }\frac{1}{84} \qquad \textbf{(E) }\frac{1}{63}\)\par \vspace{0.5em}\item The Fibonacci numbers are defined by \(F_1=1,\) \(F_2=1,\) and \(F_n=F_{n-1}+F_{n-2}\) for \(n\geq 3.\) What is
+\begin{equation*}
+\dfrac{F_2}{F_1}+\dfrac{F_4}{F_2}+\dfrac{F_6}{F_3}+\cdots+\dfrac{F_{20}}{F_{10}}?
+\end{equation*}
+
+\(\textbf{(A) }318 \qquad\textbf{(B) }319\qquad\textbf{(C) }320\qquad\textbf{(D) }321\qquad\textbf{(E) }322\)\par \vspace{0.5em}\item Equilateral \(\triangle ABC\) with side length \(14\) is rotated about its center by angle \(\theta\), where \(0 < \theta < 60^{\circ}\), to form \(\triangle DEF\). See the figure. The area of hexagon \(ADBECF\) is \(91\sqrt{3}\). What is \(\tan\theta\)?
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+// Credit to shihan for this diagram.
+
+defaultpen(fontsize(13)); size(200);
+pair O=(0,0),A=dir(225),B=dir(-15),C=dir(105),D=rotate(38.21,O)*A,E=rotate(38.21,O)*B,F=rotate(38.21,O)*C;
+draw(A--B--C--A,gray+0.4);draw(D--E--F--D,gray+0.4); draw(A--D--B--E--C--F--A,black+0.9); dot(O); dot("$A$",A,dir(A)); dot("$B$",B,dir(B)); dot("$C$",C,dir(C)); dot("$D$",D,dir(D)); dot("$E$",E,dir(E)); dot("$F$",F,dir(F));
+\end{asy}
+\end{center}
+
+
+\(\textbf{(A)}~\frac{3}{4}\qquad\textbf{(B)}~\frac{5\sqrt{3}}{11}\qquad\textbf{(C)}~\frac{4}{5}\qquad\textbf{(D)}~\frac{11}{13}\qquad\textbf{(E)}~\frac{7\sqrt{3}}{13}\)\par \vspace{0.5em}\item Suppose \(A\), \(B\), and \(C\) are points in the plane with \(AB=40\) and \(AC=42\), and let \(x\) be the length of the line segment from \(A\) to the midpoint of \(\overline{BC}\). Define a function \(f\) by letting \(f(x)\) be the area of \(\triangle ABC\). Then the domain of \(f\) is an open interval \((p,q)\), and the maximum value \(r\) of \(f(x)\) occurs at \(x=s\). What is \(p+q+r+s\)?
+
+\(
+\textbf{(A) }909\qquad
+\textbf{(B) }910\qquad
+\textbf{(C) }911\qquad
+\textbf{(D) }912\qquad
+\textbf{(E) }913\qquad
+\)\par \vspace{0.5em}\item The measures of the smallest angles of three different right triangles sum to \(90^\circ\). All three triangles have side lengths that are primitive Pythagorean triples. Two of them are \(3-4-5\) and \(5-12-13\). What is the perimeter of the third triangle?
+
+\(
+\textbf{(A) }40 \qquad
+\textbf{(B) }126 \qquad
+\textbf{(C) }154 \qquad
+\textbf{(D) }176 \qquad
+\textbf{(E) }208 \qquad
+\)\par \vspace{0.5em}\item Let \(\triangle{ABC}\) be a triangle with integer side lengths and the property that \(\angle{B} = 2\angle{A}\). What is the least possible perimeter of such a triangle?
+
+\(
+\textbf{(A) }13 \qquad
+\textbf{(B) }14 \qquad
+\textbf{(C) }15 \qquad
+\textbf{(D) }16 \qquad
+\textbf{(E) }17 \qquad
+\)\par \vspace{0.5em}\item A right pyramid has regular octagon \(ABCDEFGH\) with side length \(1\) as its base and apex \(V.\) Segments \(\overline{AV}\) and \(\overline{DV}\) are perpendicular. What is the square of the height of the pyramid?
+
+\(
+\textbf{(A) }1 \qquad
+\textbf{(B) }\frac{1+\sqrt2}{2} \qquad
+\textbf{(C) }\sqrt2 \qquad
+\textbf{(D) }\frac32 \qquad
+\textbf{(E) }\frac{2+\sqrt2}{3} \qquad
+\)\par \vspace{0.5em}\item What is the number of ordered triples \((a,b,c)\) of positive integers, with \(a\le b\le c\le 9\), such that there exists a (non-degenerate) triangle \(\triangle ABC\) with an integer inradius for which \(a\), \(b\), and \(c\) are the lengths of the altitudes from \(A\) to \(\overline{BC}\), \(B\) to \(\overline{AC}\), and \(C\) to \(\overline{AB}\), respectively? (Recall that the inradius of a triangle is the radius of the largest possible circle that can be inscribed in the triangle.)
+
+\(
+\textbf{(A) }2\qquad
+\textbf{(B) }3\qquad
+\textbf{(C) }4\qquad
+\textbf{(D) }5\qquad
+\textbf{(E) }6\qquad
+\)\par \vspace{0.5em}\item Pablo will decorate each of \(6\) identical white balls with either a striped or a dotted pattern, using either red or blue paint. He will decide on the color and pattern for each ball by flipping a fair coin for each of the \(12\) decisions he must make. After the paint dries, he will place the \(6\) balls in an urn. Frida will randomly select one ball from the urn and note its color and pattern. The events "the ball Frida selects is red" and "the ball Frida selects is striped" may or may not be independent, depending on the outcome of Pablo's coin flips. The probability that these two events are independent can be written as \(\frac mn,\) where \(m\) and \(n\) are relatively prime positive integers. What is \(m?\) (Recall that two events \(A\) and \(B\) are independent if \(P(A \text{ and }B) = P(A) \cdot P(B).\))
+
+\(\textbf{(A) } 243 \qquad \textbf{(B) } 245 \qquad \textbf{(C) } 247 \qquad \textbf{(D) } 249\qquad \textbf{(E) } 251\)\par \vspace{0.5em}\end{enumerate}\newpage
+\end{document}

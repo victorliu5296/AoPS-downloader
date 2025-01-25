@@ -334,10 +334,16 @@ def create_latex_document(contest_type, problems_by_title, year_range_str, outpu
 
     latex_content = latex_header + document_start + latex_content_body + latex_footer
 
+    # Determine base output directory
+    if is_combined:
+        folder = "Combined"
+    else:
+        folder = "Individual"
+    
     if contest_type == "AMC12":
-        base_output_dir = os.path.join(output_folder, "AMC12", doc_type.capitalize())
+        base_output_dir = os.path.join(output_folder, "AMC12", doc_type.capitalize(), folder)
     elif contest_type == "AIME":
-        base_output_dir = os.path.join(output_folder, "AIME", doc_type.capitalize())
+        base_output_dir = os.path.join(output_folder, "AIME", doc_type.capitalize(), folder)
 
     temp_dir = os.path.join(base_output_dir, "temp", output_filename_prefix)
     os.makedirs(temp_dir, exist_ok=True)
@@ -534,6 +540,16 @@ async def main():
     output_folder = "output"
 
     os.makedirs(output_folder, exist_ok=True)
+    # Create directories for Individual and Combined outputs
+    if contest_type == "AMC12":
+        os.makedirs(os.path.join(output_folder, "AMC12", "Problems", "Individual"), exist_ok=True)
+        os.makedirs(os.path.join(output_folder, "AMC12", "Problems", "Combined"), exist_ok=True)
+    elif contest_type == "AIME":
+        os.makedirs(os.path.join(output_folder, "AIME", "Problems", "Individual"), exist_ok=True)
+        os.makedirs(os.path.join(output_folder, "AIME", "Problems", "Combined"), exist_ok=True)
+
+    asy_modules_dir = os.path.join(output_folder, "asy_modules")
+    os.makedirs(asy_modules_dir, exist_ok=True)
     os.makedirs(os.path.join(output_folder, "AMC12", "Problems"), exist_ok=True)
     os.makedirs(os.path.join(output_folder, "AIME", "Problems"), exist_ok=True)
     asy_modules_dir = os.path.join(output_folder, "asy_modules")
