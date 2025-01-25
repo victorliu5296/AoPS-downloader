@@ -45,21 +45,43 @@ def calculate_file_hash(filepath):
     with open(filepath, "rb") as f:
         return hashlib.md5(f.read()).hexdigest()
 
+def normalize_asy_content(content):
+    """Clean Asymptote code for consistent hashing"""
+    # Remove comments
+    content = re.sub(r'//.*?$', '', content, flags=re.MULTILINE)
+    content = re.sub(r'/\*.*?\*/', '', content, flags=re.DOTALL)
+    
+    # Remove defaultfilename
+    content = re.sub(r'defaultfilename\s*=\s*".*?";', '', content)
+    
+    # Normalize whitespace
+    content = '\n'.join([line.strip() for line in content.split('\n') if line.strip()])
+    return content
+
 def should_compile_asy(asy_filepath):
-    """Determine if an Asymptote file should be compiled based on its hash. Stores hash in temp dir."""
-    compiled_pdf_path = os.path.splitext(asy_filepath)[0] + ".pdf"
-    hash_path = os.path.splitext(asy_filepath)[0] + ".hash"  # Store hash in temp dir
-    current_hash = calculate_file_hash(asy_filepath)
+    """Check cache using normalized Asymptote content"""
+    with open(asy_filepath, "r") as f:
+        raw_content = f.read()
+    
+    clean_content = normalize_asy_content(raw_content)
+    content_hash = hashlib.md5(clean_content.encode()).hexdigest()
+    cached_pdf = os.path.join(ASY_CACHE_DIR, f"{content_hash}.pdf")
+    cached_asy = os.path.join(ASY_CACHE_DIR, f"{content_hash}.asy")
 
-    if os.path.exists(compiled_pdf_path) and os.path.exists(hash_path):
-        with open(hash_path, "r") as f:
-            cached_hash = f.read().strip()
-        if cached_hash == current_hash:
-            print(f"Skipping compilation for {asy_filepath}: No changes detected.")
-            return False
+    if os.path.exists(cached_pdf):
+        # Log cache reuse
+        print(f"[CACHE] Reusing diagram {os.path.basename(asy_filepath)} from cache (hash: {content_hash})")
 
-    with open(hash_path, "w") as f:
-        f.write(current_hash)
+        # Store cleaned ASY file for debugging
+        if not os.path.exists(cached_asy):
+            with open(cached_asy, "w") as f:
+                f.write(clean_content)
+        
+        # Copy cached PDF to temp directory
+        temp_pdf = os.path.splitext(asy_filepath)[0] + ".pdf"
+        shutil.copyfile(cached_pdf, temp_pdf)
+        return False
+    
     return True
 
 def run_asymptote_compilation(temp_dir_abs, asy_modules_dir="asy_modules"):
@@ -110,6 +132,24 @@ def run_asymptote_compilation(temp_dir_abs, asy_modules_dir="asy_modules"):
             break
         else:
             print(f"Successfully compiled {asy_file}.")
+            # Save normalized content and PDF to cache
+            with open(asy_filepath, "r") as f:
+                raw_content = f.read()
+            clean_content = normalize_asy_content(raw_content)
+            content_hash = hashlib.md5(clean_content.encode()).hexdigest()
+            
+            cached_pdf = os.path.join(ASY_CACHE_DIR, f"{content_hash}.pdf")
+            cached_asy = os.path.join(ASY_CACHE_DIR, f"{content_hash}.asy")
+            compiled_pdf = os.path.splitext(asy_filepath)[0] + ".pdf"
+        
+            # Store both PDF and cleaned ASY
+            shutil.copyfile(compiled_pdf, cached_pdf)
+            with open(cached_asy, "w") as f:
+                f.write(clean_content)
+
+            # Log cache storage
+            print(f"[CACHE] Stored {os.path.basename(asy_filepath)} to cache with hash {content_hash}")
+
     return (any_compiled, success)
 
 def should_compile_tex(tex_filepath, output_pdf_path):
@@ -662,7 +702,7 @@ async def main():
         total_time = end_time_total - start_time_total
         print(f"\nTotal script execution time: {total_time:.2f} seconds")
         print(f"\nPDF generation complete. PDFs are in the 'output' folder.")
-        print("\n---\nIf LaTeX compilation failed, check the log files in temp directories for detailed LaTeX error messages.\n---")
+        print("\n---\nIf LaTeX compilation failed, check the log files in temp directories for detailed LaTeX error messages.\nIf you do not intend on re-using existing files for larger combined PDFs, feel free to delete all cache and module files.\n---")
 
         # Cleanup
         delete_temp_files_prompt = input("\nDelete temporary files? ([y]es/[n]o): ").lower()
