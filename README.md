@@ -41,6 +41,9 @@ This will initiate the downloading and compiling process for the AMC and AIME pr
 ## Credits
 This project is heavily inspired by and built upon the work of [byronxu99/amc-pdf](https://github.com/byronxu99/amc-pdf). Special thanks to the contributors of that repository.
 
+## Future Plans
+The future plan is to add support for more contests. I will need to check the website for format compatibilities to ensure proper integration.
+
 ## License
 This project is licensed under the Apache 2.0 License. See the [LICENSE](LICENSE) file for more details.
 
