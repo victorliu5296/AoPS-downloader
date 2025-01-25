@@ -43,9 +43,9 @@ def calculate_file_hash(filepath):
         return hashlib.md5(f.read()).hexdigest()
 
 def should_compile_asy(asy_filepath):
-    """Determine if an Asymptote file should be compiled based on its hash."""
+    """Determine if an Asymptote file should be compiled based on its hash. Stores hash in temp dir."""
     compiled_pdf_path = os.path.splitext(asy_filepath)[0] + ".pdf"
-    hash_path = compiled_pdf_path + ".hash"
+    hash_path = os.path.splitext(asy_filepath)[0] + ".hash"  # Store hash in temp dir
     current_hash = calculate_file_hash(asy_filepath)
 
     if os.path.exists(compiled_pdf_path) and os.path.exists(hash_path):
@@ -59,16 +59,19 @@ def should_compile_asy(asy_filepath):
         f.write(current_hash)
     return True
 
-def run_asymptote_compilation(temp_dir_abs, asy_modules_dir):
-    """Runs Asymptote compilation for all `.asy` files in the temporary directory."""
+def run_asymptote_compilation(temp_dir_abs, asy_modules_dir="asy_modules"):
+    """Runs Asymptote compilation for all `.asy` files in the temporary directory. Returns (any_compiled, success)."""
     print(f"Compiling Asymptote files...")
     asy_files = [f for f in os.listdir(temp_dir_abs) if f.lower().endswith(".asy")]
 
     if not asy_files:
         print("No Asymptote files found to compile.")
-        return True
+        return (False, True)  # Corrected return to a tuple
 
     asy_modules_dir_abs = os.path.abspath(asy_modules_dir).replace("\\", "/")
+    
+    any_compiled = False
+    success = True
 
     for asy_file in asy_files:
         asy_filepath = os.path.join(temp_dir_abs, asy_file)
@@ -76,11 +79,14 @@ def run_asymptote_compilation(temp_dir_abs, asy_modules_dir):
         if not should_compile_asy(asy_filepath):
             continue
 
+        any_compiled = True
+
         env = os.environ.copy()
         env["ASYLANG"] = asy_modules_dir_abs
         env["ASYMPTOTE_DIR"] = asy_modules_dir_abs
 
-        print(f"Compiling {asy_file} with ASYLANG={env['ASYLANG']}...")
+        # print(f"Compiling {asy_file} with ASYLANG={env['ASYLANG']}...")
+        print(f"Compiling {asy_file}...")
 
         command_asymptote = ["asy", "-vvv", asy_filepath]
 
@@ -97,18 +103,19 @@ def run_asymptote_compilation(temp_dir_abs, asy_modules_dir):
             error_message = stderr_asymptote.decode("utf-8", errors="ignore")
             print(f"Error compiling {asy_file}. Asymptote exited with code {process_asymptote.returncode}")
             print(f"Asymptote Error Output:\n{error_message}")
-            return False
+            success = False
+            break
         else:
             print(f"Successfully compiled {asy_file}.")
-    return True
+    return (any_compiled, success)
 
-def should_compile_tex(tex_filepath):
-    """Determine if a LaTeX file should be compiled based on its hash."""
-    pdf_filepath = os.path.splitext(tex_filepath)[0] + ".pdf"
-    hash_path = pdf_filepath + ".hash"
+def should_compile_tex(tex_filepath, output_pdf_path):
+    """Determine if LaTeX should be compiled, storing hash in temp directory."""
+    # Hash path based on LaTeX file location in temp directory
+    hash_path = os.path.splitext(tex_filepath)[0] + ".hash"
     current_hash = calculate_file_hash(tex_filepath)
 
-    if os.path.exists(pdf_filepath) and os.path.exists(hash_path):
+    if os.path.exists(output_pdf_path) and os.path.exists(hash_path):
         with open(hash_path, "r") as f:
             cached_hash = f.read().strip()
         if cached_hash == current_hash:
@@ -119,11 +126,11 @@ def should_compile_tex(tex_filepath):
         f.write(current_hash)
     return True
 
-def run_latex_compilation(tex_filepath, cwd, pass_num):
-    """Runs a single pass of LaTeX compilation."""
+def run_latex_compilation(tex_filepath, cwd, pass_num, output_pdf_path):
+    """Runs a single pass of LaTeX compilation. Returns (compiled, success)."""
     tex_filename_base = os.path.splitext(os.path.basename(tex_filepath))[0]
-    if not should_compile_tex(tex_filepath):
-        return True
+    if not should_compile_tex(tex_filepath, output_pdf_path):
+        return (False, True)  # No compilation, success
 
     print(f"Compiling LaTeX (pass {pass_num}) for {tex_filename_base} in temporary directory...")
     command_latex = ['pdflatex', '-interaction=nonstopmode', '--shell-escape', os.path.basename(tex_filepath)]
@@ -135,40 +142,55 @@ def run_latex_compilation(tex_filepath, cwd, pass_num):
         print(f"Error in LaTeX pass {pass_num} for {tex_filename_base}.tex. LaTeX exited with code {process_latex.returncode}")
         print(f"LaTeX Error Output:\n{error_message}")
         print(f"\n--- LaTeX Compilation (Pass {pass_num}) Failed. Check the console output for LaTeX errors. ---")
-        return False
+        return (True, False)  # Compiled but failed
     else:
         print(f"LaTeX pass {pass_num} for {tex_filename_base}.tex completed.")
-        return True
+        return (True, True)  # Compiled and succeeded
 
-def compile_latex_to_pdf(tex_filepath, output_folder="output"):
+def compile_latex_to_pdf(tex_filepath, asy_modules_dir="asy_modules"):
     """Compile LaTeX to PDF with Asymptote in a 'temp' subdirectory and move PDF to the base folder."""
     tex_filename_base = os.path.splitext(os.path.basename(tex_filepath))[0]
     temp_dir = os.path.dirname(tex_filepath)
     output_dir = os.path.dirname(os.path.dirname(temp_dir))  # Move up from temp/ to base output directory
     temp_dir_abs = os.path.abspath(temp_dir)
-    asy_modules_dir = os.path.join(output_folder, "asy_modules")
     os.makedirs(asy_modules_dir, exist_ok=True)
+    output_pdf_path = os.path.join(output_dir, tex_filename_base + ".pdf")
+
+    compilation_occurred = False
 
     try:
         cwd = temp_dir_abs
 
-        if not run_latex_compilation(tex_filepath, cwd, 1):
+        # Pass 1
+        compiled_pass1, success_pass1 = run_latex_compilation(tex_filepath, cwd, 1, output_pdf_path)
+        if not success_pass1:
             return None
+        compilation_occurred |= compiled_pass1
 
         if not install_asymptote_modules(asy_modules_dir):
             return None
 
-        if not run_asymptote_compilation(temp_dir_abs, asy_modules_dir):
+        # Asymptote compilation
+        any_asy_compiled, asy_success = run_asymptote_compilation(temp_dir_abs, asy_modules_dir)
+        if not asy_success:
             return None
+        compilation_occurred |= any_asy_compiled
 
-        if not run_latex_compilation(tex_filepath, cwd, 2):
+        # Pass 2
+        compiled_pass2, success_pass2 = run_latex_compilation(tex_filepath, cwd, 2, output_pdf_path)
+        if not success_pass2:
             return None
+        compilation_occurred |= compiled_pass2
 
-        if not move_pdf_output(temp_dir_abs, output_dir, tex_filename_base):
-            return None
+        # Move PDF only if compilation occurred
+        if compilation_occurred:
+            if not move_pdf_output(temp_dir_abs, output_dir, tex_filename_base):
+                return None
+        else:
+            print(f"No changes detected; skipping PDF move for {tex_filename_base}.")
 
         print(f"Successfully compiled {tex_filename_base}.tex to PDF.")
-        return os.path.join(output_dir, tex_filename_base + ".pdf")
+        return output_pdf_path
 
     except Exception as e:
         print(f"\nAn unexpected error occurred during compilation: {e}")
@@ -609,7 +631,7 @@ async def main():
             )
             
             start_time_compile = time.time()
-            pdf_filepath = compile_latex_to_pdf(tex_filepath, output_folder=output_folder)
+            pdf_filepath = compile_latex_to_pdf(tex_filepath)
             compile_time = time.time() - start_time_compile
             print(f"Compilation time for {title}: {compile_time:.2f} seconds")
             
@@ -630,7 +652,7 @@ async def main():
         )
         
         start_time_compile_combined = time.time()
-        pdf_filepath_combined = compile_latex_to_pdf(tex_filepath_combined, output_folder=output_folder)
+        pdf_filepath_combined = compile_latex_to_pdf(tex_filepath_combined)
         compile_time_combined = time.time() - start_time_compile_combined
         print(f"Compilation time for Combined {contest_type}: {compile_time_combined:.2f} seconds")
         
