@@ -576,6 +576,16 @@ def replace_over_with_frac(content):
     """Replace \\over with \\frac."""
     return re.sub(r'{([^}]*?)\\over([^}]*?)}', r'\\frac{\1}{\2}', content)
 
+def fix_blank_line(content):
+    """Replace multiple underscores with proper LaTeX blank line"""
+    # Replace series of underscores with proper LaTeX blank
+    content = re.sub(
+        r'_{3,}', 
+        r'\\underline{\\hspace{2cm}}', 
+        content
+    )
+    return content
+
 def process_problem_content(problem):
     """Process individual problem content with robust math/asymptote handling."""
     # Extract Asymptote code first
@@ -618,6 +628,8 @@ def process_problem_content(problem):
 
     # Unescape HTML entities
     problem = html.unescape(problem)
+    
+    problem = fix_blank_line(problem)
 
     # Convert \over to \frac
     problem = replace_over_with_frac(problem)

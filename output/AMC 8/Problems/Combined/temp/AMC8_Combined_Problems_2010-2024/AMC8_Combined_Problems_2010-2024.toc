@@ -1,0 +1,14 @@
+\contentsline {section}{2010 AMC 8 Problems}{2}{section*.2}%
+\contentsline {section}{2011 AMC 8 Problems}{6}{section*.3}%
+\contentsline {section}{2012 AMC 8 Problems}{10}{section*.4}%
+\contentsline {section}{2013 AMC 8 Problems}{13}{section*.5}%
+\contentsline {section}{2014 AMC 8 Problems}{16}{section*.6}%
+\contentsline {section}{2015 AMC 8 Problems}{19}{section*.7}%
+\contentsline {section}{2016 AMC 8 Problems}{22}{section*.8}%
+\contentsline {section}{2017 AMC 8 Problems}{25}{section*.9}%
+\contentsline {section}{2018 AMC 8 Problems}{29}{section*.10}%
+\contentsline {section}{2019 AMC 8 Problems}{32}{section*.11}%
+\contentsline {section}{2020 AMC 8 Problems}{36}{section*.12}%
+\contentsline {section}{2022 AMC 8 Problems}{41}{section*.13}%
+\contentsline {section}{2023 AMC 8 Problems}{45}{section*.14}%
+\contentsline {section}{2024 AMC 8 Problems}{51}{section*.15}%

@@ -1,0 +1,42 @@
+if(!settings.multipleView) settings.batchView=false;
+settings.tex="pdflatex";
+defaultfilename="AMC8_Combined_Problems_2010-2024-12";
+if(settings.render < 0) settings.render=4;
+settings.outformat="";
+settings.inlineimage=true;
+settings.embed=true;
+settings.toolbar=false;
+viewportmargin=(2,2);
+
+// Global Asymptote settings
+settings.outformat = "pdf";
+settings.render = 0;
+settings.prc = false;
+import olympiad;
+import cse5;
+size(8cm);
+
+import olympiad;
+import cse5;
+pair A,B,C,D;
+A=(3,20);
+B=(35,20);
+C=(47,0);
+D=(0,0);
+draw(A--B--C--D--cycle);
+dot((0,0));
+dot((3,20));
+dot((35,20));
+dot((47,0));
+label("A",A,N);
+label("B",B,N);
+label("C",C,S);
+label("D",D,S);
+draw((19,20)--(19,0));
+dot((19,20));
+dot((19,0));
+draw((19,3)--(22,3)--(22,0));
+label("12",(21,10),E);
+label("50",(19,22),N);
+label("15",(1,10),W);
+label("20",(41,12),E);

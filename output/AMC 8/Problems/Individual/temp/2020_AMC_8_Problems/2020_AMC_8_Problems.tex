@@ -1,0 +1,458 @@
+
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in}
+\usepackage{enumitem}
+\usepackage[hypertexnames=true, linktoc=all]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{asymptote}
+\usepackage{arcs}
+\usepackage{xwatermark}
+\begin{asydef}
+  // Global Asymptote settings
+  settings.outformat = "pdf";
+  settings.render = 0;
+  settings.prc = false;
+  import olympiad;
+  import cse5;
+  size(8cm);
+\end{asydef}
+\pagestyle{fancy}
+\fancyhead[L]{\textbf{AMC 8 Problems}}
+\fancyhead[R]{\textbf{2020}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{AMC 8 Problems \\ 2020}
+\date{}
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{2020 AMC 8}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item Luka is making lemonade to sell at a school fundraiser. His recipe requires \(4\) times as much water as sugar and twice as much sugar as lemon juice. He uses \(3\) cups of lemon juice. How many cups of water does he need? 
+
+\(\textbf{(A) } 6\qquad\textbf{(B) } 8\qquad\textbf{(C) } 12\qquad\textbf{(D) } 18\qquad\textbf{(E) } 24\qquad\)\par \vspace{0.5em}\item Four friends do yardwork for their neighbors over the weekend, earning \(\$15, \$20, \$25,\) and \(\$40,\) respectively. They decide to split their earnings equally among themselves. In total how much will the friend who earned \(\$40\) give to the others?
+
+\(\textbf{(A) }\$5 \qquad \textbf{(B) }\$10 \qquad \textbf{(C) }\$15 \qquad \textbf{(D) }\$20 \qquad \textbf{(E) }\$25\)\par \vspace{0.5em}\item Carrie has a rectangular garden that measures \(6\) feet by \(8\) feet. She plants the entire garden with strawberry plants. Carrie is able to plant \(4\) strawberry plants per square foot, and she harvests an average of \(10\) strawberries per plant. How many strawberries can she expect to harvest?
+\(\textbf{(A) }560 \qquad \textbf{(B) }960 \qquad \textbf{(C) }1120 \qquad \textbf{(D) }1920 \qquad \textbf{(E) }3840\)\par \vspace{0.5em}\item Three hexagons of increasing size are shown below. Suppose the dot pattern continues so that each successive hexagon contains one more band of dots. How many dots are in the next hexagon?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+// diagram by SirCalcsALot, edited by MRENTHUSIASM
+size(250);
+path p = scale(0.8)*unitcircle;
+pair[] A;
+pen grey1 = rgb(100/256, 100/256, 100/256);
+pen grey2 = rgb(183/256, 183/256, 183/256);
+for (int i=0; i<7; ++i) \{ A[i] = rotate(60*i)*(1,0);\}
+path hex = A[0]--A[1]--A[2]--A[3]--A[4]--A[5]--cycle;
+fill(p,grey1);
+draw(scale(1.25)*hex,black+linewidth(1.25));
+pair S = 6A[0]+2A[1];
+fill(shift(S)*p,grey1);
+for (int i=0; i<6; ++i) \{ fill(shift(S+2*A[i])*p,grey2);\}
+draw(shift(S)*scale(3.25)*hex,black+linewidth(1.25));
+pair T = 16A[0]+4A[1];
+fill(shift(T)*p,grey1);
+for (int i=0; i<6; ++i) \{ 
+ fill(shift(T+2*A[i])*p,grey2);
+ fill(shift(T+4*A[i])*p,grey1);
+ fill(shift(T+2*A[i]+2*A[i+1])*p,grey1);
+\}
+draw(shift(T)*scale(5.25)*hex,black+linewidth(1.25));
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A) }35 \qquad \textbf{(B) }37 \qquad \textbf{(C) }39 \qquad \textbf{(D) }43 \qquad \textbf{(E) }49\)\par \vspace{0.5em}\item Three fourths of a pitcher is filled with pineapple juice. The pitcher is emptied by pouring an equal amount of juice into each of \(5\) cups. What percent of the total capacity of the pitcher did each cup receive? 
+
+\(\textbf{(A) }5 \qquad \textbf{(B) }10 \qquad \textbf{(C) }15 \qquad \textbf{(D) }20 \qquad \textbf{(E) }25\)\par \vspace{0.5em}\item Aaron, Darren, Karen, Maren, and Sharon rode on a small train that has five cars that seat one person each. Maren sat in the last car. Aaron sat directly behind Sharon. Darren sat in one of the cars in front of Aaron. At least one person sat between Karen and Darren. Who sat in the middle car?
+
+\(\textbf{(A) }\text{Aaron} \qquad \textbf{(B) }\text{Darren} \qquad \textbf{(C) }\text{Karen} \qquad \textbf{(D) }\text{Maren}\qquad \textbf{(E) }\text{Sharon}\)\par \vspace{0.5em}\item How many integers between \(2020\) and \(2400\) have four distinct digits arranged in increasing order? (For example, \(2347\) is one integer.)
+
+\(\textbf{(A) }\text{9} \qquad \textbf{(B) }\text{10} \qquad \textbf{(C) }\text{15} \qquad \textbf{(D) }\text{21}\qquad \textbf{(E) }\text{28}\)\par \vspace{0.5em}\item Ricardo has \(2020\) coins, some of which are pennies (\(1\)-cent coins) and the rest of which are nickels (\(5\)-cent coins). He has at least one penny and at least one nickel. What is the difference in cents between the greatest possible and least possible amounts of money that Ricardo can have?
+
+\(\textbf{(A) }\text{8062} \qquad \textbf{(B) }\text{8068} \qquad \textbf{(C) }\text{8072} \qquad \textbf{(D) }\text{8076}\qquad \textbf{(E) }\text{8082}\)\par \vspace{0.5em}\item Akash's birthday cake is in the form of a \(4 \times 4 \times 4\) inch cube. The cake has icing on the top and the four side faces, and no icing on the bottom. Suppose the cake is cut into \(64\) smaller cubes, each measuring \(1 \times 1 \times 1\) inch, as shown below. How many small pieces will have icing on exactly two sides?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+import three;
+currentprojection=orthographic(1.75,7,2);
+
+//++++ edit colors, names are self-explainatory ++++
+//pen top=rgb(27/255, 135/255, 212/255);
+//pen right=rgb(254/255,245/255,182/255);
+//pen left=rgb(153/255,200/255,99/255);
+pen top = rgb(170/255, 170/255, 170/255);
+pen left = rgb(81/255, 81/255, 81/255);
+pen right = rgb(165/255, 165/255, 165/255);
+pen edges=black;
+int max\_side = 4;
+//+++++++++++++++++++++++++++++++++++++++
+
+path3 leftface=(1,0,0)--(1,1,0)--(1,1,1)--(1,0,1)--cycle;
+path3 rightface=(0,1,0)--(1,1,0)--(1,1,1)--(0,1,1)--cycle;
+path3 topface=(0,0,1)--(1,0,1)--(1,1,1)--(0,1,1)--cycle;
+
+for(int i=0; i<max\_side; ++i)\{
+for(int j=0; j<max\_side; ++j)\{
+
+draw(shift(i,j,-1)*surface(topface),top);
+draw(shift(i,j,-1)*topface,edges);
+
+draw(shift(i,-1,j)*surface(rightface),right);
+draw(shift(i,-1,j)*rightface,edges);
+
+draw(shift(-1,j,i)*surface(leftface),left);
+draw(shift(-1,j,i)*leftface,edges);
+
+\}
+\}
+
+picture CUBE;
+draw(CUBE,surface(leftface),left,nolight);
+draw(CUBE,surface(rightface),right,nolight);
+draw(CUBE,surface(topface),top,nolight);
+draw(CUBE,topface,edges);
+draw(CUBE,leftface,edges);
+draw(CUBE,rightface,edges);
+
+int[][] heights = \{\{4,4,4,4\},\{4,4,4,4\},\{4,4,4,4\},\{4,4,4,4\}\};
+
+for (int i = 0; i < max\_side; ++i) \{
+for (int j = 0; j < max\_side; ++j) \{
+for (int k = 0; k < min(heights[i][j], max\_side); ++k) \{
+add(shift(i,j,k)*CUBE);
+\}
+\}
+\}
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+
+\(\textbf{(A) }\text{12} \qquad \textbf{(B) }\text{16} \qquad \textbf{(C) }\text{18} \qquad \textbf{(D) }\text{20}\qquad \textbf{(E) }\text{24}\)\par \vspace{0.5em}\item Zara has a collection of \(4\) marbles: an Aggie, a Bumblebee, a Steelie, and a Tiger. She wants to display them in a row on a shelf, but does not want to put the Steelie and the Tiger next to one another. In how many ways can she do this?
+
+\(\textbf{(A) }6 \qquad \textbf{(B) }8 \qquad \textbf{(C) }12 \qquad \textbf{(D) }18 \qquad \textbf{(E) }24\)\par \vspace{0.5em}\item After school, Maya and Naomi headed to the beach, \(6\) miles away. Maya decided to bike while Naomi took a bus. The graph below shows their journeys, indicating the time and distance traveled. What was the difference, in miles per hour, between Naomi's and Maya's average speeds?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+// diagram by SirCalcsALot
+unitsize(1.25cm);
+dotfactor = 10;
+pen shortdashed=linetype(new real[] \{2.7,2.7\});
+
+for (int i = 0; i < 6; ++i) \{
+    for (int j = 0; j < 6; ++j) \{
+        draw((i,0)--(i,6), grey);
+        draw((0,j)--(6,j), grey);
+    \}
+\}
+
+for (int i = 1; i <= 6; ++i) \{
+    draw((-0.1,i)--(0.1,i),linewidth(1.25));
+    draw((i,-0.1)--(i,0.1),linewidth(1.25));
+    label(string(5*i), (i,0), 2*S);
+    label(string(i), (0, i), 2*W); 
+\}
+
+draw((0,0)--(0,6)--(6,6)--(6,0)--(0,0)--cycle,linewidth(1.25));
+
+label(rotate(90) * "Distance (miles)", (-0.5,3), W);
+label("Time (minutes)", (3,-0.5), S);
+
+dot("Naomi", (2,6), 3*dir(305));
+dot((6,6));
+
+label("Maya", (4.45,3.5));
+
+draw((0,0)--(1.15,1.3)--(1.55,1.3)--(3.15,3.2)--(3.65,3.2)--(5.2,5.2)--(5.4,5.2)--(6,6),linewidth(1.35));
+draw((0,0)--(0.4,0.1)--(1.15,3.7)--(1.6,3.7)--(2,6),linewidth(1.35)+shortdashed);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A) }6 \qquad \textbf{(B) }12 \qquad \textbf{(C) }18 \qquad \textbf{(D) }20 \qquad \textbf{(E) }24\)\par \vspace{0.5em}\item For a positive integer \(n,\) the factorial notation \(n!\) represents the product of the integers
+from \(n\) to \(1\). (For example, \(6! = 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1\).) What value of \(N\) satisfies the following equation?
+
+\begin{equation*}
+5! \cdot 9! = 12 \cdot N!
+\end{equation*}
+
+\(\textbf{(A) }10 \qquad \textbf{(B) }11 \qquad \textbf{(C) }12 \qquad \textbf{(D) }13 \qquad \textbf{(E) }14\)\par \vspace{0.5em}\item Jamal has a drawer containing \(6\) green socks, \(18\) purple socks, and \(12\) orange socks. After adding more purple socks, Jamal noticed that there is now a \(60\%\) chance that a sock randomly selected from the drawer is purple. How many purple socks did Jamal add?
+
+\(\textbf{(A) }6 \qquad \textbf{(B) }9 \qquad \textbf{(C) }12 \qquad \textbf{(D) }18 \qquad \textbf{(E) }24\)\par \vspace{0.5em}\item There are \(20\) cities in the County of Newton. Their populations are shown in the bar chart below. The average population of all the cities is indicated by the horizontal dashed line. Which of the following is closest to the total population of all \(20\) cities?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+// made by SirCalcsALot
+
+size(300);
+
+pen shortdashed=linetype(new real[] \{6,6\});
+
+for (int i = 2000; i < 9000; i = i + 2000) \{
+    draw((0,i)--(11550,i), linewidth(0.5)+1.5*grey);
+    label(string(i), (0,i), W);
+\}
+
+
+for (int i = 500; i < 9300; i=i+500) \{
+    draw((0,i)--(150,i),linewidth(1.25));
+    if (i \% 2000 == 0) \{
+        draw((0,i)--(250,i),linewidth(1.25));
+    \}
+\}
+
+int[] data = \{8750, 3800, 5000, 2900, 6400, 7500, 4100, 1400, 2600, 1470, 2600, 7100, 4070, 7500, 7000, 8100, 1900, 1600, 5850, 5750\};
+int data\_length = 20;
+
+int r = 550;
+for (int i = 0; i < data\_length; ++i) \{
+    fill(((i+1)*r,0)--((i+1)*r, data[i])--((i+1)*r,0)--((i+1)*r, data[i])--((i+1)*r,0)--((i+1)*r, data[i])--((i+2)*r-100, data[i])--((i+2)*r-100,0)--cycle, 1.5*grey);
+    draw(((i+1)*r,0)--((i+1)*r, data[i])--((i+1)*r,0)--((i+1)*r, data[i])--((i+1)*r,0)--((i+1)*r, data[i])--((i+2)*r-100, data[i])--((i+2)*r-100,0));
+\}
+
+draw((0,4750)--(11450,4750),shortdashed);
+
+label("Cities", (11450*0.5,0), S);
+label(rotate(90)*"Population", (0,9000*0.5), 10*W);
+
+// axis
+draw((0,0)--(0,9300), linewidth(1.25));
+draw((0,0)--(11550,0), linewidth(1.25));
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A) }65{,}000 \qquad \textbf{(B) }75{,}000 \qquad \textbf{(C) }85{,}000 \qquad \textbf{(D) }95{,}000 \qquad \textbf{(E) }105{,}000\)\par \vspace{0.5em}\item Suppose \(15\%\) of \(x\) equals \(20\%\) of \(y.\) What percentage of \(x\) is \(y?\)
+
+\(\textbf{(A) }5 \qquad \textbf{(B) }35 \qquad \textbf{(C) }75 \qquad \textbf{(D) }133 \frac13 \qquad \textbf{(E) }300\)\par \vspace{0.5em}\item Each of the points \(A,B,C,D,E,\) and \(F\) in the figure below represents a different digit from \(1\) to \(6.\) Each of the five lines shown passes through some of these points. The digits along each line are added to produce five sums, one for each line. The total of the five sums is \(47.\) What is the digit represented by B?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+// made by SirCalcsALot
+
+size(200);
+dotfactor = 10;
+
+pair p1 = (-28,0);
+pair p2 = (-111,213);
+draw(p1--p2,linewidth(1));
+
+pair p3 = (-160,0);
+pair p4 = (-244,213);
+draw(p3--p4,linewidth(1));
+
+pair p5 = (-316,0);
+pair p6 = (-67,213);
+draw(p5--p6,linewidth(1));
+
+pair p7 = (0, 68);
+pair p8 = (-350,10);
+draw(p7--p8,linewidth(1));
+
+pair p9 = (0, 150);
+pair p10 = (-350, 62);
+draw(p9--p10,linewidth(1));
+
+pair A = intersectionpoint(p1--p2, p5--p6);
+dot("\$A\$", A, 2*W);
+
+pair B = intersectionpoint(p5--p6, p3--p4);
+dot("\$B\$", B, 2*WNW);
+
+pair C = intersectionpoint(p7--p8, p5--p6);
+dot("\$C\$", C, 1.5*NW);
+
+pair D = intersectionpoint(p3--p4, p7--p8);
+dot("\$D\$", D, 2*NNE);
+
+pair EE = intersectionpoint(p1--p2, p7--p8);
+dot("\$E\$", EE, 2*NNE);
+
+pair F = intersectionpoint(p1--p2, p9--p10);
+dot("\$F\$", F, 2*NNE);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A) }1 \qquad \textbf{(B) }2 \qquad \textbf{(C) }3 \qquad \textbf{(D) }4 \qquad \textbf{(E) }5\)\par \vspace{0.5em}\item How many factors of \(2020\) have more than \(3\) factors? (As an example, \(12\) has \(6\) factors, namely \(1, 2, 3, 4, 6,\) and \(12.\))
+
+\(\textbf{(A) }6 \qquad \textbf{(B) }7 \qquad \textbf{(C) }8 \qquad \textbf{(D) }9 \qquad \textbf{(E) }10\)\par \vspace{0.5em}\item Rectangle \(ABCD\) is inscribed in a semicircle with diameter \(\overline{FE},\) as shown in the figure. Let \(DA=16,\) and let \(FD=AE=9.\) What is the area of \(ABCD?\)
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+// diagram by SirCalcsALot
+draw(arc((0,0),17,180,0));
+draw((-17,0)--(17,0));
+fill((-8,0)--(-8,15)--(8,15)--(8,0)--cycle, 1.5*grey);
+draw((-8,0)--(-8,15)--(8,15)--(8,0)--cycle);
+dot("\$A\$",(8,0), 1.25*S);
+dot("\$B\$",(8,15), 1.25*N);
+dot("\$C\$",(-8,15), 1.25*N);
+dot("\$D\$",(-8,0), 1.25*S);
+dot("\$E\$",(17,0), 1.25*S);
+dot("\$F\$",(-17,0), 1.25*S);
+label("\$16\$",(0,0),N);
+label("\$9\$",(12.5,0),N);
+label("\$9\$",(-12.5,0),N);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A) }240 \qquad \textbf{(B) }248 \qquad \textbf{(C) }256 \qquad \textbf{(D) }264 \qquad \textbf{(E) }272\)\par \vspace{0.5em}\item A number is called flippy if its digits alternate between two distinct digits. For example, \(2020\) and \(37373\) are flippy, but \(3883\) and \(123123\) are not. How many five-digit flippy numbers are divisible by \(15?\)
+
+\(\textbf{(A) }3 \qquad \textbf{(B) }4 \qquad \textbf{(C) }5 \qquad \textbf{(D) }6 \qquad \textbf{(E) }8\)\par \vspace{0.5em}\item A scientist walking through a forest recorded as integers the heights of \(5\) trees standing in a row. She observed that each tree was either twice as tall or half as tall as the one to its right. Unfortunately some of her data was lost when rain fell on her notebook. Her notes are shown below, with blanks indicating the missing numbers. Based on her observations, the scientist was able to reconstruct the lost data. What was the average height of the trees, in meters?
+
+
+\begin{equation*}
+\begingroup
+\setlength{\tabcolsep}{10pt}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|c|}
+\hline Tree 1 & \rule{0.4cm}{0.15mm} meters \\
+Tree 2 & 11 meters \\
+Tree 3 & \rule{0.5cm}{0.15mm} meters \\
+Tree 4 & \rule{0.5cm}{0.15mm} meters \\
+Tree 5 & \rule{0.5cm}{0.15mm} meters \\ \hline
+Average height & \rule{0.5cm}{0.15mm}\text{ .}2 meters \\
+\hline
+\end{tabular}
+\endgroup
+\end{equation*}
+
+\(\textbf{(A) }22.2 \qquad \textbf{(B) }24.2 \qquad \textbf{(C) }33.2 \qquad \textbf{(D) }35.2 \qquad \textbf{(E) }37.2\)\par \vspace{0.5em}\item A game board consists of \(64\) squares that alternate in color between black and white. The figure below shows square \(P\) in the bottom row and square \(Q\) in the top row. A marker is placed at \(P.\) A step consists of moving the marker onto one of the adjoining white squares in the row above. How many \(7\)-step paths are there from \(P\) to \(Q?\) (The figure shows a sample path.)
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+// diagram by SirCalcsALot
+size(200);
+int[] x = \{6, 5, 4, 5, 6, 5, 6\};
+int[] y = \{1, 2, 3, 4, 5, 6, 7\};
+int N = 7;
+for (int i = 0; i < 8; ++i) \{
+for (int j = 0; j < 8; ++j) \{
+draw((i,j)--(i+1,j)--(i+1,j+1)--(i,j+1)--(i,j));
+if ((i+j) \% 2 == 0) \{
+filldraw((i,j)--(i+1,j)--(i+1,j+1)--(i,j+1)--(i,j)--cycle,black);
+\}
+\}
+\}
+for (int i = 0; i < N; ++i) \{
+draw(circle((x[i],y[i])+(0.5,0.5),0.35),grey);
+\}
+label("\$P\$", (5.5, 0.5));
+label("\$Q\$", (6.5, 7.5));
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A) }28 \qquad \textbf{(B) }30 \qquad \textbf{(C) }32 \qquad \textbf{(D) }33 \qquad \textbf{(E) }35\)\par \vspace{0.5em}\item When a positive integer \(N\) is fed into a machine, the output is a number calculated according to the rule shown below.
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+size(300);
+defaultpen(linewidth(0.8)+fontsize(13));
+real r = 0.05;
+draw((0.9,0)--(3.5,0),EndArrow(size=7));
+filldraw((4,2.5)--(7,2.5)--(7,-2.5)--(4,-2.5)--cycle,gray(0.65));
+fill(circle((5.5,1.25),0.8),white);
+fill(circle((5.5,1.25),0.5),gray(0.65));
+fill((4.3,-r)--(6.7,-r)--(6.7,-1-r)--(4.3,-1-r)--cycle,white);
+fill((4.3,-1.25+r)--(6.7,-1.25+r)--(6.7,-2.25+r)--(4.3,-2.25+r)--cycle,white);
+fill((4.6,-0.25-r)--(6.4,-0.25-r)--(6.4,-0.75-r)--(4.6,-0.75-r)--cycle,gray(0.65));
+fill((4.6,-1.5+r)--(6.4,-1.5+r)--(6.4,-2+r)--(4.6,-2+r)--cycle,gray(0.65));
+label("\$N\$",(0.45,0));
+draw((7.5,1.25)--(11.25,1.25),EndArrow(size=7));
+draw((7.5,-1.25)--(11.25,-1.25),EndArrow(size=7));
+label("if \$N\$ is even",(9.25,1.25),N);
+label("if \$N\$ is odd",(9.25,-1.25),N);
+label("\$\textbackslash\{\}frac N2\$",(12,1.25));
+label("\$3N+1\$",(12.6,-1.25));
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+For example, starting with an input of \(N=7,\) the machine will output \(3 \cdot 7 +1 = 22.\) Then if the output is repeatedly inserted into the machine five more times, the final output is \(26.\)
+
+\begin{equation*}
+7 \to 22 \to 11 \to 34 \to 17 \to 52 \to 26
+\end{equation*}
+When the same \(6\)-step process is applied to a different starting value of \(N,\) the final output is \(1.\) What is the sum of all such integers \(N?\)
+
+\begin{equation*}
+N \to \rule{0.5cm}{0.15mm} \to \rule{0.5cm}{0.15mm} \to \rule{0.5cm}{0.15mm} \to \rule{0.5cm}{0.15mm} \to \rule{0.5cm}{0.15mm} \to 1
+\end{equation*}
+
+
+\(\textbf{(A) }73 \qquad \textbf{(B) }74 \qquad \textbf{(C) }75 \qquad \textbf{(D) }82 \qquad \textbf{(E) }83\)\par \vspace{0.5em}\item Five different awards are to be given to three students. Each student will receive at least one award. In how many different ways can the awards be distributed? 
+
+\(\textbf{(A) }120 \qquad \textbf{(B) }150 \qquad \textbf{(C) }180 \qquad \textbf{(D) }210 \qquad \textbf{(E) }240\)\par \vspace{0.5em}\item A large square region is paved with \(n^2\) gray square tiles, each measuring \(s\) inches on a side. A border \(d\) inches wide surrounds each tile. The figure below shows the case for \(n=3\). When \(n=24\)
+, the \(576\) gray tiles cover \(64\%\) of the area of the large square region. What is the ratio \(\frac{d}{s}\) for this larger value of \(n?\)
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+draw((0,0)--(13,0)--(13,13)--(0,13)--cycle);
+filldraw((1,1)--(4,1)--(4,4)--(1,4)--cycle, mediumgray);
+filldraw((1,5)--(4,5)--(4,8)--(1,8)--cycle, mediumgray);
+filldraw((1,9)--(4,9)--(4,12)--(1,12)--cycle, mediumgray);
+filldraw((5,1)--(8,1)--(8,4)--(5,4)--cycle, mediumgray);
+filldraw((5,5)--(8,5)--(8,8)--(5,8)--cycle, mediumgray);
+filldraw((5,9)--(8,9)--(8,12)--(5,12)--cycle, mediumgray);
+filldraw((9,1)--(12,1)--(12,4)--(9,4)--cycle, mediumgray);
+filldraw((9,5)--(12,5)--(12,8)--(9,8)--cycle, mediumgray);
+filldraw((9,9)--(12,9)--(12,12)--(9,12)--cycle, mediumgray);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A) }\frac6{25} \qquad \textbf{(B) }\frac14 \qquad \textbf{(C) }\frac9{25} \qquad \textbf{(D) }\frac7{16} \qquad \textbf{(E) }\frac9{16}\)\par \vspace{0.5em}\item Rectangles \(R_1\) and \(R_2,\) and squares \(S_1,\,S_2,\,\) and \(S_3,\) shown below, combine to form a rectangle that is 3322 units wide and 2020 units high. What is the side length of \(S_2\) in units?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+draw((0,0)--(5,0)--(5,3)--(0,3)--(0,0));
+draw((3,0)--(3,1)--(0,1));
+draw((3,1)--(3,2)--(5,2));
+draw((3,2)--(2,2)--(2,1)--(2,3));
+label("\$R\_1\$",(3/2,1/2));
+label("\$S\_3\$",(4,1));
+label("\$S\_2\$",(5/2,3/2));
+label("\$S\_1\$",(1,2));
+label("\$R\_2\$",(7/2,5/2));
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A) }651 \qquad \textbf{(B) }655 \qquad \textbf{(C) }656 \qquad \textbf{(D) }662 \qquad \textbf{(E) }666\)\par \vspace{0.5em}\end{enumerate}
+\end{document}

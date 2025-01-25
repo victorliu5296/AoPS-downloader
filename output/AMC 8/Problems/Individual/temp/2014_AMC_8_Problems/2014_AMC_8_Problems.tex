@@ -1,0 +1,194 @@
+
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in}
+\usepackage{enumitem}
+\usepackage[hypertexnames=true, linktoc=all]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{asymptote}
+\usepackage{arcs}
+\usepackage{xwatermark}
+\begin{asydef}
+  // Global Asymptote settings
+  settings.outformat = "pdf";
+  settings.render = 0;
+  settings.prc = false;
+  import olympiad;
+  import cse5;
+  size(8cm);
+\end{asydef}
+\pagestyle{fancy}
+\fancyhead[L]{\textbf{AMC 8 Problems}}
+\fancyhead[R]{\textbf{2014}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{AMC 8 Problems \\ 2014}
+\date{}
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{2014 AMC 8}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item Harry and Terry are each told to calculate \(8 - (2 + 5)\). Harry gets the correct answer. Terry ignores the parentheses and calculates \(8 - 2 + 5\). If Harry's answer is \(H\) and Terry's answer is \(T\), what is \(H - T\)?
+
+\(\textbf{(A) }-10\qquad\textbf{(B) }-6\qquad\textbf{(C) }0\qquad\textbf{(D) }6\qquad \textbf{(E) }10\)\par \vspace{0.5em}\item Paul owes Paula 35 cents and has a pocket full of 5-cent coins, 10-cent coins, and 25-cent coins that he can use to pay her. What is the difference between the largest and the smallest number of coins he can use to pay her?
+
+\(\textbf{(A) }1\qquad\textbf{(B) }2\qquad\textbf{(C) }3\qquad\textbf{(D) }4\qquad \textbf{(E) }5\)\par \vspace{0.5em}\item Isabella had a week to read a book for a school assignment. She read an average of 36 pages per day for the first three days and an average of 44 pages per day for the next three days. She then finished the book by reading 10 pages on the last day. How many pages were in the book?
+
+\(\textbf{(A) }240\qquad\textbf{(B) }250\qquad\textbf{(C) }260\qquad\textbf{(D) }270\qquad \textbf{(E) }280\)\par \vspace{0.5em}\item The sum of two prime numbers is 85. What is the product of these two prime numbers?
+
+\(\textbf{(A) }85\qquad\textbf{(B) }91\qquad\textbf{(C) }115\qquad\textbf{(D) }133\qquad \textbf{(E) }166\)\par \vspace{0.5em}\item Margie's car can go 32 miles on a gallon of gas, and gas currently costs \textbackslash\{\}\$4 per gallon. How many miles can Margie drive on \textbackslash\{\}\$20?
+
+\( \textbf{(A) }64\qquad\textbf{(B) }128\qquad\textbf{(C) }160\qquad\textbf{(D) }320\qquad\textbf{(E) }640 \)\par \vspace{0.5em}\item Six rectangles each with a common base width of 2 have lengths of 1, 4, 9, 16, 25, and 36. What is the sum of the areas of the six rectangles?
+
+\( \textbf{(A) }91\qquad\textbf{(B) }93\qquad\textbf{(C) }162\qquad\textbf{(D) }182\qquad\textbf{(E) }202 \)\par \vspace{0.5em}\item There are four more girls than boys in Ms. Raub's class of 28 students. What is the ratio of number of girls to the number of boys in her class?
+
+\( \textbf{(A) }3 : 4\qquad\textbf{(B) }4 : 3\qquad\textbf{(C) }3 : 2\qquad\textbf{(D) }7 : 4\qquad\textbf{(E) }2 : 1 \)\par \vspace{0.5em}\item Eleven members of the Middle School Math Club each paid the same integer amount for a guest speaker to talk about problem solving at their math club meeting. In all, they paid their guest speaker \(\textdollar\underline{1}\underline{A}\underline{2} \). What is the missing digit A of this 3-digit number?
+
+\( \textbf{(A) }0\qquad\textbf{(B) }1\qquad\textbf{(C) }2\qquad\textbf{(D) }3\qquad\textbf{(E) }4 \)\par \vspace{0.5em}\item In \(\bigtriangleup ABC\), \(D\) is a point on side \(\overline{AC}\) such that \(BD=DC\) and \(\angle BCD\) measures \(70^\circ\). What is the degree measure of \(\angle ADB\)?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+size(300);
+defaultpen(linewidth(0.8));
+pair A=(-1,0),C=(1,0),B=dir(40),D=origin;
+draw(A--B--C--A);
+draw(D--B);
+dot("\$A\$", A, SW);
+dot("\$B\$", B, NE);
+dot("\$C\$", C, SE);
+dot("\$D\$", D, S);
+label("\$70\^{}\textbackslash\{\}circ\$",C,2*dir(180-35));
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A) }100\qquad\textbf{(B) }120\qquad\textbf{(C) }135\qquad\textbf{(D) }140\qquad \textbf{(E) }150\)\par \vspace{0.5em}\item The first AMC 8 was given in 1985 and it has been given annually since that time. Samantha turned 12 years old the year that she took the seventh AMC 8. In what year was Samantha born?
+
+\(\textbf{(A) }1979\qquad\textbf{(B) }1980\qquad\textbf{(C) }1981\qquad\textbf{(D) }1982\qquad \textbf{(E) }1983\)\par \vspace{0.5em}\item Jack wants to bike from his house to Jill's house, which is located three blocks east and two blocks north of Jack's house. After biking each block, Jack can continue either east or north, but he needs to avoid a dangerous intersection one block east and one block north of his house. In how many ways can he reach Jill's house by biking a total of five blocks?
+
+\( \textbf{(A) }4\qquad\textbf{(B) }5\qquad\textbf{(C) }6\qquad\textbf{(D) }8\qquad\textbf{(E) }10 \)\par \vspace{0.5em}\item A magazine printed photos of three celebrities along with three photos of the celebrities as babies. The baby pictures did not identify the celebrities. Readers were asked to match each celebrity with the correct baby pictures. What is the probability that a reader guessing at random will match all three correctly as a fraction?
+
+\( \textbf{(A) }\frac{1}{9}\qquad\textbf{(B) }\frac{1}{6}\qquad\textbf{(C) }\frac{1}{4}\qquad\textbf{(D) }\frac{1}{3}\qquad\textbf{(E) }\frac{1}{2} \)\par \vspace{0.5em}\item If \(n\) and \(m\) are integers and \(n^2+m^2\) is even, which of the following is impossible?
+
+\(\textbf{(A) }\) \(n\) and \(m\) are even \(\qquad\textbf{(B) }\) \(n\) and \(m\) are odd \(\qquad\textbf{(C) }\) \(n+m\) is even \(\qquad\textbf{(D) }\) \(n+m\) is odd \(\qquad \textbf{(E) }\) none of these are impossible\par \vspace{0.5em}\item Rectangle \(ABCD\) and right triangle \(DCE\) have the same area. They are joined to form a trapezoid, as shown. What is \(DE\)?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+size(250);
+defaultpen(linewidth(0.8));
+pair A=(0,5),B=origin,C=(6,0),D=(6,5),E=(18,0);
+draw(A--B--E--D--cycle\^{}\^{}C--D);
+draw(rightanglemark(D,C,E,30));
+label("\$A\$",A,NW);
+label("\$B\$",B,SW);
+label("\$C\$",C,S);
+label("\$D\$",D,N);
+label("\$E\$",E,S);
+label("\$5\$",A/2,W);
+label("\$6\$",(A+D)/2,N);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\( \textbf{(A) }12\qquad\textbf{(B) }13\qquad\textbf{(C) }14\qquad\textbf{(D) }15\qquad\textbf{(E) }16 \)\par \vspace{0.5em}\item The circumference of the circle with center \(O\) is divided into \(12\) equal arcs, marked the letters \(A\) through \(L\) as seen below. What is the number of degrees in the sum of the angles \(x\) and \(y\)?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+size(230);
+defaultpen(linewidth(0.65));
+pair O=origin;
+pair[] circum = new pair[12];
+string[] let = \{"\$A\$","\$B\$","\$C\$","\$D\$","\$E\$","\$F\$","\$G\$","\$H\$","\$I\$","\$J\$","\$K\$","\$L\$"\};
+draw(unitcircle);
+for(int i=0;i<=11;i=i+1)
+\{
+circum[i]=dir(120-30*i);
+dot(circum[i],linewidth(2.5));
+label(let[i],circum[i],2*dir(circum[i]));
+\}
+draw(O--circum[4]--circum[0]--circum[6]--circum[8]--cycle);
+label("\$x\$",circum[0],2.75*(dir(circum[0]--circum[4])+dir(circum[0]--circum[6])));
+label("\$y\$",circum[6],1.75*(dir(circum[6]--circum[0])+dir(circum[6]--circum[8])));
+label("\$O\$",O,dir(60));
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\( \textbf{(A) }75\qquad\textbf{(B) }80\qquad\textbf{(C) }90\qquad\textbf{(D) }120\qquad\textbf{(E) }150 \)\par \vspace{0.5em}\item The "Middle School Eight" basketball conference has 8 teams. Every season, each team plays every other conference team twice (home and away), and each team also plays 4 games against non-conference opponents. What is the total number of games in a season involving the "Middle School Eight" teams?
+
+\( \textbf{(A) }60\qquad\textbf{(B) }88\qquad\textbf{(C) }96\qquad\textbf{(D) }144\qquad\textbf{(E) }160 \)\par \vspace{0.5em}\item George walks \(1\) mile to school. He leaves home at the same time each day, walks at a steady speed of \(3\) miles per hour, and arrives just as school begins. Today he was distracted by the pleasant weather and walked the first \(\frac{1}{2}\) mile at a speed of only \(2\) miles per hour. At how many miles per hour must George run the last \(\frac{1}{2}\) mile in order to arrive just as school begins today?
+
+\( \textbf{(A) }4\qquad\textbf{(B) }6\qquad\textbf{(C) }8\qquad\textbf{(D) }10\qquad\textbf{(E) }12 \)\par \vspace{0.5em}\item Four children were born at City Hospital yesterday. Assume each child is equally likely to be a boy or a girl. Which of the following outcomes is most likely?
+
+\(\textbf{(A) } \) All 4 are boys   \(\textbf{(B) } \) All 4 are girls    \(\textbf{(C) } \) 2 are girls and 2 are boys
+\(\textbf{(D) } \) 3 are of one gender and 1 is of the other gender     \(\textbf{(E) } \) All of these outcomes are equally likely\par \vspace{0.5em}\item A cube with 3-inch edges is to be constructed from 27 smaller cubes with 1-inch edges. Twenty-one of the cubes are colored red and 6 are colored white. If the 3-inch cube is constructed to have the smallest possible white surface area showing, what fraction of the surface area is white?
+
+\( \textbf{(A) }\frac{5}{54}\qquad\textbf{(B) }\frac{1}{9}\qquad\textbf{(C) }\frac{5}{27}\qquad\textbf{(D) }\frac{2}{9}\qquad\textbf{(E) }\frac{1}{3} \)\par \vspace{0.5em}\item Rectangle \(ABCD\) has sides \(CD=3\) and \(DA=5\). A circle with a radius of \(1\) is centered at \(A\), a circle with a radius of \(2\) is centered at \(B\), and a circle with a radius of \(3\) is centered at \(C\). Which of the following is closest to the area of the region inside the rectangle but outside all three circles?
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+draw((0,0)--(5,0)--(5,3)--(0,3)--(0,0));
+draw(Circle((0,0),1));
+draw(Circle((0,3),2));
+draw(Circle((5,3),3));
+label("A",(0.2,0),W);
+label("B",(0.2,2.8),NW);
+label("C",(4.8,2.8),NE);
+label("D",(5,0),SE);
+label("5",(2.5,0),N);
+label("3",(5,1.5),E);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\( \textbf{(A) }3.5\qquad\textbf{(B) }4.0\qquad\textbf{(C) }4.5\qquad\textbf{(D) }5.0\qquad\textbf{(E) }5.5 \)\par \vspace{0.5em}\item The 7-digit numbers \(\underline{7} \underline{4} \underline{A} \underline{5} \underline{2} \underline{B} \underline{1}\) and \(\underline{3} \underline{2} \underline{6} \underline{A} \underline{B} \underline{4} \underline{C}\) are each multiples of 3. Which of the following could be the value of \(C\)?
+
+\( \textbf{(A) }1\qquad\textbf{(B) }2\qquad\textbf{(C) }3\qquad\textbf{(D) }5\qquad\textbf{(E) }8 \)\par \vspace{0.5em}\item A 2-digit number is such that the product of the digits plus the sum of the digits is equal to the number. What is the units digit of the number?
+
+\( \textbf{(A) }1\qquad\textbf{(B) }3\qquad\textbf{(C) }5\qquad\textbf{(D) }7\qquad\textbf{(E) }9 \)\par \vspace{0.5em}\item Three members of the Euclid Middle School girls' softball team had the following conversation.
+
+Ashley: I just realized that our uniform numbers are all 2-digit primes.
+
+Bethany: And the sum of your two uniform numbers is the date of my birthday earlier this month.
+
+Caitlin: That's funny. The sum of your two uniform numbers is the date of my birthday later this month.
+
+Ashley: And the sum of your two uniform numbers is today's date.
+
+What number does Caitlin wear?
+
+\( \textbf{(A) }11\qquad\textbf{(B) }13\qquad\textbf{(C) }17\qquad\textbf{(D) }19\qquad\textbf{(E) }23 \)\par \vspace{0.5em}\item One day the Beverage Barn sold 252 cans of soda to 100 customers, and every customer bought at least one can of soda. What is the maximum possible median number of cans of soda bought per customer on that day?
+
+\(\textbf{(A) }2.5\qquad\textbf{(B) }3.0\qquad\textbf{(C) }3.5\qquad\textbf{(D) }4.0\qquad\textbf{(E) }4.5 \)\par \vspace{0.5em}\item A straight one-mile stretch of highway, 40 feet wide, is closed. Robert rides his bike on a path composed of semicircles as shown. If he rides at 5 miles per hour, how many hours will it take to cover the one-mile stretch?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+size(10cm); pathpen=black; pointpen=black;
+D(arc((-2,0),1,300,360));
+D(arc((0,0),1,0,180));
+D(arc((2,0),1,180,360));
+D(arc((4,0),1,0,180));
+D(arc((6,0),1,180,240));
+D((-1.5,-1)--(5.5,-1));
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+Note: 1 mile = 5280 feet!
+
+\( \textbf{(A) }\frac{\pi}{11}\qquad\textbf{(B) }\frac{\pi}{10}\qquad\textbf{(C) }\frac{\pi}{5}\qquad\textbf{(D) }\frac{2\pi}{5}\qquad\textbf{(E) }\frac{2\pi}{3} \)\par \vspace{0.5em}\end{enumerate}
+\end{document}

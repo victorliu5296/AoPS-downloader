@@ -1,0 +1,232 @@
+
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in}
+\usepackage{enumitem}
+\usepackage[hypertexnames=true, linktoc=all]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{asymptote}
+\usepackage{arcs}
+\usepackage{xwatermark}
+\begin{asydef}
+  // Global Asymptote settings
+  settings.outformat = "pdf";
+  settings.render = 0;
+  settings.prc = false;
+  import olympiad;
+  import cse5;
+  size(8cm);
+\end{asydef}
+\pagestyle{fancy}
+\fancyhead[L]{\textbf{AMC 8 Problems}}
+\fancyhead[R]{\textbf{2015}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{AMC 8 Problems \\ 2015}
+\date{}
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{2015 AMC 8}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item How many square yards of carpet are required to cover a rectangular floor that is \(12\) feet long and \(9\) feet wide? (There are \(3\) feet in a yard.)
+
+\(\textbf{(A) }12\qquad\textbf{(B) }36\qquad\textbf{(C) }108\qquad\textbf{(D) }324\qquad \textbf{(E) }972\)\par \vspace{0.5em}\item Point \(O\) is the center of the regular octagon \(ABCDEFGH\), and \(X\) is the midpoint of the side \(\overline{AB}.\) What fraction of the area of the octagon is shaded?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+pair A,B,C,D,E,F,G,H,O,X;
+A=dir(45);
+B=dir(90);
+C=dir(135);
+D=dir(180);
+E=dir(-135);
+F=dir(-90);
+G=dir(-45);
+H=dir(0);
+O=(0,0);
+X=midpoint(A--B);
+
+fill(X--B--C--D--E--O--cycle,rgb(0.75,0.75,0.75));
+draw(A--B--C--D--E--F--G--H--cycle);
+
+dot("\$A\$",A,dir(45));
+dot("\$B\$",B,dir(90));
+dot("\$C\$",C,dir(135));
+dot("\$D\$",D,dir(180));
+dot("\$E\$",E,dir(-135));
+dot("\$F\$",F,dir(-90));
+dot("\$G\$",G,dir(-45));
+dot("\$H\$",H,dir(0));
+dot("\$X\$",X,dir(135/2));
+dot("\$O\$",O,dir(0));
+draw(E--O--X);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A) }\frac{11}{32} \quad\textbf{(B) }\frac{3}{8} \quad\textbf{(C) }\frac{13}{32} \quad\textbf{(D) }\frac{7}{16}\quad \textbf{(E) }\frac{15}{32}\)\par \vspace{0.5em}\item Jack and Jill are going swimming at a pool that is one mile from their house. They leave home simultaneously. Jill rides her bicycle to the pool at a constant speed of \(10\) miles per hour. Jack walks to the pool at a constant speed of \(4\) miles per hour. How many minutes before Jack does Jill arrive?
+
+\(\textbf{(A) }5\qquad\textbf{(B) }6\qquad\textbf{(C) }8\qquad\textbf{(D) }9\qquad \textbf{(E) }10\)\par \vspace{0.5em}\item The Centerville Middle School chess team consists of two boys and three girls. A photographer wants to take a picture of the team to appear in the local newspaper. She decides to have them sit in a row with a boy at each end and the three girls in the middle. How many such arrangements are possible? 
+
+\(\textbf{(A) }2\qquad\textbf{(B) }4\qquad\textbf{(C) }5\qquad\textbf{(D) }6\qquad \textbf{(E) }12\)\par \vspace{0.5em}\item Billy's basketball team scored the following points over the course of the first \(11\) games of the season: 
+\begin{equation*}
+42, 47, 53, 53, 58, 58, 58, 61, 64, 65, 73
+\end{equation*}
+ If his team scores 40 in the 12th game, which of the following statistics will show an increase?
+
+\(\textbf{(A) } \text{range} \qquad \textbf{(B) } \text{median} \qquad \textbf{(C) } \text{mean} \qquad \textbf{(D) } \text{mode} \qquad \textbf{(E) } \text{mid-range}\)\par \vspace{0.5em}\item In \(\triangle ABC\), \(AB=BC=29\), and \(AC=42\). What is the area of \(\triangle ABC\)?
+
+\(\textbf{(A) }100\qquad\textbf{(B) }420\qquad\textbf{(C) }500\qquad\textbf{(D) }609\qquad \textbf{(E) }701\)\par \vspace{0.5em}\item Each of two boxes contains three chips numbered \(1\), \(2\), \(3\). A chip is drawn randomly from each box and the numbers on the two chips are multiplied. What is the probability that their product is even?
+
+\(\textbf{(A) }\frac{1}{9}\qquad\textbf{(B) }\frac{2}{9}\qquad\textbf{(C) }\frac{4}{9}\qquad\textbf{(D) }\frac{1}{2}\qquad \textbf{(E) }\frac{5}{9}\)
+
+
+
+==Problem 8== 
+
+What is the smallest whole number larger than the perimeter of any triangle with a side of length \(5\) and a side of length \(19\)
+
+\(\textbf{(A) }24\qquad\textbf{(B) }29\qquad\textbf{(C) }43\qquad\textbf{(D) }48\qquad \textbf{(E) }57\)\par \vspace{0.5em}\item On her first day of work, Janabel sold one widget. On day two, she sold three widgets. On day three, she sold five widgets, and on each succeeding day, she sold two more widgets than she had sold on the previous day. How many widgets in total had Janabel sold after working \(20\) days?
+
+\(\textbf{(A) }39\qquad\textbf{(B) }40\qquad\textbf{(C) }210\qquad\textbf{(D) }400\qquad \textbf{(E) }401\)\par \vspace{0.5em}\item How many integers between \(1000\) and \(9999\) have four distinct digits?
+
+\(\textbf{(A) }3024\qquad\textbf{(B) }4536\qquad\textbf{(C) }5040\qquad\textbf{(D) }6480\qquad \textbf{(E) }6561\)\par \vspace{0.5em}\item In the small country of Mathland, all automobile license plates have four symbols. The first must be a vowel (\(A, E, I, O,\) or \(U\)), the second and third must be two different letters among the \(21\) non-vowels, and the fourth must be a digit (\(0\) through \(9\)). If the symbols are chosen at random subject to these conditions, what is the probability that the plate will read "\(AMC8\)"?
+
+\(\textbf{(A) } \frac{1}{22,050} \qquad \textbf{(B) } \frac{1}{21,000}\qquad \textbf{(C) } \frac{1}{10,500}\qquad \textbf{(D) } \frac{1}{2,100} \qquad \textbf{(E) } \frac{1}{1,050}\)\par \vspace{0.5em}\item How many pairs of parallel edges, such as \(\overline{AB},\) and \(\overline{GH},\) or \(\overline{EH},\) and \(\overline{FG},\) does a cube have?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+import three; currentprojection=orthographic(1/2,-1,1/2); /* three - currentprojection, orthographic */ draw((0,0,0)--(1,0,0)--(1,1,0)--(0,1,0)--cycle); draw((0,0,0)--(0,0,1)); draw((0,1,0)--(0,1,1)); draw((1,1,0)--(1,1,1)); draw((1,0,0)--(1,0,1));  draw((0,0,1)--(1,0,1)--(1,1,1)--(0,1,1)--cycle); label("\$D\$",(0,0,0),S); label("\$A\$",(0,0,1),N); label("\$H\$",(0,1,0),S); label("\$E\$",(0,1,1),N); label("\$C\$",(1,0,0),S); label("\$B\$",(1,0,1),N); label("\$G\$",(1,1,0),S); label("\$F\$",(1,1,1),N);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A) }6 \qquad\textbf{(B) }12 \qquad\textbf{(C) } 18 \qquad\textbf{(D) } 24 \qquad \textbf{(E) } 36\)\par \vspace{0.5em}\item How many subsets of two elements can be removed from the set \(\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11\}\) so that the mean (average) of the remaining numbers is \(6\)?
+
+\(\textbf{(A)}\text{ 1}\qquad\textbf{(B)}\text{ 2}\qquad\textbf{(C)}\text{ 3}\qquad\textbf{(D)}\text{ 5}\qquad\textbf{(E)}\text{ 6}\)\par \vspace{0.5em}\item Which of the following integers cannot be written as the sum of four consecutive odd integers?
+
+\(\textbf{(A)}\text{ 16}\qquad\textbf{(B)}\text{ 40}\qquad\textbf{(C)}\text{ 72}\qquad\textbf{(D)}\text{ 100}\qquad\textbf{(E)}\text{ 200}\)\par \vspace{0.5em}\item At Euler Middle School, \(198\) students voted on two issues in a school referendum with the following results: \(149\) voted in favor of the first issue and \(119\) voted in favor of the second issue. If there were exactly \(29\) students who voted against both issues, how many students voted in favor of both issues?
+
+\(\textbf{(A) }49\qquad\textbf{(B) }70\qquad\textbf{(C) }79\qquad\textbf{(D) }99\qquad \textbf{(E) }149\)\par \vspace{0.5em}\item In a middle-school mentoring program, a number of the sixth graders are paired with a ninth-grade student as a buddy. No ninth grader is assigned more than one sixth-grade buddy. If \(\tfrac{1}{3}\) of all the ninth graders are paired with \(\tfrac{2}{5}\) of all the sixth graders, what fraction of the total number of sixth and ninth graders have a buddy?
+
+\(
+\textbf{(A) } \frac{2}{15} \qquad
+\textbf{(B) } \frac{4}{11} \qquad
+\textbf{(C) } \frac{11}{30} \qquad
+\textbf{(D) } \frac{3}{8} \qquad
+\textbf{(E) } \frac{11}{15}
+\)\par \vspace{0.5em}\item Jeremy's father drives him to school in rush hour traffic in \(20\) minutes. One day, there is no traffic, so his father can drive him \(18\) miles per hour faster and gets him to school in \(12\) minutes. How far in miles is it to school?
+
+\(
+\textbf{(A) } 4 \qquad
+\textbf{(B) } 6 \qquad
+\textbf{(C) } 8 \qquad
+\textbf{(D) } 9 \qquad
+\textbf{(E) } 12
+\)\par \vspace{0.5em}\item An arithmetic sequence is a sequence in which each term after the first is obtained by adding a constant to the previous term. For example, \(2,5,8,11,14\) is an arithmetic sequence with five terms, in which the first term is \(2\) and the constant added is \(3\). Each row and each column in this \(5\times5\) array is an arithmetic sequence with five terms. The square in the center is labelled \(X\) as shown. What is the value of \(X\)?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+size(3.85cm); label("\$X\$",(2.5,2.1),N); for (int i=0; i<=5; ++i) draw((i,0)--(i,5), linewidth(.5));  for (int j=0; j<=5; ++j) draw((0,j)--(5,j), linewidth(.5)); void draw\_num(pair ll\_corner, int num)  \{ label(string(num), ll\_corner + (0.5, 0.5), p = fontsize(19pt)); \}  draw\_num((0,0), 17); draw\_num((4, 0), 81);  draw\_num((0, 4), 1);  draw\_num((4,4), 25);   void foo(int x, int y, string n) \{ label(n, (x+0.5,y+0.5), p = fontsize(19pt)); \}  foo(2, 4, " "); foo(3, 4, " "); foo(0, 3, " "); foo(2, 3, " "); foo(1, 2, " "); foo(3, 2, " "); foo(1, 1, " "); foo(2, 1, " "); foo(3, 1, " "); foo(4, 1, " "); foo(2, 0, " "); foo(3, 0, " "); foo(0, 1, " "); foo(0, 2, " "); foo(1, 0, " "); foo(1, 3, " "); foo(1, 4, " "); foo(3, 3, " "); foo(4, 2, " "); foo(4, 3, " ");
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A) }21\qquad\textbf{(B) }31\qquad\textbf{(C) }36\qquad\textbf{(D) }40\qquad \textbf{(E) }42\)\par \vspace{0.5em}\item A triangle with vertices as \(A=(1,3)\), \(B=(5,1)\), and \(C=(4,4)\) is plotted on a \(6\times5\) grid. What fraction of the grid is covered by the triangle?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+draw((1,0)--(1,5),linewidth(.5));
+draw((2,0)--(2,5),linewidth(.5));
+draw((3,0)--(3,5),linewidth(.5));
+draw((4,0)--(4,5),linewidth(.5));
+draw((5,0)--(5,5),linewidth(.5));
+draw((6,0)--(6,5),linewidth(.5));
+draw((0,1)--(6,1),linewidth(.5));
+draw((0,2)--(6,2),linewidth(.5));
+draw((0,3)--(6,3),linewidth(.5));
+draw((0,4)--(6,4),linewidth(.5));
+draw((0,5)--(6,5),linewidth(.5)); 
+draw((0,0)--(0,6),EndArrow);
+draw((0,0)--(7,0),EndArrow);
+draw((1,3)--(4,4)--(5,1)--cycle);
+label("\$y\$",(0,6),W); label("\$x\$",(7,0),S);
+label("\$A\$",(1,3),dir(210)); label("\$B\$",(5,1),SE); label("\$C\$",(4,4),dir(100));
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A) }\frac{1}{6} \qquad \textbf{(B) }\frac{1}{5} \qquad \textbf{(C) }\frac{1}{4} \qquad \textbf{(D) }\frac{1}{3} \qquad \textbf{(E) }\frac{1}{2}\)\par \vspace{0.5em}\item Ralph went to the store and bought \(12\) pairs of socks for a total of \(\$24\). Some of the socks he bought cost \(\$1\) a pair, some of the socks he bought cost \(\$3\) a pair, and some of the socks he bought cost \(\$4\) a pair. If he bought at least one pair of each type, how many pairs of \(\$1\) socks did Ralph buy?
+
+\(\textbf{(A) } 4 \qquad \textbf{(B) } 5 \qquad \textbf{(C) } 6 \qquad \textbf{(D) } 7 \qquad \textbf{(E) } 8\)\par \vspace{0.5em}\item In the given figure hexagon \(ABCDEF\) is equiangular, \(ABJI\) and \(FEHG\) are squares with areas \(18\) and \(32\) respectively, \(\triangle JBK\) is equilateral and \(FE=BC\). What is the area of \(\triangle KBC\)?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+draw((-4,6*sqrt(2))--(4,6*sqrt(2)));
+draw((-4,-6*sqrt(2))--(4,-6*sqrt(2)));
+draw((-8,0)--(-4,6*sqrt(2)));
+draw((-8,0)--(-4,-6*sqrt(2)));
+draw((4,6*sqrt(2))--(8,0));
+draw((8,0)--(4,-6*sqrt(2)));
+draw((-4,6*sqrt(2))--(4,6*sqrt(2))--(4,8+6*sqrt(2))--(-4,8+6*sqrt(2))--cycle);
+draw((-8,0)--(-4,-6*sqrt(2))--(-4-6*sqrt(2),-4-6*sqrt(2))--(-8-6*sqrt(2),-4)--cycle);
+label("\$I\$",(-4,8+6*sqrt(2)),dir(100)); label("\$J\$",(4,8+6*sqrt(2)),dir(80));
+label("\$A\$",(-4,6*sqrt(2)),dir(280)); label("\$B\$",(4,6*sqrt(2)),dir(250));
+label("\$C\$",(8,0),W); label("\$D\$",(4,-6*sqrt(2)),NW); label("\$E\$",(-4,-6*sqrt(2)),NE); label("\$F\$",(-8,0),E);
+draw((4,8+6*sqrt(2))--(4,6*sqrt(2))--(4+4*sqrt(3),4+6*sqrt(2))--cycle);
+label("\$K\$",(4+4*sqrt(3),4+6*sqrt(2)),E);
+draw((4+4*sqrt(3),4+6*sqrt(2))--(8,0),dashed);
+label("\$H\$",(-4-6*sqrt(2),-4-6*sqrt(2)),S);
+label("\$G\$",(-8-6*sqrt(2),-4),W);
+label("\$32\$",(-10,-8),N);
+label("\$18\$",(0,6*sqrt(2)+2),N);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A) }6\sqrt{2}\qquad\textbf{(B) }9\qquad\textbf{(C) }12\qquad\textbf{(D) }9\sqrt{2}\qquad\textbf{(E) }32\)\par \vspace{0.5em}\item On June \(1\), a group of students are standing in rows, with \(15\) students in each row. On June \(2\), the same group is standing with all of the students in one long row. On June \(3\), the same group is standing with just one student in each row. On June \(4\), the same group is standing with \(6\) students in each row. This process continues through June \(12\) with a different number of students per row each day. However, on June \(13\), they cannot find a new way of organizing the students. What is the smallest possible number of students in the group?
+
+\(\textbf{(A) } 21 \qquad \textbf{(B) } 30 \qquad \textbf{(C) } 60 \qquad \textbf{(D) } 90 \qquad \textbf{(E) } 1080\)\par \vspace{0.5em}\item Tom has twelve slips of paper which he wants to put into five cups labeled \(A\), \(B\), \(C\), \(D\), \(E\). He wants the sum of the numbers on the slips in each cup to be an integer. Furthermore, he wants the five integers to be consecutive and increasing from \(A\) to \(E\). The numbers on the papers are \(2, 2, 2, 2.5, 2.5, 3, 3, 3, 3, 3.5, 4,\) and \(4.5\). If a slip with \(2\) goes into cup \(E\) and a slip with \(3\) goes into cup \(B\), then the slip with \(3.5\) must go into what cup?
+
+\(
+\textbf{(A) } A \qquad
+\textbf{(B) } B \qquad
+\textbf{(C) } C \qquad
+\textbf{(D) } D \qquad
+\textbf{(E) } E
+\)\par \vspace{0.5em}\item A baseball league consists of two four-team divisions. Each team plays every other team in its division \(N\) games. Each team plays every team in the other division \(M\) games with \(N>2M\) and \(M>4\). Each team plays a \(76\)-game schedule. How many games does a team play within its own division?
+
+\(\textbf{(A) } 36 \qquad \textbf{(B) } 48 \qquad \textbf{(C) } 54 \qquad \textbf{(D) } 60 \qquad \textbf{(E) } 72\)\par \vspace{0.5em}\item One-inch squares are cut from the corners of this \(5\) inch square. What is the area in square inches of the largest square that can fit into the remaining space?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+draw((0,0)--(0,5)--(5,5)--(5,0)--cycle);
+filldraw((0,4)--(1,4)--(1,5)--(0,5)--cycle, gray);
+filldraw((0,0)--(1,0)--(1,1)--(0,1)--cycle, gray);
+filldraw((4,0)--(4,1)--(5,1)--(5,0)--cycle, gray);
+filldraw((4,4)--(4,5)--(5,5)--(5,4)--cycle, gray);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\( \textbf{(A) } 9\qquad \textbf{(B) } 12\frac{1}{2}\qquad \textbf{(C) } 15\qquad \textbf{(D) } 15\frac{1}{2}\qquad \textbf{(E) } 17\)\par \vspace{0.5em}\end{enumerate}
+\end{document}

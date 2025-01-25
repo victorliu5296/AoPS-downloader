@@ -1,0 +1,278 @@
+
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in}
+\usepackage{enumitem}
+\usepackage[hypertexnames=true, linktoc=all]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{asymptote}
+\usepackage{arcs}
+\usepackage{xwatermark}
+\begin{asydef}
+  // Global Asymptote settings
+  settings.outformat = "pdf";
+  settings.render = 0;
+  settings.prc = false;
+  import olympiad;
+  import cse5;
+  size(8cm);
+\end{asydef}
+\pagestyle{fancy}
+\fancyhead[L]{\textbf{AMC 8 Problems}}
+\fancyhead[R]{\textbf{2011}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{AMC 8 Problems \\ 2011}
+\date{}
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{2011 AMC 8}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item Margie bought \( 3 \) apples at a cost of \( 50 \) cents per apple. She paid with a 5-dollar bill. How much change did Margie receive?
+
+\(\textbf{(A) }\ \textdollar 1.50 \qquad \textbf{(B) }\ \textdollar 2.00 \qquad \textbf{(C) }\ \textdollar 2.50 \qquad \textbf{(D) }\ \textdollar 3.00 \qquad \textbf{(E) }\ \textdollar 3.50\)\par \vspace{0.5em}\item Karl's rectangular vegetable garden is \( 20 \) feet by \( 45 \) feet, and Makenna's is \( 25 \) feet by \( 40 \) feet. Which of the following statements are true?
+
+\(\textbf{(A) }\text{Karl's garden is larger by 100 square feet.}\)
+
+\(\textbf{(B) }\text{Karl's garden is larger by 25 square feet.}\)
+ 
+\(\textbf{(C) }\text{The gardens are the same size.}\) 
+
+\(\textbf{(D) }\text{Makenna's garden is larger by 25 square feet.}\)
+
+\(\textbf{(E) }\text{Makenna's garden is larger by 100 square feet.}\)\par \vspace{0.5em}\item Extend the square pattern of 8 black and 17 white square tiles by attaching a border of black tiles around the square. What is the ratio of black tiles to white tiles in the extended pattern?\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+filldraw((0,0)--(5,0)--(5,5)--(0,5)--cycle,white,black);
+filldraw((1,1)--(4,1)--(4,4)--(1,4)--cycle,mediumgray,black);
+filldraw((2,2)--(3,2)--(3,3)--(2,3)--cycle,white,black);
+draw((4,0)--(4,5));
+draw((3,0)--(3,5));
+draw((2,0)--(2,5));
+draw((1,0)--(1,5));
+draw((0,4)--(5,4));
+draw((0,3)--(5,3));
+draw((0,2)--(5,2));
+draw((0,1)--(5,1));
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\( \textbf{(A) }8:17 \qquad\textbf{(B) }25:49 \qquad\textbf{(C) }36:25 \qquad\textbf{(D) }32:17 \qquad\textbf{(E) }36:17\)\par \vspace{0.5em}\item Here is a list of the numbers of fish that Tyler caught in nine outings last summer: 
+\begin{equation*}
+2,0,1,3,0,3,3,1,2.
+\end{equation*}
+ Which statement about the mean, median, and mode is true?
+
+\(\textbf{(A) }\text{median} < \text{mean} < \text{mode} \qquad \textbf{(B) }\text{mean} < \text{mode} < \text{median} \\ \\ \textbf{(C) }\text{mean} < \text{median} < \text{mode} \qquad \textbf{(D) }\text{median} < \text{mode} < \text{mean} \\ \\ \textbf{(E) }\text{mode} < \text{median} < \text{mean}\)\par \vspace{0.5em}\item What time was it \(2011\) minutes after midnight on January 1, 2011?
+
+\(\textbf{(A) }\text{January 1 at 9:31 PM}\)
+
+\(\textbf{(B) }\text{January 1 at 11:51 PM}\) 
+
+\(\textbf{(C) }\text{January 2 at 3:11 AM}\) 
+
+\(\textbf{(D) }\text{January 2 at 9:31 AM}\) 
+
+\(\textbf{(E) }\text{January 2 at 6:01 PM}\)\par \vspace{0.5em}\item In a town of 351 adults, every adult owns a car, motorcycle, or both. If 331 adults own cars and 45 adults own motorcycles, how many of the car owners do not own a motorcycle?
+
+\( \textbf{(A) }20 \qquad\textbf{(B) }25 \qquad\textbf{(C) }45 \qquad\textbf{(D) }306 \qquad\textbf{(E) }351\)\par \vspace{0.5em}\item Each of the following four large congruent squares is subdivided into combinations of congruent triangles or rectangles and is partially bolded. What percent of the total area is partially bolded?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+import graph; size(7.01cm); real lsf=0.5; pen dps=linewidth(0.7)+fontsize(10); defaultpen(dps); pen ds=black; real xmin=-0.42,xmax=14.59,ymin=-10.08,ymax=5.26; 
+pair A=(0,0), B=(4,0), C=(0,4), D=(4,4), F=(2,0), G=(3,0), H=(1,4), I=(2,4), J=(3,4), K=(0,-2), L=(4,-2), M=(0,-6), O=(0,-4), P=(4,-4), Q=(2,-2), R=(2,-6), T=(6,4), U=(10,0), V=(10,4), Z=(10,2), A\_1=(8,4), B\_1=(8,0), C\_1=(6,-2), D\_1=(10,-2), E\_1=(6,-6), F\_1=(10,-6), G\_1=(6,-4), H\_1=(10,-4), I\_1=(8,-2), J\_1=(8,-6), K\_1=(8,-4); 
+draw(C--H--(1,0)--A--cycle,linewidth(1.6)); draw(M--O--Q--R--cycle,linewidth(1.6)); draw(A\_1--V--Z--cycle,linewidth(1.6)); draw(G\_1--K\_1--J\_1--E\_1--cycle,linewidth(1.6)); 
+draw(C--D); draw(D--B); draw(B--A); draw(A--C); draw(H--(1,0)); draw(I--F); draw(J--G); draw(C--H,linewidth(1.6)); draw(H--(1,0),linewidth(1.6)); draw((1,0)--A,linewidth(1.6)); draw(A--C,linewidth(1.6)); draw(K--L); draw((4,-6)--L); draw((4,-6)--M); draw(M--K); draw(O--P); draw(Q--R); draw(O--Q); draw(M--O,linewidth(1.6)); draw(O--Q,linewidth(1.6)); draw(Q--R,linewidth(1.6)); draw(R--M,linewidth(1.6)); draw(T--V); draw(V--U); draw(U--(6,0)); draw((6,0)--T); draw((6,2)--Z); draw(A\_1--B\_1); draw(A\_1--Z); draw(A\_1--V,linewidth(1.6)); draw(V--Z,linewidth(1.6)); draw(Z--A\_1,linewidth(1.6)); draw(C\_1--D\_1); draw(D\_1--F\_1); draw(F\_1--E\_1); draw(E\_1--C\_1); draw(G\_1--H\_1); draw(I\_1--J\_1); draw(G\_1--K\_1,linewidth(1.6)); draw(K\_1--J\_1,linewidth(1.6)); draw(J\_1--E\_1,linewidth(1.6)); draw(E\_1--G\_1,linewidth(1.6)); 
+dot(A,linewidth(1pt)+ds); dot(B,linewidth(1pt)+ds); dot(C,linewidth(1pt)+ds); dot(D,linewidth(1pt)+ds); dot((1,0),linewidth(1pt)+ds); dot(F,linewidth(1pt)+ds); dot(G,linewidth(1pt)+ds); dot(H,linewidth(1pt)+ds); dot(I,linewidth(1pt)+ds); dot(J,linewidth(1pt)+ds); dot(K,linewidth(1pt)+ds); dot(L,linewidth(1pt)+ds); dot(M,linewidth(1pt)+ds); dot((4,-6),linewidth(1pt)+ds); dot(O,linewidth(1pt)+ds); dot(P,linewidth(1pt)+ds); dot(Q,linewidth(1pt)+ds); dot(R,linewidth(1pt)+ds); dot((6,0),linewidth(1pt)+ds); dot(T,linewidth(1pt)+ds); dot(U,linewidth(1pt)+ds); dot(V,linewidth(1pt)+ds); dot((6,2),linewidth(1pt)+ds); dot(Z,linewidth(1pt)+ds); dot(A\_1,linewidth(1pt)+ds); dot(B\_1,linewidth(1pt)+ds); dot(C\_1,linewidth(1pt)+ds); dot(D\_1,linewidth(1pt)+ds); dot(E\_1,linewidth(1pt)+ds); dot(F\_1,linewidth(1pt)+ds); dot(G\_1,linewidth(1pt)+ds); dot(H\_1,linewidth(1pt)+ds); dot(I\_1,linewidth(1pt)+ds); dot(J\_1,linewidth(1pt)+ds); dot(K\_1,linewidth(1pt)+ds); 
+clip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\( \textbf{(A)}12\frac{1}{2}\qquad\textbf{(B)}20\qquad\textbf{(C)}25\qquad\textbf{(D)}33\frac{1}{3}\qquad\textbf{(E)}37\frac{1}{2} \)\par \vspace{0.5em}\item Bag A has three chips labeled 1, 3, and 5. Bag B has three chips labeled 2, 4, and 6. If one chip is drawn from each bag, how many different values are possible for the sum of the two numbers on the chips?
+
+\( \textbf{(A) }4 \qquad\textbf{(B) }5 \qquad\textbf{(C) }6 \qquad\textbf{(D) }7 \qquad\textbf{(E) }9 \)\par \vspace{0.5em}\item Carmen takes a long bike ride on a hilly highway. The graph indicates the miles traveled during the time of her ride. What is Carmen's average speed for her entire ride in miles per hour?
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+import graph; size(8.76cm); real lsf=0.5; pen dps=linewidth(0.7)+fontsize(10); defaultpen(dps); pen ds=black; real xmin=-3.58,xmax=10.19,ymin=-4.43,ymax=9.63; 
+draw((0,0)--(0,8)); draw((0,0)--(8,0)); draw((0,1)--(8,1)); draw((0,2)--(8,2)); draw((0,3)--(8,3)); draw((0,4)--(8,4)); draw((0,5)--(8,5)); draw((0,6)--(8,6)); draw((0,7)--(8,7)); draw((1,0)--(1,8)); draw((2,0)--(2,8)); draw((3,0)--(3,8)); draw((4,0)--(4,8)); draw((5,0)--(5,8)); draw((6,0)--(6,8)); draw((7,0)--(7,8)); label("\$1\$",(0.95,-0.24),SE*lsf); label("\$2\$",(1.92,-0.26),SE*lsf); label("\$3\$",(2.92,-0.31),SE*lsf); label("\$4\$",(3.93,-0.26),SE*lsf); label("\$5\$",(4.92,-0.27),SE*lsf); label("\$6\$",(5.95,-0.29),SE*lsf); label("\$7\$",(6.94,-0.27),SE*lsf); label("\$5\$",(-0.49,1.22),SE*lsf); label("\$10\$",(-0.59,2.23),SE*lsf); label("\$15\$",(-0.61,3.22),SE*lsf); label("\$20\$",(-0.61,4.23),SE*lsf); label("\$25\$",(-0.59,5.22),SE*lsf); label("\$30\$",(-0.59,6.2),SE*lsf); label("\$35\$",(-0.56,7.18),SE*lsf); draw((0,0)--(1,1),linewidth(1.6)); draw((1,1)--(2,3),linewidth(1.6)); draw((2,3)--(4,4),linewidth(1.6)); draw((4,4)--(7,7),linewidth(1.6)); label("HOURS",(3.41,-0.85),SE*lsf); label("M",(-1.39,5.32),SE*lsf); label("I",(-1.34,4.93),SE*lsf); label("L",(-1.36,4.51),SE*lsf); label("E",(-1.37,4.11),SE*lsf); label("S",(-1.39,3.7),SE*lsf); 
+clip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\( \textbf{(A) }2\qquad\textbf{(B) } 2.5\qquad\textbf{(C) } 4\qquad\textbf{(D) } 4.5\qquad\textbf{(E) } 5 \)\par \vspace{0.5em}\item The taxi fare in Gotham City is \textbackslash\{\}texttt\{\textbackslash\{\}\$2.40\} for the first \(\frac12\) mile and additional mileage charged at the rate \textbackslash\{\}texttt\{\textbackslash\{\}\$0.20\} for each additional 0.1 mile. You plan to give the driver a \textbackslash\{\}texttt\{\textbackslash\{\}\$2\} tip. How many miles can you ride for \textbackslash\{\}texttt\{\textbackslash\{\}\$10\}?
+
+\( \textbf{(A) } 3.0\qquad\textbf{(B) }3.25\qquad\textbf{(C) }3.3\qquad\textbf{(D) }3.5\qquad\textbf{(E) }3.75 \)\par \vspace{0.5em}\item The graph shows the number of minutes studied by both Asha (black bar) and Sasha (grey bar) in one week. On the average, how many more minutes per day did Sasha study than Asha?
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+size(300);
+real i;
+defaultpen(linewidth(0.8));
+draw((0,140)--origin--(220,0));
+for(i=1;i<13;i=i+1) \{
+draw((0,10*i)--(220,10*i));
+\}
+label("\$0\$",origin,W);
+label("\$20\$",(0,20),W);
+label("\$40\$",(0,40),W);
+label("\$60\$",(0,60),W);
+label("\$80\$",(0,80),W);
+label("\$100\$",(0,100),W);
+label("\$120\$",(0,120),W);
+path MonD=(20,0)--(20,60)--(30,60)--(30,0)--cycle,MonL=(30,0)--(30,70)--(40,70)--(40,0)--cycle,TuesD=(60,0)--(60,90)--(70,90)--(70,0)--cycle,TuesL=(70,0)--(70,80)--(80,80)--(80,0)--cycle,WedD=(100,0)--(100,100)--(110,100)--(110,0)--cycle,WedL=(110,0)--(110,120)--(120,120)--(120,0)--cycle,ThurD=(140,0)--(140,80)--(150,80)--(150,0)--cycle,ThurL=(150,0)--(150,110)--(160,110)--(160,0)--cycle,FriD=(180,0)--(180,70)--(190,70)--(190,0)--cycle,FriL=(190,0)--(190,50)--(200,50)--(200,0)--cycle;
+fill(MonD,black);
+fill(MonL,grey);
+fill(TuesD,black);
+fill(TuesL,grey);
+fill(WedD,black);
+fill(WedL,grey);
+fill(ThurD,black);
+fill(ThurL,grey);
+fill(FriD,black);
+fill(FriL,grey);
+draw(MonD\^{}\^{}MonL\^{}\^{}TuesD\^{}\^{}TuesL\^{}\^{}WedD\^{}\^{}WedL\^{}\^{}ThurD\^{}\^{}ThurL\^{}\^{}FriD\^{}\^{}FriL);
+label("M",(30,-5),S);
+label("Tu",(70,-5),S);
+label("W",(110,-5),S);
+label("Th",(150,-5),S);
+label("F",(190,-5),S);
+label("M",(-25,85),W);
+label("I",(-27,75),W);
+label("N",(-25,65),W);
+label("U",(-25,55),W);
+label("T",(-25,45),W);
+label("E",(-25,35),W);
+label("S",(-26,25),W);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\( \textbf{(A)}\ 6\qquad\textbf{(B)}\ 8\qquad\textbf{(C)}\ 9\qquad\textbf{(D)}\ 10\qquad\textbf{(E)}\ 12 \)\par \vspace{0.5em}\item Angie, Bridget, Carlos, and Diego are seated at random around a square table, one person to a side. What is the probability that Angie and Carlos are seated opposite each other?
+
+\( \textbf{(A) } \frac14 \qquad\textbf{(B) } \frac13 \qquad\textbf{(C) } \frac12 \qquad\textbf{(D) } \frac23 \qquad\textbf{(E) } \frac34 \)\par \vspace{0.5em}\item Two congruent squares, \(ABCD\) and \(PQRS\), have side length \(15\). They overlap to form the \(15\) by \(25\) rectangle \(AQRD\) shown. What percent of the area of rectangle \(AQRD\) is shaded? 
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+filldraw((0,0)--(25,0)--(25,15)--(0,15)--cycle,white,black);
+label("D",(0,0),S);
+label("R",(25,0),S);
+label("Q",(25,15),N);
+label("A",(0,15),N);
+filldraw((10,0)--(15,0)--(15,15)--(10,15)--cycle,mediumgrey,black);
+label("S",(10,0),S);
+label("C",(15,0),S);
+label("B",(15,15),N);
+label("P",(10,15),N);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\( \textbf{(A)}\ 15\qquad\textbf{(B)}\ 18\qquad\textbf{(C)}\ 20\qquad\textbf{(D)}\ 24\qquad\textbf{(E)}\ 25 \)\par \vspace{0.5em}\item There are \(270\) students at Colfax Middle School, where the ratio of boys to girls is \(5 : 4\). There are \(180\) students at Winthrop Middle School, where the ratio of boys to girls is \(4 : 5\). The two schools hold a dance and all students from both schools attend. What fraction of the students at the dance are girls?
+
+\( \textbf{(A) } \dfrac7{18} \qquad\textbf{(B) } \dfrac7{15} \qquad\textbf{(C) } \dfrac{22}{45} \qquad\textbf{(D) } \dfrac12 \qquad\textbf{(E) } \dfrac{23}{45} \)\par \vspace{0.5em}\item How many digits are in the product \(4^5 \cdot 5^{10}\)?
+
+\( \textbf{(A) } 8 \qquad\textbf{(B) } 9 \qquad\textbf{(C) } 10 \qquad\textbf{(D) } 11 \qquad\textbf{(E) } 12 \)\par \vspace{0.5em}\item Let \(A\) be the area of the triangle with sides of length \(25, 25\), and \(30\). Let \(B\) be the area of the triangle with sides of length \(25, 25,\) and \(40\). What is the relationship between \(A\) and \(B\)?
+
+\( \textbf{(A) } A = \dfrac9{16}B \qquad\textbf{(B) } A = \dfrac34B \qquad\textbf{(C) } A=B \qquad\textbf{(D) } A = \dfrac43B \\ \\ \textbf{(E) }A = \dfrac{16}9B \)\par \vspace{0.5em}\item Let \(w\), \(x\), \(y\), and \(z\) be whole numbers. If \(2^w \cdot 3^x \cdot 5^y \cdot 7^z = 588\), then what does \(2w + 3x + 5y + 7z\) equal?
+
+\( \textbf{(A) } 21\qquad\textbf{(B) }25\qquad\textbf{(C) }27\qquad\textbf{(D) }35\qquad\textbf{(E) }56 \)\par \vspace{0.5em}\item A fair 6-sided die is rolled twice. What is the probability that the first number that comes up is greater than or equal to the second number?
+
+\( \textbf{(A) }\dfrac16\qquad\textbf{(B) }\dfrac5{12}\qquad\textbf{(C) }\dfrac12\qquad\textbf{(D) }\dfrac7{12}\qquad\textbf{(E) }\dfrac56 \)\par \vspace{0.5em}\item How many rectangles are in this figure?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+pair A,B,C,D,E,F,G,H,I,J,K,L;
+A=(0,0);
+B=(20,0);
+C=(20,20);
+D=(0,20);
+draw(A--B--C--D--cycle);
+E=(-10,-5);
+F=(13,-5);
+G=(13,5);
+H=(-10,5);
+draw(E--F--G--H--cycle);
+I=(10,-20);
+J=(18,-20);
+K=(18,13);
+L=(10,13);
+draw(I--J--K--L--cycle);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\( \textbf{(A)}\ 8\qquad\textbf{(B)}\ 9\qquad\textbf{(C)}\ 10\qquad\textbf{(D)}\ 11\qquad\textbf{(E)}\ 12 \)\par \vspace{0.5em}\item Quadrilateral \(ABCD\) is a trapezoid, \(AD = 15\), \(AB = 50\), \(BC = 20\), and the altitude is \(12\). What is the area of the trapezoid?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+pair A,B,C,D;
+A=(3,20);
+B=(35,20);
+C=(47,0);
+D=(0,0);
+draw(A--B--C--D--cycle);
+dot((0,0));
+dot((3,20));
+dot((35,20));
+dot((47,0));
+label("A",A,N);
+label("B",B,N);
+label("C",C,S);
+label("D",D,S);
+draw((19,20)--(19,0));
+dot((19,20));
+dot((19,0));
+draw((19,3)--(22,3)--(22,0));
+label("12",(21,10),E);
+label("50",(19,22),N);
+label("15",(1,10),W);
+label("20",(41,12),E);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\( \textbf{(A) }600\qquad\textbf{(B) }650\qquad\textbf{(C) }700\qquad\textbf{(D) }750\qquad\textbf{(E) }800 \)\par \vspace{0.5em}\item Students guess that Norb's age is \(24, 28, 30, 32, 36, 38, 41, 44, 47\), and \(49\). Norb says, "At least half of you guessed too low, two of you are off by one, and my age is a prime number." How old is Norb?
+
+\( \textbf{(A) }29\qquad\textbf{(B) }31\qquad\textbf{(C) }37\qquad\textbf{(D) }43\qquad\textbf{(E) }48 \)\par \vspace{0.5em}\item What is the '''tens''' digit of \(7^{2011}\)?
+
+\( \textbf{(A) }0\qquad\textbf{(B) }1\qquad\textbf{(C) }3\qquad\textbf{(D) }4\qquad\textbf{(E) }7 \)\par \vspace{0.5em}\item How many 4-digit positive integers have four different digits, where the leading digit is not zero, the integer is a multiple of 5, and 5 is the largest digit?
+
+\( \textbf{(A) }24\qquad\textbf{(B) }48\qquad\textbf{(C) }60\qquad\textbf{(D) }84\qquad\textbf{(E) }108 \)\par \vspace{0.5em}\item In how many ways can 10001 be written as the sum of two primes?
+
+\( \textbf{(A) }0\qquad\textbf{(B) }1\qquad\textbf{(C) }2\qquad\textbf{(D) }3\qquad\textbf{(E) }4 \)\par \vspace{0.5em}\item A circle with radius \(1\) is inscribed in a square and circumscribed about another square as shown. Which fraction is closest to the ratio of the circle's shaded area to the area between the two squares?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+filldraw((-1,-1)--(-1,1)--(1,1)--(1,-1)--cycle,gray,black);
+filldraw(Circle((0,0),1), mediumgray,black);
+filldraw((-1,0)--(0,1)--(1,0)--(0,-1)--cycle,white,black);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\( \textbf{(A)}\ \frac{1}2\qquad\textbf{(B)}\ 1\qquad\textbf{(C)}\ \frac{3}2\qquad\textbf{(D)}\ 2\qquad\textbf{(E)}\ \frac{5}2 \)\par \vspace{0.5em}\end{enumerate}
+\end{document}

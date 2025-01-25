@@ -1,0 +1,471 @@
+
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in}
+\usepackage{enumitem}
+\usepackage[hypertexnames=true, linktoc=all]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{asymptote}
+\usepackage{arcs}
+\usepackage{xwatermark}
+\begin{asydef}
+  // Global Asymptote settings
+  settings.outformat = "pdf";
+  settings.render = 0;
+  settings.prc = false;
+  import olympiad;
+  import cse5;
+  size(8cm);
+\end{asydef}
+\pagestyle{fancy}
+\fancyhead[L]{\textbf{AMC 8 Problems}}
+\fancyhead[R]{\textbf{2022}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{AMC 8 Problems \\ 2022}
+\date{}
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{2022 AMC 8}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item The Math Team designed a logo shaped like a multiplication symbol, shown below on a grid of 1-inch squares. What is the area of the logo in square inches?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+defaultpen(linewidth(0.5));
+size(5cm);
+defaultpen(fontsize(14pt));
+label("\$\textbackslash\{\}textbf\{Math\}\$", (2.1,3.7)--(3.9,3.7));
+label("\$\textbackslash\{\}textbf\{Team\}\$", (2.1,3)--(3.9,3));
+filldraw((1,2)--(2,1)--(3,2)--(4,1)--(5,2)--(4,3)--(5,4)--(4,5)--(3,4)--(2,5)--(1,4)--(2,3)--(1,2)--cycle, mediumgray*0.5 + lightgray*0.5);
+
+draw((0,0)--(6,0), gray);
+draw((0,1)--(6,1), gray);
+draw((0,2)--(6,2), gray);
+draw((0,3)--(6,3), gray);
+draw((0,4)--(6,4), gray);
+draw((0,5)--(6,5), gray);
+draw((0,6)--(6,6), gray);
+
+draw((0,0)--(0,6), gray);
+draw((1,0)--(1,6), gray);
+draw((2,0)--(2,6), gray);
+draw((3,0)--(3,6), gray);
+draw((4,0)--(4,6), gray);
+draw((5,0)--(5,6), gray);
+draw((6,0)--(6,6), gray);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A) } 10 \qquad \textbf{(B) } 12 \qquad \textbf{(C) } 13 \qquad \textbf{(D) } 14 \qquad \textbf{(E) } 15\)\par \vspace{0.5em}\item Consider these two operations:
+
+\begin{align*}
+a \, \blacklozenge \, b &= a^2 - b^2\\
+a \, \bigstar \, b &= (a - b)^2
+\end{align*}
+
+What is the value of \((5 \, \blacklozenge \, 3) \, \bigstar \, 6?\)
+
+\(\textbf{(A) } {-}20 \qquad \textbf{(B) } 4 \qquad \textbf{(C) } 16 \qquad \textbf{(D) } 100 \qquad \textbf{(E) } 220\)\par \vspace{0.5em}\item When three positive integers \(a\), \(b\), and \(c\) are multiplied together, their product is \(100\). Suppose \(a < b < c\). In how many ways can the numbers be chosen?
+
+\(\textbf{(A) } 0 \qquad \textbf{(B) } 1\qquad\textbf{(C) } 2\qquad\textbf{(D) } 3\qquad\textbf{(E) } 4\)\par \vspace{0.5em}\item The letter \textbackslash\{\}textbf\{M\} in the figure below is first reflected over the line \(q\) and then reflected over the line \(p\). What is the resulting image?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+// pog diagram
+usepackage("newtxtext");
+size(3cm);
+draw((-1,0)--(1,0)); draw((0,-1)--(0,1)); label("\$\textbackslash\{\}textbf\{\textbackslash\{\}textsf\{M\}\}\$",(0.25,0.6));
+draw((-0.8,-0.8)--(0.8,0.8),linewidth(1.1)); label("\$p\$", (-1,0),NE); label("\$q\$", (-0.75,-0.75), N*1.5);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+// pog diagram
+usepackage("newtxtext");
+size(12.5cm);
+draw((-1,0)--(1,0)); draw((0,-1)--(0,1)); label(rotate(90)*"\$\textbackslash\{\}textbf\{\textbackslash\{\}textsf\{M\}\}\$",(0.6,-0.25));
+draw((-0.8,-0.8)--(0.8,0.8),linewidth(1.1)); 
+label("\$\textbackslash\{\}textbf\{(A)\}\$",(-1,1),W);
+draw((2,0)--(4,0)); draw((3,-1)--(3,1)); label(rotate(270)*"\$\textbackslash\{\}textbf\{\textbackslash\{\}textsf\{M\}\}\$",(2.8,0.7));
+draw((2.2,-0.8)--(3.8,0.8),linewidth(1.1)); 
+label("\$\textbackslash\{\}textbf\{(B)\}\$",(2,1),W);
+draw((5,0)--(7,0)); draw((6,-1)--(6,1)); label(rotate(90)*"\$\textbackslash\{\}textbf\{\textbackslash\{\}textsf\{M\}\}\$",(5.4,0.2));
+draw((5.2,-0.8)--(6.8,0.8),linewidth(1.1)); 
+label("\$\textbackslash\{\}textbf\{(C)\}\$",(5,1),W);
+draw((-1,-2.5)--(1,-2.5)); draw((0,-3.5)--(0,-1.5)); label(rotate(180)*"\$\textbackslash\{\}textbf\{\textbackslash\{\}textsf\{M\}\}\$",(-0.25,-3.1));
+draw((-0.8,-3.3)--(0.8,-1.7),linewidth(1.1)); 
+label("\$\textbackslash\{\}textbf\{(D)\}\$",(-1,-1.5),W);
+draw((2,-2.5)--(4,-2.5)); draw((3,-3.5)--(3,-1.5)); label(rotate(270)*"\$\textbackslash\{\}textbf\{\textbackslash\{\}textsf\{M\}\}\$",(3.6,-2.75));
+draw((2.2,-3.3)--(3.8,-1.7),linewidth(1.1)); 
+label("\$\textbackslash\{\}textbf\{(E)\}\$",(2,-1.5),W);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+\par \vspace{0.5em}\item Anna and Bella are celebrating their birthdays together. Five years ago, when Bella turned \(6\) years old, she received a newborn kitten as a birthday present. Today the sum of the ages of the two children and the kitten is \(30\) years. How many years older than Bella is Anna?
+
+\(\textbf{(A) } 1 \qquad \textbf{(B) } 2 \qquad \textbf{(C) } 3 \qquad \textbf{(D) } 4 \qquad \textbf{(E) } ~5\)\par \vspace{0.5em}\item Three positive integers are equally spaced on a number line. The middle number is \(15,\) and the largest number is \(4\) times the smallest number. What is the smallest of these three numbers? 
+
+\(\textbf{(A) } 4 \qquad \textbf{(B) } 5 \qquad \textbf{(C) } 6 \qquad \textbf{(D) } 7 \qquad \textbf{(E) } 8\)\par \vspace{0.5em}\item When the World Wide Web first became popular in the \(1990\)s, download speeds reached a maximum of about \(56\) kilobits per second. Approximately how many minutes would the download of a \(4.2\)-megabyte song have taken at that speed? (Note that there are \(8000\) kilobits in a megabyte.)
+
+\(\textbf{(A) } 0.6 \qquad \textbf{(B) } 10 \qquad \textbf{(C) } 1800 \qquad \textbf{(D) } 7200 \qquad \textbf{(E) } 36000\)\par \vspace{0.5em}\item What is the value of 
+\begin{equation*}
+\frac{1}{3}\cdot\frac{2}{4}\cdot\frac{3}{5}\cdots\frac{18}{20}\cdot\frac{19}{21}\cdot\frac{20}{22}?
+\end{equation*}
+
+
+\(\textbf{(A) } \frac{1}{462} \qquad \textbf{(B) } \frac{1}{231} \qquad \textbf{(C) } \frac{1}{132} \qquad \textbf{(D) } \frac{2}{213} \qquad \textbf{(E) } \frac{1}{22}\)\par \vspace{0.5em}\item A cup of boiling water (\(212^{\circ}\text{F}\)) is placed to cool in a room whose temperature remains constant at \(68^{\circ}\text{F}\). Suppose the difference between the water temperature and the room temperature is halved every \(5\) minutes. What is the water temperature, in degrees Fahrenheit, after \(15\) minutes?
+ 
+\(\textbf{(A)} ~77\qquad\textbf{(B)} ~86\qquad\textbf{(C)} ~92\qquad\textbf{(D)} ~98\qquad\textbf{(E)} ~104\)\par \vspace{0.5em}\item One sunny day, Ling decided to take a hike in the mountains. She left her house at \(8 \, \textsc{am}\), drove at a constant speed of \(45\) miles per hour, and arrived at the hiking trail at \(10 \, \textsc{am}\). After hiking for \(3\) hours, Ling drove home at a constant speed of \(60\) miles per hour. Which of the following graphs best illustrates the distance between Lings car and her house over the course of her trip?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+unitsize(12);
+usepackage("mathptmx");
+defaultpen(fontsize(8)+linewidth(.7));
+int mod12(int i) \{if (i<13) \{return i;\} else \{return i-12;\}\}
+void drawgraph(pair sh,string lab) \{
+for (int i=0;i<11;++i) \{
+for (int j=0;j<6;++j) \{
+draw(shift(sh+(i,j))*unitsquare,mediumgray);
+\}
+\}
+draw(shift(sh)*((-1,0)--(11,0)),EndArrow(angle=20,size=8));
+draw(shift(sh)*((0,-1)--(0,6)),EndArrow(angle=20,size=8));
+for (int i=1;i<10;++i) \{
+draw(shift(sh)*((i,-.2)--(i,.2)));
+\}
+label("8\textbackslash\{\}tiny\{\textbackslash\{\}textsc\{am\}\}",sh+(1,-.2),S);
+ 
+for (int i=2;i<9;++i) \{
+label(string(mod12(i+7)),sh+(i,-.2),S);
+\}
+label("4\textbackslash\{\}tiny\{\textbackslash\{\}textsc\{pm\}\}",sh+(9,-.2),S);
+for (int i=1;i<6;++i) \{
+label(string(30*i),sh+(0,i),2*W);
+\}
+draw(rotate(90)*"Distance (miles)",sh+(-2.1,3),fontsize(10));
+label("\$\textbackslash\{\}textbf\{("+lab+")\}\$",sh+(-2.1,6.8),fontsize(12));
+\}
+drawgraph((0,0),"A");
+drawgraph((15,0),"B");
+drawgraph((0,-10),"C");
+drawgraph((15,-10),"D");
+drawgraph((0,-20),"E");
+dotfactor=6;
+draw((1,0)--(3,3)--(6,3)--(8,0),linewidth(.9));
+dot((1,0)\^{}\^{}(3,3)\^{}\^{}(6,3)\^{}\^{}(8,0));
+pair sh = (15,0);
+draw(shift(sh)*((1,0)--(3,1.5)--(6,1.5)--(8,0)),linewidth(.9));
+dot(sh+(1,0)\^{}\^{}sh+(3,1.5)\^{}\^{}sh+(6,1.5)\^{}\^{}sh+(8,0));
+pair sh = (0,-10);
+draw(shift(sh)*((1,0)--(3,1.5)--(6,1.5)--(7.5,0)),linewidth(.9));
+dot(sh+(1,0)\^{}\^{}sh+(3,1.5)\^{}\^{}sh+(6,1.5)\^{}\^{}sh+(7.5,0));
+pair sh = (15,-10);
+draw(shift(sh)*((1,0)--(3,4)--(6,4)--(9.3,0)),linewidth(.9));
+dot(sh+(1,0)\^{}\^{}sh+(3,4)\^{}\^{}sh+(6,4)\^{}\^{}sh+(9.3,0));
+pair sh = (0,-20);
+draw(shift(sh)*((1,0)--(3,3)--(6,3)--(7.5,0)),linewidth(.9));
+dot(sh+(1,0)\^{}\^{}sh+(3,3)\^{}\^{}sh+(6,3)\^{}\^{}sh+(7.5,0));
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+\par \vspace{0.5em}\item Henry the donkey has a very long piece of pasta. He takes a number of bites of pasta, each time eating \(3\) inches of pasta from the middle of one piece. In the end, he has \(10\) pieces of pasta whose total length is \(17\) inches. How long, in inches, was the piece of pasta he started with?
+
+\(\textbf{(A)} ~34\qquad\textbf{(B)} ~38\qquad\textbf{(C)} ~41\qquad\textbf{(D)} ~44\qquad\textbf{(E)} ~47\)\par \vspace{0.5em}\item The arrows on the two spinners shown below are spun. Let the number \(N\)  equal \(10\) times the number on Spinner \(\text{A}\), added to the number on Spinner \(\text{B}\). What is the probability that \(N\) is a perfect square number?
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+//diagram by pog give me 1 billion dollars for this
+size(6cm);
+usepackage("mathptmx");
+filldraw(arc((0,0), r=4, angle1=0, angle2=90)--(0,0)--cycle,mediumgray*0.5+gray*0.5);
+filldraw(arc((0,0), r=4, angle1=90, angle2=180)--(0,0)--cycle,lightgray);
+filldraw(arc((0,0), r=4, angle1=180, angle2=270)--(0,0)--cycle,mediumgray);
+filldraw(arc((0,0), r=4, angle1=270, angle2=360)--(0,0)--cycle,lightgray*0.5+mediumgray*0.5);
+label("\$5\$", (-1.5,1.7));
+label("\$6\$", (1.5,1.7));
+label("\$7\$", (1.5,-1.7));
+label("\$8\$", (-1.5,-1.7));
+label("Spinner A", (0, -5.5));
+filldraw(arc((12,0), r=4, angle1=0, angle2=90)--(12,0)--cycle,mediumgray*0.5+gray*0.5);
+filldraw(arc((12,0), r=4, angle1=90, angle2=180)--(12,0)--cycle,lightgray);
+filldraw(arc((12,0), r=4, angle1=180, angle2=270)--(12,0)--cycle,mediumgray);
+filldraw(arc((12,0), r=4, angle1=270, angle2=360)--(12,0)--cycle,lightgray*0.5+mediumgray*0.5);
+label("\$1\$", (10.5,1.7));
+label("\$2\$", (13.5,1.7));
+label("\$3\$", (13.5,-1.7));
+label("\$4\$", (10.5,-1.7));
+label("Spinner B", (12, -5.5));
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+\(\textbf{(A)} ~\dfrac{1}{16}\qquad\textbf{(B)} ~\dfrac{1}{8}\qquad\textbf{(C)} ~\dfrac{1}{4}\qquad\textbf{(D)} ~\dfrac{3}{8}\qquad\textbf{(E)} ~\dfrac{1}{2}\)\par \vspace{0.5em}\item How many positive integers can fill the blank in the sentence below?
+
+One positive integer is \textbackslash\{\}underline\{\textbackslash\{\}hspace\{2cm\}\} more than twice another, and the sum of the two numbers is \(28\).
+
+\(\textbf{(A) } 6 \qquad \textbf{(B) } 7 \qquad \textbf{(C) } 8 \qquad \textbf{(D) } 9 \qquad \textbf{(E) } 10\)\par \vspace{0.5em}\item In how many ways can the letters in \(\textbf{BEEKEEPER}\) be rearranged so that two or more \(\textbf{E}\)s do not appear together?
+
+\(\textbf{(A) } 1 \qquad \textbf{(B) } 4 \qquad \textbf{(C) } 12 \qquad \textbf{(D) } 24 \qquad \textbf{(E) } 120\)\par \vspace{0.5em}\item Laszlo went online to shop for black pepper and found thirty different black pepper options varying in weight and price, shown in the scatter plot below. In ounces, what is the weight of the pepper that offers the lowest price per ounce?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+//diagram by pog
+size(5.5cm);
+usepackage("mathptmx");
+defaultpen(mediumgray*0.5+gray*0.5+linewidth(0.63));
+add(grid(6,6));
+label(scale(0.7)*"\$1\$", (1,-0.3), black);
+label(scale(0.7)*"\$2\$", (2,-0.3), black);
+label(scale(0.7)*"\$3\$", (3,-0.3), black);
+label(scale(0.7)*"\$4\$", (4,-0.3), black);
+label(scale(0.7)*"\$5\$", (5,-0.3), black);
+label(scale(0.7)*"\$1\$", (-0.3,1), black);
+label(scale(0.7)*"\$2\$", (-0.3,2), black);
+label(scale(0.7)*"\$3\$", (-0.3,3), black);
+label(scale(0.7)*"\$4\$", (-0.3,4), black);
+label(scale(0.7)*"\$5\$", (-0.3,5), black);
+label(scale(0.8)*rotate(90)*"Price (dollars)", (-1,3.2), black);
+label(scale(0.8)*"Weight (ounces)", (3.2,-1), black);
+dot((1,1.2),black);
+dot((1,1.7),black);
+dot((1,2),black);
+dot((1,2.8),black);
+
+dot((1.5,2.1),black);
+dot((1.5,3),black);
+dot((1.5,3.3),black);
+dot((1.5,3.75),black);
+
+dot((2,2),black);
+dot((2,2.9),black);
+dot((2,3),black);
+dot((2,4),black);
+dot((2,4.35),black);
+dot((2,4.8),black);
+
+dot((2.5,2.7),black);
+dot((2.5,3.7),black);
+dot((2.5,4.2),black);
+dot((2.5,4.4),black);
+
+dot((3,2.5),black);
+dot((3,3.4),black);
+dot((3,4.2),black);
+
+dot((3.5,3.8),black);
+dot((3.5,4.5),black);
+dot((3.5,4.8),black);
+
+dot((4,3.9),black);
+dot((4,5.1),black);
+
+dot((4.5,4.75),black);
+dot((4.5,5),black);
+
+dot((5,4.5),black);
+dot((5,5),black);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A) }1\qquad\textbf{(B) }2\qquad\textbf{(C) }3\qquad\textbf{(D) }4\qquad\textbf{(E) }5\)\par \vspace{0.5em}\item Four numbers are written in a row. The average of the first two is \(21,\) the average of the middle two is \(26,\) and the average of the last two is \(30.\) What is the average of the first and last of the numbers?
+
+\(\textbf{(A) } 24 \qquad \textbf{(B) } 25 \qquad \textbf{(C) } 26 \qquad \textbf{(D) } 27 \qquad \textbf{(E) } 28\)\par \vspace{0.5em}\item If \(n\) is an even positive integer, the \(\emph{double factorial}\) notation \(n!!\) represents the product of all the even integers from \(2\) to \(n\). For example, \(8!! = 2 \cdot 4 \cdot 6 \cdot 8\). What is the units digit of the following sum? 
+\begin{equation*}
+2!! + 4!! + 6!! + \cdots + 2018!! + 2020!! + 2022!!
+\end{equation*}
+
+
+\(\textbf{(A)} ~0\qquad\textbf{(B)} ~2\qquad\textbf{(C)} ~4\qquad\textbf{(D)} ~6\qquad\textbf{(E)} ~8\)\par \vspace{0.5em}\item The midpoints of the four sides of a rectangle are \((-3,0), (2,0), (5,4),\) and \((0,4).\) What is the
+area of the rectangle? 
+
+\(\textbf{(A) } 20 \qquad \textbf{(B) } 25 \qquad \textbf{(C) } 40 \qquad \textbf{(D) } 50 \qquad \textbf{(E) } 80\)\par \vspace{0.5em}\item Mr. Ramos gave a test to his class of \(20\) students. The dot plot below shows the distribution of test scores.
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+//diagram by pog . give me 1,000,000,000 dollars for this diagram
+size(5cm);
+defaultpen(0.7);
+dot((0.5,1));
+dot((0.5,1.5));
+dot((1.5,1));
+dot((1.5,1.5));
+dot((2.5,1));
+dot((2.5,1.5));
+dot((2.5,2));
+dot((2.5,2.5));
+dot((3.5,1));
+dot((3.5,1.5));
+dot((3.5,2));
+dot((3.5,2.5));
+dot((3.5,3));
+dot((4.5,1));
+dot((4.5,1.5));
+dot((5.5,1));
+dot((5.5,1.5));
+dot((5.5,2));
+dot((6.5,1));
+dot((7.5,1));
+draw((0,0.5)--(8,0.5),linewidth(0.7));
+defaultpen(fontsize(10.5pt));
+label("\$65\$", (0.5,-0.1));
+label("\$70\$", (1.5,-0.1));
+label("\$75\$", (2.5,-0.1));
+label("\$80\$", (3.5,-0.1));
+label("\$85\$", (4.5,-0.1));
+label("\$90\$", (5.5,-0.1));
+label("\$95\$", (6.5,-0.1));
+label("\$100\$", (7.5,-0.1));
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+Later Mr. Ramos discovered that there was a scoring error on one of the questions. He regraded the tests, awarding some of the students \(5\) extra points, which increased the median test score to \(85\). What is the minimum number of students who received extra points?
+
+(Note that the \textbackslash\{\}textit\{median\} test score equals the average of the \(2\) scores in the middle if the \(20\) test scores are arranged in increasing order.)
+
+\(\textbf{(A)} ~2\qquad\textbf{(B)} ~3\qquad\textbf{(C)} ~4\qquad\textbf{(D)} ~5\qquad\textbf{(E)} ~6\qquad\)\par \vspace{0.5em}\item The grid below is to be filled with integers in such a way that the sum of the numbers in each row and the sum of the numbers in each column are the same. Four numbers are missing. The number \(x\) in the lower left corner is larger than the other three missing numbers. What is the smallest possible value of \(x\)?
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+unitsize(0.5cm);
+draw((3,3)--(-3,3));
+draw((3,1)--(-3,1));
+draw((3,-3)--(-3,-3));
+draw((3,-1)--(-3,-1));
+draw((3,3)--(3,-3));
+draw((1,3)--(1,-3));
+draw((-3,3)--(-3,-3));
+draw((-1,3)--(-1,-3));
+label((-2,2),"\$-2\$");
+label((0,2),"\$9\$");
+label((2,2),"\$5\$");
+label((2,0),"\$\{-\}1\$");
+label((2,-2),"\$8\$");
+label((-2,-2),"\$x\$");
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+\(\textbf{(A) } {-}1 \qquad \textbf{(B) } 5 \qquad \textbf{(C) } 6 \qquad \textbf{(D) } 8 \qquad \textbf{(E) } 9\)\par \vspace{0.5em}\item Steph scored \(15\) baskets out of \(20\) attempts in the first half of a game, and \(10\) baskets out of \(10\) attempts in the second half. Candace took \(12\) attempts in the first half and \(18\) attempts in the second. In each half, Steph scored a higher percentage of baskets than Candace. Surprisingly they ended with the same overall percentage of baskets scored. How many more baskets did Candace score in the second half than in the first? 
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+size(7cm);
+draw((-8,27)--(72,27));
+draw((16,0)--(16,35));
+draw((40,0)--(40,35));
+label("12", (28,3));
+draw((25,6.5)--(25,12)--(31,12)--(31,6.5)--cycle);
+draw((25,5.5)--(31,5.5));
+label("18", (56,3));
+draw((53,6.5)--(53,12)--(59,12)--(59,6.5)--cycle);
+draw((53,5.5)--(59,5.5));
+draw((53,5.5)--(59,5.5));
+label("20", (28,18));
+label("15", (28,24));
+draw((25,21)--(31,21));
+label("10", (56,18));
+label("10", (56,24));
+draw((53,21)--(59,21));
+label("First Half", (28,31));
+label("Second Half", (56,31));
+label("Candace", (2.35,6));
+label("Steph", (0,21));
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+\(\textbf{(A) } 7\qquad\textbf{(B) } 8\qquad\textbf{(C) } 9\qquad\textbf{(D) } 10\qquad\textbf{(E) } 11\)\par \vspace{0.5em}\item A bus takes \(2\) minutes to drive from one stop to the next, and waits \(1\) minute at each stop to let passengers board. Zia takes \(5\) minutes to walk from one bus stop to the next. As Zia reaches a bus stop, if the bus is at the previous stop or has already left the previous stop, then she will wait for the bus. Otherwise she will start walking toward the next stop. Suppose the bus and Zia start at the same time toward the library, with the bus \(3\) stops behind. After how many minutes will Zia board the bus?
+
+
+
+\(\textbf{(A) } 17 \qquad \textbf{(B) } 19 \qquad \textbf{(C) } 20 \qquad \textbf{(D) } 21 \qquad \textbf{(E) } 23\)\par \vspace{0.5em}\item A \(\triangle\) or \(\bigcirc\) is placed in each of the nine squares in a \(3\)-by-\(3\) grid. Shown below is a sample configuration with three \(\triangle\)s in a line.
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+//diagram by kante314
+size(3.3cm);
+defaultpen(linewidth(1));
+real r = 0.37;
+path equi = r * dir(-30) -- (r+0.03) * dir(90) -- r * dir(210) -- cycle;
+draw((0,0)--(0,3)--(3,3)--(3,0)--cycle);
+draw((0,1)--(3,1)--(3,2)--(0,2)--cycle);
+draw((1,0)--(1,3)--(2,3)--(2,0)--cycle);
+draw(circle((3/2,5/2),1/3));
+draw(circle((5/2,1/2),1/3));
+draw(circle((3/2,3/2),1/3));
+draw(shift(0.5,0.38) * equi);
+draw(shift(1.5,0.38) * equi);
+draw(shift(0.5,1.38) * equi);
+draw(shift(2.5,1.38) * equi);
+draw(shift(0.5,2.38) * equi);
+draw(shift(2.5,2.38) * equi);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+How many configurations will have three \(\triangle\)s in a line and three \(\bigcirc\)s in a line?
+
+\(\textbf{(A) } 39 \qquad \textbf{(B) } 42 \qquad \textbf{(C) } 78 \qquad \textbf{(D) } 84 \qquad \textbf{(E) } 96\)\par \vspace{0.5em}\item The figure below shows a polygon \(ABCDEFGH\), consisting of rectangles and right triangles. When cut out and folded on the dotted lines, the polygon forms a triangular prism. Suppose that \(AH = EF = 8\) and \(GH = 14\). What is the volume of the prism?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+usepackage("mathptmx");
+size(275);
+defaultpen(linewidth(0.8));
+real r = 2, s = 2.5, theta = 14;
+pair G = (0,0), F = (r,0), C = (r,s), B = (0,s), M = (C+F)/2, I = M + s/2 * dir(-theta);
+pair N = (B+G)/2, J = N + s/2 * dir(180+theta);
+pair E = F + r * dir(- 45 - theta/2), D = I+E-F;
+pair H = J + r * dir(135 + theta/2), A = B+H-J;
+draw(A--B--C--I--D--E--F--G--J--H--cycle\^{}\^{}rightanglemark(F,I,C)\^{}\^{}rightanglemark(G,J,B));
+draw(J--B--G\^{}\^{}C--F--I,linetype ("4 4"));
+dot("\$A\$",A,N);
+dot("\$B\$",B,1.2*N);
+dot("\$C\$",C,N);
+dot("\$D\$",D,dir(0));
+dot("\$E\$",E,S);
+dot("\$F\$",F,1.5*dir(-100));
+dot("\$G\$",G,S);
+dot("\$H\$",H,W);
+dot("\$I\$",I,NE);
+dot("\$J\$",J,1.5*S);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A)} ~112\qquad\textbf{(B)} ~128\qquad\textbf{(C)} ~192\qquad\textbf{(D)} ~240\qquad\textbf{(E)} ~288\)\par \vspace{0.5em}\item A cricket randomly hops between \(4\) leaves, on each turn hopping to one of the other \(3\) leaves with equal probability. After \(4\) hops, what is the probability that the cricket has returned to the leaf where it started?
+
+
+
+\(\textbf{(A) }\frac{2}{9}\qquad\textbf{(B) }\frac{19}{80}\qquad\textbf{(C) }\frac{20}{81}\qquad\textbf{(D) }\frac{1}{4}\qquad\textbf{(E) }\frac{7}{27}\)\par \vspace{0.5em}\end{enumerate}
+\end{document}

@@ -1,0 +1,195 @@
+
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in}
+\usepackage{enumitem}
+\usepackage[hypertexnames=true, linktoc=all]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{asymptote}
+\usepackage{arcs}
+\usepackage{xwatermark}
+\begin{asydef}
+  // Global Asymptote settings
+  settings.outformat = "pdf";
+  settings.render = 0;
+  settings.prc = false;
+  import olympiad;
+  import cse5;
+  size(8cm);
+\end{asydef}
+\pagestyle{fancy}
+\fancyhead[L]{\textbf{AMC 8 Problems}}
+\fancyhead[R]{\textbf{2010}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{AMC 8 Problems \\ 2010}
+\date{}
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{2010 AMC 8}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item At Euclid Middle School, the mathematics teachers are Miss Germain, Mr. Newton, and Mrs. Young. There are \(11\) students in Mrs. Germain's class, \(8\) students in Mr. Newton's class, and \(9\) students in Mrs. Young's class taking the AMC 8 this year. How many mathematics students at Euclid Middle School are taking the contest? 
+
+\( \textbf{(A)}\ 26 \qquad\textbf{(B)}\ 27\qquad\textbf{(C)}\ 28\qquad\textbf{(D)}\ 29\qquad\textbf{(E)}\ 30 \)\par \vspace{0.5em}\item If \(a @ b = \frac{a\times b}{a+b}\) for \(a,b\) positive integers, then what is \(5 @ 10\)? 
+
+\(\textbf{(A)}\ \frac{3}{10} \qquad\textbf{(B)}\ 1 \qquad\textbf{(C)}\ 2 \qquad\textbf{(D)}\ \frac{10}{3} \qquad\textbf{(E)}\ 50\)\par \vspace{0.5em}\item The graph shows the price of five gallons of gasoline during the first ten months of the year. By what percent is the highest price more than the lowest price?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+import graph; size(16.38cm); real lsf=2; pathpen=linewidth(0.7); pointpen=black; pen fp = fontsize(10); pointfontpen=fp; real xmin=-1.33,xmax=11.05,ymin=-9.01,ymax=-0.44;
+pen ycycyc=rgb(0.55,0.55,0.55);
+pair A=(1,-6), B=(1,-2), D=(1,-5.8), E=(1,-5.6), F=(1,-5.4), G=(1,-5.2), H=(1,-5), J=(1,-4.8), K=(1,-4.6), L=(1,-4.4), M=(1,-4.2), N=(1,-4), P=(1,-3.8), Q=(1,-3.6), R=(1,-3.4), S=(1,-3.2), T=(1,-3), U=(1,-2.8), V=(1,-2.6), W=(1,-2.4), Z=(1,-2.2), E\_1=(1.4,-2.6), F\_1=(1.8,-2.6), O\_1=(14,-6), P\_1=(14,-5), Q\_1=(14,-4), R\_1=(14,-3), S\_1=(14,-2), C\_1=(1.4,-6), D\_1=(1.8,-6), G\_1=(2.4,-6), H\_1=(2.8,-6), I\_1=(3.4,-6), J\_1=(3.8,-6), K\_1=(4.4,-6), L\_1=(4.8,-6), M\_1=(5.4,-6), N\_1=(5.8,-6), T\_1=(6.4,-6), U\_1=(6.8,-6), V\_1=(7.4,-6), W\_1=(7.8,-6), Z\_1=(8.4,-6), A\_2=(8.8,-6), B\_2=(9.4,-6), C\_2=(9.8,-6), D\_2=(10.4,-6), E\_2=(10.8,-6), L\_2=(2.4,-3.2), M\_2=(2.8,-3.2), N\_2=(3.4,-4), O\_2=(3.8,-4), P\_2=(4.4,-3.6), Q\_2=(4.8,-3.6), R\_2=(5.4,-3.6), S\_2=(5.8,-3.6), T\_2=(6.4,-3.4), U\_2=(6.8,-3.4), V\_2=(7.4,-3.8), W\_2=(7.8,-3.8), Z\_2=(8.4,-2.8), A\_3=(8.8,-2.8), B\_3=(9.4,-3.2), C\_3=(9.8,-3.2), D\_3=(10.4,-3.8), E\_3=(10.8,-3.8);
+filldraw(C\_1--E\_1--F\_1--D\_1--cycle,ycycyc); filldraw(G\_1--L\_2--M\_2--H\_1--cycle,ycycyc); filldraw(I\_1--N\_2--O\_2--J\_1--cycle,ycycyc); filldraw(K\_1--P\_2--Q\_2--L\_1--cycle,ycycyc); filldraw(M\_1--R\_2--S\_2--N\_1--cycle,ycycyc); filldraw(T\_1--T\_2--U\_2--U\_1--cycle,ycycyc); filldraw(V\_1--V\_2--W\_2--W\_1--cycle,ycycyc); filldraw(Z\_1--Z\_2--A\_3--A\_2--cycle,ycycyc); filldraw(B\_2--B\_3--C\_3--C\_2--cycle,ycycyc); filldraw(D\_2--D\_3--E\_3--E\_2--cycle,ycycyc); D(B--A,linewidth(0.4)); D(H--(8,-5),linewidth(0.4)); D(N--(8,-4),linewidth(0.4)); D(T--(8,-3),linewidth(0.4)); D(B--(8,-2),linewidth(0.4)); D(B--S\_1); D(T--R\_1); D(N--Q\_1); D(H--P\_1); D(A--O\_1); D(C\_1--E\_1); D(E\_1--F\_1); D(F\_1--D\_1); D(D\_1--C\_1); D(G\_1--L\_2); D(L\_2--M\_2); D(M\_2--H\_1); D(H\_1--G\_1); D(I\_1--N\_2); D(N\_2--O\_2); D(O\_2--J\_1); D(J\_1--I\_1); D(K\_1--P\_2); D(P\_2--Q\_2); D(Q\_2--L\_1); D(L\_1--K\_1); D(M\_1--R\_2); D(R\_2--S\_2); D(S\_2--N\_1); D(N\_1--M\_1); D(T\_1--T\_2); D(T\_2--U\_2); D(U\_2--U\_1); D(U\_1--T\_1); D(V\_1--V\_2); D(V\_2--W\_2); D(W\_2--W\_1); D(W\_1--V\_1); D(Z\_1--Z\_2); D(Z\_2--A\_3); D(A\_3--A\_2); D(A\_2--Z\_1); D(B\_2--B\_3); D(B\_3--C\_3); D(C\_3--C\_2); D(C\_2--B\_2); D(D\_2--D\_3); D(D\_3--E\_3); D(E\_3--E\_2); D(E\_2--D\_2); label("0",(0.88,-5.91),SE*lsf,fp); label("\$ 5\$",(0.3,-4.84),SE*lsf,fp); label("\$ 10\$",(0.2,-3.84),SE*lsf,fp); label("\$ 15\$",(0.2,-2.85),SE*lsf,fp); label("\$ 20\$",(0.2,-1.85),SE*lsf,fp); label("\$\textbackslash\{\}mathrm\{Price\}\$",(0.16,-3.45),SE*lsf,fp); label("\$1\$",(1.54,-5.97),SE*lsf,fp); label("\$2\$",(2.53,-5.95),SE*lsf,fp); label("\$3\$",(3.53,-5.94),SE*lsf,fp); label("\$4\$",(4.55,-5.94),SE*lsf,fp); label("\$5\$",(5.49,-5.95),SE*lsf,fp); label("\$6\$",(6.53,-5.95),SE*lsf,fp); label("\$7\$",(7.55,-5.95),SE*lsf,fp); label("\$8\$",(8.52,-5.95),SE*lsf,fp); label("\$9\$",(9.57,-5.97),SE*lsf,fp); label("\$10\$",(10.56,-5.94),SE*lsf,fp); label("Month",(7.14,-6.43),SE*lsf,fp);
+D(A,linewidth(1pt)); D(B,linewidth(1pt)); D(D,linewidth(1pt)); D(E,linewidth(1pt)); D(F,linewidth(1pt)); D(G,linewidth(1pt)); D(H,linewidth(1pt)); D(J,linewidth(1pt)); D(K,linewidth(1pt)); D(L,linewidth(1pt)); D(M,linewidth(1pt)); D(N,linewidth(1pt)); D(P,linewidth(1pt)); D(Q,linewidth(1pt)); D(R,linewidth(1pt)); D(S,linewidth(1pt)); D(T,linewidth(1pt)); D(U,linewidth(1pt)); D(V,linewidth(1pt)); D(W,linewidth(1pt)); D(Z,linewidth(1pt)); D(E\_1,linewidth(1pt)); D(F\_1,linewidth(1pt)); D(O\_1,linewidth(1pt)); D(P\_1,linewidth(1pt)); D(Q\_1,linewidth(1pt)); D(R\_1,linewidth(1pt)); D(S\_1,linewidth(1pt)); D(C\_1,linewidth(1pt)); D(D\_1,linewidth(1pt)); D(G\_1,linewidth(1pt)); D(H\_1,linewidth(1pt)); D(I\_1,linewidth(1pt)); D(J\_1,linewidth(1pt)); D(K\_1,linewidth(1pt)); D(L\_1,linewidth(1pt)); D(M\_1,linewidth(1pt)); D(N\_1,linewidth(1pt)); D(T\_1,linewidth(1pt)); D(U\_1,linewidth(1pt)); D(V\_1,linewidth(1pt)); D(W\_1,linewidth(1pt)); D(Z\_1,linewidth(1pt)); D(A\_2,linewidth(1pt)); D(B\_2,linewidth(1pt)); D(C\_2,linewidth(1pt)); D(D\_2,linewidth(1pt)); D(E\_2,linewidth(1pt)); D(L\_2,linewidth(1pt)); D(M\_2,linewidth(1pt)); D(N\_2,linewidth(1pt)); D(O\_2,linewidth(1pt)); D(P\_2,linewidth(1pt)); D(Q\_2,linewidth(1pt)); D(R\_2,linewidth(1pt)); D(S\_2,linewidth(1pt)); D(T\_2,linewidth(1pt)); D(U\_2,linewidth(1pt)); D(V\_2,linewidth(1pt)); D(W\_2,linewidth(1pt)); D(Z\_2,linewidth(1pt)); D(A\_3,linewidth(1pt)); D(B\_3,linewidth(1pt)); D(C\_3,linewidth(1pt)); D(D\_3,linewidth(1pt)); D(E\_3,linewidth(1pt));
+clip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A)}\ 50 \qquad
+\textbf{(B)}\ 62 \qquad
+\textbf{(C)}\ 70 \qquad
+\textbf{(D)}\ 89 \qquad
+\textbf{(E)}\ 100\)\par \vspace{0.5em}\item What is the sum of the mean, median, and mode of the numbers \(2,3,0,3,1,4,0,3\)? 
+
+\( \textbf{(A)}\ 6.5 \qquad\textbf{(B)}\ 7\qquad\textbf{(C)}\ 7.5\qquad\textbf{(D)}\ 8.5\qquad\textbf{(E)}\ 9 \)\par \vspace{0.5em}\item Alice needs to replace a light bulb located \(10\) centimeters below the ceiling in her kitchen. The ceiling is \(2.4\) meters above the floor. Alice is \(1.5\) meters tall and can reach \(46\) centimeters above the top of her head. Standing on a stool, she can just reach the light bulb. What is the height of the stool, in centimeters?
+
+\( \textbf{(A)}\ 32 \qquad\textbf{(B)}\ 34\qquad\textbf{(C)}\ 36\qquad\textbf{(D)}\ 38\qquad\textbf{(E)}\ 40 \)\par \vspace{0.5em}\item Which of the following figures has the greatest number of lines of symmetry? 
+
+\( \textbf{(A)}\ \text{equilateral triangle}\)
+\(\textbf{(B)}\ \text{non-square rhombus} \)
+\(\textbf{(C)}\ \text{non-square rectangle}\)
+\(\textbf{(D)}\ \text{isosceles trapezoid}\)
+\(\textbf{(E)}\ \text{square} \)\par \vspace{0.5em}\item Using only pennies, nickels, dimes, and quarters, what is the smallest number of coins Freddie would need so he could pay any amount of money less than a dollar? 
+
+\( \textbf{(A)}\ 6 \qquad\textbf{(B)}\ 10\qquad\textbf{(C)}\ 15\qquad\textbf{(D)}\ 25\qquad\textbf{(E)}\ 99 \)\par \vspace{0.5em}\item As Emily is riding her bicycle on a long straight road, she spots Emerson skating in the same direction \(1/2\) mile in front of her. After she passes him, she can see him in her rear mirror until he is \(1/2\) mile behind her. Emily rides at a constant rate of \(12\) miles per hour, and Emerson skates at a constant rate of \(8\) miles per hour. For how many minutes can Emily see Emerson? 
+
+\( \textbf{(A)}\ 6 \qquad\textbf{(B)}\ 8\qquad\textbf{(C)}\ 12\qquad\textbf{(D)}\ 15\qquad\textbf{(E)}\ 16 \)\par \vspace{0.5em}\item Ryan got \(80\%\) of the problems correct on a \(25\)-problem test, \(90\%\) on a \(40\)-problem test, and \(70\%\) on a \(10\)-problem test. What percent of all the problems did Ryan answer correctly? 
+
+\( \textbf{(A)}\ 64 \qquad\textbf{(B)}\ 75\qquad\textbf{(C)}\ 80\qquad\textbf{(D)}\ 84\qquad\textbf{(E)}\ 86 \)\par \vspace{0.5em}\item Six pepperoni circles will exactly fit across the diameter of a \(12\)-inch pizza when placed. If a total of \(24\) circles of pepperoni are placed on this pizza without overlap, what fraction of the pizza is covered by pepperoni?
+
+\( \textbf{(A)}\ \frac 12 \qquad\textbf{(B)}\ \frac 23 \qquad\textbf{(C)}\ \frac 34 \qquad\textbf{(D)}\ \frac 56 \qquad\textbf{(E)}\ \frac 78 \)\par \vspace{0.5em}\item The top of one tree is \(16\) feet higher than the top of another tree. The heights of the two trees are in the ratio \(3:4\). In feet, how tall is the taller tree? 
+
+\( \textbf{(A)}\ 48 \qquad\textbf{(B)}\ 64 \qquad\textbf{(C)}\ 80 \qquad\textbf{(D)}\ 96\qquad\textbf{(E)}\ 112 \)\par \vspace{0.5em}\item Of the \(500\) balls in a large bag, \(80\%\) are red and the rest are blue. How many of the red balls must be removed from the bag so that \(75\%\) of the remaining balls are red?
+
+\( \textbf{(A)}\ 25 \qquad\textbf{(B)}\ 50 \qquad\textbf{(C)}\ 75 \qquad\textbf{(D)}\ 100\qquad\textbf{(E)}\ 150 \)\par \vspace{0.5em}\item The lengths of the sides of a triangle in inches are three consecutive integers. The length of the shortest side is \(30\%\) of the perimeter. What is the length of the longest side?
+
+\( \textbf{(A)}\ 7 \qquad\textbf{(B)}\ 8\qquad\textbf{(C)}\ 9\qquad\textbf{(D)}\ 10\qquad\textbf{(E)}\ 11 \)\par \vspace{0.5em}\item What is the sum of the prime factors of \(2010\)? 
+
+\( \textbf{(A)}\ 67 \qquad\textbf{(B)}\ 75\qquad\textbf{(C)}\ 77\qquad\textbf{(D)}\ 201\qquad\textbf{(E)}\ 210 \)\par \vspace{0.5em}\item A jar contains five different colors of gumdrops: \(30\%\) are blue, \(20\%\) are brown, \(15\%\) red, \(10\%\) yellow, and the other \(30\) gumdrops are green. If half of the blue gumdrops are replaced with brown gumdrops, how many gumdrops will be brown?
+
+\( \textbf{(A)}\ 35 \qquad\textbf{(B)}\ 36\qquad\textbf{(C)}\ 42\qquad\textbf{(D)}\ 48\qquad\textbf{(E)}\ 64 \)\par \vspace{0.5em}\item A square and a circle have the same area. What is the ratio of the side length of the square to the radius of the circle? 
+
+\( \textbf{(A)}\  \frac{\sqrt{\pi}}{2}  \qquad\textbf{(B)}\ \sqrt{\pi} \qquad\textbf{(C)}\ \pi \qquad\textbf{(D)}\ 2\pi \qquad\textbf{(E)}\ \pi^{2}\)\par \vspace{0.5em}\item The diagram shows an octagon consisting of \(10\) unit squares. The portion below \(\overline{PQ}\) is a unit square and a triangle with base \(5\). If \(\overline{PQ}\) bisects the area of the octagon, what is the ratio \(\frac{XQ}{QY}\)?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+import graph; size(300); 
+real lsf = 0.5; 
+pen dp = linewidth(0.7) + fontsize(10); 
+defaultpen(dp); 
+pen ds = black; 
+pen xdxdff = rgb(0.49,0.49,1);
+draw((0,0)--(6,0),linewidth(1.2pt)); 
+draw((0,0)--(0,1),linewidth(1.2pt)); 
+draw((0,1)--(1,1),linewidth(1.2pt)); 
+draw((1,1)--(1,2),linewidth(1.2pt)); 
+draw((1,2)--(5,2),linewidth(1.2pt)); 
+draw((5,2)--(5,1),linewidth(1.2pt)); 
+draw((5,1)--(6,1),linewidth(1.2pt)); 
+draw((6,1)--(6,0),linewidth(1.2pt)); 
+draw((1,1)--(5,1),linewidth(1.2pt));
+draw((1,1)--(1,0),linewidth(1.2pt)); 
+draw((2,2)--(2,0),linewidth(1.2pt)); 
+draw((3,2)--(3,0),linewidth(1.2pt)); 
+draw((4,2)--(4,0),linewidth(1.2pt)); 
+draw((5,1)--(5,0),linewidth(1.2pt));
+draw((0,0)--(5,1.5),linewidth(1.2pt));
+dot((0,0),ds); label("\$P\$", (-0.23,-0.26),NE*lsf); 
+dot((0,1),ds); 
+dot((1,1),ds); 
+dot((1,2),ds); 
+dot((5,2),ds); 
+label("\$X\$", (5.14,2.02),NE*lsf); dot((5,1),ds); 
+label("\$Y\$", (5.12,1.14),NE*lsf); dot((6,1),ds); 
+dot((6,0),ds); dot((1,0),ds); dot((2,0),ds); dot((3,0),ds); 
+dot((4,0),ds); dot((5,0),ds); dot((2,2),ds); dot((3,2),ds); 
+dot((4,2),ds); dot((5,1.5),ds); 
+label("\$Q\$", (5.14,1.51),NE*lsf); 
+clip((-4.19,-5.52)--(-4.19,6.5)--(10.08,6.5)--(10.08,-5.52)--cycle);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A)}\ \frac 25 \qquad
+\textbf{(B)}\ \frac 12 \qquad
+\textbf{(C)}\ \frac 35 \qquad
+\textbf{(D)}\ \frac 23 \qquad
+\textbf{(E)}\ \frac 34\)\par \vspace{0.5em}\item A decorative window is made up of a rectangle with semicircles on either end. The ratio of \(AD\) to \(AB\) is \(3:2\), and \(AB\) is 30 inches. What is the ratio of the area of the rectangle to the combined areas of the semicircles? 
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+import graph; size(5cm); real lsf=0; pen dps=linewidth(0.7)+fontsize(8); defaultpen(dps); pen ds=black; real xmin=-4.27,xmax=14.73,ymin=-3.22,ymax=6.8; draw((0,4)--(0,0)); draw((0,0)--(2.5,0)); draw((2.5,0)--(2.5,4)); draw((2.5,4)--(0,4)); draw(shift((1.25,4))*xscale(1.25)*yscale(1.25)*arc((0,0),1,0,180)); draw(shift((1.25,0))*xscale(1.25)*yscale(1.25)*arc((0,0),1,-180,0));
+dot((0,0),ds); label("\$A\$",(-0.26,-0.23),NE*lsf); dot((2.5,0),ds); label("\$B\$",(2.61,-0.26),NE*lsf); dot((0,4),ds); label("\$D\$",(-0.26,4.02),NE*lsf); dot((2.5,4),ds); label("\$C\$",(2.64,3.98),NE*lsf);
+clip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\( \textbf{(A)}\ 2:3 \qquad\textbf{(B)}\ 3:2\qquad\textbf{(C)}\ 6:\pi \qquad\textbf{(D)}\ 9: \pi \qquad\textbf{(E)}\ 30 : \pi\)\par \vspace{0.5em}\item The two circles pictured have the same center \(C\). Chord \(\overline{AD}\) is tangent to the inner circle at \(B\), \(AC\) is \(10\), and chord \(\overline{AD}\) has length \(16\). What is the area between the two circles?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+unitsize(45);
+import graph; size(300); real lsf = 0.5; pen dp = linewidth(0.7) + fontsize(10); defaultpen(dp); pen ds = black; pen xdxdff = rgb(0.49,0.49,1);
+draw((2,0.15)--(1.85,0.15)--(1.85,0)--(2,0)--cycle); draw(circle((2,1),2.24)); draw(circle((2,1),1)); draw((0,0)--(4,0)); draw((0,0)--(2,1)); draw((2,1)--(2,0)); draw((2,1)--(4,0));
+dot((0,0),ds); label("\$A\$", (-0.19,-0.23),NE*lsf); dot((2,0),ds); label("\$B\$", (1.97,-0.31),NE*lsf); dot((2,1),ds); label("\$C\$", (1.96,1.09),NE*lsf); dot((4,0),ds); label("\$D\$", (4.07,-0.24),NE*lsf); clip((-3.1,-7.72)--(-3.1,4.77)--(11.74,4.77)--(11.74,-7.72)--cycle);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\( \textbf{(A)}\ 36 \pi \qquad\textbf{(B)}\ 49 \pi\qquad\textbf{(C)}\ 64 \pi\qquad\textbf{(D)}\ 81 \pi\qquad\textbf{(E)}\ 100 \pi \)\par \vspace{0.5em}\item In a room, \(2/5\) of the people are wearing gloves, and \(3/4\) of the people are wearing hats. What is the minimum number of people in the room wearing both a hat and a glove? 
+
+\( \textbf{(A)}\ 3 \qquad\textbf{(B)}\ 5\qquad\textbf{(C)}\ 8\qquad\textbf{(D)}\ 15\qquad\textbf{(E)}\ 20 \)\par \vspace{0.5em}\item Hui is an avid reader. She bought a copy of the best seller ''Math is Beautiful''. On the first day, Hui read \(1/5\) of the pages plus \(12\) more, and on the second day she read \(1/4\) of the remaining pages plus \(15\) pages. On the third day she read \(1/3\) of the remaining pages plus \(18\) pages. She then realized that there were only \(62\) pages left to read, which she read the next day. How many pages are in this book? 
+
+\( \textbf{(A)}\ 120 \qquad\textbf{(B)}\ 180\qquad\textbf{(C)}\ 240\qquad\textbf{(D)}\ 300\qquad\textbf{(E)}\ 360 \)\par \vspace{0.5em}\item The hundreds digit of a three-digit number is \(2\) more than the units digit. The digits of the three-digit number are reversed, and the result is subtracted from the original three-digit number. What is the units digit of the result?
+
+\( \textbf{(A)}\ 0 \qquad\textbf{(B)}\ 2\qquad\textbf{(C)}\ 4\qquad\textbf{(D)}\ 6\qquad\textbf{(E)}\ 8 \)\par \vspace{0.5em}\item Semicircles \(POQ\) and \(ROS\) pass through the center of circle \(O\). What is the ratio of the combined areas of the two semicircles to the area of circle \(O\)?  
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+import graph; size(7.5cm); real lsf=0.5; pen dps=linewidth(0.7)+fontsize(10); defaultpen(dps); pen ds=black; real xmin=-6.27,xmax=10.01,ymin=-5.65,ymax=10.98; draw(circle((0,0),2)); draw((-3,0)--(3,0),EndArrow(6)); draw((0,-3)--(0,3),EndArrow(6)); draw(shift((0.01,1.42))*xscale(1.41)*yscale(1.41)*arc((0,0),1,179.76,359.76)); draw(shift((-0.01,-1.42))*xscale(1.41)*yscale(1.41)*arc((0,0),1,-0.38,179.62)); draw((-1.4,1.43)--(1.41,1.41)); draw((-1.42,-1.41)--(1.4,-1.42)); label("\$ P(-1,1) \$",(-2.57,2.17),SE*lsf); label("\$ Q(1,1) \$",(1.55,2.21),SE*lsf); label("\$ R(-1,-1) \$",(-2.72,-1.45),SE*lsf); label("\$S(1,-1)\$",(1.59,-1.49),SE*lsf); 
+dot((0,0),ds); label("\$O\$",(-0.24,-0.35),NE*lsf); dot((1.41,1.41),ds); dot((-1.4,1.43),ds); dot((1.4,-1.42),ds); dot((-1.42,-1.41),ds); 
+clip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+\( \textbf{(A)}\ \frac{\sqrt 2}{4}\qquad\textbf{(B)}\ \frac{1}{2}\qquad\textbf{(C)}\ \frac{2}{\pi}\qquad\textbf{(D)}\ \frac{2}{3}\qquad\textbf{(E)}\ \frac{\sqrt 2}{2} \)\par \vspace{0.5em}\item What is the correct ordering of the three numbers, \(10^8\), \(5^{12}\), and \(2^{24}\)?
+
+\( \textbf{(A)}\ 2{}^2{}^4<10^8<5{}^1{}^2 \)
+
+\( \textbf{(B)}\ 2{}^2{}^4<5{}^1{}^2<10^8 \)
+
+\( \textbf{(C)}\ 5{}^1{}^2<2{}^2{}^4<10^8 \)
+
+\( \textbf{(D)}\ 10^8<5{}^1{}^2<2{}^2{}^4\)
+
+\( \textbf{(E)}\ 10^8<2{}^2{}^4<5{}^1{}^2 \)\par \vspace{0.5em}\item Everyday at school, Jo climbs a flight of \(6\) stairs. Jo can take the stairs \(1\), \(2\), or \(3\) at a time. For example, Jo could climb \(3\), then \(1\), then \(2\). In how many ways can Jo climb the stairs?
+
+\( \textbf{(A)}\ 13 \qquad\textbf{(B)}\ 18\qquad\textbf{(C)}\ 20\qquad\textbf{(D)}\ 22\qquad\textbf{(E)}\ 24 \)\par \vspace{0.5em}\end{enumerate}
+\end{document}

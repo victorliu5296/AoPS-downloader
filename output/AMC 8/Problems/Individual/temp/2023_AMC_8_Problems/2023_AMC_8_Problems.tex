@@ -1,0 +1,767 @@
+
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in}
+\usepackage{enumitem}
+\usepackage[hypertexnames=true, linktoc=all]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{asymptote}
+\usepackage{arcs}
+\usepackage{xwatermark}
+\begin{asydef}
+  // Global Asymptote settings
+  settings.outformat = "pdf";
+  settings.render = 0;
+  settings.prc = false;
+  import olympiad;
+  import cse5;
+  size(8cm);
+\end{asydef}
+\pagestyle{fancy}
+\fancyhead[L]{\textbf{AMC 8 Problems}}
+\fancyhead[R]{\textbf{2023}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{AMC 8 Problems \\ 2023}
+\date{}
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{2023 AMC 8}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item What is the value of \((8 \times 4 + 2) - (8 + 4 \times 2)\)?
+
+\(\textbf{(A)}\ 0 \qquad \textbf{(B)}\ 6 \qquad \textbf{(C)}\ 10 \qquad \textbf{(D)}\ 18 \qquad \textbf{(E)}\ 24\)\par \vspace{0.5em}\item A square piece of paper is folded twice into four equal quarters, as shown below, then cut along the dashed line. When unfolded, the paper will match which of the following figures?
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+//Restored original diagram. Alter it if you would like, but it was made by TheMathGuyd,
+// Diagram by TheMathGuyd. I even put the lined texture :)
+// Thank you Kante314 for inspiring thicker arrows. They do look much better
+size(0,3cm);
+path sq = (-0.5,-0.5)--(0.5,-0.5)--(0.5,0.5)--(-0.5,0.5)--cycle;
+path rh = (-0.125,-0.125)--(0.5,-0.5)--(0.5,0.5)--(-0.125,0.875)--cycle;
+path sqA = (-0.5,-0.5)--(-0.25,-0.5)--(0,-0.25)--(0.25,-0.5)--(0.5,-0.5)--(0.5,-0.25)--(0.25,0)--(0.5,0.25)--(0.5,0.5)--(0.25,0.5)--(0,0.25)--(-0.25,0.5)--(-0.5,0.5)--(-0.5,0.25)--(-0.25,0)--(-0.5,-0.25)--cycle;
+path sqB = (-0.5,-0.5)--(-0.25,-0.5)--(0,-0.25)--(0.25,-0.5)--(0.5,-0.5)--(0.5,0.5)--(0.25,0.5)--(0,0.25)--(-0.25,0.5)--(-0.5,0.5)--cycle;
+path sqC = (-0.25,-0.25)--(0.25,-0.25)--(0.25,0.25)--(-0.25,0.25)--cycle;
+path trD = (-0.25,0)--(0.25,0)--(0,0.25)--cycle;
+path sqE = (-0.25,0)--(0,-0.25)--(0.25,0)--(0,0.25)--cycle;
+filldraw(sq,mediumgrey,black);
+draw((0.75,0)--(1.25,0),currentpen+1,Arrow(size=6));
+//folding
+path sqside = (-0.5,-0.5)--(0.5,-0.5);
+path rhside = (-0.125,-0.125)--(0.5,-0.5);
+transform fld = shift((1.75,0))*scale(0.5);
+draw(fld*sq,black);
+int i;
+for(i=0; i<10; i=i+1)
+\{
+  draw(shift(0,0.05*i)*fld*sqside,deepblue);
+\}
+path rhedge = (-0.125,-0.125)--(-0.125,0.8)--(-0.2,0.85)--cycle;
+filldraw(fld*rhedge,grey);
+path sqedge = (-0.5,-0.5)--(-0.5,0.4475)--(-0.575,0.45)--cycle;
+filldraw(fld*sqedge,grey);
+filldraw(fld*rh,white,black);
+int i;
+for(i=0; i<10; i=i+1)
+\{
+  draw(shift(0,0.05*i)*fld*rhside,deepblue);
+\}
+draw((2.25,0)--(2.75,0),currentpen+1,Arrow(size=6));
+//cutting
+transform cut = shift((3.25,0))*scale(0.5);
+draw(shift((-0.01,+0.01))*cut*sq);
+draw(cut*sq);
+filldraw(shift((0.01,-0.01))*cut*sq,white,black);
+int j;
+for(j=0; j<10; j=j+1)
+\{
+draw(shift(0,0.05*j)*cut*sqside,deepblue);
+\}
+draw(shift((0.01,-0.01))*cut*(0,-0.5)--shift((0.01,-0.01))*cut*(0.5,0),dashed);
+//Answers Below, but already Separated
+//filldraw(sqA,grey,black);
+//filldraw(sqB,grey,black);
+//filldraw(sq,grey,black);
+//filldraw(sqC,white,black);
+//filldraw(sq,grey,black);
+//filldraw(trD,white,black);
+//filldraw(sq,grey,black);
+//filldraw(sqE,white,black);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+// Diagram by TheMathGuyd.
+size(0,7.5cm);
+path sq = (-0.5,-0.5)--(0.5,-0.5)--(0.5,0.5)--(-0.5,0.5)--cycle;
+path rh = (-0.125,-0.125)--(0.5,-0.5)--(0.5,0.5)--(-0.125,0.875)--cycle;
+path sqA = (-0.5,-0.5)--(-0.25,-0.5)--(0,-0.25)--(0.25,-0.5)--(0.5,-0.5)--(0.5,-0.25)--(0.25,0)--(0.5,0.25)--(0.5,0.5)--(0.25,0.5)--(0,0.25)--(-0.25,0.5)--(-0.5,0.5)--(-0.5,0.25)--(-0.25,0)--(-0.5,-0.25)--cycle;
+path sqB = (-0.5,-0.5)--(-0.25,-0.5)--(0,-0.25)--(0.25,-0.5)--(0.5,-0.5)--(0.5,0.5)--(0.25,0.5)--(0,0.25)--(-0.25,0.5)--(-0.5,0.5)--cycle;
+path sqC = (-0.25,-0.25)--(0.25,-0.25)--(0.25,0.25)--(-0.25,0.25)--cycle;
+path trD = (-0.25,0)--(0.25,0)--(0,0.25)--cycle;
+path sqE = (-0.25,0)--(0,-0.25)--(0.25,0)--(0,0.25)--cycle;
+
+//ANSWERS
+real sh = 1.5;
+label("\$\textbackslash\{\}textbf\{(A)\}\$",(-0.5,0.5),SW);
+label("\$\textbackslash\{\}textbf\{(B)\}\$",shift((sh,0))*(-0.5,0.5),SW);
+label("\$\textbackslash\{\}textbf\{(C)\}\$",shift((2sh,0))*(-0.5,0.5),SW);
+label("\$\textbackslash\{\}textbf\{(D)\}\$",shift((0,-sh))*(-0.5,0.5),SW);
+label("\$\textbackslash\{\}textbf\{(E)\}\$",shift((sh,-sh))*(-0.5,0.5),SW);
+filldraw(sqA,mediumgrey,black);
+filldraw(shift((sh,0))*sqB,mediumgrey,black);
+filldraw(shift((2*sh,0))*sq,mediumgrey,black);
+filldraw(shift((2*sh,0))*sqC,white,black);
+filldraw(shift((0,-sh))*sq,mediumgrey,black);
+filldraw(shift((0,-sh))*trD,white,black);
+filldraw(shift((sh,-sh))*sq,mediumgrey,black);
+filldraw(shift((sh,-sh))*sqE,white,black);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+\par \vspace{0.5em}\item \textbackslash\{\}textit\{Wind chill\} is a measure of how cold people feel when exposed to wind outside. A good estimate for wind chill can be found using this calculation
+
+\begin{equation*}
+(\text{wind chill}) = (\text{air temperature}) - 0.7 \times (\text{wind speed}),
+\end{equation*}
+
+where temperature is measured in degrees Fahrenheit \((^{\circ}\text{F})\) and the wind speed is measured in miles per hour (mph). Suppose the air temperature is \(36^{\circ}\text{F} \) and the wind speed is \(18\) mph. Which of the following is closest to the approximate wind chill?
+
+\(\textbf{(A)}\ 18 \qquad \textbf{(B)}\ 23 \qquad \textbf{(C)}\ 28 \qquad \textbf{(D)}\ 32 \qquad \textbf{(E)}\ 35\)\par \vspace{0.5em}\item The numbers from \(1\) to \(49\) are arranged in a spiral pattern on a square grid, beginning at the center. The first few numbers have been entered into the grid below. Consider the four numbers that will appear in the shaded squares, on the same diagonal as the number \(7.\) How many of these four numbers are prime?
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+/* Made by MRENTHUSIASM */
+size(175);
+
+void ds(pair p) \{
+	filldraw((0.5,0.5)+p--(-0.5,0.5)+p--(-0.5,-0.5)+p--(0.5,-0.5)+p--cycle,mediumgrey);
+\}
+
+ds((0.5,4.5));
+ds((1.5,3.5));
+ds((3.5,1.5));
+ds((4.5,0.5));
+
+add(grid(7,7,grey+linewidth(1.25)));
+
+int adj = 1;
+int curUp = 2;
+int curLeft = 4;
+int curDown = 6;
+
+label("\$1\$",(3.5,3.5));
+
+for (int len = 3; len<=3; len+=2)
+\{
+	for (int i=1; i<=len-1; ++i) 
+   		\{
+			label("\$"+string(curUp)+"\$",(3.5+adj,3.5-adj+i));
+    		label("\$"+string(curLeft)+"\$",(3.5+adj-i,3.5+adj)); 
+    		label("\$"+string(curDown)+"\$",(3.5-adj,3.5+adj-i));
+    		++curDown;
+    		++curLeft;
+    		++curUp;
+		\}
+	++adj;
+    curUp = len\^{}2 + 1;
+    curLeft = len\^{}2 + len + 2;
+    curDown = len\^{}2 + 2*len + 3;
+\}
+
+draw((4,4)--(3,4)--(3,3)--(5,3)--(5,5)--(2,5)--(2,2)--(6,2)--(6,6)--(1,6)--(1,1)--(7,1)--(7,7)--(0,7)--(0,0)--(7,0),linewidth(2));
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+\(\textbf{(A)}\ 0 \qquad \textbf{(B)}\ 1 \qquad \textbf{(C)}\ 2 \qquad \textbf{(D)}\ 3 \qquad \textbf{(E)}\ 4\)\par \vspace{0.5em}\item A lake contains \(250\) trout, along with a variety of other fish. When a marine biologist catches and releases a sample of \(180\) fish from the lake, \(30\) are identified as trout. Assume that the ratio of trout to the total number of fish is the same in both the sample and the lake. How many fish are there in the lake?
+
+\(\textbf{(A)}\ 1250 \qquad \textbf{(B)}\ 1500 \qquad \textbf{(C)}\ 1750 \qquad \textbf{(D)}\ 1800 \qquad \textbf{(E)}\ 2000\)\par \vspace{0.5em}\item The digits \(2, 0, 2,\) and \(3\) are placed in the expression below, one digit per box. What is the maximum possible value of the expression?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+// Diagram by TheMathGuyd. I can compress this later
+size(5cm);
+real w=2.2;
+pair O,I,J;
+O=(0,0);I=(1,0);J=(0,1);
+path bsqb = O--I;
+path bsqr = I--I+J;
+path bsqt = I+J--J;
+path bsql = J--O;
+path lsqb = shift((1.2,0.75))*scale(0.5)*bsqb;
+path lsqr = shift((1.2,0.75))*scale(0.5)*bsqr;
+path lsqt = shift((1.2,0.75))*scale(0.5)*bsqt;
+path lsql = shift((1.2,0.75))*scale(0.5)*bsql;
+draw(bsqb,dashed);
+draw(bsqr,dashed);
+draw(bsqt,dashed);
+draw(bsql,dashed);
+draw(lsqb,dashed);
+draw(lsqr,dashed);
+draw(lsqt,dashed);
+draw(lsql,dashed);
+label(scale(3)*"\$\textbackslash\{\}times\$",(w,1/3));
+draw(shift(1.3w,0)*bsqb,dashed);
+draw(shift(1.3w,0)*bsqr,dashed);
+draw(shift(1.3w,0)*bsqt,dashed);
+draw(shift(1.3w,0)*bsql,dashed);
+draw(shift(1.3w,0)*lsqb,dashed);
+draw(shift(1.3w,0)*lsqr,dashed);
+draw(shift(1.3w,0)*lsqt,dashed);
+draw(shift(1.3w,0)*lsql,dashed);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A)}\ 0 \qquad \textbf{(B)}\ 8 \qquad \textbf{(C)}\ 9 \qquad \textbf{(D)}\ 16 \qquad \textbf{(E)}\ 18\)\par \vspace{0.5em}\item A rectangle, with sides parallel to the \(x\)-axis and \(y\)-axis, has opposite vertices located at \((15, 3)\) and \((16, 5)\). A line is drawn through points \(A(0, 0)\) and \(B(3, 1)\). Another line is drawn through points \(C(0, 10)\) and \(D(2, 9)\). How many points on the rectangle lie on at least one of the two lines?
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+usepackage("mathptmx");
+size(9cm);
+draw((0,-.5)--(0,11),EndArrow(size=.15cm));
+draw((1,0)--(1,11),mediumgray);
+draw((2,0)--(2,11),mediumgray);
+draw((3,0)--(3,11),mediumgray);
+draw((4,0)--(4,11),mediumgray);
+draw((5,0)--(5,11),mediumgray);
+draw((6,0)--(6,11),mediumgray);
+draw((7,0)--(7,11),mediumgray);
+draw((8,0)--(8,11),mediumgray);
+draw((9,0)--(9,11),mediumgray);
+draw((10,0)--(10,11),mediumgray);
+draw((11,0)--(11,11),mediumgray);
+draw((12,0)--(12,11),mediumgray);
+draw((13,0)--(13,11),mediumgray);
+draw((14,0)--(14,11),mediumgray);
+draw((15,0)--(15,11),mediumgray);
+draw((16,0)--(16,11),mediumgray);
+
+draw((-.5,0)--(17,0),EndArrow(size=.15cm));
+draw((0,1)--(17,1),mediumgray);
+draw((0,2)--(17,2),mediumgray);
+draw((0,3)--(17,3),mediumgray);
+draw((0,4)--(17,4),mediumgray);
+draw((0,5)--(17,5),mediumgray);
+draw((0,6)--(17,6),mediumgray);
+draw((0,7)--(17,7),mediumgray);
+draw((0,8)--(17,8),mediumgray);
+draw((0,9)--(17,9),mediumgray);
+draw((0,10)--(17,10),mediumgray);
+
+draw((-.13,1)--(.13,1));
+draw((-.13,2)--(.13,2));
+draw((-.13,3)--(.13,3));
+draw((-.13,4)--(.13,4));
+draw((-.13,5)--(.13,5));
+draw((-.13,6)--(.13,6));
+draw((-.13,7)--(.13,7));
+draw((-.13,8)--(.13,8));
+draw((-.13,9)--(.13,9));
+draw((-.13,10)--(.13,10));
+
+draw((1,-.13)--(1,.13));
+draw((2,-.13)--(2,.13));
+draw((3,-.13)--(3,.13));
+draw((4,-.13)--(4,.13));
+draw((5,-.13)--(5,.13));
+draw((6,-.13)--(6,.13));
+draw((7,-.13)--(7,.13));
+draw((8,-.13)--(8,.13));
+draw((9,-.13)--(9,.13));
+draw((10,-.13)--(10,.13));
+draw((11,-.13)--(11,.13));
+draw((12,-.13)--(12,.13));
+draw((13,-.13)--(13,.13));
+draw((14,-.13)--(14,.13));
+draw((15,-.13)--(15,.13));
+draw((16,-.13)--(16,.13));
+
+label(scale(.7)*"\$1\$", (1,-.13), S);
+label(scale(.7)*"\$2\$", (2,-.13), S);
+label(scale(.7)*"\$3\$", (3,-.13), S);
+label(scale(.7)*"\$4\$", (4,-.13), S);
+label(scale(.7)*"\$5\$", (5,-.13), S);
+label(scale(.7)*"\$6\$", (6,-.13), S);
+label(scale(.7)*"\$7\$", (7,-.13), S);
+label(scale(.7)*"\$8\$", (8,-.13), S);
+label(scale(.7)*"\$9\$", (9,-.13), S);
+label(scale(.7)*"\$10\$", (10,-.13), S);
+label(scale(.7)*"\$11\$", (11,-.13), S);
+label(scale(.7)*"\$12\$", (12,-.13), S);
+label(scale(.7)*"\$13\$", (13,-.13), S);
+label(scale(.7)*"\$14\$", (14,-.13), S);
+label(scale(.7)*"\$15\$", (15,-.13), S);
+label(scale(.7)*"\$16\$", (16,-.13), S);
+
+label(scale(.7)*"\$1\$", (-.13,1), W);
+label(scale(.7)*"\$2\$", (-.13,2), W);
+label(scale(.7)*"\$3\$", (-.13,3), W);
+label(scale(.7)*"\$4\$", (-.13,4), W);
+label(scale(.7)*"\$5\$", (-.13,5), W);
+label(scale(.7)*"\$6\$", (-.13,6), W);
+label(scale(.7)*"\$7\$", (-.13,7), W);
+label(scale(.7)*"\$8\$", (-.13,8), W);
+label(scale(.7)*"\$9\$", (-.13,9), W);
+label(scale(.7)*"\$10\$", (-.13,10), W);
+
+
+dot((0,0),linewidth(4));
+label(scale(.75)*"\$A\$", (0,0), NE);
+dot((3,1),linewidth(4));
+label(scale(.75)*"\$B\$", (3,1), NE);
+
+dot((0,10),linewidth(4));
+label(scale(.75)*"\$C\$", (0,10), NE);
+dot((2,9),linewidth(4));
+label(scale(.75)*"\$D\$", (2,9), NE);
+
+draw((15,3)--(16,3)--(16,5)--(15,5)--cycle,linewidth(1.125));
+dot((15,3),linewidth(4));
+dot((16,3),linewidth(4));
+dot((16,5),linewidth(4));
+dot((15,5),linewidth(4));
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+\(\textbf{(A)}\ 0 \qquad \textbf{(B)}\ 1 \qquad \textbf{(C)}\ 2 \qquad \textbf{(D)}\ 3 \qquad \textbf{(E)}\ 4\)\par \vspace{0.5em}\item Lola, Lolo, Tiya, and Tiyo participated in a ping pong tournament. Each player competed against each of the other three players exactly twice. Shown below are the win-loss records for the players. The numbers \(1\) and \(0\) represent a win or loss, respectively. For example, Lola won five matches and lost the fourth match. What was Tiyos win-loss record?
+
+
+\begin{equation*}
+\begin{tabular}{c | c}
+Player & Result \\
+\hline
+Lola & \texttt{111011}\\
+Lolo & \texttt{101010}\\
+Tiya & \texttt{010100}\\
+Tiyo & \texttt{??????}
+\end{tabular}
+\end{equation*}
+
+
+\(\textbf{(A)}\ \texttt{000101} \qquad \textbf{(B)}\ \texttt{001001} \qquad \textbf{(C)}\ \texttt{010000} \qquad \textbf{(D)}\ \texttt{010101} \qquad \textbf{(E)}\ \texttt{011000}\)
+
+
+
+==Problem 9== 
+Malaika is skiing on a mountain. The graph below shows her elevation, in meters, above the base of the mountain as she skis along a trail. In total, how many seconds does she spend at an elevation between \(4\) and \(7\) meters?
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+// Diagram by TheMathGuyd. Found cubic, so graph is perfect.
+import graph;
+size(8cm);
+int i;
+for(i=1; i<9; i=i+1)
+\{
+draw((-0.2,2i-1)--(16.2,2i-1), mediumgrey);
+draw((2i-1,-0.2)--(2i-1,16.2), mediumgrey);
+draw((-0.2,2i)--(16.2,2i), grey);
+draw((2i,-0.2)--(2i,16.2), grey);
+\}
+Label f; 
+f.p=fontsize(6); 
+xaxis(-0.5,17.8,Ticks(f, 2.0),Arrow()); 
+yaxis(-0.5,17.8,Ticks(f, 2.0),Arrow()); 
+real f(real x) 
+\{ 
+return -0.03125 x\^{}(3) + 0.75x\^{}(2) - 5.125 x + 14.5; 
+\} 
+draw(graph(f,0,15.225),currentpen+1);
+real dpt=2;
+real ts=0.75;
+transform st=scale(ts);
+label(rotate(90)*st*"Elevation (meters)",(-dpt,8));
+label(st*"Time (seconds)",(8,-dpt));
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+\(\textbf{(A)}\ 6 \qquad \textbf{(B)}\ 8 \qquad \textbf{(C)}\ 10 \qquad \textbf{(D)}\ 12 \qquad \textbf{(E)}\ 14\)\par \vspace{0.5em}\item Harold made a plum pie to take on a picnic. He was able to eat only \(\frac{1}{4}\) of the pie, and he left the rest for his friends. A moose came by and ate \(\frac{1}{3}\) of what Harold left behind. After that, a porcupine ate \(\frac{1}{3}\) of what the moose left behind. How much of the original pie still remained after the porcupine left?
+
+\(\textbf{(A)}\ \frac{1}{12} \qquad \textbf{(B)}\ \frac{1}{6} \qquad \textbf{(C)}\ \frac{1}{4} \qquad \textbf{(D)}\ \frac{1}{3} \qquad \textbf{(E)}\ \frac{5}{12}\)\par \vspace{0.5em}\item NASAs Perseverance Rover was launched on July \(30,\) \(2020.\) After traveling \(292{,}526{,}838\) miles, it landed on Mars in Jezero Crater about \(6.5\) months later. Which of the following is closest to the Rovers average interplanetary speed in miles per hour?
+
+\(\textbf{(A)}\ 6{,}000 \qquad \textbf{(B)}\ 12{,}000 \qquad \textbf{(C)}\ 60{,}000 \qquad \textbf{(D)}\ 120{,}000 \qquad \textbf{(E)}\ 600{,}000\)\par \vspace{0.5em}\item The figure below shows a large white circle with a number of smaller white and shaded circles in its
+interior. What fraction of the interior of the large white circle is shaded?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+// Diagram by TheMathGuyd
+size(6cm);
+draw(circle((3,3),3));
+filldraw(circle((2,3),2),lightgrey);
+filldraw(circle((3,3),1),white);
+filldraw(circle((1,3),1),white);
+filldraw(circle((5.5,3),0.5),lightgrey);
+filldraw(circle((4.5,4.5),0.5),lightgrey);
+filldraw(circle((4.5,1.5),0.5),lightgrey);
+int i, j;
+for(i=0; i<7; i=i+1)
+\{
+draw((0,i)--(6,i), dashed+grey);
+draw((i,0)--(i,6), dashed+grey);
+\}
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A)}\ \frac{1}{4} \qquad \textbf{(B)}\ \frac{11}{36} \qquad \textbf{(C)}\ \frac{1}{3} \qquad \textbf{(D)}\ \frac{19}{36} \qquad \textbf{(E)}\ \frac{5}{9}\)\par \vspace{0.5em}\item Along the route of a bicycle race, \(7\) water stations are evenly spaced between the start and finish lines,
+as shown in the figure below. There are also \(2\) repair stations evenly spaced between the start and
+finish lines. The \(3\)rd water station is located \(2\) miles after the \(1\)st repair station. How long is the race
+in miles?
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+// Credits given to Themathguyd and Kante314
+usepackage("mathptmx");
+size(10cm);
+filldraw((11,4.5)--(171,4.5)--(171,17.5)--(11,17.5)--cycle,mediumgray*0.4 + lightgray*0.6);
+draw((11,11)--(171,11),linetype("2 2")+white+linewidth(1.2));
+draw((0,0)--(11,0)--(11,22)--(0,22)--cycle);
+draw((171,0)--(182,0)--(182,22)--(171,22)--cycle);
+
+draw((31,4.5)--(31,0));
+draw((51,4.5)--(51,0));
+draw((151,4.5)--(151,0));
+
+label(scale(.85)*rotate(45)*"Water 1", (23,-13.5));
+label(scale(.85)*rotate(45)*"Water 2", (43,-13.5));
+label(scale(.85)*rotate(45)*"Water 7", (143,-13.5));
+
+filldraw(circle((103,-13.5),.2));
+filldraw(circle((98,-13.5),.2));
+filldraw(circle((93,-13.5),.2));
+filldraw(circle((88,-13.5),.2));
+filldraw(circle((83,-13.5),.2));
+
+label(scale(.85)*rotate(90)*"Start", (5.5,11));
+label(scale(.85)*rotate(270)*"Finish", (176.5,11));
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+\(\textbf{(A)}\ 8 \qquad \textbf{(B)}\ 16 \qquad \textbf{(C)}\ 24 \qquad \textbf{(D)}\ 48 \qquad \textbf{(E)}\ 96\)\par \vspace{0.5em}\item Nicolas is planning to send a package to his friend Anton, who is a stamp collector. To pay for the postage, Nicolas would like to cover the package with a large number of stamps. Suppose he has a collection of \(5\)-cent, \(10\)-cent, and \(25\)-cent stamps, with exactly \(20\) of each type. What is the greatest number of stamps Nicolas can use to make exactly \(\$7.10\) in postage?
+(Note: The amount \(\$7.10\) corresponds to \(7\) dollars and \(10\) cents. One dollar is worth \(100\) cents.)
+
+\(\textbf{(A)}\ 45 \qquad \textbf{(B)}\ 46 \qquad \textbf{(C)}\ 51 \qquad \textbf{(D)}\ 54\qquad \textbf{(E)}\ 55\)\par \vspace{0.5em}\item Viswam walks half a mile to get to school each day. His route consists of \(10\) city blocks of equal length and he takes \(1\) minute to walk each block. Today, after walking \(5\) blocks, Viswam discovers he has to make a detour, walking \(3\) blocks of equal length instead of \(1\) block to reach the next corner. From the time he starts his detour, at what speed, in mph, must he walk, in order to get to school at his usual time?
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+// Diagram by TheMathGuyd
+size(13cm);
+// this is an important stickman to the left of the origin
+pair C=midpoint((-0.5,0.5)--(-0.6,0.05));
+draw((-0.5,0.5)--(-0.6,0.05)); // Head to butt
+draw((-0.64,0.16)--(-0.7,0.2)--C--(-0.47,0.2)--(-0.4,0.22)); // LH-C-RH
+draw((-0.6,0.05)--(-0.55,-0.1)--(-0.57,-0.25));
+draw((-0.6,0.05)--(-0.68,-0.12)--(-0.8,-0.20));
+
+filldraw(circle((-0.5,0.5),0.1),white,black);
+
+int i;
+real d,s; // gap and side
+d=0.2; s=1-2*d;
+for(i=0; i<10; i=i+1)
+\{
+  //dot((i,0), red); //marks to start
+  filldraw((i+d,d)--(i+1-d,d)--(i+1-d,1-d)--(i+d,1-d)--cycle, lightgrey, black);
+  filldraw(conj((i+d,d))--conj((i+1-d,d))--conj((i+1-d,1-d))--conj((i+d,1-d))--cycle,lightgrey,black);
+\}
+
+fill((5+d,-d/2)--(6-d,-d/2)--(6-d,d/2)--(5+d,d/2)--cycle,lightred);
+
+draw((0,0)--(5,0)--(5,1)--(6,1)--(6,0)--(10.1,0),deepblue+linewidth(1.25)); //Who even noticed
+label("School", (10,0),E, Draw());
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+\(\textbf{(A)}\ 4 \qquad \textbf{(B)}\ 4.2 \qquad \textbf{(C)}\ 4.5 \qquad \textbf{(D)}\ 4.8 \qquad \textbf{(E)}\ 5\)\par \vspace{0.5em}\item The letters \(\text{P}, \text{Q},\) and \(\text{R}\) are entered into a \(20\times20\) table according to the pattern shown below. How many \(\text{P}\)s, \(\text{Q}\)s, and \(\text{R}\)s will appear in the completed table? 
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+/* Made by MRENTHUSIASM, Edited by Kante314 */
+usepackage("mathdots");
+size(5cm);
+draw((0,0)--(6,0),linewidth(1.5)+mediumgray);
+draw((0,1)--(6,1),linewidth(1.5)+mediumgray);
+draw((0,2)--(6,2),linewidth(1.5)+mediumgray);
+draw((0,3)--(6,3),linewidth(1.5)+mediumgray);
+draw((0,4)--(6,4),linewidth(1.5)+mediumgray);
+draw((0,5)--(6,5),linewidth(1.5)+mediumgray);
+
+draw((0,0)--(0,6),linewidth(1.5)+mediumgray);
+draw((1,0)--(1,6),linewidth(1.5)+mediumgray);
+draw((2,0)--(2,6),linewidth(1.5)+mediumgray);
+draw((3,0)--(3,6),linewidth(1.5)+mediumgray);
+draw((4,0)--(4,6),linewidth(1.5)+mediumgray);
+draw((5,0)--(5,6),linewidth(1.5)+mediumgray);
+
+label(scale(.9)*"\textbackslash\{\}textsf\{P\}", (.5,.5));
+label(scale(.9)*"\textbackslash\{\}textsf\{Q\}", (.5,1.5));
+label(scale(.9)*"\textbackslash\{\}textsf\{R\}", (.5,2.5));
+label(scale(.9)*"\textbackslash\{\}textsf\{P\}", (.5,3.5));
+label(scale(.9)*"\textbackslash\{\}textsf\{Q\}", (.5,4.5));
+label("\$\textbackslash\{\}vdots\$", (.5,5.6));
+
+label(scale(.9)*"\textbackslash\{\}textsf\{Q\}", (1.5,.5));
+label(scale(.9)*"\textbackslash\{\}textsf\{R\}", (1.5,1.5));
+label(scale(.9)*"\textbackslash\{\}textsf\{P\}", (1.5,2.5));
+label(scale(.9)*"\textbackslash\{\}textsf\{Q\}", (1.5,3.5));
+label(scale(.9)*"\textbackslash\{\}textsf\{R\}", (1.5,4.5));
+label("\$\textbackslash\{\}vdots\$", (1.5,5.6));
+
+label(scale(.9)*"\textbackslash\{\}textsf\{R\}", (2.5,.5));
+label(scale(.9)*"\textbackslash\{\}textsf\{P\}", (2.5,1.5));
+label(scale(.9)*"\textbackslash\{\}textsf\{Q\}", (2.5,2.5));
+label(scale(.9)*"\textbackslash\{\}textsf\{R\}", (2.5,3.5));
+label(scale(.9)*"\textbackslash\{\}textsf\{P\}", (2.5,4.5));
+label("\$\textbackslash\{\}vdots\$", (2.5,5.6));
+
+label(scale(.9)*"\textbackslash\{\}textsf\{P\}", (3.5,.5));
+label(scale(.9)*"\textbackslash\{\}textsf\{Q\}", (3.5,1.5));
+label(scale(.9)*"\textbackslash\{\}textsf\{R\}", (3.5,2.5));
+label(scale(.9)*"\textbackslash\{\}textsf\{P\}", (3.5,3.5));
+label(scale(.9)*"\textbackslash\{\}textsf\{Q\}", (3.5,4.5));
+label("\$\textbackslash\{\}vdots\$", (3.5,5.6));
+
+label(scale(.9)*"\textbackslash\{\}textsf\{Q\}", (4.5,.5));
+label(scale(.9)*"\textbackslash\{\}textsf\{R\}", (4.5,1.5));
+label(scale(.9)*"\textbackslash\{\}textsf\{P\}", (4.5,2.5));
+label(scale(.9)*"\textbackslash\{\}textsf\{Q\}", (4.5,3.5));
+label(scale(.9)*"\textbackslash\{\}textsf\{R\}", (4.5,4.5));
+label("\$\textbackslash\{\}vdots\$", (4.5,5.6));
+
+label(scale(.9)*"\$\textbackslash\{\}dots\$", (5.5,.5));
+label(scale(.9)*"\$\textbackslash\{\}dots\$", (5.5,1.5));
+label(scale(.9)*"\$\textbackslash\{\}dots\$", (5.5,2.5));
+label(scale(.9)*"\$\textbackslash\{\}dots\$", (5.5,3.5));
+label(scale(.9)*"\$\textbackslash\{\}dots\$", (5.5,4.5));
+label(scale(.9)*"\$\textbackslash\{\}iddots\$", (5.5,5.6));
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+\(\textbf{(A)}~132\text{ Ps, }134\text{ Qs, }134\text{ Rs}\) 
+
+\(\textbf{(B)}~133\text{ Ps, }133\text{ Qs, }134\text{ Rs}\)
+
+\(\textbf{(C)}~133\text{ Ps, }134\text{ Qs, }133\text{ Rs}\)
+
+\(\textbf{(D)}~134\text{ Ps, }132\text{ Qs, }134\text{ Rs}\)
+
+\(\textbf{(E)}~134\text{ Ps, }133\text{ Qs, }133\text{ Rs}\)\par \vspace{0.5em}\item A \textbackslash\{\}textit\{regular octahedron\} has eight equilateral triangle faces with four faces meeting at each vertex. Jun will make the regular octahedron shown on the right by folding the piece of paper shown on the left. Which numbered face will end up to the right of \(Q\)?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+// Diagram by TheMathGuyd
+import graph;
+// The Solid
+// To save processing time, do not use three (dimensions)
+// Project (roughly) to two
+size(15cm);
+pair Fr, Lf, Rt, Tp, Bt, Bk;
+Lf=(0,0);
+Rt=(12,1);
+Fr=(7,-1);
+Bk=(5,2);
+Tp=(6,6.7);
+Bt=(6,-5.2);
+draw(Lf--Fr--Rt);
+draw(Lf--Tp--Rt);
+draw(Lf--Bt--Rt);
+draw(Tp--Fr--Bt);
+draw(Lf--Bk--Rt,dashed);
+draw(Tp--Bk--Bt,dashed);
+label(rotate(-8.13010235)*slant(0.1)*"\$Q\$", (4.2,1.6));
+label(rotate(21.8014095)*slant(-0.2)*"\$?\$", (8.5,2.05));
+pair g = (-8,0); // Define Gap transform
+real a = 8;
+draw(g+(-a/2,1)--g+(a/2,1), Arrow()); // Make arrow
+// Time for the NET
+pair DA,DB,DC,CD,O;
+DA = (4*sqrt(3),0);
+DB = (2*sqrt(3),6);
+DC = (DA+DB)/3;
+CD = conj(DC);
+O=(0,0);
+transform trf=shift(3g+(0,3));
+path NET = O--(-2*DA)--(-2DB)--(-DB)--(2DA-DB)--DB--O--DA--(DA-DB)--O--(-DB)--(-DA)--(-DA-DB)--(-DB);
+draw(trf*NET);
+label("\$7\$",trf*DC);
+label("\$Q\$",trf*DC+DA-DB);
+label("\$5\$",trf*DC-DB);
+label("\$3\$",trf*DC-DA-DB);
+label("\$6\$",trf*CD);
+label("\$4\$",trf*CD-DA);
+label("\$2\$",trf*CD-DA-DB);
+label("\$1\$",trf*CD-2DA);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A)}\ 1 \qquad \textbf{(B)}\ 2 \qquad \textbf{(C)}\ 3 \qquad \textbf{(D)}\ 4 \qquad \textbf{(E)}\ 5\)\par \vspace{0.5em}\item Greta Grasshopper sits on a long line of lily pads in a pond. From any lily pad, Greta can jump \(5\) pads to the right or \(3\) pads to the left. What is the fewest number of jumps Greta must make to reach the lily pad located \(2023\) pads to the right of her starting point?
+
+\(\textbf{(A)}\ 405 \qquad \textbf{(B)}\ 407 \qquad \textbf{(C)}\ 409 \qquad \textbf{(D)}\ 411 \qquad \textbf{(E)}\ 413\)\par \vspace{0.5em}\item An equilateral triangle is placed inside a larger equilateral triangle so that the region between them can be divided into three congruent trapezoids, as shown below. The side length of the inner triangle is \(\frac23\) the side length of the larger triangle. What is the ratio of the area of one trapezoid to the area of the inner triangle?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+// Diagram by TheMathGuyd 
+pair A,B,C;
+A=(0,1);
+B=(sqrt(3)/2,-1/2);
+C=-conj(B);
+fill(2B--3B--3C--2C--cycle,grey);
+dot(3A);
+dot(3B);
+dot(3C);
+dot(2A);
+dot(2B);
+dot(2C);
+draw(2A--2B--2C--cycle);
+draw(3A--3B--3C--cycle);
+draw(2A--3A);
+draw(2B--3B);
+draw(2C--3C);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A) } 1 : 3 \qquad \textbf{(B) } 3 : 8 \qquad \textbf{(C) } 5 : 12 \qquad \textbf{(D) } 7 : 16 \qquad \textbf{(E) } 4 : 9\)\par \vspace{0.5em}\item Two integers are inserted into the list \(3,3,8,11,28\) to double its range. The mode and median remain unchanged. What is the maximum possible sum of the two additional numbers?
+
+\(\textbf{(A)}\ 56 \qquad \textbf{(B)}\ 57 \qquad \textbf{(C)}\ 58 \qquad \textbf{(D)}\ 60 \qquad \textbf{(E)}\ 61\)\par \vspace{0.5em}\item Alina writes the numbers \(1, 2, \dots , 9\) on separate cards, one number per card. She wishes to divide the cards into \(3\) groups of \(3\) cards so that the sum of the numbers in each group will be the same. In how many ways can this be done?
+
+\(\textbf{(A)}\ 0 \qquad \textbf{(B)}\ 1 \qquad \textbf{(C)}\ 2 \qquad \textbf{(D)}\ 3 \qquad \textbf{(E)}\ 4\)\par \vspace{0.5em}\item In a sequence of positive integers, each term after the second is the product of the previous two terms. The sixth term is \(4000\). What is the first term?
+
+\(\textbf{(A)}\ 1 \qquad \textbf{(B)}\ 2 \qquad \textbf{(C)}\ 4 \qquad \textbf{(D)}\ 5 \qquad \textbf{(E)}\ 10\)\par \vspace{0.5em}\item Each square in a \(3 \times 3\) grid is randomly filled with one of the \(4\) gray and white tiles shown below on the right. 
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+size(5.663333333cm);
+draw((0,0)--(3,0)--(3,3)--(0,3)--cycle,gray);
+draw((1,0)--(1,3)--(2,3)--(2,0),gray);
+draw((0,1)--(3,1)--(3,2)--(0,2),gray);
+
+fill((6,.33)--(7,.33)--(7,1.33)--cycle,mediumgray);
+draw((6,.33)--(7,.33)--(7,1.33)--(6,1.33)--cycle,gray);
+fill((6,1.67)--(7,2.67)--(6,2.67)--cycle,mediumgray);
+draw((6,1.67)--(7,1.67)--(7,2.67)--(6,2.67)--cycle,gray);
+fill((7.33,.33)--(8.33,.33)--(7.33,1.33)--cycle,mediumgray);
+draw((7.33,.33)--(8.33,.33)--(8.33,1.33)--(7.33,1.33)--cycle,gray);
+fill((8.33,1.67)--(8.33,2.67)--(7.33,2.67)--cycle,mediumgray);
+draw((7.33,1.67)--(8.33,1.67)--(8.33,2.67)--(7.33,2.67)--cycle,gray);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+What is the probability that the tiling will contain a large gray diamond in one of the smaller \(2 \times 2\) grids? Below is an example of such tiling. 
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+size(2cm);
+
+fill((1,0)--(0,1)--(0,2)--(1,1)--cycle,mediumgray);
+fill((2,0)--(3,1)--(2,2)--(1,1)--cycle,mediumgray);
+fill((1,2)--(1,3)--(0,3)--cycle,mediumgray);
+fill((1,2)--(2,2)--(2,3)--cycle,mediumgray);
+fill((3,2)--(3,3)--(2,3)--cycle,mediumgray);
+
+draw((0,0)--(3,0)--(3,3)--(0,3)--cycle,gray);
+draw((1,0)--(1,3)--(2,3)--(2,0),gray);
+draw((0,1)--(3,1)--(3,2)--(0,2),gray);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A) } \frac{1}{1024} \qquad \textbf{(B) } \frac{1}{256} \qquad \textbf{(C) } \frac{1}{64} \qquad \textbf{(D) } \frac{1}{16} \qquad \textbf{(E) } \frac{1}{4}\)\par \vspace{0.5em}\item Isosceles triangle \(ABC\) has equal side lengths \(AB\) and \(BC\). In the figures below, segments are drawn parallel to \(\overline{AC}\) so that the shaded portions of \(\triangle ABC\) have the same area. The heights of the two unshaded portions are 11 and 5 units, respectively. What is the height \(h\) of \(\triangle ABC\)?
+
+
+\textbackslash\{\}begin\{center\}
+\textbackslash\{\}begin\{asy\}
+import olympiad;
+import cse5;
+//Diagram by TheMathGuyd
+size(12cm);
+real h = 2.5; // height
+real g=4; //c2c space
+real s = 0.65; //Xcord of Hline
+real adj = 0.08; //adjust line diffs
+pair A,B,C;
+B=(0,h);
+C=(1,0);
+A=-conj(C);
+pair PONE=(s,h*(1-s)); //Endpoint of Hline ONE
+pair PTWO=(s+adj,h*(1-s-adj)); //Endpoint of Hline ONE
+path LONE=PONE--(-conj(PONE)); //Hline ONE
+path LTWO=PTWO--(-conj(PTWO));
+path T=A--B--C--cycle; //Triangle
+
+
+fill (shift(g,0)*(LTWO--B--cycle),mediumgrey);
+fill (LONE--A--C--cycle,mediumgrey);
+
+draw(LONE);
+draw(T);
+label("\$A\$",A,SW);
+label("\$B\$",B,N);
+label("\$C\$",C,SE);
+
+draw(shift(g,0)*LTWO);
+draw(shift(g,0)*T);
+label("\$A\$",shift(g,0)*A,SW);
+label("\$B\$",shift(g,0)*B,N);
+label("\$C\$",shift(g,0)*C,SE);
+
+draw(B--shift(g,0)*B,dashed);
+draw(C--shift(g,0)*A,dashed);
+draw((g/2,0)--(g/2,h),dashed);
+draw((0,h*(1-s))--B,dashed);
+draw((g,h*(1-s-adj))--(g,0),dashed);
+label("\$5\$", midpoint((g,h*(1-s-adj))--(g,0)),UnFill);
+label("\$h\$", midpoint((g/2,0)--(g/2,h)),UnFill);
+label("\$11\$", midpoint((0,h*(1-s))--B),UnFill);
+\textbackslash\{\}end\{asy\}
+\textbackslash\{\}end\{center\}
+
+
+\(\textbf{(A)}\ 14.6 \qquad \textbf{(B)}\ 14.8 \qquad \textbf{(C)}\ 15 \qquad \textbf{(D)}\ 15.2 \qquad \textbf{(E)}\ 15.4\)\par \vspace{0.5em}\item Fifteen integers \(a_1, a_2, a_3, \dots, a_{15}\) are arranged in order on a number line. The integers are equally spaced and have the property that
+
+\begin{equation*}
+1 \le a_1 \le 10, \thickspace 13 \le a_2 \le 20, \thickspace \text{ and } \thickspace 241 \le a_{15}\le 250.
+\end{equation*}
+
+What is the sum of digits of \(a_{14}?\)
+
+\(\textbf{(A)}\ 8 \qquad \textbf{(B)}\ 9 \qquad \textbf{(C)}\ 10 \qquad \textbf{(D)}\ 11 \qquad \textbf{(E)}\ 12\)\par \vspace{0.5em}\end{enumerate}
+\end{document}

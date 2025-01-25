@@ -1,0 +1,53 @@
+if(!settings.multipleView) settings.batchView=false;
+settings.tex="pdflatex";
+defaultfilename="AMC8_Combined_Problems_2010-2024-74";
+if(settings.render < 0) settings.render=4;
+settings.outformat="";
+settings.inlineimage=true;
+settings.embed=true;
+settings.toolbar=false;
+viewportmargin=(2,2);
+
+// Global Asymptote settings
+settings.outformat = "pdf";
+settings.render = 0;
+settings.prc = false;
+import olympiad;
+import cse5;
+size(8cm);
+
+import olympiad;
+import cse5;
+//diagram by pog . give me 1,000,000,000 dollars for this diagram
+size(5cm);
+defaultpen(0.7);
+dot((0.5,1));
+dot((0.5,1.5));
+dot((1.5,1));
+dot((1.5,1.5));
+dot((2.5,1));
+dot((2.5,1.5));
+dot((2.5,2));
+dot((2.5,2.5));
+dot((3.5,1));
+dot((3.5,1.5));
+dot((3.5,2));
+dot((3.5,2.5));
+dot((3.5,3));
+dot((4.5,1));
+dot((4.5,1.5));
+dot((5.5,1));
+dot((5.5,1.5));
+dot((5.5,2));
+dot((6.5,1));
+dot((7.5,1));
+draw((0,0.5)--(8,0.5),linewidth(0.7));
+defaultpen(fontsize(10.5pt));
+label("$65$", (0.5,-0.1));
+label("$70$", (1.5,-0.1));
+label("$75$", (2.5,-0.1));
+label("$80$", (3.5,-0.1));
+label("$85$", (4.5,-0.1));
+label("$90$", (5.5,-0.1));
+label("$95$", (6.5,-0.1));
+label("$100$", (7.5,-0.1));

@@ -1,0 +1,40 @@
+if(!settings.multipleView) settings.batchView=false;
+settings.tex="pdflatex";
+defaultfilename="AMC8_Combined_Problems_2010-2024-78";
+if(settings.render < 0) settings.render=4;
+settings.outformat="";
+settings.inlineimage=true;
+settings.embed=true;
+settings.toolbar=false;
+viewportmargin=(2,2);
+
+// Global Asymptote settings
+settings.outformat = "pdf";
+settings.render = 0;
+settings.prc = false;
+import olympiad;
+import cse5;
+size(8cm);
+
+import olympiad;
+import cse5;
+usepackage("mathptmx");
+size(275);
+defaultpen(linewidth(0.8));
+real r = 2, s = 2.5, theta = 14;
+pair G = (0,0), F = (r,0), C = (r,s), B = (0,s), M = (C+F)/2, I = M + s/2 * dir(-theta);
+pair N = (B+G)/2, J = N + s/2 * dir(180+theta);
+pair E = F + r * dir(- 45 - theta/2), D = I+E-F;
+pair H = J + r * dir(135 + theta/2), A = B+H-J;
+draw(A--B--C--I--D--E--F--G--J--H--cycle^^rightanglemark(F,I,C)^^rightanglemark(G,J,B));
+draw(J--B--G^^C--F--I,linetype ("4 4"));
+dot("$A$",A,N);
+dot("$B$",B,1.2*N);
+dot("$C$",C,N);
+dot("$D$",D,dir(0));
+dot("$E$",E,S);
+dot("$F$",F,1.5*dir(-100));
+dot("$G$",G,S);
+dot("$H$",H,W);
+dot("$I$",I,NE);
+dot("$J$",J,1.5*S);
