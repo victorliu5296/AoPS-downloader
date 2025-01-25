@@ -461,6 +461,41 @@ def escape_latex_special_chars(content):
         content = content.replace(char, escape)
     return content
 
+def escape_non_math_content(content):
+    """Escape LaTeX special characters in non-math/non-environment parts of the content."""
+    # Regex to match ALL LaTeX environments (including math, asy, align, etc.)
+    # and inline/display math. This ensures we don't escape characters inside these blocks.
+    protected_pattern = re.compile(
+        r'(\\\(.*?\\\)|'                    # Inline math \(...\)
+        r'\\\[.*?\\\]|'                     # Display math \[...\]
+        r'\$\$.*?\$\$|'                     # $$...$$
+        r'\\begin\{(\w+)\*?\}.*?\\end\{\2\*?\})',  # Any \begin{env}...\end{env} (with optional *)
+        re.DOTALL | re.IGNORECASE
+    )
+
+    parts = []
+    last_pos = 0
+
+    for match in protected_pattern.finditer(content):
+        start = match.start()
+        end = match.end()
+        
+        # Process non-protected content before this match
+        non_protected = content[last_pos:start]
+        escaped = escape_latex_special_chars(non_protected)
+        parts.append(escaped)
+        
+        # Add the protected content as-is
+        parts.append(match.group(0))
+        last_pos = end
+
+    # Process remaining content after the last match
+    non_protected = content[last_pos:]
+    escaped = escape_latex_special_chars(non_protected)
+    parts.append(escaped)
+
+    return ''.join(parts)
+
 def process_html_tags(content):
     """Convert HTML tags to LaTeX using a comprehensive mapping, handling nested tags."""
     html_tag_handlers = {
@@ -603,19 +638,22 @@ def process_problem_content(problem):
             parts.append(problem[asy_start:])
             break
         asy_code = problem[asy_start + 5:asy_end].strip()
+        
+        # Fix ambiguous Ticks calls using regex substitution
+        asy_code = re.sub(
+            r'(?<!graph\.)(Ticks\()',  # negative lookbehind to avoid double replacement
+            r'graph.Ticks(',
+            asy_code
+        )
+        
         if asy_code:
             parts.append(f'\n\\begin{{center}}\n\\begin{{asy}}\nimport olympiad;\nimport cse5;\n{asy_code}\n\\end{{asy}}\n\\end{{center}}\n')
         current_pos = asy_end + 6
+
     problem = ''.join(parts)
-
-    # Process HTML tags
     problem = process_html_tags(problem)
-
-    # Handle math content
     problem = re.sub(r'<math>(.*?)</math>', r'\\(\1\\)', problem, flags=re.DOTALL)
     problem = re.sub(r'<cmath>(.*?)</cmath>', replace_cmath, problem, flags=re.DOTALL)
-    
-    # Fix aligned* environments
     problem = re.sub(r'\\begin{aligned\*}', r'\\begin{aligned}', problem)
     problem = re.sub(r'\\end{aligned\*}', r'\\end{aligned}', problem)
 
@@ -630,6 +668,9 @@ def process_problem_content(problem):
     problem = html.unescape(problem)
     
     problem = fix_blank_line(problem)
+
+    # Escape LaTeX special characters in non-math parts
+    problem = escape_non_math_content(problem)
 
     # Convert \over to \frac
     problem = replace_over_with_frac(problem)
