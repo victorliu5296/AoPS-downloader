@@ -563,7 +563,7 @@ async def main():
     output_folder = "output"
 
     # Module installation
-    asy_modules_dir = os.path.join(output_folder, "asy_modules")
+    asy_modules_dir = "asy_modules"
     os.makedirs(asy_modules_dir, exist_ok=True)
     if not install_asymptote_modules(asy_modules_dir):
         print("Module installation failed. Exiting.")
