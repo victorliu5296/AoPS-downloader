@@ -198,6 +198,8 @@ def compile_latex_to_pdf(tex_filepath, asy_modules_dir_abs):
     temp_dir_abs = os.path.abspath(temp_dir)
     output_pdf_path = os.path.join(output_dir, tex_filename_base + ".pdf")
 
+    compilation_occurred = False
+
     try:
         cwd = temp_dir_abs
 
@@ -205,6 +207,7 @@ def compile_latex_to_pdf(tex_filepath, asy_modules_dir_abs):
         compiled_pass1, success_pass1 = run_latex_compilation(tex_filepath, cwd, 1, output_pdf_path)
         if not success_pass1:
             return None
+        compilation_occurred |= compiled_pass1
 
         if not install_asymptote_modules(asy_modules_dir_abs):
             return None
@@ -213,16 +216,20 @@ def compile_latex_to_pdf(tex_filepath, asy_modules_dir_abs):
         any_asy_compiled, asy_success = run_asymptote_compilation(temp_dir_abs, asy_modules_dir_abs)
         if not asy_success:
             return None
+        compilation_occurred |= any_asy_compiled
 
         # Pass 2
         compiled_pass2, success_pass2 = run_latex_compilation(tex_filepath, cwd, 2, output_pdf_path)
         if not success_pass2:
             return None
+        compilation_occurred |= compiled_pass2
 
-        # Only move PDF if Pass 2 actually compiled (changed content)
-        if compiled_pass2:
+        # Only move PDF if compilation occurred
+        if compilation_occurred:
             if not move_pdf_output(temp_dir_abs, output_dir, tex_filename_base):
                 return None
+        else:
+            print(f"No final LaTeX pass needed; preserving existing PDF for {tex_filename_base}.")
 
         print(f"Successfully compiled {tex_filename_base}.tex to PDF.")
         return output_pdf_path
