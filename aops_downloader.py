@@ -395,6 +395,7 @@ def extract_problems(html_content):
     cleaned_problems = []
     for problem in problems:
         content = problem.strip()
+        content = content.encode('ascii', 'ignore').decode('ascii')
         content = content.replace("’", "'").replace("‘", "'").replace("“", "\"").replace("”", "\"")
         cleaned_problems.append(content.strip())
 
@@ -441,7 +442,24 @@ def generate_latex_footer():
 \end{document}
 """
 
-import re
+def escape_latex_special_chars(content):
+    """Escape LaTeX special characters within nowiki tags."""
+    special_chars = {
+        '\\': r'\textbackslash{}',
+        '{': r'\{',
+        '}': r'\}',
+        '&': r'\&',
+        '%': r'\%',
+        '$': r'\$',
+        '#': r'\#',
+        '_': r'\_',
+        '^': r'\^{}',
+        '~': r'\textasciitilde{}',
+    }
+    # Replace special characters with their escaped versions
+    for char, escape in special_chars.items():
+        content = content.replace(char, escape)
+    return content
 
 def process_html_tags(content):
     """Convert HTML tags to LaTeX using a comprehensive mapping, handling nested tags."""
@@ -469,6 +487,7 @@ def process_html_tags(content):
         # Special cases
         'br': {'latex': '\\\\', 'block': False, 'self_closing': True},
         'hr': {'latex': '\\hline', 'block': True, 'self_closing': True},
+        'nowiki': {'latex': 'texttt', 'block': False},  # Special handling
     }
 
     tags = '|'.join(re.escape(tag) for tag in html_tag_handlers.keys())
@@ -500,6 +519,11 @@ def process_html_tags(content):
             if attr_match:
                 attr_value = attr_match.group(1)
 
+        # Special handling for <nowiki> tags
+        if tag == 'nowiki':
+            escaped_content = escape_latex_special_chars(content.strip())
+            return f'\\texttt{{{escaped_content}}}'
+
         processed_content = process_html_tags(content.strip())
 
         if handler.get('directive', False):
@@ -508,8 +532,8 @@ def process_html_tags(content):
             return f'\\{handler["latex"]} {processed_content}\n'
         elif handler['block']:
             latex_env = handler['latex']
-            # Ensure itemize/enumerate have at least one \item
-            if latex_env in ['itemize', 'enumerate'] and r'\item' not in processed_content:
+            # Only add \item if it's specifically for itemize or enumerate
+            if tag in ['ul', 'ol'] and r'\item' not in processed_content:
                 processed_content = r'\item ' + processed_content
             return f'\\begin{{{latex_env}}}\n{processed_content.strip()}\n\\end{{{latex_env}}}\n'
         else:
@@ -538,7 +562,7 @@ def process_html_tags(content):
 def replace_cmath(match):
     """Handle cmath content with multi-line environments."""
     cmath_content = match.group(1)
-    multi_line_envs = ['align', 'gather', 'multline']
+    multi_line_envs = ['align', 'gather', 'multline', 'alignat', 'eqnarray', 'flalign', 'split']
     for env in multi_line_envs:
         env_pattern = re.compile(rf'\\begin\{{{env}\*?\}}(.*?)\\end\{{{env}\*?\}}', re.DOTALL)
         if env_pattern.search(cmath_content):
