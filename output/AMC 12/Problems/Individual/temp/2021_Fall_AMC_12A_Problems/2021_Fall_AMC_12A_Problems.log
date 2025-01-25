@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 04:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 18:34
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -895,11 +895,11 @@ LaTeX Warning: No \author given.
 <2021_Fall_AMC_12A_Problems-1.pdf, id=14, 170.7168pt x 151.11256pt>
 File: 2021_Fall_AMC_12A_Problems-1.pdf Graphic file (type pdf)
 <use 2021_Fall_AMC_12A_Problems-1.pdf>
-Package pdftex.def Info: 2021_Fall_AMC_12A_Problems-1.pdf  used on input line 6
-8.
+Package pdftex.def Info: 2021_Fall_AMC_12A_Problems-1.pdf  used on input line 7
+0.
 (pdftex.def)             Requested size: 170.71637pt x 151.11218pt.
 
-Overfull \hbox (2.63278pt too wide) in paragraph at lines 76--77
+Overfull \hbox (2.63278pt too wide) in paragraph at lines 78--79
 []\OT1/cmr/m/n/10 A right rect-an-gu-lar prism whose sur-face area and vol-ume 
 are nu-mer-i-cally equal has edge lengths $[][] \OML/cmm/m/it/10 x; [][] x;$
  []
@@ -907,7 +907,7 @@ are nu-mer-i-cally equal has edge lengths $[][] \OML/cmm/m/it/10 x; [][] x;$
 
 
 [2 <./2021_Fall_AMC_12A_Problems-1.pdf>]
-Overfull \hbox (26.83333pt too wide) in paragraph at lines 82--83
+Overfull \hbox (26.83333pt too wide) in paragraph at lines 84--85
 []\OT1/cmr/m/n/10 What is the num-ber of terms with ra-tio-nal co-ef-fi-cients 
 among the $1001$ terms in the ex-pan-sion of $[][]?$ 
  []
@@ -918,7 +918,7 @@ among the $1001$ terms in the ex-pan-sion of $[][]?$
 File: 2021_Fall_AMC_12A_Problems-2.pdf Graphic file (type pdf)
 <use 2021_Fall_AMC_12A_Problems-2.pdf>
 Package pdftex.def Info: 2021_Fall_AMC_12A_Problems-2.pdf  used on input line 1
-08.
+10.
 (pdftex.def)             Requested size: 284.52728pt x 269.56943pt.
 
 
@@ -929,7 +929,7 @@ Package pdftex.def Info: 2021_Fall_AMC_12A_Problems-2.pdf  used on input line 1
 File: 2021_Fall_AMC_12A_Problems-3.pdf Graphic file (type pdf)
 <use 2021_Fall_AMC_12A_Problems-3.pdf>
 Package pdftex.def Info: 2021_Fall_AMC_12A_Problems-3.pdf  used on input line 1
-70.
+72.
 (pdftex.def)             Requested size: 284.52728pt x 281.57727pt.
 
 
@@ -947,7 +947,7 @@ ged.
 Here is how much of TeX's memory you used:
  25375 strings out of 473536
  477523 string characters out of 5712052
- 894333 words of memory out of 5000000
+ 894328 words of memory out of 5000000
  48167 multiletter control sequences out of 15000+600000
  568056 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -974,7 +974,7 @@ r/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
 <C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8
 a.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on 2021_Fall_AMC_12A_Problems.pdf (5 pages, 223151 bytes).
+Output written on 2021_Fall_AMC_12A_Problems.pdf (5 pages, 223076 bytes).
 PDF statistics:
  181 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)

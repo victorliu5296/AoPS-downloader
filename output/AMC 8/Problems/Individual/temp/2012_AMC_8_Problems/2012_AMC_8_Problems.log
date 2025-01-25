@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 17:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 18:39
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -895,22 +895,22 @@ LaTeX Warning: No \author given.
 <2012_AMC_8_Problems-1.pdf, id=14, 227.62239pt x 176.19928pt>
 File: 2012_AMC_8_Problems-1.pdf Graphic file (type pdf)
 <use 2012_AMC_8_Problems-1.pdf>
-Package pdftex.def Info: 2012_AMC_8_Problems-1.pdf  used on input line 84.
+Package pdftex.def Info: 2012_AMC_8_Problems-1.pdf  used on input line 86.
 (pdftex.def)             Requested size: 227.62183pt x 176.19884pt.
 
 
 [2 <./2012_AMC_8_Problems-1.pdf>]
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 103.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 105.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 103.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 105.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 103.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 105.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 103.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 105.
 
 
 
@@ -920,14 +920,14 @@ LaTeX Warning: Command \textdollar invalid in math mode on input line 103.
 <2012_AMC_8_Problems-2.pdf, id=68, 120.95187pt x 50.1875pt>
 File: 2012_AMC_8_Problems-2.pdf Graphic file (type pdf)
 <use 2012_AMC_8_Problems-2.pdf>
-Package pdftex.def Info: 2012_AMC_8_Problems-2.pdf  used on input line 149.
+Package pdftex.def Info: 2012_AMC_8_Problems-2.pdf  used on input line 151.
 (pdftex.def)             Requested size: 120.95157pt x 50.18736pt.
 \openout4 = `2012_AMC_8_Problems-3.asy'.
 
 <2012_AMC_8_Problems-3.pdf, id=69, 227.62239pt x 212.67857pt>
 File: 2012_AMC_8_Problems-3.pdf Graphic file (type pdf)
 <use 2012_AMC_8_Problems-3.pdf>
-Package pdftex.def Info: 2012_AMC_8_Problems-3.pdf  used on input line 165.
+Package pdftex.def Info: 2012_AMC_8_Problems-3.pdf  used on input line 167.
 (pdftex.def)             Requested size: 227.62183pt x 212.67804pt.
 
 

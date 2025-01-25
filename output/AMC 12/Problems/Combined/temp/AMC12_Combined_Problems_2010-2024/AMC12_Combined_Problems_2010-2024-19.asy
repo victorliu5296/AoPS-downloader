@@ -18,19 +18,37 @@ size(8cm);
 
 import olympiad;
 import cse5;
-size(6cm);
-defaultpen(fontsize(9pt));
-draw((0,0)--(8,0)--(8,5)--(0,5)--cycle);
-filldraw((7,0)--(8,0)--(8,1)--(0,4)--(0,5)--(1,5)--cycle,gray(0.8));
-
-label("$1$",(1/2,5),dir(90));
-label("$7$",(9/2,5),dir(90));
-
-label("$1$",(8,1/2),dir(0));
-label("$4$",(8,3),dir(0));
-
-label("$1$",(15/2,0),dir(270));
-label("$7$",(7/2,0),dir(270));
-
-label("$1$",(0,9/2),dir(180));
-label("$4$",(0,2),dir(180));
+import olympiad;
+size(350);
+defaultpen(linewidth(0.7));
+// define a bunch of arrays and starting points
+pair[] coord = new pair[65];
+int[] trav = {32,16,8,4,2,1};
+coord[0] = (0,73^2); coord[64] = (2*73*70,70^2);
+// draw the big circles and the bottom line
+path arc1 = arc(coord[0],coord[0].y,260,360);
+path arc2 = arc(coord[64],coord[64].y,175,280);
+fill((coord[0].x-910,coord[0].y)--arc1--cycle,gray(0.75));
+fill((coord[64].x+870,coord[64].y+425)--arc2--cycle,gray(0.75));
+draw(arc1^^arc2);
+draw((-930,0)--(70^2+73^2+850,0));
+// We now apply the findCenter function 63 times to get
+// the location of the centers of all 63 constructed circles.
+// The complicated array setup ensures that all the circles
+// will be taken in the right order
+for(int i = 0;i<=5;i=i+1)
+{
+int skip = trav[i];
+for(int k=skip;k<=64 - skip; k = k + 2*skip)
+{
+pair cent1 = coord[k-skip], cent2 = coord[k+skip];
+real r1 = cent1.y, r2 = cent2.y, rn=r1*r2/((sqrt(r1)+sqrt(r2))^2);
+real shiftx = cent1.x + sqrt(4*r1*rn);
+coord[k] = (shiftx,rn);
+}
+// Draw the remaining 63 circles
+}
+for(int i=1;i<=63;i=i+1)
+{
+filldraw(circle(coord[i],coord[i].y),gray(0.75));
+}

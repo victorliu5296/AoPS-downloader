@@ -18,17 +18,4 @@ size(8cm);
 
 import olympiad;
 import cse5;
-size(350);
-defaultpen(linewidth(0.8)+fontsize(11));
-real theta = aTan(1.25/2);
-pair A = 2.5*dir(180+theta), B = (3.35,0), C = -A, D = -B, P = foot(A,B,D), Q = -P, R = foot(B,A,C), S = -R;
-draw(A--B--C--D--A^^B--D^^R--S^^rightanglemark(A,P,D,6)^^rightanglemark(C,Q,D,6));
-draw(B--R^^C--Q^^A--P^^D--S,linetype("4 4"));
-dot("$A$",A,dir(270));
-dot("$B$",B,E);
-dot("$C$",C,N);
-dot("$D$",D,W);
-dot("$P$",P,SE);
-dot("$Q$",Q,NE);
-dot("$R$",R,N);
-dot("$S$",S,dir(270));
+unitsize(4mm); real[] boxes = {0,1,2,3,5,6,13,14,15,17,18,21,22,24,26,27,30,31,32,33}; for(real i:boxes){ draw(box((i,0),(i+1,3))); } draw((8,1.5)--(12,1.5),Arrow()); defaultpen(fontsize(20pt)); label(",",(20,0)); label(",",(29,0)); label(",...",(35.5,0));

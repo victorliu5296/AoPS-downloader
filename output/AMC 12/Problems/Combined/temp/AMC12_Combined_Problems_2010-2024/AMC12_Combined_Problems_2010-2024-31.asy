@@ -18,19 +18,21 @@ size(8cm);
 
 import olympiad;
 import cse5;
-size(300);
-defaultpen(linewidth(0.8));
-real r = 0.35;
-path P = (0,0)--(0,1)--(1,1)--(1,0), Q = (1,1)--(1+r,1+r);
-path Pp = (0,0)--(0,-1)--(1,-1)--(1,0), Qp = (-1,-1)--(-1-r,-1-r);
-for(int i=0;i <= 4;i=i+1)
-{
-draw(shift((4*i,0)) * P);
-draw(shift((4*i,0)) * Q);
-}
-for(int i=1;i <= 4;i=i+1)
-{
-draw(shift((4*i-2,0)) * Pp);
-draw(shift((4*i-1,0)) * Qp);
-}
-draw((-1,0)--(18.5,0));
+unitsize(12);
+pair A = (0, 8/sqrt(3)), B = rotate(-120)*A, C = rotate(120)*A;
+real theta = 41.5;
+pair P1 = rotate(theta)*(2+2*sqrt(7/3), 0), P2 = rotate(-120)*P1, P3 = rotate(120)*P1;
+filldraw(P1--P2--P3--cycle, gray(0.9));
+draw(Circle(A, 4));
+draw(Circle(B, 4));
+draw(Circle(C, 4));
+dot(P1);
+dot(P2);
+dot(P3);
+defaultpen(fontsize(10pt));
+label("$P_1$", P1, E*1.5);
+label("$P_2$", P2, SW*1.5);
+label("$P_3$", P3, N);
+label("$\omega_1$", A, W*17);
+label("$\omega_2$", B, E*17);
+label("$\omega_3$", C, W*17);

@@ -18,26 +18,34 @@ size(8cm);
 
 import olympiad;
 import cse5;
-size(200);
-defaultpen(linewidth(0.4)+fontsize(12));
-pen s = linewidth(0.8)+fontsize(8);
-
-pair O,X,Y;
-O = origin;
-X = (6,0);
-Y = (0,5);
-fill((1,0)--(3,5)--(5,0)--(3,2)--cycle, palegray+opacity(0.2));
-for (int i=1; i<7; ++i)
-{
-draw((i,0)--(i,5), gray+dashed);
-label("${"+string(i)+"}$", (i,0), 2*S);
-if (i<6)
-{
-draw((0,i)--(6,i), gray+dashed);
-label("${"+string(i)+"}$", (0,i), 2*W);
+size(10cm);
+usepackage("mathptmx");
+import geometry;
+void perp(picture pic=currentpicture,
+pair O, pair M, pair B, real size=5,
+pen p=currentpen, filltype filltype = NoFill){
+perpendicularmark(pic, M,unit(unit(O-M)+unit(B-M)),size,p,filltype);
 }
-}
-label("$0$", O, 2*SW);
-draw(O--X+(0.35,0), black+1.5, EndArrow(10));
-draw(O--Y+(0,0.35), black+1.5, EndArrow(10));
-draw((1,0)--(3,5)--(5,0)--(3,2)--(1,0), black+1.5);
+pen p=black+linewidth(1),q=black+linewidth(5);
+pair C=(0,0),Y=(2,0),X=(3,0),A=(6,0),B=(2,sqrt(5.6)),D=(3,-sqrt(12.6));
+draw(A--B--C--D--cycle,p);
+draw(A--C,p);
+draw(B--Y,p);
+draw(D--X,p);
+dot(A,q);
+dot(B,q);
+dot(C,q);
+dot(D,q);
+dot(X,q);
+dot(Y,q);
+label("2",C--Y,S);
+label("1",Y--X,S);
+label("3",X--A,S);
+label("$A$",A,2*E);
+label("$B$",B,2*N);
+label("$C$",C,2*W);
+label("$D$",D,2*S);
+label("$Y$",Y,2*sqrt(2)*NE);
+label("$X$",X,2*N);
+perp(B,Y,C,8,p);
+perp(A,X,D,8,p);

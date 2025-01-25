@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 17:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 18:39
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -900,10 +900,10 @@ LaTeX Warning: No \author given.
 File: AMC8_Combined_Problems_2010-2024-1.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-1.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-1.pdf  used on input 
-line 51.
+line 52.
 (pdftex.def)             Requested size: 463.03076pt x 205.56247pt.
 
-Overfull \hbox (11.67503pt too wide) in paragraph at lines 65--69
+Overfull \hbox (11.67503pt too wide) in paragraph at lines 66--70
 []$[] []$ $[] []$ $[] []$ $[] []$ $[] []$ 
  []
 
@@ -916,7 +916,7 @@ Overfull \hbox (11.67503pt too wide) in paragraph at lines 65--69
 File: AMC8_Combined_Problems_2010-2024-2.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-2.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-2.pdf  used on input 
-line 129.
+line 130.
 (pdftex.def)             Requested size: 303.41884pt x 119.64569pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-3.asy'.
 
@@ -924,7 +924,7 @@ line 129.
 File: AMC8_Combined_Problems_2010-2024-3.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-3.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-3.pdf  used on input 
-line 147.
+line 148.
 (pdftex.def)             Requested size: 72.59602pt x 142.96577pt.
 
 
@@ -935,7 +935,7 @@ line 147.
 File: AMC8_Combined_Problems_2010-2024-4.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-4.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-4.pdf  used on input 
-line 162.
+line 163.
 (pdftex.def)             Requested size: 206.00813pt x 203.05812pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-5.asy'.
 
@@ -943,7 +943,7 @@ line 162.
 File: AMC8_Combined_Problems_2010-2024-5.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-5.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-5.pdf  used on input 
-line 181.
+line 182.
 (pdftex.def)             Requested size: 214.09734pt x 214.09734pt.
 
 
@@ -952,34 +952,34 @@ line 181.
 
 [5 <./AMC8_Combined_Problems_2010-2024-5.pdf>]
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 200.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 204.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 200.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 204.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 200.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 204.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 200.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 204.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 200.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 204.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 200.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 204.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 200.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 204.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 200.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 204.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 200.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 204.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 200.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 204.
 
 \openout4 = `AMC8_Combined_Problems_2010-2024-6.asy'.
 
@@ -987,7 +987,7 @@ LaTeX Warning: Command \textdollar invalid in math mode on input line 200.
 File: AMC8_Combined_Problems_2010-2024-6.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-6.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-6.pdf  used on input 
-line 225.
+line 229.
 (pdftex.def)             Requested size: 227.61983pt x 227.61983pt.
 
 
@@ -998,7 +998,7 @@ line 225.
 File: AMC8_Combined_Problems_2010-2024-7.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-7.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-7.pdf  used on input 
-line 260.
+line 264.
 (pdftex.def)             Requested size: 201.06067pt x 201.06067pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-8.asy'.
 
@@ -1006,16 +1006,16 @@ line 260.
 File: AMC8_Combined_Problems_2010-2024-8.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-8.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-8.pdf  used on input 
-line 275.
+line 279.
 (pdftex.def)             Requested size: 249.78357pt x 244.51892pt.
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
-79.
+83.
 
 (C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 279.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 283.
 
 
 [7 <./AMC8_Combined_Problems_2010-2024-7.pdf> <./AMC8_Combined_Problems_2010-20
@@ -1026,7 +1026,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 File: AMC8_Combined_Problems_2010-2024-9.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-9.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-9.pdf  used on input 
-line 325.
+line 329.
 (pdftex.def)             Requested size: 301.12425pt x 182.48933pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-10.asy'.
 
@@ -1034,7 +1034,7 @@ line 325.
 File: AMC8_Combined_Problems_2010-2024-10.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-10.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-10.pdf  used on input
- line 347.
+ line 351.
 (pdftex.def)             Requested size: 227.62183pt x 158.29498pt.
 
 
@@ -1046,7 +1046,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-10.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-11.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-11.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-11.pdf  used on input
- line 384.
+ line 388.
 (pdftex.def)             Requested size: 170.83781pt x 227.61983pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-12.asy'.
 
@@ -1054,7 +1054,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-11.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-12.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-12.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-12.pdf  used on input
- line 417.
+ line 421.
 (pdftex.def)             Requested size: 227.62183pt x 124.20872pt.
 
 
@@ -1066,7 +1066,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-12.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-13.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-13.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-13.pdf  used on input
- line 439.
+ line 443.
 (pdftex.def)             Requested size: 227.61983pt x 227.61983pt.
 
 
@@ -1077,22 +1077,22 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-13.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-14.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-14.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-14.pdf  used on input
- line 497.
+ line 504.
 (pdftex.def)             Requested size: 227.62183pt x 176.19884pt.
 
 
 [11 <./AMC8_Combined_Problems_2010-2024-14.pdf>]
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 516.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 523.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 516.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 523.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 516.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 523.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 516.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 523.
 
 
 
@@ -1103,7 +1103,7 @@ LaTeX Warning: Command \textdollar invalid in math mode on input line 516.
 File: AMC8_Combined_Problems_2010-2024-15.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-15.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-15.pdf  used on input
- line 562.
+ line 569.
 (pdftex.def)             Requested size: 120.95157pt x 50.18736pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-16.asy'.
 
@@ -1111,13 +1111,13 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-15.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-16.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-16.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-16.pdf  used on input
- line 578.
+ line 585.
 (pdftex.def)             Requested size: 227.62183pt x 212.67804pt.
 
 
 [13 <./AMC8_Combined_Problems_2010-2024-15.pdf> <./AMC8_Combined_Problems_2010-
 2024-16.pdf>]
-Overfull \hbox (19.20294pt too wide) in paragraph at lines 594--594
+Overfull \hbox (19.20294pt too wide) in paragraph at lines 604--604
 []$[] [] [] [] [] [] [] [] [] []$ 
  []
 
@@ -1127,7 +1127,7 @@ Overfull \hbox (19.20294pt too wide) in paragraph at lines 594--594
 File: AMC8_Combined_Problems_2010-2024-17.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-17.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-17.pdf  used on input
- line 612.
+ line 622.
 (pdftex.def)             Requested size: 137.07477pt x 137.07477pt.
 
 
@@ -1138,7 +1138,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-17.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-18.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-18.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-18.pdf  used on input
- line 699.
+ line 709.
 (pdftex.def)             Requested size: 216.80946pt x 188.93538pt.
 
 
@@ -1149,7 +1149,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-18.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-19.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-19.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-19.pdf  used on input
- line 736.
+ line 746.
 (pdftex.def)             Requested size: 227.61983pt x 166.24065pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-20.asy'.
 
@@ -1157,7 +1157,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-19.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-20.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-20.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-20.pdf  used on input
- line 763.
+ line 773.
 (pdftex.def)             Requested size: 227.62183pt x 225.81508pt.
 
 
@@ -1169,7 +1169,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-20.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-21.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-21.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-21.pdf  used on input
- line 806.
+ line 816.
 (pdftex.def)             Requested size: 227.17114pt x 227.62183pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-22.asy'.
 
@@ -1177,17 +1177,17 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-21.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-22.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-22.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-22.pdf  used on input
- line 835.
+ line 845.
 (pdftex.def)             Requested size: 227.62183pt x 67.55922pt.
 
 
 [17 <./AMC8_Combined_Problems_2010-2024-21.pdf> <./AMC8_Combined_Problems_2010-
 2024-22.pdf>]
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 859.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 872.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 859.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 872.
 
 \openout4 = `AMC8_Combined_Problems_2010-2024-23.asy'.
 
@@ -1195,7 +1195,7 @@ LaTeX Warning: Command \textdollar invalid in math mode on input line 859.
 File: AMC8_Combined_Problems_2010-2024-23.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-23.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-23.pdf  used on input
- line 878.
+ line 891.
 (pdftex.def)             Requested size: 301.12425pt x 114.11906pt.
 
 
@@ -1206,7 +1206,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-23.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-24.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-24.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-24.pdf  used on input
- line 909.
+ line 922.
 (pdftex.def)             Requested size: 250.93687pt x 91.10312pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-25.asy'.
 
@@ -1214,7 +1214,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-24.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-25.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-25.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-25.pdf  used on input
- line 936.
+ line 949.
 (pdftex.def)             Requested size: 230.86192pt x 227.00252pt.
 
 
@@ -1226,7 +1226,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-25.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-26.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-26.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-26.pdf  used on input
- line 965.
+ line 978.
 (pdftex.def)             Requested size: 227.62183pt x 159.48543pt.
 
 
@@ -1237,7 +1237,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-26.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-27.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-27.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-27.pdf  used on input
- line 1001.
+ line 1014.
 (pdftex.def)             Requested size: 284.52225pt x 81.65485pt.
 
 
@@ -1248,7 +1248,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-27.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-28.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-28.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-28.pdf  used on input
- line 1043.
+ line 1059.
 (pdftex.def)             Requested size: 227.62183pt x 223.27661pt.
 
 
@@ -1259,7 +1259,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-28.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-29.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-29.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-29.pdf  used on input
- line 1083.
+ line 1099.
 (pdftex.def)             Requested size: 190.4912pt x 222.07913pt.
 
 
@@ -1270,7 +1270,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-29.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-30.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-30.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-30.pdf  used on input
- line 1117.
+ line 1133.
 (pdftex.def)             Requested size: 109.54297pt x 109.54297pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-31.asy'.
 
@@ -1278,7 +1278,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-30.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-31.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-31.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-31.pdf  used on input
- line 1144.
+ line 1160.
 (pdftex.def)             Requested size: 227.62183pt x 196.82385pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-32.asy'.
 
@@ -1286,7 +1286,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-31.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-32.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-32.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-32.pdf  used on input
- line 1175.
+ line 1191.
 (pdftex.def)             Requested size: 220.59659pt x 227.62183pt.
 
 
@@ -1298,7 +1298,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-32.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-33.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-33.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-33.pdf  used on input
- line 1203.
+ line 1219.
 (pdftex.def)             Requested size: 227.61983pt x 227.61983pt.
 
 
@@ -1311,7 +1311,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-33.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-34.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-34.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-34.pdf  used on input
- line 1226.
+ line 1245.
 (pdftex.def)             Requested size: 183.21002pt x 227.62183pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-35.asy'.
 
@@ -1319,7 +1319,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-34.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-35.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-35.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-35.pdf  used on input
- line 1290.
+ line 1309.
 (pdftex.def)             Requested size: 295.77429pt x 244.13548pt.
 
 
@@ -1332,7 +1332,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-35.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-36.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-36.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-36.pdf  used on input
- line 1396.
+ line 1415.
 (pdftex.def)             Requested size: 162.46555pt x 227.62183pt.
 
 
@@ -1343,7 +1343,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-36.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-37.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-37.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-37.pdf  used on input
- line 1426.
+ line 1445.
 (pdftex.def)             Requested size: 227.61983pt x 213.42683pt.
 
 
@@ -1357,7 +1357,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-37.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-38.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-38.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-38.pdf  used on input
- line 1458.
+ line 1480.
 (pdftex.def)             Requested size: 227.6148pt x 227.62183pt.
 
 
@@ -1368,7 +1368,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-38.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-39.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-39.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-39.pdf  used on input
- line 1564.
+ line 1586.
 (pdftex.def)             Requested size: 209.62163pt x 227.62183pt.
 
 
@@ -1379,7 +1379,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-39.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-40.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-40.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-40.pdf  used on input
- line 1584.
+ line 1606.
 (pdftex.def)             Requested size: 227.62183pt x 176.44977pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-41.asy'.
 
@@ -1387,7 +1387,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-40.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-41.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-41.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-41.pdf  used on input
- line 1607.
+ line 1629.
 (pdftex.def)             Requested size: 227.62183pt x 109.06216pt.
 
 
@@ -1399,10 +1399,10 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-41.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-42.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-42.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-42.pdf  used on input
- line 1643.
+ line 1665.
 (pdftex.def)             Requested size: 227.62183pt x 108.14978pt.
-LaTeX Font Info:    Calculating math sizes for size <5.99998> on input line 166
-0.
+LaTeX Font Info:    Calculating math sizes for size <5.99998> on input line 168
+2.
 
 
 [35 <./AMC8_Combined_Problems_2010-2024-41.pdf> <./AMC8_Combined_Problems_2010-
@@ -1413,7 +1413,7 @@ LaTeX Font Info:    Calculating math sizes for size <5.99998> on input line 166
 File: AMC8_Combined_Problems_2010-2024-43.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-43.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-43.pdf  used on input
- line 1668.
+ line 1690.
 (pdftex.def)             Requested size: 142.71684pt x 227.62183pt.
 
 
@@ -1424,7 +1424,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-43.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-44.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-44.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-44.pdf  used on input
- line 1699.
+ line 1724.
 (pdftex.def)             Requested size: 159.83675pt x 159.83675pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-45.asy'.
 
@@ -1432,7 +1432,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-44.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-45.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-45.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-45.pdf  used on input
- line 1739.
+ line 1764.
 (pdftex.def)             Requested size: 227.62183pt x 155.85991pt.
 
 
@@ -1443,7 +1443,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-45.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-46.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-46.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-46.pdf  used on input
- line 1776.
+ line 1801.
 (pdftex.def)             Requested size: 113.81493pt x 113.81493pt.
 
 
@@ -1454,7 +1454,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-46.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-47.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-47.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-47.pdf  used on input
- line 1805.
+ line 1830.
 (pdftex.def)             Requested size: 228.1237pt x 91.5508pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-48.asy'.
 
@@ -1462,7 +1462,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-47.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-48.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-48.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-48.pdf  used on input
- line 1826.
+ line 1851.
 (pdftex.def)             Requested size: 199.1686pt x 182.4542pt.
 
 
@@ -1474,7 +1474,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-48.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-49.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-49.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-49.pdf  used on input
- line 1848.
+ line 1873.
 (pdftex.def)             Requested size: 142.26312pt x 140.10709pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-50.asy'.
 
@@ -1482,7 +1482,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-49.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-50.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-50.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-50.pdf  used on input
- line 1866.
+ line 1891.
 (pdftex.def)             Requested size: 85.35869pt x 85.35869pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-51.asy'.
 
@@ -1490,7 +1490,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-50.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-51.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-51.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-51.pdf  used on input
- line 1903.
+ line 1928.
 (pdftex.def)             Requested size: 153.92569pt x 170.71637pt.
 
 
@@ -1502,7 +1502,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-51.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-52.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-52.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-52.pdf  used on input
- line 1934.
+ line 1962.
 (pdftex.def)             Requested size: 227.62183pt x 170.55074pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-53.asy'.
 
@@ -1510,7 +1510,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-52.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-53.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-53.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-53.pdf  used on input
- line 1959.
+ line 1987.
 (pdftex.def)             Requested size: 227.62183pt x 103.58673pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-54.asy'.
 
@@ -1518,7 +1518,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-53.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-54.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-54.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-54.pdf  used on input
- line 2064.
+ line 2092.
 (pdftex.def)             Requested size: 227.62183pt x 227.62183pt.
 
 
@@ -1530,7 +1530,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-54.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-55.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-55.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-55.pdf  used on input
- line 2098.
+ line 2126.
 (pdftex.def)             Requested size: 215.57787pt x 167.09082pt.
 
 
@@ -1542,7 +1542,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-55.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-56.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-56.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-56.pdf  used on input
- line 2146.
+ line 2174.
 (pdftex.def)             Requested size: 318.95584pt x 90.81908pt.
 
 
@@ -1553,12 +1553,12 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-56.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-57.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-57.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-57.pdf  used on input
- line 2215.
+ line 2243.
 (pdftex.def)             Requested size: 197.62482pt x 123.36357pt.
 
 
 [44 <./AMC8_Combined_Problems_2010-2024-57.pdf>]
-Overfull \hbox (107.18446pt too wide) in paragraph at lines 2229--2230
+Overfull \hbox (107.18446pt too wide) in paragraph at lines 2260--2261
 \OT1/cmr/m/n/10 ber-ries per plant. How many straw-ber-ries can she ex-pect to 
 har-vest? $[]560 []960 []1120 []1920 []3840$ 
  []
@@ -1569,7 +1569,7 @@ har-vest? $[]560 []960 []1120 []1920 []3840$
 File: AMC8_Combined_Problems_2010-2024-58.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-58.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-58.pdf  used on input
- line 2259.
+ line 2290.
 (pdftex.def)             Requested size: 250.93687pt x 93.92064pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-59.asy'.
 
@@ -1577,7 +1577,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-58.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-59.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-59.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-59.pdf  used on input
- line 2328.
+ line 2359.
 (pdftex.def)             Requested size: 214.4105pt x 227.61983pt.
 
 
@@ -1588,7 +1588,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-59.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-60.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-60.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-60.pdf  used on input
- line 2373.
+ line 2404.
 (pdftex.def)             Requested size: 255.66653pt x 253.65804pt.
 
 
@@ -1600,7 +1600,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-60.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-61.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-61.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-61.pdf  used on input
- line 2429.
+ line 2460.
 (pdftex.def)             Requested size: 301.12425pt x 217.02525pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-62.asy'.
 
@@ -1608,7 +1608,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-61.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-62.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-62.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-62.pdf  used on input
- line 2484.
+ line 2515.
 (pdftex.def)             Requested size: 200.7495pt x 122.56358pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-63.asy'.
 
@@ -1616,7 +1616,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-62.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-63.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-63.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-63.pdf  used on input
- line 2511.
+ line 2542.
 (pdftex.def)             Requested size: 227.62183pt x 123.41478pt.
 
 
@@ -1628,7 +1628,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-63.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-64.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-64.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-64.pdf  used on input
- line 2561.
+ line 2592.
 (pdftex.def)             Requested size: 200.7495pt x 200.7495pt.
 
 
@@ -1640,7 +1640,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-64.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-65.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-65.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-65.pdf  used on input
- line 2590.
+ line 2621.
 (pdftex.def)             Requested size: 301.12425pt x 113.61719pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-66.asy'.
 
@@ -1648,7 +1648,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-65.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-66.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-66.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-66.pdf  used on input
- line 2626.
+ line 2657.
 (pdftex.def)             Requested size: 227.61983pt x 227.61983pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-67.asy'.
 
@@ -1656,7 +1656,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-66.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-67.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-67.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-67.pdf  used on input
- line 2646.
+ line 2677.
 (pdftex.def)             Requested size: 227.62183pt x 136.77364pt.
 
 
@@ -1670,7 +1670,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-67.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-68.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-68.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-68.pdf  used on input
- line 2681.
+ line 2715.
 (pdftex.def)             Requested size: 142.26312pt x 142.26312pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-69.asy'.
 
@@ -1678,7 +1678,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-68.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-69.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-69.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-69.pdf  used on input
- line 2708.
+ line 2742.
 (pdftex.def)             Requested size: 85.35768pt x 85.35768pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-70.asy'.
 
@@ -1686,7 +1686,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-69.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-70.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-70.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-70.pdf  used on input
- line 2735.
+ line 2769.
 (pdftex.def)             Requested size: 355.65886pt x 194.60255pt.
 
 
@@ -1698,7 +1698,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-70.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-71.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-71.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-71.pdf  used on input
- line 2805.
+ line 2839.
 (pdftex.def)             Requested size: 231.16806pt x 228.32645pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-72.asy'.
 
@@ -1706,7 +1706,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-71.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-72.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-72.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-72.pdf  used on input
- line 2836.
+ line 2870.
 (pdftex.def)             Requested size: 170.71637pt x 87.99452pt.
 
 
@@ -1717,7 +1717,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-72.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-73.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-73.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-73.pdf  used on input
- line 2907.
+ line 2941.
 (pdftex.def)             Requested size: 156.30255pt x 156.49025pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-74.asy'.
 
@@ -1725,7 +1725,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-73.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-74.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-74.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-74.pdf  used on input
- line 2961.
+ line 2995.
 (pdftex.def)             Requested size: 142.26312pt x 61.69131pt.
 
 
@@ -1737,7 +1737,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-74.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-75.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-75.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-75.pdf  used on input
- line 2990.
+ line 3024.
 (pdftex.def)             Requested size: 85.85956pt x 85.85956pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-76.asy'.
 
@@ -1745,7 +1745,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-75.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-76.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-76.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-76.pdf  used on input
- line 3020.
+ line 3054.
 (pdftex.def)             Requested size: 199.1686pt x 87.41837pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-77.asy'.
 
@@ -1753,7 +1753,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-76.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-77.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-77.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-77.pdf  used on input
- line 3050.
+ line 3084.
 (pdftex.def)             Requested size: 93.89053pt x 93.89053pt.
 
 
@@ -1766,7 +1766,7 @@ ems_2010-2024-77.pdf>]
 File: AMC8_Combined_Problems_2010-2024-78.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-78.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-78.pdf  used on input
- line 3082.
+ line 3116.
 (pdftex.def)             Requested size: 276.03056pt x 208.80356pt.
 
 
@@ -1777,7 +1777,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-78.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-79.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-79.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-79.pdf  used on input
- line 3154.
+ line 3191.
 (pdftex.def)             Requested size: 340.7723pt x 85.35869pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-80.asy'.
 
@@ -1785,7 +1785,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-79.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-80.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-80.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-80.pdf  used on input
- line 3188.
+ line 3225.
 (pdftex.def)             Requested size: 365.78165pt x 213.39471pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-81.asy'.
 
@@ -1793,7 +1793,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-80.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-81.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-81.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-81.pdf  used on input
- line 3243.
+ line 3280.
 (pdftex.def)             Requested size: 175.6558pt x 175.6558pt.
 
 
@@ -1805,7 +1805,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-81.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-82.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-82.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-82.pdf  used on input
- line 3285.
+ line 3322.
 (pdftex.def)             Requested size: 142.26312pt x 45.25194pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-83.asy'.
 
@@ -1813,7 +1813,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-82.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-83.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-83.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-83.pdf  used on input
- line 3399.
+ line 3436.
 (pdftex.def)             Requested size: 256.07405pt x 168.51114pt.
 
 
@@ -1825,7 +1825,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-83.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-84.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-84.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-84.pdf  used on input
- line 3453.
+ line 3490.
 (pdftex.def)             Requested size: 227.62183pt x 227.62183pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-85.asy'.
 
@@ -1833,7 +1833,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-84.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-85.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-85.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-85.pdf  used on input
- line 3483.
+ line 3520.
 (pdftex.def)             Requested size: 170.71738pt x 170.71738pt.
 
 
@@ -1845,7 +1845,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-85.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-86.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-86.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-86.pdf  used on input
- line 3520.
+ line 3557.
 (pdftex.def)             Requested size: 284.52728pt x 71.18275pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-87.asy'.
 
@@ -1853,7 +1853,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-86.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-87.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-87.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-87.pdf  used on input
- line 3557.
+ line 3594.
 (pdftex.def)             Requested size: 370.13591pt x 56.08337pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-88.asy'.
 
@@ -1861,7 +1861,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-87.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-88.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-88.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-88.pdf  used on input
- line 3624.
+ line 3661.
 (pdftex.def)             Requested size: 142.07744pt x 142.26312pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-89.asy'.
 
@@ -1869,7 +1869,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-88.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-89.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-89.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-89.pdf  used on input
- line 3684.
+ line 3721.
 (pdftex.def)             Requested size: 426.79044pt x 154.40749pt.
 
 
@@ -1881,7 +1881,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-89.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-90.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-90.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-90.pdf  used on input
- line 3714.
+ line 3751.
 (pdftex.def)             Requested size: 227.61983pt x 197.52745pt.
 
 
@@ -1893,7 +1893,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-90.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-91.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-91.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-91.pdf  used on input
- line 3743.
+ line 3780.
 (pdftex.def)             Requested size: 161.14162pt x 58.35786pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-92.asy'.
 
@@ -1901,7 +1901,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-91.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-92.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-92.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-92.pdf  used on input
- line 3763.
+ line 3800.
 (pdftex.def)             Requested size: 56.90244pt x 56.90244pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-93.asy'.
 
@@ -1909,7 +1909,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-92.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-93.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-93.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-93.pdf  used on input
- line 3814.
+ line 3851.
 (pdftex.def)             Requested size: 341.43176pt x 156.91884pt.
 
 
@@ -1921,7 +1921,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-93.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-94.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-94.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-94.pdf  used on input
- line 3870.
+ line 3910.
 (pdftex.def)             Requested size: 150.56212pt x 149.26729pt.
 
 
@@ -1932,7 +1932,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-94.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-95.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-95.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-95.pdf  used on input
- line 3911.
+ line 3951.
 (pdftex.def)             Requested size: 284.52728pt x 116.59833pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-96.asy'.
 
@@ -1940,7 +1940,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-95.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-96.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-96.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-96.pdf  used on input
- line 4017.
+ line 4057.
 (pdftex.def)             Requested size: 181.5177pt x 84.99731pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-97.asy'.
 
@@ -1948,7 +1948,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-96.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-97.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-97.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-97.pdf  used on input
- line 4056.
+ line 4096.
 (pdftex.def)             Requested size: 370.38684pt x 119.84845pt.
 
 
@@ -1960,7 +1960,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-97.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-98.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-98.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-98.pdf  used on input
- line 4092.
+ line 4132.
 (pdftex.def)             Requested size: 87.5017pt x 87.5017pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-99.asy'.
 
@@ -1968,7 +1968,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-98.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-99.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-99.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-99.pdf  used on input
- line 4120.
+ line 4160.
 (pdftex.def)             Requested size: 94.27898pt x 100.37474pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-100.asy'.
 
@@ -1976,7 +1976,7 @@ Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-99.pdf  used on input
 File: AMC8_Combined_Problems_2010-2024-100.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-100.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-100.pdf  used on inpu
-t line 4156.
+t line 4196.
 (pdftex.def)             Requested size: 190.66685pt x 186.16605pt.
 
 
@@ -1988,7 +1988,7 @@ t line 4156.
 File: AMC8_Combined_Problems_2010-2024-101.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-101.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-101.pdf  used on inpu
-t line 4189.
+t line 4229.
 (pdftex.def)             Requested size: 122.76535pt x 150.56212pt.
 \openout4 = `AMC8_Combined_Problems_2010-2024-102.asy'.
 
@@ -1996,7 +1996,7 @@ t line 4189.
 File: AMC8_Combined_Problems_2010-2024-102.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-102.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-102.pdf  used on inpu
-t line 4232.
+t line 4272.
 (pdftex.def)             Requested size: 227.62183pt x 227.62183pt.
 
 
@@ -2008,7 +2008,7 @@ t line 4232.
 File: AMC8_Combined_Problems_2010-2024-103.pdf Graphic file (type pdf)
 <use AMC8_Combined_Problems_2010-2024-103.pdf>
 Package pdftex.def Info: AMC8_Combined_Problems_2010-2024-103.pdf  used on inpu
-t line 4261.
+t line 4301.
 (pdftex.def)             Requested size: 300.99478pt x 103.43315pt.
 
 
@@ -2064,7 +2064,7 @@ Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/DefaultUser/AppData/
 Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/DefaultUser/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/Default
 User/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb>
-Output written on AMC8_Combined_Problems_2010-2024.pdf (66 pages, 940377 bytes)
+Output written on AMC8_Combined_Problems_2010-2024.pdf (66 pages, 940378 bytes)
 .
 PDF statistics:
  1857 PDF objects out of 2073 (max. 8388607)

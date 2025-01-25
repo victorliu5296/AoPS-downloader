@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 17:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 18:39
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -891,15 +891,15 @@ LaTeX Warning: No \author given.
 
 ]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
-4.
+6.
 
 (C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
 
-Overfull \hbox (19.20294pt too wide) in paragraph at lines 42--42
+Overfull \hbox (19.20294pt too wide) in paragraph at lines 44--44
 []$[] [] [] [] [] [] [] [] [] []$ 
  []
 
@@ -908,7 +908,7 @@ Overfull \hbox (19.20294pt too wide) in paragraph at lines 42--42
 <2013_AMC_8_Problems-1.pdf, id=14, 137.07512pt x 137.07512pt>
 File: 2013_AMC_8_Problems-1.pdf Graphic file (type pdf)
 <use 2013_AMC_8_Problems-1.pdf>
-Package pdftex.def Info: 2013_AMC_8_Problems-1.pdf  used on input line 60.
+Package pdftex.def Info: 2013_AMC_8_Problems-1.pdf  used on input line 62.
 (pdftex.def)             Requested size: 137.07477pt x 137.07477pt.
 
 
@@ -918,7 +918,7 @@ Package pdftex.def Info: 2013_AMC_8_Problems-1.pdf  used on input line 60.
 <2013_AMC_8_Problems-2.pdf, id=44, 216.81pt x 188.93585pt>
 File: 2013_AMC_8_Problems-2.pdf Graphic file (type pdf)
 <use 2013_AMC_8_Problems-2.pdf>
-Package pdftex.def Info: 2013_AMC_8_Problems-2.pdf  used on input line 147.
+Package pdftex.def Info: 2013_AMC_8_Problems-2.pdf  used on input line 149.
 (pdftex.def)             Requested size: 216.80946pt x 188.93538pt.
 
 
@@ -928,14 +928,14 @@ Package pdftex.def Info: 2013_AMC_8_Problems-2.pdf  used on input line 147.
 <2013_AMC_8_Problems-3.pdf, id=62, 227.62039pt x 166.24107pt>
 File: 2013_AMC_8_Problems-3.pdf Graphic file (type pdf)
 <use 2013_AMC_8_Problems-3.pdf>
-Package pdftex.def Info: 2013_AMC_8_Problems-3.pdf  used on input line 184.
+Package pdftex.def Info: 2013_AMC_8_Problems-3.pdf  used on input line 186.
 (pdftex.def)             Requested size: 227.61983pt x 166.24065pt.
 \openout4 = `2013_AMC_8_Problems-4.asy'.
 
 <2013_AMC_8_Problems-4.pdf, id=63, 227.62239pt x 225.81564pt>
 File: 2013_AMC_8_Problems-4.pdf Graphic file (type pdf)
 <use 2013_AMC_8_Problems-4.pdf>
-Package pdftex.def Info: 2013_AMC_8_Problems-4.pdf  used on input line 211.
+Package pdftex.def Info: 2013_AMC_8_Problems-4.pdf  used on input line 213.
 (pdftex.def)             Requested size: 227.62183pt x 225.81508pt.
 
 
@@ -945,14 +945,14 @@ Package pdftex.def Info: 2013_AMC_8_Problems-4.pdf  used on input line 211.
 <2013_AMC_8_Problems-5.pdf, id=84, 227.1717pt x 227.62239pt>
 File: 2013_AMC_8_Problems-5.pdf Graphic file (type pdf)
 <use 2013_AMC_8_Problems-5.pdf>
-Package pdftex.def Info: 2013_AMC_8_Problems-5.pdf  used on input line 254.
+Package pdftex.def Info: 2013_AMC_8_Problems-5.pdf  used on input line 256.
 (pdftex.def)             Requested size: 227.17114pt x 227.62183pt.
 \openout4 = `2013_AMC_8_Problems-6.asy'.
 
 <2013_AMC_8_Problems-6.pdf, id=85, 227.62239pt x 67.5594pt>
 File: 2013_AMC_8_Problems-6.pdf Graphic file (type pdf)
 <use 2013_AMC_8_Problems-6.pdf>
-Package pdftex.def Info: 2013_AMC_8_Problems-6.pdf  used on input line 283.
+Package pdftex.def Info: 2013_AMC_8_Problems-6.pdf  used on input line 285.
 (pdftex.def)             Requested size: 227.62183pt x 67.55922pt.
 
 

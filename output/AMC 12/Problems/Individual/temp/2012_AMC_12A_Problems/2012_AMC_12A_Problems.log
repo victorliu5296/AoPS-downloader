@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 02:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 18:33
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -897,7 +897,7 @@ LaTeX Warning: No \author given.
 <2012_AMC_12A_Problems-1.pdf, id=34, 170.7168pt x 159.20981pt>
 File: 2012_AMC_12A_Problems-1.pdf Graphic file (type pdf)
 <use 2012_AMC_12A_Problems-1.pdf>
-Package pdftex.def Info: 2012_AMC_12A_Problems-1.pdf  used on input line 105.
+Package pdftex.def Info: 2012_AMC_12A_Problems-1.pdf  used on input line 107.
 (pdftex.def)             Requested size: 170.71637pt x 159.20941pt.
 
 
@@ -914,7 +914,7 @@ Package rerunfilecheck Info: File `2012_AMC_12A_Problems.out' has not changed.
 Here is how much of TeX's memory you used:
  25351 strings out of 473536
  476436 string characters out of 5712052
- 898267 words of memory out of 5000000
+ 898268 words of memory out of 5000000
  48148 multiletter control sequences out of 15000+600000
  567012 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

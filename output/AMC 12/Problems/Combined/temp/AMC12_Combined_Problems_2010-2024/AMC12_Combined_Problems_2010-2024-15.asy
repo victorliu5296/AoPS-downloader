@@ -18,7 +18,11 @@ size(8cm);
 
 import olympiad;
 import cse5;
-pair A=(0,0), B=(-3,0), C=(-3,-4), D=(48/5,-36/5);
-draw(A--B--C--D--A);
-label("$A$",A,N); label("$B$",B,NW); label("$C$",C,SW); label("$D$",D,E);
-draw(rightanglemark(A,B,C,25));
+fill((0,0)--(2,0)--(2,26)--(0,26)--cycle,gray);
+fill((6,0)--(8,0)--(8,26)--(6,26)--cycle,gray);
+fill((12,0)--(14,0)--(14,26)--(12,26)--cycle,gray);
+fill((18,0)--(20,0)--(20,26)--(18,26)--cycle,gray);
+fill((24,0)--(26,0)--(26,26)--(24,26)--cycle,gray);
+fill((0,0)--(26,0)--(26,2)--(0,2)--cycle,gray);
+fill((0,12)--(26,12)--(26,14)--(0,14)--cycle,gray);
+fill((0,24)--(26,24)--(26,26)--(0,26)--cycle,gray);

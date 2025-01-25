@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 17:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 18:39
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -895,14 +895,14 @@ LaTeX Warning: No \author given.
 <2016_AMC_8_Problems-1.pdf, id=14, 183.21048pt x 227.62239pt>
 File: 2016_AMC_8_Problems-1.pdf Graphic file (type pdf)
 <use 2016_AMC_8_Problems-1.pdf>
-Package pdftex.def Info: 2016_AMC_8_Problems-1.pdf  used on input line 49.
+Package pdftex.def Info: 2016_AMC_8_Problems-1.pdf  used on input line 51.
 (pdftex.def)             Requested size: 183.21002pt x 227.62183pt.
 \openout4 = `2016_AMC_8_Problems-2.asy'.
 
 <2016_AMC_8_Problems-2.pdf, id=15, 295.77502pt x 244.1361pt>
 File: 2016_AMC_8_Problems-2.pdf Graphic file (type pdf)
 <use 2016_AMC_8_Problems-2.pdf>
-Package pdftex.def Info: 2016_AMC_8_Problems-2.pdf  used on input line 113.
+Package pdftex.def Info: 2016_AMC_8_Problems-2.pdf  used on input line 115.
 (pdftex.def)             Requested size: 295.77429pt x 244.13548pt.
 
 
@@ -914,7 +914,7 @@ Package pdftex.def Info: 2016_AMC_8_Problems-2.pdf  used on input line 113.
 <2016_AMC_8_Problems-3.pdf, id=65, 162.46596pt x 227.62239pt>
 File: 2016_AMC_8_Problems-3.pdf Graphic file (type pdf)
 <use 2016_AMC_8_Problems-3.pdf>
-Package pdftex.def Info: 2016_AMC_8_Problems-3.pdf  used on input line 219.
+Package pdftex.def Info: 2016_AMC_8_Problems-3.pdf  used on input line 221.
 (pdftex.def)             Requested size: 162.46555pt x 227.62183pt.
 
 
@@ -924,7 +924,7 @@ Package pdftex.def Info: 2016_AMC_8_Problems-3.pdf  used on input line 219.
 <2016_AMC_8_Problems-4.pdf, id=80, 227.62039pt x 213.42737pt>
 File: 2016_AMC_8_Problems-4.pdf Graphic file (type pdf)
 <use 2016_AMC_8_Problems-4.pdf>
-Package pdftex.def Info: 2016_AMC_8_Problems-4.pdf  used on input line 249.
+Package pdftex.def Info: 2016_AMC_8_Problems-4.pdf  used on input line 251.
 (pdftex.def)             Requested size: 227.61983pt x 213.42683pt.
 
 
@@ -939,10 +939,10 @@ Package rerunfilecheck Info: File `2016_AMC_8_Problems.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25373 strings out of 473536
- 477084 string characters out of 5712052
+ 25381 strings out of 473536
+ 477332 string characters out of 5712052
  894241 words of memory out of 5000000
- 48166 multiletter control sequences out of 15000+600000
+ 48174 multiletter control sequences out of 15000+600000
  567012 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,12n,107p,435b,668s stack positions out of 10000i,1000n,20000p,200000b,200000s

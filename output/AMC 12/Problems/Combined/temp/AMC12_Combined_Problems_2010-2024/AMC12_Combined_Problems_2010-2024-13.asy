@@ -18,19 +18,42 @@ size(8cm);
 
 import olympiad;
 import cse5;
-import graph3;
-import solids;
-real h=2+2*sqrt(7);
-currentprojection=orthographic((0.75,-5,h/2+1),target=(2,2,h/2));
-currentlight=light(4,-4,4);
-draw((0,0,0)--(4,0,0)--(4,4,0)--(0,4,0)--(0,0,0)^^(4,0,0)--(4,0,h)--(4,4,h)--(0,4,h)--(0,4,0));
-draw(shift((1,3,1))*unitsphere,gray(0.85));
-draw(shift((3,3,1))*unitsphere,gray(0.85));
-draw(shift((3,1,1))*unitsphere,gray(0.85));
-draw(shift((1,1,1))*unitsphere,gray(0.85));
-draw(shift((2,2,h/2))*scale(2,2,2)*unitsphere,gray(0.85));
-draw(shift((1,3,h-1))*unitsphere,gray(0.85));
-draw(shift((3,3,h-1))*unitsphere,gray(0.85));
-draw(shift((3,1,h-1))*unitsphere,gray(0.85));
-draw(shift((1,1,h-1))*unitsphere,gray(0.85));
-draw((0,0,0)--(0,0,h)--(4,0,h)^^(0,0,h)--(0,4,h));
+unitsize(10mm);
+defaultpen(linewidth(1.2pt)+fontsize(10pt));
+dotfactor=4;
+pair A=(1,0), B=(4.24,0), C=(5.24,3.08), D=(2.62,4.98), E=(0,3.08);
+dot (A);
+dot (B);
+dot (C);
+dot (D);
+dot (E);
+label("$A$",A,S);
+label("$B$",B,SE);
+label("$C$",C,E);
+label("$D$",D,N);
+label("$E$",E,W);
+guide squiggly(path g, real stepsize, real slope=45)
+{
+real len = arclength(g);
+real step = len / round(len / stepsize);
+guide squig;
+for (real u = 0; u < len; u += step){
+real a = arctime(g, u);
+real b = arctime(g, u + step / 2);
+pair p = point(g, a);
+pair q = point(g, b);
+pair np = unit( rotate(slope) * dir(g,a));
+pair nq = unit( rotate(0 - slope) * dir(g,b));
+squig = squig .. p{np} .. q{nq};
+}
+squig = squig .. point(g, length(g)){unit(rotate(slope)*dir(g,length(g)))};
+return squig;
+}
+pen pp = defaultpen + 2.718;
+draw(squiggly(A--B, 4.04, 30), pp);
+draw(squiggly(A--D, 7.777, 20), pp);
+draw(squiggly(A--E, 5.050, 15), pp);
+draw(squiggly(B--C, 5.050, 15), pp);
+draw(squiggly(B--D, 4.04, 20), pp);
+draw(squiggly(C--D, 2.718, 20), pp);
+draw(squiggly(D--E, 2.718, -60), pp);

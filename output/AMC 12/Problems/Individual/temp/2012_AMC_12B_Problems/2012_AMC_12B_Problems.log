@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 02:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 18:33
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -895,40 +895,40 @@ LaTeX Warning: No \author given.
 <2012_AMC_12B_Problems-1.pdf, id=14, 227.62039pt x 114.06615pt>
 File: 2012_AMC_12B_Problems-1.pdf Graphic file (type pdf)
 <use 2012_AMC_12B_Problems-1.pdf>
-Package pdftex.def Info: 2012_AMC_12B_Problems-1.pdf  used on input line 42.
+Package pdftex.def Info: 2012_AMC_12B_Problems-1.pdf  used on input line 44.
 (pdftex.def)             Requested size: 227.61983pt x 114.06586pt.
 
 
 [2 <./2012_AMC_12B_Problems-1.pdf>]
-Overfull \hbox (9.60666pt too wide) in paragraph at lines 95--102
-[]\OT1/cmr/m/n/10 label("$\OML/cmm/m/it/10 P[]$\OT1/cmr/m/n/10 ", P[1], dir(P[1
-])); label("$\OML/cmm/m/it/10 P[]$\OT1/cmr/m/n/10 ", P[2], dir(P[2])); label("$
-\OML/cmm/m/it/10 P[]$\OT1/cmr/m/n/10 ", P[3], dir(-45)); label("$\OML/cmm/m/it/
-10 P[]$\OT1/cmr/m/n/10 ", P[4], dir(P[4]));
- []
+\openout4 = `2012_AMC_12B_Problems-2.asy'.
 
+<2012_AMC_12B_Problems-2.pdf, id=33, 204.66461pt x 204.37354pt>
+File: 2012_AMC_12B_Problems-2.pdf Graphic file (type pdf)
+<use 2012_AMC_12B_Problems-2.pdf>
+Package pdftex.def Info: 2012_AMC_12B_Problems-2.pdf  used on input line 139.
+(pdftex.def)             Requested size: 204.66411pt x 204.37303pt.
 
 
 [3]
-\openout4 = `2012_AMC_12B_Problems-2.asy'.
-
-<2012_AMC_12B_Problems-2.pdf, id=51, 200.75pt x 145.5036pt>
-File: 2012_AMC_12B_Problems-2.pdf Graphic file (type pdf)
-<use 2012_AMC_12B_Problems-2.pdf>
-Package pdftex.def Info: 2012_AMC_12B_Problems-2.pdf  used on input line 126.
-(pdftex.def)             Requested size: 200.7495pt x 145.50323pt.
 \openout4 = `2012_AMC_12B_Problems-3.asy'.
 
-<2012_AMC_12B_Problems-3.pdf, id=52, 284.52798pt x 173.53734pt>
+<2012_AMC_12B_Problems-3.pdf, id=52, 200.75pt x 145.5036pt>
 File: 2012_AMC_12B_Problems-3.pdf Graphic file (type pdf)
 <use 2012_AMC_12B_Problems-3.pdf>
-Package pdftex.def Info: 2012_AMC_12B_Problems-3.pdf  used on input line 178.
+Package pdftex.def Info: 2012_AMC_12B_Problems-3.pdf  used on input line 167.
+(pdftex.def)             Requested size: 200.7495pt x 145.50323pt.
+\openout4 = `2012_AMC_12B_Problems-4.asy'.
+
+<2012_AMC_12B_Problems-4.pdf, id=53, 284.52798pt x 173.53734pt>
+File: 2012_AMC_12B_Problems-4.pdf Graphic file (type pdf)
+<use 2012_AMC_12B_Problems-4.pdf>
+Package pdftex.def Info: 2012_AMC_12B_Problems-4.pdf  used on input line 219.
 (pdftex.def)             Requested size: 284.52728pt x 173.53691pt.
 
 
 [4 <./2012_AMC_12B_Problems-2.pdf> <./2012_AMC_12B_Problems-3.pdf>]
 
-[5] (2012_AMC_12B_Problems.aux)
+[5 <./2012_AMC_12B_Problems-4.pdf>] (2012_AMC_12B_Problems.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
@@ -937,13 +937,13 @@ Package rerunfilecheck Info: File `2012_AMC_12B_Problems.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25369 strings out of 473536
- 477107 string characters out of 5712052
- 899273 words of memory out of 5000000
- 48164 multiletter control sequences out of 15000+600000
+ 25381 strings out of 473536
+ 477505 string characters out of 5712052
+ 898274 words of memory out of 5000000
+ 48174 multiletter control sequences out of 15000+600000
  567012 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,107p,741b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,12n,107p,741b,671s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/Mi
@@ -961,9 +961,9 @@ faultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb
 s/cm/cmsy10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmsy7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on 2012_AMC_12B_Problems.pdf (5 pages, 183261 bytes).
+Output written on 2012_AMC_12B_Problems.pdf (5 pages, 190656 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 154 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

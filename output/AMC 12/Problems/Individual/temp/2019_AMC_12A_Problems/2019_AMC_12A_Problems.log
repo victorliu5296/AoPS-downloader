@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  24 JAN 2025 23:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 18:34
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -895,14 +895,14 @@ LaTeX Warning: No \author given.
 <2019_AMC_12A_Problems-1.pdf, id=14, 301.125pt x 42.38837pt>
 File: 2019_AMC_12A_Problems-1.pdf Graphic file (type pdf)
 <use 2019_AMC_12A_Problems-1.pdf>
-Package pdftex.def Info: 2019_AMC_12A_Problems-1.pdf  used on input line 65.
+Package pdftex.def Info: 2019_AMC_12A_Problems-1.pdf  used on input line 67.
 (pdftex.def)             Requested size: 301.12425pt x 42.38824pt.
 \openout4 = `2019_AMC_12A_Problems-2.asy'.
 
 <2019_AMC_12A_Problems-2.pdf, id=15, 179.73148pt x 179.73148pt>
 File: 2019_AMC_12A_Problems-2.pdf Graphic file (type pdf)
 <use 2019_AMC_12A_Problems-2.pdf>
-Package pdftex.def Info: 2019_AMC_12A_Problems-2.pdf  used on input line 93.
+Package pdftex.def Info: 2019_AMC_12A_Problems-2.pdf  used on input line 95.
 (pdftex.def)             Requested size: 179.73102pt x 179.73102pt.
 
 

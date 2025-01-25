@@ -29,7 +29,9 @@
 
 \title{AMC 12 Problems \\ 2012}
 \date{}
-\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{2012 AMC 12B}\begin{enumerate}[label=\arabic*., itemsep=0.5em]\item Each third-grade classroom at Pearl Creek Elementary has 18 students and 2 pet rabbits. How many more students than rabbits are there in all 4 of the third-grade classrooms?
+\begin{document}\maketitle\thispagestyle{fancy}\newpage\section*{2012 AMC 12B}
+\begin{enumerate}[label=\arabic*., itemsep=0.5em]
+\item Each third-grade classroom at Pearl Creek Elementary has 18 students and 2 pet rabbits. How many more students than rabbits are there in all 4 of the third-grade classrooms?
 
 \( \textbf{(A)}\ 48\qquad\textbf{(B)}\ 56\qquad\textbf{(C)}\ 64\qquad\textbf{(D)}\ 72\qquad\textbf{(E)}\ 80 \)\par \vspace{0.5em}\item A circle of radius 5 is inscribed in a rectangle as shown. The ratio of the length of the rectangle to its width is 2:1. What is the area of the rectangle?
 
@@ -89,8 +91,42 @@ What is \(A+B\)?
 
 \(\textbf{(A)}\ 6\qquad\textbf{(B)}\ \frac{31}{5}\qquad\textbf{(C)}\ \frac{32}{5}\qquad\textbf{(D)}\ \frac{33}{5}\qquad\textbf{(E)}\ \frac{34}{5} \)\par \vspace{0.5em}\item Let \((a_1,a_2, \dots ,a_{10})\) be a list of the first \(10\) positive integers such that for each \(2 \le i \le 10\) either \(a_i+1\) or \(a_i-1\) or both appear somewhere before \(a_i\) in the list. How many such lists are there?
 
-\(\textbf{(A)}\ 120\qquad\textbf{(B)}\ 512\qquad\textbf{(C)}\ 1024\qquad\textbf{(D)}\ 181,440\qquad\textbf{(E)}\ 362,880\)
+\(\textbf{(A)}\ 120\qquad\textbf{(B)}\ 512\qquad\textbf{(C)}\ 1024\qquad\textbf{(D)}\ 181,440\qquad\textbf{(E)}\ 362,880\)\par \vspace{0.5em}\item A unit cube has vertices \(P_1,P_2,P_3,P_4,P_1',P_2',P_3',\) and \(P_4'\). Vertices \(P_2\), \(P_3\), and \(P_4\) are adjacent to \(P_1\), and for \(1\le i\le 4,\) vertices \(P_i\) and \(P_i'\) are opposite to each other. A regular octahedron has one vertex in each of the segments \(P_1P_2\), \(P_1P_3\), \(P_1P_4\), \(P_1'P_2'\), \(P_1'P_3'\), and \(P_1'P_4'\). What is the octahedron's side length?
 
+
+\begin{center}
+\begin{asy}
+import olympiad;
+import cse5;
+import three;
+
+size(7.5cm);
+triple eye = (-4, -8, 3);
+currentprojection = perspective(eye);
+
+triple[] P = {(1, -1, -1), (-1, -1, -1), (-1, 1, -1), (-1, -1, 1), (1, -1, -1)}; // P[0] = P[4] for convenience
+triple[] Pp = {-P[0], -P[1], -P[2], -P[3], -P[4]};
+
+// draw octahedron
+triple pt(int k){ return (3*P[k] + P[1])/4; }
+triple ptp(int k){ return (3*Pp[k] + Pp[1])/4; }
+draw(pt(2)--pt(3)--pt(4)--cycle, gray(0.6));
+draw(ptp(2)--pt(3)--ptp(4)--cycle, gray(0.6));
+draw(ptp(2)--pt(4), gray(0.6));
+draw(pt(2)--ptp(4), gray(0.6));
+draw(pt(4)--ptp(3)--pt(2), gray(0.6) + linetype("4 4"));
+draw(ptp(4)--ptp(3)--ptp(2), gray(0.6) + linetype("4 4"));
+
+// draw cube
+for(int i = 0; i < 4; ++i){
+	draw(P[1]--P[i]); draw(Pp[1]--Pp[i]);
+	for(int j = 0; j < 4; ++j){
+		if(i == 1 || j == 1 || i == j) continue;
+		draw(P[i]--Pp[j]); draw(Pp[i]--P[j]);
+	}
+	dot(P[i]); dot(Pp[i]);
+	dot(pt(i)); dot(ptp(i));
+}
 
 label("$P_1$", P[1], dir(P[1]));
 label("$P_2$", P[2], dir(P[2]));
@@ -99,7 +135,12 @@ label("$P_4$", P[4], dir(P[4]));
 label("$P'_1$", Pp[1], dir(Pp[1]));
 label("$P'_2$", Pp[2], dir(Pp[2]));
 label("$P'_3$", Pp[3], dir(-100));
-label("$P'_4$", Pp[4], dir(Pp[4]));\par \vspace{0.5em}\item A trapezoid has side lengths \(3\), \(5\), \(7\), and \(11\). The sums of all the possible areas of the trapezoid can be written in the form of \(r_1\sqrt{n_1}+r_2\sqrt{n_2}+r_3\), where \(r_1\), \(r_2\), and \(r_3\) are rational numbers and \(n_1\) and \(n_2\) are positive integers not divisible by the square of any prime. What is the greatest integer less than or equal to \(r_1+r_2+r_3+n_1+n_2\)?
+label("$P'_4$", Pp[4], dir(Pp[4]));
+\end{asy}
+\end{center}
+
+
+\(\textbf{(A)}\ \frac{3\sqrt{2}}{4}\qquad\textbf{(B)}\ \frac{7\sqrt{6}}{16}\qquad\textbf{(C)}\ \frac{\sqrt{5}}{2}\qquad\textbf{(D)}\ \frac{2\sqrt{3}}{3}\qquad\textbf{(E)}\ \frac{\sqrt{6}}{2} \)\par \vspace{0.5em}\item A trapezoid has side lengths \(3\), \(5\), \(7\), and \(11\). The sums of all the possible areas of the trapezoid can be written in the form of \(r_1\sqrt{n_1}+r_2\sqrt{n_2}+r_3\), where \(r_1\), \(r_2\), and \(r_3\) are rational numbers and \(n_1\) and \(n_2\) are positive integers not divisible by the square of any prime. What is the greatest integer less than or equal to \(r_1+r_2+r_3+n_1+n_2\)?
 
 \(\textbf{(A)}\ 57\qquad\textbf{(B)}\ 59\qquad\textbf{(C)}\ 61\qquad\textbf{(D)}\ 63\qquad\textbf{(E)}\ 65\)\par \vspace{0.5em}\item Square \(AXYZ\) is inscribed in equiangular hexagon \(ABCDEF\) with \(X\) on \(\overline{BC}\), \(Y\) on \(\overline{DE}\), and \(Z\) on \(\overline{EF}\). Suppose that \(AB=40\), and \(EF=41(\sqrt{3}-1)\). What is the side-length of the square?
 
@@ -197,5 +238,7 @@ Let \(T\) be the set of all right triangles whose vertices are in \(S\). For eve
 \end{equation*}
 
 
-\(\textbf{(A)}\ 1\qquad\textbf{(B)}\ \frac{625}{144}\qquad\textbf{(C)}\ \frac{125}{24}\qquad\textbf{(D)}\ 6\qquad\textbf{(E)}\ \frac{625}{24} \)\par \vspace{0.5em}\end{enumerate}
+\(\textbf{(A)}\ 1\qquad\textbf{(B)}\ \frac{625}{144}\qquad\textbf{(C)}\ \frac{125}{24}\qquad\textbf{(D)}\ 6\qquad\textbf{(E)}\ \frac{625}{24} \)\par \vspace{0.5em}
+\end{enumerate}
+
 \end{document}

@@ -18,19 +18,7 @@ size(8cm);
 
 import olympiad;
 import cse5;
-size(140);
-fill((1,0)--(3,0)--(4,sqrt(3))--(3,2sqrt(3))--(1,2sqrt(3))--(0,sqrt(3))--cycle,gray(0.4));
-fill(arc((2,0),1,180,0)--(2,0)--cycle,white);
-fill(arc((3.5,sqrt(3)/2),1,60,240)--(3.5,sqrt(3)/2)--cycle,white);
-fill(arc((3.5,3sqrt(3)/2),1,120,300)--(3.5,3sqrt(3)/2)--cycle,white);
-fill(arc((2,2sqrt(3)),1,180,360)--(2,2sqrt(3))--cycle,white);
-fill(arc((0.5,3sqrt(3)/2),1,240,420)--(0.5,3sqrt(3)/2)--cycle,white);
-fill(arc((0.5,sqrt(3)/2),1,300,480)--(0.5,sqrt(3)/2)--cycle,white);
-draw((1,0)--(3,0)--(4,sqrt(3))--(3,2sqrt(3))--(1,2sqrt(3))--(0,sqrt(3))--(1,0));
-draw(arc((2,0),1,180,0)--(2,0)--cycle);
-draw(arc((3.5,sqrt(3)/2),1,60,240)--(3.5,sqrt(3)/2)--cycle);
-draw(arc((3.5,3sqrt(3)/2),1,120,300)--(3.5,3sqrt(3)/2)--cycle);
-draw(arc((2,2sqrt(3)),1,180,360)--(2,2sqrt(3))--cycle);
-draw(arc((0.5,3sqrt(3)/2),1,240,420)--(0.5,3sqrt(3)/2)--cycle);
-draw(arc((0.5,sqrt(3)/2),1,300,480)--(0.5,sqrt(3)/2)--cycle);
-label("$2$",(3.5,3sqrt(3)/2),NE);
+draw(Arc((0,0), 4, 0, 270));
+draw((0,-4)--(0,0)--(4,0));
+
+label("$4$", (2,0), S);

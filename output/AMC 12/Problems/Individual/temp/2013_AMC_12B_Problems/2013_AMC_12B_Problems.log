@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 05:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 18:33
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -890,15 +890,14 @@ LaTeX Warning: No \author given.
 [1{C:/Users/DefaultUser/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
+0.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--60
-
- []
-
+(C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
 
 
 [2]
@@ -907,12 +906,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--60
 <2013_AMC_12B_Problems-1.pdf, id=34, 166.98386pt x 164.76355pt>
 File: 2013_AMC_12B_Problems-1.pdf Graphic file (type pdf)
 <use 2013_AMC_12B_Problems-1.pdf>
-Package pdftex.def Info: 2013_AMC_12B_Problems-1.pdf  used on input line 105.
+Package pdftex.def Info: 2013_AMC_12B_Problems-1.pdf  used on input line 107.
 (pdftex.def)             Requested size: 166.98343pt x 164.76312pt.
 
 
 [3 <./2013_AMC_12B_Problems-1.pdf>]
-Overfull \hbox (4.1215pt too wide) in paragraph at lines 146--147
+Overfull \hbox (4.1215pt too wide) in paragraph at lines 148--149
 []\OT1/cmr/m/n/10 For $135[] \OML/cmm/m/it/10 < x < \OT1/cmr/m/n/10 180[]$, poi
 nts $\OML/cmm/m/it/10 P \OT1/cmr/m/n/10 = ([] \OML/cmm/m/it/10 x; [][] x\OT1/cm
 r/m/n/10 )\OML/cmm/m/it/10 ; Q \OT1/cmr/m/n/10 = ([] \OML/cmm/m/it/10 x; [][] x
@@ -932,13 +931,13 @@ Package rerunfilecheck Info: File `2013_AMC_12B_Problems.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25347 strings out of 473536
- 476326 string characters out of 5712052
- 898267 words of memory out of 5000000
- 48144 multiletter control sequences out of 15000+600000
+ 25369 strings out of 473536
+ 476750 string characters out of 5712052
+ 897268 words of memory out of 5000000
+ 48163 multiletter control sequences out of 15000+600000
  567012 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,107p,767b,593s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,12n,107p,765b,653s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/Mi
@@ -955,7 +954,7 @@ ultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/symbols/msam10.pfb>
-Output written on 2013_AMC_12B_Problems.pdf (4 pages, 170632 bytes).
+Output written on 2013_AMC_12B_Problems.pdf (4 pages, 170818 bytes).
 PDF statistics:
  133 PDF objects out of 1000 (max. 8388607)
  31 named destinations out of 1000 (max. 500000)

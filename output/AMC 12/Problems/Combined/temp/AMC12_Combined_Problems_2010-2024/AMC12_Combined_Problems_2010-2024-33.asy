@@ -18,24 +18,4 @@ size(8cm);
 
 import olympiad;
 import cse5;
-import olympiad;
-unitsize(50);
-for (int i = 0; i < 3; ++i) {
-for (int j = 0; j < 4; ++j) {
-pair A = (j,i);
-dot(A);
-
-}
-}
-for (int i = 0; i < 3; ++i) {
-for (int j = 0; j < 4; ++j) {
-if (j != 3) {
-draw((j,i)--(j+1,i));
-}
-if (i != 2) {
-draw((j,i)--(j,i+1));
-}
-}
-}
-label("$A$", (0,2), W);
-label("$L$", (3,0), E);
+unitsize(20);filldraw(circle((0,0),2*sqrt(3)+1),rgb(0.5,0.5,0.5));filldraw(circle((-2,0),1),white);filldraw(circle((0,0),1),white);filldraw(circle((2,0),1),white);filldraw(circle((1,sqrt(3)),1),white);filldraw(circle((3,sqrt(3)),1),white);filldraw(circle((-1,sqrt(3)),1),white);filldraw(circle((-3,sqrt(3)),1),white);filldraw(circle((1,-1*sqrt(3)),1),white);filldraw(circle((3,-1*sqrt(3)),1),white);filldraw(circle((-1,-1*sqrt(3)),1),white);filldraw(circle((-3,-1*sqrt(3)),1),white);filldraw(circle((0,2*sqrt(3)),1),white);filldraw(circle((0,-2*sqrt(3)),1),white);

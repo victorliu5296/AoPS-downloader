@@ -25,11 +25,10 @@ void ds(pair x) {
 filldraw(x -- (1,0) + x -- (1,1) + x -- (0,1)+x -- cycle,mediumgray,invisible);
 }
 
-for (int i = 1; i < 4; ++ i) {
-for (int j = 1; j < 4; ++j) {
-label("?",(i + 0.5, j + 0.5));
-}
-}
+ds((1,1));
+ds((2,1));
+ds((3,1));
+ds((1,3));
 
 for (int i = 0; i <= 5; ++i) {
 draw((0,i)--(5,i));
@@ -39,7 +38,9 @@ draw((i,0)--(i,5));
 label("Initial", (2.5,-1));
 draw((6,2.5)--(8,2.5),Arrow);
 
-ds((11,2));
+ds((10,2));
+ds((11,1));
+ds((11,0));
 
 for (int i = 0; i <= 5; ++i) {
 draw((9,i)--(14,i));

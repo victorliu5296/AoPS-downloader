@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 17:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 18:39
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -891,41 +891,41 @@ LaTeX Warning: No \author given.
 
 ]
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 34.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 36.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 34.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 36.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 34.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 36.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 34.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 36.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 34.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 36.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 34.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 36.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 34.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 36.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 34.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 36.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 34.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 36.
 
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 34.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 36.
 
 \openout4 = `2011_AMC_8_Problems-1.asy'.
 
 <2011_AMC_8_Problems-1.pdf, id=14, 227.62039pt x 227.62039pt>
 File: 2011_AMC_8_Problems-1.pdf Graphic file (type pdf)
 <use 2011_AMC_8_Problems-1.pdf>
-Package pdftex.def Info: 2011_AMC_8_Problems-1.pdf  used on input line 59.
+Package pdftex.def Info: 2011_AMC_8_Problems-1.pdf  used on input line 61.
 (pdftex.def)             Requested size: 227.61983pt x 227.61983pt.
 
 
@@ -935,23 +935,23 @@ Package pdftex.def Info: 2011_AMC_8_Problems-1.pdf  used on input line 59.
 <2011_AMC_8_Problems-2.pdf, id=29, 201.06116pt x 201.06116pt>
 File: 2011_AMC_8_Problems-2.pdf Graphic file (type pdf)
 <use 2011_AMC_8_Problems-2.pdf>
-Package pdftex.def Info: 2011_AMC_8_Problems-2.pdf  used on input line 94.
+Package pdftex.def Info: 2011_AMC_8_Problems-2.pdf  used on input line 96.
 (pdftex.def)             Requested size: 201.06067pt x 201.06067pt.
 \openout4 = `2011_AMC_8_Problems-3.asy'.
 
 <2011_AMC_8_Problems-3.pdf, id=30, 249.7842pt x 244.51953pt>
 File: 2011_AMC_8_Problems-3.pdf Graphic file (type pdf)
 <use 2011_AMC_8_Problems-3.pdf>
-Package pdftex.def Info: 2011_AMC_8_Problems-3.pdf  used on input line 109.
+Package pdftex.def Info: 2011_AMC_8_Problems-3.pdf  used on input line 111.
 (pdftex.def)             Requested size: 249.78357pt x 244.51892pt.
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
-13.
+15.
 
 (C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 113.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 115.
 
 
 [3 <./2011_AMC_8_Problems-2.pdf> <./2011_AMC_8_Problems-3.pdf>]
@@ -960,14 +960,14 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 <2011_AMC_8_Problems-4.pdf, id=55, 301.125pt x 182.48978pt>
 File: 2011_AMC_8_Problems-4.pdf Graphic file (type pdf)
 <use 2011_AMC_8_Problems-4.pdf>
-Package pdftex.def Info: 2011_AMC_8_Problems-4.pdf  used on input line 159.
+Package pdftex.def Info: 2011_AMC_8_Problems-4.pdf  used on input line 161.
 (pdftex.def)             Requested size: 301.12425pt x 182.48933pt.
 \openout4 = `2011_AMC_8_Problems-5.asy'.
 
 <2011_AMC_8_Problems-5.pdf, id=56, 227.62239pt x 158.29538pt>
 File: 2011_AMC_8_Problems-5.pdf Graphic file (type pdf)
 <use 2011_AMC_8_Problems-5.pdf>
-Package pdftex.def Info: 2011_AMC_8_Problems-5.pdf  used on input line 181.
+Package pdftex.def Info: 2011_AMC_8_Problems-5.pdf  used on input line 183.
 (pdftex.def)             Requested size: 227.62183pt x 158.29498pt.
 
 
@@ -977,14 +977,14 @@ Package pdftex.def Info: 2011_AMC_8_Problems-5.pdf  used on input line 181.
 <2011_AMC_8_Problems-6.pdf, id=85, 170.83824pt x 227.62039pt>
 File: 2011_AMC_8_Problems-6.pdf Graphic file (type pdf)
 <use 2011_AMC_8_Problems-6.pdf>
-Package pdftex.def Info: 2011_AMC_8_Problems-6.pdf  used on input line 218.
+Package pdftex.def Info: 2011_AMC_8_Problems-6.pdf  used on input line 220.
 (pdftex.def)             Requested size: 170.83781pt x 227.61983pt.
 \openout4 = `2011_AMC_8_Problems-7.asy'.
 
 <2011_AMC_8_Problems-7.pdf, id=86, 227.62239pt x 124.20905pt>
 File: 2011_AMC_8_Problems-7.pdf Graphic file (type pdf)
 <use 2011_AMC_8_Problems-7.pdf>
-Package pdftex.def Info: 2011_AMC_8_Problems-7.pdf  used on input line 251.
+Package pdftex.def Info: 2011_AMC_8_Problems-7.pdf  used on input line 253.
 (pdftex.def)             Requested size: 227.62183pt x 124.20872pt.
 
 
@@ -994,7 +994,7 @@ Package pdftex.def Info: 2011_AMC_8_Problems-7.pdf  used on input line 251.
 <2011_AMC_8_Problems-8.pdf, id=108, 227.62039pt x 227.62039pt>
 File: 2011_AMC_8_Problems-8.pdf Graphic file (type pdf)
 <use 2011_AMC_8_Problems-8.pdf>
-Package pdftex.def Info: 2011_AMC_8_Problems-8.pdf  used on input line 273.
+Package pdftex.def Info: 2011_AMC_8_Problems-8.pdf  used on input line 275.
 (pdftex.def)             Requested size: 227.61983pt x 227.61983pt.
 
 

@@ -20,22 +20,29 @@ import olympiad;
 import cse5;
 import olympiad;
 unitsize(25);
-filldraw((1,3)--(1,4)--(2,4)--(2,3)--cycle, gray(0.7));
-filldraw((2,1)--(2,2)--(3,2)--(3,1)--cycle, gray(0.7));
-filldraw((4,0)--(5,0)--(5,1)--(4,1)--cycle, gray(0.7));
-for (int i = 0; i < 5; ++i) {
-for (int j = 0; j < 6; ++j) {
+for (int i = 0; i < 3; ++i) {
+for (int j = 0; j < 9; ++j) {
 pair A = (j,i);
 
 }
 }
-for (int i = 0; i < 5; ++i) {
-for (int j = 0; j < 6; ++j) {
-if (j != 5) {
-draw((j,i)--(j+1,i));
+for (int i = 0; i < 3; ++i) {
+for (int j = 0; j < 9; ++j) {
+if (j != 8) {
+draw((j,i)--(j+1,i), dashed);
 }
-if (i != 4) {
-draw((j,i)--(j,i+1));
+if (i != 2) {
+draw((j,i)--(j,i+1), dashed);
 }
 }
 }
+draw((0,0)--(2,2),linewidth(2));
+draw((2,0)--(2,2),linewidth(2));
+draw((1,1)--(2,1),linewidth(2));
+draw((3,0)--(3,2),linewidth(2));
+draw((5,0)--(5,2),linewidth(2));
+draw((4,1)--(3,2),linewidth(2));
+draw((4,1)--(5,2),linewidth(2));
+draw((6,0)--(8,0),linewidth(2));
+draw((6,2)--(8,2),linewidth(2));
+draw((6,0)--(6,2),linewidth(2));

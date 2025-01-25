@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 17:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 18:39
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -895,10 +895,10 @@ LaTeX Warning: No \author given.
 <2010_AMC_8_Problems-1.pdf, id=14, 463.03189pt x 205.56297pt>
 File: 2010_AMC_8_Problems-1.pdf Graphic file (type pdf)
 <use 2010_AMC_8_Problems-1.pdf>
-Package pdftex.def Info: 2010_AMC_8_Problems-1.pdf  used on input line 49.
+Package pdftex.def Info: 2010_AMC_8_Problems-1.pdf  used on input line 51.
 (pdftex.def)             Requested size: 463.03076pt x 205.56247pt.
 
-Overfull \hbox (11.67503pt too wide) in paragraph at lines 63--67
+Overfull \hbox (11.67503pt too wide) in paragraph at lines 65--69
 []$[] []$ $[] []$ $[] []$ $[] []$ $[] []$ 
  []
 
@@ -910,14 +910,14 @@ Overfull \hbox (11.67503pt too wide) in paragraph at lines 63--67
 <2010_AMC_8_Problems-2.pdf, id=44, 303.41959pt x 119.646pt>
 File: 2010_AMC_8_Problems-2.pdf Graphic file (type pdf)
 <use 2010_AMC_8_Problems-2.pdf>
-Package pdftex.def Info: 2010_AMC_8_Problems-2.pdf  used on input line 127.
+Package pdftex.def Info: 2010_AMC_8_Problems-2.pdf  used on input line 129.
 (pdftex.def)             Requested size: 303.41884pt x 119.64569pt.
 \openout4 = `2010_AMC_8_Problems-3.asy'.
 
 <2010_AMC_8_Problems-3.pdf, id=45, 72.59622pt x 142.96613pt>
 File: 2010_AMC_8_Problems-3.pdf Graphic file (type pdf)
 <use 2010_AMC_8_Problems-3.pdf>
-Package pdftex.def Info: 2010_AMC_8_Problems-3.pdf  used on input line 145.
+Package pdftex.def Info: 2010_AMC_8_Problems-3.pdf  used on input line 147.
 (pdftex.def)             Requested size: 72.59602pt x 142.96577pt.
 
 
@@ -927,14 +927,14 @@ Package pdftex.def Info: 2010_AMC_8_Problems-3.pdf  used on input line 145.
 <2010_AMC_8_Problems-4.pdf, id=70, 206.00865pt x 203.05862pt>
 File: 2010_AMC_8_Problems-4.pdf Graphic file (type pdf)
 <use 2010_AMC_8_Problems-4.pdf>
-Package pdftex.def Info: 2010_AMC_8_Problems-4.pdf  used on input line 160.
+Package pdftex.def Info: 2010_AMC_8_Problems-4.pdf  used on input line 162.
 (pdftex.def)             Requested size: 206.00813pt x 203.05812pt.
 \openout4 = `2010_AMC_8_Problems-5.asy'.
 
 <2010_AMC_8_Problems-5.pdf, id=71, 214.09787pt x 214.09787pt>
 File: 2010_AMC_8_Problems-5.pdf Graphic file (type pdf)
 <use 2010_AMC_8_Problems-5.pdf>
-Package pdftex.def Info: 2010_AMC_8_Problems-5.pdf  used on input line 179.
+Package pdftex.def Info: 2010_AMC_8_Problems-5.pdf  used on input line 181.
 (pdftex.def)             Requested size: 214.09734pt x 214.09734pt.
 
 
@@ -949,10 +949,10 @@ Package rerunfilecheck Info: File `2010_AMC_8_Problems.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25380 strings out of 473536
- 477330 string characters out of 5712052
+ 25390 strings out of 473536
+ 477640 string characters out of 5712052
  891241 words of memory out of 5000000
- 48172 multiletter control sequences out of 15000+600000
+ 48182 multiletter control sequences out of 15000+600000
  567012 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,11n,107p,1829b,674s stack positions out of 10000i,1000n,20000p,200000b,200000s

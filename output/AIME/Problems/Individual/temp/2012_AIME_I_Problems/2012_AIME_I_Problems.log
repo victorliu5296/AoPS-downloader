@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 04:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 18:40
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -895,14 +895,14 @@ LaTeX Warning: No \author given.
 <2012_AIME_I_Problems-1.pdf, id=14, 214.22032pt x 204.05234pt>
 File: 2012_AIME_I_Problems-1.pdf Graphic file (type pdf)
 <use 2012_AIME_I_Problems-1.pdf>
-Package pdftex.def Info: 2012_AIME_I_Problems-1.pdf  used on input line 64.
+Package pdftex.def Info: 2012_AIME_I_Problems-1.pdf  used on input line 66.
 (pdftex.def)             Requested size: 214.21979pt x 204.05183pt.
 \openout4 = `2012_AIME_I_Problems-2.asy'.
 
 <2012_AIME_I_Problems-2.pdf, id=15, 196.41882pt x 178.1867pt>
 File: 2012_AIME_I_Problems-2.pdf Graphic file (type pdf)
 <use 2012_AIME_I_Problems-2.pdf>
-Package pdftex.def Info: 2012_AIME_I_Problems-2.pdf  used on input line 100.
+Package pdftex.def Info: 2012_AIME_I_Problems-2.pdf  used on input line 102.
 (pdftex.def)             Requested size: 196.41833pt x 178.18626pt.
 
 
@@ -919,11 +919,11 @@ Package rerunfilecheck Info: File `2012_AIME_I_Problems.out' has not changed.
 Here is how much of TeX's memory you used:
  25349 strings out of 473536
  476642 string characters out of 5712052
- 893249 words of memory out of 5000000
+ 893250 words of memory out of 5000000
  48157 multiletter control sequences out of 15000+600000
  566728 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,11n,107p,3117b,665s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,11n,107p,2903b,665s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\DefaultUser\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm1000.pk><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTe

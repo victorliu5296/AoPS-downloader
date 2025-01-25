@@ -18,42 +18,16 @@ size(8cm);
 
 import olympiad;
 import cse5;
-unitsize(10mm);
-defaultpen(linewidth(1.2pt)+fontsize(10pt));
-dotfactor=4;
-pair A=(1,0), B=(4.24,0), C=(5.24,3.08), D=(2.62,4.98), E=(0,3.08);
-dot (A);
-dot (B);
-dot (C);
-dot (D);
-dot (E);
-label("$A$",A,S);
+size(180);
+pen dps = linewidth(0.7) + fontsize(10); defaultpen(dps);
+real s=1/2,m=5/6,l=1;
+pair A=origin,B=(l,0),C=rotate(60)*l,D=(s,0),E=rotate(60)*s,F=m,G=rotate(60)*m;
+draw(A--B--C--cycle^^D--E^^F--G);
+dot(A^^B^^C^^D^^E^^F^^G);
+label("$A$",A,SW);
 label("$B$",B,SE);
-label("$C$",C,E);
-label("$D$",D,N);
-label("$E$",E,W);
-guide squiggly(path g, real stepsize, real slope=45)
-{
-real len = arclength(g);
-real step = len / round(len / stepsize);
-guide squig;
-for (real u = 0; u < len; u += step){
-real a = arctime(g, u);
-real b = arctime(g, u + step / 2);
-pair p = point(g, a);
-pair q = point(g, b);
-pair np = unit( rotate(slope) * dir(g,a));
-pair nq = unit( rotate(0 - slope) * dir(g,b));
-squig = squig .. p{np} .. q{nq};
-}
-squig = squig .. point(g, length(g)){unit(rotate(slope)*dir(g,length(g)))};
-return squig;
-}
-pen pp = defaultpen + 2.718;
-draw(squiggly(A--B, 4.04, 30), pp);
-draw(squiggly(A--D, 7.777, 20), pp);
-draw(squiggly(A--E, 5.050, 15), pp);
-draw(squiggly(B--C, 5.050, 15), pp);
-draw(squiggly(B--D, 4.04, 20), pp);
-draw(squiggly(C--D, 2.718, 20), pp);
-draw(squiggly(D--E, 2.718, -60), pp);
+label("$C$",C,N);
+label("$D$",D,S);
+label("$E$",E,NW);
+label("$F$",F,S);
+label("$G$",G,NW);

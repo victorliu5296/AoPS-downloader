@@ -20,9 +20,12 @@ import olympiad;
 import cse5;
 import geometry;
 unitsize(3cm);
-draw((0,0) -- (1,0) -- (1,1) -- (0,1) -- cycle);
-draw(shift((1/2,1-sqrt(3)/2))*polygon(6));
-draw(shift((1/2,sqrt(3)/2))*polygon(6));
-draw(shift((sqrt(3)/2,1/2))*rotate(90)*polygon(6));
-draw(shift((1-sqrt(3)/2,1/2))*rotate(90)*polygon(6));
-draw((0,1-sqrt(3))--(1,1-sqrt(3))--(3-sqrt(3),sqrt(3)-2)--(sqrt(3),0)--(sqrt(3),1)--(3-sqrt(3),3-sqrt(3))--(1,sqrt(3))--(0,sqrt(3))--(sqrt(3)-2,3-sqrt(3))--(1-sqrt(3),1)--(1-sqrt(3),0)--(sqrt(3)-2,sqrt(3)-2)--cycle,linewidth(2));
+draw(circle((0,0),1),linewidth(1.5));
+for (int i = 0; i < 7; ++i) {
+for (int j = 0; j < i; ++j) {
+draw(dir(i * 360/7) -- dir(j * 360/7),linewidth(1.5));
+}
+}
+for(int i = 0; i < 7; ++i) {
+dot(dir(i * 360/7),5+black);
+}

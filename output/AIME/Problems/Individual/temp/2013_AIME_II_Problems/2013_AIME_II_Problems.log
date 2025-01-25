@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 04:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 18:40
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -892,6 +892,15 @@ LaTeX Warning: No \author given.
 ]
 
 [2]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 5
+5.
+
+(C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
+
 
 [3] (2013_AIME_II_Problems.aux)
  ***********
@@ -902,10 +911,10 @@ Package rerunfilecheck Info: File `2013_AIME_II_Problems.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25320 strings out of 473536
- 475805 string characters out of 5712052
- 898261 words of memory out of 5000000
- 48132 multiletter control sequences out of 15000+600000
+ 25341 strings out of 473536
+ 476212 string characters out of 5712052
+ 898262 words of memory out of 5000000
+ 48150 multiletter control sequences out of 15000+600000
  566393 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,11n,107p,5064b,588s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -925,7 +934,7 @@ ultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/symbols/msam10.pfb>
-Output written on 2013_AIME_II_Problems.pdf (3 pages, 159331 bytes).
+Output written on 2013_AIME_II_Problems.pdf (3 pages, 159369 bytes).
 PDF statistics:
  107 PDF objects out of 1000 (max. 8388607)
  20 named destinations out of 1000 (max. 500000)

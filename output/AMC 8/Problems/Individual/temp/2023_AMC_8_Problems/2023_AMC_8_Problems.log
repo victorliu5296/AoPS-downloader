@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 17:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 18:39
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -895,29 +895,29 @@ LaTeX Warning: No \author given.
 <2023_AMC_8_Problems-1.pdf, id=14, 340.77313pt x 85.3589pt>
 File: 2023_AMC_8_Problems-1.pdf Graphic file (type pdf)
 <use 2023_AMC_8_Problems-1.pdf>
-Package pdftex.def Info: 2023_AMC_8_Problems-1.pdf  used on input line 94.
+Package pdftex.def Info: 2023_AMC_8_Problems-1.pdf  used on input line 96.
 (pdftex.def)             Requested size: 340.7723pt x 85.35869pt.
 \openout4 = `2023_AMC_8_Problems-2.asy'.
 
 <2023_AMC_8_Problems-2.pdf, id=15, 365.78255pt x 213.39525pt>
 File: 2023_AMC_8_Problems-2.pdf Graphic file (type pdf)
 <use 2023_AMC_8_Problems-2.pdf>
-Package pdftex.def Info: 2023_AMC_8_Problems-2.pdf  used on input line 128.
+Package pdftex.def Info: 2023_AMC_8_Problems-2.pdf  used on input line 130.
 (pdftex.def)             Requested size: 365.78165pt x 213.39471pt.
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
-30.
+32.
 
 (C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 130.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 132.
 \openout4 = `2023_AMC_8_Problems-3.asy'.
 
 <2023_AMC_8_Problems-3.pdf, id=16, 175.65625pt x 175.65625pt>
 File: 2023_AMC_8_Problems-3.pdf Graphic file (type pdf)
 <use 2023_AMC_8_Problems-3.pdf>
-Package pdftex.def Info: 2023_AMC_8_Problems-3.pdf  used on input line 183.
+Package pdftex.def Info: 2023_AMC_8_Problems-3.pdf  used on input line 185.
 (pdftex.def)             Requested size: 175.6558pt x 175.6558pt.
 
 
@@ -927,14 +927,14 @@ Package pdftex.def Info: 2023_AMC_8_Problems-3.pdf  used on input line 183.
 <2023_AMC_8_Problems-4.pdf, id=42, 142.26349pt x 45.25206pt>
 File: 2023_AMC_8_Problems-4.pdf Graphic file (type pdf)
 <use 2023_AMC_8_Problems-4.pdf>
-Package pdftex.def Info: 2023_AMC_8_Problems-4.pdf  used on input line 225.
+Package pdftex.def Info: 2023_AMC_8_Problems-4.pdf  used on input line 227.
 (pdftex.def)             Requested size: 142.26312pt x 45.25194pt.
 \openout4 = `2023_AMC_8_Problems-5.asy'.
 
 <2023_AMC_8_Problems-5.pdf, id=43, 256.07469pt x 168.51157pt>
 File: 2023_AMC_8_Problems-5.pdf Graphic file (type pdf)
 <use 2023_AMC_8_Problems-5.pdf>
-Package pdftex.def Info: 2023_AMC_8_Problems-5.pdf  used on input line 339.
+Package pdftex.def Info: 2023_AMC_8_Problems-5.pdf  used on input line 341.
 (pdftex.def)             Requested size: 256.07405pt x 168.51114pt.
 
 
@@ -945,14 +945,14 @@ oblems-5.pdf>]
 <2023_AMC_8_Problems-6.pdf, id=88, 227.62239pt x 227.62239pt>
 File: 2023_AMC_8_Problems-6.pdf Graphic file (type pdf)
 <use 2023_AMC_8_Problems-6.pdf>
-Package pdftex.def Info: 2023_AMC_8_Problems-6.pdf  used on input line 393.
+Package pdftex.def Info: 2023_AMC_8_Problems-6.pdf  used on input line 395.
 (pdftex.def)             Requested size: 227.62183pt x 227.62183pt.
 \openout4 = `2023_AMC_8_Problems-7.asy'.
 
 <2023_AMC_8_Problems-7.pdf, id=89, 170.7178pt x 170.7178pt>
 File: 2023_AMC_8_Problems-7.pdf Graphic file (type pdf)
 <use 2023_AMC_8_Problems-7.pdf>
-Package pdftex.def Info: 2023_AMC_8_Problems-7.pdf  used on input line 423.
+Package pdftex.def Info: 2023_AMC_8_Problems-7.pdf  used on input line 425.
 (pdftex.def)             Requested size: 170.71738pt x 170.71738pt.
 
 
@@ -962,28 +962,28 @@ Package pdftex.def Info: 2023_AMC_8_Problems-7.pdf  used on input line 423.
 <2023_AMC_8_Problems-8.pdf, id=115, 284.52798pt x 71.18294pt>
 File: 2023_AMC_8_Problems-8.pdf Graphic file (type pdf)
 <use 2023_AMC_8_Problems-8.pdf>
-Package pdftex.def Info: 2023_AMC_8_Problems-8.pdf  used on input line 460.
+Package pdftex.def Info: 2023_AMC_8_Problems-8.pdf  used on input line 462.
 (pdftex.def)             Requested size: 284.52728pt x 71.18275pt.
 \openout4 = `2023_AMC_8_Problems-9.asy'.
 
 <2023_AMC_8_Problems-9.pdf, id=116, 370.13683pt x 56.08353pt>
 File: 2023_AMC_8_Problems-9.pdf Graphic file (type pdf)
 <use 2023_AMC_8_Problems-9.pdf>
-Package pdftex.def Info: 2023_AMC_8_Problems-9.pdf  used on input line 497.
+Package pdftex.def Info: 2023_AMC_8_Problems-9.pdf  used on input line 499.
 (pdftex.def)             Requested size: 370.13591pt x 56.08337pt.
 \openout4 = `2023_AMC_8_Problems-10.asy'.
 
 <2023_AMC_8_Problems-10.pdf, id=117, 142.0778pt x 142.26349pt>
 File: 2023_AMC_8_Problems-10.pdf Graphic file (type pdf)
 <use 2023_AMC_8_Problems-10.pdf>
-Package pdftex.def Info: 2023_AMC_8_Problems-10.pdf  used on input line 564.
+Package pdftex.def Info: 2023_AMC_8_Problems-10.pdf  used on input line 566.
 (pdftex.def)             Requested size: 142.07744pt x 142.26312pt.
 \openout4 = `2023_AMC_8_Problems-11.asy'.
 
 <2023_AMC_8_Problems-11.pdf, id=118, 426.79147pt x 154.40787pt>
 File: 2023_AMC_8_Problems-11.pdf Graphic file (type pdf)
 <use 2023_AMC_8_Problems-11.pdf>
-Package pdftex.def Info: 2023_AMC_8_Problems-11.pdf  used on input line 624.
+Package pdftex.def Info: 2023_AMC_8_Problems-11.pdf  used on input line 626.
 (pdftex.def)             Requested size: 426.79044pt x 154.40749pt.
 
 
@@ -994,7 +994,7 @@ oblems-10.pdf>]
 <2023_AMC_8_Problems-12.pdf, id=159, 227.62039pt x 197.52795pt>
 File: 2023_AMC_8_Problems-12.pdf Graphic file (type pdf)
 <use 2023_AMC_8_Problems-12.pdf>
-Package pdftex.def Info: 2023_AMC_8_Problems-12.pdf  used on input line 654.
+Package pdftex.def Info: 2023_AMC_8_Problems-12.pdf  used on input line 656.
 (pdftex.def)             Requested size: 227.61983pt x 197.52745pt.
 
 
@@ -1004,21 +1004,21 @@ Package pdftex.def Info: 2023_AMC_8_Problems-12.pdf  used on input line 654.
 <2023_AMC_8_Problems-13.pdf, id=183, 161.14201pt x 58.35802pt>
 File: 2023_AMC_8_Problems-13.pdf Graphic file (type pdf)
 <use 2023_AMC_8_Problems-13.pdf>
-Package pdftex.def Info: 2023_AMC_8_Problems-13.pdf  used on input line 683.
+Package pdftex.def Info: 2023_AMC_8_Problems-13.pdf  used on input line 685.
 (pdftex.def)             Requested size: 161.14162pt x 58.35786pt.
 \openout4 = `2023_AMC_8_Problems-14.asy'.
 
 <2023_AMC_8_Problems-14.pdf, id=184, 56.90259pt x 56.90259pt>
 File: 2023_AMC_8_Problems-14.pdf Graphic file (type pdf)
 <use 2023_AMC_8_Problems-14.pdf>
-Package pdftex.def Info: 2023_AMC_8_Problems-14.pdf  used on input line 703.
+Package pdftex.def Info: 2023_AMC_8_Problems-14.pdf  used on input line 705.
 (pdftex.def)             Requested size: 56.90244pt x 56.90244pt.
 \openout4 = `2023_AMC_8_Problems-15.asy'.
 
 <2023_AMC_8_Problems-15.pdf, id=185, 341.4326pt x 156.91924pt>
 File: 2023_AMC_8_Problems-15.pdf Graphic file (type pdf)
 <use 2023_AMC_8_Problems-15.pdf>
-Package pdftex.def Info: 2023_AMC_8_Problems-15.pdf  used on input line 754.
+Package pdftex.def Info: 2023_AMC_8_Problems-15.pdf  used on input line 756.
 (pdftex.def)             Requested size: 341.43176pt x 156.91884pt.
 
 
@@ -1034,7 +1034,7 @@ Package rerunfilecheck Info: File `2023_AMC_8_Problems.out' has not changed.
 Here is how much of TeX's memory you used:
  25531 strings out of 473536
  481950 string characters out of 5712052
- 890247 words of memory out of 5000000
+ 890241 words of memory out of 5000000
  48307 multiletter control sequences out of 15000+600000
  567516 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

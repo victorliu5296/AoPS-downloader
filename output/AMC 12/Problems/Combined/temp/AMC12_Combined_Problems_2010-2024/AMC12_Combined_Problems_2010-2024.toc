@@ -5,27 +5,27 @@
 \contentsline {section}{2012 AMC 12A Problems}{15}{section*.6}%
 \contentsline {section}{2012 AMC 12B Problems}{18}{section*.7}%
 \contentsline {section}{2013 AMC 12A Problems}{22}{section*.8}%
-\contentsline {section}{2013 AMC 12B Problems}{26}{section*.9}%
-\contentsline {section}{2014 AMC 12A Problems}{29}{section*.10}%
-\contentsline {section}{2014 AMC 12B Problems}{32}{section*.11}%
-\contentsline {section}{2015 AMC 12A Problems}{36}{section*.12}%
-\contentsline {section}{2015 AMC 12B Problems}{39}{section*.13}%
-\contentsline {section}{2016 AMC 12A Problems}{42}{section*.14}%
-\contentsline {section}{2016 AMC 12B Problems}{46}{section*.15}%
-\contentsline {section}{2017 AMC 12A Problems}{49}{section*.16}%
-\contentsline {section}{2017 AMC 12B Problems}{52}{section*.17}%
-\contentsline {section}{2018 AMC 12A Problems}{55}{section*.18}%
-\contentsline {section}{2018 AMC 12B Problems}{59}{section*.19}%
-\contentsline {section}{2019 AMC 12A Problems}{62}{section*.20}%
-\contentsline {section}{2019 AMC 12B Problems}{65}{section*.21}%
-\contentsline {section}{2020 AMC 12A Problems}{69}{section*.22}%
-\contentsline {section}{2020 AMC 12B Problems}{72}{section*.23}%
-\contentsline {section}{2021 AMC 12A Problems}{76}{section*.24}%
-\contentsline {section}{2021 AMC 12B Problems}{79}{section*.25}%
-\contentsline {section}{2021 Fall AMC 12A Problems}{83}{section*.26}%
-\contentsline {section}{2021 Fall AMC 12B Problems}{87}{section*.27}%
-\contentsline {section}{2022 AMC 12A Problems}{91}{section*.28}%
-\contentsline {section}{2022 AMC 12B Problems}{94}{section*.29}%
+\contentsline {section}{2013 AMC 12B Problems}{25}{section*.9}%
+\contentsline {section}{2014 AMC 12A Problems}{28}{section*.10}%
+\contentsline {section}{2014 AMC 12B Problems}{31}{section*.11}%
+\contentsline {section}{2015 AMC 12A Problems}{35}{section*.12}%
+\contentsline {section}{2015 AMC 12B Problems}{38}{section*.13}%
+\contentsline {section}{2016 AMC 12A Problems}{41}{section*.14}%
+\contentsline {section}{2016 AMC 12B Problems}{45}{section*.15}%
+\contentsline {section}{2017 AMC 12A Problems}{48}{section*.16}%
+\contentsline {section}{2017 AMC 12B Problems}{51}{section*.17}%
+\contentsline {section}{2018 AMC 12A Problems}{54}{section*.18}%
+\contentsline {section}{2018 AMC 12B Problems}{58}{section*.19}%
+\contentsline {section}{2019 AMC 12A Problems}{61}{section*.20}%
+\contentsline {section}{2019 AMC 12B Problems}{64}{section*.21}%
+\contentsline {section}{2020 AMC 12A Problems}{68}{section*.22}%
+\contentsline {section}{2020 AMC 12B Problems}{71}{section*.23}%
+\contentsline {section}{2021 AMC 12A Problems}{75}{section*.24}%
+\contentsline {section}{2021 AMC 12B Problems}{78}{section*.25}%
+\contentsline {section}{2021 Fall AMC 12A Problems}{82}{section*.26}%
+\contentsline {section}{2021 Fall AMC 12B Problems}{86}{section*.27}%
+\contentsline {section}{2022 AMC 12A Problems}{90}{section*.28}%
+\contentsline {section}{2022 AMC 12B Problems}{93}{section*.29}%
 \contentsline {section}{2023 AMC 12A Problems}{98}{section*.30}%
 \contentsline {section}{2023 AMC 12B Problems}{102}{section*.31}%
 \contentsline {section}{2024 AMC 12A Problems}{105}{section*.32}%

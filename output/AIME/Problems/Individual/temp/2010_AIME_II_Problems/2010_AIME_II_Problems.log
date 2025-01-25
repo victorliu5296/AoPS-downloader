@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 04:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 18:40
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -890,7 +890,16 @@ LaTeX Warning: No \author given.
 [1{C:/Users/DefaultUser/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 ]
-Overfull \hbox (25.33554pt too wide) in paragraph at lines 50--51
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
+7.
+
+(C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 47.
+
+Overfull \hbox (25.33554pt too wide) in paragraph at lines 52--53
 []\OT1/cmr/m/n/10 Among the eight rows, columns, and long di-ag-o-nals (the lon
 g di-ag-o-nals are $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[]; a[]; a[]\OMS/cmsy/m
 /n/10 g$ \OT1/cmr/m/n/10 and $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[]; a[]; a[]\
@@ -910,13 +919,13 @@ Package rerunfilecheck Info: File `2010_AIME_II_Problems.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25326 strings out of 473536
- 475839 string characters out of 5712052
- 897261 words of memory out of 5000000
- 48134 multiletter control sequences out of 15000+600000
- 567074 words of font info for 68 fonts, out of 8000000 for 9000
+ 25346 strings out of 473536
+ 476242 string characters out of 5712052
+ 897262 words of memory out of 5000000
+ 48152 multiletter control sequences out of 15000+600000
+ 566728 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,11n,107p,2372b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,11n,107p,2157b,594s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\DefaultUser\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm1000.pk><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTe
@@ -931,11 +940,10 @@ ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/DefaultUser/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Defa
 ultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 <C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmti10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/symbols/msam10.pfb>
-Output written on 2010_AIME_II_Problems.pdf (3 pages, 153535 bytes).
+/symbols/msam10.pfb>
+Output written on 2010_AIME_II_Problems.pdf (3 pages, 142616 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
+ 104 PDF objects out of 1000 (max. 8388607)
  22 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

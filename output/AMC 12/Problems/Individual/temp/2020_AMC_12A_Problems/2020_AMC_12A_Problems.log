@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 04:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 18:34
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -895,31 +895,25 @@ LaTeX Warning: No \author given.
 <2020_AMC_12A_Problems-1.pdf, id=14, 202.7575pt x 52.195pt>
 File: 2020_AMC_12A_Problems-1.pdf Graphic file (type pdf)
 <use 2020_AMC_12A_Problems-1.pdf>
-Package pdftex.def Info: 2020_AMC_12A_Problems-1.pdf  used on input line 69.
+Package pdftex.def Info: 2020_AMC_12A_Problems-1.pdf  used on input line 71.
 (pdftex.def)             Requested size: 202.757pt x 52.19487pt.
 \openout4 = `2020_AMC_12A_Problems-2.asy'.
 
 <2020_AMC_12A_Problems-2.pdf, id=15, 125.97063pt x 100.87688pt>
 File: 2020_AMC_12A_Problems-2.pdf Graphic file (type pdf)
 <use 2020_AMC_12A_Problems-2.pdf>
-Package pdftex.def Info: 2020_AMC_12A_Problems-2.pdf  used on input line 107.
+Package pdftex.def Info: 2020_AMC_12A_Problems-2.pdf  used on input line 109.
 (pdftex.def)             Requested size: 125.9703pt x 100.87662pt.
 
 
 [2 <./2020_AMC_12A_Problems-1.pdf> <./2020_AMC_12A_Problems-2.pdf>]
-Overfull \hbox (36.31343pt too wide) in paragraph at lines 141--142
+Overfull \hbox (36.31343pt too wide) in paragraph at lines 143--144
 []\OT1/cmr/m/n/10 A point is cho-sen at ran-dom within the square in the co-or-
 di-nate plane whose ver-tices are $(0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)\OML/
 cmm/m/it/10 ; \OT1/cmr/m/n/10 (2020\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)\OML/cm
 m/m/it/10 ; \OT1/cmr/m/n/10 (2020\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2020)\OML/c
 mm/m/it/10 ;$
  []
-
-
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 147.
-
-
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 149.
 
 
 
@@ -934,10 +928,10 @@ Package rerunfilecheck Info: File `2020_AMC_12A_Problems.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25359 strings out of 473536
- 476733 string characters out of 5712052
- 900267 words of memory out of 5000000
- 48155 multiletter control sequences out of 15000+600000
+ 25358 strings out of 473536
+ 476717 string characters out of 5712052
+ 900268 words of memory out of 5000000
+ 48154 multiletter control sequences out of 15000+600000
  567012 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,15n,107p,1108b,600s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -957,7 +951,7 @@ ultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/symbols/msam10.pfb>
-Output written on 2020_AMC_12A_Problems.pdf (4 pages, 168165 bytes).
+Output written on 2020_AMC_12A_Problems.pdf (4 pages, 168142 bytes).
 PDF statistics:
  129 PDF objects out of 1000 (max. 8388607)
  31 named destinations out of 1000 (max. 500000)

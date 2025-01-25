@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 04:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 18:40
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -895,11 +895,20 @@ LaTeX Warning: No \author given.
 <2014_AIME_II_Problems-1.pdf, id=14, 261.93158pt x 106.9867pt>
 File: 2014_AIME_II_Problems-1.pdf Graphic file (type pdf)
 <use 2014_AIME_II_Problems-1.pdf>
-Package pdftex.def Info: 2014_AIME_II_Problems-1.pdf  used on input line 73.
+Package pdftex.def Info: 2014_AIME_II_Problems-1.pdf  used on input line 75.
 (pdftex.def)             Requested size: 261.93092pt x 106.98642pt.
 
 
 [2 <./2014_AIME_II_Problems-1.pdf>]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 8
+6.
+
+(C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 86.
+
 
 [3] (2014_AIME_II_Problems.aux)
  ***********
@@ -910,10 +919,10 @@ Package rerunfilecheck Info: File `2014_AIME_II_Problems.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25328 strings out of 473536
- 476066 string characters out of 5712052
- 895261 words of memory out of 5000000
- 48138 multiletter control sequences out of 15000+600000
+ 25351 strings out of 473536
+ 476539 string characters out of 5712052
+ 895262 words of memory out of 5000000
+ 48158 multiletter control sequences out of 15000+600000
  566393 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,11n,107p,3267b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -931,7 +940,7 @@ ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/DefaultUser/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/De
 faultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msa
 m10.pfb>
-Output written on 2014_AIME_II_Problems.pdf (3 pages, 145272 bytes).
+Output written on 2014_AIME_II_Problems.pdf (3 pages, 145307 bytes).
 PDF statistics:
  102 PDF objects out of 1000 (max. 8388607)
  20 named destinations out of 1000 (max. 500000)

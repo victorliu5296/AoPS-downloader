@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 04:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 18:34
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -890,7 +890,7 @@ LaTeX Warning: No \author given.
 [1{C:/Users/DefaultUser/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 ]
-Overfull \hbox (55.70288pt too wide) in paragraph at lines 56--56
+Overfull \hbox (55.70288pt too wide) in paragraph at lines 58--58
 []$[][] [][] [][] [][] [][]$ 
  []
 
@@ -899,7 +899,7 @@ Overfull \hbox (55.70288pt too wide) in paragraph at lines 56--56
 <2020_AMC_12B_Problems-1.pdf, id=14, 227.62239pt x 227.62239pt>
 File: 2020_AMC_12B_Problems-1.pdf Graphic file (type pdf)
 <use 2020_AMC_12B_Problems-1.pdf>
-Package pdftex.def Info: 2020_AMC_12B_Problems-1.pdf  used on input line 73.
+Package pdftex.def Info: 2020_AMC_12B_Problems-1.pdf  used on input line 75.
 (pdftex.def)             Requested size: 227.62183pt x 227.62183pt.
 
 
@@ -909,10 +909,10 @@ Package pdftex.def Info: 2020_AMC_12B_Problems-1.pdf  used on input line 73.
 <2020_AMC_12B_Problems-2.pdf, id=34, 140.525pt x 121.77094pt>
 File: 2020_AMC_12B_Problems-2.pdf Graphic file (type pdf)
 <use 2020_AMC_12B_Problems-2.pdf>
-Package pdftex.def Info: 2020_AMC_12B_Problems-2.pdf  used on input line 102.
+Package pdftex.def Info: 2020_AMC_12B_Problems-2.pdf  used on input line 104.
 (pdftex.def)             Requested size: 140.52464pt x 121.77063pt.
 
-Overfull \hbox (343.0438pt too wide) in paragraph at lines 112--113
+Overfull \hbox (343.0438pt too wide) in paragraph at lines 114--115
 []$[][] [][] [][]\OML/cmm/m/it/10 n[]$ $[][]n[] [][]n >
  []
 
@@ -924,7 +924,7 @@ Overfull \hbox (343.0438pt too wide) in paragraph at lines 112--113
 <2020_AMC_12B_Problems-3.pdf, id=65, 227.62239pt x 224.1213pt>
 File: 2020_AMC_12B_Problems-3.pdf Graphic file (type pdf)
 <use 2020_AMC_12B_Problems-3.pdf>
-Package pdftex.def Info: 2020_AMC_12B_Problems-3.pdf  used on input line 156.
+Package pdftex.def Info: 2020_AMC_12B_Problems-3.pdf  used on input line 158.
 (pdftex.def)             Requested size: 227.62183pt x 224.12076pt.
 
 
@@ -941,7 +941,7 @@ Package rerunfilecheck Info: File `2020_AMC_12B_Problems.out' has not changed.
 Here is how much of TeX's memory you used:
  25370 strings out of 473536
  477114 string characters out of 5712052
- 893273 words of memory out of 5000000
+ 893268 words of memory out of 5000000
  48164 multiletter control sequences out of 15000+600000
  567012 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -963,7 +963,7 @@ b><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmsy7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on 2020_AMC_12B_Problems.pdf (5 pages, 193806 bytes).
+Output written on 2020_AMC_12B_Problems.pdf (5 pages, 193732 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)

@@ -18,19 +18,11 @@ size(8cm);
 
 import olympiad;
 import cse5;
-/* Edited by MRENTHUSIASM */
-size(160);
-pair A, B, C, D, F;
-A = origin;
-B = (4,0);
-C = (0,3);
-D = (2/7,2/7);
-F = foot(D,B,C);
-fill(A--(2/7,0)--D--(0,2/7)--cycle, lightgray);
-draw(A--B--C--cycle);
-draw((2/7,0)--D--(0,2/7));
-label("$4$", midpoint(A--B), N);
-label("$3$", midpoint(A--C), E);
-label("$2$", midpoint(D--F), SE);
-label("$S$", midpoint(A--D));
-draw(D--F, dashed);
+draw((0,0)--(4,0)--(4,3)--(0,0));
+label("$A$", (0,0), SW);
+label("$B$", (4,3), NE);
+label("$C$", (4,0), SE);
+label("$4$", (2,0), S);
+label("$3$", (4,1.5), E);
+label("$5$", (2,1.5), NW);
+fill(origin--(0,0)--(4,3)--(4,0)--cycle, gray);

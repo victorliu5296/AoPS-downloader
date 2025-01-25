@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 04:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 18:41
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -890,6 +890,15 @@ LaTeX Warning: No \author given.
 [1{C:/Users/DefaultUser/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 ]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 6
+0.
+
+(C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 60.
+
 
 [2]
 
@@ -902,13 +911,13 @@ Package rerunfilecheck Info: File `2019_AIME_II_Problems.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25320 strings out of 473536
- 475770 string characters out of 5712052
- 896261 words of memory out of 5000000
- 48131 multiletter control sequences out of 15000+600000
- 566739 words of font info for 67 fonts, out of 8000000 for 9000
+ 25340 strings out of 473536
+ 476173 string characters out of 5712052
+ 896262 words of memory out of 5000000
+ 48149 multiletter control sequences out of 15000+600000
+ 566393 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,11n,107p,3736b,592s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,11n,107p,3797b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/Mi
@@ -921,12 +930,11 @@ ic/amsfonts/cm/cmr17.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/DefaultUser/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/DefaultUser/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/De
-faultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.p
-fb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/symbols/msbm10.pfb>
-Output written on 2019_AIME_II_Problems.pdf (3 pages, 149587 bytes).
+faultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msb
+m10.pfb>
+Output written on 2019_AIME_II_Problems.pdf (3 pages, 139086 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
+ 97 PDF objects out of 1000 (max. 8388607)
  20 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

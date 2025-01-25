@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 04:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 18:38
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -896,7 +896,7 @@ LaTeX Warning: No \author given.
 File: 2021_Fall_AMC_12B_Problems-1.pdf Graphic file (type pdf)
 <use 2021_Fall_AMC_12B_Problems-1.pdf>
 Package pdftex.def Info: 2021_Fall_AMC_12B_Problems-1.pdf  used on input line 6
-3.
+5.
 (pdftex.def)             Requested size: 200.7495pt x 173.40039pt.
 
 
@@ -907,15 +907,11 @@ Package pdftex.def Info: 2021_Fall_AMC_12B_Problems-1.pdf  used on input line 6
 File: 2021_Fall_AMC_12B_Problems-2.pdf Graphic file (type pdf)
 <use 2021_Fall_AMC_12B_Problems-2.pdf>
 Package pdftex.def Info: 2021_Fall_AMC_12B_Problems-2.pdf  used on input line 1
-49.
+51.
 (pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
 
 
 [3 <./2021_Fall_AMC_12B_Problems-2.pdf>]
-
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 199.
-
-
 
 [4]
 
@@ -929,10 +925,10 @@ ged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25360 strings out of 473536
- 477039 string characters out of 5712052
- 896327 words of memory out of 5000000
- 48155 multiletter control sequences out of 15000+600000
+ 25359 strings out of 473536
+ 477023 string characters out of 5712052
+ 896328 words of memory out of 5000000
+ 48154 multiletter control sequences out of 15000+600000
  567012 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,12n,107p,720b,594s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -950,7 +946,7 @@ ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/DefaultUser/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Def
 aultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam
 10.pfb>
-Output written on 2021_Fall_AMC_12B_Problems.pdf (5 pages, 151913 bytes).
+Output written on 2021_Fall_AMC_12B_Problems.pdf (5 pages, 151906 bytes).
 PDF statistics:
  128 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)

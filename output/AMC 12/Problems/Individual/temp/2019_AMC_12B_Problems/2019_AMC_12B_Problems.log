@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 02:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 18:34
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -890,7 +890,7 @@ LaTeX Warning: No \author given.
 [1{C:/Users/DefaultUser/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 ]
-Overfull \hbox (4.18251pt too wide) in paragraph at lines 62--64
+Overfull \hbox (4.18251pt too wide) in paragraph at lines 64--66
 []\OT1/cmr/m/n/10 For how many in-te-gral val-ues of $\OML/cmm/m/it/10 x$ \OT1/
 cmr/m/n/10 can a tri-an-gle of pos-i-tive area be formed hav-ing side lengths $
 [][] \OML/cmm/m/it/10 x; [][] x; \OT1/cmr/m/n/10 3$? 
@@ -901,7 +901,7 @@ cmr/m/n/10 can a tri-an-gle of pos-i-tive area be formed hav-ing side lengths $
 <2019_AMC_12B_Problems-1.pdf, id=14, 177.58946pt x 111.57686pt>
 File: 2019_AMC_12B_Problems-1.pdf Graphic file (type pdf)
 <use 2019_AMC_12B_Problems-1.pdf>
-Package pdftex.def Info: 2019_AMC_12B_Problems-1.pdf  used on input line 93.
+Package pdftex.def Info: 2019_AMC_12B_Problems-1.pdf  used on input line 95.
 (pdftex.def)             Requested size: 177.58902pt x 111.57657pt.
 
 
@@ -911,9 +911,9 @@ Package pdftex.def Info: 2019_AMC_12B_Problems-1.pdf  used on input line 93.
 <2019_AMC_12B_Problems-2.pdf, id=37, 182.3101pt x 240.77654pt>
 File: 2019_AMC_12B_Problems-2.pdf Graphic file (type pdf)
 <use 2019_AMC_12B_Problems-2.pdf>
-Package pdftex.def Info: 2019_AMC_12B_Problems-2.pdf  used on input line 136.
+Package pdftex.def Info: 2019_AMC_12B_Problems-2.pdf  used on input line 138.
 (pdftex.def)             Requested size: 182.30966pt x 240.77594pt.
-LaTeX Font Info:    Calculating math sizes for size <5.99998> on input line 144
+LaTeX Font Info:    Calculating math sizes for size <5.99998> on input line 146
 .
 
 
@@ -923,12 +923,12 @@ LaTeX Font Info:    Calculating math sizes for size <5.99998> on input line 144
 <2019_AMC_12B_Problems-3.pdf, id=74, 170.7168pt x 106.01508pt>
 File: 2019_AMC_12B_Problems-3.pdf Graphic file (type pdf)
 <use 2019_AMC_12B_Problems-3.pdf>
-Package pdftex.def Info: 2019_AMC_12B_Problems-3.pdf  used on input line 175.
+Package pdftex.def Info: 2019_AMC_12B_Problems-3.pdf  used on input line 177.
 (pdftex.def)             Requested size: 170.71637pt x 106.0148pt.
 
 
 [4 <./2019_AMC_12B_Problems-3.pdf>]
-Overfull \hbox (11.61688pt too wide) in paragraph at lines 208--209
+Overfull \hbox (11.61688pt too wide) in paragraph at lines 210--211
 []\OT1/cmr/m/n/10 Let $\OML/cmm/m/it/10 ABCD$ \OT1/cmr/m/n/10 be a con-vex quad
 ri-lat-eral with $\OML/cmm/m/it/10 BC \OT1/cmr/m/n/10 = 2$ and $\OML/cmm/m/it/1
 0 CD \OT1/cmr/m/n/10 = 6\OML/cmm/m/it/10 :$ \OT1/cmr/m/n/10 Sup-pose that the c
@@ -949,7 +949,7 @@ Package rerunfilecheck Info: File `2019_AMC_12B_Problems.out' has not changed.
 Here is how much of TeX's memory you used:
  25406 strings out of 473536
  477743 string characters out of 5712052
- 897273 words of memory out of 5000000
+ 897268 words of memory out of 5000000
  48200 multiletter control sequences out of 15000+600000
  575953 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

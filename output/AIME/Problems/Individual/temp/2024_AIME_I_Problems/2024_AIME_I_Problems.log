@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 04:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 18:41
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -895,14 +895,14 @@ LaTeX Warning: No \author given.
 <2024_AIME_I_Problems-1.pdf, id=14, 268.75204pt x 120.51825pt>
 File: 2024_AIME_I_Problems-1.pdf Graphic file (type pdf)
 <use 2024_AIME_I_Problems-1.pdf>
-Package pdftex.def Info: 2024_AIME_I_Problems-1.pdf  used on input line 51.
+Package pdftex.def Info: 2024_AIME_I_Problems-1.pdf  used on input line 53.
 (pdftex.def)             Requested size: 268.75137pt x 120.51794pt.
 \openout4 = `2024_AIME_I_Problems-2.asy'.
 
 <2024_AIME_I_Problems-2.pdf, id=15, 213.39525pt x 96.04985pt>
 File: 2024_AIME_I_Problems-2.pdf Graphic file (type pdf)
 <use 2024_AIME_I_Problems-2.pdf>
-Package pdftex.def Info: 2024_AIME_I_Problems-2.pdf  used on input line 63.
+Package pdftex.def Info: 2024_AIME_I_Problems-2.pdf  used on input line 65.
 (pdftex.def)             Requested size: 213.39471pt x 96.04959pt.
 
 
@@ -912,7 +912,7 @@ Package pdftex.def Info: 2024_AIME_I_Problems-2.pdf  used on input line 63.
 <2024_AIME_I_Problems-3.pdf, id=44, 227.62239pt x 98.36449pt>
 File: 2024_AIME_I_Problems-3.pdf Graphic file (type pdf)
 <use 2024_AIME_I_Problems-3.pdf>
-Package pdftex.def Info: 2024_AIME_I_Problems-3.pdf  used on input line 83.
+Package pdftex.def Info: 2024_AIME_I_Problems-3.pdf  used on input line 85.
 (pdftex.def)             Requested size: 227.62183pt x 98.36423pt.
 
 
@@ -925,13 +925,13 @@ Package rerunfilecheck Info: File `2024_AIME_I_Problems.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25348 strings out of 473536
- 476713 string characters out of 5712052
- 891249 words of memory out of 5000000
- 48156 multiletter control sequences out of 15000+600000
+ 25354 strings out of 473536
+ 476905 string characters out of 5712052
+ 891250 words of memory out of 5000000
+ 48162 multiletter control sequences out of 15000+600000
  566393 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,11n,107p,2464b,656s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,11n,107p,2449b,656s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/Mi
@@ -946,7 +946,7 @@ ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/DefaultUser/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Def
 aultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 >
-Output written on 2024_AIME_I_Problems.pdf (3 pages, 145257 bytes).
+Output written on 2024_AIME_I_Problems.pdf (3 pages, 145108 bytes).
 PDF statistics:
  115 PDF objects out of 1000 (max. 8388607)
  20 named destinations out of 1000 (max. 500000)
