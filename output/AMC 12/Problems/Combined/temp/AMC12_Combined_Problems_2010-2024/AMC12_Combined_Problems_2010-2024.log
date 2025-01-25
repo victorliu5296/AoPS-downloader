@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 02:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 02:31
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -902,7 +902,7 @@ LaTeX Warning: No \author given.
 File: AMC12_Combined_Problems_2010-2024-1.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-1.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-1.pdf  used on input
- line 62.
+ line 61.
 (pdftex.def)             Requested size: 163.76039pt x 88.00053pt.
 
 
@@ -917,14 +917,14 @@ Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-1.pdf  used on input
 File: AMC12_Combined_Problems_2010-2024-2.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-2.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-2.pdf  used on input
- line 142.
+ line 139.
 (pdftex.def)             Requested size: 79.1776pt x 117.03694pt.
 
 
 [6 <./AMC12_Combined_Problems_2010-2024-2.pdf>]
 
 [7]
-Overfull \hbox (2.13248pt too wide) in paragraph at lines 203--204
+Overfull \hbox (2.13248pt too wide) in paragraph at lines 197--198
 []\OT1/cmr/m/n/10 Monic quadratic poly-no-mi-als $\OML/cmm/m/it/10 P\OT1/cmr/m/
 n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ and $\OML/cmm/m/it/10 Q\OT1/cmr/m/n/
 10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ have the prop-erty that $\OML/cmm/m/it
@@ -944,7 +944,7 @@ n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ and $\OML/cmm/m/it/10 Q\OT1/cmr/m/n/
 File: AMC12_Combined_Problems_2010-2024-3.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-3.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-3.pdf  used on input
- line 245.
+ line 237.
 (pdftex.def)             Requested size: 100.37474pt x 98.2217pt.
 
 
@@ -959,7 +959,7 @@ Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-3.pdf  used on input
 File: AMC12_Combined_Problems_2010-2024-4.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-4.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-4.pdf  used on input
- line 457.
+ line 447.
 (pdftex.def)             Requested size: 97.94568pt x 97.94568pt.
 
 
@@ -976,7 +976,7 @@ Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-4.pdf  used on input
 File: AMC12_Combined_Problems_2010-2024-5.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-5.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-5.pdf  used on input
- line 570.
+ line 560.
 (pdftex.def)             Requested size: 170.71637pt x 159.20941pt.
 
 
@@ -989,12 +989,12 @@ Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-5.pdf  used on input
 File: AMC12_Combined_Problems_2010-2024-6.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-6.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-6.pdf  used on input
- line 652.
+ line 642.
 (pdftex.def)             Requested size: 227.61983pt x 114.06586pt.
 
 
 [18 <./AMC12_Combined_Problems_2010-2024-6.pdf>]
-Overfull \hbox (9.60666pt too wide) in paragraph at lines 705--712
+Overfull \hbox (9.60666pt too wide) in paragraph at lines 695--702
 []\OT1/cmr/m/n/10 label("$\OML/cmm/m/it/10 P[]$\OT1/cmr/m/n/10 ", P[1], dir(P[1
 ])); label("$\OML/cmm/m/it/10 P[]$\OT1/cmr/m/n/10 ", P[2], dir(P[2])); label("$
 \OML/cmm/m/it/10 P[]$\OT1/cmr/m/n/10 ", P[3], dir(-45)); label("$\OML/cmm/m/it/
@@ -1010,7 +1010,7 @@ Overfull \hbox (9.60666pt too wide) in paragraph at lines 705--712
 File: AMC12_Combined_Problems_2010-2024-7.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-7.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-7.pdf  used on input
- line 736.
+ line 726.
 (pdftex.def)             Requested size: 200.7495pt x 145.50323pt.
 \openout4 = `AMC12_Combined_Problems_2010-2024-8.asy'.
 
@@ -1018,7 +1018,7 @@ Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-7.pdf  used on input
 File: AMC12_Combined_Problems_2010-2024-8.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-8.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-8.pdf  used on input
- line 788.
+ line 778.
 (pdftex.def)             Requested size: 284.52728pt x 173.53691pt.
 
 
@@ -1032,7 +1032,7 @@ Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-8.pdf  used on input
 File: AMC12_Combined_Problems_2010-2024-9.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-9.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-9.pdf  used on input
- line 840.
+ line 830.
 (pdftex.def)             Requested size: 227.62183pt x 227.2976pt.
 
 
@@ -1043,7 +1043,7 @@ Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-9.pdf  used on input
 File: AMC12_Combined_Problems_2010-2024-10.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-10.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-10.pdf  used on inpu
-t line 888.
+t line 878.
 (pdftex.def)             Requested size: 144.62093pt x 180.67455pt.
 \openout4 = `AMC12_Combined_Problems_2010-2024-11.asy'.
 
@@ -1051,13 +1051,13 @@ t line 888.
 File: AMC12_Combined_Problems_2010-2024-11.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-11.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-11.pdf  used on inpu
-t line 918.
+t line 908.
 (pdftex.def)             Requested size: 180.67455pt x 159.43724pt.
 
 
 [23 <./AMC12_Combined_Problems_2010-2024-10.pdf> <./AMC12_Combined_Problems_201
 0-2024-11.pdf>]
-Overfull \hbox (49.1192pt too wide) in paragraph at lines 950--954
+Overfull \hbox (49.1192pt too wide) in paragraph at lines 940--944
 []$[] \OT1/cmr/m/n/10 ([] 2016\OML/cmm/m/it/10 ; [] \OT1/cmr/m/n/10 2017)$ $[] 
 ([] 2017\OML/cmm/m/it/10 ; [] \OT1/cmr/m/n/10 2018)$ $[] ([] 2018\OML/cmm/m/it/
 10 ; [] \OT1/cmr/m/n/10 2019)$ $[] ([] 2019\OML/cmm/m/it/10 ; [] \OT1/cmr/m/n/1
@@ -1075,14 +1075,14 @@ Overfull \hbox (49.1192pt too wide) in paragraph at lines 950--954
 File: AMC12_Combined_Problems_2010-2024-12.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-12.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-12.pdf  used on inpu
-t line 1031.
+t line 1021.
 (pdftex.def)             Requested size: 166.98343pt x 164.76312pt.
 
 
 [26]
 
 [27 <./AMC12_Combined_Problems_2010-2024-12.pdf>]
-Overfull \hbox (4.1215pt too wide) in paragraph at lines 1071--1072
+Overfull \hbox (4.1215pt too wide) in paragraph at lines 1059--1060
 []\OT1/cmr/m/n/10 For $135[] \OML/cmm/m/it/10 < x < \OT1/cmr/m/n/10 180[]$, poi
 nts $\OML/cmm/m/it/10 P \OT1/cmr/m/n/10 = ([] \OML/cmm/m/it/10 x; [][] x\OT1/cm
 r/m/n/10 )\OML/cmm/m/it/10 ; Q \OT1/cmr/m/n/10 = ([] \OML/cmm/m/it/10 x; [][] x
@@ -1102,7 +1102,7 @@ m/m/it/10 x; [][] x\OT1/cmr/m/n/10 )$
 File: AMC12_Combined_Problems_2010-2024-13.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-13.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-13.pdf  used on inpu
-t line 1205.
+t line 1192.
 (pdftex.def)             Requested size: 134.49213pt x 227.61983pt.
 
 
@@ -1115,7 +1115,7 @@ t line 1205.
 File: AMC12_Combined_Problems_2010-2024-14.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-14.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-14.pdf  used on inpu
-t line 1301.
+t line 1287.
 (pdftex.def)             Requested size: 227.61983pt x 227.61983pt.
 
 
@@ -1126,7 +1126,7 @@ t line 1301.
 File: AMC12_Combined_Problems_2010-2024-15.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-15.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-15.pdf  used on inpu
-t line 1327.
+t line 1313.
 (pdftex.def)             Requested size: 227.62183pt x 132.53683pt.
 
 
@@ -1137,7 +1137,7 @@ t line 1327.
 File: AMC12_Combined_Problems_2010-2024-16.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-16.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-16.pdf  used on inpu
-t line 1382.
+t line 1368.
 (pdftex.def)             Requested size: 227.61983pt x 168.79018pt.
 \openout4 = `AMC12_Combined_Problems_2010-2024-17.asy'.
 
@@ -1145,7 +1145,7 @@ t line 1382.
 File: AMC12_Combined_Problems_2010-2024-17.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-17.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-17.pdf  used on inpu
-t line 1403.
+t line 1389.
 (pdftex.def)             Requested size: 227.62183pt x 226.52272pt.
 
 
@@ -1163,7 +1163,7 @@ t line 1403.
 File: AMC12_Combined_Problems_2010-2024-18.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-18.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-18.pdf  used on inpu
-t line 1544.
+t line 1530.
 (pdftex.def)             Requested size: 351.31163pt x 156.28348pt.
 
 
@@ -1180,7 +1180,7 @@ t line 1544.
 File: AMC12_Combined_Problems_2010-2024-19.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-19.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-19.pdf  used on inpu
-t line 1667.
+t line 1653.
 (pdftex.def)             Requested size: 170.71637pt x 115.49521pt.
 \openout4 = `AMC12_Combined_Problems_2010-2024-20.asy'.
 
@@ -1188,7 +1188,7 @@ t line 1667.
 File: AMC12_Combined_Problems_2010-2024-20.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-20.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-20.pdf  used on inpu
-t line 1685.
+t line 1671.
 (pdftex.def)             Requested size: 227.61983pt x 227.61983pt.
 
 
@@ -1199,7 +1199,7 @@ t line 1685.
 File: AMC12_Combined_Problems_2010-2024-21.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-21.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-21.pdf  used on inpu
-t line 1708.
+t line 1694.
 (pdftex.def)             Requested size: 205.31856pt x 227.62183pt.
 
 
@@ -1217,7 +1217,7 @@ t line 1708.
 File: AMC12_Combined_Problems_2010-2024-22.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-22.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-22.pdf  used on inpu
-t line 1840.
+t line 1826.
 (pdftex.def)             Requested size: 231.13594pt x 265.51732pt.
 
 
@@ -1232,7 +1232,7 @@ t line 1840.
 File: AMC12_Combined_Problems_2010-2024-23.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-23.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-23.pdf  used on inpu
-t line 1928.
+t line 1914.
 (pdftex.def)             Requested size: 142.26112pt x 72.64119pt.
 
 
@@ -1247,7 +1247,7 @@ t line 1928.
 File: AMC12_Combined_Problems_2010-2024-24.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-24.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-24.pdf  used on inpu
-t line 2015.
+t line 2001.
 (pdftex.def)             Requested size: 100.37474pt x 91.45143pt.
 
 
@@ -1260,7 +1260,7 @@ t line 2015.
 File: AMC12_Combined_Problems_2010-2024-25.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-25.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-25.pdf  used on inpu
-t line 2096.
+t line 2082.
 (pdftex.def)             Requested size: 328.03273pt x 176.12857pt.
 
 
@@ -1271,7 +1271,7 @@ t line 2096.
 File: AMC12_Combined_Problems_2010-2024-26.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-26.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-26.pdf  used on inpu
-t line 2132.
+t line 2118.
 (pdftex.def)             Requested size: 227.62183pt x 175.97903pt.
 
 
@@ -1282,7 +1282,7 @@ t line 2132.
 File: AMC12_Combined_Problems_2010-2024-27.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-27.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-27.pdf  used on inpu
-t line 2187.
+t line 2173.
 (pdftex.def)             Requested size: 160.5996pt x 120.57516pt.
 
 
@@ -1295,7 +1295,7 @@ t line 2187.
 File: AMC12_Combined_Problems_2010-2024-28.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-28.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-28.pdf  used on inpu
-t line 2319.
+t line 2305.
 (pdftex.def)             Requested size: 269.99905pt x 145.56346pt.
 
 
@@ -1306,13 +1306,13 @@ t line 2319.
 File: AMC12_Combined_Problems_2010-2024-29.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-29.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-29.pdf  used on inpu
-t line 2352.
+t line 2338.
 (pdftex.def)             Requested size: 145.79733pt x 129.88492pt.
 
 
 [60 <./AMC12_Combined_Problems_2010-2024-28.pdf> <./AMC12_Combined_Problems_201
 0-2024-29.pdf>]
-Overfull \hbox (19.75526pt too wide) in paragraph at lines 2386--2387
+Overfull \hbox (19.75526pt too wide) in paragraph at lines 2372--2373
 []\OT1/cmr/m/n/10 Consider poly-no-mi-als $\OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (\
 OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ of de-gree at most $3$, each of whose co-ef
 -fi-cients is an el-e-ment of $\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 0\OML/cmm/m/it
@@ -1329,7 +1329,7 @@ cmsy/m/n/10 g$\OT1/cmr/m/n/10 .
 File: AMC12_Combined_Problems_2010-2024-30.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-30.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-30.pdf  used on inpu
-t line 2421.
+t line 2407.
 (pdftex.def)             Requested size: 224.11473pt x 180.31119pt.
 
 
@@ -1340,7 +1340,7 @@ t line 2421.
 File: AMC12_Combined_Problems_2010-2024-31.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-31.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-31.pdf  used on inpu
-t line 2460.
+t line 2446.
 (pdftex.def)             Requested size: 301.12425pt x 42.38824pt.
 \openout4 = `AMC12_Combined_Problems_2010-2024-32.asy'.
 
@@ -1348,7 +1348,7 @@ t line 2460.
 File: AMC12_Combined_Problems_2010-2024-32.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-32.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-32.pdf  used on inpu
-t line 2488.
+t line 2474.
 (pdftex.def)             Requested size: 179.73102pt x 179.73102pt.
 
 
@@ -1357,7 +1357,7 @@ t line 2488.
 [63 <./AMC12_Combined_Problems_2010-2024-32.pdf>]
 
 [64]
-Overfull \hbox (4.18251pt too wide) in paragraph at lines 2601--2603
+Overfull \hbox (4.18251pt too wide) in paragraph at lines 2587--2589
 []\OT1/cmr/m/n/10 For how many in-te-gral val-ues of $\OML/cmm/m/it/10 x$ \OT1/
 cmr/m/n/10 can a tri-an-gle of pos-i-tive area be formed hav-ing side lengths $
 [][] \OML/cmm/m/it/10 x; [][] x; \OT1/cmr/m/n/10 3$? 
@@ -1369,7 +1369,7 @@ cmr/m/n/10 can a tri-an-gle of pos-i-tive area be formed hav-ing side lengths $
 File: AMC12_Combined_Problems_2010-2024-33.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-33.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-33.pdf  used on inpu
-t line 2632.
+t line 2618.
 (pdftex.def)             Requested size: 177.58902pt x 111.57657pt.
 
 
@@ -1380,10 +1380,10 @@ t line 2632.
 File: AMC12_Combined_Problems_2010-2024-34.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-34.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-34.pdf  used on inpu
-t line 2675.
+t line 2661.
 (pdftex.def)             Requested size: 182.30966pt x 240.77594pt.
-LaTeX Font Info:    Calculating math sizes for size <5.99998> on input line 268
-3.
+LaTeX Font Info:    Calculating math sizes for size <5.99998> on input line 266
+9.
 
 
 [66 <./AMC12_Combined_Problems_2010-2024-33.pdf> <./AMC12_Combined_Problems_201
@@ -1394,12 +1394,12 @@ LaTeX Font Info:    Calculating math sizes for size <5.99998> on input line 268
 File: AMC12_Combined_Problems_2010-2024-35.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-35.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-35.pdf  used on inpu
-t line 2714.
+t line 2700.
 (pdftex.def)             Requested size: 170.71637pt x 106.0148pt.
 
 
 [67 <./AMC12_Combined_Problems_2010-2024-35.pdf>]
-Overfull \hbox (11.61688pt too wide) in paragraph at lines 2747--2748
+Overfull \hbox (11.61688pt too wide) in paragraph at lines 2733--2734
 []\OT1/cmr/m/n/10 Let $\OML/cmm/m/it/10 ABCD$ \OT1/cmr/m/n/10 be a con-vex quad
 ri-lat-eral with $\OML/cmm/m/it/10 BC \OT1/cmr/m/n/10 = 2$ and $\OML/cmm/m/it/1
 0 CD \OT1/cmr/m/n/10 = 6\OML/cmm/m/it/10 :$ \OT1/cmr/m/n/10 Sup-pose that the c
@@ -1416,7 +1416,7 @@ m/m/it/10 BCD;$
 File: AMC12_Combined_Problems_2010-2024-36.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-36.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-36.pdf  used on inpu
-t line 2788.
+t line 2774.
 (pdftex.def)             Requested size: 202.757pt x 52.19487pt.
 \openout4 = `AMC12_Combined_Problems_2010-2024-37.asy'.
 
@@ -1424,13 +1424,13 @@ t line 2788.
 File: AMC12_Combined_Problems_2010-2024-37.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-37.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-37.pdf  used on inpu
-t line 2826.
+t line 2812.
 (pdftex.def)             Requested size: 125.9703pt x 100.87662pt.
 
 
 [69 <./AMC12_Combined_Problems_2010-2024-36.pdf> <./AMC12_Combined_Problems_201
 0-2024-37.pdf>]
-Overfull \hbox (36.31343pt too wide) in paragraph at lines 2860--2861
+Overfull \hbox (36.31343pt too wide) in paragraph at lines 2846--2847
 []\OT1/cmr/m/n/10 A point is cho-sen at ran-dom within the square in the co-or-
 di-nate plane whose ver-tices are $(0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)\OML/
 cmm/m/it/10 ; \OT1/cmr/m/n/10 (2020\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)\OML/cm
@@ -1443,7 +1443,7 @@ mm/m/it/10 ;$
 [70]
 
 [71]
-Overfull \hbox (55.70288pt too wide) in paragraph at lines 2922--2922
+Overfull \hbox (55.70288pt too wide) in paragraph at lines 2908--2908
 []$[][] [][] [][] [][] [][]$ 
  []
 
@@ -1453,7 +1453,7 @@ Overfull \hbox (55.70288pt too wide) in paragraph at lines 2922--2922
 File: AMC12_Combined_Problems_2010-2024-38.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-38.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-38.pdf  used on inpu
-t line 2939.
+t line 2925.
 (pdftex.def)             Requested size: 227.62183pt x 227.62183pt.
 
 
@@ -1464,10 +1464,10 @@ t line 2939.
 File: AMC12_Combined_Problems_2010-2024-39.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-39.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-39.pdf  used on inpu
-t line 2968.
+t line 2954.
 (pdftex.def)             Requested size: 140.52464pt x 121.77063pt.
 
-Overfull \hbox (343.0438pt too wide) in paragraph at lines 2978--2979
+Overfull \hbox (343.0438pt too wide) in paragraph at lines 2964--2965
 []$[][] [][] [][]\OML/cmm/m/it/10 n[]$ $[][]n[] [][]n >
  []
 
@@ -1481,7 +1481,7 @@ Overfull \hbox (343.0438pt too wide) in paragraph at lines 2978--2979
 File: AMC12_Combined_Problems_2010-2024-40.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-40.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-40.pdf  used on inpu
-t line 3022.
+t line 3008.
 (pdftex.def)             Requested size: 227.62183pt x 224.12076pt.
 
 
@@ -1496,7 +1496,7 @@ t line 3022.
 File: AMC12_Combined_Problems_2010-2024-41.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-41.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-41.pdf  used on inpu
-t line 3164.
+t line 3150.
 (pdftex.def)             Requested size: 351.31163pt x 195.02412pt.
 
 
@@ -1511,7 +1511,7 @@ t line 3164.
 File: AMC12_Combined_Problems_2010-2024-42.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-42.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-42.pdf  used on inpu
-t line 3263.
+t line 3249.
 (pdftex.def)             Requested size: 209.42589pt x 227.62183pt.
 \openout4 = `AMC12_Combined_Problems_2010-2024-43.asy'.
 
@@ -1519,7 +1519,7 @@ t line 3263.
 File: AMC12_Combined_Problems_2010-2024-43.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-43.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-43.pdf  used on inpu
-t line 3290.
+t line 3276.
 (pdftex.def)             Requested size: 229.31316pt x 101.5391pt.
 
 
@@ -1531,7 +1531,7 @@ t line 3290.
 File: AMC12_Combined_Problems_2010-2024-44.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-44.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-44.pdf  used on inpu
-t line 3317.
+t line 3303.
 (pdftex.def)             Requested size: 416.93565pt x 39.5627pt.
 \openout4 = `AMC12_Combined_Problems_2010-2024-45.asy'.
 
@@ -1539,7 +1539,7 @@ t line 3317.
 File: AMC12_Combined_Problems_2010-2024-45.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-45.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-45.pdf  used on inpu
-t line 3346.
+t line 3332.
 (pdftex.def)             Requested size: 351.31163pt x 170.06091pt.
 
 
@@ -1552,10 +1552,10 @@ t line 3346.
 File: AMC12_Combined_Problems_2010-2024-46.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-46.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-46.pdf  used on inpu
-t line 3392.
+t line 3378.
 (pdftex.def)             Requested size: 170.71637pt x 151.11218pt.
 
-Overfull \hbox (2.63278pt too wide) in paragraph at lines 3400--3401
+Overfull \hbox (2.63278pt too wide) in paragraph at lines 3386--3387
 []\OT1/cmr/m/n/10 A right rect-an-gu-lar prism whose sur-face area and vol-ume 
 are nu-mer-i-cally equal has edge lengths $[][] \OML/cmm/m/it/10 x; [][] x;$
  []
@@ -1563,7 +1563,7 @@ are nu-mer-i-cally equal has edge lengths $[][] \OML/cmm/m/it/10 x; [][] x;$
 
 
 [83 <./AMC12_Combined_Problems_2010-2024-46.pdf>]
-Overfull \hbox (26.83333pt too wide) in paragraph at lines 3406--3407
+Overfull \hbox (26.83333pt too wide) in paragraph at lines 3392--3393
 []\OT1/cmr/m/n/10 What is the num-ber of terms with ra-tio-nal co-ef-fi-cients 
 among the $1001$ terms in the ex-pan-sion of $[][]?$ 
  []
@@ -1574,7 +1574,7 @@ among the $1001$ terms in the ex-pan-sion of $[][]?$
 File: AMC12_Combined_Problems_2010-2024-47.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-47.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-47.pdf  used on inpu
-t line 3432.
+t line 3418.
 (pdftex.def)             Requested size: 284.52728pt x 269.56943pt.
 
 
@@ -1585,7 +1585,7 @@ t line 3432.
 File: AMC12_Combined_Problems_2010-2024-48.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-48.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-48.pdf  used on inpu
-t line 3494.
+t line 3480.
 (pdftex.def)             Requested size: 284.52728pt x 281.57727pt.
 
 
@@ -1598,7 +1598,7 @@ t line 3494.
 File: AMC12_Combined_Problems_2010-2024-49.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-49.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-49.pdf  used on inpu
-t line 3543.
+t line 3529.
 (pdftex.def)             Requested size: 200.7495pt x 173.40039pt.
 
 
@@ -1609,7 +1609,7 @@ t line 3543.
 File: AMC12_Combined_Problems_2010-2024-50.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-50.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-50.pdf  used on inpu
-t line 3630.
+t line 3615.
 (pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
 
 
@@ -1624,7 +1624,7 @@ t line 3630.
 File: AMC12_Combined_Problems_2010-2024-51.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-51.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-51.pdf  used on inpu
-t line 3710.
+t line 3694.
 (pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
 \openout4 = `AMC12_Combined_Problems_2010-2024-52.asy'.
 
@@ -1632,7 +1632,7 @@ t line 3710.
 File: AMC12_Combined_Problems_2010-2024-52.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-52.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-52.pdf  used on inpu
-t line 3734.
+t line 3718.
 (pdftex.def)             Requested size: 156.49426pt x 52.49599pt.
 
 
@@ -1646,7 +1646,7 @@ t line 3734.
 File: AMC12_Combined_Problems_2010-2024-53.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-53.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-53.pdf  used on inpu
-t line 3832.
+t line 3816.
 (pdftex.def)             Requested size: 312.97952pt x 25.17096pt.
 
 
@@ -1657,10 +1657,10 @@ t line 3832.
 File: AMC12_Combined_Problems_2010-2024-54.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-54.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-54.pdf  used on inpu
-t line 3889.
+t line 3873.
 (pdftex.def)             Requested size: 180.67455pt x 111.21722pt.
 
-Overfull \hbox (10.74466pt too wide) in paragraph at lines 3919--3920
+Overfull \hbox (10.74466pt too wide) in paragraph at lines 3903--3904
 []$[] [] [] [] [] [] $ 
  []
 
@@ -1673,7 +1673,7 @@ Overfull \hbox (10.74466pt too wide) in paragraph at lines 3919--3920
 File: AMC12_Combined_Problems_2010-2024-55.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-55.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-55.pdf  used on inpu
-t line 3956.
+t line 3940.
 (pdftex.def)             Requested size: 142.26312pt x 127.78107pt.
 
 
@@ -1684,7 +1684,7 @@ t line 3956.
 File: AMC12_Combined_Problems_2010-2024-56.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-56.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-56.pdf  used on inpu
-t line 4035.
+t line 4019.
 (pdftex.def)             Requested size: 239.5042pt x 108.34851pt.
 \openout4 = `AMC12_Combined_Problems_2010-2024-57.asy'.
 
@@ -1692,7 +1692,7 @@ t line 4035.
 File: AMC12_Combined_Problems_2010-2024-57.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-57.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-57.pdf  used on inpu
-t line 4073.
+t line 4057.
 (pdftex.def)             Requested size: 239.5042pt x 108.34851pt.
 
 
@@ -1704,7 +1704,7 @@ t line 4073.
 File: AMC12_Combined_Problems_2010-2024-58.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-58.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-58.pdf  used on inpu
-t line 4117.
+t line 4101.
 (pdftex.def)             Requested size: 173.97955pt x 172.223pt.
 \openout4 = `AMC12_Combined_Problems_2010-2024-59.asy'.
 
@@ -1712,7 +1712,7 @@ t line 4117.
 File: AMC12_Combined_Problems_2010-2024-59.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-59.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-59.pdf  used on inpu
-t line 4137.
+t line 4121.
 (pdftex.def)             Requested size: 212.34279pt x 212.34279pt.
 
 
@@ -1724,7 +1724,7 @@ t line 4137.
 File: AMC12_Combined_Problems_2010-2024-60.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-60.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-60.pdf  used on inpu
-t line 4184.
+t line 4168.
 (pdftex.def)             Requested size: 200.7495pt x 200.7495pt.
 
 
@@ -1735,7 +1735,7 @@ t line 4184.
 File: AMC12_Combined_Problems_2010-2024-61.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-61.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-61.pdf  used on inpu
-t line 4239.
+t line 4223.
 (pdftex.def)             Requested size: 227.62183pt x 97.55322pt.
 \openout4 = `AMC12_Combined_Problems_2010-2024-62.asy'.
 
@@ -1743,7 +1743,7 @@ t line 4239.
 File: AMC12_Combined_Problems_2010-2024-62.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-62.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-62.pdf  used on inpu
-t line 4274.
+t line 4258.
 (pdftex.def)             Requested size: 284.52728pt x 195.67856pt.
 
 
@@ -1754,7 +1754,7 @@ t line 4274.
 File: AMC12_Combined_Problems_2010-2024-63.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-63.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-63.pdf  used on inpu
-t line 4310.
+t line 4294.
 (pdftex.def)             Requested size: 128.037pt x 90.17564pt.
 
 
@@ -1776,7 +1776,7 @@ t line 4310.
 File: AMC12_Combined_Problems_2010-2024-64.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-64.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-64.pdf  used on inpu
-t line 4569.
+t line 4553.
 (pdftex.def)             Requested size: 128.82397pt x 150.56212pt.
 
 
@@ -1787,7 +1787,7 @@ t line 4569.
 File: AMC12_Combined_Problems_2010-2024-65.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-65.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-65.pdf  used on inpu
-t line 4613.
+t line 4597.
 (pdftex.def)             Requested size: 170.71637pt x 64.33218pt.
 
 
@@ -1798,7 +1798,7 @@ t line 4613.
 File: AMC12_Combined_Problems_2010-2024-66.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-66.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-66.pdf  used on inpu
-t line 4693.
+t line 4677.
 (pdftex.def)             Requested size: 227.62183pt x 116.53506pt.
 
 
@@ -1809,7 +1809,7 @@ t line 4693.
 File: AMC12_Combined_Problems_2010-2024-67.pdf Graphic file (type pdf)
 <use AMC12_Combined_Problems_2010-2024-67.pdf>
 Package pdftex.def Info: AMC12_Combined_Problems_2010-2024-67.pdf  used on inpu
-t line 4785.
+t line 4769.
 (pdftex.def)             Requested size: 185.352pt x 200.7495pt.
 
 
@@ -1864,7 +1864,7 @@ ols/msam10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/symbols/msbm10.pfb><C:/Users/DefaultUser/AppData/Local/Programs
 /MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/DefaultUser/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on AMC12_Combined_Problems_2010-2024.pdf (110 pages, 1359979 byt
+Output written on AMC12_Combined_Problems_2010-2024.pdf (110 pages, 1360138 byt
 es).
 PDF statistics:
  2882 PDF objects out of 2984 (max. 8388607)

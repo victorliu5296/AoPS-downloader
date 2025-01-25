@@ -223,8 +223,6 @@ def compile_latex_to_pdf(tex_filepath, asy_modules_dir_abs):
         if compiled_pass2:
             if not move_pdf_output(temp_dir_abs, output_dir, tex_filename_base):
                 return None
-        else:
-            print(f"No final LaTeX pass needed; preserving existing PDF for {tex_filename_base}.")
 
         print(f"Successfully compiled {tex_filename_base}.tex to PDF.")
         return output_pdf_path
@@ -465,95 +463,148 @@ def create_latex_document(contest_display_name, problems_by_title, year_range_st
 
 def process_problem_content(problem):
     """Process individual problem content with robust math/asymptote handling."""
-    def extract_asy_code(content):
-        asy_start = content.find('<asy>')
-        asy_end = content.find('</asy>')
-        if asy_start != -1 and asy_end != -1:
-            asy_code = content[asy_start + 5:asy_end].strip()
-            if asy_code and not asy_code.isspace():
-                return f'\n\\begin{{center}}\n\\begin{{asy}}\nimport olympiad;\nimport cse5;\n{asy_code}\n\\end{{asy}}\n\\end{{center}}\n'
-        return None
+    # Extract Asymptote code first
+    parts = []
+    current_pos = 0
+    while True:
+        asy_start = problem.find('<asy>', current_pos)
+        if asy_start == -1:
+            parts.append(problem[current_pos:])
+            break
+        if asy_start > current_pos:
+            parts.append(problem[current_pos:asy_start])
+        asy_end = problem.find('</asy>', asy_start)
+        if asy_end == -1:
+            parts.append(problem[asy_start:])
+            break
+        asy_code = problem[asy_start + 5:asy_end].strip()
+        if asy_code:
+            parts.append(f'\n\\begin{{center}}\n\\begin{{asy}}\nimport olympiad;\nimport cse5;\n{asy_code}\n\\end{{asy}}\n\\end{{center}}\n')
+        current_pos = asy_end + 6
+    problem = ''.join(parts)
 
-    def replace_cmath(match):
-        cmath_content = match.group(1)
-        # Check for multi-line environments like align*, gather*, etc.
-        multi_line_envs = ['align', 'gather', 'multline']
-        for env in multi_line_envs:
-            env_pattern = rf'\\begin\{{{env}\*?\}}(.*?)\\end\{{{env}\*?\}}'
-            if re.search(env_pattern, cmath_content, flags=re.DOTALL):
-                # Return the multi-line environment as is
-                return f'\n{cmath_content.strip()}\n'
-        # Proceed to clean other display/inline math if no multi-line env found
-        display_math_patterns = [
-            r'\\\[(.*?)\\]',
-            r'\$\$(.*?)\$\$',
-            r'\\begin\{equation\*?\}(.*?)\\end\{equation\*?\}',
-            r'\\begin\{displaymath\}(.*?)\\end\{displaymath\}',
-        ]
-        cleaned_content = cmath_content
-        for pattern in display_math_patterns:
-            cleaned_content = re.sub(pattern, r'\1', cleaned_content, flags=re.DOTALL | re.IGNORECASE)
-        inline_math_patterns = [
-            r'\\\((.*?)\\\)',
-            r'\$(.*?)\$',
-            r'\\begin\{math\}(.*?)\\end\{math\}',
-        ]
-        for pattern in inline_math_patterns:
-            cleaned_content = re.sub(pattern, r'\1', cleaned_content, flags=re.DOTALL | re.IGNORECASE)
-        return f'\n\\begin{{equation*}}\n{cleaned_content.strip()}\n\\end{{equation*}}\n'
+    # Process HTML tags
+    problem = process_html_tags(problem)
 
-    problem = re.sub(
-        r'<center>(.*?)</center>',
-        r'\\begin{center}\n\1\n\\end{center}',
-        problem,
-        flags=re.DOTALL
-    )
-
+    # Handle math content
     problem = re.sub(r'<math>(.*?)</math>', r'\\(\1\\)', problem, flags=re.DOTALL)
     problem = re.sub(r'<cmath>(.*?)</cmath>', replace_cmath, problem, flags=re.DOTALL)
+    
+    # Fix aligned* environments
     problem = re.sub(r'\\begin{aligned\*}', r'\\begin{aligned}', problem)
     problem = re.sub(r'\\end{aligned\*}', r'\\end{aligned}', problem)
 
-    # Escape LaTeX-sensitive HTML entities before unescaping
+    # Escape LaTeX-sensitive characters before unescaping
     problem = re.sub(
         r'(&amp;|&#(?:35|36|37|95|123|125|126|94|92);)',
         r'\\\1',
         problem
     )
 
+    # Unescape HTML entities
     problem = html.unescape(problem)
 
-    parts = []
-    current_pos = 0
+    # Convert \over to \frac
+    problem = replace_over_with_frac(problem)
+
+    return problem
+
+def process_html_tags(content):
+    """Convert HTML tags to LaTeX using a comprehensive mapping."""
+    html_tag_handlers = {
+        # Inline tags
+        'b': {'latex': 'textbf', 'block': False},
+        'i': {'latex': 'textit', 'block': False},
+        'em': {'latex': 'textit', 'block': False},
+        'strong': {'latex': 'textbf', 'block': False},
+        'u': {'latex': 'underline', 'block': False},
+        'code': {'latex': 'texttt', 'block': False},
+        'sup': {'latex': 'textsuperscript', 'block': False},
+        'sub': {'latex': 'textsubscript', 'block': False},
+        'a': {'latex': 'href', 'block': False, 'attr': 'href'},
+        
+        # Block tags
+        'center': {'latex': 'center', 'block': True},
+        'ul': {'latex': 'itemize', 'block': True},
+        'ol': {'latex': 'enumerate', 'block': True},
+        'li': {'latex': 'item', 'block': False, 'directive': True},
+        'p': {'latex': 'par', 'block': True, 'directive': True},
+        'blockquote': {'latex': 'quote', 'block': True},
+        'pre': {'latex': 'verbatim', 'block': True},
+        
+        # Special cases
+        'br': {'latex': '\\\\', 'block': False, 'self_closing': True},
+        'hr': {'latex': '\\hline', 'block': True, 'self_closing': True},
+    }
+
+    # Match all tags from handlers (including self-closing)
+    tags = '|'.join(re.escape(tag) for tag in html_tag_handlers.keys())
+    pattern = re.compile(
+        r'<({})(\s+[^>]*?)?>(.*?)(</\1>|(?=/></\1>))', 
+        re.DOTALL
+    )
+
+    def replace_tag(match):
+        tag = match.group(1)
+        attrs = match.group(2) or ''
+        content = match.group(3)
+        closing = match.group(4)
+        handler = html_tag_handlers.get(tag, None)
+
+        if not handler:
+            return match.group(0)  # Return original if no handler
+
+        # Handle self-closing tags
+        if handler.get('self_closing', False):
+            return handler['latex'] + '\n'
+
+        # Process attributes
+        attr_value = ''
+        if 'attr' in handler:
+            attr_pattern = r'{}\s*=\s*["\'](.*?)["\']'.format(handler['attr'])
+            attr_match = re.search(attr_pattern, attrs)
+            if attr_match:
+                attr_value = attr_match.group(1)
+
+        # Recursively process content
+        processed_content = process_html_tags(content.strip())
+
+        # Build LaTeX replacement
+        if handler.get('directive', False):
+            if tag == 'a' and attr_value:
+                return f'\\href{{{attr_value}}}{{{processed_content}}}'
+            return f'\\{handler["latex"]} {processed_content}'
+        elif handler['block']:
+            return f'\\begin{{{handler["latex"]}}}\n{processed_content}\n\\end{{{handler["latex"]}}}'
+        else:
+            return f'\\{handler["latex"]}{{{processed_content}}}'
+
+    # Apply replacements iteratively to handle nested tags
     while True:
-        asy_start = problem.find('<asy>', current_pos)
-        if asy_start == -1:
-            if current_pos < len(problem):
-                parts.append(problem[current_pos:])
+        new_content, count = pattern.subn(replace_tag, content)
+        if count == 0:
             break
+        content = new_content
 
-        if asy_start > current_pos:
-            parts.append(problem[current_pos:asy_start])
+    return content
 
-        asy_end = problem.find('</asy>', asy_start)
-        if asy_end == -1:
-            parts.append(problem[asy_start:])
-            break
-
-        asy_code = extract_asy_code(problem[asy_start:asy_end + 6])
-        if asy_code:
-            parts.append(asy_code)
-
-        current_pos = asy_end + 6
-
-    processed_problem = ''.join(parts)
-    processed_problem = replace_over_with_frac(processed_problem)
-
-    return processed_problem
+def replace_cmath(match):
+    """Handle cmath content with multi-line environments."""
+    cmath_content = match.group(1)
+    multi_line_envs = ['align', 'gather', 'multline']
+    for env in multi_line_envs:
+        env_pattern = rf'\\begin\{{{env}\*?\}}(.*?)\\end\{{{env}\*?\}}'
+        if re.search(env_pattern, cmath_content, flags=re.DOTALL):
+            return f'\n{cmath_content.strip()}\n'
+    
+    # Clean display/inline math
+    cleaned = re.sub(r'\\\[|\\\]|\$\$|\\begin{equation\*?}|\\end{equation\*?}|\\begin{displaymath}|\\end{displaymath}', '', cmath_content, flags=re.IGNORECASE)
+    cleaned = re.sub(r'\\\(|\\\)|\$|\\begin{math}|\\end{math}', '', cleaned, flags=re.IGNORECASE)
+    return f'\n\\begin{{equation*}}\n{cleaned.strip()}\n\\end{{equation*}}\n'
 
 def replace_over_with_frac(content):
-    pattern = r'{([^}]*?)\\over([^}]*?)}'
-    return re.sub(pattern, r'\\frac{\1}{\2}', content)
+    """Replace \\over with \\frac."""
+    return re.sub(r'{([^}]*?)\\over([^}]*?)}', r'\\frac{\1}{\2}', content)
 
 def install_asymptote_modules(asy_modules_dir):
     """Checks for and installs required Asymptote modules."""
