@@ -42,8 +42,8 @@
 
 \(\textbf{(A) } 6.4\qquad\textbf{(B) } 6.504\qquad\textbf{(C) } 6.54\qquad\textbf{(D) } 6.9\qquad\textbf{(E) } 6.94\)\par \vspace{0.5em}\item Four squares of side length \(4, 7, 9,\) and \(10\) are arranged in increasing size order so that their left edges and bottom edges align. The squares alternate in color white-gray-white-gray, respectively, as shown in the figure. What is the area of the visible gray region in square units?
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 size(150);
@@ -53,26 +53,26 @@ filldraw((0,0)--(7,0)--(7,7)--(0,7)--cycle,gray(0.7),linewidth(1));
 filldraw((0,0)--(4,0)--(4,4)--(0,4)--cycle,white,linewidth(1));
 draw((11,0)--(11,4),linewidth(1));
 draw((11,6)--(11,10),linewidth(1));
-label("\$10\$",(11,5),fontsize(14pt));
+label("$10$",(11,5),fontsize(14pt));
 draw((10.75,0)--(11.25,0),linewidth(1));
 draw((10.75,10)--(11.25,10),linewidth(1));
 draw((0,11)--(3,11),linewidth(1));
 draw((5,11)--(9,11),linewidth(1));
 draw((0,11.25)--(0,10.75),linewidth(1));
 draw((9,11.25)--(9,10.75),linewidth(1));
-label("\$9\$",(4,11),fontsize(14pt));
+label("$9$",(4,11),fontsize(14pt));
 draw((-1,0)--(-1,1),linewidth(1));
 draw((-1,3)--(-1,7),linewidth(1));
 draw((-1.25,0)--(-0.75,0),linewidth(1));
 draw((-1.25,7)--(-0.75,7),linewidth(1));
-label("\$7\$",(-1,2),fontsize(14pt));
+label("$7$",(-1,2),fontsize(14pt));
 draw((0,-1)--(1,-1),linewidth(1));
 draw((3,-1)--(4,-1),linewidth(1));
 draw((0,-1.25)--(0,-.75),linewidth(1));
 draw((4,-1.25)--(4,-.75),linewidth(1));
-label("\$4\$",(2,-1),fontsize(14pt));
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+label("$4$",(2,-1),fontsize(14pt));
+\end{asy}
+\end{center}
 
 \(\textbf{(A)}\ 42 \qquad \textbf{(B)}\ 45\qquad \textbf{(C)}\ 49\qquad \textbf{(D)}\ 50\qquad \textbf{(E)}\ 52\)\par \vspace{0.5em}\item When Yunji added all the integers from \(1\) to \(9\), she mistakenly left out a number. Her sum turned out to be a square number. What number did Yunji leave out?
 
@@ -95,8 +95,8 @@ label("\$4\$",(2,-1),fontsize(14pt));
 \(\textbf{(A)}\ 399 \qquad \textbf{(B)}\ 414 \qquad \textbf{(C)}\ 420 \qquad \textbf{(D)}\ 444 \qquad \textbf{(E)}\ 459\)\par \vspace{0.5em}\item The coordinates of \(\triangle ABC\) are \(A(5,7)\), \(B(11,7)\), and \(C(3,y)\), with \(y>7\). The area of \(\triangle ABC\) is 12. What is the value of \(y\)?
 
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 // Diagram inaccurate to prevent measuring with ruler.
@@ -104,16 +104,16 @@ size(10cm);
 draw((3,10)--(11,7)--(5,7)--(3,10));
 
 dot((5,7));
-label("\$A(5,7)\$",(5,7),S);
+label("$A(5,7)$",(5,7),S);
 dot((11,7));
-label("\$B(11,7)\$",(11,7),S);
+label("$B(11,7)$",(11,7),S);
 
 dot((3,10));
-label("\$C(3,y)\$",(3,10),NW);
+label("$C(3,y)$",(3,10),NW);
 
 // Problem 11: put on here by Andrei.martynau
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+\end{asy}
+\end{center}
 
 
 \(\textbf{(A) }8\qquad\textbf{(B) }9\qquad\textbf{(C) }10\qquad\textbf{(D) }11\qquad \textbf{(E) }12\)\par \vspace{0.5em}\item Rohan keeps a total of \(90\) guppies in \(4\) fish tanks.
@@ -130,8 +130,8 @@ How many guppies are in the \(4\)th tank?
 (For example, one sequence of hops is up-up-down-down-up-down.)
 
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 /* AMC8 P13 2024, revised by Teacher David */
@@ -149,54 +149,54 @@ import graph;
 /**
  * Define a quadratic bezier curve function.
  */
-typedef pair quad\_bezier(real t);
-quad\_bezier fungen (pair a, pair b, pair c) \{
-  return new pair (real t) \{
+typedef pair quad_bezier(real t);
+quad_bezier fungen (pair a, pair b, pair c) {
+  return new pair (real t) {
     real x = (1-t)*(1-t)*a.x + 2*(1-t)*t*b.x + t*t*c.x;
     real y = (1-t)*(1-t)*a.y + 2*(1-t)*t*b.y + t*t*c.y;
     return (x,y);
-  \};
-\}
+  };
+}
 
-quad\_bezier qb0 = fungen((293,243),(237,276),(239,310));
+quad_bezier qb0 = fungen((293,243),(237,276),(239,310));
 draw(graph(qb0, 0,1));
-quad\_bezier qb1 = fungen((239,310),(274,301),(295,254));
+quad_bezier qb1 = fungen((239,310),(274,301),(295,254));
 draw(graph(qb1, 0,1));
-quad\_bezier qb2 = fungen((266,294),(260,309),(266,323));
+quad_bezier qb2 = fungen((266,294),(260,309),(266,323));
 draw(graph(qb2, 0,1));
-quad\_bezier qb3 = fungen((266,323),(294,311),(302,257));
+quad_bezier qb3 = fungen((266,323),(294,311),(302,257));
 draw(graph(qb3, 0,1));
-quad\_bezier qb4 = fungen((333,258),(341,249),(348,244));
+quad_bezier qb4 = fungen((333,258),(341,249),(348,244));
 draw(graph(qb4, 0,1));
-quad\_bezier qb5 = fungen((348,244),(355,241),(351,234));
+quad_bezier qb5 = fungen((348,244),(355,241),(351,234));
 draw(graph(qb5, 0,1));
-quad\_bezier qb6 = fungen((351,234),(348,226),(338,226));
+quad_bezier qb6 = fungen((351,234),(348,226),(338,226));
 draw(graph(qb6, 0,1));
-quad\_bezier qb7 = fungen((351,234),(350,219),(321,208));
+quad_bezier qb7 = fungen((351,234),(350,219),(321,208));
 draw(graph(qb7, 0,1));
-quad\_bezier qb8 = fungen((260,247),(135,293),(137,170));
+quad_bezier qb8 = fungen((260,247),(135,293),(137,170));
 draw(graph(qb8, 0,1));
-quad\_bezier qb9 = fungen((122,161),(132,147),(148,144));
+quad_bezier qb9 = fungen((122,161),(132,147),(148,144));
 draw(graph(qb9, 0,1));
-quad\_bezier qb10 = fungen((148,144),(176,155),(204,146));
+quad_bezier qb10 = fungen((148,144),(176,155),(204,146));
 draw(graph(qb10, 0,1));
-quad\_bezier qb11 = fungen((204,146),(216,141),(235,137));
+quad_bezier qb11 = fungen((204,146),(216,141),(235,137));
 draw(graph(qb11, 0,1));
-quad\_bezier qb12 = fungen((228,156),(208,160),(188,161));
+quad_bezier qb12 = fungen((228,156),(208,160),(188,161));
 draw(graph(qb12, 0,1));
-quad\_bezier qb13 = fungen((319,214),(313,174),(283,168));
+quad_bezier qb13 = fungen((319,214),(313,174),(283,168));
 draw(graph(qb13, 0,1));
-quad\_bezier qb14 = fungen((228,156),(242,158),(247,171));
+quad_bezier qb14 = fungen((228,156),(242,158),(247,171));
 draw(graph(qb14, 0,1));
-quad\_bezier qb15 = fungen((245,181),(250,158),(266,143));
+quad_bezier qb15 = fungen((245,181),(250,158),(266,143));
 draw(graph(qb15, 0,1));
-quad\_bezier qb16 = fungen((266,143),(287,134),(298,135));
+quad_bezier qb16 = fungen((266,143),(287,134),(298,135));
 draw(graph(qb16, 0,1));
-quad\_bezier qb17 = fungen((298,135),(309,143),(300,148));
+quad_bezier qb17 = fungen((298,135),(309,143),(300,148));
 draw(graph(qb17, 0,1));
-quad\_bezier qb18 = fungen((300,148),(272,150),(270,175));
+quad_bezier qb18 = fungen((300,148),(272,150),(270,175));
 draw(graph(qb18, 0,1));
-quad\_bezier qb19 = fungen((282,177),(274,158),(300,148));
+quad_bezier qb19 = fungen((282,177),(274,158),(300,148));
 draw(graph(qb19, 0,1));
 
 draw(arc((317.8948497854077,245.25965665236052), 19.760615163024095, 143.54947493250435, 40.14574559948477));
@@ -211,23 +211,23 @@ filldraw(rotate(14.036243467926468,(315,251))*ellipse((315,235), 9.2195444572928
 pair o = (400,190);
 real len=80;
 real height=56;
-for (int i=0; i<4; ++i) \{
+for (int i=0; i<4; ++i) {
     pair a = (i*len, i*height);
     path p = a -- a+(len,0) -- a+(len, height);
     draw(shift(o)*p);
-\}
+}
 path p = (0,0)--(0,-height)--(4*len,-height);
 draw(shift(o)*p);
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+\end{asy}
+\end{center}
 
 
 
 \(\textbf{(A)}\ 4 \qquad \textbf{(B)}\ 5 \qquad \textbf{(C)}\ 6 \qquad \textbf{(D)}\ 8 \qquad \textbf{(E)}\ 12\)\par \vspace{0.5em}\item What is the distance of the shortest route from A to Z?
 
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 /* AMC8 P14 2024, by NUMANA: BUI VAN HIEU */
@@ -235,30 +235,30 @@ import graph;
 unitsize(2cm);
 real r=0.25;
 // Define the nodes and their positions
-pair[] nodes = \{ (0,0), (2,0), (1,1), (3,1), (4,0), (6,0) \};
-string[] labels = \{ "A", "M", "X", "Y", "C", "Z" \};
+pair[] nodes = { (0,0), (2,0), (1,1), (3,1), (4,0), (6,0) };
+string[] labels = { "A", "M", "X", "Y", "C", "Z" };
 
 // Draw the nodes as circles with labels
-for(int i = 0; i < nodes.length; ++i) \{
+for(int i = 0; i < nodes.length; ++i) {
     draw(circle(nodes[i], r));
-    label("\$" + labels[i] + "\$", nodes[i]);
-\}
+    label("$" + labels[i] + "$", nodes[i]);
+}
 // Define the edges with their node indices and labels
-int[][] edges = \{ \{0, 1\}, \{0, 2\}, \{2, 1\}, \{2, 3\}, \{1, 3\}, \{1, 4\}, \{3, 4\}, \{4, 5\}, \{3, 5\} \};
-string[] edgeLabels = \{ "8", "5", "2", "10", "6", "14", "5", "10", "17" \};
-pair[] edgeLabelsPos = \{ S, SE, SW, S, SE, S, SW, S, NE\};
+int[][] edges = { {0, 1}, {0, 2}, {2, 1}, {2, 3}, {1, 3}, {1, 4}, {3, 4}, {4, 5}, {3, 5} };
+string[] edgeLabels = { "8", "5", "2", "10", "6", "14", "5", "10", "17" };
+pair[] edgeLabelsPos = { S, SE, SW, S, SE, S, SW, S, NE};
 // Draw the edges with labels
-for (int i = 0; i < edges.length; ++i) \{
+for (int i = 0; i < edges.length; ++i) {
     pair start = nodes[edges[i][0]];
     pair end = nodes[edges[i][1]];
     draw(start + r*dir(end-start) -- end-r*dir(end-start), Arrow);
-    label("\$" + edgeLabels[i] + "\$", midpoint(start -- end),  edgeLabelsPos[i]);
-\}
+    label("$" + edgeLabels[i] + "$", midpoint(start -- end),  edgeLabelsPos[i]);
+}
 // Draw the curved edge with label
 draw(nodes[1]+r * dir(-45)..controls (3, -0.75) and (5, -0.75)..nodes[5]+r * dir(-135), Arrow);
-label("\$25\$", midpoint(nodes[1]..controls (3, -0.75) and (5, -0.75)..nodes[5]), 2S);
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+label("$25$", midpoint(nodes[1]..controls (3, -0.75) and (5, -0.75)..nodes[5]), 2S);
+\end{asy}
+\end{center}
 
 
 \(\textbf{(A)}\ 28 \qquad \textbf{(B)}\ 29 \qquad \textbf{(C)}\ 30 \qquad \textbf{(D)}\ 31 \qquad \textbf{(E)}\ 32\)\par \vspace{0.5em}\item Let the letters \(F,L,Y,B,U,G\) represent distinct digits. Suppose \(\underline{F}~\underline{L}~\underline{Y}~\underline{F}~\underline{L}~\underline{Y}\) is the GREATEST number that satisfies the equation
@@ -276,8 +276,8 @@ What is the value of \(\underline{F}~\underline{L}~\underline{Y}+\underline{B}~\
 \(\textbf{(A) } 8\qquad\textbf{(B) } 9\qquad\textbf{(C) } 10\qquad\textbf{(D) } 11\qquad\textbf{(E) } 12\)\par \vspace{0.5em}\item A chess king is said to ''attack'' all squares one step away from it (basically any square right next to it in any direction), horizontally, vertically, or diagonally. For instance, a king on the center square of a 3 x 3 grid attacks all 8 other squares, as shown below. Suppose a white king and a black king are placed on different squares of 3 x 3 grid so that they do not attack each other. In how many ways can this be done?
 
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 /* AMC8 P17 2024, revised by Teacher David */
@@ -285,23 +285,23 @@ unitsize(29pt);
 import math;
 add(grid(3,3));
 
-pair [] a = \{(0.5,0.5), (0.5, 1.5), (0.5, 2.5), (1.5, 2.5), (2.5,2.5), (2.5,1.5), (2.5,0.5), (1.5,0.5)\};
+pair [] a = {(0.5,0.5), (0.5, 1.5), (0.5, 2.5), (1.5, 2.5), (2.5,2.5), (2.5,1.5), (2.5,0.5), (1.5,0.5)};
 
-for (int i=0; i<a.length; ++i) \{
+for (int i=0; i<a.length; ++i) {
     pair x = (1.5,1.5) + 0.4*dir(225-45*i);
     draw(x -- a[i], arrow=EndArrow());
-\}
+}
 
-label("\$K\$", (1.5,1.5));
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+label("$K$", (1.5,1.5));
+\end{asy}
+\end{center}
 
 
 \(\textbf{(A)}\ 20 \qquad \textbf{(B)}\ 24 \qquad \textbf{(C)}\ 27 \qquad \textbf{(D)}\ 28 \qquad \textbf{(E)}\ 32\)\par \vspace{0.5em}\item Three concentric circles centered at \(O\) have a radius of \(1,2,\) and \(3\). Points \(B\) and \(C\) lie on the largest circle. The region between the two smaller circles is shaded, as is the portion of the region between the two larger circles bounded by central angle \(BOC\), as shown in the figure below. Suppose the shaded and unshaded regions are equal in area. What is the measure of \(\angle{BOC}\) in degrees?
 
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 size(100);
@@ -313,16 +313,16 @@ draw(circle((0,0),3));
 real radius = 3;
 real angleStart = -54;  // starting angle of the sector
 real angleEnd = 54;  // ending angle of the sector
-label("\$O\$",(0,0),W);
+label("$O$",(0,0),W);
 pair O = (0, 0);
 filldraw(arc(O, radius, angleStart, angleEnd)--O--cycle, lightgray);
 filldraw(circle((0,0),2),lightgray);
 filldraw(circle((0,0),1),white);
 draw((1.763,2.427)--(0,0)--(1.763,-2.427));
-label("\$B\$",(1.763,2.427),NE);
-label("\$C\$",(1.763,-2.427),SE);
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+label("$B$",(1.763,2.427),NE);
+label("$C$",(1.763,-2.427),SE);
+\end{asy}
+\end{center}
 
 
 \(\textbf{(A)}\ 108 \qquad \textbf{(B)}\ 120 \qquad \textbf{(C)}\ 135 \qquad \textbf{(D)}\ 144 \qquad \textbf{(E)}\ 150\)\par \vspace{0.5em}\item Jordan owns 15 pairs of sneakers. Three fifths of the pairs are red and the rest are white. Two thirds of the pairs are high-top and the rest are low-top. The red high-top sneakers make up a fraction of the collection. What is the least possible value of this fraction?
@@ -333,8 +333,8 @@ label("\$C\$",(1.763,-2.427),SE);
 \(\textbf{(A) } 0\qquad\textbf{(B) } \dfrac{1}{5} \qquad\textbf{(C) } \dfrac{4}{15} \qquad\textbf{(D) } \dfrac{1}{3} \qquad\textbf{(E) } \dfrac{2}{5}\)\par \vspace{0.5em}\item Any three vertices of the cube \(PQRSTUVW,\) shown in the figure below, can be connected to form a triangle. \((\)For example, vertices \(P, Q,\) and \(R\) can be connected to form \(\triangle{PQR}.)\) How many of these triangles are equilateral and contain \(P\) as a vertex?
 
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 unitsize(4);
@@ -349,16 +349,16 @@ dot(T);
 dot(U);
 dot(V);
 dot(W);
-label("\$P\$",P,NW);
-label("\$Q\$",Q,NW);
-label("\$R\$",R,NE);
-label("\$S\$",S,N);
-label("\$T\$",T,NE);
-label("\$U\$",U,NE);
-label("\$V\$",V,SE);
-label("\$W\$",W,SW);
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+label("$P$",P,NW);
+label("$Q$",Q,NW);
+label("$R$",R,NE);
+label("$S$",S,N);
+label("$T$",T,NE);
+label("$U$",U,NE);
+label("$V$",V,SE);
+label("$W$",W,SW);
+\end{asy}
+\end{center}
 
 
 \(\textbf{(A) }0\qquad\textbf{(B) }1\qquad\textbf{(C) }2\qquad\textbf{(D) }3\qquad\textbf{(E) }6\)\par \vspace{0.5em}\item A group of frogs (called an ''army'') is living in a tree. A frog turns green when in the shade and turns yellow
@@ -369,8 +369,8 @@ between the number of green frogs and the number of yellow frogs now?
 \(\textbf{(A) } 10\qquad\textbf{(B) } 12\qquad\textbf{(C) } 16\qquad\textbf{(D) } 20\qquad\textbf{(E) } 24\)\par \vspace{0.5em}\item A  roll of tape is \(4\) inches in diameter and is wrapped around a ring that is \(2\) inches in diameter. A cross section of the tape is shown in the figure below. The tape is \(0.015\) inches thick. If the tape is completely unrolled, approximately how long would it be? Round your answer to the nearest \(100\) inches.
 
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 /* AMC8 P22 2024, revised by Teacher David */
@@ -390,15 +390,15 @@ draw((-2,-2.5)--(2,-2.5), L=Label("4 in."));
 draw((-1,0)--(1,0), L=Label("2 in.", align=(0,1)), arrow=Arrows());
 
 draw((2,0)--(2,-1.3), linewidth(1pt));
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+\end{asy}
+\end{center}
 
 
 \(\textbf{(A) } 300\qquad\textbf{(B) } 600\qquad\textbf{(C) } 1200\qquad\textbf{(D) } 1500\qquad\textbf{(E) } 1800\)\par \vspace{0.5em}\item Rodrigo has a very large sheet of graph paper. First he draws a line segment connecting point \((0,4)\) to point \((2,0)\) and colors the \(4\) cells whose interiors intersect the segment, as shown below. Next Rodrigo draws a line segment connecting point \((2000,3000)\) to point \((5000,8000)\). How many cells will he color this time?
 
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 filldraw((0,4)--(1,4)--(1,3)--(0,3)--cycle, gray(.75), gray(.5)+linewidth(1));
@@ -424,24 +424,24 @@ draw((-1,-1)--(5,-1),gray(.9));
 
 
 dot((0,4));
-label("\$(0,4)\$",(0,4),NW);
+label("$(0,4)$",(0,4),NW);
 
 dot((2,0));
-label("\$(2,0)\$",(2,0),SE);
+label("$(2,0)$",(2,0),SE);
 
 draw((0,4)--(2,0));
 
 draw((-1,0) -- (5,0), arrow=Arrow);
 draw((0,-1) -- (0,5), arrow=Arrow);
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+\end{asy}
+\end{center}
 
 
 \(\textbf{(A) }6000\qquad\textbf{(B) }6500\qquad\textbf{(C) }7000\qquad\textbf{(D) }7500\qquad\textbf{(E) }8000\)\par \vspace{0.5em}\item Jean has made a piece of stained glass art in the shape of two mountains, as shown in the figure below. One mountain peak is \(8\) feet high while the other peak is \(12\) feet high. Each peak forms a \(90^\circ\) angle, and the straight sides form a \(45^\circ\) angle with the ground. The artwork has an area of \(183\) square feet. The sides of the mountain meet at an intersection point near the center of the artwork, \(h\) feet above the ground. What is the value of \(h?\)
 
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 unitsize(.3cm);
@@ -449,21 +449,21 @@ filldraw((0,0)--(8,8)--(11,5)--(18,12)--(30,0)--cycle,gray(0.7),linewidth(1));
 draw((-1,0)--(-1,8),linewidth(.75));
 draw((-1.4,0)--(-.6,0),linewidth(.75));
 draw((-1.4,8)--(-.6,8),linewidth(.75));
-label("\$8\$",(-1,4),W);
-label("\$12\$",(31,6),E);
+label("$8$",(-1,4),W);
+label("$12$",(31,6),E);
 draw((-1,8)--(8,8),dashed);
 draw((31,0)--(31,12),linewidth(.75));
 draw((30.6,0)--(31.4,0),linewidth(.75));
 draw((30.6,12)--(31.4,12),linewidth(.75));
 draw((31,12)--(18,12),dashed);
-label("\$45\^{}\{\textbackslash\{\}circ\}\$",(.75,0),NE,fontsize(10pt));
-label("\$45\^{}\{\textbackslash\{\}circ\}\$",(29.25,0),NW,fontsize(10pt));
+label("$45^{\circ}$",(.75,0),NE,fontsize(10pt));
+label("$45^{\circ}$",(29.25,0),NW,fontsize(10pt));
 draw((8,8)--(7.5,7.5)--(8,7)--(8.5,7.5)--cycle);
 draw((18,12)--(17.5,11.5)--(18,11)--(18.5,11.5)--cycle);
 draw((11,5)--(11,0),dashed);
-label("\$h\$",(11,2.5),E);
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+label("$h$",(11,2.5),E);
+\end{asy}
+\end{center}
 
 
 \(\textbf{(A)}\ 4 \qquad \textbf{(B)}\ 5 \qquad \textbf{(C)}\ 4\sqrt{2} \qquad \textbf{(D)}\ 6 \qquad \textbf{(E)}\ 5\sqrt{2}\)\par \vspace{0.5em}\item A airplane has \(4\) rows of seats with \(3\) seats in each row. Eight passengers have boarded the plane and are distributed randomly among the seats. A married couple is next to board. What is the probability there will be \(2\) adjacent seats in the same row for the couple?

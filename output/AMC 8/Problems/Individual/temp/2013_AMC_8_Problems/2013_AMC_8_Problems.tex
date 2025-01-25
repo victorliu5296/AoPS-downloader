@@ -42,8 +42,8 @@
 \(\textbf{(A)}\ \text{median, by 60} \qquad \textbf{(B)}\ \text{median, by 20} \qquad \textbf{(C)}\ \text{average, by 5} \qquad \textbf{(D)}\ \text{average, by 15} \qquad \textbf{(E)}\ \text{average, by 20}\)\par \vspace{0.5em}\item The number in each box below is the product of the numbers in the two boxes that touch it in the row above. For example, \(30 = 6\times5\). What is the missing number in the top row?
 
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 unitsize(0.8cm);
@@ -57,8 +57,8 @@ label("600",(0,-1));
 label("30",(-1,1));
 label("6",(-2,3));
 label("5",(0,3));
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+\end{asy}
+\end{center}
 
 
 \(\textbf{(A)}\ 2 \qquad \textbf{(B)}\ 3 \qquad \textbf{(C)}\ 4 \qquad \textbf{(D)}\ 5 \qquad \textbf{(E)}\ 6\)\par \vspace{0.5em}\item Trey and his mom stopped at a railroad crossing to let a train pass. As the train began to pass, Trey counted 6 cars in the first 10 seconds. It took the train 2 minutes and 45 seconds to clear the crossing at a constant speed. Which of the following was the most likely number of cars in the train?
@@ -86,8 +86,8 @@ label("5",(0,3));
 \(\textbf{(A)}\ 335 \qquad \textbf{(B)}\ 338 \qquad \textbf{(C)}\ 340 \qquad \textbf{(D)}\ 345 \qquad \textbf{(E)}\ 350\)\par \vspace{0.5em}\item Isabella uses one-foot cubical blocks to build a rectangular fort that is 12 feet long, 10 feet wide, and 5 feet high. The floor and the four walls are all one foot thick. How many blocks does the fort contain?
 
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 import three;
@@ -144,8 +144,8 @@ draw(E--F--G--H--cycle);
 label("10",(A--B),SE);
 label("12",(C--B),SW);
 label("5",(F--B),W);
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+\end{asy}
+\end{center}
 
 
 \(\textbf{(A)}\ 204 \qquad \textbf{(B)}\ 280 \qquad \textbf{(C)}\ 320 \qquad \textbf{(D)}\ 340 \qquad \textbf{(E)}\ 600\)\par \vspace{0.5em}\item Bridget, Cassie, and Hannah are discussing the results of their last math test. Hannah shows Bridget and Cassie her test, but Bridget and Cassie don't show theirs to anyone. Cassie says, 'I didn't get the lowest score in our class,' and Bridget adds, 'I didn't get the highest score.' What is the ranking of the three girls from the highest score to the lowest score?
@@ -157,23 +157,23 @@ label("5",(F--B),W);
 \(\textbf{(A)}\ 3 \qquad \textbf{(B)}\ 6 \qquad \textbf{(C)}\ 9 \qquad \textbf{(D)}\ 12 \qquad \textbf{(E)}\ 18\)\par \vspace{0.5em}\item Toothpicks are used to make a grid that is 60 toothpicks long and 32 toothpicks wide. How many toothpicks are used altogether?
 
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 picture corner;
 draw(corner,(5,0)--(35,0));
 draw(corner,(0,-5)--(0,-35));
 for (int i=0; i<3; ++i)
-\{
+{
 for (int j=0; j>-2; --j)
-\{
+{
 if ((i-j)<3)
-\{
+{
 add(corner,(50i,50j));
-\}
-\}
-\}
+}
+}
+}
 draw((5,-100)--(45,-100));
 draw((155,0)--(185,0),dotted);
 draw((105,-50)--(135,-50),dotted);
@@ -181,15 +181,15 @@ draw((100,-55)--(100,-85),dotted);
 draw((55,-100)--(85,-100),dotted);
 draw((50,-105)--(50,-135),dotted);
 draw((0,-105)--(0,-135),dotted);
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+\end{asy}
+\end{center}
 
 
 \(\textbf{(A)}\ 1920 \qquad \textbf{(B)}\ 1952 \qquad \textbf{(C)}\ 1980 \qquad \textbf{(D)}\ 2013 \qquad \textbf{(E)}\ 3932\)\par \vspace{0.5em}\item Angle \(ABC\) of \(\triangle ABC\) is a right angle. The sides of \(\triangle ABC\) are the diameters of semicircles as shown. The area of the semicircle on \(\overline{AB}\) equals \(8\pi\), and the arc of the semicircle on \(\overline{AC}\) has length \(8.5\pi\). What is the radius of the semicircle on \(\overline{BC}\)?
 
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 import graph;
@@ -205,18 +205,18 @@ draw((0,8)--(15,0));
 dot(A);
 dot(B);
 dot(C);
-label("\$A\$", A, NW);
-label("\$B\$", B, SW);
-label("\$C\$", C, SE);
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+label("$A$", A, NW);
+label("$B$", B, SW);
+label("$C$", C, SE);
+\end{asy}
+\end{center}
 
 
 \(\textbf{(A)}\ 7 \qquad \textbf{(B)}\ 7.5 \qquad \textbf{(C)}\ 8 \qquad \textbf{(D)}\ 8.5 \qquad \textbf{(E)}\ 9\)\par \vspace{0.5em}\item Squares \(ABCD\), \(EFGH\), and \(GHIJ\) are equal in area. Points \(C\) and \(D\) are the midpoints of sides \(IH\) and \(HE\), respectively. What is the ratio of the area of the shaded pentagon \(AJICB\) to the sum of the areas of the three squares?
 
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 pair A,B,C,D,E,F,G,H,I,J;
@@ -241,26 +241,26 @@ draw(G--H);
 draw(A--J); 
 filldraw(A--B--C--I--J--cycle,grey);
 draw(E--I);
-label("\$A\$", A, NW);
-label("\$B\$", B, NE);
-label("\$C\$", C, NE);
-label("\$D\$", D, NW);
-label("\$E\$", E, NW);
-label("\$F\$", F, SW);
-label("\$G\$", G, S);
-label("\$H\$", H, N);
-label("\$I\$", I, NE);
-label("\$J\$", J, SE);
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+label("$A$", A, NW);
+label("$B$", B, NE);
+label("$C$", C, NE);
+label("$D$", D, NW);
+label("$E$", E, NW);
+label("$F$", F, SW);
+label("$G$", G, S);
+label("$H$", H, N);
+label("$I$", I, NE);
+label("$J$", J, SE);
+\end{asy}
+\end{center}
 
 
 
 \( \textbf{(A)}\hspace{.05in}\frac{1}{4}\qquad\textbf{(B)}\hspace{.05in}\frac{7}{24}\qquad\textbf{(C)}\hspace{.05in}\frac{1}{3}\qquad\textbf{(D)}\hspace{.05in}\frac{3}{8}\qquad\textbf{(E)}\hspace{.05in}\frac{5}{12}\)\par \vspace{0.5em}\item A ball with diameter 4 inches starts at point A to roll along the track shown. The track is comprised of 3 semicircular arcs whose radii are \(R_1 = 100\) inches, \(R_2 = 60\) inches, and \(R_3 = 80\) inches, respectively. The ball always remains in contact with the track and does not slip. What is the distance the center of the ball travels over the course from A to B?
 
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 pair A,B;
@@ -275,13 +275,13 @@ draw((320,0)..(400,-80)..(480,0));
 draw((100,0)--(150,-50sqrt(3)),Arrow(size=4));
 draw((260,0)--(290,30sqrt(3)),Arrow(size=4));
 draw((400,0)--(440,-40sqrt(3)),Arrow(size=4));
-label("\$A\$", A, SW);
-label("\$B\$", B, SE);
-label("\$R\_1\$", (100,-40), W);
-label("\$R\_2\$", (260,40), SW);
-label("\$R\_3\$", (400,-40), W);
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+label("$A$", A, SW);
+label("$B$", B, SE);
+label("$R_1$", (100,-40), W);
+label("$R_2$", (260,40), SW);
+label("$R_3$", (400,-40), W);
+\end{asy}
+\end{center}
 
 
 \( \textbf{(A)}\ 238\pi\qquad\textbf{(B)}\ 240\pi\qquad\textbf{(C)}\ 260\pi\qquad\textbf{(D)}\ 280\pi\qquad\textbf{(E)}\ 500\pi \)

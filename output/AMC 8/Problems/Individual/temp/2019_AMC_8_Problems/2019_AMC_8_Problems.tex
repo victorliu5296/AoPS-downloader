@@ -34,8 +34,8 @@
 \(\textbf{(A) }6\qquad\textbf{(B) }7\qquad\textbf{(C) }8\qquad\textbf{(D) }9\qquad\textbf{(E) }10\)\par \vspace{0.5em}\item Three identical rectangles are put together to form rectangle \(ABCD\), as shown in the figure below. Given that the length of the shorter side of each of the smaller rectangles is  5 feet, what is the area in square feet of rectangle \(ABCD\)?
 
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 draw((0,0)--(3,0));
@@ -52,8 +52,8 @@ label("A",(0,0),S);
 label("B",(3,0),S);
 label("C",(3,2),N);
 label("D",(0,2),N);
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+\end{asy}
+\end{center}
 
 
 \(\textbf{(A) }45\qquad\textbf{(B) }75\qquad\textbf{(C) }100\qquad\textbf{(D) }125\qquad\textbf{(E) }150\)\par \vspace{0.5em}\item Which of the following is the correct order of the fractions \(\frac{15}{11},\frac{19}{15},\) and \(\frac{17}{13},\) from least to greatest?
@@ -61,8 +61,8 @@ label("D",(0,2),N);
 \(\textbf{(A) }\frac{15}{11}< \frac{17}{13}< \frac{19}{15}  \qquad\textbf{(B) }\frac{15}{11}< \frac{19}{15}<\frac{17}{13}    \qquad\textbf{(C) }\frac{17}{13}<\frac{19}{15}<\frac{15}{11}    \qquad\textbf{(D) } \frac{19}{15}<\frac{15}{11}<\frac{17}{13}   \qquad\textbf{(E) }   \frac{19}{15}<\frac{17}{13}<\frac{15}{11}\)\par \vspace{0.5em}\item Quadrilateral \(ABCD\) is a rhombus with perimeter \(52\) meters. The length of diagonal \(\overline{AC}\) is \(24\) meters. What is the area in square meters of rhombus \(ABCD\)?
 
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 draw((-13,0)--(0,5));
@@ -77,15 +77,15 @@ label("A",(-13,0),W);
 label("B",(0,5),N);
 label("C",(13,0),E);
 label("D",(0,-5),S);
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+\end{asy}
+\end{center}
 
 
 \(\textbf{(A) }60\qquad\textbf{(B) }90\qquad\textbf{(C) }105\qquad\textbf{(D) }120\qquad\textbf{(E) }144\)\par \vspace{0.5em}\item A tortoise challenges a hare to a race. The hare eagerly agrees and quickly runs ahead, leaving the slow-moving tortoise behind. Confident that he will win, the hare stops to take a nap. Meanwhile, the tortoise walks at a slow steady pace for the entire race. The hare awakes and runs to the finish line, only to find the tortoise already there. Which of the following graphs matches the description of the race, showing the distance \(d\) traveled by the two animals over time \(t\) from start to finish?\par \vspace{0.5em}\item There are \(81\) grid points (uniformly spaced) in the square shown in the diagram below, including the points on the edges. Point \(P\) is in the center of the square. Given that point \(Q\) is randomly chosen among the other \(80\) points, what is the probability that the line \(PQ\) is a line of symmetry for the square?
 
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 draw((0,0)--(0,8));
@@ -182,8 +182,8 @@ dot((8,6));
 dot((8,7));
 dot((8,8));
 label("P",(4,4),NE);
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+\end{asy}
+\end{center}
 
 
 \(\textbf{(A) }\frac{1}{5}\qquad\textbf{(B) }\frac{1}{4} \qquad\textbf{(C) }\frac{2}{5} \qquad\textbf{(D) }\frac{9}{20} \qquad\textbf{(E) }\frac{1}{2}\)\par \vspace{0.5em}\item Shauna takes five tests, each worth a maximum of \(100\) points. Her scores on the first three tests are \(76\), \(94\), and \(87\). In order to average \(81\) for all five tests, what is the lowest score she could earn on one of the other two tests?
@@ -194,8 +194,8 @@ label("P",(4,4),NE);
 
 \(\textbf{(A) }1:4\qquad\textbf{(B) }1:2\qquad\textbf{(C) }1:1\qquad\textbf{(D) }2:1\qquad\textbf{(E) }4:1\)\par \vspace{0.5em}\item The diagram shows the number of students at soccer practice each weekday during last week. After computing the mean and median values, Coach discovers that there were actually \(21\) participants on Wednesday. Which of the following statements describes the change in the mean and median after the correction is made?
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 unitsize(2mm);
@@ -203,21 +203,21 @@ defaultpen(fontsize(8bp));
 real d = 5;
 real t = 0.7;
 real r;
-int[] num = \{20,26,16,22,16\};
-string[] days = \{"Monday","Tuesday","Wednesday","Thursday","Friday"\};
+int[] num = {20,26,16,22,16};
+string[] days = {"Monday","Tuesday","Wednesday","Thursday","Friday"};
 for (int i=0; i<30;
-i=i+2) \{ draw((i,0)--(i,-5*d),gray);
-\}for (int i=0;
+i=i+2) { draw((i,0)--(i,-5*d),gray);
+}for (int i=0;
 i<5;
-++i) \{   r = -1*(i+0.5)*d;
+++i) {   r = -1*(i+0.5)*d;
 fill((0,r-t)--(0,r+t)--(num[i],r+t)--(num[i],r-t)--cycle,gray);
 label(days[i],(-1,r),W);
-\}for(int i=0;
+}for(int i=0;
 i<32;
-i=i+4) \{ label(string(i),(i,1));
-\}label("Number of students at soccer practice",(14,3.5));
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+i=i+4) { label(string(i),(i,1));
+}label("Number of students at soccer practice",(14,3.5));
+\end{asy}
+\end{center}
 
 
 \(\textbf{(A) }\) The mean increases by \(1\) and the median does not change.
@@ -233,8 +233,8 @@ i=i+4) \{ label(string(i),(i,1));
 \(\textbf{(A) }16\qquad\textbf{(B) }23\qquad\textbf{(C) }31\qquad\textbf{(D) }39\qquad\textbf{(E) }70\)\par \vspace{0.5em}\item The faces of a cube are painted in six different colors: red \((R)\), white \((W)\), green \((G)\), brown \((B)\), aqua \((A)\), and purple \((P)\). Three views of the cube are shown below. What is the color of the face opposite the aqua face?
 
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 unitsize(2cm);
@@ -246,26 +246,26 @@ y = (0.6,0.5);
 z = (0,1);
 trans = (2,0);
 
-for (i = 0; i <= 2; ++i) \{
+for (i = 0; i <= 2; ++i) {
 draw(shift(i*trans)*((0,0)--x--(x + y)--(x + y + z)--(y + z)--z--cycle));
 draw(shift(i*trans)*((x + z)--x));
 draw(shift(i*trans)*((x + z)--(x + y + z)));
 draw(shift(i*trans)*((x + z)--z));
-\}
+}
 
-label(rotate(-3)*"\$R\$", (x + z)/2);
-label(rotate(-5)*slant(0.5)*"\$B\$", ((x + z) + (y + z))/2);
-label(rotate(35)*slant(0.5)*"\$G\$", ((x + z) + (x + y))/2);
+label(rotate(-3)*"$R$", (x + z)/2);
+label(rotate(-5)*slant(0.5)*"$B$", ((x + z) + (y + z))/2);
+label(rotate(35)*slant(0.5)*"$G$", ((x + z) + (x + y))/2);
 
-label(rotate(-3)*"\$W\$", (x + z)/2 + trans);
-label(rotate(50)*slant(-1)*"\$B\$", ((x + z) + (y + z))/2 + trans);
-label(rotate(35)*slant(0.5)*"\$R\$", ((x + z) + (x + y))/2 + trans);
+label(rotate(-3)*"$W$", (x + z)/2 + trans);
+label(rotate(50)*slant(-1)*"$B$", ((x + z) + (y + z))/2 + trans);
+label(rotate(35)*slant(0.5)*"$R$", ((x + z) + (x + y))/2 + trans);
 
-label(rotate(-3)*"\$P\$", (x + z)/2 + 2*trans);
-label(rotate(-5)*slant(0.5)*"\$R\$", ((x + z) + (y + z))/2 + 2*trans);
-label(rotate(-85)*slant(-1)*"\$G\$", ((x + z) + (x + y))/2 + 2*trans);
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+label(rotate(-3)*"$P$", (x + z)/2 + 2*trans);
+label(rotate(-5)*slant(0.5)*"$R$", ((x + z) + (y + z))/2 + 2*trans);
+label(rotate(-85)*slant(-1)*"$G$", ((x + z) + (x + y))/2 + 2*trans);
+\end{asy}
+\end{center}
 
 
 \(\textbf{(A) }\text{red}\qquad\textbf{(B) }\text{white}\qquad\textbf{(C) }\text{green}\qquad\textbf{(D) }\text{brown}\qquad\textbf{(E) }\text{purple}\)\par \vspace{0.5em}\item A ''palindrome'' is a number that has the same value when read from left to right or from right to left. (For example, 12321 is a palindrome.) Let \(N\) be the least three-digit integer which is not a palindrome but which is the sum of three distinct two-digit palindromes. What is the sum of the digits of \(N\)?
@@ -308,8 +308,8 @@ How many different real numbers \(x\) satisfy the equation
 \(\textbf{(A) }10\qquad\textbf{(B) }11\qquad\textbf{(C) }12\qquad\textbf{(D) }13\qquad\textbf{(E) }14\)\par \vspace{0.5em}\item In triangle \(ABC\), point \(D\) divides side \(\overline{AC}\) so that \(AD:DC=1:2\). Let \(E\) be the midpoint of \(\overline{BD}\) and let \(F\) be the point of intersection of line \(BC\) and line \(AE\). Given that the area of \(\triangle ABC\) is \(360\), what is the area of \(\triangle EBF\)?
 
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 unitsize(2cm);
@@ -322,19 +322,19 @@ FF = intersectionpoint(B--C,A--A+2*(EE-A));
 draw(A--B--C--cycle);
 draw(A--FF); 
 draw(B--DD);dot(A); 
-label("\$A\$",A,N);
+label("$A$",A,N);
 dot(B); 
-label("\$B\$",
+label("$B$",
 B,SW);dot(C); 
-label("\$C\$",C,SE);
+label("$C$",C,SE);
 dot(DD); 
-label("\$D\$",DD,NE);
+label("$D$",DD,NE);
 dot(EE); 
-label("\$E\$",EE,NW);
+label("$E$",EE,NW);
 dot(FF); 
-label("\$F\$",FF,S);
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+label("$F$",FF,S);
+\end{asy}
+\end{center}
 
 
 

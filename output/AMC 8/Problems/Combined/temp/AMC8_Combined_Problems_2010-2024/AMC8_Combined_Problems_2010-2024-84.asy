@@ -31,8 +31,8 @@ draw((2i,-0.2)--(2i,16.2), grey);
 }
 Label f;
 f.p=fontsize(6);
-xaxis(-0.5,17.8,Ticks(f, 2.0),Arrow());
-yaxis(-0.5,17.8,Ticks(f, 2.0),Arrow());
+xaxis(-0.5,17.8,graph.Ticks(f, 2.0),Arrow());
+yaxis(-0.5,17.8,graph.Ticks(f, 2.0),Arrow());
 real f(real x)
 {
 return -0.03125 x^(3) + 0.75x^(2) - 5.125 x + 14.5;

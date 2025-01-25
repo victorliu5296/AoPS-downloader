@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 17:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 17:44
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -903,77 +903,61 @@ Overfull \hbox (19.20294pt too wide) in paragraph at lines 42--42
 []$[] [] [] [] [] [] [] [] [] []$ 
  []
 
+\openout4 = `2013_AMC_8_Problems-1.asy'.
 
-Overfull \hbox (14.84277pt too wide) in paragraph at lines 45--62
-\OT1/cmr/m/n/10 (-1,4)--(-3,4)--cycle); draw((-1,2)--(1,2)--(1,4)--(-1,4)--cycl
-e); draw((1,2)--(1,4)--(3,4)--(3,2)--cycle); label("600",(0,-
- []
-
-
-
-[2]
-Overfull \hbox (68.65756pt too wide) in paragraph at lines 89--149
-[]\OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 ce
-nter\OMS/cmsy/m/n/10 g nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/1
-0 asy\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 im-port olympiad; im-port cse5; im-port
- three; size(3inch); currentprojection=orthographic(-
- []
+<2013_AMC_8_Problems-1.pdf, id=14, 137.07512pt x 137.07512pt>
+File: 2013_AMC_8_Problems-1.pdf Graphic file (type pdf)
+<use 2013_AMC_8_Problems-1.pdf>
+Package pdftex.def Info: 2013_AMC_8_Problems-1.pdf  used on input line 60.
+(pdftex.def)             Requested size: 137.07477pt x 137.07477pt.
 
 
-Overfull \hbox (39.5648pt too wide) in paragraph at lines 89--149
-\OT1/cmr/m/n/10 D--H--cycle); draw(surface(D--C--G--H--cycle),white,nolight); d
-raw(D--C--G--H--cycle); //in-side box far draw(surface(I--
- []
+[2 <./2013_AMC_8_Problems-1.pdf>]
+\openout4 = `2013_AMC_8_Problems-2.asy'.
+
+<2013_AMC_8_Problems-2.pdf, id=44, 216.81pt x 188.93585pt>
+File: 2013_AMC_8_Problems-2.pdf Graphic file (type pdf)
+<use 2013_AMC_8_Problems-2.pdf>
+Package pdftex.def Info: 2013_AMC_8_Problems-2.pdf  used on input line 147.
+(pdftex.def)             Requested size: 216.80946pt x 188.93538pt.
 
 
-Overfull \hbox (35.91675pt too wide) in paragraph at lines 89--149
-\OT1/cmr/m/n/10 draw(surface(I--J--N--M--cycle),white,nolight); draw(I--J--N--M
---cycle); draw(surface(J--K--O--N--cycle),white,nolight);
- []
+[3 <./2013_AMC_8_Problems-2.pdf>]
+\openout4 = `2013_AMC_8_Problems-3.asy'.
+
+<2013_AMC_8_Problems-3.pdf, id=62, 227.62039pt x 166.24107pt>
+File: 2013_AMC_8_Problems-3.pdf Graphic file (type pdf)
+<use 2013_AMC_8_Problems-3.pdf>
+Package pdftex.def Info: 2013_AMC_8_Problems-3.pdf  used on input line 184.
+(pdftex.def)             Requested size: 227.61983pt x 166.24065pt.
+\openout4 = `2013_AMC_8_Problems-4.asy'.
+
+<2013_AMC_8_Problems-4.pdf, id=63, 227.62239pt x 225.81564pt>
+File: 2013_AMC_8_Problems-4.pdf Graphic file (type pdf)
+<use 2013_AMC_8_Problems-4.pdf>
+Package pdftex.def Info: 2013_AMC_8_Problems-4.pdf  used on input line 211.
+(pdftex.def)             Requested size: 227.62183pt x 225.81508pt.
 
 
-Overfull \hbox (49.01402pt too wide) in paragraph at lines 89--149
-\OT1/cmr/m/n/10 M--cycle),white,nolight); draw(surface(E--M--N--F--cycle),white
-,nolight); draw(surface(F--N--O--G--cycle),white,nolight);
- []
+[4 <./2013_AMC_8_Problems-3.pdf> <./2013_AMC_8_Problems-4.pdf>]
+\openout4 = `2013_AMC_8_Problems-5.asy'.
+
+<2013_AMC_8_Problems-5.pdf, id=84, 227.1717pt x 227.62239pt>
+File: 2013_AMC_8_Problems-5.pdf Graphic file (type pdf)
+<use 2013_AMC_8_Problems-5.pdf>
+Package pdftex.def Info: 2013_AMC_8_Problems-5.pdf  used on input line 254.
+(pdftex.def)             Requested size: 227.17114pt x 227.62183pt.
+\openout4 = `2013_AMC_8_Problems-6.asy'.
+
+<2013_AMC_8_Problems-6.pdf, id=85, 227.62239pt x 67.5594pt>
+File: 2013_AMC_8_Problems-6.pdf Graphic file (type pdf)
+<use 2013_AMC_8_Problems-6.pdf>
+Package pdftex.def Info: 2013_AMC_8_Problems-6.pdf  used on input line 283.
+(pdftex.def)             Requested size: 227.62183pt x 67.55922pt.
 
 
-Overfull \hbox (15.37044pt too wide) in paragraph at lines 89--149
-\OT1/cmr/m/n/10 draw(surface(O--G--H--P--cycle),white,nolight); draw(M--N--O--P
---cycle); draw(E--F--G--H--cycle); label("10",(A--
- []
-
-
-
-[3]
-Overfull \hbox (0.45383pt too wide) in paragraph at lines 160--186
-\OMS/cmsy/m/n/10 g g g \OT1/cmr/m/n/10 draw((5,-100)--(45,-100)); draw((155,0)-
--(185,0),dotted); draw((105,-50)--(135,-50),dotted); draw((100,-
- []
-
-
-Overfull \hbox (4.60199pt too wide) in paragraph at lines 191--213
-[]\OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 ce
-nter\OMS/cmsy/m/n/10 g nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/1
-0 asy\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 im-port olympiad; im-port cse5; im-port
- graph; pair A,B,C; A=(0,8); B=(0,0);
- []
-
-
-Overfull \hbox (104.64862pt too wide) in paragraph at lines 262--285
-\OT1/cmr/m/n/10 draw((0,0)--(480,0),linetype("3 4")); fill-draw(circle((8,0),8)
-,black); draw((0,0)..(100,-100)..(200,0)); draw((200,0)..(260,60)..(320,0));
- []
-
-
-Overfull \hbox (85.72253pt too wide) in paragraph at lines 262--285
-\OT1/cmr/m/n/10 draw((320,0)..(400,-80)..(480,0)); draw((100,0)--(150,-50sqrt(3
-)),Arrow(size=4)); draw((260,0)--(290,30sqrt(3)),Arrow(size=4));
- []
-
-
-
-[4] (2013_AMC_8_Problems.aux)
+[5 <./2013_AMC_8_Problems-5.pdf> <./2013_AMC_8_Problems-6.pdf>]
+(2013_AMC_8_Problems.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
@@ -982,27 +966,31 @@ Package rerunfilecheck Info: File `2013_AMC_8_Problems.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25372 strings out of 473536
- 476613 string characters out of 5712052
- 895241 words of memory out of 5000000
- 48165 multiletter control sequences out of 15000+600000
+ 25429 strings out of 473536
+ 478497 string characters out of 5712052
+ 893241 words of memory out of 5000000
+ 48214 multiletter control sequences out of 15000+600000
  568025 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,107p,688b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,11n,107p,688b,605s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\DefaultUser\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm1000.pk><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/DefaultUse
-r/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Us
-ers/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-r10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmr17.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/DefaultUser/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on 2013_AMC_8_Problems.pdf (4 pages, 121754 bytes).
+r/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/U
+sers/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mmi7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/DefaultUser/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/DefaultUser/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Defau
+ltUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C
+:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb>
+Output written on 2013_AMC_8_Problems.pdf (5 pages, 159754 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 162 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

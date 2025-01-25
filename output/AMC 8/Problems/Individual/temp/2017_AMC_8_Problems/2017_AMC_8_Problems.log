@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 17:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 17:39
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -890,73 +890,65 @@ LaTeX Warning: No \author given.
 [1{C:/Users/DefaultUser/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 ]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
-0.
+\openout4 = `2017_AMC_8_Problems-1.asy'.
 
-(C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
-File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
-
-Overfull \hbox (0.87051pt too wide) in paragraph at lines 40--57
-[]\OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 ce
-nter\OMS/cmsy/m/n/10 g nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/1
-0 asy\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 im-port olympiad; im-port cse5; draw((-
-1,0)--(0,0)--(0,1)); draw((0,0)--(0.309,
- []
+<2017_AMC_8_Problems-1.pdf, id=14, 227.61537pt x 227.62239pt>
+File: 2017_AMC_8_Problems-1.pdf Graphic file (type pdf)
+<use 2017_AMC_8_Problems-1.pdf>
+Package pdftex.def Info: 2017_AMC_8_Problems-1.pdf  used on input line 55.
+(pdftex.def)             Requested size: 227.6148pt x 227.62183pt.
 
 
-Overfull \hbox (2.99097pt too wide) in paragraph at lines 40--57
-\OT1/cmr/m/n/10 0.5, 0.3)); la-bel("Alicia", (0.7, 0.2)); la-bel("45\OMS/cmsy/m
-/n/10 nfg\OT1/cmr/m/n/10 %", (0.7, 0)); la-bel("Brenda", (-0.5, -0.4)); la-bel(
-"30\OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 %",
- []
+[2 <./2017_AMC_8_Problems-1.pdf>]
+\openout4 = `2017_AMC_8_Problems-2.asy'.
 
-
-
-[2]
-Overfull \hbox (1.39345pt too wide) in paragraph at lines 134--163
-\OT1/cmr/m/n/10 cycle,lightgray); fill((1.5,3.5)--(2.5,3.5)--(2.5,1.5)--(1.5,1.
-5)--cycle,lightgray); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 8\TS1/cmr/m/n/10
- $\OT1/cmr/m/n/10 ", (1, 0)); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 C\TS1/cm
-r/m/n/10 $\OT1/cmr/m/n/10 ",
- []
-
+<2017_AMC_8_Problems-2.pdf, id=43, 209.62215pt x 227.62239pt>
+File: 2017_AMC_8_Problems-2.pdf Graphic file (type pdf)
+<use 2017_AMC_8_Problems-2.pdf>
+Package pdftex.def Info: 2017_AMC_8_Problems-2.pdf  used on input line 161.
+(pdftex.def)             Requested size: 209.62163pt x 227.62183pt.
 
 
 [3]
-Overfull \hbox (103.67638pt too wide) in paragraph at lines 229--242
-[]\OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 ce
-nter\OMS/cmsy/m/n/10 g nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/1
-0 asy\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 im-port olympiad; im-port cse5; draw((0
-,0)--(12,0)--(12,5)--(0,0)); draw(arc((8.67,0),(12,0),(5.33,0)));
- []
+\openout4 = `2017_AMC_8_Problems-3.asy'.
 
+<2017_AMC_8_Problems-3.pdf, id=56, 227.62239pt x 176.45021pt>
+File: 2017_AMC_8_Problems-3.pdf Graphic file (type pdf)
+<use 2017_AMC_8_Problems-3.pdf>
+Package pdftex.def Info: 2017_AMC_8_Problems-3.pdf  used on input line 181.
+(pdftex.def)             Requested size: 227.62183pt x 176.44977pt.
+\openout4 = `2017_AMC_8_Problems-4.asy'.
+
+<2017_AMC_8_Problems-4.pdf, id=57, 227.62239pt x 109.06245pt>
+File: 2017_AMC_8_Problems-4.pdf Graphic file (type pdf)
+<use 2017_AMC_8_Problems-4.pdf>
+Package pdftex.def Info: 2017_AMC_8_Problems-4.pdf  used on input line 204.
+(pdftex.def)             Requested size: 227.62183pt x 109.06216pt.
+
+
+[4 <./2017_AMC_8_Problems-2.pdf> <./2017_AMC_8_Problems-3.pdf>]
+\openout4 = `2017_AMC_8_Problems-5.asy'.
+
+<2017_AMC_8_Problems-5.pdf, id=91, 227.62239pt x 108.15005pt>
+File: 2017_AMC_8_Problems-5.pdf Graphic file (type pdf)
+<use 2017_AMC_8_Problems-5.pdf>
+Package pdftex.def Info: 2017_AMC_8_Problems-5.pdf  used on input line 240.
+(pdftex.def)             Requested size: 227.62183pt x 108.14978pt.
 LaTeX Font Info:    Calculating math sizes for size <5.99998> on input line 257
 .
 
-Overfull \hbox (108.67639pt too wide) in paragraph at lines 260--267
-[]\OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 ce
-nter\OMS/cmsy/m/n/10 g nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/1
-0 asy\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 im-port olympiad; im-port cse5; draw((1
-,1.732)--(2,3.464)--(3,1.732)); draw(arc((0,0),(2,0),(1,1.732)));
- []
+
+[5 <./2017_AMC_8_Problems-4.pdf> <./2017_AMC_8_Problems-5.pdf>]
+\openout4 = `2017_AMC_8_Problems-6.asy'.
+
+<2017_AMC_8_Problems-6.pdf, id=123, 142.7172pt x 227.62239pt>
+File: 2017_AMC_8_Problems-6.pdf Graphic file (type pdf)
+<use 2017_AMC_8_Problems-6.pdf>
+Package pdftex.def Info: 2017_AMC_8_Problems-6.pdf  used on input line 265.
+(pdftex.def)             Requested size: 142.71684pt x 227.62183pt.
 
 
-Overfull \hbox (10.48358pt too wide) in paragraph at lines 260--267
-\OT1/cmr/m/n/10 draw(arc((4,0),(3,1.732),(2,0))); la-bel("\TS1/cmr/m/n/10 $\OT1
-/cmr/m/n/10 U\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ", (2,3.464), N); la-bel("\TS1/cm
-r/m/n/10 $\OT1/cmr/m/n/10 S\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ", (1,1.732), W); l
-a-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 T\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ", (3
-,1.732),
- []
-
-
-
-[4]
-
-[5] (2017_AMC_8_Problems.aux)
+[6 <./2017_AMC_8_Problems-6.pdf>] (2017_AMC_8_Problems.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
@@ -965,32 +957,32 @@ Package rerunfilecheck Info: File `2017_AMC_8_Problems.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25392 strings out of 473536
- 476986 string characters out of 5712052
- 896241 words of memory out of 5000000
- 48186 multiletter control sequences out of 15000+600000
- 573196 words of font info for 92 fonts, out of 8000000 for 9000
+ 25414 strings out of 473536
+ 478070 string characters out of 5712052
+ 893241 words of memory out of 5000000
+ 48204 multiletter control sequences out of 15000+600000
+ 572861 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,107p,541b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\DefaultUser\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\tcrm1000.pk><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/DefaultUse
-r/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/U
-sers/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mmi12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmmi7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DefaultUser/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/DefaultUser/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Defa
-ultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmsy7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/symbols/msam10.pfb>
-Output written on 2017_AMC_8_Problems.pdf (5 pages, 156611 bytes).
+ 102i,12n,107p,541b,671s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/DefaultUser/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Default
+User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C
+:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmmi7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/DefaultUser/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/DefaultUser/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/De
+faultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmsy7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/symbols/msam10.pfb>
+Output written on 2017_AMC_8_Problems.pdf (6 pages, 187059 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 195 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -37,8 +37,8 @@
 ]]\par \vspace{0.5em}\item Alicia, Brenda, and Colby were the candidates in a recent election for student president. The pie chart below shows how the votes were distributed among the three candidates. If Brenda received \(36\) votes, then how many votes were cast all together?
 
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 draw((-1,0)--(0,0)--(0,1));
@@ -47,13 +47,13 @@ filldraw(arc((0,0), (0,1), (-1,0))--(0,0)--cycle, lightgray);
 filldraw(arc((0,0), (0.309, -0.951), (0,1))--(0,0)--cycle, gray);
 draw(arc((0,0), (-1,0), (0.309, -0.951)));
 label("Colby", (-0.5, 0.5));
-label("25\textbackslash\{\}\%", (-0.5, 0.3));
+label("25\%", (-0.5, 0.3));
 label("Alicia", (0.7, 0.2));
-label("45\textbackslash\{\}\%", (0.7, 0));
+label("45\%", (0.7, 0));
 label("Brenda", (-0.5, -0.4));
-label("30\textbackslash\{\}\%", (-0.5, -0.6));
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+label("30\%", (-0.5, -0.6));
+\end{asy}
+\end{center}
 
 
 \(\textbf{(A) }70\qquad\textbf{(B) }84\qquad\textbf{(C) }100\qquad\textbf{(D) }106\qquad\textbf{(E) }120\)
@@ -131,35 +131,35 @@ This information allows Malcolm to determine Isabella's house number. What is it
 [[2017 AMC 8 Problems/Problem 14|Solution
 ]]\par \vspace{0.5em}\item In the arrangement of letters and numerals below, by how many different paths can one spell AMC8? Beginning at the A in the middle, a path allows only moves from one letter to an adjacent (above, below, left, or right, but not diagonal) letter. One example of such a path is traced in the picture.
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 fill((0.5, 4.5)--(1.5,4.5)--(1.5,2.5)--(0.5,2.5)--cycle,lightgray);
 fill((1.5,3.5)--(2.5,3.5)--(2.5,1.5)--(1.5,1.5)--cycle,lightgray);
-label("\$8\$", (1, 0));
-label("\$C\$", (2, 0));
-label("\$8\$", (3, 0));
-label("\$8\$", (0, 1));
-label("\$C\$", (1, 1));
-label("\$M\$", (2, 1));
-label("\$C\$", (3, 1));
-label("\$8\$", (4, 1));
-label("\$C\$", (0, 2));
-label("\$M\$", (1, 2));
-label("\$A\$", (2, 2));
-label("\$M\$", (3, 2));
-label("\$C\$", (4, 2));
-label("\$8\$", (0, 3));
-label("\$C\$", (1, 3));
-label("\$M\$", (2, 3));
-label("\$C\$", (3, 3));
-label("\$8\$", (4, 3));
-label("\$8\$", (1, 4));
-label("\$C\$", (2, 4));
-label("\$8\$", (3, 4));
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+label("$8$", (1, 0));
+label("$C$", (2, 0));
+label("$8$", (3, 0));
+label("$8$", (0, 1));
+label("$C$", (1, 1));
+label("$M$", (2, 1));
+label("$C$", (3, 1));
+label("$8$", (4, 1));
+label("$C$", (0, 2));
+label("$M$", (1, 2));
+label("$A$", (2, 2));
+label("$M$", (3, 2));
+label("$C$", (4, 2));
+label("$8$", (0, 3));
+label("$C$", (1, 3));
+label("$M$", (2, 3));
+label("$C$", (3, 3));
+label("$8$", (4, 3));
+label("$8$", (1, 4));
+label("$C$", (2, 4));
+label("$8$", (3, 4));
+\end{asy}
+\end{center}
 
 
 \(\textbf{(A) }8\qquad\textbf{(B) }9\qquad\textbf{(C) }12\qquad\textbf{(D) }24\qquad\textbf{(E) }36\)
@@ -167,19 +167,19 @@ label("\$8\$", (3, 4));
 [[2017 AMC 8 Problems/Problem 15|Solution
 ]]\par \vspace{0.5em}\item In the figure below, choose point \(D\) on \(\overline{BC}\) so that \(\triangle ACD\) and \(\triangle ABD\) have equal perimeters. What is the area of \(\triangle ABD\)?
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 draw((0,0)--(4,0)--(0,3)--(0,0));
-label("\$A\$", (0,0), SW);
-label("\$B\$", (4,0), ESE);
-label("\$C\$", (0, 3), N);
-label("\$3\$", (0, 1.5), W);
-label("\$4\$", (2, 0), S);
-label("\$5\$", (2, 1.5), NE);
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+label("$A$", (0,0), SW);
+label("$B$", (4,0), ESE);
+label("$C$", (0, 3), N);
+label("$3$", (0, 1.5), W);
+label("$4$", (2, 0), S);
+label("$5$", (2, 1.5), NE);
+\end{asy}
+\end{center}
 
 
 \(\textbf{(A) }\frac{3}{4}\qquad\textbf{(B) }\frac{3}{2}\qquad\textbf{(C) }2\qquad\textbf{(D) }\frac{12}{5}\qquad\textbf{(E) }\frac{5}{2}\)
@@ -192,17 +192,17 @@ label("\$5\$", (2, 1.5), NE);
 [[2017 AMC 8 Problems/Problem 17|Solution
 ]]\par \vspace{0.5em}\item In the non-convex quadrilateral \(ABCD\) shown below, \(\angle BCD\) is a right angle, \(AB=12\), \(BC=4\), \(CD=3\), and \(AD=13\).
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 draw((0,0)--(2.4,3.6)--(0,5)--(12,0)--(0,0));
-label("\$B\$", (0, 0), SW);
-label("\$A\$", (12, 0), ESE);
-label("\$C\$", (2.4, 3.6), SE);
-label("\$D\$", (0, 5), N);
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+label("$B$", (0, 0), SW);
+label("$A$", (12, 0), ESE);
+label("$C$", (2.4, 3.6), SE);
+label("$D$", (0, 5), N);
+\end{asy}
+\end{center}
 
 What is the area of quadrilateral \(ABCD\)?
 
@@ -226,19 +226,19 @@ What is the area of quadrilateral \(ABCD\)?
 [[2017 AMC 8 Problems/Problem 21|Solution
 ]]\par \vspace{0.5em}\item In the right triangle \(ABC\), \(AC=12\), \(BC=5\), and angle \(C\) is a right angle. A semicircle is inscribed in the triangle as shown. What is the radius of the semicircle?
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
 draw((0,0)--(12,0)--(12,5)--(0,0));
 draw(arc((8.67,0),(12,0),(5.33,0)));
-label("\$A\$", (0,0), W);
-label("\$C\$", (12,0), E);
-label("\$B\$", (12,5), NE);
-label("\$12\$", (6, 0), S);
-label("\$5\$", (12, 2.5), E);
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+label("$A$", (0,0), W);
+label("$C$", (12,0), E);
+label("$B$", (12,5), NE);
+label("$12$", (6, 0), S);
+label("$5$", (12, 2.5), E);
+\end{asy}
+\end{center}
 
 
 \(\textbf{(A) }\frac{7}{6}\qquad\textbf{(B) }\frac{13}{5}\qquad\textbf{(C) }\frac{59}{18}\qquad\textbf{(D) }\frac{10}{3}\qquad\textbf{(E) }\frac{60}{13}\)
@@ -257,13 +257,13 @@ label("\$5\$", (12, 2.5), E);
 ]]\par \vspace{0.5em}\item In the figure shown, \(\overline{US}\) and \(\overline{UT}\) are line segments each of length 2, and \(m\angle TUS = 60^\circ\). Arcs \(\overarc{TR}\) and \(\overarc{SR}\) are each one-sixth of a circle with radius 2. What is the area of the region shown?
 
 
-\textbackslash\{\}begin\{center\}
-\textbackslash\{\}begin\{asy\}
+\begin{center}
+\begin{asy}
 import olympiad;
 import cse5;
-draw((1,1.732)--(2,3.464)--(3,1.732)); draw(arc((0,0),(2,0),(1,1.732))); draw(arc((4,0),(3,1.732),(2,0))); label("\$U\$", (2,3.464), N); label("\$S\$", (1,1.732), W); label("\$T\$", (3,1.732), E); label("\$R\$", (2,0), S);
-\textbackslash\{\}end\{asy\}
-\textbackslash\{\}end\{center\}
+draw((1,1.732)--(2,3.464)--(3,1.732)); draw(arc((0,0),(2,0),(1,1.732))); draw(arc((4,0),(3,1.732),(2,0))); label("$U$", (2,3.464), N); label("$S$", (1,1.732), W); label("$T$", (3,1.732), E); label("$R$", (2,0), S);
+\end{asy}
+\end{center}
 
 \(\textbf{(A) }3\sqrt{3}-\pi\qquad\textbf{(B) }4\sqrt{3}-\frac{4\pi}{3}\qquad\textbf{(C) }2\sqrt{3}\qquad\textbf{(D) }4\sqrt{3}-\frac{2\pi}{3}\qquad\textbf{(E) }4+\frac{4\pi}{3}\)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 17:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 17:40
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -890,257 +890,93 @@ LaTeX Warning: No \author given.
 [1{C:/Users/DefaultUser/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 ]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
-5.
-
-(C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
-File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
-
-Overfull \hbox (9.5002pt too wide) in paragraph at lines 45--76
-\OT1/cmr/m/n/10 (0,10)--cycle,gray(0.7),linewidth(1)); filldraw((0,0)--(9,0)--(
-9,9)--(0,9)--cycle,white,linewidth(1)); filldraw((0,0)--
- []
-
-
-Overfull \hbox (49.50032pt too wide) in paragraph at lines 45--76
-\OT1/cmr/m/n/10 (7,0)--(7,7)--(0,7)--cycle,gray(0.7),linewidth(1)); filldraw((0
-,0)--(4,0)--(4,4)--(0,4)--cycle,white,linewidth(1)); draw((11,0)--
- []
-
-
-Overfull \hbox (2.3959pt too wide) in paragraph at lines 45--76
-\OT1/cmr/m/n/10 (11,4),linewidth(1)); draw((11,6)--(11,10),linewidth(1)); la-be
-l("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 10\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(11,5)
-,fontsize(14pt)); draw((10.75,0)--
- []
-
-
-Overfull \hbox (24.59288pt too wide) in paragraph at lines 45--76
-\OT1/cmr/m/n/10 (11.25,0),linewidth(1)); draw((10.75,10)--(11.25,10),linewidth(
-1)); draw((0,11)--(3,11),linewidth(1)); draw((5,11)--
- []
-
-
-Overfull \hbox (119.0629pt too wide) in paragraph at lines 45--76
-\OT1/cmr/m/n/10 (9,11),linewidth(1)); draw((0,11.25)--(0,10.75),linewidth(1)); 
-draw((9,11.25)--(9,10.75),linewidth(1)); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/
-10 9\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(4,11),fontsize(14pt));
- []
-
-
-Overfull \hbox (24.34274pt too wide) in paragraph at lines 45--76
-\OT1/cmr/m/n/10 draw((-1,0)--(-1,1),linewidth(1)); draw((-1,3)--(-1,7),linewidt
-h(1)); draw((-1.25,0)--(-0.75,0),linewidth(1)); draw((-
- []
-
-
-Overfull \hbox (4.61806pt too wide) in paragraph at lines 45--76
-\OT1/cmr/m/n/10 1.25,7)--(-0.75,7),linewidth(1)); label("\TS1/cmr/m/n/10 $\OT1/
-cmr/m/n/10 7\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(-1,2),fontsize(14pt)); draw((0,
--1)--(1,-1),linewidth(1)); draw((3,-
- []
-
-
-Overfull \hbox (34.56259pt too wide) in paragraph at lines 45--76
-\OT1/cmr/m/n/10 1)--(4,-1),linewidth(1)); draw((0,-1.25)--(0,-.75),linewidth(1)
-); draw((4,-1.25)--(4,-.75),linewidth(1)); label("\TS1/cmr/m/n/10 $\OT1/cmr/m/n
-/10 4\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(2,-
- []
-
-
-
-[2]
-Overfull \hbox (40.54478pt too wide) in paragraph at lines 161--201
-\OT1/cmr/m/n/10 gen((239,310),(274,301),(295,254)); draw(graph(qb1, 0,1)); quad
-[]bezier qb2 = fun-gen((266,294),(260,309),(266,323));
- []
-
-
-Overfull \hbox (40.54478pt too wide) in paragraph at lines 161--201
-\OT1/cmr/m/n/10 gen((348,244),(355,241),(351,234)); draw(graph(qb5, 0,1)); quad
-[]bezier qb6 = fun-gen((351,234),(348,226),(338,226));
- []
-
-
-Overfull \hbox (45.5448pt too wide) in paragraph at lines 161--201
-\OT1/cmr/m/n/10 gen((122,161),(132,147),(148,144)); draw(graph(qb9, 0,1)); quad
-[]bezier qb10 = fun-gen((148,144),(176,155),(204,146));
- []
-
-
-Overfull \hbox (1.37796pt too wide) in paragraph at lines 161--201
-\OT1/cmr/m/n/10 draw(graph(qb10, 0,1)); quad[]bezier qb11 = fun-gen((204,146),(
-216,141),(235,137)); draw(graph(qb11, 0,1));
- []
-
-
-Overfull \hbox (64.71153pt too wide) in paragraph at lines 161--201
-\OT1/cmr/m/n/10 fun-gen((319,214),(313,174),(283,168)); draw(graph(qb13, 0,1));
- quad[]bezier qb14 = fun-gen((228,156),(242,158),(247,171));
- []
-
-
-Overfull \hbox (1.37796pt too wide) in paragraph at lines 161--201
-\OT1/cmr/m/n/10 draw(graph(qb14, 0,1)); quad[]bezier qb15 = fun-gen((245,181),(
-250,158),(266,143)); draw(graph(qb15, 0,1));
- []
-
-
-Overfull \hbox (64.71153pt too wide) in paragraph at lines 161--201
-\OT1/cmr/m/n/10 fun-gen((298,135),(309,143),(300,148)); draw(graph(qb17, 0,1));
- quad[]bezier qb18 = fun-gen((300,148),(272,150),(270,175));
- []
-
-
-Overfull \hbox (1.37796pt too wide) in paragraph at lines 161--201
-\OT1/cmr/m/n/10 draw(graph(qb18, 0,1)); quad[]bezier qb19 = fun-gen((282,177),(
-274,158),(300,148)); draw(graph(qb19, 0,1)); 
- []
-
-
-Overfull \hbox (44.12085pt too wide) in paragraph at lines 202--210
-[]\OT1/cmr/m/n/10 draw(arc((317.8948497854077,245.25965665236052), 19.760615163
-024095, 143.54947493250435, 40.14574559948477));
- []
-
-
-Overfull \hbox (45.78749pt too wide) in paragraph at lines 202--210
-\OT1/cmr/m/n/10 draw(arc((282.65584415584414,295.7857142857143), 53.78971270402
-217, -78.91253214600312, -114.90992209204622));
- []
-
-
-Overfull \hbox (33.15779pt too wide) in paragraph at lines 202--210
-\OT1/cmr/m/n/10 draw(arc((127.7,168.5), 9.420191080864546, 9.162347045721713, 2
-32.7651660184253)); draw(arc((229.125,145.625),
- []
-
-
-Overfull \hbox (70.60239pt too wide) in paragraph at lines 202--210
-\OT1/cmr/m/n/10 10.435815732370902, -55.73889710090544, 96.1886159632416)); dra
-w(arc((186.26470588235293,181.5), 20.573313920580237,
- []
-
-
-Overfull \hbox (16.43552pt too wide) in paragraph at lines 202--210
-\OT1/cmr/m/n/10 -85.1615330431756, 85.1615330431756)); fill-draw(ellipse((314,2
-35), 13.0, 10.04987562112089), rgb(254,255,255),
- []
-
-
-Overfull \hbox (28.21333pt too wide) in paragraph at lines 202--210
-\OT1/cmr/m/n/10 black); fill-draw(rotate(14.036243467926468,(315,251))*ellipse(
-(315,235), 9.219544457292887, 8.246211251235321),
- []
-
-
-
-[3]
-Overfull \hbox (46.20842pt too wide) in paragraph at lines 312--326
-\OT1/cmr/m/n/10 draw((1.763,2.427)--(0,0)--(1.763,-2.427)); la-bel("\TS1/cmr/m/
-n/10 $\OT1/cmr/m/n/10 B\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(1.763,2.427),NE); la
-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 C\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(1.76
-3,-2.427),SE); \OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 end\OMS/cmsy/m/n/10 f\OT1/cm
-r/m/n/10 asy\OMS/cmsy/m/n/10 g
- []
-
-
-
-[4]
-Overfull \hbox (8.53712pt too wide) in paragraph at lines 336--362
-[]\OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 ce
-nter\OMS/cmsy/m/n/10 g nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/1
-0 asy\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 im-port olympiad; im-port cse5; unit-si
-ze(4); pair P,Q,R,S,T,U,V,W; P=(0,30);
- []
-
-
-Overfull \hbox (9.70134pt too wide) in paragraph at lines 336--362
-\OT1/cmr/m/n/10 draw(V--U); draw(Q--R); dot(P); dot(Q); dot(R); dot(S); dot(T);
- dot(U); dot(V); dot(W); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 P\TS1/cmr/m/n
-/10 $\OT1/cmr/m/n/10 ",P,NW);
- []
-
-
-Overfull \hbox (55.0503pt too wide) in paragraph at lines 336--362
-\OT1/cmr/m/n/10 la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 Q\TS1/cmr/m/n/10 $\OT1
-/cmr/m/n/10 ",Q,NW); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 R\TS1/cmr/m/n/10 
-$\OT1/cmr/m/n/10 ",R,NE); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 S\TS1/cmr/m/
-n/10 $\OT1/cmr/m/n/10 ",S,N); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 T\TS1/cm
-r/m/n/10 $\OT1/cmr/m/n/10 ",T,NE); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 U\T
-S1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",U,NE); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/1
-0 V\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",V,SE);
- []
-
-
-Overfull \hbox (18.5002pt too wide) in paragraph at lines 400--408
-[]\OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 ce
-nter\OMS/cmsy/m/n/10 g nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/1
-0 asy\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 im-port olympiad; im-port cse5; filldra
-w((0,4)--(1,4)--(1,3)--(0,3)--cycle, gray(.75),
- []
-
-
-Overfull \hbox (17.50026pt too wide) in paragraph at lines 400--408
-\OT1/cmr/m/n/10 gray(.5)+linewidth(1)); filldraw((0,3)--(1,3)--(1,2)--(0,2)--cy
-cle, gray(.75), gray(.5)+linewidth(1)); filldraw((1,2)--
- []
-
-
-Overfull \hbox (25.00949pt too wide) in paragraph at lines 409--416
-[]\OT1/cmr/m/n/10 draw((-1,5)--(-1,-1),gray(.9)); draw((0,5)--(0,-1),gray(.9));
- draw((1,5)--(1,-1),gray(.9)); draw((2,5)--(2,-1),gray(.9));
- []
-
-
-Overfull \hbox (20.78728pt too wide) in paragraph at lines 417--424
-[]\OT1/cmr/m/n/10 draw((-1,5)--(5, 5),gray(.9)); draw((-1,4)--(5,4),gray(.9)); 
-draw((-1,3)--(5,3),gray(.9)); draw((-1,2)--(5,2),gray(.9));
- []
-
-
-Overfull \hbox (41.44472pt too wide) in paragraph at lines 443--467
-\OT1/cmr/m/n/10 (18,12)--(30,0)--cycle,gray(0.7),linewidth(1)); draw((-1,0)--(-
-1,8),linewidth(.75)); draw((-1.4,0)--(-.6,0),linewidth(.75));
- []
-
-
-Overfull \hbox (11.79156pt too wide) in paragraph at lines 443--467
-\OT1/cmr/m/n/10 draw((-1.4,8)--(-.6,8),linewidth(.75)); label("\TS1/cmr/m/n/10 
-$\OT1/cmr/m/n/10 8\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(-1,4),W); la-bel("\TS1/cm
-r/m/n/10 $\OT1/cmr/m/n/10 12\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(31,6),E); draw(
-(-1,8)--(8,8),dashed);
- []
-
-
-Overfull \hbox (43.11147pt too wide) in paragraph at lines 443--467
-\OT1/cmr/m/n/10 draw((31,0)--(31,12),linewidth(.75)); draw((30.6,0)--(31.4,0),l
-inewidth(.75)); draw((30.6,12)--(31.4,12),linewidth(.75));
- []
-
-
-Overfull \hbox (121.46779pt too wide) in paragraph at lines 443--467
-\OT1/cmr/m/n/10 draw((31,12)--(18,12),dashed); la-bel("\TS1/cmr/m/n/10 $\OT1/cm
-r/m/n/10 45^\OMS/cmsy/m/n/10 fnfg\OT1/cmr/m/n/10 circ\OMS/cmsy/m/n/10 g\TS1/cmr
-/m/n/10 $\OT1/cmr/m/n/10 ",(.75,0),NE,fontsize(10pt)); la-bel("\TS1/cmr/m/n/10 
-$\OT1/cmr/m/n/10 45^\OMS/cmsy/m/n/10 fnfg\OT1/cmr/m/n/10 circ\OMS/cmsy/m/n/10 g
-\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(29.25,0),NW,fontsize(10pt));
- []
-
-
-Overfull \hbox (10.3336pt too wide) in paragraph at lines 443--467
-\OT1/cmr/m/n/10 draw((8,8)--(7.5,7.5)--(8,7)--(8.5,7.5)--cycle); draw((18,12)--
-(17.5,11.5)--(18,11)--(18.5,11.5)--cycle); draw((11,5)--
- []
-
-
-
-[5]
-
-[6] (2024_AMC_8_Problems.aux)
+\openout4 = `2024_AMC_8_Problems-1.asy'.
+
+<2024_AMC_8_Problems-1.pdf, id=14, 150.5625pt x 149.26767pt>
+File: 2024_AMC_8_Problems-1.pdf Graphic file (type pdf)
+<use 2024_AMC_8_Problems-1.pdf>
+Package pdftex.def Info: 2024_AMC_8_Problems-1.pdf  used on input line 74.
+(pdftex.def)             Requested size: 150.56212pt x 149.26729pt.
+
+
+[2 <./2024_AMC_8_Problems-1.pdf>]
+\openout4 = `2024_AMC_8_Problems-2.asy'.
+
+<2024_AMC_8_Problems-2.pdf, id=42, 284.52798pt x 116.59862pt>
+File: 2024_AMC_8_Problems-2.pdf Graphic file (type pdf)
+<use 2024_AMC_8_Problems-2.pdf>
+Package pdftex.def Info: 2024_AMC_8_Problems-2.pdf  used on input line 115.
+(pdftex.def)             Requested size: 284.52728pt x 116.59833pt.
+\openout4 = `2024_AMC_8_Problems-3.asy'.
+
+<2024_AMC_8_Problems-3.pdf, id=43, 181.51814pt x 84.99754pt>
+File: 2024_AMC_8_Problems-3.pdf Graphic file (type pdf)
+<use 2024_AMC_8_Problems-3.pdf>
+Package pdftex.def Info: 2024_AMC_8_Problems-3.pdf  used on input line 221.
+(pdftex.def)             Requested size: 181.5177pt x 84.99731pt.
+\openout4 = `2024_AMC_8_Problems-4.asy'.
+
+<2024_AMC_8_Problems-4.pdf, id=44, 370.38776pt x 119.84875pt>
+File: 2024_AMC_8_Problems-4.pdf Graphic file (type pdf)
+<use 2024_AMC_8_Problems-4.pdf>
+Package pdftex.def Info: 2024_AMC_8_Problems-4.pdf  used on input line 260.
+(pdftex.def)             Requested size: 370.38684pt x 119.84845pt.
+
+
+[3 <./2024_AMC_8_Problems-2.pdf> <./2024_AMC_8_Problems-3.pdf> <./2024_AMC_8_Pr
+oblems-4.pdf>]
+\openout4 = `2024_AMC_8_Problems-5.asy'.
+
+<2024_AMC_8_Problems-5.pdf, id=83, 87.5019pt x 87.5019pt>
+File: 2024_AMC_8_Problems-5.pdf Graphic file (type pdf)
+<use 2024_AMC_8_Problems-5.pdf>
+Package pdftex.def Info: 2024_AMC_8_Problems-5.pdf  used on input line 296.
+(pdftex.def)             Requested size: 87.5017pt x 87.5017pt.
+\openout4 = `2024_AMC_8_Problems-6.asy'.
+
+<2024_AMC_8_Problems-6.pdf, id=84, 94.27922pt x 100.375pt>
+File: 2024_AMC_8_Problems-6.pdf Graphic file (type pdf)
+<use 2024_AMC_8_Problems-6.pdf>
+Package pdftex.def Info: 2024_AMC_8_Problems-6.pdf  used on input line 324.
+(pdftex.def)             Requested size: 94.27898pt x 100.37474pt.
+\openout4 = `2024_AMC_8_Problems-7.asy'.
+
+<2024_AMC_8_Problems-7.pdf, id=85, 190.66733pt x 186.1665pt>
+File: 2024_AMC_8_Problems-7.pdf Graphic file (type pdf)
+<use 2024_AMC_8_Problems-7.pdf>
+Package pdftex.def Info: 2024_AMC_8_Problems-7.pdf  used on input line 360.
+(pdftex.def)             Requested size: 190.66685pt x 186.16605pt.
+
+
+[4 <./2024_AMC_8_Problems-5.pdf> <./2024_AMC_8_Problems-6.pdf>]
+\openout4 = `2024_AMC_8_Problems-8.asy'.
+
+<2024_AMC_8_Problems-8.pdf, id=113, 122.76566pt x 150.5625pt>
+File: 2024_AMC_8_Problems-8.pdf Graphic file (type pdf)
+<use 2024_AMC_8_Problems-8.pdf>
+Package pdftex.def Info: 2024_AMC_8_Problems-8.pdf  used on input line 393.
+(pdftex.def)             Requested size: 122.76535pt x 150.56212pt.
+\openout4 = `2024_AMC_8_Problems-9.asy'.
+
+<2024_AMC_8_Problems-9.pdf, id=114, 227.62239pt x 227.62239pt>
+File: 2024_AMC_8_Problems-9.pdf Graphic file (type pdf)
+<use 2024_AMC_8_Problems-9.pdf>
+Package pdftex.def Info: 2024_AMC_8_Problems-9.pdf  used on input line 436.
+(pdftex.def)             Requested size: 227.62183pt x 227.62183pt.
+
+
+[5 <./2024_AMC_8_Problems-7.pdf> <./2024_AMC_8_Problems-8.pdf>]
+\openout4 = `2024_AMC_8_Problems-10.asy'.
+
+<2024_AMC_8_Problems-10.pdf, id=138, 300.99551pt x 103.43343pt>
+File: 2024_AMC_8_Problems-10.pdf Graphic file (type pdf)
+<use 2024_AMC_8_Problems-10.pdf>
+Package pdftex.def Info: 2024_AMC_8_Problems-10.pdf  used on input line 465.
+(pdftex.def)             Requested size: 300.99478pt x 103.43315pt.
+
+
+[6 <./2024_AMC_8_Problems-9.pdf> <./2024_AMC_8_Problems-10.pdf>]
+(2024_AMC_8_Problems.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
@@ -1149,28 +985,30 @@ Package rerunfilecheck Info: File `2024_AMC_8_Problems.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25381 strings out of 473536
- 476909 string characters out of 5712052
- 895241 words of memory out of 5000000
- 48174 multiletter control sequences out of 15000+600000
- 567347 words of font info for 69 fonts, out of 8000000 for 9000
+ 25428 strings out of 473536
+ 478942 string characters out of 5712052
+ 891241 words of memory out of 5000000
+ 48214 multiletter control sequences out of 15000+600000
+ 567012 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,107p,692b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\DefaultUser\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\tcrm1000.pk><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/DefaultUse
-r/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Us
-ers/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-r17.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmr7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/DefaultUser/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/DefaultUser/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on 2024_AMC_8_Problems.pdf (6 pages, 136590 bytes).
+ 102i,12n,107p,692b,686s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/DefaultUser/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Default
+User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
+/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr17.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/DefaultUser/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/DefaultUser/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/De
+faultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msa
+m10.pfb>
+Output written on 2024_AMC_8_Problems.pdf (6 pages, 198065 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
+ 227 PDF objects out of 1000 (max. 8388607)
  33 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

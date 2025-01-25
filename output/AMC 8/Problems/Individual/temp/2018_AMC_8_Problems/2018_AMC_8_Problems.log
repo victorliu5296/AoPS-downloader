@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 17:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 17:39
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -890,129 +890,76 @@ LaTeX Warning: No \author given.
 [1{C:/Users/DefaultUser/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 ]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
-5.
+\openout4 = `2018_AMC_8_Problems-1.asy'.
 
-(C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
-File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
+<2018_AMC_8_Problems-1.pdf, id=14, 159.83716pt x 159.83716pt>
+File: 2018_AMC_8_Problems-1.pdf Graphic file (type pdf)
+<use 2018_AMC_8_Problems-1.pdf>
+Package pdftex.def Info: 2018_AMC_8_Problems-1.pdf  used on input line 55.
+(pdftex.def)             Requested size: 159.83675pt x 159.83675pt.
+\openout4 = `2018_AMC_8_Problems-2.asy'.
 
-Overfull \hbox (13.08344pt too wide) in paragraph at lines 68--97
-\OT1/cmr/m/n/10 la-bel("Number of Days of Exercise",(4,-0.1)); la-bel(rotate(90
-)*"Number of Students",(-0.1,2.75)); \OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 end\OM
-S/cmsy/m/n/10 f\OT1/cmr/m/n/10 asy\OMS/cmsy/m/n/10 g
- []
-
-
-
-[2]
-Overfull \hbox (140.95435pt too wide) in paragraph at lines 107--111
-[]\OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 eq
-narray*\OMS/cmsy/m/n/10 g nfg\OT1/cmr/m/n/10 text\OMS/cmsy/m/n/10 f\OT1/cmr/m/n
-/10 X\OMS/cmsy/m/n/10 g\OT1/cmr/m/n/10 &\OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 qua
-d\OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 text\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 X\OM
-S/cmsy/m/n/10 gnfg\OT1/cmr/m/n/10 quad&\OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 text
-\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 X\OMS/cmsy/m/n/10 g nfgnfg nfg\OT1/cmr/m/n/10
- text\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 X\OMS/cmsy/m/n/10 g\OT1/cmr/m/n/10 &\OMS
-/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 quad\OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 text\OM
-S/cmsy/m/n/10 f\OT1/cmr/m/n/10 X\OMS/cmsy/m/n/10 gnfg\OT1/cmr/m/n/10 quad&\OMS/
-cmsy/m/n/10 nfg\OT1/cmr/m/n/10 text\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 X\OMS/cmsy
-/m/n/10 g
- []
+<2018_AMC_8_Problems-2.pdf, id=15, 227.62239pt x 155.86029pt>
+File: 2018_AMC_8_Problems-2.pdf Graphic file (type pdf)
+<use 2018_AMC_8_Problems-2.pdf>
+Package pdftex.def Info: 2018_AMC_8_Problems-2.pdf  used on input line 95.
+(pdftex.def)             Requested size: 227.62183pt x 155.85991pt.
 
 
-Overfull \hbox (26.00934pt too wide) in paragraph at lines 124--134
-[]\OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 ce
-nter\OMS/cmsy/m/n/10 g nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/1
-0 asy\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 im-port olympiad; im-port cse5; size(4c
-m); fill-draw(scale(2)*unitcircle,gray,black);
- []
+[2 <./2018_AMC_8_Problems-1.pdf>]
+\openout4 = `2018_AMC_8_Problems-3.asy'.
+
+<2018_AMC_8_Problems-3.pdf, id=36, 113.81522pt x 113.81522pt>
+File: 2018_AMC_8_Problems-3.pdf Graphic file (type pdf)
+<use 2018_AMC_8_Problems-3.pdf>
+Package pdftex.def Info: 2018_AMC_8_Problems-3.pdf  used on input line 132.
+(pdftex.def)             Requested size: 113.81493pt x 113.81493pt.
 
 
-Overfull \hbox (29.72232pt too wide) in paragraph at lines 124--134
-\OT1/cmr/m/n/10 filldraw(shift(-1,0)*unitcircle,white,black); fill-draw(shift(1
-,0)*unitcircle,white,black); \OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 end\OMS/cmsy/m
-/n/10 f\OT1/cmr/m/n/10 asy\OMS/cmsy/m/n/10 g nfg\OT1/cmr/m/n/10 end\OMS/cmsy/m/
-n/10 f\OT1/cmr/m/n/10 center\OMS/cmsy/m/n/10 g 
- []
+[3 <./2018_AMC_8_Problems-2.pdf>]
+\openout4 = `2018_AMC_8_Problems-4.asy'.
+
+<2018_AMC_8_Problems-4.pdf, id=59, 228.12427pt x 91.55104pt>
+File: 2018_AMC_8_Problems-4.pdf Graphic file (type pdf)
+<use 2018_AMC_8_Problems-4.pdf>
+Package pdftex.def Info: 2018_AMC_8_Problems-4.pdf  used on input line 161.
+(pdftex.def)             Requested size: 228.1237pt x 91.5508pt.
+\openout4 = `2018_AMC_8_Problems-5.asy'.
+
+<2018_AMC_8_Problems-5.pdf, id=60, 199.1691pt x 182.45465pt>
+File: 2018_AMC_8_Problems-5.pdf Graphic file (type pdf)
+<use 2018_AMC_8_Problems-5.pdf>
+Package pdftex.def Info: 2018_AMC_8_Problems-5.pdf  used on input line 182.
+(pdftex.def)             Requested size: 199.1686pt x 182.4542pt.
 
 
-Overfull \hbox (0.12495pt too wide) in paragraph at lines 145--163
-\OT1/cmr/m/n/10 draw(shift(2,0)*box); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 
-+\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(2,0)); draw(shift(3,0)*box); label("\TS1/c
-mr/m/n/10 $\OT1/cmr/m/n/10 -\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(3,0)); draw(shi
-ft(0.5,0.4)*box);
- []
+[4 <./2018_AMC_8_Problems-3.pdf> <./2018_AMC_8_Problems-4.pdf> <./2018_AMC_8_Pr
+oblems-5.pdf>]
+\openout4 = `2018_AMC_8_Problems-6.asy'.
+
+<2018_AMC_8_Problems-6.pdf, id=101, 142.26349pt x 140.10744pt>
+File: 2018_AMC_8_Problems-6.pdf Graphic file (type pdf)
+<use 2018_AMC_8_Problems-6.pdf>
+Package pdftex.def Info: 2018_AMC_8_Problems-6.pdf  used on input line 204.
+(pdftex.def)             Requested size: 142.26312pt x 140.10709pt.
+\openout4 = `2018_AMC_8_Problems-7.asy'.
+
+<2018_AMC_8_Problems-7.pdf, id=102, 85.3589pt x 85.3589pt>
+File: 2018_AMC_8_Problems-7.pdf Graphic file (type pdf)
+<use 2018_AMC_8_Problems-7.pdf>
+Package pdftex.def Info: 2018_AMC_8_Problems-7.pdf  used on input line 222.
+(pdftex.def)             Requested size: 85.35869pt x 85.35869pt.
+\openout4 = `2018_AMC_8_Problems-8.asy'.
+
+<2018_AMC_8_Problems-8.pdf, id=103, 153.92607pt x 170.7168pt>
+File: 2018_AMC_8_Problems-8.pdf Graphic file (type pdf)
+<use 2018_AMC_8_Problems-8.pdf>
+Package pdftex.def Info: 2018_AMC_8_Problems-8.pdf  used on input line 259.
+(pdftex.def)             Requested size: 153.92569pt x 170.71637pt.
 
 
-Overfull \hbox (93.82771pt too wide) in paragraph at lines 145--163
-\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(2.5,0.4)); draw(shift(1,0.8)*box); la-bel("
-\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 +\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(1,0.8)); 
-draw(shift(2,0.8)*box); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 +\TS1/cmr/m/n/
-10 $\OT1/cmr/m/n/10 ",(2,0.8)); draw(shift(1.5,1.2)*box);
- []
-
-
-
-[3]
-Overfull \hbox (35.45755pt too wide) in paragraph at lines 168--184
-\OT1/cmr/m/n/10 (0,0); B = (3,0); C = (0.5,2.5); EE = (1,0); DD = intersectionp
-oint(A--C,EE--EE+(C-B)); FF = intersectionpoint(B--
- []
-
-
-Overfull \hbox (43.37248pt too wide) in paragraph at lines 168--184
-\OT1/cmr/m/n/10 C,EE--EE+(C-A)); draw(A--B--C--A--DD--EE--FF,black+1bp); la-bel
-("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 A\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",A,S); la
--bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 B\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",B,S)
-; la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 C\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",
-C,N);
- []
-
-
-Overfull \hbox (36.5806pt too wide) in paragraph at lines 168--184
-\OT1/cmr/m/n/10 la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 D\TS1/cmr/m/n/10 $\OT1
-/cmr/m/n/10 ",DD,W); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 E\TS1/cmr/m/n/10 
-$\OT1/cmr/m/n/10 ",EE,S); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 F\TS1/cmr/m/
-n/10 $\OT1/cmr/m/n/10 ",FF,NE); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 1\TS1/
-cmr/m/n/10 $\OT1/cmr/m/n/10 ",(A+EE)/2,S); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/
-n/10 2\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(EE+B)/2,S);
- []
-
-
-Overfull \hbox (31.08546pt too wide) in paragraph at lines 191--206
-\OT1/cmr/m/n/10 cycle); draw((0,6)--(6,0)); draw((3,0)--(6,6)); la-bel("\TS1/cm
-r/m/n/10 $\OT1/cmr/m/n/10 A\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(0,6),NW); la-bel
-("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 B\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(6,6),NE
-); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 C\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 "
-,(6,0),SE);
- []
-
-
-Overfull \hbox (25.40239pt too wide) in paragraph at lines 229--261
-\OT1/cmr/m/n/10 dot(F); dot(G); dot(H); dot(I); dot(J); la-bel("\TS1/cmr/m/n/10
- $\OT1/cmr/m/n/10 A\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",A,E); la-bel("\TS1/cmr/m/
-n/10 $\OT1/cmr/m/n/10 B\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",B,W); la-bel("\TS1/cm
-r/m/n/10 $\OT1/cmr/m/n/10 C\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",C,S); la-bel("\TS
-1/cmr/m/n/10 $\OT1/cmr/m/n/10 D\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",D,E);
- []
-
-
-Overfull \hbox (19.49467pt too wide) in paragraph at lines 229--261
-\OT1/cmr/m/n/10 la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 E\TS1/cmr/m/n/10 $\OT1
-/cmr/m/n/10 ",EE,N); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 F\TS1/cmr/m/n/10 
-$\OT1/cmr/m/n/10 ",F,W); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 G\TS1/cmr/m/n
-/10 $\OT1/cmr/m/n/10 ",G,N); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 H\TS1/cmr
-/m/n/10 $\OT1/cmr/m/n/10 ",H,E); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 I\TS1
-/cmr/m/n/10 $\OT1/cmr/m/n/10 ",I,E); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 J
-\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",J,W);
- []
-
-
-
-[4] (2018_AMC_8_Problems.aux)
+[5 <./2018_AMC_8_Problems-6.pdf> <./2018_AMC_8_Problems-7.pdf> <./2018_AMC_8_Pr
+oblems-8.pdf>] (2018_AMC_8_Problems.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
@@ -1021,30 +968,31 @@ Package rerunfilecheck Info: File `2018_AMC_8_Problems.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25378 strings out of 473536
- 476793 string characters out of 5712052
- 896241 words of memory out of 5000000
- 48171 multiletter control sequences out of 15000+600000
- 568391 words of font info for 72 fonts, out of 8000000 for 9000
+ 25416 strings out of 473536
+ 478429 string characters out of 5712052
+ 892241 words of memory out of 5000000
+ 48203 multiletter control sequences out of 15000+600000
+ 568056 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,107p,636b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\DefaultUser\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\tcrm1000.pk><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/DefaultUse
-r/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/U
-sers/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mmi7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmr10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/DefaultUser/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/DefaultUser/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Defa
-ultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb
->
-Output written on 2018_AMC_8_Problems.pdf (4 pages, 139412 bytes).
+ 102i,11n,107p,636b,668s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/DefaultUser/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Default
+User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C
+:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmmi7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/DefaultUser/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/DefaultUser/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/De
+faultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmti10.pfb>
+Output written on 2018_AMC_8_Problems.pdf (5 pages, 176436 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 181 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

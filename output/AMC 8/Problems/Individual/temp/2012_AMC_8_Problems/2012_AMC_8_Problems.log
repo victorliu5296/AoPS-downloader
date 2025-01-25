@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 17:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 17:44
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -890,38 +890,16 @@ LaTeX Warning: No \author given.
 [1{C:/Users/DefaultUser/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 ]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
-3.
+\openout4 = `2012_AMC_8_Problems-1.asy'.
 
-(C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
-File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
-
-Overfull \hbox (6.93066pt too wide) in paragraph at lines 43--86
-[]\OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 ce
-nter\OMS/cmsy/m/n/10 g nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/1
-0 asy\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 im-port olympiad; im-port cse5; pair A,
-B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R;
- []
+<2012_AMC_8_Problems-1.pdf, id=14, 227.62239pt x 176.19928pt>
+File: 2012_AMC_8_Problems-1.pdf Graphic file (type pdf)
+<use 2012_AMC_8_Problems-1.pdf>
+Package pdftex.def Info: 2012_AMC_8_Problems-1.pdf  used on input line 84.
+(pdftex.def)             Requested size: 227.62183pt x 176.19884pt.
 
 
-Overfull \hbox (4.32188pt too wide) in paragraph at lines 43--86
-\OT1/cmr/m/n/10 M--N--O--P--Q--R--cycle); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n
-/10 X\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(3.4,1.5)); la-bel("6",(7.6,1.5)); la-b
-el("1",(7.6,3.5)); la-bel("1",(8.4,4.6));
- []
-
-
-Overfull \hbox (49.9727pt too wide) in paragraph at lines 43--86
-\OT1/cmr/m/n/10 la-bel("2",(9.4,4.6)); la-bel("2",(10.4,6)); la-bel("3",(8.4,7.
-4)); la-bel("1",(7.5,7.8)); la-bel("2",(6,8.5)); la-bel("1",(4.7,7.8));
- []
-
-
-
-[2]
+[2 <./2012_AMC_8_Problems-1.pdf>]
 
 LaTeX Warning: Command \textdollar invalid in math mode on input line 103.
 
@@ -933,49 +911,28 @@ LaTeX Warning: Command \textdollar invalid in math mode on input line 103.
 
 
 LaTeX Warning: Command \textdollar invalid in math mode on input line 103.
-
-
-Overfull \hbox (14.90767pt too wide) in paragraph at lines 131--151
-\OT1/cmr/m/n/10 2,0)..cycle); dot((-1,1)); dot((-2,2)); dot((-3,1)); dot((-2,0)
-); draw((1,0)\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 up\OMS/cmsy/m/n/10 g\OT1/cmr/m/n
-/10 ..\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 left\OMS/cmsy/m/n/10 g\OT1/cmr/m/n/10 (
-0,1)); dot((1,0)); dot((0,1));
- []
-
-
-Overfull \hbox (46.40776pt too wide) in paragraph at lines 131--151
-\OT1/cmr/m/n/10 draw((0,1)\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 right\OMS/cmsy/m/n/
-10 g\OT1/cmr/m/n/10 ..\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 up\OMS/cmsy/m/n/10 g\OT
-1/cmr/m/n/10 (1,2)); dot((1,2)); draw((1,2)\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 do
-wn\OMS/cmsy/m/n/10 g\OT1/cmr/m/n/10 ..\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 right\O
-MS/cmsy/m/n/10 g\OT1/cmr/m/n/10 (2,1)); dot((2,1)); draw((2,1)\OMS/cmsy/m/n/10 
-f\OT1/cmr/m/n/10 left\OMS/cmsy/m/n/10 g\OT1/cmr/m/n/10 ..\OMS/cmsy/m/n/10 f\OT1
-/cmr/m/n/10 down\OMS/cmsy/m/n/10 g\OT1/cmr/m/n/10 (1,0));
- []
 
 
 
 [3]
-Overfull \hbox (27.81502pt too wide) in paragraph at lines 157--167
-[]\OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 ce
-nter\OMS/cmsy/m/n/10 g nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/1
-0 asy\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 im-port olympiad; im-port cse5; draw((0
-,2)--(2,2)--(2,0)--(0,0)--cycle); draw((0,0.3)--
- []
+\openout4 = `2012_AMC_8_Problems-2.asy'.
+
+<2012_AMC_8_Problems-2.pdf, id=68, 120.95187pt x 50.1875pt>
+File: 2012_AMC_8_Problems-2.pdf Graphic file (type pdf)
+<use 2012_AMC_8_Problems-2.pdf>
+Package pdftex.def Info: 2012_AMC_8_Problems-2.pdf  used on input line 149.
+(pdftex.def)             Requested size: 120.95157pt x 50.18736pt.
+\openout4 = `2012_AMC_8_Problems-3.asy'.
+
+<2012_AMC_8_Problems-3.pdf, id=69, 227.62239pt x 212.67857pt>
+File: 2012_AMC_8_Problems-3.pdf Graphic file (type pdf)
+<use 2012_AMC_8_Problems-3.pdf>
+Package pdftex.def Info: 2012_AMC_8_Problems-3.pdf  used on input line 165.
+(pdftex.def)             Requested size: 227.62183pt x 212.67804pt.
 
 
-Overfull \hbox (3.47675pt too wide) in paragraph at lines 157--167
-\OT1/cmr/m/n/10 (0.3,2)--(2,1.7)--(1.7,0)--cycle); label("\TS1/cmr/m/n/10 $\OT1
-/cmr/m/n/10 a\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(-0.1,0.15)); label("\TS1/cmr/m
-/n/10 $\OT1/cmr/m/n/10 b\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(-0.1,1.15)); \OMS/c
-msy/m/n/10 nfg\OT1/cmr/m/n/10 end\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 asy\OMS/cmsy
-/m/n/10 g nfg\OT1/cmr/m/n/10 end\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 center\OMS/cm
-sy/m/n/10 g 
- []
-
-
-
-[4] (2012_AMC_8_Problems.aux)
+[4 <./2012_AMC_8_Problems-2.pdf> <./2012_AMC_8_Problems-3.pdf>]
+(2012_AMC_8_Problems.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
@@ -984,31 +941,32 @@ Package rerunfilecheck Info: File `2012_AMC_8_Problems.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25371 strings out of 473536
- 476481 string characters out of 5712052
+ 25379 strings out of 473536
+ 477032 string characters out of 5712052
  899241 words of memory out of 5000000
- 48163 multiletter control sequences out of 15000+600000
+ 48170 multiletter control sequences out of 15000+600000
  569294 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,107p,642b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\DefaultUser\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\tcrm1000.pk><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/DefaultUs
-er/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
-Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmmi7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/DefaultUser/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/DefaultUser/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Def
-aultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb
-><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmti10.pfb>
-Output written on 2012_AMC_8_Problems.pdf (4 pages, 144091 bytes).
+ 102i,12n,107p,638b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/DefaultUser/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Defaul
+tUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmmi7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/DefaultUser/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/DefaultUser/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/D
+efaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmsy7.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmti10.pfb>
+Output written on 2012_AMC_8_Problems.pdf (4 pages, 164168 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
+ 144 PDF objects out of 1000 (max. 8388607)
  31 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 

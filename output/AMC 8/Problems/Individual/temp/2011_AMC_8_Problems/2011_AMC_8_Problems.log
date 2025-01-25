@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 17:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 17:44
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -920,283 +920,85 @@ LaTeX Warning: Command \textdollar invalid in math mode on input line 34.
 
 LaTeX Warning: Command \textdollar invalid in math mode on input line 34.
 
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
-4.
+\openout4 = `2011_AMC_8_Problems-1.asy'.
+
+<2011_AMC_8_Problems-1.pdf, id=14, 227.62039pt x 227.62039pt>
+File: 2011_AMC_8_Problems-1.pdf Graphic file (type pdf)
+<use 2011_AMC_8_Problems-1.pdf>
+Package pdftex.def Info: 2011_AMC_8_Problems-1.pdf  used on input line 59.
+(pdftex.def)             Requested size: 227.61983pt x 227.61983pt.
+
+
+[2 <./2011_AMC_8_Problems-1.pdf>]
+\openout4 = `2011_AMC_8_Problems-2.asy'.
+
+<2011_AMC_8_Problems-2.pdf, id=29, 201.06116pt x 201.06116pt>
+File: 2011_AMC_8_Problems-2.pdf Graphic file (type pdf)
+<use 2011_AMC_8_Problems-2.pdf>
+Package pdftex.def Info: 2011_AMC_8_Problems-2.pdf  used on input line 94.
+(pdftex.def)             Requested size: 201.06067pt x 201.06067pt.
+\openout4 = `2011_AMC_8_Problems-3.asy'.
+
+<2011_AMC_8_Problems-3.pdf, id=30, 249.7842pt x 244.51953pt>
+File: 2011_AMC_8_Problems-3.pdf Graphic file (type pdf)
+<use 2011_AMC_8_Problems-3.pdf>
+Package pdftex.def Info: 2011_AMC_8_Problems-3.pdf  used on input line 109.
+(pdftex.def)             Requested size: 249.78357pt x 244.51892pt.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
+13.
+
 (C:\Users\DefaultUser\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 113.
 
-Overfull \hbox (17.23169pt too wide) in paragraph at lines 44--61
-\OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 asy\
-OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 im-port olympiad; im-port cse5; filldraw((0,0
-)--(5,0)--(5,5)--(0,5)--cycle,white,black); filldraw((1,1)--
- []
 
+[3 <./2011_AMC_8_Problems-2.pdf> <./2011_AMC_8_Problems-3.pdf>]
+\openout4 = `2011_AMC_8_Problems-4.asy'.
 
-Overfull \hbox (19.95395pt too wide) in paragraph at lines 44--61
-\OT1/cmr/m/n/10 (4,5)); draw((3,0)--(3,5)); draw((2,0)--(2,5)); draw((1,0)--(1,
-5)); draw((0,4)--(5,4)); draw((0,3)--(5,3)); draw((0,2)--
- []
+<2011_AMC_8_Problems-4.pdf, id=55, 301.125pt x 182.48978pt>
+File: 2011_AMC_8_Problems-4.pdf Graphic file (type pdf)
+<use 2011_AMC_8_Problems-4.pdf>
+Package pdftex.def Info: 2011_AMC_8_Problems-4.pdf  used on input line 159.
+(pdftex.def)             Requested size: 301.12425pt x 182.48933pt.
+\openout4 = `2011_AMC_8_Problems-5.asy'.
 
+<2011_AMC_8_Problems-5.pdf, id=56, 227.62239pt x 158.29538pt>
+File: 2011_AMC_8_Problems-5.pdf Graphic file (type pdf)
+<use 2011_AMC_8_Problems-5.pdf>
+Package pdftex.def Info: 2011_AMC_8_Problems-5.pdf  used on input line 181.
+(pdftex.def)             Requested size: 227.62183pt x 158.29498pt.
 
-Overfull \hbox (1.70387pt too wide) in paragraph at lines 84--96
-\OT1/cmr/m/n/10 pen dps=linewidth(0.7)+fontsize(10); de-fault-pen(dps); pen ds=
-black; real xmin=-0.42,xmax=14.59,ymin=-
- []
 
+[4 <./2011_AMC_8_Problems-4.pdf> <./2011_AMC_8_Problems-5.pdf>]
+\openout4 = `2011_AMC_8_Problems-6.asy'.
 
-Overfull \hbox (55.10577pt too wide) in paragraph at lines 84--96
-\OT1/cmr/m/n/10 4), I[]1=(8,-2), J[]1=(8,-6), K[]1=(8,-4); draw(C--H--(1,0)--A-
--cycle,linewidth(1.6)); draw(M--O--Q--R--cycle,linewidth(1.6));
- []
+<2011_AMC_8_Problems-6.pdf, id=85, 170.83824pt x 227.62039pt>
+File: 2011_AMC_8_Problems-6.pdf Graphic file (type pdf)
+<use 2011_AMC_8_Problems-6.pdf>
+Package pdftex.def Info: 2011_AMC_8_Problems-6.pdf  used on input line 218.
+(pdftex.def)             Requested size: 170.83781pt x 227.61983pt.
+\openout4 = `2011_AMC_8_Problems-7.asy'.
 
+<2011_AMC_8_Problems-7.pdf, id=86, 227.62239pt x 124.20905pt>
+File: 2011_AMC_8_Problems-7.pdf Graphic file (type pdf)
+<use 2011_AMC_8_Problems-7.pdf>
+Package pdftex.def Info: 2011_AMC_8_Problems-7.pdf  used on input line 251.
+(pdftex.def)             Requested size: 227.62183pt x 124.20872pt.
 
-Overfull \hbox (1.31485pt too wide) in paragraph at lines 84--96
-\OT1/cmr/m/n/10 Q,linewidth(1.6)); draw(Q--R,linewidth(1.6)); draw(R--M,linewid
-th(1.6)); draw(T--V); draw(V--U); draw(U--
- []
 
+[5 <./2011_AMC_8_Problems-6.pdf> <./2011_AMC_8_Problems-7.pdf>]
+\openout4 = `2011_AMC_8_Problems-8.asy'.
 
-Overfull \hbox (12.50008pt too wide) in paragraph at lines 84--96
-\OT1/cmr/m/n/10 C[]1); draw(G[]1--H[]1); draw(I[]1--J[]1); draw(G[]1--K[]1,line
-width(1.6)); draw(K[]1--J[]1,linewidth(1.6)); draw(J[]1--
- []
+<2011_AMC_8_Problems-8.pdf, id=108, 227.62039pt x 227.62039pt>
+File: 2011_AMC_8_Problems-8.pdf Graphic file (type pdf)
+<use 2011_AMC_8_Problems-8.pdf>
+Package pdftex.def Info: 2011_AMC_8_Problems-8.pdf  used on input line 273.
+(pdftex.def)             Requested size: 227.61983pt x 227.61983pt.
 
 
-Overfull \hbox (16.95395pt too wide) in paragraph at lines 84--96
-\OT1/cmr/m/n/10 dot(C,linewidth(1pt)+ds); dot(D,linewidth(1pt)+ds); dot((1,0),l
-inewidth(1pt)+ds); dot(F,linewidth(1pt)+ds);
- []
-
-
-Overfull \hbox (22.09285pt too wide) in paragraph at lines 84--96
-\OT1/cmr/m/n/10 dot(K,linewidth(1pt)+ds); dot(L,linewidth(1pt)+ds); dot(M,linew
-idth(1pt)+ds); dot((4,-6),linewidth(1pt)+ds);
- []
-
-
-Overfull \hbox (3.89835pt too wide) in paragraph at lines 84--96
-\OT1/cmr/m/n/10 dot(O,linewidth(1pt)+ds); dot(P,linewidth(1pt)+ds); dot(Q,linew
-idth(1pt)+ds); dot(R,linewidth(1pt)+ds);
- []
-
-
-Overfull \hbox (17.78728pt too wide) in paragraph at lines 84--96
-\OT1/cmr/m/n/10 dot((6,0),linewidth(1pt)+ds); dot(T,linewidth(1pt)+ds); dot(U,l
-inewidth(1pt)+ds); dot(V,linewidth(1pt)+ds);
- []
-
-
-Overfull \hbox (33.45955pt too wide) in paragraph at lines 84--96
-\OT1/cmr/m/n/10 dot((6,2),linewidth(1pt)+ds); dot(Z,linewidth(1pt)+ds); dot(A[]
-1,linewidth(1pt)+ds); dot(B[]1,linewidth(1pt)+ds);
- []
-
-
-Overfull \hbox (37.60399pt too wide) in paragraph at lines 84--96
-\OT1/cmr/m/n/10 dot(C[]1,linewidth(1pt)+ds); dot(D[]1,linewidth(1pt)+ds); dot(E
-[]1,linewidth(1pt)+ds); dot(F[]1,linewidth(1pt)+ds);
- []
-
-
-Overfull \hbox (33.50674pt too wide) in paragraph at lines 84--96
-\OT1/cmr/m/n/10 dot(G[]1,linewidth(1pt)+ds); dot(H[]1,linewidth(1pt)+ds); dot(I
-[]1,linewidth(1pt)+ds); dot(J[]1,linewidth(1pt)+ds);
- []
-
-
-Overfull \hbox (13.12819pt too wide) in paragraph at lines 84--96
-\OT1/cmr/m/n/10 dot(K[]1,linewidth(1pt)+ds); clip((xmin,ymin)--(xmin,ymax)--(xm
-ax,ymax)--(xmax,ymin)--cycle); \OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 end\OMS/cmsy
-/m/n/10 f\OT1/cmr/m/n/10 asy\OMS/cmsy/m/n/10 g
- []
-
-
-
-[2]
-Overfull \hbox (1.70387pt too wide) in paragraph at lines 102--111
-\OT1/cmr/m/n/10 pen dps=linewidth(0.7)+fontsize(10); de-fault-pen(dps); pen ds=
-black; real xmin=-3.58,xmax=10.19,ymin=-
- []
-
-
-Overfull \hbox (19.95395pt too wide) in paragraph at lines 102--111
-\OT1/cmr/m/n/10 (8,3)); draw((0,4)--(8,4)); draw((0,5)--(8,5)); draw((0,6)--(8,
-6)); draw((0,7)--(8,7)); draw((1,0)--(1,8)); draw((2,0)--
- []
-
-
-Overfull \hbox (49.36824pt too wide) in paragraph at lines 102--111
-\OT1/cmr/m/n/10 (2,8)); draw((3,0)--(3,8)); draw((4,0)--(4,8)); draw((5,0)--(5,
-8)); draw((6,0)--(6,8)); draw((7,0)--(7,8)); label("\TS1/cmr/m/n/10 $\OT1/cmr/m
-/n/10 1\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(0.95,-
- []
-
-
-Overfull \hbox (20.61333pt too wide) in paragraph at lines 102--111
-\OT1/cmr/m/n/10 0.24),SE*lsf); label("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 2\TS1/cm
-r/m/n/10 $\OT1/cmr/m/n/10 ",(1.92,-0.26),SE*lsf); label("\TS1/cmr/m/n/10 $\OT1/
-cmr/m/n/10 3\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(2.92,-0.31),SE*lsf); label("\TS
-1/cmr/m/n/10 $\OT1/cmr/m/n/10 4\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(3.93,-0.26),
-SE*lsf);
- []
-
-
-Overfull \hbox (21.30528pt too wide) in paragraph at lines 102--111
-\OT1/cmr/m/n/10 label("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 5\TS1/cmr/m/n/10 $\OT1/
-cmr/m/n/10 ",(4.92,-0.27),SE*lsf); label("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 6\TS
-1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(5.95,-0.29),SE*lsf); label("\TS1/cmr/m/n/10 $\
-OT1/cmr/m/n/10 7\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(6.94,-0.27),SE*lsf); label(
-"\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 5\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(-
- []
-
-
-Overfull \hbox (56.16899pt too wide) in paragraph at lines 102--111
-\OT1/cmr/m/n/10 0.49,1.22),SE*lsf); label("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 10\
-TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(-0.59,2.23),SE*lsf); label("\TS1/cmr/m/n/10 
-$\OT1/cmr/m/n/10 15\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(-0.61,3.22),SE*lsf); lab
-el("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 20\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(-0.6
-1,4.23),SE*lsf);
- []
-
-
-Overfull \hbox (22.44664pt too wide) in paragraph at lines 102--111
-\OT1/cmr/m/n/10 label("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 25\TS1/cmr/m/n/10 $\OT1
-/cmr/m/n/10 ",(-0.59,5.22),SE*lsf); label("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 30\
-TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(-0.59,6.2),SE*lsf); label("\TS1/cmr/m/n/10 $
-\OT1/cmr/m/n/10 35\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(-0.56,7.18),SE*lsf); draw
-((0,0)--
- []
-
-
-Overfull \hbox (60.70407pt too wide) in paragraph at lines 102--111
-\OT1/cmr/m/n/10 (1,1),linewidth(1.6)); draw((1,1)--(2,3),linewidth(1.6)); draw(
-(2,3)--(4,4),linewidth(1.6)); draw((4,4)--(7,7),linewidth(1.6));
- []
-
-
-Overfull \hbox (16.03732pt too wide) in paragraph at lines 102--111
-\OT1/cmr/m/n/10 label("HOURS",(3.41,-0.85),SE*lsf); label("M",(-1.39,5.32),SE*l
-sf); label("I",(-1.34,4.93),SE*lsf); label("L",(-
- []
-
-
-Overfull \hbox (19.50967pt too wide) in paragraph at lines 102--111
-\OT1/cmr/m/n/10 1.36,4.51),SE*lsf); label("E",(-1.37,4.11),SE*lsf); label("S",(
--1.39,3.7),SE*lsf); clip((xmin,ymin)--(xmin,ymax)--
- []
-
-
-Overfull \hbox (60.88626pt too wide) in paragraph at lines 117--161
-\OT1/cmr/m/n/10 bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 20\TS1/cmr/m/n/10 $\OT1/c
-mr/m/n/10 ",(0,20),W); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 40\TS1/cmr/m/n/
-10 $\OT1/cmr/m/n/10 ",(0,40),W); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 60\TS
-1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(0,60),W); la-bel("\TS1/cmr/m/n/10 $\OT1/cmr/m/
-n/10 80\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(0,80),W); la-bel("\TS1/cmr/m/n/10 $\
-OT1/cmr/m/n/10 100\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 ",(0,100),W);
- []
-
-
-Overfull \hbox (43.92621pt too wide) in paragraph at lines 117--161
-\OT1/cmr/m/n/10 (40,0)--cycle,TuesD=(60,0)--(60,90)--(70,90)--(70,0)--cycle,Tue
-sL=(70,0)--(70,80)--(80,80)--(80,0)--cycle,WedD=(100,0)--
- []
-
-
-Overfull \hbox (20.09293pt too wide) in paragraph at lines 117--161
-\OT1/cmr/m/n/10 (100,100)--(110,100)--(110,0)--cycle,WedL=(110,0)--(110,120)--(
-120,120)--(120,0)--cycle,ThurD=(140,0)--(140,80)--
- []
-
-
-Overfull \hbox (3.03734pt too wide) in paragraph at lines 117--161
-\OT1/cmr/m/n/10 (150,80)--(150,0)--cycle,ThurL=(150,0)--(150,110)--(160,110)--(
-160,0)--cycle,FriD=(180,0)--(180,70)--(190,70)--
- []
-
-
-Overfull \hbox (25.03728pt too wide) in paragraph at lines 117--161
-\OT1/cmr/m/n/10 (190,0)--cycle,FriL=(190,0)--(190,50)--(200,50)--(200,0)--cycle
-; fill(MonD,black); fill(MonL,grey); fill(TuesD,black);
- []
-
-
-Overfull \hbox (41.31496pt too wide) in paragraph at lines 117--161
-\OT1/cmr/m/n/10 fill(TuesL,grey); fill(WedD,black); fill(WedL,grey); fill(ThurD
-,black); fill(ThurL,grey); fill(FriD,black); fill(FriL,grey);
- []
-
-
-Overfull \hbox (7.81485pt too wide) in paragraph at lines 117--161
-\OT1/cmr/m/n/10 draw(MonD^^MonL^^TuesD^^TuesL^^WedD^^WedL^^ThurD^^ThurL^^FriD^^
-FriL); label("M",(30,-5),S);
- []
-
-
-Overfull \hbox (27.14842pt too wide) in paragraph at lines 117--161
-\OT1/cmr/m/n/10 label("Tu",(70,-5),S); label("W",(110,-5),S); label("Th",(150,-
-5),S); label("F",(190,-5),S); label("M",(-25,85),W);
- []
-
-
-Overfull \hbox (32.98175pt too wide) in paragraph at lines 117--161
-\OT1/cmr/m/n/10 label("I",(-27,75),W); label("N",(-25,65),W); label("U",(-25,55
-),W); label("T",(-25,45),W); label("E",(-25,35),W);
- []
-
-
-
-[3]
-Overfull \hbox (49.91693pt too wide) in paragraph at lines 167--183
-[]\OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 ce
-nter\OMS/cmsy/m/n/10 g nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/1
-0 asy\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 im-port olympiad; im-port cse5; filldra
-w((0,0)--(25,0)--(25,15)--(0,15)--cycle,white,black);
- []
-
-
-Overfull \hbox (13.57423pt too wide) in paragraph at lines 225--253
-[]\OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 ce
-nter\OMS/cmsy/m/n/10 g nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/1
-0 asy\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 im-port olympiad; im-port cse5; pair A,
-B,C,D; A=(3,20); B=(35,20); C=(47,0);
- []
-
-
-Overfull \hbox (0.95392pt too wide) in paragraph at lines 225--253
-\OT1/cmr/m/n/10 bel("B",B,N); la-bel("C",C,S); la-bel("D",D,S); draw((19,20)--(
-19,0)); dot((19,20)); dot((19,0)); draw((19,3)--
- []
-
-
-Overfull \hbox (41.32448pt too wide) in paragraph at lines 225--253
-\OT1/cmr/m/n/10 (22,3)--(22,0)); la-bel("12",(21,10),E); la-bel("50",(19,22),N)
-; la-bel("15",(1,10),W); la-bel("20",(41,12),E); \OMS/cmsy/m/n/10 nfg\OT1/cmr/m
-/n/10 end\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 asy\OMS/cmsy/m/n/10 g
- []
-
-
-
-[4]
-Overfull \hbox (37.44463pt too wide) in paragraph at lines 266--275
-[]\OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 ce
-nter\OMS/cmsy/m/n/10 g nfg\OT1/cmr/m/n/10 begin\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/1
-0 asy\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 im-port olympiad; im-port cse5; filldra
-w((-1,-1)--(-1,1)--(1,1)--(1,-1)--cycle,gray,black);
- []
-
-
-Overfull \hbox (10.08347pt too wide) in paragraph at lines 266--275
-\OT1/cmr/m/n/10 fill-draw(Circle((0,0),1), medi-umgray,black); filldraw((-1,0)-
--(0,1)--(1,0)--(0,-1)--cycle,white,black); \OMS/cmsy/m/n/10 nfg\OT1/cmr/m/n/10 
-end\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 asy\OMS/cmsy/m/n/10 g
- []
-
-
-
-[5] (2011_AMC_8_Problems.aux)
+[6 <./2011_AMC_8_Problems-8.pdf>] (2011_AMC_8_Problems.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
@@ -1205,13 +1007,13 @@ Package rerunfilecheck Info: File `2011_AMC_8_Problems.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25376 strings out of 473536
- 476777 string characters out of 5712052
- 897241 words of memory out of 5000000
- 48170 multiletter control sequences out of 15000+600000
+ 25450 strings out of 473536
+ 479261 string characters out of 5712052
+ 889241 words of memory out of 5000000
+ 48234 multiletter control sequences out of 15000+600000
  567347 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,107p,1206b,592s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,12n,107p,1164b,610s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\DefaultUser\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm1000.pk><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmbx10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTe
@@ -1220,12 +1022,13 @@ X/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DefaultUser/AppData/Local
 r/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Us
 ers/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 r10.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmr17.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/DefaultUser/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on 2011_AMC_8_Problems.pdf (5 pages, 121014 bytes).
+amsfonts/cm/cmr12.pfb><C:/Users/DefaultUser/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/DefaultUser/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/DefaultUser/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on 2011_AMC_8_Problems.pdf (6 pages, 150798 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 163 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
