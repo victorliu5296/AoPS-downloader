@@ -10,8 +10,32 @@ import asyncio
 import aiohttp
 import hashlib
 
+# Constants
 CACHE_DIR = "wiki_cache"
 os.makedirs(CACHE_DIR, exist_ok=True)
+
+ASY_MODULES = {
+    "olympiad": "https://math.berkeley.edu/~monks/images/olympiad.asy",
+    "cse5": "https://raw.githubusercontent.com/vEnhance/dotfiles/master/asy/cse5.asy"
+}
+
+CONTEST_CONFIGS = {
+    "AMC_12": {
+        "variants": ["A", "B"],
+        "title_templates": [
+            {"template": "{year}_AMC_12{variant}_Problems", "years": "all"},
+            {"template": "{year}_Fall_AMC_12{variant}_Problems", "years": [2021]}
+        ],
+        "display_name": "AMC 12",
+        "output_subdir": "AMC_12"
+    },
+    "AIME": {
+        "variants": ["I", "II"],
+        "title_templates": [{"template": "{year}_AIME_{variant}_Problems", "years": "all"}],
+        "display_name": "AIME",
+        "output_subdir": "AIME"
+    }
+}
 
 def calculate_file_hash(filepath):
     """Calculate MD5 hash of the file content."""
@@ -84,6 +108,19 @@ def move_pdf_output(temp_dir_abs, output_dir, tex_filename_base):
     temp_pdf_filepath = os.path.join(temp_dir_abs, pdf_filename)
     output_pdf_filepath = os.path.join(output_dir, pdf_filename)
 
+    if not os.path.exists(temp_pdf_filepath):
+        print(f"Error: Temp PDF file {temp_pdf_filepath} not found.")
+        return False
+
+    # Check if output PDF exists and is identical to temp PDF
+    if os.path.exists(output_pdf_filepath):
+        # Compare hashes
+        temp_hash = calculate_file_hash(temp_pdf_filepath)
+        output_hash = calculate_file_hash(output_pdf_filepath)
+        if temp_hash == output_hash:
+            print(f"Skipping move for {pdf_filename}: PDF content is identical.")
+            return True  # Already up to date
+
     try:
         # Remove existing PDF if it exists
         if os.path.exists(output_pdf_filepath):
@@ -146,22 +183,15 @@ def get_cache_filename(title):
     safe_title = title.replace(" ", "_").replace("/", "_")
     return os.path.join(CACHE_DIR, f"{safe_title}.html")
 
-async def async_download_wiki_page(session, year, contest_type, contest_variant=None, is_fall=False, use_cache=True):
-    """Asynchronously downloads the AoPS Wiki page for a given contest, using cache."""
-    base_url = "https://artofproblemsolving.com/wiki/index.php?title="
-    if is_fall:
-        title = f"{year}_Fall_AMC_12{contest_variant}_Problems"
-    else:
-        title = f"{year}_AMC_12{contest_variant}_Problems" if 'AMC12' in contest_type else f"{year}_AIME_{contest_variant}_Problems"
-
+async def async_download_wiki_page(session, title, use_cache=True):
+    """Asynchronously downloads the AoPS Wiki page for a given title, using cache."""
     cache_filename = get_cache_filename(title)
-
     if use_cache and os.path.exists(cache_filename):
         print(f"Using cached wiki page for: {title}")
         with open(cache_filename, "r", encoding="utf-8") as f:
             return title, f.read()
 
-    url = base_url + title + "&action=edit"
+    url = f"https://artofproblemsolving.com/wiki/index.php?title={title}&action=edit"
     print(f"Fetching: {title} from web")
     try:
         async with session.get(url) as response:
@@ -236,7 +266,7 @@ def extract_problems(html_content):
 
     return cleaned_problems
 
-def generate_latex_header(contest_type, year_range_str, doc_type):
+def generate_latex_header(contest_display_name, year_range_str, doc_type):
     """Generates the LaTeX header content (preamble only)."""
     return r"""
 \documentclass{article}
@@ -261,13 +291,13 @@ def generate_latex_header(contest_type, year_range_str, doc_type):
   size(8cm);
 \end{asydef}
 \pagestyle{fancy}
-\fancyhead[L]{\textbf{""" + contest_type + r""" """ + doc_type.capitalize() + r"""}}
+\fancyhead[L]{\textbf{""" + contest_display_name + r""" """ + doc_type.capitalize() + r"""}}
 \fancyhead[R]{\textbf{""" + year_range_str + r"""}}
 \fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
 
-\title{""" + contest_type + r""" """ + doc_type.capitalize() + r""" \\ """ + year_range_str + r"""}
+\title{""" + contest_display_name + r""" """ + doc_type.capitalize() + r""" \\ """ + year_range_str + r"""}
 \date{}
 """
 
@@ -320,9 +350,9 @@ def write_latex_to_file(tex_filepath, latex_content):
     with open(tex_filepath, "w", encoding="utf-8") as f:
         f.write(latex_content)
 
-def create_latex_document(contest_type, problems_by_title, year_range_str, output_filename_prefix, output_folder, doc_type, is_combined=False):
+def create_latex_document(contest_display_name, problems_by_title, year_range_str, output_filename_prefix, output_folder, doc_type, is_combined=False):
     """Creates LaTeX document using original wiki titles for sections."""
-    latex_header = generate_latex_header(contest_type, year_range_str, doc_type)
+    latex_header = generate_latex_header(contest_display_name, year_range_str, doc_type)
     latex_content_body = process_problems(problems_by_title, is_combined)
     latex_footer = generate_latex_footer()
 
@@ -340,7 +370,7 @@ def create_latex_document(contest_type, problems_by_title, year_range_str, outpu
     else:
         folder = "Individual"
     
-    base_output_dir = os.path.join(output_folder, contest_type, doc_type.capitalize(), folder)
+    base_output_dir = os.path.join(output_folder, contest_display_name, doc_type.capitalize(), folder)
 
     temp_dir = os.path.join(base_output_dir, "temp", output_filename_prefix)
     os.makedirs(temp_dir, exist_ok=True)
@@ -437,12 +467,7 @@ def replace_over_with_frac(content):
 
 def install_asymptote_modules(asy_modules_dir):
     """Checks for and installs required Asymptote modules."""
-    modules_to_check = {
-        "olympiad": "https://math.berkeley.edu/~monks/images/olympiad.asy",
-        "cse5": "https://raw.githubusercontent.com/vEnhance/dotfiles/master/asy/cse5.asy"
-    }
-
-    for module_name, module_url in modules_to_check.items():
+    for module_name, module_url in ASY_MODULES.items():
         module_filepath = os.path.join(asy_modules_dir, f"{module_name}.asy")
         if not os.path.exists(module_filepath):
             print(f"\nNOTE: You are missing the {module_name} package for Asymptote.")
@@ -507,17 +532,17 @@ def compile_latex_to_pdf(tex_filepath, output_folder="output"):
 
 
 async def main():
+    # Input handling
     start_year = None
     end_year = None
+    valid_contest_types = list(CONTEST_CONFIGS.keys())
     contest_type = None
+    
+    while contest_type not in valid_contest_types:
+        contest_type = input(f"Enter contest type ({', '.join(valid_contest_types)}): ").strip().upper()
+    contest_config = CONTEST_CONFIGS[contest_type]
 
-    contest_type = None
-    while contest_type not in ["AMC12", "AIME"]:
-        contest_type = input("Enter contest type (AMC12 or AIME): ").strip().upper()
-        if contest_type not in ["AMC12", "AIME"]:
-            print("Invalid contest type. Please enter 'AMC12' or 'AIME'.")
-    # Directly use contest_type in the following logic
-
+    # Year input handling remains the same
     while start_year is None:
         try:
             start_year = int(input("Enter starting year: "))
@@ -536,85 +561,71 @@ async def main():
         except ValueError:
             print("Invalid year. Please enter a number.")
 
+    # Directory setup using config
     output_folder = "output"
+    base_output_dir = os.path.join(output_folder, contest_config["output_subdir"], "Problems")
+    os.makedirs(os.path.join(base_output_dir, "Individual"), exist_ok=True)
+    os.makedirs(os.path.join(base_output_dir, "Combined"), exist_ok=True)
 
-    os.makedirs(output_folder, exist_ok=True)
-    # Create directories for Individual and Combined outputs
-    if contest_type == "AMC12":
-        os.makedirs(os.path.join(output_folder, "AMC12", "Problems", "Individual"), exist_ok=True)
-        os.makedirs(os.path.join(output_folder, "AMC12", "Problems", "Combined"), exist_ok=True)
-    elif contest_type == "AIME":
-        os.makedirs(os.path.join(output_folder, "AIME", "Problems", "Individual"), exist_ok=True)
-        os.makedirs(os.path.join(output_folder, "AIME", "Problems", "Combined"), exist_ok=True)
-
+    # Module installation
     asy_modules_dir = os.path.join(output_folder, "asy_modules")
     os.makedirs(asy_modules_dir, exist_ok=True)
-    os.makedirs(os.path.join(output_folder, "AMC12", "Problems"), exist_ok=True)
-    os.makedirs(os.path.join(output_folder, "AIME", "Problems"), exist_ok=True)
-    asy_modules_dir = os.path.join(output_folder, "asy_modules")
-    os.makedirs(asy_modules_dir, exist_ok=True)
-
     if not install_asymptote_modules(asy_modules_dir):
         print("Module installation failed. Exiting.")
         exit()
 
     problems_by_title = {}
-    if contest_type == "AMC12":
-        variants = ['A', 'B']
-    elif contest_type == "AIME":
-        variants = ['I', 'II']
-
     pdf_filepaths = []
 
     async with aiohttp.ClientSession() as session:
         start_time_total = time.time()
         download_tasks = []
+
+        # Generate download tasks using config
         for year in range(start_year, end_year + 1):
-            if contest_type == "AMC12":
-                for variant in variants:
-                    download_tasks.append(
-                        async_download_wiki_page(session, year, contest_type, variant)
-                    )
-                if year == 2021 and start_year <= 2021 <= end_year:
-                    for variant in variants:
-                        download_tasks.append(
-                            async_download_wiki_page(session, year, contest_type, variant, is_fall=True)
-                        )
-            elif contest_type == "AIME":
-                for variant in variants:
-                    download_tasks.append(
-                        async_download_wiki_page(session, year, contest_type, variant)
-                    )
+            for variant in contest_config["variants"]:
+                for template in contest_config["title_templates"]:
+                    # Check if this template applies to the current year
+                    if template["years"] == "all" or year in template["years"]:
+                        title = template["template"].format(year=year, variant=variant)
+                        download_tasks.append(async_download_wiki_page(session, title))
 
         download_results = await asyncio.gather(*download_tasks)
 
         for title, html_content in download_results:
-            if html_content:
-                problems = extract_problems(html_content)
-                problems_by_title[title] = problems  # Store under original title
+            if not html_content:
+                continue
 
-                # Create individual PDF for this title
-                tex_filepath = create_latex_document(
-                    contest_type,
-                    {title: problems},  # Use title string as key
-                    str(year),
-                    title,
-                    output_folder,
-                    "problems",
-                    is_combined=False
-                )
-                start_time_compile = time.time()
-                pdf_filepath = compile_latex_to_pdf(tex_filepath, output_folder=output_folder)
-                compile_time = time.time() - start_time_compile
-                print(f"Compilation time for {title}: {compile_time:.2f} seconds")
+            problems = extract_problems(html_content)
+            problems_by_title[title] = problems
 
-                if pdf_filepath:
-                    pdf_filepaths.append(pdf_filepath)
+            # Extract year from title (first part of the title string)
+            title_year = title.split('_')[0]
+            
+            # Create individual PDF
+            tex_filepath = create_latex_document(
+                contest_config["display_name"],
+                {title: problems},
+                title_year,
+                title,
+                output_folder,
+                "problems",
+                is_combined=False
+            )
+            
+            start_time_compile = time.time()
+            pdf_filepath = compile_latex_to_pdf(tex_filepath, output_folder=output_folder)
+            compile_time = time.time() - start_time_compile
+            print(f"Compilation time for {title}: {compile_time:.2f} seconds")
+            
+            if pdf_filepath:
+                pdf_filepaths.append(pdf_filepath)
 
+        # Create combined PDF
         year_range_combined = f"{start_year}-{end_year}"
-        combined_filename = f"{contest_type}_Combined_Problems_{start_year}_to_{end_year}"
+        combined_filename = f"{contest_type}_Combined_Problems_{year_range_combined}"
         tex_filepath_combined = create_latex_document(
-            contest_type,
+            contest_config["display_name"],
             problems_by_title,
             year_range_combined,
             combined_filename,
@@ -622,33 +633,36 @@ async def main():
             "problems",
             is_combined=True
         )
+        
         start_time_compile_combined = time.time()
         pdf_filepath_combined = compile_latex_to_pdf(tex_filepath_combined, output_folder=output_folder)
         compile_time_combined = time.time() - start_time_compile_combined
         print(f"Compilation time for Combined {contest_type}: {compile_time_combined:.2f} seconds")
+        
         if pdf_filepath_combined:
             pdf_filepaths.append(pdf_filepath_combined)
 
+        # Final output
         end_time_total = time.time()
         total_time = end_time_total - start_time_total
         print(f"\nTotal script execution time: {total_time:.2f} seconds")
+        print(f"\nPDF generation complete. PDFs are in the 'output' folder.")
+        print("\n---\nIf LaTeX compilation failed, check the log files in temp directories for detailed LaTeX error messages.\n---")
 
-    print(f"\nPDF generation complete. PDFs are in the 'output' folder.")
-    print(f"\n---\nIf LaTeX compilation failed, check the log files in temp directories for detailed LaTeX error messages.\n---")
-
-    delete_temp_files_prompt = input("\nDo you want to delete temporary files (log, aux, etc.)? ([y]es/[n]o): ").lower()
-    if delete_temp_files_prompt in ['yes', 'y']:
-        for pdf_filepath in pdf_filepaths:
-            output_dir = os.path.dirname(pdf_filepath)
-            temp_dir = os.path.join(output_dir, "temp")
-            if os.path.exists(temp_dir):
-                try:
-                    shutil.rmtree(temp_dir)
-                    print(f"Deleted temporary directory: {temp_dir}")
-                except Exception as e:
-                    print(f"Error deleting temporary directory {temp_dir}: {e}")
-    else:
-        print("\nTemporary files are kept in 'temp' subdirectories within each output folder.")
+        # Cleanup
+        delete_temp_files_prompt = input("\nDelete temporary files? ([y]es/[n]o): ").lower()
+        if delete_temp_files_prompt in ['yes', 'y']:
+            for pdf_filepath in pdf_filepaths:
+                output_dir = os.path.dirname(pdf_filepath)
+                temp_dir = os.path.join(output_dir, "temp")
+                if os.path.exists(temp_dir):
+                    try:
+                        shutil.rmtree(temp_dir)
+                        print(f"Deleted temporary directory: {temp_dir}")
+                    except Exception as e:
+                        print(f"Error deleting {temp_dir}: {e}")
+        else:
+            print("\nTemporary files are kept in 'temp' subdirectories.")
 
 
 if __name__ == "__main__":
