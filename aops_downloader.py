@@ -175,7 +175,7 @@ def compile_latex_to_pdf(tex_filepath, output_folder="output"):
         return None
 
 def move_pdf_output(temp_dir_abs, output_dir, tex_filename_base):
-    """Move the compiled PDF to the output directory, overwriting if it exists."""
+    """Move the compiled PDF to the output directory ONLY if compilation occurred"""
     pdf_filename = tex_filename_base + ".pdf"
     temp_pdf_filepath = os.path.join(temp_dir_abs, pdf_filename)
     output_pdf_filepath = os.path.join(output_dir, pdf_filename)
@@ -184,17 +184,8 @@ def move_pdf_output(temp_dir_abs, output_dir, tex_filename_base):
         print(f"Error: Temp PDF file {temp_pdf_filepath} not found.")
         return False
 
-    # Check if output PDF exists and is identical to temp PDF
-    if os.path.exists(output_pdf_filepath):
-        # Compare hashes
-        temp_hash = calculate_file_hash(temp_pdf_filepath)
-        output_hash = calculate_file_hash(output_pdf_filepath)
-        if temp_hash == output_hash:
-            print(f"Skipping move for {pdf_filename}: PDF content is identical.")
-            return True  # Already up to date
-
     try:
-        # Remove existing PDF if it exists
+        # Always replace existing PDF since we only get here if compilation occurred
         if os.path.exists(output_pdf_filepath):
             os.remove(output_pdf_filepath)
             print(f"Removed existing PDF: {output_pdf_filepath}")
@@ -570,9 +561,6 @@ async def main():
 
     # Directory setup using config
     output_folder = "output"
-    base_output_dir = os.path.join(output_folder, contest_config["output_subdir"], "Problems")
-    os.makedirs(os.path.join(base_output_dir, "Individual"), exist_ok=True)
-    os.makedirs(os.path.join(base_output_dir, "Combined"), exist_ok=True)
 
     # Module installation
     asy_modules_dir = os.path.join(output_folder, "asy_modules")
