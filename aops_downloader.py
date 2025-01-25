@@ -102,38 +102,6 @@ def run_asymptote_compilation(temp_dir_abs, asy_modules_dir):
             print(f"Successfully compiled {asy_file}.")
     return True
 
-def move_pdf_output(temp_dir_abs, output_dir, tex_filename_base):
-    """Move the compiled PDF to the output directory, overwriting if it exists."""
-    pdf_filename = tex_filename_base + ".pdf"
-    temp_pdf_filepath = os.path.join(temp_dir_abs, pdf_filename)
-    output_pdf_filepath = os.path.join(output_dir, pdf_filename)
-
-    if not os.path.exists(temp_pdf_filepath):
-        print(f"Error: Temp PDF file {temp_pdf_filepath} not found.")
-        return False
-
-    # Check if output PDF exists and is identical to temp PDF
-    if os.path.exists(output_pdf_filepath):
-        # Compare hashes
-        temp_hash = calculate_file_hash(temp_pdf_filepath)
-        output_hash = calculate_file_hash(output_pdf_filepath)
-        if temp_hash == output_hash:
-            print(f"Skipping move for {pdf_filename}: PDF content is identical.")
-            return True  # Already up to date
-
-    try:
-        # Remove existing PDF if it exists
-        if os.path.exists(output_pdf_filepath):
-            os.remove(output_pdf_filepath)
-            print(f"Removed existing PDF: {output_pdf_filepath}")
-            
-        shutil.move(temp_pdf_filepath, output_pdf_filepath)
-        print(f"Moved PDF to: {output_pdf_filepath}")
-        return True
-    except Exception as e:
-        print(f"Error moving PDF file: {e}")
-        return False
-
 def should_compile_tex(tex_filepath):
     """Determine if a LaTeX file should be compiled based on its hash."""
     pdf_filepath = os.path.splitext(tex_filepath)[0] + ".pdf"
@@ -171,6 +139,72 @@ def run_latex_compilation(tex_filepath, cwd, pass_num):
     else:
         print(f"LaTeX pass {pass_num} for {tex_filename_base}.tex completed.")
         return True
+
+def compile_latex_to_pdf(tex_filepath, output_folder="output"):
+    """Compile LaTeX to PDF with Asymptote in a 'temp' subdirectory and move PDF to the base folder."""
+    tex_filename_base = os.path.splitext(os.path.basename(tex_filepath))[0]
+    temp_dir = os.path.dirname(tex_filepath)
+    output_dir = os.path.dirname(os.path.dirname(temp_dir))  # Move up from temp/ to base output directory
+    temp_dir_abs = os.path.abspath(temp_dir)
+    asy_modules_dir = os.path.join(output_folder, "asy_modules")
+    os.makedirs(asy_modules_dir, exist_ok=True)
+
+    try:
+        cwd = temp_dir_abs
+
+        if not run_latex_compilation(tex_filepath, cwd, 1):
+            return None
+
+        if not install_asymptote_modules(asy_modules_dir):
+            return None
+
+        if not run_asymptote_compilation(temp_dir_abs, asy_modules_dir):
+            return None
+
+        if not run_latex_compilation(tex_filepath, cwd, 2):
+            return None
+
+        if not move_pdf_output(temp_dir_abs, output_dir, tex_filename_base):
+            return None
+
+        print(f"Successfully compiled {tex_filename_base}.tex to PDF.")
+        return os.path.join(output_dir, tex_filename_base + ".pdf")
+
+    except Exception as e:
+        print(f"\nAn unexpected error occurred during compilation: {e}")
+        return None
+
+def move_pdf_output(temp_dir_abs, output_dir, tex_filename_base):
+    """Move the compiled PDF to the output directory, overwriting if it exists."""
+    pdf_filename = tex_filename_base + ".pdf"
+    temp_pdf_filepath = os.path.join(temp_dir_abs, pdf_filename)
+    output_pdf_filepath = os.path.join(output_dir, pdf_filename)
+
+    if not os.path.exists(temp_pdf_filepath):
+        print(f"Error: Temp PDF file {temp_pdf_filepath} not found.")
+        return False
+
+    # Check if output PDF exists and is identical to temp PDF
+    if os.path.exists(output_pdf_filepath):
+        # Compare hashes
+        temp_hash = calculate_file_hash(temp_pdf_filepath)
+        output_hash = calculate_file_hash(output_pdf_filepath)
+        if temp_hash == output_hash:
+            print(f"Skipping move for {pdf_filename}: PDF content is identical.")
+            return True  # Already up to date
+
+    try:
+        # Remove existing PDF if it exists
+        if os.path.exists(output_pdf_filepath):
+            os.remove(output_pdf_filepath)
+            print(f"Removed existing PDF: {output_pdf_filepath}")
+            
+        shutil.move(temp_pdf_filepath, output_pdf_filepath)
+        print(f"Moved PDF to: {output_pdf_filepath}")
+        return True
+    except Exception as e:
+        print(f"Error moving PDF file: {e}")
+        return False
 
 def remove_metadata(latex_content):
     """Removes metadata tags like [[...]] and 'Solution:' or 'Problem:' from LaTeX content."""
@@ -495,41 +529,6 @@ def install_asymptote_modules(asy_modules_dir):
         else:
             pass
     return True
-
-def compile_latex_to_pdf(tex_filepath, output_folder="output"):
-    """Compile LaTeX to PDF with Asymptote in a 'temp' subdirectory and move PDF to the base folder."""
-    tex_filename_base = os.path.splitext(os.path.basename(tex_filepath))[0]
-    temp_dir = os.path.dirname(tex_filepath)
-    output_dir = os.path.dirname(os.path.dirname(temp_dir))  # Move up from temp/ to base output directory
-    temp_dir_abs = os.path.abspath(temp_dir)
-    asy_modules_dir = os.path.join(output_folder, "asy_modules")
-    os.makedirs(asy_modules_dir, exist_ok=True)
-
-    try:
-        cwd = temp_dir_abs
-
-        if not run_latex_compilation(tex_filepath, cwd, 1):
-            return None
-
-        if not install_asymptote_modules(asy_modules_dir):
-            return None
-
-        if not run_asymptote_compilation(temp_dir_abs, asy_modules_dir):
-            return None
-
-        if not run_latex_compilation(tex_filepath, cwd, 2):
-            return None
-
-        if not move_pdf_output(temp_dir_abs, output_dir, tex_filename_base):
-            return None
-
-        print(f"Successfully compiled {tex_filename_base}.tex to PDF.")
-        return os.path.join(output_dir, tex_filename_base + ".pdf")
-
-    except Exception as e:
-        print(f"\nAn unexpected error occurred during compilation: {e}")
-        return None
-
 
 async def main():
     # Input handling
